@@ -1,0 +1,105 @@
+{
+  "exportedAt": "2026-10-09T16:27:51.503Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019dbfbc-33f9-7de7-afcc-71a83c1f7b47",
+  "archivedAt": "2026-09-30 20:14:23.829+00",
+  "evaluation": {
+    "id": "019dbfbc-33f9-7de7-afcc-71a83c1f7b47",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "CK2 good custom dynasty name",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019dbfbc-8087-7a78-8e87-be554b3939e5"
+    ],
+    "archivedAt": "2026-09-30 20:14:23.829+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-04-24 13:45:05.707+00",
+    "updatedAt": "2026-04-24 13:45:06.762795+00",
+    "messages": [
+      {
+        "id": "019dbfbc-8085-7901-97c7-f17d5763c304",
+        "evaluationSessionId": "019dbfbc-33f9-7de7-afcc-71a83c1f7b47",
+        "evaluationId": "019dbfbc-adc2-7de4-8e9f-2c878d007163",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "CK2 good custom dynasty name",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-04-24T13:45:06.757945+00:00",
+        "updatedAt": "2026-04-24T13:45:06.757945+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019dbfbc-8087-7a78-8e87-be554b3939e5",
+        "evaluationSessionId": "019dbfbc-33f9-7de7-afcc-71a83c1f7b47",
+        "evaluationId": "019dbfbc-adc2-7de4-8e9f-2c878d007163",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019dbfbc-8085-7901-97c7-f17d5763c304"
+        ],
+        "content": "In *Crusader Kings 2*, a good dynasty name usually depends on the culture you are playing and the \"vibe\" of your campaign.\n\nHere is a breakdown of custom dynasty names categorized by region, style, and meaning:\n\n### 1. Central & Western Europe (Frankish, German, English)\nThese often use the prefix **\"de\"** (French), **\"von\"** (German), or **\"of\"** (English) followed by a landmark or a fictional estate.\n\n*   **De Rochefort** (Of the Strong Rock)\n*   **Von Adlerstein** (Of Eagle Stone)\n*   **Of Ashbourne** (Great for a Saxon/English start)\n*   **De Martel** (The Hammer – great for a martial-focused lineage)\n*   **Von Hochberg** (High Mountain)\n*   **Beaufort** (Beautiful Fortress)\n*   **Iron-Side** (Classic English/Saxon epithet)\n\n### 2. Northern Europe (Norse/Scandinavian)\nNorse names usually end in **-ing** (descendant of) or utilize powerful animal/nature imagery.\n\n*   **Skallagrim** (Bald Grimace)\n*   **Wulfung** (Sons of the Wolf)\n*   **Ormr** (The Serpent)\n*   **Storm-Eye**\n*   **Hrolfsson** (If starting as a son of a Hrolf)\n*   **Iron-Oak**\n*   **Bear-Claw** (Bjorn-Klo)\n\n### 3. Byzantine & Greek (Eastern Roman)\nByzantine names often sound prestigious and end in **-os** or **-as**.\n\n*   **Argyros** (The Silvery)\n*   **Chrysos** (The Golden)\n*   **Kallergis** (Beautiful Worker)\n*   **Draconas** (The Dragon)\n*   **Asteris** (The Star)\n*   **Strategos** (The General)\n\n### 4. Mediterranean (Italian, Spanish, Occitan)\nUse **\"di\"** (Italian) or **\"de\"** (Spanish).\n\n*   **Di Valenti** (The Brave)\n*   **De la Vega** (Of the Meadow)\n*   **Di Fierro** (Of Iron)\n*   **De Calatrava**\n*   **Di Sangue** (Of Blood - a bit edgy, but fits a ruthless playthrough)\n\n### 5. Middle Eastern & African (Arabic/Berber)\nMost use the prefix **Banu** (Sons of) or **al-**.\n\n*   **Banu Harb** (Sons of War)\n*   **Al-Saif** (The Sword)\n*   **Banu Qamar** (Sons of the Moon)\n*   **Al-Zaki** (The Pure/Purebred)\n\n### 6. Badass/Fantasy Style\nIf you aren't worried about strict historical accuracy and want something that looks cool on the map:\n\n*   **Blackwood**\n*   **Crown-Breaker**\n*   **Vanguard**\n*   **Morningstar**\n*   **Dread-Mane**\n*   **Silver-Tongue** (Great for a high-diplomacy/intrigue run)\n\n### Pro-Tip: Using Prefixes in CK2\nWhen you create your dynasty in the Customizer, remember that the game often adds \"of\" or \"de\" automatically depending on your culture. \n\n*   **Check the \"Prefix\" box:** If you want your dynasty to be \"von Habsburg,\" put \"Habsburg\" in the name box and check the prefix box.\n*   **Dynasty Shields:** If you pick a \"High Medieval\" name like **De Rochefort**, try to use a castle or a rock in your Coat of Arms for extra flavor.\n\n**What region are you planning to play in?** I can give you a more specific name if I know your starting location!",
+        "experimental_attachments": [],
+        "modelId": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "createdAt": "2026-04-24T13:45:06.759589+00:00",
+        "updatedAt": "2026-04-24T13:45:18.338245+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 6,
+            "totalTokens": 1577,
+            "usageSource": "provider",
+            "outputTokens": 1571,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 696
+          },
+          "fromAutoRouter": false
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019dbfbc-adc2-7de4-8e9f-2c878d007163",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-flash",
+        "name": "gemini-3-flash",
+        "displayName": "gemini-3-flash",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

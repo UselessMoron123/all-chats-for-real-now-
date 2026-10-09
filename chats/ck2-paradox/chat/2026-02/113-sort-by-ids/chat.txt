@@ -1,0 +1,896 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : sort by ids
+
+902300 = {
+	name = "Sa'id_0"
+	dynasty = 12279
+	religion = qarmatian
+	culture = bedouin
+
+Mode     : direct
+Started  : 2026-02-22 12:59:25
+Updated  : 2026-02-22 12:59:25
+Archived : 2026-09-30 23:27:02
+Messages : 2
+URL      : https://arena.ai/c/019c84c9-aedd-7d4f-bad6-794d932d1745
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-22 12:59:25
+------------------------------------------------------------
+sort by ids
+
+902300 = {
+	name = "Sa'id_0"
+	dynasty = 12279
+	religion = qarmatian
+	culture = bedouin
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902400 = {
+	name = "Abdullah_0"
+	dynasty = 589
+	religion = shiite
+	culture = bedouin
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904000 = {
+	name = "Arwa_0"
+	female = yes
+	dynasty = 590
+	religion = shiite
+	culture = bedouin
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905000 = {
+	name = "Saladin_0"
+	dynasty = 24000
+	religion = sunni
+	culture = levantine
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905900 = {
+	name = "Baibars_0"
+	dynasty = 7267
+	religion = sunni
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906600 = {
+	name = "Cat_0"
+	female = yes
+	dynasty = 906600
+	religion = catholic
+	culture = cat
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919800 = {
+	name = "Architect_0"
+	dynasty = 919800
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919900 = {
+	name = "Castellan_0"
+	dynasty = 919900
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920000 = {
+	name = "Monument_0"
+	dynasty = 920000
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920300 = {
+	name = "Builder_0"
+	female = yes
+	dynasty = 920300
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920500 = {
+	name = "PArchitect_0"
+	female = yes
+	dynasty = 920500
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920600 = {
+	name = "PCastellan_0"
+	female = yes
+	dynasty = 920600
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920700 = {
+	name = "PMonument_0"
+	female = yes
+	dynasty = 920700
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920900 = {
+	name = "Technology_0"
+	female = yes
+	dynasty = 920900
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921400 = {
+	name = "PisMuslim_0"
+	female = yes
+	dynasty = 921400
+	religion = sunni
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921500 = {
+	name = "AgroMuslim_0"
+	dynasty = 921500
+	religion = shiite
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901300 = {
+	name = "Degna Mikael_0"
+	dynasty = 7246
+	religion = miaphysite
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916000 = {
+	name = "MIsrael_0"
+	dynasty = 916000
+	religion = jewish
+	culture = sephardi
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916100 = {
+	name = "FIsrael_0"
+	female = yes
+	dynasty = 916100
+	religion = jewish
+	culture = ashkenazi
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916800 = {
+	name = "FDestiny_0"
+	female = yes
+	dynasty = 916800
+	religion = slavic_pagan
+	culture = croatian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918600 = {
+	name = "Murder Child_0"
+	female = yes
+	dynasty = 918600
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918700 = {
+	name = "Macabre_0"
+	dynasty = 918700
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918800 = {
+	name = "Silent Killer_0"
+	female = yes
+	dynasty = 918800
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918900 = {
+	name = "Butcher_0"
+	dynasty = 918900
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919000 = {
+	name = "Dragon_0"
+	dynasty = 919000
+	religion = norse_pagan
+	culture = dragon_culture
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920100 = {
+	name = "MurderWar_0"
+	dynasty = 920100
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920200 = {
+	name = "MurderPeace_0"
+	female = yes
+	dynasty = 920200
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920400 = {
+	name = "MurderBuilder_0"
+	female = yes
+	dynasty = 920400
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921100 = {
+	name = "Ruthless_0"
+	female = yes
+	dynasty = 921100
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921600 = {
+	name = "PisJewish_0"
+	female = yes
+	dynasty = 921600
+	religion = jewish
+	culture = sephardi
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921700 = {
+	name = "AgroJewish_0"
+	dynasty = 921700
+	religion = jewish
+	culture = sephardi
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923600 = {
+	name = "MLeader_0"
+	dynasty = 923600
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-22 12:59:25
+------------------------------------------------------------
+```paradox
+901300 = {
+	name = "Degna Mikael_0"
+	dynasty = 7246
+	religion = miaphysite
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902300 = {
+	name = "Sa'id_0"
+	dynasty = 12279
+	religion = qarmatian
+	culture = bedouin
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902400 = {
+	name = "Abdullah_0"
+	dynasty = 589
+	religion = shiite
+	culture = bedouin
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904000 = {
+	name = "Arwa_0"
+	female = yes
+	dynasty = 590
+	religion = shiite
+	culture = bedouin
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905000 = {
+	name = "Saladin_0"
+	dynasty = 24000
+	religion = sunni
+	culture = levantine
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905900 = {
+	name = "Baibars_0"
+	dynasty = 7267
+	religion = sunni
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906600 = {
+	name = "Cat_0"
+	female = yes
+	dynasty = 906600
+	religion = catholic
+	culture = cat
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916000 = {
+	name = "MIsrael_0"
+	dynasty = 916000
+	religion = jewish
+	culture = sephardi
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916100 = {
+	name = "FIsrael_0"
+	female = yes
+	dynasty = 916100
+	religion = jewish
+	culture = ashkenazi
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916800 = {
+	name = "FDestiny_0"
+	female = yes
+	dynasty = 916800
+	religion = slavic_pagan
+	culture = croatian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918600 = {
+	name = "Murder Child_0"
+	female = yes
+	dynasty = 918600
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918700 = {
+	name = "Macabre_0"
+	dynasty = 918700
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918800 = {
+	name = "Silent Killer_0"
+	female = yes
+	dynasty = 918800
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918900 = {
+	name = "Butcher_0"
+	dynasty = 918900
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919000 = {
+	name = "Dragon_0"
+	dynasty = 919000
+	religion = norse_pagan
+	culture = dragon_culture
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919800 = {
+	name = "Architect_0"
+	dynasty = 919800
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919900 = {
+	name = "Castellan_0"
+	dynasty = 919900
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920000 = {
+	name = "Monument_0"
+	dynasty = 920000
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920100 = {
+	name = "MurderWar_0"
+	dynasty = 920100
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920200 = {
+	name = "MurderPeace_0"
+	female = yes
+	dynasty = 920200
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920300 = {
+	name = "Builder_0"
+	female = yes
+	dynasty = 920300
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920400 = {
+	name = "MurderBuilder_0"
+	female = yes
+	dynasty = 920400
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920500 = {
+	name = "PArchitect_0"
+	female = yes
+	dynasty = 920500
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920600 = {
+	name = "PCastellan_0"
+	female = yes
+	dynasty = 920600
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920700 = {
+	name = "PMonument_0"
+	female = yes
+	dynasty = 920700
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920900 = {
+	name = "Technology_0"
+	female = yes
+	dynasty = 920900
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921100 = {
+	name = "Ruthless_0"
+	female = yes
+	dynasty = 921100
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921400 = {
+	name = "PisMuslim_0"
+	female = yes
+	dynasty = 921400
+	religion = sunni
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921500 = {
+	name = "AgroMuslim_0"
+	dynasty = 921500
+	religion = shiite
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921600 = {
+	name = "PisJewish_0"
+	female = yes
+	dynasty = 921600
+	religion = jewish
+	culture = sephardi
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921700 = {
+	name = "AgroJewish_0"
+	dynasty = 921700
+	religion = jewish
+	culture = sephardi
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923600 = {
+	name = "MLeader_0"
+	dynasty = 923600
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

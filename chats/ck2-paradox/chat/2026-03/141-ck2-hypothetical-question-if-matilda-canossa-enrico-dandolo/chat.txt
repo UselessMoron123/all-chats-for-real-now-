@@ -1,0 +1,56 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : CK2 hypothetical question. If matilda canossa, enrico dandolo, bohemond and roger hauteville's, live
+Mode     : direct-battle
+Started  : 2026-03-30 10:57:29
+Updated  : 2026-03-30 10:57:30
+Archived : 2026-09-30 23:15:56
+Messages : 2
+URL      : https://arena.ai/c/019d3dbf-530d-7fe1-87e4-a1a9add5d767
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-03-30 10:57:30
+------------------------------------------------------------
+CK2 hypothetical question. If matilda canossa, enrico dandolo, bohemond and roger hauteville's, lived in same time, who would matilda choose to marry?
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-03-30 10:57:30
+------------------------------------------------------------
+Probably **Bohemond of Hauteville**.
+
+If we’re doing this as a **CK2-style personality/politics match** rather than strict real history:
+
+- **Matilda of Canossa** = powerful Italian ruler, highly prestigious, needs a marriage that boosts military strength and political leverage.
+- **Enrico Dandolo** = brilliant statesman/trader type, but not really the obvious match for a ruling countess/duchess seeking a strong dynastic and military alliance.
+- **Roger Hauteville** = depends which Roger you mean, but the Hautevilles in general are excellent marriage material for power: ambitious, martial, expanding in southern Italy.
+- **Bohemond** = especially attractive in CK2 terms because he’s:
+  - high-**Martial**
+  - prestigious
+  - from the very successful **Hauteville** dynasty
+  - a major military leader with strong claims/conquest potential
+
+### Why Bohemond over Roger?
+If the choice is specifically between **Bohemond** and **Roger**, Matilda would likely favor:
+
+1. **Prestige and fame** — Bohemond has the larger-than-life warrior reputation.
+2. **Military partnership** — he’s the kind of husband who strengthens her realm immediately.
+3. **CK2 AI logic vibes** — rulers often value strong alliances, prestige, and useful stats; Bohemond checks all three.
+
+### Why not Dandolo?
+Dandolo is more of a **merchant-republic mastermind** than a feudal consort fit for Matilda’s situation. In CK2, unless Matilda is optimizing for intrigue, trade, or an odd political play, he’s less attractive than a Hauteville warlord.
+
+### Big caveat
+Historically, **Matilda was intensely tied to the Papacy and anti-imperial politics**, so her real-world marriage choice would be shaped heavily by that. A Norman marriage could be very appealing if it helped her against the Emperor. In that context, a **Hauteville** is even more plausible.
+
+## Final answer
+**Bohemond**, with **Roger Hauteville** as the runner-up.  
+If you want, I can also answer this from:
+1. **historical realism**,  
+2. **CK2 min-maxing**, or  
+3. **personality/roleplay compatibility**.

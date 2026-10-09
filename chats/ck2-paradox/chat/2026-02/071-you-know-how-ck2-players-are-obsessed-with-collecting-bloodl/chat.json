@@ -1,0 +1,95 @@
+{
+  "exportedAt": "2026-10-09T16:28:27.002Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c432b-3415-77c8-98d8-0b2ea265c9cf",
+  "archivedAt": "2026-09-30 19:56:37.221+00",
+  "evaluation": {
+    "id": "019c432b-3415-77c8-98d8-0b2ea265c9cf",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "you know how ck2 players are obsessed with collecting bloodlines, right? how about giving such playe",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c432b-5583-7dcd-b795-beabdc06af0b"
+    ],
+    "archivedAt": "2026-09-30 19:56:37.221+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-09 16:10:40.441+00",
+    "updatedAt": "2026-02-09 16:10:41.125628+00",
+    "messages": [
+      {
+        "id": "019c432b-5582-75e4-8712-bec413472a98",
+        "evaluationSessionId": "019c432b-3415-77c8-98d8-0b2ea265c9cf",
+        "evaluationId": "019c432b-59b9-7379-ab00-32723858947d",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "you know how ck2 players are obsessed with collecting bloodlines, right? how about giving such player a custom bloodline of its own? of those who collects and preserves bloodlines in his dynasty? what ideas can you give?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-09T16:10:41.109086+00:00",
+        "updatedAt": "2026-02-09T16:10:41.109086+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c432b-5583-7dcd-b795-beabdc06af0b",
+        "evaluationSessionId": "019c432b-3415-77c8-98d8-0b2ea265c9cf",
+        "evaluationId": "019c432b-59b9-7379-ab00-32723858947d",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c432b-5582-75e4-8712-bec413472a98"
+        ],
+        "content": "This is a fantastic meta-concept. In CK2, the player who collects bloodlines is essentially playing a game of 4D chess with genetics and marriage beds. A bloodline rewarding this specific behavior should focus on **Marriage Acceptance**, **Fertility** (more lottery tickets), **Prestige** (to dazzle the AI), and **Longevity**.\n\nHere are three distinct concepts for a \"Bloodline Collector\" bloodline, ranging from the diplomatic to the sinister.\n\n### 1. The \"Grand Archivist\" Bloodline (Diplomatic/Prestige Focus)\n**Theme:** The dynasty is viewed as a living museum. Other nobles feel honored just to have their DNA mingled with yours. This is for the player who plays the marriage game peacefully.\n\n*   **Name:** Blood of the Dynastic Curator\n*   **Description:** *\"[Character Name] viewed the noble houses of the world not as rivals, but as ingredients. Through tireless diplomacy and careful curation, this lineage has become the repository of history itself. To marry into this house is to become immortal.\"*\n*   **Unlock Requirement:** Must possess at least 5 Historical Bloodlines on the current character and have 5000+ Prestige.\n*   **Effects:**\n    *   **+10 Marriage Acceptance:** (Crucial for getting the AI to agree to matrilineal marriages with high-ranking heirs).\n    *   **+0.50 Monthly Prestige:** (Represents the fame of your collection).\n    *   **+5 Vassal Opinion:** (They respect your pedigree).\n    *   **Special:** Characters with this bloodline are much less likely to refuse requests to \"Invite to Court\" (making it easier to invite claimants with bloodlines you want to steal).\n\n### 2. The \"Bene Gesserit\" Bloodline (Intrigue/Eugenics Focus)\n**Theme:** This is for the player who treats the dynasty like a breeding program, using incest, seduction, and careful pruning to create the Kwisatz Haderach.\n\n*   **Name:** Blood of the Sanguine Weaver\n*   **Description:** *\"[Character Name] was obsessed with the purity and potency of blood. Through secret methods and questionable morals, they distilled the essence of kingship. This dynasty does not merely inherit power; they engineer it.\"*\n*   **Unlock Requirement:** Have the \"Genius\" or \"Strong\" trait, possess 3 Bloodlines, and complete the \"Noble Scion\" ambition or have a Learning of 25+.\n*   **Effects:**\n    *   **+20% Fertility:** (You need more children to act as vessels for other bloodlines).\n    *   **+10 Sex Appeal:** (Helps with Seduction focus to steal bloodlines from married characters).\n    *   **+10% Plot Power Defense:** (Paranoia is part of the job).\n    *   **Special:** **Divine Blood Mechanic.** (This bloodline enables Divine Marriage, allowing close-kin marriage regardless of religion. This is essential for \"consolidating\" bloodlines back into one heir without the game stopping you).\n\n### 3. The \"Apex Predator\" Bloodline (War/Legacy Focus)\n**Theme:** The \"Highlander\" approach. You don't ask for bloodlines; you conquer the people who have them and force them into your family tree. This is the \"King of Kings\" vibe.\n\n*   **Name:** Blood of the Omni-Monarch\n*   **Description:** *\"[Character Name] realized that a true Emperor does not just rule lands, but rules the legacy of all who came before. This bloodline is the ocean into which all other rivers flow.\"*\n*   **Unlock Requirement:** Hold 3 Empire titles and possess bloodlines from at least 3 different religions or culture groups (e.g., Karling, Sassanid, and Rurikid).\n*   **Effects:**\n    *   **+10 Personal Combat Skill:** (The culmination of warrior ancestors).\n    *   **+5 Opinion (Same Trait):** (Other characters with *any* historical bloodline like you more, recognizing you as a peer).\n    *   **-10% Threat Decay:** (The world is terrified of your consolidating power).\n    *   **Special:** **Unique Building: \"The Hall of Ancestors.\"** Can be built in the capital holding. Gives +2 Learning and massive dynastic prestige.\n\n---\n\n### If this were a modded Event Chain:\nTo make it really feel like a reward for the obsession, the acquisition event could go like this:\n\n**Event: The Great Tapestry**\n*Trigger:* You have collected 5 Bloodlines on your character.\n*Flavor Text:* \"You spend your nights staring at the genealogies. The blood of Alexander, the Karlings, and Attila... it all flows through your veins. You are not merely a King; you are the singularity of history. The court whispers that you are trying to breed a god.\"\n\n**Options:**\n1.  **\"We must preserve this purity at all costs.\"** (Grants the *Sanguine Weaver* bloodline - Focus on Incest/Eugenics).\n2.  **\"Let the world know that all roads lead to me.\"** (Grants the *Dynastic Curator* bloodline - Focus on Diplomacy/Prestige).\n3.  **\"I am the sum of all warriors past.\"** (Grants the *Omni-Monarch* bloodline - Focus on Combat/Vassals).",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-09T16:10:41.12232+00:00",
+        "updatedAt": "2026-02-09T16:11:35.446143+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c432b-59b9-7379-ab00-32723858947d",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,777 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : look at this list of bloodlines in ck2. in the end there should be 256 bloodlines. each group has li
+Mode     : direct-battle
+Started  : 2026-03-28 22:42:10
+Updated  : 2026-03-28 23:11:08
+Archived : 2026-09-30 23:16:03
+Messages : 6
+URL      : https://arena.ai/c/019d35f5-4de9-74a7-b727-5e607bd50961
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-03-28 22:42:11
+------------------------------------------------------------
+look at this list of bloodlines in ck2. in the end there should be 256 bloodlines. each group has limit stated in brackets. write which groups can still take some more
+
+British Isles (16):
+Caradog Catuvellauni (male)
+Gwrtheyrn Gwerthrynion (male)
+Niall Ua Neill Noigiallaich (male)
+Athelstan of Wessex (male)
+Brian Ua Briain (male)
+William de Normandie (male)
+Richard Plantagenet (male)
+William Wallace (male)
+Ancestral Venerated Tanistry Bloodline (female)
+Boudica Bloodline (female)
+Blessed Child Bloodline (female)
+Protector Bloodline (female)
+Benefactor Bloodline (female)
+Family Bloodline (female)
+
+Scandinavia (16):
+Ragnarr af Munso (male)
+Haraldr Yngling (male)
+Bear Bloodline (male)
+Norse "Defender of Faith" Bloodline (female)
+Norse "Culture" Bloodline (female)
+Norse "Inquisition" Bloodline (male)
+Norse "Jewish" Bloodline (female)
+Norse "Theologic" Bloodline (male)
+Sea King Bloodline (male)
+Sea Queen Bloodline (female)
+Norse Peaceful Bloodline (female)
+Norse Aggressive Bloodline (male)
+Ancestral Venerated Raiding Bloodline (female)
+
+France (16):
+Merovech de Merohingi (male)
+Charles Martel (male)
+Alienor de Poitou (female)
+Philippe Capet (male)
+Catholic "Defender of Faith" Bloodline (female)
+Catholic "Monastic" Bloodline (male)
+Catholic "Culture" Bloodline (female)
+Catholic "Inquisition" Bloodline (male)
+Catholic "Jewish" Bloodline (female)
+Catholic "Theologic" Bloodline (male)
+Catholic "Wicked" Bloodline (female)
+Lord of Outremer Bloodline (female)
+
+Iberian Peninsula (16):
+Yusuf Almoravid (male)
+Rodrigo de Vivar (male)
+Alfonso d'Ivrea (male)
+Gartzia de Navarra (male)
+Afonso de Bourgogne (male)
+Abu Ya'qub Almohad (male)
+Muhammad Nasrid (male)
+Jaume de Barcelona (male)
+Reconquista 1 Bloodline (female)
+Reconquista 2 Bloodline (female)
+The Little Warrior Philosopher (female)
+The Perfect Knight (female)
+The Conqueror (female)
+The Warrior Philosopher (female)
+
+Holy Roman Empire (8):
+Rudolf Welf (male)
+Otto Liudolfinger (male)
+Friedrich von Hohenstaufen (male)
+Baudouin Van Vlaanderen (male)
+Destroyer of Byzantium Bloodline (female)
+Northern Crusader Bloodline (female)
+
+Italy (8):
+Matilde de Canossa (female)
+Bohemond de Hauteville (male)
+Roger de Hauteville (male)
+Enrico Dandolo (male)
+Vatican 1 Bloodline (female)
+Vatican 2 Bloodline (male)
+
+Romuva (8):
+Romuva "Defender of Faith" Bloodline (female)
+Romuva "Culture" Bloodline (female)
+Romuva "Inquisition" Bloodline (male)
+Romuva "Jewish" Bloodline (female)
+Romuva "Theologic" Bloodline (male)
+Ancestral Venerated Dueling Bloodline (female)
+
+Suomenusko (8):
+Suomenusko "Defender of Faith" Bloodline (female)
+Suomenusko "Culture" Bloodline (female)
+Suomenusko "Inquisition" Bloodline (male)
+Suomenusko "Jewish" Bloodline (female)
+Suomenusko "Theologic" Bloodline (male)
+Legendary Raider Bloodline (female)
+
+Slavic Union (16):
+Rurik Rurikid (male)
+Arpad Arpad (male)
+Dyre Oskyldr (male)
+Boleslav Premyslid (male)
+Boleslaw Piast (male)
+Dmitar-Zvonimir Trpimirovic (male)
+Alexandr Nevsky (male)
+Teuta Bloodline (female)
+Slavic "Defender of Faith" Bloodline (female)
+Slavic "Culture" Bloodline (female)
+Slavic "Inquisition" Bloodline (female)
+Slavic "Jewish" Bloodline (female)
+Slavic "Theologic" Bloodline (female)
+Slavic Union 1 Bloodline (male)
+Slavic Union 2 Bloodline (female)
+
+Byzantium (8):
+Basileios I Makedon (male)
+Alexios Komnenos (male)
+Orthodox "Defender of Faith" Bloodline (female)
+Orthodox "Monastic" Bloodline (female)
+Orthodox "Culture" Bloodline (female)
+Orthodox "Inquisition" Bloodline (male)
+Orthodox "Jewish" Bloodline (female)
+Orthodox "Theologic" Bloodline (male)
+
+Hellenic (8):
+Hellenic "Defender of Faith" Bloodline (female)
+Hellenic "Monastic" Bloodline (male)
+Hellenic "Culture" Bloodline (female)
+Hellenic "Inquisition" Bloodline (male)
+Hellenic "Jewish" Bloodline (female)
+Hellenic "Theologic" Bloodline (male)
+Roman Imperial Bloodline 1 (male)
+Roman Imperial Bloodline 2 (female)
+
+Arabic (16):
+Sa'id Jannabid (male)
+Abdullah Fatimid (male)
+Arwa Sulayhid (female)
+Saladin Ayyubid (male)
+Baibars Bunduqdarid (male)
+Cat Bloodline (female)
+The Architect Bloodline (male)
+The Castellan Bloodline (male)
+The Carpenter Bloodline (male)
+The Builder Bloodline (female)
+Peace Architect Bloodline (female)
+Peace Castellan Bloodline (female)
+Peace Monumental Bloodline (female)
+Philosopher Bloodline (female)
+Islamic Peaceful Bloodline (female)
+Islamic Aggressive Bloodline (male)
+
+Jews (16):
+Mikael Solomonid (male)
+Israel Restorer 1 Bloodline (male)
+Israel Restorer 2 Bloodline (female)
+Happy Child (female)
+Macabre Banquet (male)
+Silent Killer (female)
+The Butcher (male)
+The Dragon King (male)
+Murder/War (male)
+Murder/Peace Bloodline (female)
+Murder/Builder Bloodline (female)
+Ruthlessness Bloodline (female)
+Jewish Peaceful Bloodline (female)
+Jewish Aggressive Bloodline (male)
+
+Coptic (8):
+Coptic "Defender of Faith" Bloodline (female)
+Coptic "Monastic" Bloodline (female)
+Coptic "Culture" Bloodline (female)
+Coptic "Inquisition" Bloodline (male)
+Coptic "Jewish" Bloodline (female)
+Coptic "Theologic" Bloodline (male)
+
+Custom (8):
+Ancestral Venerated Heroic Bloodline (female)
+Placeholder Bloodline 1 (male)
+Placeholder Bloodline 2 (male)
+Placeholder Bloodline 3 (female)
+Placeholder Bloodline 4 (female)
+Placeholder Bloodline 5 (male)
+Placeholder Bloodline 6 (female)
+Placeholder Bloodline 7 (male)
+
+Africa (8):
+Magajiva Daura (female)
+Musa Keita (male)
+African "Defender of Faith" Bloodline (female)
+African "Culture" Bloodline (female)
+African "Inquisition" Bloodline (male)
+African "Jewish" Bloodline (female)
+African "Theologic" Bloodline (male)
+
+Aztec (8):
+Aztec "Defender of Faith" Bloodline (male)
+Aztec "Culture" Bloodline (female)
+Aztec "Inquisition" Bloodline (male)
+Aztec "Jewish" Bloodline (female)
+Aztec "Theologic" Bloodline (male)
+Bloodthirsty 1 Bloodline (male)
+Bloodthirsty 2 Bloodline (female)
+
+Central Asia (16):
+Muhan Ashina (male)
+Kubrat Dulo (male)
+Sabuktigin Ghaznavid (male)
+Seljuk Seljuk (male)
+Temujin Borjigin (male)
+Osman Ottoman (male)
+Timur Timurid (male)
+Tengri "Defender of Faith" Bloodline (female)
+Tengri "Culture" Bloodline (female)
+Tengri "Inquisition" Bloodline (female)
+Tengri "Jewish" Bloodline (female)
+Tengri "Theologic" Bloodline (female)
+Ancestral Venerated Sky Burial Bloodline (female)
+Ancestral Venerated Mercenary Bloodline (female)
+Chinese Imperial Bloodline (female)
+
+Persia (16):
+Erdewan Karen-Pahlav (male)
+Sasan Sassanid (male)
+Mirian Khosroviani (male)
+Bagrat Bagrationi (male)
+Bahram Mihran (male)
+Mardavij Ziyarid (male)
+Saoshyant 1 Bloodline (male)
+Saoshyant 2 Bloodline (female)
+Zoroastrian Peaceful Bloodline (female)
+Zoroastrian Aggressive Bloodline (male)
+
+Nestorian (8):
+Nestorian "Defender of Faith" Bloodline (female)
+Nestorian "Culture" Bloodline (female)
+Nestorian "Monastic" Bloodline (female)
+Nestorian "Inquisition" Bloodline (male)
+Nestorian "Jewish" Bloodline (female)
+Nestorian "Theologic" Bloodline (male)
+
+Zun (8):
+Zun "Defender of Faith" Bloodline (female)
+Zun "Culture" Bloodline (female)
+Zun "Inquisition" Bloodline (male)
+Zun "Jewish" Bloodline (female)
+Zun "Theologic" Bloodline (male)
+
+Tibet (8):
+Songtsen Gampo (male)
+Red Panda Bloodline (female)
+Bon "Defender of Faith" Bloodline (male)
+Bon "Culture" Bloodline (female)
+Bon "Inquisition" Bloodline (male)
+Bon "Jewish" Bloodline (female)
+Bon "Theologic" Bloodline (male)
+Immortal Bloodline (female)
+
+India (8):
+Gopala Pala (male)
+Irâcêntira Chola (male)
+Tughluq Tughluq (male)
+Chakravartin 1 Bloodline (male)
+Chakravartin 2 Bloodline (female)
+Hindu Peaceful Bloodline (female)
+Hindu Aggressive Bloodline (female)
+Ashoka Bloodline (female)
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-03-28 22:42:11
+------------------------------------------------------------
+Based on your list, the total capacity across all groups is exactly 256. Currently, you have **218** bloodlines listed, which means there are **38** open spots left. 
+
+Here is the breakdown of which groups can still take more bloodlines, and exactly how many spots they have left:
+
+**Groups that can take more:**
+*   **Persia:** Has 10/16 — **can take 6 more**
+*   **France:** Has 12/16 — **can take 4 more**
+*   **Scandinavia:** Has 13/16 — **can take 3 more**
+*   **Zun:** Has 5/8 — **can take 3 more**
+*   **British Isles:** Has 14/16 — **can take 2 more**
+*   **Iberian Peninsula:** Has 14/16 — **can take 2 more**
+*   **Jews:** Has 14/16 — **can take 2 more**
+*   **Holy Roman Empire:** Has 6/8 — **can take 2 more**
+*   **Italy:** Has 6/8 — **can take 2 more**
+*   **Romuva:** Has 6/8 — **can take 2 more**
+*   **Suomenusko:** Has 6/8 — **can take 2 more**
+*   **Coptic:** Has 6/8 — **can take 2 more**
+*   **Nestorian:** Has 6/8 — **can take 2 more**
+*   **Slavic Union:** Has 15/16 — **can take 1 more**
+*   **Central Asia:** Has 15/16 — **can take 1 more**
+*   **Africa:** Has 7/8 — **can take 1 more**
+*   **Aztec:** Has 7/8 — **can take 1 more**
+
+***
+
+**Groups that are currently FULL (cannot take any more):**
+*   **Byzantium:** 8/8
+*   **Hellenic:** 8/8
+*   **Arabic:** 16/16
+*   **Custom:** 8/8
+*   **Tibet:** 8/8
+*   **India:** 8/8
+
+------------------------------------------------------------
+Message  : 3
+Speaker  : User
+Time     : 2026-03-28 22:58:33
+------------------------------------------------------------
+think where these could fit
+
+Legendary Eagle Hunter (1 for Male and 1 for Female) Bloodline. This Person traveled far into foreign lands, fighting Her way through the best warriors of Her time. This Woman was rumored to have a supernatural affinity with birds.
+Legendary Dog Hunter (1 for Male and 1 for Female) Bloodline. A highly respected Warrior, this Woman was rumored to often have been charging into battle surrounded by war hounds.
+Legendary Battle Survivor (1 for Male and 1 for Female) Bloodline. A particularly resilient Woman, This Person proved Herself one of the finest Warriors of Her time.
+Legendary Leader (1 for Male and 1 for Female) Bloodline. (gives + vassal opinion) Known as a great Warrior and leader of others, This Woman accumulated enthusiastic support during Her legendary raids into foreign lands.
+Legendary Warrior (1 for Male and 1 for Female) Bloodline. This Famous Warrior made a name for Herself fighting and spreading Her fame to all who would dare challenge Her.
+Legendary Soldier (1 for Male and 1 for Female) Bloodline. Always ready for battle, This Person became famous for Her many victories, and being the finest Warrior everyone had ever seen
+Legendary Battle Bard (1 for Male and 1 for Female) Bloodline. Rumored to often have gone singing into battle, This Person was a Warrior of a different time, Her deeds inspiring greatness in others for generations to come.
+Legendary Commander (1 for Male and 1 for Female) Bloodline. This Person was known as the Brilliant leader – the mention of Her courage still lights a fire in many fellow soldiers.
+Legendary Captor (1 for Male and 1 for Female) Bloodline. This Person was both feared and respected, not only for Her combat prowess, but for Her relentless courage.
+Legendary Raider (1 for Male and 1 for Female) Bloodline. This Person was well respected within Her men, known for Her strategy and skill in battle, inspiring other Warriors for years to come.
+
+(murder bloodlines give minus vassal opinion)
+
+Horse Bloodline.
+Dog Bloodline.
+Duck Bloodline.
+Elephant Bloodline.
+Hedgehog Bloodline.
+
+Alexander Bloodline. Thanks to the efforts of This Person, their dynasty has been universally acknowledged as being directly descended from Alexander the Great.
+
+Benevolent Bloodline. This Person has become famous as a paragon of virtue and just rule in Universal history. (weak. can be put as a filler for its name)
+
+Ancestor Veneration Bastard Bloodline. (plus opinion with other illegitemate characters. legalisation is free)
+
+Grand Crusader Bloodline. This Person single handedly brought victory to the Christians in several Crusades, and there are numerous legends spun in their honor.
+Crusader Commander Bloodline. This Person is known for personally leading the charge of many battles, and it is said no heathen nor infidel could ever bring Them down.
+Crusade Lord Bloodline. This Person is known as the ruler of the first Crusader Kingdom. A pious ruler who fought and bled for the faith.
+Crusader Kid Bloodline. Inspired by the Holy Ghost, This Person managed to lead a successful Crusade to free Jerusalem from the infidels when They was merely a child.
+
+Greatest Duelist (Male) Bloodline. This Person was a duelist of great renown. No one would stand in His way lest they wanted a humiliating defeat, or a swift death...
+Greatest Duelist (Female) Bloodline. This Person was a duelist of great renown. No one would stand in Her way lest they wanted a humiliating defeat, or a swift death...
+
+Child of Destiny (Male) Bloodline. (gives + vassal opinion) A Man of true legend. His exploits mimicked those of Alexander the Great himself!
+Child of Destiny (Female) Bloodline. (gives + vassal opinion) A Woman of true legend. Her exploits mimicked those of Alexander the Great himself!
+
+Phalaris Bloodline. This Person has claimed that their dynasty shares blood with Phalaris, ancient Tyrant of Akragas, infamous for his use of the Brazen Bull against his enemies. (give minus opinion with muslim, christian and jewish religions. maybe put somewhere far from them)
+
+------------------------------------------------------------
+Message  : 4
+Speaker  : AI A
+Time     : 2026-03-28 22:58:33
+------------------------------------------------------------
+You have exactly **38 open slots** across your groups, and you have provided exactly **37 new bloodlines** in this list. This means we can fit almost everything perfectly, leaving just **1 final slot empty** at the end. 
+
+Here is a thematic and highly logical way to distribute all 37 of these bloodlines into the remaining groups:
+
+### ⚔️ The Crusader Lines
+**France (4 slots open) ➔ Takes 4 (NOW FULL)**
+France historically provided the core bulk of Crusaders (the term *Franks* was even used by locals to describe all Crusaders). They take all four:
+*   **Grand Crusader Bloodline**
+*   **Crusader Commander Bloodline**
+*   **Crusade Lord Bloodline**
+*   **Crusader Kid Bloodline**
+
+### 🦅 The Aztec Sacrifice
+**Aztec (1 slot open) ➔ Takes 1 (NOW FULL)**
+*   **Phalaris Bloodline:** You mentioned wanting to put this "far from Abrahamic religions." Aztec is geographically across the ocean, keeping it well away from Christians, Jews, and Muslims. Furthermore, the Brazen Bull's brutal torture matches the Aztec theme of human sacrifice perfectly.
+
+### 🐴 The Animal Lines (Geographic distribution)
+**Central Asia (1 slot open) ➔ Takes 1 (NOW FULL)**
+*   **Horse Bloodline:** Perfect fit for the nomadic steppe horse lords.
+
+**Africa (1 slot open) ➔ Takes 1 (NOW FULL)**
+*   **Elephant Bloodline:** Fits perfectly with the African elephant.
+
+**Suomenusko (2 slots open) ➔ Takes 2 (NOW FULL)**
+*   **Duck Bloodline:** In Finno-Ugric (Suomenusko) pagan creation myths, the world is created from a diving duck's egg. 
+*   **Legendary Raider (Male):** *(Note: Suomenusko already had the Female Raider in your original list. This completes the pair!)*
+
+**British Isles (2 slots open) ➔ Takes 2 (NOW FULL)**
+*   **Hedgehog Bloodline:** Hedgehogs are classic, iconic wildlife of the British Isles.
+*   **Ancestor Veneration Bastard Bloodline:** Celtic Pagans in CK2 rely heavily on the Ancestor Veneration mechanic.
+
+**Scandinavia (3 slots open) ➔ Takes 3 (NOW FULL)**
+*   **Dog Bloodline:** Perfect for Norse Elkhounds and Viking hunting dogs.
+*   **Legendary Captor (Male) & (Female):** Perfectly reflects the infamous Viking practice of taking thralls/captives during raids.
+
+### 👑 The Imperial Claims
+**Persia (6 slots open) ➔ Takes 6 (NOW FULL)**
+*   **Alexander Bloodline:** Alexander the Great (*Iskandar*) was highly integrated into Persian history, legend, and mythology.
+*   **Benevolent Bloodline:** A great filler for a historically just and prosperous empire.
+*   **Legendary Warrior (Male) & (Female)**
+*   **Legendary Soldier (Male) & (Female)**
+
+**Holy Roman Empire (2 slots open) ➔ Takes 2 (NOW FULL)**
+*   **Child of Destiny (Male) & (Female):** Because this bloodline explicitly mimics the exploits of Alexander/Rome, it belongs to the Empire desperately trying to claim the Roman legacy.
+
+### 🤺 Combat & Warfare Legends
+**Iberian Peninsula (2 slots open) ➔ Takes 2 (NOW FULL)**
+*   **Greatest Duelist (Male) & (Female):** Fits beautifully with the Iberian chivalric tradition, knightly orders, and Reconquista duels.
+
+**Italy (2 slots open) ➔ Takes 2 (NOW FULL)**
+*   **Legendary Commander (Male) & (Female):** Italy has a long tradition of brilliant *Condottieri* (mercenary commanders) and the tactical legacy of Rome.
+
+**Jews (2 slots open) ➔ Takes 2 (NOW FULL)**
+*   **Legendary Battle Survivor (Male) & (Female):** Enduring and surviving against impossible odds is the core theme of Jewish history.
+
+### 🏕️ The Pagan Lodge Lines
+**Romuva (2 slots open) ➔ Takes 2 (NOW FULL)**
+*   **Legendary Dog Hunter (Male) & (Female):** Fits the deep, forested Baltic region where hunting with hounds was crucial.
+
+**Zun (3 slots open) ➔ Takes 2 (1 SLOT REMAINS EMPTY)**
+*   **Legendary Eagle Hunter (Male) & (Female):** Zunists exist in the high mountains of Afghanistan, where eagle hunting is a deeply rooted historical tradition.
+
+**Slavic Union (1 slot open) ➔ Takes 1 (NOW FULL)**
+*   **Legendary Raider (Female):** Gives the Slavic pagan lodges an extra heroine.
+
+### 📜 The Eastern Legends
+**Coptic (2 slots open) ➔ Takes 2 (NOW FULL)**
+*   **Legendary Leader (Male) & (Female):** Inspiring leaders fit the resilient Coptic presence in Egypt.
+
+**Nestorian (2 slots open) ➔ Takes 2 (NOW FULL)**
+*   **Legendary Battle Bard (Male) & (Female):** Singing into battle feels very appropriate for the mystic and monastic Eastern Christian sects.
+
+***
+
+### Final Tally:
+You have successfully filled **255 out of 256** slots! 
+Every single group is now at their absolute maximum limit, except for the **Zun** group, which holds your final empty spot (sitting at 7/8).
+
+------------------------------------------------------------
+Message  : 5
+Speaker  : User
+Time     : 2026-03-28 23:11:08
+------------------------------------------------------------
+which bloodline is missing above, but is present in list below
+
+British Isles:
+  -  Caradog Catuvellauni (male)
+  -  Gwrtheyrn Gwerthrynion (male)
+  -  Niall Ua Neill Noigiallaich (male)
+  -  Athelstan of Wessex (male)
+  -  Brian Ua Briain (male)
+  -  William de Normandie (male)
+  -  Richard Plantagenet (male)
+  -  William Wallace (male)
+  -  Ancestral Venerated Tanistry Bloodline (female)
+  -  Grand Crusader Bloodline (female)
+  -  Boudica Bloodline (female)
+  -  Blessed Child Bloodline (female)
+  -  Protector Bloodline (female)
+  -  Benefactor Bloodline (female)
+  -  Family Bloodline (female)
+  -  Legendary Leader Bloodline (female)
+
+Scandinavia:
+  -  Ragnarr af Munso (male)
+  -  Haraldr Yngling (male)
+  -  Bear Bloodline (male)
+  -  Norse Bloodline 1 (female)
+  -  Norse Bloodline 3 (female)
+  -  Norse Bloodline 4 (male)
+  -  Norse Bloodline 5 (female)
+  -  Norse Bloodline 6 (male)
+  -  Ancestral Venerated Bastard Bloodline (female)
+  -  Ancestral Venerated Raiding Bloodline (female)
+  -  Sea King Bloodline (male)
+  -  Sea Queen Bloodline (female)
+  -  Norse Peaceful Bloodline (female)
+  -  Norse Aggressive Bloodline (male)
+  -  Legendary Dog Bloodline (male)
+  -  Legendary Bard Bloodline (female)
+
+France:
+  -  Merovech de Merohingi (male)
+  -  Charles Martel (male)
+  -  Alienor de Poitou (female)
+  -  Philippe Capet (male)
+  -  Catholic Bloodline 1 (female)
+  -  Catholic Bloodline 2 (male)
+  -  Catholic Bloodline 3 (female)
+  -  Catholic Bloodline 4 (male)
+  -  Catholic Bloodline 5 (female)
+  -  Catholic Bloodline 6 (male)
+  -  Catholic Bloodline 7 (female)
+  -  Lord of Outremer Bloodline (female)
+  -  Catholic Peaceful Bloodline (female)
+  -  Catholic Aggressive Bloodline (male)
+  -  Legendary Bard Bloodline (male)
+  -  Legendary Captor Bloodline (female)
+
+Iberian Peninsula:
+  -  Yusuf Almoravid (male)
+  -  Rodrigo de Vivar (male)
+  -  Alfonso d'Ivrea (male)
+  -  Gartzia de Navarra (male)
+  -  Afonso de Bourgogne (male)
+  -  Abu Ya'qub Almohad (male)
+  -  Muhammad Nasrid (male)
+  -  Jaume de Barcelona (male)
+  -  Duelist Bloodline (female)
+  -  Crusader Commander Bloodline (female)
+  -  Reconquista 1 Bloodline (female)
+  -  Reconquista 2 Bloodline (female)
+  -  The Little Warrior Philosopher (female)
+  -  The Perfect Knight (female)
+  -  The Conqueror (female)
+  -  The Warrior Philosopher (female)
+
+Holy Roman Empire:
+  -  Rudolf Welf (male)
+  -  Otto Liudolfinger (male)
+  -  Friedrich von Hohenstaufen (male)
+  -  Baudouin Van Vlaanderen (male)
+  -  Duck Bloodline (female)
+  -  Destroyer of Byzantium Bloodline (female)
+  -  Northern Crusader Bloodline (female)
+  -  Legendary Warrior Bloodline (female)
+
+Italy:
+  -  Matilde de Canossa (female)
+  -  Bohemond de Hauteville (male)
+  -  Roger de Hauteville (male)
+  -  Enrico Dandolo (male)
+  -  Crusade Lord Bloodline (female)
+  -  Crusader Kid Bloodline (female)
+  -  Vatican 1 Bloodline (female)
+  -  Vatican 2 Bloodline (male)
+
+Romuva:
+  -  Romuva Bloodline 1 (female)
+  -  Romuva Bloodline 3 (female)
+  -  Romuva Bloodline 4 (male)
+  -  Romuva Bloodline 5 (female)
+  -  Romuva Bloodline 6 (male)
+  -  Ancestral Venerated Dueling Bloodline (female)
+  -  Legendary Captor Bloodline (male)
+  -  Legendary Raider Bloodline (male)
+
+Suomenusko:
+  -  Horse Bloodline (male)
+  -  Suomenusko Bloodline 1 (female)
+  -  Suomenusko Bloodline 3 (female)
+  -  Suomenusko Bloodline 4 (male)
+  -  Suomenusko Bloodline 5 (female)
+  -  Suomenusko Bloodline 6 (male)
+  -  Child of Destiny Bloodline (male)
+  -  Legendary Raider Bloodline (female)
+
+Slavic Union:
+  -  Rurik Rurikid (male)
+  -  Arpad Arpad (male)
+  -  Dyre Oskyldr (male)
+  -  Boleslav Premyslid (male)
+  -  Boleslaw Piast (male)
+  -  Dmitar-Zvonimir Trpimirovic (male)
+  -  Alexandr Nevsky (male)
+  -  Slavic Bloodline 1 (female)
+  -  Slavic Bloodline 3 (female)
+  -  Slavic Bloodline 4 (female)
+  -  Slavic Bloodline 5 (female)
+  -  Slavic Bloodline 6 (female)
+  -  Teuta Bloodline (female)
+  -  Slavic Union 1 Bloodline (male)
+  -  Slavic Union 2 Bloodline (female)
+  -  Legendary Survivor Bloodline (female)
+
+Byzantium:
+  -  Basileios I Makedon (male)
+  -  Alexios Komnenos (male)
+  -  Orthodox Bloodline 1 (female)
+  -  Orthodox Bloodline 2 (female)
+  -  Orthodox Bloodline 3 (female)
+  -  Orthodox Bloodline 4 (male)
+  -  Orthodox Bloodline 5 (female)
+  -  Orthodox Bloodline 6 (male)
+
+Hellenic:
+  -  Hellenic Bloodline 1 (female)
+  -  Hellenic Bloodline 2 (male)
+  -  Hellenic Bloodline 3 (female)
+  -  Hellenic Bloodline 4 (male)
+  -  Hellenic Bloodline 5 (female)
+  -  Hellenic Bloodline 6 (male)
+  -  Roman Imperial Bloodline 1 (male)
+  -  Roman Imperial Bloodline 2 (female)
+
+Arabic:
+  -  Sa'id Jannabid (male)
+  -  Abdullah Fatimid (male)
+  -  Arwa Sulayhid (female)
+  -  Saladin Ayyubid (male)
+  -  Baibars Bunduqdarid (male)
+  -  Cat Bloodline (female)
+  -  The Architect Bloodline (male)
+  -  The Castellan Bloodline (male)
+  -  The Carpenter Bloodline (male)
+  -  The Builder Bloodline (female)
+  -  Peace Architect Bloodline (female)
+  -  Peace Castellan Bloodline (female)
+  -  Peace Monumental Bloodline (female)
+  -  Philosopher Bloodline (female)
+  -  Islamic Peaceful Bloodline (female)
+  -  Islamic Aggressive Bloodline (male)
+
+Jews:
+  -  Mikael Solomonid (male)
+  -  Israel Restorer 1 Bloodline (male)
+  -  Israel Restorer 2 Bloodline (female)
+  -  Child of Destiny Bloodline (female)
+  -  Happy Child (female)
+  -  Macabre Banquet (male)
+  -  Silent Killer (female)
+  -  The Butcher (male)
+  -  The Dragon King (male)
+  -  Murder/War (male)
+  -  Murder/Peace Bloodline (female)
+  -  Murder/Builder Bloodline (female)
+  -  Ruthlessness Bloodline (female)
+  -  Jewish Peaceful Bloodline (female)
+  -  Jewish Aggressive Bloodline (male)
+  -  Legendary Leader Bloodline (male)
+
+Coptic:
+  -  Coptic Bloodline 1 (female)
+  -  Coptic Bloodline 2 (female)
+  -  Coptic Bloodline 3 (female)
+  -  Coptic Bloodline 4 (male)
+  -  Coptic Bloodline 5 (female)
+  -  Coptic Bloodline 6 (male)
+  -  Legendary Survivor Bloodline (male)
+  -  Legendary Warrior Bloodline (male)
+
+Custom:
+  -  Ancestral Venerated Heroic Bloodline (female)
+  -  Placeholder Bloodline 1 (male)
+  -  Placeholder Bloodline 2 (male)
+  -  Placeholder Bloodline 3 (female)
+  -  Placeholder Bloodline 4 (female)
+  -  Placeholder Bloodline 5 (male)
+  -  Placeholder Bloodline 6 (female)
+  -  Placeholder Bloodline 7 (male)
+
+Africa:
+  -  Magajiva Daura (female)
+  -  Musa Keita (male)
+  -  Elephant Bloodline (male)
+  -  African Bloodline 1 (female)
+  -  African Bloodline 3 (female)
+  -  African Bloodline 4 (male)
+  -  African Bloodline 5 (female)
+  -  African Bloodline 6 (male)
+
+Aztec:
+  -  Aztec Bloodline 1 (male)
+  -  Aztec Bloodline 3 (female)
+  -  Aztec Bloodline 4 (male)
+  -  Aztec Bloodline 5 (female)
+  -  Aztec Bloodline 6 (male)
+  -  Bloodthirsty 1 Bloodline (male)
+  -  Bloodthirsty 2 Bloodline (female)
+  -  Legendary Eagle Hunter Bloodline (female)
+
+Central Asia:
+  -  Muhan Ashina (male)
+  -  Kubrat Dulo (male)
+  -  Sabuktigin Ghaznavid (male)
+  -  Seljuk Seljuk (male)
+  -  Temujin Borjigin (male)
+  -  Osman Ottoman (male)
+  -  Timur Timurid (male)
+  -  Tengri Bloodline 1 (female)
+  -  Tengri Bloodline 3 (female)
+  -  Tengri Bloodline 4 (female)
+  -  Tengri Bloodline 5 (female)
+  -  Tengri Bloodline 6 (female)
+  -  Ancestral Venerated Sky Burial Bloodline (female)
+  -  Ancestral Venerated Mercenary Bloodline (female)
+  -  Chinese Imperial Bloodline (female)
+  -  Legendary Eagle Bloodline (male)
+
+Persia:
+  -  Erdewan Karen-Pahlav (male)
+  -  Sasan Sassanid (male)
+  -  Mirian Khosroviani (male)
+  -  Bagrat Bagrationi (male)
+  -  Bahram Mihran (male)
+  -  Mardavij Ziyarid (male)
+  -  Hedgehog Bloodline (female)
+  -  Saoshyant 1 Bloodline (male)
+  -  Saoshyant 2 Bloodline (female)
+  -  Phalaris Bloodline (female)
+  -  Benevolence Bloodline (female)
+  -  Zoroastrian Peaceful Bloodline (female)
+  -  Zoroastrian Aggressive Bloodline (male)
+  -  Alexander Bloodline (female)
+  -  Legendary Soldier Bloodline (female)
+  -  Legendary Commander Bloodline (female)
+
+Nestorian:
+  -  Nestorian Bloodline 1 (female)
+  -  Nestorian Bloodline 2 (female)
+  -  Nestorian Bloodline 3 (female)
+  -  Nestorian Bloodline 4 (male)
+  -  Nestorian Bloodline 5 (female)
+  -  Nestorian Bloodline 6 (male)
+  -  Legendary Soldier Bloodline (male)
+  -  Legendary Commander Bloodline (male)
+
+Zun:
+  -  Dog Bloodline (male)
+  -  Zun Bloodline 1 (female)
+  -  Zun Bloodline 3 (female)
+  -  Zun Bloodline 4 (male)
+  -  Zun Bloodline 5 (female)
+  -  Zun Bloodline 6 (male)
+  -  Duelist Bloodline (male)
+  -  Legendary Dog Hunter Bloodline (female)
+
+Tibet:
+  -  Songtsen Gampo (male)
+  -  Red Panda Bloodline (female)
+  -  Bon Bloodline 1 (male)
+  -  Bon Bloodline 3 (female)
+  -  Bon Bloodline 4 (male)
+  -  Bon Bloodline 5 (female)
+  -  Bon Bloodline 6 (male)
+  -  Immortal Bloodline (female)
+
+India:
+  -  Gopala Pala (male)
+  -  Irâcêntira Chola (male)
+  -  Tughluq Tughluq (male)
+  -  Chakravartin 1 Bloodline (male)
+  -  Chakravartin 2 Bloodline (female)
+  -  Hindu Peaceful Bloodline (female)
+  -  Hindu Aggressive Bloodline (female)
+  -  Ashoka Bloodline (female)
+
+------------------------------------------------------------
+Message  : 6
+Speaker  : AI A
+Time     : 2026-03-28 23:11:08
+------------------------------------------------------------
+Based on a careful comparison of the lists you provided "above" (your original list of 218 + the 37 new ones you suggested) and the list "below" (which contains exactly 256), there are exactly **TWO** completely new bloodlines that were missing above. 
+
+They are both found in the **France** group:
+1. **Catholic Peaceful Bloodline (female)**
+2. **Catholic Aggressive Bloodline (male)**
+
+### How the math works out:
+* Your original list had **218** bloodlines. 
+* Your second prompt offered **37** new bloodlines. 
+* *However*, one of those 37 was a duplicate! You suggested the **Legendary Raider (Female)** bloodline, but that one was *already* in your first list under Suomenusko. 
+* This means you only provided **36** unique new bloodlines "above". (218 + 36 = **254**).
+* To reach the **256** total in the list below, exactly 2 new ones had to be added to fill the gap, which are the Catholic Peaceful and Aggressive lines. 
+
+*(Note: There were also a few minor name shortenings in the list below compared to what you wrote above, such as "Legendary Battle Bard" becoming "Legendary Bard", "Greatest Duelist" becoming "Duelist", and "Benevolent" becoming "Benevolence", but they represent the same bloodlines).*

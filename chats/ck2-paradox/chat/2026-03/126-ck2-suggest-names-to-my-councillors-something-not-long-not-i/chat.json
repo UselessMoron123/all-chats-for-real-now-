@@ -1,0 +1,200 @@
+{
+  "exportedAt": "2026-10-09T16:28:02.535Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019d164b-9cde-7ca8-8111-7c8f9a948a73",
+  "archivedAt": "2026-09-30 20:22:40.692+00",
+  "evaluation": {
+    "id": "019d164b-9cde-7ca8-8111-7c8f9a948a73",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "CK2. Suggest names to my councillors. Something not long, not importantly real ir serious. That I im",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019d1652-4208-762c-b7e1-6e95c8cd3f76",
+      "019d1652-4208-752a-b262-c638b02bd781"
+    ],
+    "archivedAt": "2026-09-30 20:22:40.692+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-03-22 16:09:33.21+00",
+    "updatedAt": "2026-03-22 16:13:05.473826+00",
+    "messages": [
+      {
+        "id": "019d164f-0514-78a3-81c4-8936049a1596",
+        "evaluationSessionId": "019d164b-9cde-7ca8-8111-7c8f9a948a73",
+        "evaluationId": "019d164f-10dc-7600-a586-58fd515ace72",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "CK2. Suggest names to my councillors. Something not long, not importantly real ir serious. That I immediately understand persons specialisation. I have no imagination, so I valled them Diplo, Marty, Stew, Intri, Learn (he's chaplain and physician), plus commanders Left (speed of army), Center (damage against different faith), Right (siege speed). And wife - Wifey",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-22T16:09:33.676974+00:00",
+        "updatedAt": "2026-03-22T16:09:33.676974+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d164f-0516-7d0a-859f-aadef37f3451",
+        "evaluationSessionId": "019d164b-9cde-7ca8-8111-7c8f9a948a73",
+        "evaluationId": "019d164f-10dc-7600-a586-58fd515ace72",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d164f-0514-78a3-81c4-8936049a1596"
+        ],
+        "content": "Here’s a set of short, dumb, instantly-clear council/commander names that fit perfectly with your zero-effort vibe in CK2. All 1-2 syllables, no real historical names, pure function:\n\n**Council**\n- Diplo → Talky\n- Martial → Stabby\n- Stewardship → Goldy\n- Intrigue → Sneaky\n- Learning (chaplain + physician) → Goddoc\n\n(If you ever split the jobs later: Priest → Prayboy, Doctor → Bleedy)\n\n**Commanders**\n- Left flank (movement speed) → Zoomy\n- Center (damage vs different faith) → Smitey\n- Right flank (siege speed) → Breaky\n\n**Bonus army-themed extras if you need more knights**\n- Tanky (high toughness/defense)\n- Burny (pillage or light infantry bonus)\n- Horsey (cavalry bonus)\n\n**Wife**\nKeep Wifey, it’s already perfect. Alternatives if you want variety:\n- Breedr\n- Womb\n- Legit (for legit kids only)\n\nNow your council screen looks like a 12-year-old’s Minecraft server and you’ll never forget who does what. Enjoy your beautiful disaster realm.",
+        "experimental_attachments": [],
+        "modelId": "019a9389-a4d8-748d-9939-b4640198302e",
+        "createdAt": "2026-03-22T16:09:33.69688+00:00",
+        "updatedAt": "2026-03-22T16:09:48.187697+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1651-14bd-7fc1-9b20-8d2c6594ecb6",
+        "evaluationSessionId": "019d164b-9cde-7ca8-8111-7c8f9a948a73",
+        "evaluationId": "019d164f-10dc-7600-a586-58fd515ace72",
+        "role": "user",
+        "parentMessageIds": [
+          "019d164f-0516-7d0a-859f-aadef37f3451"
+        ],
+        "content": "That ferls wrong that everyone ends on \"y\". Another ideas? Universal for different religions/cultures. International maybe",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-22T16:11:48.07914+00:00",
+        "updatedAt": "2026-03-22T16:11:48.07914+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1651-14c0-72f0-a14e-5e849eabd063",
+        "evaluationSessionId": "019d164b-9cde-7ca8-8111-7c8f9a948a73",
+        "evaluationId": "019d164f-10dc-7600-a586-58fd515ace72",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d1651-14bd-7fc1-9b20-8d2c6594ecb6"
+        ],
+        "content": "Here’s a new set — still super short, still instantly screams “this is his job”, zero “-y” endings, works no matter if you’re Norse, Byzantine, Indian, Muslim, whatever:\n\n**Council**\n- Diplo → Mouth\n- Martial → Sword\n- Stewardship → Coin\n- Intrigue → Knife (or Dagger)\n- Learning (chaplain+physician) → Book (or Scroll)\n\n**Commanders**\n- Left flank (speed) → Boots\n- Center (damage vs infidels) → Cross (works for Christians) → Flame (works for Muslims/Zoros) → Axe (works for pagans) → just pick whichever icon you like, or use Hammer\n- Right flank (siege) → Ram\n\n**Wife**\n- Queen\n- Bed ( ͡° ͜ʖ ͡°)\n- Heirfactory\n\nEven shorter ultra-international version (literally just emojis in your head):\n- Diplo → 🗣️\n- Martial → ⚔️\n- Steward → 💰\n- Intrigue → 🗡️\n- Learning → 📖\n- Speed commander → 🥾\n- Holy war commander → 🔥\n- Siege commander → 🐏\n- Wife → 👑 or 🤰\n\nBut since CK2 doesn’t let you use actual emojis, the one-word list above (Mouth, Sword, Coin, Knife, Book, Boots, Flame, Ram) is truly universal and culture/religion-proof. You’ll never be confused again.",
+        "experimental_attachments": [],
+        "modelId": "019a9389-a4d8-748d-9939-b4640198302e",
+        "createdAt": "2026-03-22T16:11:48.085097+00:00",
+        "updatedAt": "2026-03-22T16:11:53.225455+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1652-41f3-7994-a5ce-5295b9eb692f",
+        "evaluationSessionId": "019d164b-9cde-7ca8-8111-7c8f9a948a73",
+        "evaluationId": "019d1652-4c09-7d3a-b6d1-03a3d55c4805",
+        "role": "user",
+        "parentMessageIds": [
+          "019d1651-14c0-72f0-a14e-5e849eabd063"
+        ],
+        "content": "Something more serious. Maybe with surnames (dynasty name)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-22T16:13:05.423924+00:00",
+        "updatedAt": "2026-03-22T16:13:05.423924+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1652-4208-752a-b262-c638b02bd781",
+        "evaluationSessionId": "019d164b-9cde-7ca8-8111-7c8f9a948a73",
+        "evaluationId": "019d1652-4c09-7d3a-b6d1-03a3d55c4805",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d1652-41f3-7994-a5ce-5295b9eb692f"
+        ],
+        "content": "Here is a set of names that sound like serious, medieval noble dynasties, but their surnames are English words that immediately tell you their job. \n\nThey fit perfectly into the CK2 name UI (First Name + Last Name).\n\n### The Council (Noble Dynasties)\n*   **Diplomacy:** Aldo **Pact** (or Aldo of House Envoy)\n*   **Martial:** Gar **Steel** (or Gar of House Iron)\n*   **Stewardship:** Silas **Ledger** (or Silas of House Coffer)\n*   **Intrigue:** Vance **Whisper** (or Vance of House Cloak)\n*   **Learning (Priest/Doctor):** Elias **Quill** (or Elias of House Cure)\n\n### The Commanders\n*   **Left (Movement speed):** Gale **Swift** (or Gale of House March)\n*   **Center (Holy war damage):** Zeke **Zeal** (or Zeke of House Smite)\n*   **Right (Siege speed):** Ram **Breach** (or Ram of House Wall)\n\n### The Wife\n*   Lady **Consort**\n*   Regina **Crown** (Regina means Queen in Latin)\n*   Lana **Match**\n\n***\n\n### Why this works for CK2:\nWhen you look at your council or army tab, you will see names like **Silas Ledger** or **Gale Swift**. It looks like a real, serious historical name, but you will instantly know that Silas handles the money and Gale is your fast-moving general.",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-22T16:13:05.467793+00:00",
+        "updatedAt": "2026-03-22T16:19:38.297997+00:00",
+        "participantPosition": "b",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "nRetries": 2,
+          "directBattleStrategy": "random-random"
+        }
+      },
+      {
+        "id": "019d1652-4208-762c-b7e1-6e95c8cd3f76",
+        "evaluationSessionId": "019d164b-9cde-7ca8-8111-7c8f9a948a73",
+        "evaluationId": "019d1652-4c09-7d3a-b6d1-03a3d55c4805",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d1652-41f3-7994-a5ce-5295b9eb692f"
+        ],
+        "content": "Okay, let's step up the gravitas a bit! These suggestions aim for a more dignified, almost hereditary-sounding title-as-surname feel, still keeping it concise and clear about their role, and widely applicable across cultures.\n\nThink of these as names they might *earn* or that designate their specific \"house\" or \"line\" of specialists within your service.\n\n---\n\n**Council**\n\n*   **Diplomat:** (Was Diplo)\n    *   **The Accord:** Signifies treaties, agreements, and diplomatic skill.\n    *   **The Covenant:** Implies binding promises and alliances.\n    *   *Suggestion:* **Accord** (e.g., *Lord [First Name] Accord*)\n\n*   **Marshal:** (Was Marty)\n    *   **The Steel:** Represents strength, military might, unyielding defense.\n    *   **The Garrison:** Implies guardian of borders and armies.\n    *   *Suggestion:* **Steel** (e.g., *Sir [First Name] Steel*)\n\n*   **Steward:** (Was Stew)\n    *   **The Mason:** Signifies building, prosperity, and sound foundations.\n    *   **The Vault:** Keeper of treasures, manager of wealth.\n    *   *Suggestion:* **Mason** (e.g., *Master [First Name] Mason*)\n\n*   **Intrigue:** (Was Intri)\n    *   **The Shadow:** Implies stealth, secrets, and hidden influence.\n    *   **The Whisper:** Suggests covert communication and plots.\n    *   *Suggestion:* **Shadow** (e.g., *[First Name] of the Shadow*)\n\n*   **Learning (Chaplain & Physician):** (Was Learn)\n    *   **The Lore:** Keeper of knowledge, wisdom, and spiritual guidance.\n    *   **The Sage:** Denotes profound wisdom and scholarly pursuits.\n    *   *Suggestion:* **Lore** (e.g., *Apostle [First Name] Lore*)\n\n---\n\n**Commanders**\n\n*   **Left Flank (Speed of Army):** (Was Left)\n    *   **The Vanguard:** Leads the charge, swift movement, first into battle.\n    *   **The Swift:** Emphasizes speed and maneuverability.\n    *   *Suggestion:* **Vanguard** (e.g., *Captain [First Name] Vanguard*)\n\n*   **Center (Damage against Different Faith):** (Was Center)\n    *   **The Hammer:** Implies crushing power, a decisive blow against foes.\n    *   **The Zeal:** Represents fervent devotion and holy wrath.\n    *   *Suggestion:* **Hammer** (e.g., *Commander [First Name] Hammer*)\n\n*   **Right Flank (Siege Speed):** (Was Right)\n    *   **The Breacher:** Expert at tearing down fortifications.\n    *   **The Wallrend:** Signifies the ability to dismantle defenses.\n    *   *Suggestion:* **Breacher** (e.g., *Sergeant [First Name] Breacher*)\n\n---\n\n**Wife** (Was Wifey)\n\n*   **The Matron:** A dignified title, signifying the lady of the household and mother of heirs.\n*   **The Consort:** A formal title for the spouse of a ruler.\n*   *Suggestion:* **Matron** (e.g., *Lady [First Name] Matron*)\n\n---\n\nThese names offer a blend of functional clarity and a more serious, almost aristocratic tone, without being overly specific to any single culture or religion.",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-22T16:13:05.467793+00:00",
+        "updatedAt": "2026-03-22T16:19:53.394599+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "nRetries": 2,
+          "directBattleStrategy": "random-random"
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019d164f-10dc-7600-a586-58fd515ace72",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      },
+      {
+        "id": "019d1652-4c09-7d3a-b6d1-03a3d55c4805",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a9389-a4d8-748d-9939-b4640198302e",
+        "organization": "xai",
+        "provider": "xaiApi",
+        "publicName": "grok-4.1",
+        "name": "grok-4.1",
+        "displayName": "grok-4.1",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "exportedAt": "2026-10-09T16:28:02.949Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019d109c-22b0-71b2-8076-5d3c2aff50e6",
+  "archivedAt": "2026-09-30 20:19:44.687+00",
+  "evaluation": {
+    "id": "019d109c-22b0-71b2-8076-5d3c2aff50e6",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "\"Spore\" game simulator. Roleplay RPG. Beginning.",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019d109c-97c6-7406-85d3-7e19bfa9d727"
+    ],
+    "archivedAt": "2026-09-30 20:19:44.687+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-03-21 13:36:32.477+00",
+    "updatedAt": "2026-03-21 13:36:32.946623+00",
+    "messages": [
+      {
+        "id": "019d109c-97c4-77c1-810f-ed2b43dbdb8b",
+        "evaluationSessionId": "019d109c-22b0-71b2-8076-5d3c2aff50e6",
+        "evaluationId": "019d109c-9ea1-791c-b2a2-5b43ab65304b",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "\"Spore\" game simulator. Roleplay RPG. Beginning.",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-21T13:36:32.938857+00:00",
+        "updatedAt": "2026-03-21T13:36:32.938857+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d109c-97c6-7406-85d3-7e19bfa9d727",
+        "evaluationSessionId": "019d109c-22b0-71b2-8076-5d3c2aff50e6",
+        "evaluationId": "019d109c-9ea1-791c-b2a2-5b43ab65304b",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d109c-97c4-77c1-810f-ed2b43dbdb8b"
+        ],
+        "content": "The cosmos is a silent, swirling abyss of violet nebulae and distant, twinkling stars. You are a **Spark of Life**, a microscopic organism drifting in the warm, mineral-rich soup of a primordial tide pool on the planet **Aethelgard**.\n\nYou possess no limbs, no shell, and no complex brain. You are a single cell, buoyant and hungry. The water around you is thick with organic detritus and floating spores of your kin. Sunlight filters through the surface, casting dancing, golden shafts of light into the depths of the pool.\n\nAround you, other organisms—some tiny, some pulsating with rhythmic contractions—dart through the current. You feel the primitive urge to thrive, to consume, and to evolve.\n\n***\n\n**Your current state:**\n*   **Form:** Simple Microbe (Omnivore)\n*   **Health:** [|||||] (Full)\n*   **Environment:** Shallow Tidal Pool (Sunlit, crowded)\n*   **Inventory:** None (You are a single cell)\n\n**What do you do?**\n\n1.  **Consume:** Filter-feed on the floating green particles (phytoplankton) drifting in the water nearby.\n2.  **Hunt:** Sense a smaller, weaker microbe pulsing nearby. Attempt to engulf it for a boost of growth.\n3.  **Explore:** Swim toward the darker, deeper waters of the pool to see what lies in the shadows.\n4.  **Observe:** Scan your surroundings for potential threats or hidden nutrients.\n\n**Input your choice or describe your own action.**",
+        "experimental_attachments": [],
+        "modelId": "019cb616-bf47-7457-acaf-3e2a15a882ef",
+        "createdAt": "2026-03-21T13:36:32.943062+00:00",
+        "updatedAt": "2026-03-21T13:36:38.653215+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019d109c-9ea1-791c-b2a2-5b43ab65304b",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019cb616-bf47-7457-acaf-3e2a15a882ef",
+        "organization": "google",
+        "provider": "googleVertexGlobalWithThoughtSignatures",
+        "publicName": "gemini-3.1-flash-lite-preview",
+        "name": "gemini-3.1-flash-lite-preview",
+        "displayName": "gemini-3.1-flash-lite-preview",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "exportedAt": "2026-10-09T16:20:30.945Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session.",
+    "Tool outputs are preserved as recorded; the exporter does not re-run tools or retrieve omitted fetch_page chunks/read_file ranges or unavailable image bytes."
+  ],
+  "recordType": "agentic",
+  "conversationUrl": "https://arena.ai/agent/01a0b6ab-32b9-71c9-a099-b1bc80d91040",
+  "archivedAt": "2026-09-30 20:00:19.314+00",
+  "agent": {
+    "id": "01a0b6ab-32b9-71c9-a099-b1bc80d91040",
+    "type": "agentic",
+    "title": "I wanted to play Vrising offline. I tried some in game settings, something with LAN, it probably mea…",
+    "createdAt": "2026-09-18 22:37:48.800647+00",
+    "updatedAt": "2026-09-18 22:38:24.356483+00",
+    "pageUrl": "https://arena.ai/agent/01a0b6ab-32b9-71c9-a099-b1bc80d91040",
+    "session": {
+      "lastEventId": "452",
+      "taskId": "chat-agent",
+      "triggerAddress": "01a0b6ab-32b9-71c9-a099-b1bc80d91040",
+      "publicAccessTokenRedacted": true
+    },
+    "taskId": "chat-agent",
+    "triggerAddress": "01a0b6ab-32b9-71c9-a099-b1bc80d91040",
+    "messages": [
+      {
+        "id": "01a0b6ab-281c-760d-9b60-1ced059f468a",
+        "metadata": {
+          "manifestNodeId": null,
+          "nodeId": "01a0b6ab-281c-760d-9b60-1ced059f468a",
+          "pending": false,
+          "requiresReview": false,
+          "feedback": {}
+        },
+        "role": "user",
+        "parts": [
+          {
+            "type": "text",
+            "text": "I wanted to play Vrising offline. I tried some in game settings, something with LAN, it probably meant that I'd be playing as if on server that is my own pc. But couldn't make it work"
+          }
+        ]
+      },
+      {
+        "id": "01a0b6ab-6abf-72b6-87ab-3ed7906d23b6",
+        "metadata": {
+          "timing": {
+            "startedAt": 1789771073621,
+            "completedAt": 1789771103484
+          },
+          "manifestNodeId": null,
+          "nodeId": "01a0b6ab-6abf-72b6-87ab-3ed7906d23b6",
+          "pending": false,
+          "requiresReview": false,
+          "feedback": {
+            "checkIn": "approve"
+          }
+        },
+        "role": "assistant",
+        "parts": [
+          {
+            "type": "step-start"
+          },
+          {
+            "type": "reasoning",
+            "text": "",
+            "state": "done"
+          },
+          {
+            "type": "text",
+            "text": "Let me quickly check the current details so I don't send you down the wrong path.",
+            "state": "done"
+          },
+          {
+            "type": "tool-web_search",
+            "toolCallId": "toolu_vrtx_01BW51em2drAscQpL5bF5HPg",
+            "state": "output-available",
+            "input": {
+              "query": "V Rising play offline LAN mode private game steam offline mode not working",
+              "depth": "2"
+            },
+            "output": {
+              "status": "success",
+              "results": [
+                {
+                  "id": 1,
+                  "title": "No offline mode or server problem? :: V Rising General Discussions",
+                  "url": "https://steamcommunity.com/app/1604030/discussions/0/600768722043446553/",
+                  "description": "### V Rising\nI try to play offline when i get to the character screen i Keep getting disconnecting from server error. Don't support offline or something is wrong with the game? > **Private Offline :** Start Game > Click Load Game > Under Local Saves - Select Your Server Name > Click LAN Server > Click Host Game Selecting the LAN option just ensures the server is restricted only to your local area network and not online If you plan to be online but want the server to remain offline, LAN should be selected. **Offline ( No Internet Required ) :** While Offline ( Not Connected To The Internet ) : Go In Offline Mode With Steam > Start Game > Click Load Game > Under Local Saves - Select Your Server Name > Click LAN Server > Click Host Game **NOTE :** Your network adapter must be enabled to play in offline mode even though you are not connected to the internet. If network adapters are disabled, it will not create or load a game or server there is no offline, Clicking Lan Server is just for People on your network to join\n\n#2\n\n< >\n\nShowing 1-2 of 2 comments\n\nPer page: 15 30 50\n\nV Rising > General Discussions > Topic Details\n\nDate Posted: Jan 26, 2025 @ 11:45am\n\nPosts: 2\n\nDiscussions Rules and Guidelines\n\nClose"
+                },
+                {
+                  "id": 2,
+                  "title": "Single-Player Offline? :: V Rising General Discussions",
+                  "url": "https://steamcommunity.com/app/1604030/discussions/0/4038104984914159265/?l=english",
+                  "description": "### V Rising\nI don't know for sure, but you can just unplug your internet connection and try it offline.\n#3\nReport this post\n\nfairly sure it works offline since its self hosted > fairly sure it works offline since its self hosted\n\nNo, it doesn't. You need to be in a server in order to play, even if you set in offline mode, you are still playing in your server that you are hosting. Basically, there's no way to play outside a server. My intention is to avoid playing in a server, but it seems it's impossible, you are always bound to play in a server, even if it's your hosted server. Report this post\n\nYou can play offline if you start your world like this: Play > Private Game > LAN Server (Check) > Start New Game\n\n#6\n\n󠀡D.A.R.K. > You can play offline if you start your world like this: Play > Private Game > LAN Server (Check) > Start New Game\n\nYes, you play offline, but you still play in your server, there's no way to avoid playing in a server. When you create a world, a game, you are hosting a server to yourself. Originally posted by **eon**:\n\n> You can play offline if you start your world like this: Play > Private Game > LAN Server (Check) > Start New Game\n\n> Yes, you play offline, but you still play in your server, there's no way to avoid playing in a server. When you create a world, a game, you are hosting a server to yourself EN PT**:\n\n> Yes, you play offline, but you still play in your server, there's no way to avoid playing in a server. When you create a world, a game, you are hosting a server to yourself YES, you can play without internet. Join a server doesn't require internet if the server is in your machine. The game only requires from you that you join a server to play, this bothers me because there's always more than one instance of the game running (if you open Task Manager you'll see Vrising.exe and VrisingServer.exe). It's like being forced to have a server to play Minecraft and this server is hosted in your machine, so at any point, even offline, even without internet, you can open the server and join your server. Driko\n\nhas V Rising\n\nJan 23, 2024 @ 6:38am\n\nReport this post\n\nThis game is not made to be a singleplayer at it's core so, In my view, it will always (almost 100% sure) require a server, be it self hosted in your machine or not. So... no point in asking it cause they will not compile the whole game twice just so singleplayer doesn't need a server. SoloBakvet\n\nhas V Rising\n\nJan 23, 2024 @ 6:55am\n\nReport this post\n\nThis game works like minecraft. When you play solo it also creates a server invisibly on your personal computer it connects to. This way the developers can use the same code for both single and multiplayer.",
+                  "pageAge": "Thursday, December 28, 2023"
+                },
+                {
+                  "id": 3,
+                  "title": "Single player offline mode possible? :: V Rising General Discussions",
+                  "url": "https://steamcommunity.com/app/1604030/discussions/0/4358998752035332757/",
+                  "description": "### V Rising\nOriginally posted by **Suzaku**:\n\n> There is single-player offline mode. Make a private server, choose solo only, turn on LAN mode if you want.\n\n> So LAN is single player, but it currently doesn't work judging by the answers?\n\nLAN is local area network, meaning only people connected to your network can join you, which is basically offline. There is a separate solo option you can also select. And you can put a password on your server. And you can pull out your ethernet cord. That's like 4 layers of alone < >\n\nShowing 1-12 of 12 comments\n\nSuzaku\n\nhas V Rising\n\nMay 9, 2024 @ 8:32am\n\nReport this post\n\nThere is single-player offline mode. Make a private server, choose solo only, turn on LAN mode if you want.\n\n#1\n\nbrianmia\n\nMay 9, 2024 @ 8:35am\n\nReport this post\n\nApparently it currently does not work, the devs are working on it\n\n#2\n\nPantsu Goblin\n\nhas V Rising May 9, 2024 @ 8:36am\n\nReport this post\n\nOriginally posted by **brianmia**:\n\n> Apparently it currently does not work, the devs are working on it\n\nIt works fine, I've been playing offline singleplayer since 1.0 released yesterday.\n\n#3\n\nm662\n\nhas V Rising The LAN button selection does not work after creating the server however the server itself works fine in offline mode. I am playing exclusively offline and every patch as long as I did a verify files afterwards before launching again works with offline play and no internet.\nOriginally posted by **Suzaku**:\n\n> There is single-player offline mode. Make a private server, choose solo only, turn on LAN mode if you want No it works but the interface showing it as working is bugged. Also changing the LAN state *after* first creating the server is not possible from the interface and has to be done from the config file. Most issues people have with server settings *apart of some options that got removed or are completely bugged* is simple visual feedback that the options are indeed selected or not understanding how to actually save the options. For example a increase in health should show up as a game modifier as well as resource modifiers but they do not in the interface yet still are applied Originally posted by **Suzaku**:\n\n> There is single-player offline mode. Make a private server, choose solo only, turn on LAN mode if you want > So LAN is single player, but it currently doesn't work judging by the answers?\n\nLAN is local area network, meaning only people connected to your network can join you, which is basically offline. There is a separate solo option you can also select. And you can put a password on your server. And you can pull out your ethernet cord. That's like 4 layers of alone. Fel\n\nhas V Rising\n\nMay 9, 2024 @ 9:01am\n\nReport this post\n\nSingle player is fine ive been playing all night.\nein",
+                  "pageAge": "Thursday, May 09, 2024"
+                },
+                {
+                  "id": 4,
+                  "title": "r/pcgaming on Reddit: V Rising adds LAN Mode (Offline mode)",
+                  "url": "https://www.reddit.com/r/pcgaming/comments/uxfp8l/v_rising_adds_lan_mode_offline_mode/",
+                  "description": "# V Rising adds LAN Mode (Offline mode)\n## Amphax\n```\nTo play V Rising without an internet connection you need to follow these steps:\n\nBefore you disconnect from the internet you need to\nStart Steam\nGo Offline on Steam (Steam -> Go Offline…)\nAfter this, you can disconnect from the internet\n``` ### HellGate94\nthis is for steam to work in offline mode and has nothing to do with the game i think ### HellGate94 › PointOutApproved\nI wondered about that, I assume they don’t actually need that anymore. On the steam deck you can access and play your games without an internet connection ## toe_pic_inspector\nHoly fk! The reason I didn't get this game is due to a lack of sp offline but seems like the devs actually enable this now? ## Lhorious\nSo good to see this. We won't be able to play most online, coop, multiplayer games because there is no LAN mode Have you ever asked yourself, \"Should I buy this game?\" Weekly visitors Weekly contributions Should I buy V Rising? upvotes · comments Cant play v rising via LAN r/PiratedGames • A banner for the subreddit r/PiratedGames Welcome to r/PiratedGames, where you can talk about the latest games and cracks!",
+                  "pageAge": "Wednesday, May 25, 2022"
+                },
+                {
+                  "id": 5,
+                  "title": "PSA: Game can be played fully offline :: V Rising General Discussions",
+                  "url": "https://steamcommunity.com/app/1604030/discussions/0/4358998752032965154/",
+                  "description": "### V Rising\nI’m seeing a lot of new and curious players since the launch last night, which is great! Also seeing some confusion around how the game handles “offline” or “single player” mode. Long story short: you can completely play V Rising with zero internet connection. You simply boot into the game, set a private server and you’re good to go. If there are any doubts, try again without wifi or Ethernet connection and you’ll be able to jump in and play no problem. I think some of the confusion is around the fact the game uses the term “server” to describe what are essential game saves The “server”, so-to-speak, for an offline player is simply hosted on their own PC locally. Hope that clears it up! So currently you need to be online to play, despite them advertising being able to play offline when the game was first released in early access > This is actually not true currently. If you don't check the LAN server option, the game still requires an internet connection. If you do check it, too bad, because it gets unchecked as soon as you stop playing and can never be enabled again. When you try to check it again, nothing happens. Without the LAN server option toggled, a few seconds to a few minutes after you start a session, you get an authentication error and get kicked out to the main menu If you search the forums for \"LAN server\" you will see there a few threads people opened about this exact same thing in the last few hours. I did try the game in offline mode, and the issue happens whether you go in offline mode or just disconnect the internet. Someone found a workaround where you need to edit the server config file but even that's finicky and it shouldn't be necessary. Also a fair warning for anyone still considering buying the game for solo, the game is clearly meant to be played on dedicated servers with other people > Ahhh, I was happy to see the post about offline and was about to buy the game... then I saw the reply and I have to set the game to ignore instead so I don't accidentally buy it in the future. I'm done with the \"regret to inform you\" shutdown messages from developers rendering games useless.\n\nAs mentioned, I think this is a bug. You have always been able to enable LAN and play offline for hours. Desphael’s issue seems to be menu or option related, not some sneaky attempt by the devs to mislead buyers\n\n#4 If you search the forums for \"LAN server\" you will see there a few threads people opened about this exact same thing in the last few hours. Someone found a workaround where you need to edit the server config file but even that's finicky and it shouldn't be necessary. Also a fair warning for anyone still considering buying the game for solo, the game is clearly meant to be played on dedicated servers with other people. It has several mechanics that depend on time passing even when you are not playing, for example crafting planks while you are not playing My guess is if you’re playing on a private “solo server” those times continue to tick down as the “server” in this case is still being hosted by you after establishing it If you’re playing on a “true offline” server with LAN, the game no longer communications with your PC/local network when the application is closed, thus the timers stop I wouldn’t go as far as saying “it’s meant to be played with multiple people” though. I’ve played about 100 hours on default settings totally solo and found no issue whatsoever with progression Originally posted by **Desphael**:\n\n> The offline mode was added about a week (or was it a month? can't quite remember) after the game came out in early access, when the game came out it was online only. That being despite them advertising on the store page play online or offline when it came out. The LAN option has been bugged ever since. I don't know if it was bugged for everyone or just for some people but a lot of people reported having the same issue. Now the game came out and it's still not fixed Originally posted by **HappyCamper**:\n\n> Trying to start a private, solo only server and i've tried both with lan option on and off, and all i get is \"Error: No response from remote host\" so yeah i'd say this \"fully offline\" talk is complete bs.\n\nI'm experiencing the same issue. Offline play is no longer an option, it seems.",
+                  "pageAge": "Wednesday, May 08, 2024"
+                }
+              ]
+            }
+          },
+          {
+            "type": "step-start"
+          },
+          {
+            "type": "text",
+            "text": "Good news: V Rising *can* be played fully offline. Your understanding is right — the game always runs a tiny server (VRisingServer.exe) on your own PC and connects to it, even in \"single player\". The LAN checkbox just tells that local server \"don't authenticate with Steam/online services\", which is what makes it work without internet. [2](https://steamcommunity.com/app/1604030/discussions/0/4038104984914159265/?l=english)\n\nThe catch: **the LAN toggle is notoriously buggy in the UI** — it often gets unchecked after you quit, and re-checking it in the menu sometimes doesn't actually apply. [5](https://steamcommunity.com/app/1604030/discussions/0/4358998752032965154/) That's very likely why it \"didn't work\" for you. Here's how to do it reliably.\n\n## Step 1 — Do the setup while still online\n1. Start Steam **while connected**, then **Steam → Go Offline**. (Do this before unplugging; Steam needs to be told to go offline while it can still talk to Valve.) [4](https://www.reddit.com/r/pcgaming/comments/uxfp8l/v_rising_adds_lan_mode_offline_mode/)\n2. Launch V Rising → **Play → Private Game → tick \"LAN Server\"** → choose Solo/PvE etc. → **Start New Game**. [2](https://steamcommunity.com/app/1604030/discussions/0/4038104984914159265/?l=english)\n3. For an existing save: **Load Game → Local Saves → your save → tick \"LAN Server\" → Host Game**. [1](https://steamcommunity.com/app/1604030/discussions/0/600768722043446553/)\n\n## Step 2 — If the LAN toggle won't stick, force it in the config file\nThis is the fix that actually works when the checkbox is broken:\n\n1. Close the game.\n2. Go to `%USERPROFILE%\\AppData\\LocalLow\\Stunlock Studios\\VRising\\Saves\\v4\\<your-save-folder>\\`\n   (paste that path into Explorer's address bar; there's one folder per save/\"server\").\n3. Open **`ServerHostSettings.json`** in Notepad.\n4. Find `\"LanMode\": false` and change it to `\"LanMode\": true`. Save.\n5. Launch the game and load that save.\n\n## Things that trip people up\n- **Network adapter must be enabled** even with no internet. If you disable Wi-Fi/Ethernet entirely in Windows, the local server can't start (\"No response from remote host\" / \"disconnected from server\"). Just unplug the cable or disconnect from Wi-Fi instead of disabling the adapter. [1](https://steamcommunity.com/app/1604030/discussions/0/600768722043446553/)\n- **Without LAN mode, you'll get an authentication error** and be kicked to the main menu a few seconds to minutes in — that's the symptom of playing \"offline\" with LAN unticked. [5](https://steamcommunity.com/app/1604030/discussions/0/4358998752032965154/)\n- After a game patch, **verify game files** in Steam once (while online) before going back offline — a few players report offline breaks otherwise. [3](https://steamcommunity.com/app/1604030/discussions/0/4358998752035332757/)\n- Side effect of LAN/offline: crafting/refinement timers only tick while the game is actually running, since the \"server\" stops when you close the game. [5](https://steamcommunity.com/app/1604030/discussions/0/4358998752032965154/)\n\nIf you tell me the exact error message you got (e.g. \"disconnected from server\", \"no response from remote host\", or auth error), I can narrow it down further.",
+            "state": "done"
+          }
+        ]
+      }
+    ],
+    "pagination": {
+      "hasMore": false,
+      "cursor": null,
+      "limit": 20
+    },
+    "transcriptReadStrategy": "bounded",
+    "productMode": "chat",
+    "feedbackType": "check_in",
+    "customFeedbackArm": null,
+    "connectorsEnabled": true,
+    "arenaFeedbackEnabled": false,
+    "rubricsEnabled": false,
+    "pinnedModel": null,
+    "archivedAt": "2026-09-30 20:00:19.314+00"
+  }
+}

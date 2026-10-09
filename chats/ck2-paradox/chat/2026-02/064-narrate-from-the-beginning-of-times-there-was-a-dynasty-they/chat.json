@@ -1,0 +1,94 @@
+{
+  "exportedAt": "2026-10-09T16:28:27.204Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c3d01-0d38-7059-9697-8f61338fec7a",
+  "archivedAt": "2026-09-30 19:27:53.541+00",
+  "evaluation": {
+    "id": "019c3d01-0d38-7059-9697-8f61338fec7a",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "Narrate. From the beginning of times there was a dynasty. They didn't war. They married. Heroes, con",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c3d01-94e0-7ef7-a4e2-a30935f6863f"
+    ],
+    "archivedAt": "2026-09-30 19:27:53.541+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-08 11:27:21.324+00",
+    "updatedAt": "2026-02-08 11:27:21.750722+00",
+    "messages": [
+      {
+        "id": "019c3d01-94de-7a95-a945-164d07e5f460",
+        "evaluationSessionId": "019c3d01-0d38-7059-9697-8f61338fec7a",
+        "evaluationId": "019c3d01-9aec-7ab1-930a-236832076aa0",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "Narrate. From the beginning of times there was a dynasty. They didn't war. They married. Heroes, conquerors, legends, gods. Their members traveled around the world, as if sensing where will the next story happen, where will they find their next groom or bride. And it never stopped. Epochs were changing each other. Age of Gods ended, but this dynasty still held their lagacy in their blood. Famous historical figures (that didn't even become famous yet) happened to marry with this family. Heroes died, but their legacy coursed further into future through veins of this dynasty. Medieval times came, and this dynasty continued what it started long ago. Intermarrying with prosperous houses, marrying last members of dynasties, so their line doesn't get cut, but live on. (imagine that this whole narration is about ck2 player and how world percieves a dynasty he's playing with. Player's goal is to entangle every historical, mythical, legendary person into their dynasty, to make its heir descendant of every famous dynasty that is known and famous in modern history. to merge their bloodlines into his family)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-08T11:27:21.724891+00:00",
+        "updatedAt": "2026-02-08T11:27:21.724891+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c3d01-94e0-7ef7-a4e2-a30935f6863f",
+        "evaluationSessionId": "019c3d01-0d38-7059-9697-8f61338fec7a",
+        "evaluationId": "019c3d01-9aec-7ab1-930a-236832076aa0",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c3d01-94de-7a95-a945-164d07e5f460"
+        ],
+        "content": "In the first mornings—before calendars learned to count themselves, before nations learned to name themselves—there was a house that did not begin with a city.\n\nIt began with a vow.\n\nWhile other lineages were born from conquest and fire, this one was born from joining: hand to hand, blood to blood, story to story. In the oldest songs they are not remembered for sieges or slaughterfields. They are remembered for arriving—always arriving—at the edge of whatever tale was about to start. As if the world itself breathed out hints and omens, and they could feel them in their bones: *go there; the next chapter will open there; the next name worth keeping will be found there.*\n\nThey did not war.\n\nThey married.\n\nAnd so the Age of Gods did not pass over them like weather. It branded them. They were present in the myths the way a river is present in a landscape—rarely the center of the painting, always the reason everything else is where it is. A daughter taken as bride to still a feud between sunlit halls and underworld courts. A son pledged not for land, but for legitimacy: the right to say, later, *we were there when the world was still close to the divine.*\n\nWhen heroes rose—too bright to last—they burned out as all heroes do. Their names became titles. Their deeds became genealogy. A champion who could not be defeated in life was defeated by time, but time was no enemy of the House. Time was their canvas. A fallen demigod’s last child did not vanish into obscurity; a careful marriage gathered that ember and carried it forward, wrapped in oaths, tucked behind ordinary faces. The House learned early that immortality is not a body. Immortality is inheritance.\n\nThen the world hardened. The Age of Gods thinned into the Age of Kings. Bronze gave way to iron. The old miracles became rarer, and the new miracles had sharper edges: law, coin, writing, roads that could move armies like blood through veins. Men who would someday be called “Great” were, for a brief moment, simply eligible—unmarried, ambitious, unguarded against the soft trap of kinship. The House was there, not always with crowns, but with daughters of impeccable lineage and sons trained to smile like destiny.\n\nChroniclers in later centuries would argue about causes. They would point to treaties, to migrations, to famine and fortune. They would count spears and ships. But if you read between the lines of their accounts, a quieter instrument keeps striking the same note: a marriage arranged *just in time*, a widowed heir found *just in time*, the last branch of a celebrated tree grafted onto a trunk that never seemed to die.\n\nEmpires rose and called themselves eternal. The House watched, patient. Eternity was a word for monuments; they preferred something sturdier: grandchildren.\n\nWhen dynasties began to fall, the House learned a darker craft. Not killing—never that, not as a rule, not as a principle—but collecting what collapse left behind. A royal line snuffed by plague? A lone surviving cousin taken in, honored, wed. A throne toppled by rebellion? A princess spirited away from the smoke, given a household where her name would not be lost, only… repurposed. The House did not rescue crowns. It rescued claims, blood, legitimacy—the invisible metals people mint nations from.\n\nBy the time the world reached the age you would recognize—stone keeps, prayer-bells, banners stiff with heraldry—the House was no longer a family in the simple sense. It was an archive that walked, a living library bound in skin and oath. Other houses spoke of purity; the House spoke of continuity. Others guarded their line like a locked chest; the House opened itself like a road.\n\nAnd so it moved through medieval halls like a rumor with a face.\n\nIn one court, they arrived as distant kin “rediscovered” through dusty records. In another, as impecunious nobility with impeccable ancestry. In another, as patron-saints of stability, offering marriages the way priests offer absolution: not because the other party deserved it, but because the world *needed* it. The powerful found them useful. The desperate found them inevitable. The last survivors of glorious names found them… merciful.\n\nAnd the House kept its strange habit: marrying into prosperous families not to steal their glory, but to staple their future to its own. Marrying into dwindling dynasties not to end them, but to prevent endings. Taking famous bloodlines—some already celebrated, some not yet destined for their chapter in the book of history—and threading them together until the tapestry could no longer be unraveled.\n\nPeople began to notice a pattern without understanding it. A king would wed, and suddenly the bride’s distant cousin would be someone *remarkable*. A new duke would rise, and his grandmother’s name would be whispered like a key that fit too many locks. Priests muttered about Providence. Poets muttered about Fate. Enemies muttered about witchcraft. The House said nothing, because the truth sounded ridiculous even when spoken plainly:\n\nThat somewhere, behind the noise of wars and coronations, there existed a single, tireless intention—to bind every legend to one lineage, to make the heir of one table the descendant of all tables, until no story in the world could be told without, somewhere in its margins, the same family name written like a signature.\n\nNot conquerors, then.\n\nCurators.\n\nNot raiders of land, but keepers of blood.\n\nWhen a hero died, the House did not mourn the way others mourned. They mourned briefly, correctly—and then they looked to the widow, to the bastard, to the forgotten sister in a convent, to the young cousin no one had thought important. They found the living thread and tied it back into their rope. They did the same for saints and usurpers, for martyrs and tyrants, for poets and prophets, for every house that flared bright enough to be remembered.\n\nEpoch after epoch, they endured. Not because they were stronger.\n\nBecause they were everywhere the story turned.\n\nAnd if, in your own time, you leaf through the names that became famous—names carved into schools, into monuments, into the very way people imagine the past—you may find something that makes the skin prickle: a repeated connection that should not be possible. A dynasty that appears at the edge of too many destinies, quietly present in too many genealogies.\n\nAs if history itself had been courted.\n\nAs if the world had been married.",
+        "experimental_attachments": [],
+        "modelId": "019b1449-0313-7911-b836-419e2ed79b2e",
+        "createdAt": "2026-02-08T11:27:21.733801+00:00",
+        "updatedAt": "2026-02-08T11:28:02.238225+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c3d01-9aec-7ab1-930a-236832076aa0",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b1449-0313-7911-b836-419e2ed79b2e",
+        "organization": "openai",
+        "provider": "openai",
+        "publicName": "gpt-5.2-high",
+        "name": "gpt-5.2-high-no-system-prompt-text",
+        "displayName": "gpt-5.2-high",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

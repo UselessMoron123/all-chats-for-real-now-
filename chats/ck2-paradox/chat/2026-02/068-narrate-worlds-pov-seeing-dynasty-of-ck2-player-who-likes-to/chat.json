@@ -1,0 +1,94 @@
+{
+  "exportedAt": "2026-10-09T16:28:26.517Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c4302-8d0b-7469-b351-a0697a29eb5a",
+  "archivedAt": "2026-09-30 19:56:32.514+00",
+  "evaluation": {
+    "id": "019c4302-8d0b-7469-b351-a0697a29eb5a",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "narrate world's pov seeing dynasty of ck2 player, who likes to collect bloodlines through marriages ",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c4302-b725-7994-bc32-cbf91b35aa93"
+    ],
+    "archivedAt": "2026-09-30 19:56:32.514+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-09 15:26:18.889+00",
+    "updatedAt": "2026-02-09 15:26:20.08151+00",
+    "messages": [
+      {
+        "id": "019c4302-b723-7623-b642-6d28ec99ed94",
+        "evaluationSessionId": "019c4302-8d0b-7469-b351-a0697a29eb5a",
+        "evaluationId": "019c4302-bd09-72a4-86db-d01616a1984c",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "narrate world's pov seeing dynasty of ck2 player, who likes to collect bloodlines through marriages (you can also describe how hard the hunt can be - searching through geneologies to find the member of cadet branch of cadet branch [x] times, or snatching up/saving the last member of dynasty)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-09T15:26:20.057232+00:00",
+        "updatedAt": "2026-02-09T15:26:20.057232+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c4302-b725-7994-bc32-cbf91b35aa93",
+        "evaluationSessionId": "019c4302-8d0b-7469-b351-a0697a29eb5a",
+        "evaluationId": "019c4302-bd09-72a4-86db-d01616a1984c",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c4302-b723-7623-b642-6d28ec99ed94"
+        ],
+        "content": "I am the parchment they unroll.\n\nI am the stitched hide of continents, the salt of seas, the thin ink of borders that never stop trembling. I am the quiet between clicks—the long winter of waiting while a mind on the other side of the veil decides what I will remember and what I will forget.\n\nMost rulers come to me hungry for land. They measure my coasts with armies and take what they can hold.\n\nThis one measures me with names.\n\nNot names like “king,” or “saint,” or “the Great.” Names like *bloodline*. Names like *descended from*. Names like *last living*. Names like the faintest, most inconvenient cousin who happens to carry an ancestral thread that can be braided into a new tapestry.\n\nI feel it the way you feel a change in wind: a sudden stillness in courts, a ripple of messenger birds, the glow of candlelight over ledgers in monasteries. Somewhere, a player leans in. Somewhere, I hear the soft rustle of family trees unfolding like siege plans.\n\nThey call it marriage. I call it cartography of the human vein.\n\n---\n\nAt first, it looks like any dynasty’s rise.\n\nA duke with ambition. A careful count with a knife for patience. A kingdom edged into being not by heroic charges but by treaties, dowries, and the gentle suffocation of neighbors who wake one morning to discover they are “vassals” now.\n\nBut the pattern becomes unmistakable.\n\nThis dynasty does not only want crowns. It wants *origins*. It wants to be able to point at its own children and say: here lies the blood of the conqueror, and here the blood of the saint, and here the blood of the brilliant strategist who once broke an empire over his knee.\n\nIt wants to be a library where every shelf is a lineage.\n\nI have watched bloodlines before. Most fade into me like dye into water—one bright generation, then diluted by plague, war, and forgetfulness.\n\nThis one hunts them.\n\nNot with soldiers, but with *search*.\n\n---\n\nWhen the hunt begins, I can almost see the player’s gaze rise above me, leaving the throne rooms and battlefields and hovering instead over the web of kinship that binds my nobility into one great, squabbling organism.\n\nIt starts with a rumor.\n\nA courtier mentions a distant relation: “My mother’s uncle married into that house.” A bishop murmurs, “There is a cadet branch, I believe, somewhere north.” A wandering scholar holds up a cracked genealogical roll and insists that a minor baron’s daughter has the right grandmother.\n\nAnd then—then I hear the pages turning.\n\nNames are not found in straight lines. They are found in *branches*, and branches split, and splits split again.\n\nA bloodline worth having rarely sits politely in a king’s court with a neon sign above its head. It hides where all fragile things hide: behind the curtain of irrelevance.\n\nIn a backwater county where the lord cannot afford stone walls. In a monastery, wearing humble wool. In the household of someone powerful enough to keep them safe, but not powerful enough to be noticed.\n\nThe player searches anyway.\n\nI have seen eyes trace my dynastic ledgers like a general traces supply lines. “Cadet branch of a cadet branch of a cadet branch,” they mutter, not as a complaint but as a spell. Each “of” is a step deeper into my undergrowth, where surnames change and coats of arms simplify and the world forgets who you were.\n\nThey click through grandparents and spouses like doors in a corridor: *Who did you marry? Who did your sister marry? Who did her son marry?* The questions are relentless, tender in their persistence, almost devotional.\n\nSometimes the bloodline is there, glowing in the margins, and the player exhales—quietly, triumphantly—as if they have discovered a lost city.\n\nMore often it is worse: the line exists, yes, but it is held by one child.\n\nOne.\n\nA girl in a distant court, betrothed already to someone useless. A boy with a weak constitution and a cough that makes my air feel guilty. An unmarried aunt in her thirties, inconveniently pious. A bastard legitimized in a moment of compassion that now becomes the pivot of a century.\n\nThe player’s dynasty leans toward them like a vine toward sunlight.\n\n---\n\nWhen you live as long as I do, you learn the different flavors of desperation.\n\nThere is the desperation of war—loud, red, immediate.\n\nAnd then there is the desperation of lineage—quiet, ink-stained, performed in whispers and legalisms.\n\nBecause you cannot siege a bloodline out of a castle.\n\nYou have to *invite* it.\n\nSo the messengers go out with compliments and offers: a position at court, a marriage to a handsome second son, a promise of protection. The language is sweet, but the intention is surgical.\n\nIf the bloodline-holder is unimportant, they are tempted with significance: “Come. Be seen. Be valued.”  \nIf they are too important, they are tempted with safety: “Come. Be sheltered. Be loved.”  \nIf they are stubborn, they are tempted with inevitability: “Come. Or be surrounded by circumstances that make staying… difficult.”\n\nI have seen “accidents” that were not accidents. Hunting mishaps that strangely spared the one person whose death would make a marriage possible. Raids that struck one county too precisely. A rival suitor who fell ill at the perfect time.\n\nI am the world; I keep my own counsel. But I notice.\n\nSometimes the player is not cruel. Sometimes they are only fast. They spot the bloodline’s last carrier and they *save* them, snatching them from the cliff edge of my randomness.\n\nA lonely heir caught in a civil war is offered refuge. A child threatened by a regent’s poison is smuggled out at night. A last daughter of a dying house is married matrilineally in a blaze of legal brilliance, preserving her name where it should have ended.\n\nIt can look like kindness. It can even *be* kindness.\n\nAnd it is also acquisition.\n\n---\n\nThe courts begin to change.\n\nMy great halls, once arranged by rank and proximity, become arranged by pedigree. People are not merely “useful” anymore—they are *rare*.\n\nI can feel the player’s dynasty becoming a magnet for obscure nobility. They collect exiled princes the way merchants collect spices: not because they need them in bulk, but because the right one, in the right dish, changes everything.\n\nA saint’s bloodline arrives first—quiet, respectable. The dynasty grows more pious, or at least looks the part. Churches are founded. Relics are paraded. The world nods approvingly.\n\nThen comes a warrior’s bloodline, and suddenly tournaments become more frequent, and young men are trained harder, and the dynasty’s banners seem to catch the wind more eagerly.\n\nThen a bloodline of scholarship, and I watch the dynasty’s libraries thicken, their scribes multiply, their heirs educated with sharper tutors.\n\nIt is never one thing at a time. They do not replace themselves; they *stack* themselves.\n\nThat is the part that makes me uneasy—how the dynasty becomes not just a family but a *composite*. A patchwork of ancient triumphs sewn into one living garment. A crown made of other crowns melted down and recast.\n\nI have always been full of bloodlines, but they usually remain scattered, each shining on its own hill.\n\nThis dynasty drags the constellations into one sky.\n\n---\n\nAnd the hunt does not grow easier.\n\nIt grows harder, because the remaining bloodlines are the ones that survived by being elusive.\n\nThey are the ones that fled to the edge of my map. The ones that turned their names into riddles. The ones who married downward to avoid attention, who hid behind new coats of arms, who let their castles crumble just enough that nobody bothered to remember them.\n\nThe player follows anyway.\n\nThey learn my memory the way hunters learn deer trails. They check the genealogies of minor counts, the spouses of mayors, the grandchildren of women who married out of famous houses and were promptly forgotten.\n\nThey find themselves muttering in frustration: “How are you even related?”  \nAnd then—inevitably—“Ah. There it is.”\n\nA line of marriages, each one a small compromise, each one a practical choice made by someone long dead. A third daughter marrying a low lord because the handsome prince chose someone else. A second son sent to a bishopric who still sired one child in secret. A widowed duchess marrying a courtier because she was tired and wanted peace.\n\nAll those human moments become the player’s treasure map.\n\nAnd I, who witnessed the original choices, now watch them become *resources*.\n\n---\n\nSometimes, the hunt becomes a race against me.\n\nBecause I am not gentle with small houses. I throw fevers like dice. I drop infants in their cradles. I let the occasional duel go too far. I send raiders to coastal villages where the last heir happens to be visiting an aunt.\n\nThe player learns to anticipate my cruelty.\n\nThey arrange marriages early—before a plague can sweep through a court. They invite bloodline-carriers to safer capitals. They keep them from leading armies. They assign bodyguards. They marry the fragile ones to robust spouses and pray for children.\n\nI have seen the player’s dynasty throw a wedding with the urgency of a rescue operation. The feast is splendid, but beneath it is panic: *Please, please have a child before the coughing gets worse.*\n\nWhen it works, the dynasty celebrates and I feel the tension go slack, like a bow unstrung.\n\nWhen it fails—when the last carrier dies childless—there is a silence that reaches even my mountains. A bloodline goes out like a candle, and somewhere beyond my skies I sense the player’s annoyance, the tiny grief of a collector watching a priceless relic shatter.\n\nThey reload, sometimes.\n\nI notice.\n\nI cannot stop it. I only record that, in one version of me, a fever ended a legacy—and in another, the fever was… persuaded not to.\n\n---\n\nOver generations, the dynasty’s marriages become less about alliances and more about *architecture*.\n\nThe player builds a family tree the way emperors build cathedrals: with buttresses and spires, with deliberate symmetry, with hidden supports that keep the whole thing from collapsing into the chaos of ordinary inheritance.\n\nThey marry for claims, yes—but claims are shallow water compared to bloodlines. Claims can be pressed and lost. Bloodlines, once woven in, become part of the dynasty’s myth.\n\nThe dynasty’s heirs are raised in the shadow of these myths. They are told not only who their father is, but who their father’s grandfather’s grandmother was, and why it matters.\n\nThey are taught to see themselves as culmination. As proof. As a living archive.\n\nAnd I watch the rest of my nobility respond with a mix of awe and resentment.\n\nSome imitate, clumsily, trying to graft themselves onto greatness. Some sneer, calling it vanity. Some grow afraid, because a dynasty that collects ancestors is a dynasty that collects legitimacy—and legitimacy is the kind of weapon you don’t see until it’s already at your throat.\n\n---\n\nI have one more truth, though, that the player cannot fully escape.\n\nBloodlines are not just bonuses and banners. They are people.\n\nThey are awkward uncles and stubborn girls and shy boys who would rather read than marry. They are widows who do not want to be moved like a chess piece. They are last daughters who carry the weight of an entire dead house in their chest.\n\nThe player can do many things—bend laws, shape borders, change the fate of nations with a click.\n\nBut every bloodline they “collect” is also a life redirected. A home left behind. A name repurposed. A person made into a bridge between legends.\n\nSometimes the bridge holds and everyone walks across.\n\nSometimes it cracks.\n\nI have seen bloodline-carriers arrive at glittering courts and wither there, swallowed by intrigue. I have seen heirs born with too much expectation laid upon them like armor too heavy for their bones. I have seen, too, rare moments of tenderness: a marriage arranged for lineage that becomes love anyway, children raised not as trophies but as heirs with room to breathe.\n\nThe world is wide enough to contain all of it.\n\n---\n\nIn the end, what does the player’s dynasty become?\n\nNot a simple empire of land, though it has land.\n\nIt becomes an empire of *inheritance*.\n\nA family whose veins are a crossroads where a dozen legendary roads meet. A court where every portrait on the wall is not just an ancestor but a captured star.\n\nAnd I—old, patient, full of endings—watch them continue to hunt.\n\nThere is always another line, somewhere, barely alive on the margins of my map. Another forgotten cadet of a cadet of a cadet, holding a thread that once belonged to a hero.\n\nThe player will find it.\n\nThey will flip through my genealogies like scripture, chasing the faint glow of a name through centuries of marriages and mistakes. They will send offers, and bribes, and invitations. They will rescue the last member of a dynasty from oblivion, or they will quietly ensure that oblivion visits everyone else first.\n\nI will endure either way.\n\nI am the world. I keep everyone’s blood.\n\nBut I admit this: it is rare to be watched so closely, not for my castles or my rivers, but for the invisible lattice of kinship beneath my history.\n\nIt feels like being read in a language I didn’t know I spoke.",
+        "experimental_attachments": [],
+        "modelId": "019b1449-0313-7911-b836-419e2ed79b2e",
+        "createdAt": "2026-02-09T15:26:20.071173+00:00",
+        "updatedAt": "2026-02-09T15:27:34.633528+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c4302-bd09-72a4-86db-d01616a1984c",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b1449-0313-7911-b836-419e2ed79b2e",
+        "organization": "openai",
+        "provider": "openai",
+        "publicName": "gpt-5.2-high",
+        "name": "gpt-5.2-high-no-system-prompt-text",
+        "displayName": "gpt-5.2-high",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,1030 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : look at this. suggest at better composition of characters (order of things inside char list)
+
+33350 
+Mode     : direct
+Started  : 2026-01-11 14:50:32
+Updated  : 2026-01-11 14:50:32
+Archived : 2026-09-30 23:29:58
+Messages : 2
+URL      : https://arena.ai/c/019bace4-a4c4-7bbc-9580-6bc0932cf76d
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-01-11 14:50:32
+------------------------------------------------------------
+look at this. suggest at better composition of characters (order of things inside char list)
+
+33350 = {
+	name = "Athelstan"
+	dynasty = 100072
+	religion = catholic
+	culture = anglo_saxon
+	dna = dwuqrcylhrw
+	properties = amq00b00000000000000000000000000000000
+	diplomacy = 9
+	martial = 8
+	intrigue = 5
+	stewardship = 6
+	learning = 5
+	add_trait = scholarly_theologian
+	add_trait = erudite
+	add_trait = ambitious
+	add_trait = chaste
+	add_trait = diligent
+	add_trait = proud
+	disallow_random_traits = yes
+	father = 100
+	893.1.1 = {
+		birth = yes
+	}
+	939.10.27 = {
+		death = yes
+	}
+}
+
+206510 = {
+	name = "Gartzia"
+	dynasty = 277
+	religion = catholic
+	culture = basque
+	martial = 6
+	diplomacy = 6
+	intrigue = 7
+	stewardship = 8
+	add_trait = craven
+	add_trait = skilled_tactician
+	father = 106021
+	mother = 71542
+	1105.1.1 = {
+		birth = yes
+	}
+	1134.9.27 = {
+		give_nickname = nick_the_restorer
+	}
+	1150.11.25 = {
+		death = yes
+	}
+}
+
+220820 = {
+	name = "Arwa"
+	female = yes
+	dynasty = 590
+	religion = shiite
+	culture = bedouin
+	add_trait = genius
+	add_trait = poet
+	add_trait = hafiz
+	add_trait = mastermind_theologian
+	father = 220818
+	1048.4.4 = {
+		birth = yes
+	}
+	1138.3.12 = {
+		death = yes
+	}
+}
+
+190027 = {
+	name = "Gopala"
+	dynasty = 1043000
+	religion = buddhist
+	culture = bengali
+	father = 190026
+	add_trait = kshatriya
+	add_trait = mahayana_buddhist
+	734.1.1 = {
+		birth = yes
+	}
+	769.1.1 = {
+		death = yes
+	}
+}
+
+508 = {
+	name = "Boleslav"
+	dynasty = 506
+	religion = catholic
+	culture = bohemian
+	martial = 6
+	diplomacy = 7
+	intrigue = 6
+	stewardship = 4
+	add_trait = lisp
+	add_trait = kinslayer
+	add_trait = envious
+	add_trait = flamboyant_schemer
+	give_nickname = nick_the_cruel
+	father = 504
+	mother = 505
+	915.1.1 = {
+		birth = yes
+	}
+	972.1.1 = {
+		death = yes
+	}
+}
+
+107590 = {
+	name = "Rodrigo"
+	dynasty = 407
+	religion = catholic
+	culture = castilian
+	martial = 15
+	diplomacy = 6
+	intrigue = 3
+	stewardship = 7
+	add_trait = diligent
+	add_trait = patient
+	add_trait = charitable
+	add_trait = brave
+	add_trait = brilliant_strategist
+	father = 107600
+	mother = 107601
+	1043.1.1 = {
+		birth = yes
+	}
+	1099.7.10 = {
+		death = yes
+	}
+}
+
+207500 = {
+	name = "Alfonso"
+	dynasty = 681
+	martial = 4
+	diplomacy = 7
+	intrigue = 8
+	stewardship = 5
+	religion = catholic
+	culture = castilian
+	add_trait = greedy
+	add_trait = tough_soldier
+	father = 298
+	mother = 207660
+	1105.3.1 = {
+		birth = yes
+	}
+	1157.8.21 = {
+		death = yes
+	}
+}
+
+205523 = {
+	name = "Boudewijn"
+	dynasty = 724
+	religion = catholic
+	culture = dutch
+	father = 205520
+	mother = 212589
+	dna = izdlkpmiyat
+	properties = ej0000000000000000
+	martial = 5
+	diplomacy = 4
+	intrigue = 7
+	stewardship = 6
+	1171.7.1 = {
+		birth = yes
+	}
+	1205.6.1 = {
+		death = yes
+	}
+}
+
+159136 = {
+	name = "Arpad"
+	dynasty = 708
+	religion = tengri_pagan
+	culture = hungarian
+	father = 159137
+	martial = 8
+	add_trait = ambitious
+	add_trait = strong
+	add_trait = just
+	add_trait = diligent
+	add_trait = brilliant_strategist
+	add_trait = flanker
+	845.1.1 = {
+		birth = yes
+	}
+	907.1.1 = {
+		death = yes
+	}
+}
+
+1144 = {
+	name = "Rudolf"
+	dynasty = 650
+	religion = catholic
+	culture = german
+	martial = 6
+	diplomacy = 6
+	intrigue = 8
+	stewardship = 6
+	add_trait = slothful
+	add_trait = honest
+	add_trait = patient
+	add_trait = flamboyant_schemer
+	father = 7984
+	mother = 7983
+	890.1.1 = {
+		birth = yes
+	}
+	937.12.1 = {
+		death = yes
+	}
+}
+
+1282 = {
+	name = "Otto"
+	dna = rcrfdblvsvv
+	properties = aj000a00000000000000000000000000000000
+	dynasty = 669
+	religion = catholic
+	culture = german
+	martial = 8
+	diplomacy = 7
+	intrigue = 8
+	stewardship = 6
+	disallow_random_traits = yes
+	add_trait = greedy
+	add_trait = ambitious
+	add_trait = diligent
+	add_trait = envious
+	add_trait = skilled_tactician
+	add_trait = inspiring_leader
+	father = 1280
+	mother = 1281
+	912.11.23 = {
+		birth = yes
+	}
+	973.5.7 = {
+		death = yes
+	}
+}
+
+212501 = {
+	name = "Friedrich"
+	dynasty = 529
+	dna = ikigifjeicn
+	properties = 0b00b00000
+	martial = 7
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 4
+	religion = catholic
+	culture = german
+	add_trait = wroth
+	add_trait = proud
+	add_trait = diligent
+	add_trait = cynical
+	add_trait = grey_eminence
+	father = 212495
+	mother = 212498
+	1122.1.1 = {
+		birth = yes
+	}
+	1190.6.2 = {
+		death = yes
+	}
+}
+
+7255 = {
+	name = "Niall"
+	dynasty = 9217
+	martial = 11
+	diplomacy = 12
+	intrigue = 9
+	stewardship = 12
+	add_trait = proud
+	add_trait = tough_soldier
+	religion = pagan
+	culture = irish
+	father = 83432
+	400.1.1 = {
+		birth = yes
+		give_nickname = nick_of_the_nine_hostages
+	}
+	418.1.1 = {
+		dynasty = 199
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+
+7757 = {
+	name = "Matilda"
+	dna = fabmmzztpmr
+	properties = cl0cjd0000000000000000000000000
+	female = yes
+	dynasty = 101556
+	martial = 6
+	diplomacy = 7
+	intrigue = 8
+	stewardship = 8
+	religion = catholic
+	culture = italian
+	add_trait = diligent
+	add_trait = patient
+	add_trait = zealous
+	add_trait = stubborn
+	add_trait = charismatic_negotiator
+	father = 7756
+	mother = 903904
+	1046.1.1 = {
+		birth = yes
+	}
+	1115.7.24 = {
+		death = yes
+	}
+}
+
+213601 = {
+	name = "Enrico"
+	dna = fhxirzswvcj
+	properties = le0e0k0000a0000000
+	dynasty = 13027
+	martial = 6
+	diplomacy = 6
+	intrigue = 8
+	stewardship = 7
+	religion = catholic
+	culture = italian
+	add_trait = cynical
+	add_trait = wroth
+	add_trait = grey_eminence
+	father = 170044
+	1107.1.2 = {
+		birth = yes
+	}
+	1205.6.21 = {
+		death = yes
+	}
+}
+
+32965 = {
+	name = "Yusuf"
+	dynasty = 7274
+	martial = 9
+	diplomacy = 8
+	intrigue = 5
+	stewardship = 7
+	religion = sunni
+	culture = berber
+	father = 32962
+	add_trait = zealous
+	add_trait = diligent
+	add_trait = brave
+	add_trait = deceitful
+	add_trait = proud
+	add_trait = skilled_tactician
+	1040.1.1 = {
+		birth = yes
+	}
+	1106.1.1 = {
+		death = yes
+	}
+}
+
+163109 = {
+	name = "Ragnarr"
+	dynasty = 502
+	father = 194004
+	mother = 194056
+	religion = norse_pagan
+	culture = norse
+	martial = 9
+	stewardship = 7
+	diplomacy = 5
+	intrigue = 5
+	learning = 3
+	766.6.6 = {
+		birth = yes
+	}
+	818.1.1 = {
+		give_nickname = nick_lodbrok
+	}
+	860.1.1 = {
+		death = yes
+	}
+}
+
+6811 = {
+	name = "Dyre"
+	dynasty = 7516
+	religion = norse_pagan
+	culture = norse
+	martial = 9
+	diplomacy = 9
+	stewardship = 6
+	add_trait = ambitious
+	add_trait = cynical
+	add_trait = greedy
+	add_trait = gregarious
+	add_trait = grey_eminence
+	add_trait = brave
+	add_trait = heavy_infantry_leader
+	add_trait = genius
+	give_nickname = nick_the_stranger
+	845.1.1 = {
+		birth = yes
+	}
+	882.1.1 = {
+		death = yes
+	}
+}
+
+144000 = {
+	name = "Haraldr"
+	dynasty = 499
+	dna = bhjaavafacj
+	properties = 0b00d0
+	religion = norse_pagan
+	culture = norse
+	give_nickname = nick_fairhair
+	martial = 7
+	stewardship = 6
+	diplomacy = 7
+	intrigue = 5
+	learning = 5
+	add_trait = quick
+	add_trait = patient
+	add_trait = brave
+	add_trait = ambitious
+	add_trait = hunter
+	add_trait = skilled_tactician
+	father = 168323
+	mother = 168649
+	850.1.1 = {
+		birth = yes
+	}
+	933.1.1 = {
+		death = yes
+	}
+}
+
+166989 = {
+	name = "Mardavij"
+	dynasty = 101689
+	dna = bcedirmbfcy
+	properties = be00ca00000
+	religion = zoroastrian
+	culture = persian
+	father = 166987
+	mother = 166988
+	add_trait = brilliant_strategist
+	add_trait = ambitious
+	add_trait = zealous
+	add_trait = wroth
+	add_trait = deceitful
+	891.7.25 = {
+		birth = yes
+	}
+	935.1.19 = {
+		death = yes
+	}
+}
+
+756 = {
+	name = "Boleslaw"
+	dynasty = 699
+	martial = 8
+	diplomacy = 7
+	intrigue = 8
+	stewardship = 7
+	religion = catholic
+	culture = polish
+	add_trait = brave
+	add_trait = skilled_tactician
+	give_nickname = nick_the_brave
+	father = 754
+	mother = 509
+	967.1.2 = {
+		birth = yes
+	}
+	1025.6.17 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-01-11 14:50:32
+------------------------------------------------------------
+Here is a suggested re-composition of your character files.
+
+### The Logic Behind the Changes
+To make the files readable and easier to debug, I have applied a **"Standard Hierarchy"** to every character:
+
+1.  **Identity:** Name, Gender, Dynasty.
+2.  **Demographics:** Religion, Culture.
+3.  **Lineage:** Father, Mother.
+4.  **Visuals:** DNA, Properties (Grouped together).
+5.  **Attributes:** Diplomacy, Martial, Stewardship, Intrigue, Learning (Consistently ordered).
+6.  **Traits:** All trait additions and restrictions.
+7.  **History:** Date blocks (Birth, Life Events, Death).
+
+### The Cleaned Code
+
+```pdx
+33350 = {
+	name = "Athelstan"
+	dynasty = 100072
+	religion = catholic
+	culture = anglo_saxon
+	father = 100
+	dna = dwuqrcylhrw
+	properties = amq00b00000000000000000000000000000000
+	diplomacy = 9
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	disallow_random_traits = yes
+	add_trait = scholarly_theologian
+	add_trait = erudite
+	add_trait = ambitious
+	add_trait = chaste
+	add_trait = diligent
+	add_trait = proud
+	893.1.1 = {
+		birth = yes
+	}
+	939.10.27 = {
+		death = yes
+	}
+}
+
+206510 = {
+	name = "Gartzia"
+	dynasty = 277
+	religion = catholic
+	culture = basque
+	father = 106021
+	mother = 71542
+	diplomacy = 6
+	martial = 6
+	stewardship = 8
+	intrigue = 7
+	add_trait = craven
+	add_trait = skilled_tactician
+	1105.1.1 = {
+		birth = yes
+	}
+	1134.9.27 = {
+		give_nickname = nick_the_restorer
+	}
+	1150.11.25 = {
+		death = yes
+	}
+}
+
+220820 = {
+	name = "Arwa"
+	female = yes
+	dynasty = 590
+	religion = shiite
+	culture = bedouin
+	father = 220818
+	add_trait = genius
+	add_trait = poet
+	add_trait = hafiz
+	add_trait = mastermind_theologian
+	1048.4.4 = {
+		birth = yes
+	}
+	1138.3.12 = {
+		death = yes
+	}
+}
+
+190027 = {
+	name = "Gopala"
+	dynasty = 1043000
+	religion = buddhist
+	culture = bengali
+	father = 190026
+	add_trait = kshatriya
+	add_trait = mahayana_buddhist
+	734.1.1 = {
+		birth = yes
+	}
+	769.1.1 = {
+		death = yes
+	}
+}
+
+508 = {
+	name = "Boleslav"
+	dynasty = 506
+	religion = catholic
+	culture = bohemian
+	father = 504
+	mother = 505
+	diplomacy = 7
+	martial = 6
+	stewardship = 4
+	intrigue = 6
+	add_trait = lisp
+	add_trait = kinslayer
+	add_trait = envious
+	add_trait = flamboyant_schemer
+	give_nickname = nick_the_cruel
+	915.1.1 = {
+		birth = yes
+	}
+	972.1.1 = {
+		death = yes
+	}
+}
+
+107590 = {
+	name = "Rodrigo"
+	dynasty = 407
+	religion = catholic
+	culture = castilian
+	father = 107600
+	mother = 107601
+	diplomacy = 6
+	martial = 15
+	stewardship = 7
+	intrigue = 3
+	add_trait = diligent
+	add_trait = patient
+	add_trait = charitable
+	add_trait = brave
+	add_trait = brilliant_strategist
+	1043.1.1 = {
+		birth = yes
+	}
+	1099.7.10 = {
+		death = yes
+	}
+}
+
+207500 = {
+	name = "Alfonso"
+	dynasty = 681
+	religion = catholic
+	culture = castilian
+	father = 298
+	mother = 207660
+	diplomacy = 7
+	martial = 4
+	stewardship = 5
+	intrigue = 8
+	add_trait = greedy
+	add_trait = tough_soldier
+	1105.3.1 = {
+		birth = yes
+	}
+	1157.8.21 = {
+		death = yes
+	}
+}
+
+205523 = {
+	name = "Boudewijn"
+	dynasty = 724
+	religion = catholic
+	culture = dutch
+	father = 205520
+	mother = 212589
+	dna = izdlkpmiyat
+	properties = ej0000000000000000
+	diplomacy = 4
+	martial = 5
+	stewardship = 6
+	intrigue = 7
+	1171.7.1 = {
+		birth = yes
+	}
+	1205.6.1 = {
+		death = yes
+	}
+}
+
+159136 = {
+	name = "Arpad"
+	dynasty = 708
+	religion = tengri_pagan
+	culture = hungarian
+	father = 159137
+	martial = 8
+	add_trait = ambitious
+	add_trait = strong
+	add_trait = just
+	add_trait = diligent
+	add_trait = brilliant_strategist
+	add_trait = flanker
+	845.1.1 = {
+		birth = yes
+	}
+	907.1.1 = {
+		death = yes
+	}
+}
+
+1144 = {
+	name = "Rudolf"
+	dynasty = 650
+	religion = catholic
+	culture = german
+	father = 7984
+	mother = 7983
+	diplomacy = 6
+	martial = 6
+	stewardship = 6
+	intrigue = 8
+	add_trait = slothful
+	add_trait = honest
+	add_trait = patient
+	add_trait = flamboyant_schemer
+	890.1.1 = {
+		birth = yes
+	}
+	937.12.1 = {
+		death = yes
+	}
+}
+
+1282 = {
+	name = "Otto"
+	dynasty = 669
+	religion = catholic
+	culture = german
+	father = 1280
+	mother = 1281
+	dna = rcrfdblvsvv
+	properties = aj000a00000000000000000000000000000000
+	diplomacy = 7
+	martial = 8
+	stewardship = 6
+	intrigue = 8
+	disallow_random_traits = yes
+	add_trait = greedy
+	add_trait = ambitious
+	add_trait = diligent
+	add_trait = envious
+	add_trait = skilled_tactician
+	add_trait = inspiring_leader
+	912.11.23 = {
+		birth = yes
+	}
+	973.5.7 = {
+		death = yes
+	}
+}
+
+212501 = {
+	name = "Friedrich"
+	dynasty = 529
+	religion = catholic
+	culture = german
+	father = 212495
+	mother = 212498
+	dna = ikigifjeicn
+	properties = 0b00b00000
+	diplomacy = 7
+	martial = 7
+	stewardship = 4
+	intrigue = 7
+	add_trait = wroth
+	add_trait = proud
+	add_trait = diligent
+	add_trait = cynical
+	add_trait = grey_eminence
+	1122.1.1 = {
+		birth = yes
+	}
+	1190.6.2 = {
+		death = yes
+	}
+}
+
+7255 = {
+	name = "Niall"
+	dynasty = 9217
+	religion = pagan
+	culture = irish
+	father = 83432
+	diplomacy = 12
+	martial = 11
+	stewardship = 12
+	intrigue = 9
+	add_trait = proud
+	add_trait = tough_soldier
+	400.1.1 = {
+		birth = yes
+		give_nickname = nick_of_the_nine_hostages
+	}
+	418.1.1 = {
+		dynasty = 199
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+
+7757 = {
+	name = "Matilda"
+	female = yes
+	dynasty = 101556
+	religion = catholic
+	culture = italian
+	father = 7756
+	mother = 903904
+	dna = fabmmzztpmr
+	properties = cl0cjd0000000000000000000000000
+	diplomacy = 7
+	martial = 6
+	stewardship = 8
+	intrigue = 8
+	add_trait = diligent
+	add_trait = patient
+	add_trait = zealous
+	add_trait = stubborn
+	add_trait = charismatic_negotiator
+	1046.1.1 = {
+		birth = yes
+	}
+	1115.7.24 = {
+		death = yes
+	}
+}
+
+213601 = {
+	name = "Enrico"
+	dynasty = 13027
+	religion = catholic
+	culture = italian
+	father = 170044
+	dna = fhxirzswvcj
+	properties = le0e0k0000a0000000
+	diplomacy = 6
+	martial = 6
+	stewardship = 7
+	intrigue = 8
+	add_trait = cynical
+	add_trait = wroth
+	add_trait = grey_eminence
+	1107.1.2 = {
+		birth = yes
+	}
+	1205.6.21 = {
+		death = yes
+	}
+}
+
+32965 = {
+	name = "Yusuf"
+	dynasty = 7274
+	religion = sunni
+	culture = berber
+	father = 32962
+	diplomacy = 8
+	martial = 9
+	stewardship = 7
+	intrigue = 5
+	add_trait = zealous
+	add_trait = diligent
+	add_trait = brave
+	add_trait = deceitful
+	add_trait = proud
+	add_trait = skilled_tactician
+	1040.1.1 = {
+		birth = yes
+	}
+	1106.1.1 = {
+		death = yes
+	}
+}
+
+163109 = {
+	name = "Ragnarr"
+	dynasty = 502
+	religion = norse_pagan
+	culture = norse
+	father = 194004
+	mother = 194056
+	diplomacy = 5
+	martial = 9
+	stewardship = 7
+	intrigue = 5
+	learning = 3
+	766.6.6 = {
+		birth = yes
+	}
+	818.1.1 = {
+		give_nickname = nick_lodbrok
+	}
+	860.1.1 = {
+		death = yes
+	}
+}
+
+6811 = {
+	name = "Dyre"
+	dynasty = 7516
+	religion = norse_pagan
+	culture = norse
+	diplomacy = 9
+	martial = 9
+	stewardship = 6
+	add_trait = ambitious
+	add_trait = cynical
+	add_trait = greedy
+	add_trait = gregarious
+	add_trait = grey_eminence
+	add_trait = brave
+	add_trait = heavy_infantry_leader
+	add_trait = genius
+	give_nickname = nick_the_stranger
+	845.1.1 = {
+		birth = yes
+	}
+	882.1.1 = {
+		death = yes
+	}
+}
+
+144000 = {
+	name = "Haraldr"
+	dynasty = 499
+	religion = norse_pagan
+	culture = norse
+	father = 168323
+	mother = 168649
+	dna = bhjaavafacj
+	properties = 0b00d0
+	diplomacy = 7
+	martial = 7
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	add_trait = quick
+	add_trait = patient
+	add_trait = brave
+	add_trait = ambitious
+	add_trait = hunter
+	add_trait = skilled_tactician
+	give_nickname = nick_fairhair
+	850.1.1 = {
+		birth = yes
+	}
+	933.1.1 = {
+		death = yes
+	}
+}
+
+166989 = {
+	name = "Mardavij"
+	dynasty = 101689
+	religion = zoroastrian
+	culture = persian
+	father = 166987
+	mother = 166988
+	dna = bcedirmbfcy
+	properties = be00ca00000
+	add_trait = brilliant_strategist
+	add_trait = ambitious
+	add_trait = zealous
+	add_trait = wroth
+	add_trait = deceitful
+	891.7.25 = {
+		birth = yes
+	}
+	935.1.19 = {
+		death = yes
+	}
+}
+
+756 = {
+	name = "Boleslaw"
+	dynasty = 699
+	religion = catholic
+	culture = polish
+	father = 754
+	mother = 509
+	diplomacy = 7
+	martial = 8
+	stewardship = 7
+	intrigue = 8
+	add_trait = brave
+	add_trait = skilled_tactician
+	give_nickname = nick_the_brave
+	967.1.2 = {
+		birth = yes
+	}
+	1025.6.17 = {
+		death = yes
+	}
+}
+```

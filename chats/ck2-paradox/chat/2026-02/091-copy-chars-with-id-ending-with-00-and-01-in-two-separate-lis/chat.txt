@@ -1,0 +1,837 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+Mode     : direct
+Started  : 2026-02-21 13:15:31
+Updated  : 2026-02-21 13:15:32
+Archived : 2026-09-30 23:29:39
+Messages : 2
+URL      : https://arena.ai/c/019c7fb2-2a35-738c-b88e-47cfb2d3d7af
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 13:15:32
+------------------------------------------------------------
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything else
+903900 = {
+	name = "Matilda_0"
+	female = yes
+	dynasty = 101556
+	religion = catholic
+	culture = italian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903901 = {
+	name = "Matilda_1"
+	female = yes
+	dynasty = 101556
+	religion = catholic
+	culture = italian
+	mother = 903900
+	dna = fabmmzztpmr
+	properties = cl0cjd0000000000000000000000000
+	diplomacy = 7
+	martial = 6
+	stewardship = 8
+	intrigue = 8
+	trait = diligent
+	trait = patient
+	trait = zealous
+	trait = stubborn
+	trait = charismatic_negotiator
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = true_matilde_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903902 = {
+	name = "Matilda_2"
+	female = yes
+	dynasty = 101556
+	religion = catholic
+	culture = italian
+	father = 904301
+	mother = 903901
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903903 = {
+	name = "Matilda_3"
+	dynasty = 101556
+	religion = catholic
+	culture = italian
+	father = 922802
+	mother = 903902
+	3.1.1 = {
+		birth = yes
+		add_spouse = 918103
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904200 = {
+	name = "Bohemond_0"
+	dynasty = 678
+	religion = catholic
+	culture = norman
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904201 = {
+	name = "Bohemond_1"
+	dynasty = 678
+	religion = catholic
+	culture = norman
+	father = 904200
+	diplomacy = 7
+	martial = 8
+	stewardship = 6
+	intrigue = 8
+	trait = brave
+	trait = cynical
+	trait = wroth
+	trait = brilliant_strategist
+	trait = sturdy
+	trait = crusader
+	disallow_random_traits = yes
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = bohemond
+		}
+		add_spouse = 918101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904300 = {
+	name = "Roger_0"
+	dynasty = 678
+	religion = catholic
+	culture = norman
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904301 = {
+	name = "Roger_1"
+	dynasty = 678
+	religion = catholic
+	culture = norman
+	father = 904300
+	diplomacy = 7
+	martial = 4
+	stewardship = 5
+	intrigue = 8
+	trait = wroth
+	trait = tough_soldier
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = roger
+		}
+		add_spouse = 903901
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904600 = {
+	name = "Enrico_0"
+	dynasty = 13027
+	religion = catholic
+	culture = italian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904601 = {
+	name = "Enrico_1"
+	dynasty = 13027
+	religion = catholic
+	culture = italian
+	father = 904600
+	dna = fhxirzswvcj
+	properties = le0e0k0000a0000000
+	diplomacy = 6
+	martial = 6
+	stewardship = 7
+	intrigue = 8
+	trait = cynical
+	trait = wroth
+	trait = grey_eminence
+	trait = crusader
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = dandolo
+		}
+		add_spouse = 917901
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917900 = {
+	name = "CrusLord_0"
+	female = yes
+	dynasty = 917900
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917901 = {
+	name = "CrusLord_1"
+	female = yes
+	dynasty = 917900
+	religion = catholic
+	culture = french
+	mother = 917900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = crusade_lord_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917902 = {
+	name = "CrusLord_2"
+	dynasty = 917900
+	religion = catholic
+	culture = french
+	father = 904601
+	mother = 917901
+	2.1.1 = {
+		birth = yes
+		add_spouse = 918102
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918100 = {
+	name = "CrusKid_0"
+	female = yes
+	dynasty = 918100
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918101 = {
+	name = "CrusKid_1"
+	female = yes
+	dynasty = 918100
+	religion = catholic
+	culture = french
+	mother = 918100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = crusader_kid_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918102 = {
+	name = "CrusKid_2"
+	female = yes
+	dynasty = 918100
+	religion = catholic
+	culture = french
+	father = 904201
+	mother = 918101
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918103 = {
+	name = "CrusKid_3"
+	female = yes
+	dynasty = 918100
+	religion = catholic
+	culture = french
+	father = 917902
+	mother = 918102
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918104 = {
+	name = "CrusKid_4"
+	dynasty = 918100
+	religion = catholic
+	culture = french
+	father = 903903
+	mother = 918103
+	4.1.1 = {
+		birth = yes
+		add_spouse = 918304
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922800 = {
+	name = "FVatican_0"
+	female = yes
+	dynasty = 922800
+	religion = catholic
+	culture = italian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922801 = {
+	name = "FVatican_1"
+	female = yes
+	dynasty = 922800
+	religion = catholic
+	culture = italian
+	mother = 922800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = matilde_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922802 = {
+	name = "FVatican_2"
+	dynasty = 922800
+	religion = catholic
+	culture = italian
+	father = 922901
+	mother = 922801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 903902
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922900 = {
+	name = "MVatican_0"
+	dynasty = 922900
+	religion = catholic
+	culture = italian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922901 = {
+	name = "MVatican_1"
+	dynasty = 922900
+	religion = catholic
+	culture = italian
+	father = 922900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = matilde_male_bloodline
+		}
+		add_spouse = 922801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 13:15:32
+------------------------------------------------------------
+Here are the characters sorted into three lists based on their IDs.
+
+### List 1: IDs ending in 00
+```txt
+903900 = {
+	name = "Matilda_0"
+	female = yes
+	dynasty = 101556
+	religion = catholic
+	culture = italian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904200 = {
+	name = "Bohemond_0"
+	dynasty = 678
+	religion = catholic
+	culture = norman
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904300 = {
+	name = "Roger_0"
+	dynasty = 678
+	religion = catholic
+	culture = norman
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904600 = {
+	name = "Enrico_0"
+	dynasty = 13027
+	religion = catholic
+	culture = italian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917900 = {
+	name = "CrusLord_0"
+	female = yes
+	dynasty = 917900
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918100 = {
+	name = "CrusKid_0"
+	female = yes
+	dynasty = 918100
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922800 = {
+	name = "FVatican_0"
+	female = yes
+	dynasty = 922800
+	religion = catholic
+	culture = italian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922900 = {
+	name = "MVatican_0"
+	dynasty = 922900
+	religion = catholic
+	culture = italian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 2: IDs ending in 01
+```txt
+903901 = {
+	name = "Matilda_1"
+	female = yes
+	dynasty = 101556
+	religion = catholic
+	culture = italian
+	mother = 903900
+	dna = fabmmzztpmr
+	properties = cl0cjd0000000000000000000000000
+	diplomacy = 7
+	martial = 6
+	stewardship = 8
+	intrigue = 8
+	trait = diligent
+	trait = patient
+	trait = zealous
+	trait = stubborn
+	trait = charismatic_negotiator
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = true_matilde_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904201 = {
+	name = "Bohemond_1"
+	dynasty = 678
+	religion = catholic
+	culture = norman
+	father = 904200
+	diplomacy = 7
+	martial = 8
+	stewardship = 6
+	intrigue = 8
+	trait = brave
+	trait = cynical
+	trait = wroth
+	trait = brilliant_strategist
+	trait = sturdy
+	trait = crusader
+	disallow_random_traits = yes
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = bohemond
+		}
+		add_spouse = 918101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904301 = {
+	name = "Roger_1"
+	dynasty = 678
+	religion = catholic
+	culture = norman
+	father = 904300
+	diplomacy = 7
+	martial = 4
+	stewardship = 5
+	intrigue = 8
+	trait = wroth
+	trait = tough_soldier
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = roger
+		}
+		add_spouse = 903901
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904601 = {
+	name = "Enrico_1"
+	dynasty = 13027
+	religion = catholic
+	culture = italian
+	father = 904600
+	dna = fhxirzswvcj
+	properties = le0e0k0000a0000000
+	diplomacy = 6
+	martial = 6
+	stewardship = 7
+	intrigue = 8
+	trait = cynical
+	trait = wroth
+	trait = grey_eminence
+	trait = crusader
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = dandolo
+		}
+		add_spouse = 917901
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917901 = {
+	name = "CrusLord_1"
+	female = yes
+	dynasty = 917900
+	religion = catholic
+	culture = french
+	mother = 917900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = crusade_lord_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918101 = {
+	name = "CrusKid_1"
+	female = yes
+	dynasty = 918100
+	religion = catholic
+	culture = french
+	mother = 918100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = crusader_kid_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922801 = {
+	name = "FVatican_1"
+	female = yes
+	dynasty = 922800
+	religion = catholic
+	culture = italian
+	mother = 922800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = matilde_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922901 = {
+	name = "MVatican_1"
+	dynasty = 922900
+	religion = catholic
+	culture = italian
+	father = 922900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = matilde_male_bloodline
+		}
+		add_spouse = 922801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 3: Everything else
+```txt
+903902 = {
+	name = "Matilda_2"
+	female = yes
+	dynasty = 101556
+	religion = catholic
+	culture = italian
+	father = 904301
+	mother = 903901
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903903 = {
+	name = "Matilda_3"
+	dynasty = 101556
+	religion = catholic
+	culture = italian
+	father = 922802
+	mother = 903902
+	3.1.1 = {
+		birth = yes
+		add_spouse = 918103
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917902 = {
+	name = "CrusLord_2"
+	dynasty = 917900
+	religion = catholic
+	culture = french
+	father = 904601
+	mother = 917901
+	2.1.1 = {
+		birth = yes
+		add_spouse = 918102
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918102 = {
+	name = "CrusKid_2"
+	female = yes
+	dynasty = 918100
+	religion = catholic
+	culture = french
+	father = 904201
+	mother = 918101
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918103 = {
+	name = "CrusKid_3"
+	female = yes
+	dynasty = 918100
+	religion = catholic
+	culture = french
+	father = 917902
+	mother = 918102
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918104 = {
+	name = "CrusKid_4"
+	dynasty = 918100
+	religion = catholic
+	culture = french
+	father = 903903
+	mother = 918103
+	4.1.1 = {
+		birth = yes
+		add_spouse = 918304
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922802 = {
+	name = "FVatican_2"
+	dynasty = 922800
+	religion = catholic
+	culture = italian
+	father = 922901
+	mother = 922801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 903902
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

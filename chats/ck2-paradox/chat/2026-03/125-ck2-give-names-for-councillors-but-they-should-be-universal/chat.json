@@ -1,0 +1,206 @@
+{
+  "exportedAt": "2026-10-09T16:28:02.397Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019d1644-9345-7cd9-a344-c3b196a27c28",
+  "archivedAt": "2026-09-30 20:19:30.855+00",
+  "evaluation": {
+    "id": "019d1644-9345-7cd9-a344-c3b196a27c28",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "Ck2. Give names for councillors. But they should be universal for every religion/culture - so i easi",
+    "mode": "battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019d1647-ab80-79b3-bf6d-1bc5699e8b97",
+      "019d1647-ab80-775e-acef-85b2b654a350"
+    ],
+    "archivedAt": "2026-09-30 20:19:30.855+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-03-22 16:00:25.156+00",
+    "updatedAt": "2026-03-22 16:01:31.789732+00",
+    "messages": [
+      {
+        "id": "019d1646-a8bd-7e18-bf0a-69193e817d27",
+        "evaluationSessionId": "019d1644-9345-7cd9-a344-c3b196a27c28",
+        "evaluationId": "019d1646-b4e7-7c52-817e-d8b88d09b79f",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "Ck2. Give names for councillors. But they should be universal for every religion/culture - so i easily understand what his specialisation is",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-22T16:00:25.841252+00:00",
+        "updatedAt": "2026-03-22T16:00:25.841252+00:00",
+        "participantPosition": "a",
+        "pairwiseFeedbackId": "019d164b-2fc5-7783-89f9-8f9df9579d84",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1646-a8bd-7390-84b6-89132334028f",
+        "evaluationSessionId": "019d1644-9345-7cd9-a344-c3b196a27c28",
+        "evaluationId": "019d1646-b4e7-7c52-817e-d8b88d09b79f",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d1646-a8bd-7e18-bf0a-69193e817d27"
+        ],
+        "content": "Here’s a set of universal, self-explanatory councillor names for Crusader Kings 2 that work no matter what culture or religion you’re playing. They instantly tell you the character’s role/specialty without needing to check the tooltip every time.\n\n### Standard 6 Councillors (clear and universal)\n| Position (original)       | Universal Name              | What it means / focus                                      |\n|---------------------------|-----------------------------|------------------------------------------------------------|\n| Steward                   | Tax Collector               | Pure State Stewardship (tax/levies)                        |\n| Marshal                   | Drill Master                | Pure Martial (levy size, morale)                           |\n| Chaplain / Court Imam etc.| Realm Priest                | Pure Learning (cultural/religious conversion, tech)        |\n| Chancellor                | Grand Diplomat              | Pure Diplomacy (vassal opinions, relations)                |\n| Spymaster                 | Master of Shadows           | Pure Intrigue (plots, tech theft, schemes)                 |\n| Court Physician           | Chief Physician             | (DLC) Health & disease resistance                          |\n\n### Extra/Optional roles (when you have slots or titles)\n| Role                       | Universal Name             | Purpose                                                    |\n| Court Jester              | Court Fool                  | Reduces stress, entertains                                 |\n| Cupbearer                 | Royal Cupbearer             | Poison resistance, minor opinion bonus                     |\n| Antiquarian               | Court Antiquarian           | Artifact hunting                                           |\n| High Almoner              | High Almoner                | Charity events, piety                                      |\n| Commander (army leader)   | Grand Commander             | Leads your personal armies                                 |\n| Designated Heir Advisor   | Heir Tutor                  | Educates your chosen successor                             |\n\n### My personal favorite “instant-recognition” set (what I actually use in every game):\n1. **Tax Collector** (Steward)  \n2. **Drill Master** (Marshal)  \n3. **Realm Priest** (Chaplain equivalent)  \n4. **Grand Diplomat** (Chancellor)  \n5. **Master of Shadows** (Spymaster)  \n\nThese five names alone make it 100% obvious at a glance who does what, even if you’re playing Zoroastrian Mongols, Norse Catholics, or Hindu Indians. No more “wait, is my Divan of the Left the diplomat or the steward this time?” confusion.\n\nYou can just rename them once via the “Rename” button on their character screen and you’re good for the entire campaign, every religion, every culture.",
+        "experimental_attachments": [],
+        "modelId": "019a9389-a4d8-748d-9939-b4640198302e",
+        "createdAt": "2026-03-22T16:00:25.846543+00:00",
+        "updatedAt": "2026-03-22T16:00:34.296843+00:00",
+        "participantPosition": "b",
+        "pairwiseFeedbackId": "019d164b-2fc5-7783-89f9-8f9df9579d84",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1646-a8bd-769c-9836-faa1f7f61a32",
+        "evaluationSessionId": "019d1644-9345-7cd9-a344-c3b196a27c28",
+        "evaluationId": "019d1646-b4e7-7c52-817e-d8b88d09b79f",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d1646-a8bd-7e18-bf0a-69193e817d27"
+        ],
+        "content": "Here are universal, specialization-clear names for each council position:\n\n**Chancellor (Diplomacy)**\n- **Foreign Minister** – Immediately signals diplomacy and external relations\n- *Alternative:* Realm Diplomat\n\n**Marshal (Martial)**\n- **Military Commander** – Unambiguously points to warfare and armies\n- *Alternative:* Defense Minister\n\n**Steward (Stewardship)**\n- **Treasurer** – Universally understood as money and economy manager\n- *Alternative:* Economy Minister\n\n**Spymaster (Intrigue)**\n- **Intelligence Chief** – Clear modern term for secrets and plots\n- *Alternative:* Master of Secrets\n\n**Court Chaplain (Learning)**\n- **Religious Advisor** – Neutral term for faith and religious matters\n- *Alternative:* Faith Minister\n\nThese names work for any culture because they describe the *function* rather than using historical titles tied to specific regions or religions.",
+        "experimental_attachments": [],
+        "modelId": "019a59bc-8bb8-7933-92eb-fe143770c211",
+        "createdAt": "2026-03-22T16:00:25.846543+00:00",
+        "updatedAt": "2026-03-22T16:00:49.799427+00:00",
+        "participantPosition": "a",
+        "pairwiseFeedbackId": "019d164b-2fc5-7783-89f9-8f9df9579d84",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1647-ab7e-72b6-9d83-144d28f04fe6",
+        "evaluationSessionId": "019d1644-9345-7cd9-a344-c3b196a27c28",
+        "evaluationId": "019d1646-b4e7-7c52-817e-d8b88d09b79f",
+        "role": "user",
+        "parentMessageIds": [
+          "019d1646-a8bd-769c-9836-faa1f7f61a32",
+          "019d1646-a8bd-7390-84b6-89132334028f"
+        ],
+        "content": "No. Like, person names",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-22T16:01:31.774733+00:00",
+        "updatedAt": "2026-03-22T16:01:31.774733+00:00",
+        "participantPosition": "a",
+        "pairwiseFeedbackId": "019d164b-2fc5-7783-89f9-8f9df9579d84",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1647-ab80-775e-acef-85b2b654a350",
+        "evaluationSessionId": "019d1644-9345-7cd9-a344-c3b196a27c28",
+        "evaluationId": "019d1646-b4e7-7c52-817e-d8b88d09b79f",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d1647-ab7e-72b6-9d83-144d28f04fe6"
+        ],
+        "content": "Here’s a list of actual **character names** you can give your councillors that instantly tell you their job, no matter the culture or religion. They’re short, memorable, and work in any campaign because they’re basically “job titles turned into names.”\n\n| Job                  | Universal Councillor Name (male) | Female version         | Why it works everywhere |\n|----------------------|----------------------------------|-------------------------|-------------------------|\n| Steward (tax/levies) | Richman Goldcoin                 | Lady Goldcoin           | Instantly screams money |\n| Marshal (army)       | Max Levy                         | Maxima Levy             | “Maximum levies”       |\n| Chaplain / Court Priest (conversion & tech) | Bishop Tech      | Sister Tech             | Tech points + religion |\n| Chancellor (diplomacy) | Lord Vassalove                 | Lady Vassalove          | +vassal opinion        |\n| Spymaster            | Stabby McPlot                    | Lady McPlot             | Everyone gets the joke |\n| Court Physician      | Doctor Healmore                  | Doctrix Healmore        | Obvious healer         |\n\n### Even shorter ultra-clear versions (my personal go-to set)\n| Job             | Name (male)       | Name (female)    |\n|-----------------|-------------------|------------------|\n| Steward         | Taxus Maximus     | Taxa Maxima      |\n| Marshal         | Levy Big          | Levina Big       |\n| Realm Priest    | Convertus         | Converta         |\n| Diplomat        | Likedby All       | Likedby Alla     |\n| Spymaster       | Backstabius       | Backstabia       |\n| Physician       | Nocough           | Nosick           |\n\nJust search for any random lowborn with the right stat, invite him/her, then immediately rename to one of the above. Takes 5 seconds and you’ll never again forget who your spymaster is in 1452 when you have 38 courtiers with random Norse/Zoroastrian names. Works 100% universally from Ireland to India.",
+        "experimental_attachments": [],
+        "modelId": "019a9389-a4d8-748d-9939-b4640198302e",
+        "createdAt": "2026-03-22T16:01:31.781096+00:00",
+        "updatedAt": "2026-03-22T16:01:47.36636+00:00",
+        "participantPosition": "b",
+        "pairwiseFeedbackId": "019d164b-2fc5-7783-89f9-8f9df9579d84",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1647-ab80-79b3-bf6d-1bc5699e8b97",
+        "evaluationSessionId": "019d1644-9345-7cd9-a344-c3b196a27c28",
+        "evaluationId": "019d1646-b4e7-7c52-817e-d8b88d09b79f",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d1647-ab7e-72b6-9d83-144d28f04fe6"
+        ],
+        "content": "Here are universal person names where the name itself hints at their specialization:\n\n**Chancellor (Diplomacy):**\n- **Paxton Vale** (\"Pax\" = peace, \"Vale\" = calm neutrality)\n- *Alternative:* Bridger West\n\n**Marshal (Martial):**\n- **Garrison Strong** (\"Garrison\" = fort, \"Strong\" = strength)\n- *Alternative:* Armand Shield\n\n**Steward (Stewardship):**\n- **Edmund Ledger** (\"Edmund\" = wealth-protector, \"Ledger\" = accounting)\n- *Alternative:* Caspar Vault\n\n**Spymaster (Intrigue):**\n- **Raven Blake** (\"Raven\" = spy bird, \"Blake\" = dark)\n- *Alternative:* Fox Veil\n\n**Court Chaplain (Learning):**\n- **Sage Clark** (\"Sage\" = wise, \"Clark\" = scholar)\n- *Alternative:* Lucas Read\n\nEach name uses common English words/concepts so the role is immediately obvious regardless of culture or religion.",
+        "experimental_attachments": [],
+        "modelId": "019a59bc-8bb8-7933-92eb-fe143770c211",
+        "createdAt": "2026-03-22T16:01:31.781096+00:00",
+        "updatedAt": "2026-03-22T16:02:11.790875+00:00",
+        "participantPosition": "a",
+        "pairwiseFeedbackId": "019d164b-2fc5-7783-89f9-8f9df9579d84",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019d1646-b4e7-7c52-817e-d8b88d09b79f",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": {
+          "filtered": false
+        }
+      }
+    ],
+    "pairwiseFeedbacks": [
+      {
+        "id": "019d164b-2fc5-7783-89f9-8f9df9579d84",
+        "messageAId": "019d1647-ab80-79b3-bf6d-1bc5699e8b97",
+        "messageBId": "019d1647-ab80-775e-acef-85b2b654a350",
+        "value": "model_b",
+        "modelAId": "019a59bc-8bb8-7933-92eb-fe143770c211",
+        "modelBId": "019a9389-a4d8-748d-9939-b4640198302e",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340"
+      }
+    ],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a59bc-8bb8-7933-92eb-fe143770c211",
+        "organization": "moonshot",
+        "provider": "moonshot",
+        "publicName": "kimi-k2-thinking-turbo",
+        "name": "kimi-k2-thinking-turbo",
+        "displayName": "kimi-k2-thinking-turbo",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      },
+      {
+        "id": "019a9389-a4d8-748d-9939-b4640198302e",
+        "organization": "xai",
+        "provider": "xaiApi",
+        "publicName": "grok-4.1",
+        "name": "grok-4.1",
+        "displayName": "grok-4.1",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

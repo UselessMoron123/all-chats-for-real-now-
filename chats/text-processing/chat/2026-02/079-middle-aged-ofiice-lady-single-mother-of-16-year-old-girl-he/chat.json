@@ -1,0 +1,93 @@
+{
+  "exportedAt": "2026-10-09T16:28:16.187Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c4d8d-2b7c-7e21-b2dd-6e51b1f13233",
+  "archivedAt": "2026-09-30 20:29:40.052+00",
+  "evaluation": {
+    "id": "019c4d8d-2b7c-7e21-b2dd-6e51b1f13233",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "Middle-aged ofiice lady. Single mother of 16 year old girl. her day. *woman's pov with inner words t",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c4d92-eac1-795c-997d-b92e75733246"
+    ],
+    "archivedAt": "2026-09-30 20:29:40.052+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-11 16:40:04.372+00",
+    "updatedAt": "2026-02-11 16:40:05.048689+00",
+    "messages": [
+      {
+        "id": "019c4d92-eabf-7ad7-b436-0247909d9e8c",
+        "evaluationSessionId": "019c4d8d-2b7c-7e21-b2dd-6e51b1f13233",
+        "evaluationId": "019c4d92-fc14-7dbe-bdcb-e45d81bdac95",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "Middle-aged ofiice lady. Single mother of 16 year old girl. her day. *woman's pov with inner words that she allows only to herself. Language direct, honest, explicit, graphic, exaggerated, foul mouthed, realistic to her character.*",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-11T16:40:05.038097+00:00",
+        "updatedAt": "2026-02-11T16:40:05.038097+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c4d92-eac1-795c-997d-b92e75733246",
+        "evaluationSessionId": "019c4d8d-2b7c-7e21-b2dd-6e51b1f13233",
+        "evaluationId": "019c4d92-fc14-7dbe-bdcb-e45d81bdac95",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c4d92-eabf-7ad7-b436-0247909d9e8c"
+        ],
+        "content": "**5:47 AM**\n\nThe alarm doesn’t go off. My eyes just snap open. Like my body knows it’s not allowed the luxury of a gradual wake-up. There’s a debt to be paid the second consciousness returns.\n\n*Fuck. Me.*\n\nThe first thought of the day. A prayer.\n\nI lie there for exactly ninety seconds, listening. No sound from her room. Good. If she’s still asleep, it means she finally crashed. Maybe the crying stopped around three. I heard the muffled hiccups through the wall. Some bullshit with a boy at school, or a friend, or the crushing weight of being sixteen. Real pain, but pain I can’t fix with a bandage or a threat. So I just lay there in the dark, fists clenched, wanting to burn down the world for her and strangle her for keeping me awake.\n\nI swing my legs out. The cold of the floorboards is a shock. My knees pop. *Christ, that sound. When did my body start sounding like a bowl of Rice Krispies?*\n\n**6:15 AM**\n\nShower. Water pressure’s a pathetic trickle. I scrub yesterday off. The commute, the fluorescent lights, Martin from Accounting’s breath, the spreadsheet that made my eyes cross. I condition my hair, which is showing more silver than brown these days. I don’t dye it. Can’t afford the time or the money. Let it be my battle flag.\n\n*Look upon my works, ye mighty, and despair. And then get me a fucking coffee.*\n\n**6:45 AM**\n\nI’m in the kitchen, assembling the offering. The ritual of appeasement. Yogurt, granola, a banana that’s just on the right side of too brown. I put the banana next to her bowl. A silent *I love you*. A silent *eat your goddamn potassium*.\n\nI hear her door open. The shuffle. She appears, a storm cloud in sweatpants, hair a nest, eyes puffy.\n\n“Morning,” I say, voice carefully neutral. Not too chirpy, not too grim.\n\n“Mm,” she grunts, beelining for the coffee machine. She pours a cup bigger than her head.\n\n“You want eggs?”\n“No.”\n“Toast?”\n“*Mom.* No.”\n\nI bite my tongue so hard I taste copper. *Fine. Starve. See if I care.* But I do care. It’s a physical ache in my chest, this caring. It’s the engine that turns over every morning, rusty and protesting.\n\n**7:15 AM**\n\nShe’s upstairs, “getting ready.” This involves forty-five minutes of existential dread and three outfit changes. I am dressed in my armor: sensible slacks, a blouse that doesn’t gap, low heels that will torture me by 3 PM. I look like a competent person. I feel like a bag of wet sand.\n\nI check my bank account on my phone. The numbers are anemic. The car payment glares at me, a digital predator.\n\n*Breathe. Just fucking breathe.*\n\n**7:45 AM**\n\n“I’m leaving!” she yells, thundering down the stairs. She looks beautiful. She always does, even with that scowl. It kills me.\n\n“Do you have your—”\n“Yes.”\n“Is your project—”\n“*Mom.* I got it.”\n“Okay. Love you.”\nA sigh. A door slam.\n\nThe silence of the house expands, thick and heavy. It’s not peaceful. It’s accusatory.\n\n**8:05 AM – Commute**\n\nIn the car, I am a warlord. “MOVE, you blind bastard!” I snarl at a hesitant Toyota. My car is my confessional. “Oh, nice signal, dickweed! Really helpful *after* you’ve merged!” I blast classic rock. I sing along to songs about freedom and fucking on the hood of a Mustang. The irony is a bitter pill I swallow daily.\n\nI think about the meeting at 10 AM. Sandra from Marketing will present her “blue-sky ideation” with slides that have too many clip-art suns. I will have to sit there and pretend my soul isn't slowly calcifying.\n\n*Just keep the direct deposit hitting. Just keep the roof up. Just keep her fed. That’s the job. The only job.*\n\n**9:00 AM – 5:00 PM (The Blur)**\n\nThe office. Fluorescent purgatory.\n\nMy desk is a monument to suppressed screams. I answer emails with exclamation points I don’t feel. “Looking forward to it!” I type, when what I mean is *I would rather chew tinfoil.*\n\nMartin stops by. He leans on my cubicle wall, which bows under his weight. He talks about his fantasy football team. His breath smells like old ham and resignation. I smile until my face cracks. Inside, I am composing a detailed fantasy of my own: shoving his stapler into a place where the sun doesn’t shine.\n\nLunch at my desk. A sad salad. I scroll through my phone. See a photo of a couple my age on a beach in Greece. *How?* Did they sell a child? Discover a trust fund? I feel a hot spike of envy, so sharp it’s almost clean.\n\nThe afternoon is a slog through wet cement. My lower back starts its familiar, throbbing anthem. I pee three times, just for the excuse to walk, to be in a stall alone for 90 seconds. I stare at the graffiti. *For a good time…* I think, *honey, my idea of a good time is eight uninterrupted hours of sleep and nobody needing me for anything.*\n\n**5:30 PM – Commute, Part II**\n\nThe fatigue is different now. Heavier. The fight is gone. I’m just a shell piloting a Honda through traffic. I stop at the grocery store. The lights are too bright. I move like a zombie, grabbing pasta, sauce, the kind of bread she likes. I avoid the wine aisle. It calls to me, a siren song. But one glass turns into two, and two turns into me passed out on the couch at 9 PM, which is a luxury I can’t afford. There is always more to do.\n\n**6:45 PM**\n\nHome. The kitchen is my second shift. I chop onions. They make me cry, which is convenient. I can just let the tears fall into the sauce. No one has to know.\n\nShe emerges, headphones on, face lit by her phone. She sets the table without being asked. A small, unexpected grace. It almost breaks me.\n\nWe eat in near-silence, the clink of forks loud in the room.\n“How was school?”\n“Fine.”\n“How was work?”\n“Fine.”\n\nThe dance. We’re both too tired for the real steps.\n\n**8:00 PM**\n\nShe’s in her room, the bass line of her music a dull throb through the house. I’m on the couch, paying bills online. Each click is a tiny amputation. I feel the money leaving, the safety net shrinking.\n\nI see a notification: it’s her father. A text. *Just checking in. Sent the support.* The support. He calls it that. Like it’s a bra. Not alimony. Not child support. *Support.* He lives two states away with his new, younger, un-stretched wife. He “checks in.” I am the one who gets the calls from the school nurse, who buys the tampons, who waits up, who worries the ceiling into dust.\n\n*I hope you get a persistent, untreatable rash*, I think, with perfect clarity. Then I feel guilty. He’s not a monster. He’s just… gone. Which, in some ways, is worse.\n\n**10:30 PM**\n\nI stand outside her closed door. I can hear her typing. Probably talking to that boy. I raise my hand to knock, to say goodnight. But I don’t. I just press my palm against the cool wood.\n\n*I have no idea what I’m doing. I am making this up as I go along. I am so tired. I love you so much it feels like a disease.*\n\nI don’t say any of it.\n\n**11:00 PM**\n\nIn my own bed. The day’s armor is off. The silence is total. This is when the thoughts come, the ones I allow only here, in the dark.\n\n*I am so lonely it’s a physical room inside me. I miss being touched. Not even sex. Just… a hand on my shoulder. I miss the version of me that believed in things. I am a machine made of lists and worry. My body is betraying me—soft in the wrong places, aching in the others. I am afraid all the time. Of her getting hurt. Of the car breaking down. Of getting sick. Of being this tired forever.*\n\nI take a deep, shuddering breath. The digital clock flips to 11:07.\n\nTomorrow, the alarm won’t go off. My eyes will just snap open.\n\nAnd I will do it all again.\n\nBecause that’s the job.\n\n*Now shut up and sleep, you stupid bitch. You need the rest.*",
+        "experimental_attachments": [],
+        "modelId": "019adb32-b716-7591-9a2f-c6882973e340",
+        "createdAt": "2026-02-11T16:40:05.045209+00:00",
+        "updatedAt": "2026-02-11T16:40:59.163648+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c4d92-fc14-7dbe-bdcb-e45d81bdac95",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019adb32-b716-7591-9a2f-c6882973e340",
+        "organization": "deepseek",
+        "provider": "deepseek",
+        "publicName": "deepseek-v3.2",
+        "name": "deepseek-v3.2",
+        "displayName": "deepseek-v3.2",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : CK2 hypothetical question. If matilda canossa, enrico dandolo, bohemond and roger hauteville's, live
+Mode     : direct-battle
+Started  : 2026-03-30 10:57:16
+Updated  : 2026-03-30 10:57:17
+Archived : 2026-09-30 23:26:26
+Messages : 2
+URL      : https://arena.ai/c/019d3dbf-28ec-7c7a-bbae-0503f5616749
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-03-30 10:57:17
+------------------------------------------------------------
+CK2 hypothetical question. If matilda canossa, enrico dandolo, bohemond and roger hauteville's, lived in same time, who would matilda choose to marry?
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-03-30 10:57:17
+------------------------------------------------------------
+(empty)

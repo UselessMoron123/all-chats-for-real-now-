@@ -1,0 +1,179 @@
+{
+  "exportedAt": "2026-10-09T16:28:30.772Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c3871-acf4-76f1-bcc9-ff66a6f21d16",
+  "archivedAt": "2026-09-30 19:27:35.696+00",
+  "evaluation": {
+    "id": "019c3871-acf4-76f1-bcc9-ff66a6f21d16",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "check this text. can it be rephrased or reorganised to be more clean, but without losing details?\n\nN",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c3872-c804-7c88-89c2-0af99ddec029"
+    ],
+    "archivedAt": "2026-09-30 19:27:35.696+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-07 14:13:15.722+00",
+    "updatedAt": "2026-02-07 14:13:16.116042+00",
+    "messages": [
+      {
+        "id": "019c3872-c803-725d-b472-19d5c53a73a3",
+        "evaluationSessionId": "019c3871-acf4-76f1-bcc9-ff66a6f21d16",
+        "evaluationId": "019c3873-234a-77a0-90bb-4ed5c35cc2e8",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "check this text. can it be rephrased or reorganised to be more clean, but without losing details?\n\nNarrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the globe. Their members intermarrying with prosperous families, and these going to obscurity. They don't seek conquest - they carved their own domain once, in set of decisive actions, and didn't saw need to expand their Archduchy any further. They usualy resolve things diplomatically, and the only kind of wars they are participating, are defending. They accept people seeking better life (declining house, overthrown). Sometimes they offer money and give better promises if person is content with where he is. Or \"buying\" the marriage. They don't bother with target not being in line of succession. They could even invite people seemingly not descending from any famous house (if origins long forgotten. or if they are cadet branch of cadet branch [x] times. or if some of their ancenstor was a bastard of someone actualy important, what often gets forcibly forgotten). They marry families with claims of descending to someone, be they acquired by diligent research or masterfully fabricated with money or cunning. Unlike others, they treat their female members not as spare coins or incubators, but with respect, and give time to decide if they like groom chosen for them. It's not rare for them to set up distant nephews into matrilineal marriages with last female members of some dynasties. the only condition is for one of kids to be of their dynasty. It doesn't bother them much if the child of these unions isn't of their dynasty, as long as it makes the bloodline continue. Only main line demands all kids carrying their dynasty name. But in the end, even making marriages with someone seemingly insignificant, they still looked like they were the winners.\n\n(this whole thing is about CK2 player hunting for bloodlines to merge into their rulling line. calculating a eugenical programms, like Bene Gesserit with their Kwisatz Haderach. for a player, using in-game ledgers, it's easy to track bloodlines passing, and see if the person is really carrying a bloodline. player chose the most optimal location, setting nice borders in early stages, and now is playing tall. the majority of bloodlines are patrilineal, meaning that they can't be passed through female by normal marriage. matrilineal marriage can be done if the last member of bloodline is female, allowing matrilineal transfer from both parents)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-07T14:13:16.107239+00:00",
+        "updatedAt": "2026-02-07T14:13:16.107239+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c3872-c804-7c88-89c2-0af99ddec029",
+        "evaluationSessionId": "019c3871-acf4-76f1-bcc9-ff66a6f21d16",
+        "evaluationId": "019c3873-234a-77a0-90bb-4ed5c35cc2e8",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c3872-c803-725d-b472-19d5c53a73a3"
+        ],
+        "content": "Here's a cleaner version that preserves all your details:\n\n---\n\n**The Watching World**\n\nAcross the known realms, observers have long noted one peculiar Archduchy—a dynasty that plays a different game entirely.\n\nThey carved their domain once, in a set of decisive early actions, and never sought to expand further. Their borders sit neat and defensible; their ambitions lie elsewhere. They resolve disputes through diplomacy. The only wars they fight are defensive. They play tall while others exhaust themselves playing wide.\n\nTheir true campaign is matrimonial.\n\nTheir agents arrange marriages across the globe with methodical precision. They intermarry with prosperous houses—and watch those houses fade into obscurity while their own bloodline absorbs what mattered. They welcome declining nobility, the overthrown, anyone seeking better prospects. For those content where they are, they offer gold and sweeter promises. They \"purchase\" marriages outright when necessary.\n\nMost curious is *who* they pursue. They care nothing for position in succession. They court seemingly insignificant families—those whose origins are long forgotten, cadet branches of cadet branches, descendants of bastards whose legitimacy was forcibly erased from memory. They seek houses with *claims* to ancient descent, whether proven through diligent research or masterfully fabricated through coin and cunning.\n\nUnlike other dynasties, they treat their women not as currency or vessels, but with genuine respect—granting them time to evaluate proposed matches. They readily arrange matrilineal marriages, setting distant nephews into unions with the last daughters of dying houses. Their only demand: that at least one child carries their name. If other children continue a bloodline under different banners, so be it. Only the main line insists all offspring bear the dynasty's name.\n\nAnd yet, even when wedding someone the world deems insignificant, they somehow always emerge as victors.\n\nAs if they see something others cannot.\n\n---\n\n**Changes made:**\n- Grouped related ideas into thematic paragraphs\n- Added subtle section breaks for rhythm\n- Fixed grammar throughout\n- Made the \"player knowledge\" aspect into atmospheric mystery (\"as if they see something others cannot\")\n- Preserved every mechanical detail from your original\n\nWant me to adjust the tone (more ominous? more documentary?) or emphasize different aspects?",
+        "experimental_attachments": [],
+        "modelId": "019b24bb-5caf-71c3-b854-37d0c7086f21",
+        "createdAt": "2026-02-07T14:13:16.112475+00:00",
+        "updatedAt": "2026-02-07T14:13:30.836327+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "p2lConfig": {
+            "eta": 0.1,
+            "lambda": 1,
+            "optimizer": "bt-regularized-latency-optimizer",
+            "threshold": 0.9
+          },
+          "p2lVariant": "arcstride",
+          "p2lModelData": [
+            {
+              "name": "claude-opus-4-5-20251101-vertex",
+              "penalty": -0.9053182063722964,
+              "winProb": 0.9648582267716272,
+              "normalizedTtcs": 0.25442741241323735,
+              "normalizedTtft": 0.03788586573111903,
+              "leaderboardCoefficient": 0.73828125
+            },
+            {
+              "name": "claude-sonnet-4-5-20250929",
+              "penalty": -0.8825890777944387,
+              "winProb": 0.9395270034176773,
+              "normalizedTtcs": 0.28143142318187647,
+              "normalizedTtft": 0.03199420367227868,
+              "leaderboardCoefficient": 0.6875
+            },
+            {
+              "name": "gemini-3-flash",
+              "penalty": -0.8122278086890663,
+              "winProb": 0.9239751042211034,
+              "normalizedTtcs": 0.11892203725070051,
+              "normalizedTtft": 0.11095010200774115,
+              "leaderboardCoefficient": 0.65625
+            },
+            {
+              "name": "claude-sonnet-4-5-20250929-thinking-32k",
+              "penalty": -0.7728563949807088,
+              "winProb": 0.9570576750786455,
+              "normalizedTtcs": 0.3202479717231654,
+              "normalizedTtft": 0.16908498102846684,
+              "leaderboardCoefficient": 0.72265625
+            },
+            {
+              "name": "claude-opus-4-5-20251101-thinking-32k",
+              "penalty": -0.7502731188424877,
+              "winProb": 0.9824236852673432,
+              "normalizedTtcs": 0.338818379942494,
+              "normalizedTtft": 0.22029858714511794,
+              "leaderboardCoefficient": 0.7734375
+            },
+            {
+              "name": "gemini-3-pro",
+              "penalty": -0.6473969250277567,
+              "winProb": 1,
+              "normalizedTtcs": 0.26937164624654325,
+              "normalizedTtft": 0.36185101149732113,
+              "leaderboardCoefficient": 0.80859375
+            },
+            {
+              "name": "gemini-2.5-pro",
+              "penalty": -0.60770579399466,
+              "winProb": 0.9434198681092728,
+              "normalizedTtcs": 0.287356006080252,
+              "normalizedTtft": 0.34108719278509736,
+              "leaderboardCoefficient": 0.6953125
+            },
+            {
+              "name": "gpt-5.1-high",
+              "penalty": -0.47302058646785256,
+              "winProb": 0.9278599108574496,
+              "normalizedTtcs": 0.3805285423877809,
+              "normalizedTtft": 0.46309607794535435,
+              "leaderboardCoefficient": 0.6640625
+            }
+          ],
+          "routedModelId": "019adbec-8396-71cc-87d5-b47f8431a6a6",
+          "routedModelName": "claude-opus-4-5-20251101-vertex",
+          "routedModelOrganization": "anthropic"
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c3873-234a-77a0-90bb-4ed5c35cc2e8",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b24bb-5caf-71c3-b854-37d0c7086f21",
+        "organization": "boss-bandit",
+        "provider": "boss-bandit",
+        "publicName": "Max",
+        "name": "boss-bandit",
+        "displayName": "Max",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": {
+              "multipleImages": true
+            }
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true,
+            "image": {
+              "aspectRatios": [
+                "1:1"
+              ]
+            },
+            "search": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

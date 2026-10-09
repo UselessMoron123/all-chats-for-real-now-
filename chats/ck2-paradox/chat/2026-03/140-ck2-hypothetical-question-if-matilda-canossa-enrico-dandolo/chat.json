@@ -1,0 +1,192 @@
+{
+  "exportedAt": "2026-10-09T16:27:59.056Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019d3dbf-28ec-7c7a-bbae-0503f5616749",
+  "archivedAt": "2026-09-30 20:26:26.102+00",
+  "evaluation": {
+    "id": "019d3dbf-28ec-7c7a-bbae-0503f5616749",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "CK2 hypothetical question. If matilda canossa, enrico dandolo, bohemond and roger hauteville's, live",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019d3dbf-37c7-7316-9542-d3bd7d01fbe9"
+    ],
+    "archivedAt": "2026-09-30 20:26:26.102+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-03-30 07:57:16.303+00",
+    "updatedAt": "2026-03-30 07:57:17.070144+00",
+    "messages": [
+      {
+        "id": "019d3dbf-37c6-7324-85be-ba26915065cd",
+        "evaluationSessionId": "019d3dbf-28ec-7c7a-bbae-0503f5616749",
+        "evaluationId": "019d3dbf-3f67-7993-9f49-580eb8abe667",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "CK2 hypothetical question. If matilda canossa, enrico dandolo, bohemond and roger hauteville's, lived in same time, who would matilda choose to marry?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-30T07:57:17.06284+00:00",
+        "updatedAt": "2026-03-30T07:57:17.06284+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "dlpOutput": {
+            "stats": {
+              "PERSON_NAME": 3
+            },
+            "severity": "REDACT"
+          }
+        }
+      },
+      {
+        "id": "019d3dbf-37c7-7316-9542-d3bd7d01fbe9",
+        "evaluationSessionId": "019d3dbf-28ec-7c7a-bbae-0503f5616749",
+        "evaluationId": "019d3dbf-3f67-7993-9f49-580eb8abe667",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d3dbf-37c6-7324-85be-ba26915065cd"
+        ],
+        "content": "",
+        "experimental_attachments": [],
+        "modelId": "019b24bb-5caf-71c3-b854-37d0c7086f21",
+        "createdAt": "2026-03-30T07:57:17.066495+00:00",
+        "updatedAt": "2026-03-30T07:57:27.322276+00:00",
+        "participantPosition": "a",
+        "status": "failed",
+        "failureReason": "The generation failed",
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "p2lConfig": {
+            "eta": 0.1,
+            "type": "latency-constrained",
+            "lambda": 1,
+            "timing": {
+              "grok-4.1": {
+                "ttcs": 12445,
+                "ttft": 1844
+              },
+              "gemini-3-pro": {
+                "ttcs": 31107,
+                "ttft": 19962
+              },
+              "gpt-5.1-high": {
+                "ttcs": 44672,
+                "ttft": 25941
+              },
+              "ernie-5.0-0110": {
+                "ttcs": 111374,
+                "ttft": 53476
+              },
+              "gemini-2.5-pro": {
+                "ttcs": 30748,
+                "ttft": 17213
+              },
+              "gemini-3-flash": {
+                "ttcs": 13351,
+                "ttft": 6016
+              },
+              "claude-opus-4-6": {
+                "ttcs": 38107,
+                "ttft": 1472
+              },
+              "grok-4.1-thinking": {
+                "ttcs": 20532,
+                "ttft": 7479
+              },
+              "ernie-5.0-preview-1203": {
+                "ttcs": 81789,
+                "ttft": 37806
+              },
+              "claude-opus-4-5-20251101": {
+                "ttcs": 29538,
+                "ttft": 1512
+              },
+              "claude-opus-4-6-thinking": {
+                "ttcs": 44208,
+                "ttft": 10350
+              },
+              "claude-sonnet-4-5-20250929": {
+                "ttcs": 30913,
+                "ttft": 1593
+              },
+              "gemini-3-flash-thinking-minimal": {
+                "ttcs": 9331,
+                "ttft": 2105
+              },
+              "claude-opus-4-5-20251101-thinking-32k": {
+                "ttcs": 35808,
+                "ttft": 10855
+              },
+              "claude-sonnet-4-5-20250929-thinking-32k": {
+                "ttcs": 35940,
+                "ttft": 8561
+              }
+            },
+            "threshold": 0.9
+          },
+          "p2lModelData": [
+            {
+              "name": "gemini-3-pro",
+              "penalty": -0.6361097260457418,
+              "winProb": 1,
+              "normalizedTtcs": 0.2793021710632643,
+              "normalizedTtft": 0.3732889520532575,
+              "leaderboardCoefficient": 1.3828125
+            }
+          ],
+          "routedModelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+          "routedModelName": "gemini-3-pro",
+          "optimizerVariant": "default",
+          "routedModelOrganization": "google"
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019d3dbf-3f67-7993-9f49-580eb8abe667",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b24bb-5caf-71c3-b854-37d0c7086f21",
+        "organization": "boss-bandit",
+        "provider": "boss-bandit",
+        "publicName": "Max",
+        "name": "boss-bandit",
+        "displayName": "Max",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": {
+              "multipleImages": true
+            }
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true,
+            "image": {
+              "aspectRatios": [
+                "1:1"
+              ]
+            },
+            "search": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

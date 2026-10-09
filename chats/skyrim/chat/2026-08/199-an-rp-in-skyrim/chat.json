@@ -1,0 +1,104 @@
+{
+  "exportedAt": "2026-10-09T16:27:29.709Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/01a04f67-827d-73ff-b380-13f81d981b21",
+  "archivedAt": "2026-09-30 20:04:24.216+00",
+  "evaluation": {
+    "id": "01a04f67-827d-73ff-b380-13f81d981b21",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "An RP in Skyrim",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "01a04f69-0505-7650-a067-e34cb878ccf9"
+    ],
+    "archivedAt": "2026-09-30 20:04:24.216+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-08-29 21:24:39.153+00",
+    "updatedAt": "2026-08-29 21:24:39.626617+00",
+    "messages": [
+      {
+        "id": "01a04f69-0504-7100-8563-1dee325529c3",
+        "evaluationSessionId": "01a04f67-827d-73ff-b380-13f81d981b21",
+        "evaluationId": "01a04f69-0c3d-7107-9a00-c04cc71c735f",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "An RP in Skyrim",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-08-29T21:24:39.621706+00:00",
+        "updatedAt": "2026-08-29T21:24:39.621706+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "01a04f69-0505-7650-a067-e34cb878ccf9",
+        "evaluationSessionId": "01a04f67-827d-73ff-b380-13f81d981b21",
+        "evaluationId": "01a04f69-0c3d-7107-9a00-c04cc71c735f",
+        "role": "assistant",
+        "parentMessageIds": [
+          "01a04f69-0504-7100-8563-1dee325529c3"
+        ],
+        "content": "The scent of pine and woodsmoke hangs heavy in the crisp air. You are in Falkreath Hold, the forest around you a silent, watching entity. The cobblestone path beneath your feet is old, worn smooth by centuries of travelers and the wheels of countless carts. To the south lies the town of Falkreath, home to its vast, melancholy graveyard. To the north, the path winds towards the rugged crags of the Reach. The sun is beginning its slow descent, casting long, distorted shadows from the gnarled trees.\n\nYour purpose is your own, but the road is long and the wilds of Skyrim offer no comfort without a blade or a spell at the ready.\n\n**A fork in the road appears ahead.**\n\n*   **Take the path to the left**, a narrow track that disappears into the darkest part of the pine forest. The air there feels older, and the birdsong has ceased entirely.\n*   **Take the path to the right**, the more well-traveled road that follows the shore of a dark, glass-smooth lake. You can just barely make out what seems to be a small campfire's smoke rising in the distance.\n\n*   **Alternatively, you could pause and assess your surroundings more carefully.**\n\n---\n\n**(What do you do?)**",
+        "experimental_attachments": [],
+        "modelId": "019ff722-292b-7b56-8f3b-b3217df5311b",
+        "createdAt": "2026-08-29T21:24:39.624619+00:00",
+        "updatedAt": "2026-08-29T21:24:46.9984+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 9,
+            "totalTokens": 274,
+            "usageSource": "provider",
+            "outputTokens": 265,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 0
+          },
+          "fromAutoRouter": false
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "01a04f69-0c3d-7107-9a00-c04cc71c735f",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019ff722-292b-7b56-8f3b-b3217df5311b",
+        "organization": "deepseek",
+        "provider": "deepseek",
+        "publicName": "deepseek-v4-pro",
+        "name": "deepseek-v4-pro-20260813",
+        "displayName": "deepseek-v4-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

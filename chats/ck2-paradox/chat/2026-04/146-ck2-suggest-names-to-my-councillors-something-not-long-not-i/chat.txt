@@ -1,0 +1,84 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : CK2. Suggest names to my councillors. Something not long, not importantly real ir serious. That I im
+Mode     : direct-battle
+Started  : 2026-04-02 19:25:56
+Updated  : 2026-04-02 19:47:21
+Archived : 2026-09-30 23:18:08
+Messages : 4
+URL      : https://arena.ai/c/019d4f03-0640-7b5c-9648-4968163d787e
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-04-02 19:25:56
+------------------------------------------------------------
+CK2. Suggest names to my councillors. Something not long, not importantly real ir serious. That I immediately understand persons specialisation. I have no imagination, so I valled them Diplo, Marty, Stew, Intri, Learn (he's chaplain and physician), plus commanders Left (speed of army), Center (damage against different faith), Right (siege speed). And wife - Wifey. (but don't make all of them end with "y" in a silly childish manner)
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-04-02 19:25:56
+------------------------------------------------------------
+Here’s a set of short, instantly readable, slightly silly-but-not-babyish councilor names that scream exactly what they do in CK2. No long fantasy names, no historical pretension, just pure function with a smirk.
+
+**Council positions (the six classic ones)**  
+- Lord Chancellor (Diplomacy) → **Charm**  
+- Marshal (Martial) → **Stab**  
+- Steward (Stewardship) → **Coin**  
+- Spymaster (Intrigue) → **Sneak**  
+- Court Chaplain (Learning) → **Pray** (covers the religious stuff)  
+- Court Physician (also Learning) → **Patch** (so you can tell Pray and Patch apart at a glance)
+
+**Your three permanent commanders**  
+- Left flank (movement speed guy) → **Zoom**  
+- Center (pagan/heretic damage guy) → **Smite**  
+- Right flank (siege speed guy) → **Batter**
+
+**Wife**  
+Keep her as **Wifey** (it’s already perfect) or upgrade to **Queenbee** if you want something equally clear but a bit spicier.
+
+Full council screen now looks like:  
+Charm · Stab · Coin · Sneak · Pray · Patch  
+Commanders: Zoom · Smite · Batter  
+Consort: Wifey (or Queenbee)
+
+Zero imagination required, zero confusion possible, maximum medieval meme energy achieved. Enjoy your perfectly labeled murder-spreadsheet.
+
+------------------------------------------------------------
+Message  : 3
+Speaker  : User
+Time     : 2026-04-02 19:47:21
+------------------------------------------------------------
+more serious? with surnames (dynasty name)
+
+------------------------------------------------------------
+Message  : 4
+Speaker  : AI A
+Time     : 2026-04-02 19:47:21
+------------------------------------------------------------
+Here’s a more serious (but still short and crystal-clear) version with proper surnames. I gave them all the same dynasty name “de Functio” (Latin for “of the function”) so they feel like a coherent team of ultra-specialized professionals your court hired explicitly for the job.
+
+| Role                  | Name                         | What you instantly read                                          |
+|-----------------------|------------------------------|------------------------------------------------------------------|
+| Chancellor (Diplomacy)| Lord Etienne de Functio      | “Etiquette” → diplomat                                          |
+| Marshal (Martial)     | Sir Balian de Functio        | “Valiant” with a B → martial beast                               |
+| Steward (Stewardship) | Master Renaud de Functio     | “Revenue” → money guy                                            |
+| Spymaster (Intrigue)  | Lady Morgaine de Functio     | “Morgana” → obvious intrigue vibes                               |
+| Court Chaplain        | Bishop Aldric de Functio     | “Aldric” sounds very churchy                                     |
+| Court Physician       | Master Gerard de Functio     | Classic physician name, keeps him distinct from the bishop      |
+| Commander – Left      | Captain Swift de Functio     | Literally the fast-march guy                                     |
+| Commander – Center    | Captain Crusader de Functio  | The holy-war damage monster                                      |
+| Commander – Right     | Captain Ram de Functio       | Siege engines go brrrrr                                          |
+| Wife                  | Lady [Your Dynasty] (Wifey)  | Keep the nickname privately, publicly she’s just your proper consort |
+
+If you want them to feel even more like a single “department” you can shorten the dynasty to just **de Func** (still reads as noble):
+
+- Etienne de Func  
+- Balian de Func  
+- Renaud de Func  
+etc.
+
+Short, dead serious on the council screen, and you’ll never forget who does what.

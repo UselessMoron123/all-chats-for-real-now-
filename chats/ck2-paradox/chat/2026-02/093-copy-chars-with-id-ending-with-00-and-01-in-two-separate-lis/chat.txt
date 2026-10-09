@@ -1,0 +1,791 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+Mode     : direct
+Started  : 2026-02-21 13:22:22
+Updated  : 2026-02-21 13:22:22
+Archived : 2026-09-30 23:27:46
+Messages : 2
+URL      : https://arena.ai/c/019c7fb8-7964-794b-849c-ae05f9d04360
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 13:22:22
+------------------------------------------------------------
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything else
+906700 = {
+	name = "Horse_0"
+	dynasty = 906700
+	religion = finnish_pagan
+	culture = horse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906701 = {
+	name = "Horse_1"
+	dynasty = 906700
+	religion = finnish_pagan
+	culture = horse
+	father = 906700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = random_world_bloodline_01
+		}
+		add_spouse = 911801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911800 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 911800
+	religion = finnish_pagan
+	culture = finnish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911801 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 911800
+	religion = finnish_pagan
+	culture = finnish
+	mother = 911800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_suomenusko_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911802 = {
+	name = "Defender_2"
+	dynasty = 911800
+	religion = finnish_pagan
+	culture = finnish
+	father = 906701
+	mother = 911801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 924902
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911900 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 911900
+	religion = finnish_pagan
+	culture = finnish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911901 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 911900
+	religion = finnish_pagan
+	culture = finnish
+	mother = 911900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_suomenusko_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911902 = {
+	name = "Culture_2"
+	dynasty = 911900
+	religion = finnish_pagan
+	culture = finnish
+	father = 912001
+	mother = 911901
+	2.1.1 = {
+		birth = yes
+		add_spouse = 912102
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912000 = {
+	name = "Inquisitor_0"
+	dynasty = 912000
+	religion = finnish_pagan
+	culture = finnish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912001 = {
+	name = "Inquisitor_1"
+	dynasty = 912000
+	religion = finnish_pagan
+	culture = finnish
+	father = 912000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_suomenusko_04
+		}
+		add_spouse = 911901
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912100 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 912100
+	religion = nestorian
+	culture = finnish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912101 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 912100
+	religion = nestorian
+	culture = finnish
+	mother = 912100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_suomenusko_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912102 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 912100
+	religion = nestorian
+	culture = finnish
+	father = 912201
+	mother = 912101
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912103 = {
+	name = "Jewish_3"
+	dynasty = 912100
+	religion = nestorian
+	culture = finnish
+	father = 911902
+	mother = 912102
+	3.1.1 = {
+		birth = yes
+		add_spouse = 924903
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912200 = {
+	name = "Theologic_0"
+	dynasty = 912200
+	religion = finnish_pagan
+	culture = finnish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912201 = {
+	name = "Theologic_1"
+	dynasty = 912200
+	religion = finnish_pagan
+	culture = finnish
+	father = 912200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_suomenusko_06
+		}
+		add_spouse = 912101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916700 = {
+	name = "MDestiny_0"
+	dynasty = 916700
+	religion = tengri_pagan
+	culture = hungarian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916701 = {
+	name = "MDestiny_1"
+	dynasty = 916700
+	religion = tengri_pagan
+	culture = hungarian
+	father = 916700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = child_of_destiny_bloodline
+		}
+		add_spouse = 924901
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924900 = {
+	name = "FRaider_0"
+	female = yes
+	dynasty = 924900
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924901 = {
+	name = "FRaider_1"
+	female = yes
+	dynasty = 924900
+	religion = catholic
+	culture = french
+	mother = 924900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_raider_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924902 = {
+	name = "FRaider_2"
+	female = yes
+	dynasty = 924900
+	religion = catholic
+	culture = french
+	father = 916701
+	mother = 924901
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924903 = {
+	name = "FRaider_3"
+	female = yes
+	dynasty = 924900
+	religion = catholic
+	culture = french
+	father = 911802
+	mother = 924902
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924904 = {
+	name = "FRaider_4"
+	female = yes
+	dynasty = 924900
+	religion = catholic
+	culture = french
+	father = 912103
+	mother = 924903
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924905 = {
+	name = "FRaider_5"
+	dynasty = 924900
+	religion = catholic
+	culture = french
+	father = 915504
+	mother = 924904
+	5.1.1 = {
+		birth = yes
+		add_spouse = 917005
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 13:22:22
+------------------------------------------------------------
+### List 1: IDs ending in 00
+```txt
+906700 = {
+	name = "Horse_0"
+	dynasty = 906700
+	religion = finnish_pagan
+	culture = horse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911800 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 911800
+	religion = finnish_pagan
+	culture = finnish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911900 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 911900
+	religion = finnish_pagan
+	culture = finnish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912000 = {
+	name = "Inquisitor_0"
+	dynasty = 912000
+	religion = finnish_pagan
+	culture = finnish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912100 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 912100
+	religion = nestorian
+	culture = finnish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912200 = {
+	name = "Theologic_0"
+	dynasty = 912200
+	religion = finnish_pagan
+	culture = finnish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916700 = {
+	name = "MDestiny_0"
+	dynasty = 916700
+	religion = tengri_pagan
+	culture = hungarian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924900 = {
+	name = "FRaider_0"
+	female = yes
+	dynasty = 924900
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 2: IDs ending in 01
+```txt
+906701 = {
+	name = "Horse_1"
+	dynasty = 906700
+	religion = finnish_pagan
+	culture = horse
+	father = 906700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = random_world_bloodline_01
+		}
+		add_spouse = 911801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911801 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 911800
+	religion = finnish_pagan
+	culture = finnish
+	mother = 911800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_suomenusko_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911901 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 911900
+	religion = finnish_pagan
+	culture = finnish
+	mother = 911900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_suomenusko_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912001 = {
+	name = "Inquisitor_1"
+	dynasty = 912000
+	religion = finnish_pagan
+	culture = finnish
+	father = 912000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_suomenusko_04
+		}
+		add_spouse = 911901
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912101 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 912100
+	religion = nestorian
+	culture = finnish
+	mother = 912100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_suomenusko_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912201 = {
+	name = "Theologic_1"
+	dynasty = 912200
+	religion = finnish_pagan
+	culture = finnish
+	father = 912200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_suomenusko_06
+		}
+		add_spouse = 912101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916701 = {
+	name = "MDestiny_1"
+	dynasty = 916700
+	religion = tengri_pagan
+	culture = hungarian
+	father = 916700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = child_of_destiny_bloodline
+		}
+		add_spouse = 924901
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924901 = {
+	name = "FRaider_1"
+	female = yes
+	dynasty = 924900
+	religion = catholic
+	culture = french
+	mother = 924900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_raider_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 3: Everything else
+```txt
+911802 = {
+	name = "Defender_2"
+	dynasty = 911800
+	religion = finnish_pagan
+	culture = finnish
+	father = 906701
+	mother = 911801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 924902
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911902 = {
+	name = "Culture_2"
+	dynasty = 911900
+	religion = finnish_pagan
+	culture = finnish
+	father = 912001
+	mother = 911901
+	2.1.1 = {
+		birth = yes
+		add_spouse = 912102
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912102 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 912100
+	religion = nestorian
+	culture = finnish
+	father = 912201
+	mother = 912101
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912103 = {
+	name = "Jewish_3"
+	dynasty = 912100
+	religion = nestorian
+	culture = finnish
+	father = 911902
+	mother = 912102
+	3.1.1 = {
+		birth = yes
+		add_spouse = 924903
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924902 = {
+	name = "FRaider_2"
+	female = yes
+	dynasty = 924900
+	religion = catholic
+	culture = french
+	father = 916701
+	mother = 924901
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924903 = {
+	name = "FRaider_3"
+	female = yes
+	dynasty = 924900
+	religion = catholic
+	culture = french
+	father = 911802
+	mother = 924902
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924904 = {
+	name = "FRaider_4"
+	female = yes
+	dynasty = 924900
+	religion = catholic
+	culture = french
+	father = 912103
+	mother = 924903
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924905 = {
+	name = "FRaider_5"
+	dynasty = 924900
+	religion = catholic
+	culture = french
+	father = 915504
+	mother = 924904
+	5.1.1 = {
+		birth = yes
+		add_spouse = 917005
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

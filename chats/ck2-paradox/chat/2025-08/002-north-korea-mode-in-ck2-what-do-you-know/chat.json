@@ -1,0 +1,235 @@
+{
+  "exportedAt": "2026-10-09T16:28:53.324Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/57b8fdfb-2bda-4bbf-ab51-9804fcdf7dae",
+  "archivedAt": "2026-09-30 19:12:35.771+00",
+  "evaluation": {
+    "id": "57b8fdfb-2bda-4bbf-ab51-9804fcdf7dae",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "North Korea mode in CK2. What do you know?",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "19475010-c863-4431-a15a-c69cf7576917"
+    ],
+    "archivedAt": "2026-09-30 19:12:35.771+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": null,
+    "createdAt": "2025-08-14 13:40:12.779+00",
+    "updatedAt": "2025-10-17 07:53:40.806289+00",
+    "messages": [
+      {
+        "id": "6ea8d644-761b-4260-92ad-35c1f59919d3",
+        "evaluationSessionId": "57b8fdfb-2bda-4bbf-ab51-9804fcdf7dae",
+        "evaluationId": "36ff9d7d-bdff-4092-944d-3dc7aaa425a9",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "North Korea mode in CK2. What do you know?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-08-14T13:40:13.014826+00:00",
+        "updatedAt": "2025-08-14T13:40:13.014826+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "09f7962d-87ec-41d9-9779-d168bde19274",
+        "evaluationSessionId": "57b8fdfb-2bda-4bbf-ab51-9804fcdf7dae",
+        "evaluationId": "36ff9d7d-bdff-4092-944d-3dc7aaa425a9",
+        "role": "assistant",
+        "parentMessageIds": [
+          "6ea8d644-761b-4260-92ad-35c1f59919d3"
+        ],
+        "content": "Ah, “North Korea mode” in **Crusader Kings II** — the most paradoxical of Paradox playstyles. It’s not an official feature, but rather a tongue‑in‑cheek nickname the player base gave to a very… *non‑feudal* way of running your realm. The name comes from the idea that the ruler holds absolutely everything directly with no vassals, mirroring the stereotype of extreme centralization.\n\nHere’s the breakdown:  \n\n---\n\n### **What North Korea Mode Is**\n- In CK2, you normally rely on vassals (counts, dukes, kings) to hold most of your realm because your **demesne limit** — the maximum number of holdings you can hold personally — is quite small.  \n- “North Korea mode” ignores that entirely: you keep *all* counties, baronies, and cities in your direct control. No counts, no dukes, no feudal vassals — just you as the landlord of basically the entire map.  \n\n---\n\n### **How It Works**\n- **Normally:** Go over your demesne limit → big penalties to income and levies from holdings → realm efficiency tanks.\n- **With NK Mode:** You mitigate or outright ignore those penalties by stacking massive bonuses from stewardship, laws, and game exploits.  \n- This typically involves:\n  - Max stewardship via traits, education, spouse choice, and councilors.\n  - Using Late Feudal law boosts.\n  - Sometimes abusing game mechanics like certain succession exploits or retinues.\n- You personally get the full benefit of every holding’s income and levies (proportionally penalized if you go over limit, but with enough stewardship, you can hold *a lot* before the penalty becomes crippling).\n\n---\n\n### **Advantages**\n- Absolute control — no vassal revolts, no succession crises from vassals splitting off.\n- All your levies are yours to command directly — instant army without vassal contribution drama.\n- All taxes go directly to you — potentially insane treasury growth.\n- Immensely satisfying for megalomaniac role‑playing.\n\n---\n\n### **Drawbacks**\n- Painful micromanagement — every building, levy raise, and garrison is *yours*.\n- If your ruler’s traits or circumstances change (e.g., a poor inheriting heir), your stewardship may collapse and throw you far over the demesne limit, gutting income and levy size.\n- No vassals means no vassal opinion bonuses from handing out land, no help with internal politics.\n- Technically an exploit — not how the game was balanced to be played — so some consider it a “cheese” strat rather than “legit.”\n\n---\n\n### **Why People Love Doing It**\nMostly for the novelty and power fantasy — the CK2 world is designed to simulate feudal politics, where angry vassals are half the fun and half the challenge. “North Korea mode” throws that entire layer out the window and turns CK2 into something closer to a straightforward empire‑management wargame. And sometimes, you just want to drop the medieval diplomacy drama and become the crowned CEO of Europe.\n\n---\n\nIf you want, I can walk you through **exactly how to set it up step‑by‑step** so it actually works and doesn’t implode your economy two years in. It’s a surprisingly delicate dictatorship.",
+        "experimental_attachments": [],
+        "modelId": "4b11c78c-08c8-461c-938e-5fc97d56a40d",
+        "createdAt": "2025-08-14T13:40:13.020885+00:00",
+        "updatedAt": "2025-08-14T13:40:29.849321+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "fa01a197-0208-49c4-a477-f37d0b06760d",
+        "evaluationSessionId": "57b8fdfb-2bda-4bbf-ab51-9804fcdf7dae",
+        "evaluationId": "36ff9d7d-bdff-4092-944d-3dc7aaa425a9",
+        "role": "user",
+        "parentMessageIds": [
+          "09f7962d-87ec-41d9-9779-d168bde19274"
+        ],
+        "content": "Forget about this. Now explain \"Playing Tall\"",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-08-14T13:47:20.56572+00:00",
+        "updatedAt": "2025-08-14T13:47:20.56572+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "35cf6cd4-ddbb-4969-b757-70355bd012c3",
+        "evaluationSessionId": "57b8fdfb-2bda-4bbf-ab51-9804fcdf7dae",
+        "evaluationId": "36ff9d7d-bdff-4092-944d-3dc7aaa425a9",
+        "role": "assistant",
+        "parentMessageIds": [
+          "fa01a197-0208-49c4-a477-f37d0b06760d"
+        ],
+        "content": "Got it — we’re moving from **“ruthless iron-fisted empire”** territory to something far more *zen garden*.  \n\n**Playing tall** in Crusader Kings II is all about focusing on **quality over quantity** — you concentrate on building up a small, manageable realm instead of sprawling across half of Eurasia. Think “the wealthy and perfectly groomed duchy of your dreams” rather than “my flag is everywhere.”\n\n---\n\n## **The Core Idea**\nInstead of conquering vast swathes of land (“playing wide”), you:\n- Keep your realm compact, typically just your capital duchy and some choice counties.\n- Invest heavily in buildings, technology, and infrastructure.\n- Make your demesne incredibly rich, defensible, and advanced.\n- Use your power to punch above your weight without risking the headaches of managing dozens of rebellious vassals.\n\nThe fantasy: You’re less Genghis Khan, more Florence under the Medici — famous, rich, and influential without ruling the map.\n\n---\n\n## **Why Play Tall**\n- **Low internal drama** → fewer vassals means fewer revolts and factions.\n- **Faster tech spread** → fewer counties means you can bring them all up to the cutting edge quickly.\n- **Insane personal income** from fully upgraded holdings.\n- **Elite military**: Small realm, big budget = top-tier retinues, mercs, and fortifications.\n- **RP potential**: Perfect for building a cultural, religious, or dynastic legacy.\n\n---\n\n## **How to Do It Well**\n1. **Choose the Right Start**\n   - Pick a rich area with high base tax and good development potential (Constantinople, Venice, Paris, Flanders).\n   - Coastal and trade-friendly locations are great for income.\n\n2. **Keep Land Within Your Demesne**\n   - Stay under or at your **demesne limit** to avoid efficiency penalties.\n   - Focus on one duchy’s worth of counties.\n\n3. **Upgrade Everything**\n   - Build and upgrade castles, cities, and temples to max levels in your demesne.\n   - Don’t forget tech buildings: Military Organization, Legalism, Economy advances.\n\n4. **Money Is Power**\n   - Fund mercenaries during wars instead of relying on large vassal levies.\n   - Maintain retinues for instant-response armies.\n\n5. **Diplomacy & Marriage**\n   - Use alliances to deter aggression, since you lack sprawling vassal levies.\n   - Marry smart for claims and non‑territorial advantages.\n\n6. **Pick Supportive Laws**\n   - Centralize for higher demesne limit.\n   - Maximize city/town taxation if you invest in them.\n\n---\n\n## **Play Tall vs Play Wide**\n|  | Play Tall | Play Wide |\n|---|---|---|\n| **Size** | Small, compact | Vast, multi-region |\n| **Focus** | Infrastructure & tech | Expansion & conquest |\n| **Strengths** | Economy, tech, stable politics | Sheer numbers, territory control |\n| **Weaknesses** | Limited manpower, risky if swarmed | Fragile politics, succession chaos |\n\n---\n\n## **The Secret Sauce**\nPlaying tall is the art of *being too expensive to attack and too well-connected to ignore*. You’re the medieval equivalent of that one small but unbelievably bougie neighborhood where every house has a Tesla in the driveway and you wonder, “What exactly do they *do* in there?”\n\n---\n\nI can also give you a **practical “First 50 Years” action plan** for a tall game so you hit maximum efficiency quickly and never feel the urge to paint the map your color. That way you’ll see just how potent a “little” realm can become.",
+        "experimental_attachments": [],
+        "modelId": "4b11c78c-08c8-461c-938e-5fc97d56a40d",
+        "createdAt": "2025-08-14T13:47:20.568274+00:00",
+        "updatedAt": "2025-08-14T13:47:33.83079+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "67a135eb-44b0-466d-ab8c-4dc12df80903",
+        "evaluationSessionId": "57b8fdfb-2bda-4bbf-ab51-9804fcdf7dae",
+        "evaluationId": "36ff9d7d-bdff-4092-944d-3dc7aaa425a9",
+        "role": "user",
+        "parentMessageIds": [
+          "35cf6cd4-ddbb-4969-b757-70355bd012c3"
+        ],
+        "content": "Tell about this plan. Where do you suggest to start?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-08-14T13:53:58.484649+00:00",
+        "updatedAt": "2025-08-14T13:53:58.484649+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "4977ba82-bd96-4c4c-b674-0a8809507d79",
+        "evaluationSessionId": "57b8fdfb-2bda-4bbf-ab51-9804fcdf7dae",
+        "evaluationId": "36ff9d7d-bdff-4092-944d-3dc7aaa425a9",
+        "role": "assistant",
+        "parentMessageIds": [
+          "67a135eb-44b0-466d-ab8c-4dc12df80903"
+        ],
+        "content": "Ah, perfect — let’s forge your **Play Tall First 50 Years Master Plan** so your humble patch of dirt becomes the medieval equivalent of Monaco with chainmail.  \n\n---\n\n## **Step 0 – Pick the Right Starting Location**\nTall success is 80% location, 20% cunning, and maybe 5% smug satisfaction when bigger realms bounce off your walls. You need:\n- **High base tax** for immediate income.\n- **Multiple county slots** in your capital duchy.\n- **Good tech spread potential**.\n- **Defensibility** — mountains, rivers, or coastlines help.\n- Bonus points if you control **trade zones** or are near Silk Road provinces.\n\n### **Recommended Starting Picks:**\n1. **Flanders** (start as the Count or Duke of Flanders, 1066)  \n   - Exceptionally rich, coastal trade, easy upgrades.\n2. **Venice** (as the Serene Doge)  \n   - A merchant republic can *really* play tall in style — swimming in gold.  \n3. **Constantinople** (Basileus/Byzantine vassal)  \n   - Best province in the game: absurd starting buildings, tech leader.  \n4. **Genoa/Pisa** (Merchant republics)  \n   - Trade empire, small footprint, huge bank balance.\n5. **Provence** (southern France)  \n   - Great tech growth and defensible mountains.\n\n---\n\n## **Years 1–10: The Foundation**\n1. **Demesne Consolidation**\n   - Secure every county in your capital duchy through inheritance, claims, or purchase.\n   - Destroy any extra duchy titles: avoid vassal opinion penalties.\n   - Keep only as many counties as your demesne limit supports — upgrade those to the max.\n\n2. **Upgrade Income Buildings First**\n   - Prioritize cities in your demesne → **build militia training grounds/town markets** ASAP.\n   - Build extra city holdings in your best counties — they pay off fastest long term.\n\n3. **Council Focus**\n   - Chancellor → improve relations with your liege or fabricate claims.\n   - Steward → “Collect Taxes” in capital.\n   - Marshal → focus on “Train Troops” in capital for strong retinue base.\n\n---\n\n## **Years 11–25: The Golden Growth**\n1. **Tech Rush**\n   - Invest research in **Military Organization** (bigger retinues), **Construction**, **Economy**.\n   - Concentrate tech points in your capital — it spreads faster within your small realm.\n\n2. **Law Optimization**\n   - Max out centralization without wrecking vassal happiness (you’ll have few vassals anyway).\n   - Increase city tax laws to maximize income.\n\n3. **Elite Military Creation**\n   - Use your surplus income to raise a standing retinue; keep upgrading your capital’s military buildings.\n   - Consider specializing in cultural retinue types (cataphracts for Byzantines, longbowmen for Welsh, etc.).\n\n---\n\n## **Years 26–50: Becoming a Compact Juggernaut**\n1. **Economic Snowball**\n   - Your income is now ludicrous — reinvest constantly into maxing out all holdings in your demesne counties.\n   - Fund mercenaries on demand in wars. You don’t need to care how much they cost because *you’re medieval Bezos now*.\n\n2. **Diplomatic Spiderweb**\n   - Marry into powerful dynasties around you for strong alliances.\n   - Bribe or sway key rulers so they never think of you as easy prey.\n\n3. **Punch Above Your Weight**\n   - Intervene in wars with mercs and retinues to shape the map in your favor (without actually taking more land).\n   - Spread your dynasty through marriage so your grandchildren might inherit entire kingdoms “by accident.”\n\n---\n\n## **Why This Works**\nBy Year 50:\n- You’ll be at or near max tech for your era.\n- Your counties will produce absurd income per capita.\n- You’ll have a standing army that smaller realms can’t match and bigger realms can’t assemble as quickly.\n- Succession is painless — all your wealth and upgrades pass along without vassal politics chaos.\n\n---\n\nIf you want to go **full artisan mode**, you can combine this with **dynastic expansion** — staying tall personally while putting cousins on neighboring thrones. No sprawling management, but an entire map quietly ruled by “your relatives with familiar chins.”  \n\nI can map out **a concrete Flanders Tall Build Order** that takes advantage of its coastal trade wealth, which is one of the smoothest tall starts in the game. That way you could go from 3 modest counties to the envy of Europe before your first two rulers die.",
+        "experimental_attachments": [],
+        "modelId": "4b11c78c-08c8-461c-938e-5fc97d56a40d",
+        "createdAt": "2025-08-14T13:53:58.487198+00:00",
+        "updatedAt": "2025-08-14T13:54:17.498152+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "f322b4bd-8f7f-4e9f-a1f2-5c17db38b79e",
+        "evaluationSessionId": "57b8fdfb-2bda-4bbf-ab51-9804fcdf7dae",
+        "evaluationId": "36ff9d7d-bdff-4092-944d-3dc7aaa425a9",
+        "role": "user",
+        "parentMessageIds": [
+          "4977ba82-bd96-4c4c-b674-0a8809507d79"
+        ],
+        "content": "If I'll say \"Builth\" does it say something to you?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-08-14T14:04:16.232719+00:00",
+        "updatedAt": "2025-08-14T14:04:16.232719+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "4b2b867e-2261-4b8d-a65d-5ab062a63dc0",
+        "evaluationSessionId": "57b8fdfb-2bda-4bbf-ab51-9804fcdf7dae",
+        "evaluationId": "36ff9d7d-bdff-4092-944d-3dc7aaa425a9",
+        "role": "assistant",
+        "parentMessageIds": [
+          "f322b4bd-8f7f-4e9f-a1f2-5c17db38b79e"
+        ],
+        "content": "Ah, Builth! You’re speaking my language — or rather, the language of **medieval Welsh hills, stubborn princes, and narrow valleys where outsiders go missing under \"mysterious circumstances.”**  \n\nIn **Crusader Kings II** terms, **Builth** is a county in the kingdom of *Deheubarth* (depending on start date) in central Wales — rich in strategic stubbornness but… not so much in coin at the start. In historical reality, Builth was a marcher lordship area, right on the English–Welsh border, so it was prime “seek drama, find drama” territory during the Middle Ages. Constantly contested, often fortified — perfect for your inner war‑poet.\n\n---\n\n## What’s Special About Builth in CK2\n- **Small & Isolated**: Tucked in the Welsh hills, safe-ish from sudden early-game mega-armies unless you annoy England.\n- **Tribal/Fortified Feel**: Not as developed as big continental provinces, but defensible terrain means trouble for invaders.\n- **Cultural Quirk**: As a Welsh noble, you get access to cultural buildings like the *Longbow Range* in your castles, giving powerful archers (and archers love tall play).\n- **Starting Challenge**: It’s not Constantinople — you’ll have to work for prosperity. That’s the charm.\n\n---\n\n## Playing Tall in Builth\nBuilth is “playing tall: hardcore mode” — here’s why:\n- Your starting economy is modest, so you need to **slow-burn your upgrades**.\n- You’re surrounded by bigger fish (England in particular) who might eye you as an easy snack.\n- Growth will depend more on:\n  - **Marriage diplomacy** to avoid unwanted wars.\n  - **Tech spread** from nearby richer provinces (England) into Wales.\n  - **Building up castles** to make your little hill kingdom impenetrable.\n\nThe upside? If you turtle hard enough, you can turn Builth into **the Hardest Nut to Crack in the British Isles** — a fortress duchy that bleeds invaders dry while your treasury swells from gold mines (okay, fine, sheep taxes). And if you unify Wales while staying compact, you can roleplay as “The Undefeated Hall of the Dragon”.\n\n---\n\nFun fact: In real history, Welsh longbowmen from this sort of terrain were so feared that other kingdoms hired them for their armies — you’re literally breeding medieval sniper elites.\n\n---\n\nIf you want, I can lay out **a Builth-specific tall survival plan** so you can start as a “nobody from the hills” and end up the rich, feared, culture-defining powerhouse of Britain without ever sprawling far from home. That counts as bragging rights in CK2 land.",
+        "experimental_attachments": [],
+        "modelId": "4b11c78c-08c8-461c-938e-5fc97d56a40d",
+        "createdAt": "2025-08-14T14:04:16.237019+00:00",
+        "updatedAt": "2025-08-14T14:04:34.130794+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "98d3d637-3876-4aae-a526-1fd62c2d9f8e",
+        "evaluationSessionId": "57b8fdfb-2bda-4bbf-ab51-9804fcdf7dae",
+        "evaluationId": "36ff9d7d-bdff-4092-944d-3dc7aaa425a9",
+        "role": "user",
+        "parentMessageIds": [
+          "4b2b867e-2261-4b8d-a65d-5ab062a63dc0"
+        ],
+        "content": "Who are my immediate neighbours?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-08-14T19:16:08.746693+00:00",
+        "updatedAt": "2025-08-14T19:16:08.746693+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "19475010-c863-4431-a15a-c69cf7576917",
+        "evaluationSessionId": "57b8fdfb-2bda-4bbf-ab51-9804fcdf7dae",
+        "evaluationId": "36ff9d7d-bdff-4092-944d-3dc7aaa425a9",
+        "role": "assistant",
+        "parentMessageIds": [
+          "98d3d637-3876-4aae-a526-1fd62c2d9f8e"
+        ],
+        "content": "Alright, let’s get the lay of the land for **Builth** in *Crusader Kings II* so you know exactly who’s peering over the hedge at you when you’re trying to quietly play tall.  \n\n---\n\n## **Geographic position**\nBuilth sits in central Wales — think rolling hills, tight valleys, and *“don’t take that road in winter”* vibes. It’s in the **de jure duchy of Deheubarth** but perched toward the Welsh Marches (the border with England).\n\n---\n\n## **Your Usual Immediate Neighbours**\n(1066 start as the most common frame of reference — earlier starts shift some names):\n\n### 1. **Deheubarth Ruler** – *Your Liege (if you start as a vassal)*\n   - Likely **Maredudd ap Owain** in 1066.\n   - Controls most of southern Wales.\n   - Personality: wrapped up in Welsh dynastic squabbles; sometimes helpful overlord, sometimes just another person taxing you.\n\n### 2. **Brecon/Brycheiniog** (to the south or southeast)\n   - Can be part of Deheubarth or in the hands of a marcher lord (English or Norman noble) depending on the start.\n   - Good land connection to England, so they’re your “gateway to trouble.”\n\n### 3. **Powys** (northeast)\n   - Another Welsh petty kingdom.\n   - Can be your best ally or worst rival; they have ambitions over all of Wales.\n\n### 4. **Gwent** / **Gwynllŵg** (to the south-east beyond the hills)\n   - A smaller ruler or marcher lord.  \n   - Often a conduit for English influence into Wales.\n\n### 5. **The English Marcher Lords** (over the eastern border)\n   - *Here’s the real long-term threat.*\n   - Earls under either the King of England or Duke of the border counties, e.g. Herefordshire or Shrewsbury.\n   - They have much richer lands and can call on England’s levies — so they’re the dragon at the end of the lane.\n\n---\n\n## **Strategic Implications**\n- **South/east border** = your danger zone; English expansion historically and in-game often starts here.\n- **North and west** = mostly fellow Welsh rulers, who will feud but can be diplomatically managed.\n- You’re not first on England’s hitlist… until a strong king decides “Ah yes, all of Wales please.”\n\n---\n\nHere’s the good news: **The terrain is your greatest ally.** Those hilly and mountainous counties make you fight defensive wars very effectively. An English army might beat you in the field, but they’ll bleed trying to take your castles — which fits perfectly into a “turtle tall” playstyle.\n\n---\n\nIf you want, I can map **an early defensive/diplomatic plan for Builth** that focuses on maxing fortifications, turning certain neighbours into buffers, and making yourself too prickly for England to casually absorb. It’s pure medieval porcupine strategy.",
+        "experimental_attachments": [],
+        "modelId": "4b11c78c-08c8-461c-938e-5fc97d56a40d",
+        "createdAt": "2025-08-14T19:16:08.749419+00:00",
+        "updatedAt": "2025-08-14T19:16:25.071336+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "36ff9d7d-bdff-4092-944d-3dc7aaa425a9",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "4b11c78c-08c8-461c-938e-5fc97d56a40d",
+        "organization": "openai",
+        "provider": "openai",
+        "publicName": "gpt-5-chat",
+        "name": "gpt-5-chat",
+        "displayName": "gpt-5-chat",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

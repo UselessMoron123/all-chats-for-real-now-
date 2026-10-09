@@ -1,0 +1,1395 @@
+============================================================
+arena.ai agent chat export
+============================================================
+Title    : read [Новый текстовый документ2.txt](https://github.com/UselessMoron123/all-my-chats/blob/main/%D0%9…
+Type     : agentic
+Started  : 2026-09-30 18:23:41
+Updated  : 2026-09-30 18:25:41
+Archived : 2026-09-30 20:26:18
+Messages : 4
+URL      : https://arena.ai/agent/01a0f2ea-04fc-7727-b867-32ee940c592c
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+Tool outputs are preserved as recorded; omitted fetch_page chunks/read_file lines and unavailable image bytes are not retrieved again.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : user
+------------------------------------------------------------
+read [Новый текстовый документ2.txt](https://github.com/UselessMoron123/all-my-chats/blob/main/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%822.txt "Новый текстовый документ2.txt") and check if all chats were exported fully
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : assistant
+------------------------------------------------------------
+[tool: bash]
+metadata.toolCallId:
+call_InbZVNJ0QZceHWtnAxZLKCyo
+metadata.state:
+output-available
+input.command:
+ls -la && find . -maxdepth 2 -type f | sed 's#^./##' | head -100
+input.cwd:
+/home/user/all-my-chats
+input.timeout:
+30
+output.stdout:
+total 16480
+drwxr-xr-x 3 user user    4096 Sep 30 15:23 .
+drwx------ 3 user user     128 Sep 30 15:23 ..
+drwxr-xr-x 8 user user    4096 Sep 30 15:23 .git
+-rw-r--r-- 1 user user 6424341 Sep 30 15:23 arena-chat-export-json-2026-09-29T17-08-30-840Z.zip
+-rw-r--r-- 1 user user 4228289 Sep 30 15:23 arena-chat-export-txt-2026-09-29T17-26-59-584Z.zip
+-rw-r--r-- 1 user user 6130474 Sep 30 15:23 Новая папка2.rar
+-rw-r--r-- 1 user user   24309 Sep 30 15:23 Новый текстовый документ.txt
+-rw-r--r-- 1 user user   51220 Sep 30 15:23 Новый текстовый документ2.txt
+.git/description
+.git/HEAD
+.git/config
+.git/packed-refs
+.git/shallow
+.git/FETCH_HEAD
+.git/index
+Новая папка2.rar
+arena-chat-export-json-2026-09-29T17-08-30-840Z.zip
+arena-chat-export-txt-2026-09-29T17-26-59-584Z.zip
+Новый текстовый документ.txt
+Новый текстовый документ2.txt
+
+output.stdout_truncated:
+false
+output.stderr:
+""
+output.stderr_truncated:
+false
+output.exit_code:
+0
+output.status:
+completed
+output.duration_ms:
+81
+
+metadata.state:
+done
+
+[tool: read_file]
+metadata.toolCallId:
+call_RDlYc1ehL4ARuuaw6eY1UiuE
+metadata.state:
+output-available
+input.path:
+/home/user/all-my-chats/Новый текстовый документ2.txt
+input.offset:
+1
+input.limit:
+2000
+output.status:
+success
+output.kind:
+text
+output.size:
+51220
+output.lines:
+727
+output.content:
+look in repo. i managed to export my chats, but i suspect there's something missed by script. in txt there
+Ran commands2
+Explored1 read
+ReadНовый текстовый документ.txt
+Ran commands12
+
+I compared Новый текстовый документ.txt against both export archives (arena-chat-export-json-2026-09-29T17-08-30-840Z.zip and arena-chat-export-txt-2026-09-29T17-26-59-584Z.zip).
+Summary of What Was Missed
+
+    Total chat titles in Новый текстовый документ.txt: 234
+    Total chats exported in both .zip archives: 194
+    Missing chats: 40 chats (all from lines 1–62; every chat from line 63 to line 234 was exported).
+
+Why the Script Missed Exactly Those 40 Chats
+
+    They are all Agent Mode chats (different URL & record structure):
+        All 194 exported chats have "recordType": "evaluation", URL format https://arena.ai/c/<id>, and "mode" in direct, battle, direct-battle, or side-by-side.
+        The 40 missing chats are Agent Mode sessions (starting from your first two Agent Mode chats at lines 62 and 61: "what are you" and "Для чего ты полезен с чем не может справиться обычный чат gpt, или battle mode?").
+        You can also see the difference in how Arena formats their titles in Новый текстовый документ.txt: standard /c/ evaluation titles are hard-cut at 100 characters without an ellipsis, whereas long Agent Mode titles are 101 characters ending with … (U+2026). Because the export script only targeted /c/<id> (evaluation) links/endpoints, it skipped all Agent Mode conversations.
+
+    Difference between the .json and .txt exports (for the 194 exported chats):
+        Both .zip archives contain the exact same 194 chats and the same message content.
+        However, the .txt export strips out the model reasoning (thinking/chain-of-thought) blocks that are preserved in the .json export across 11 messages (in 7 chats), as well as per-message metadata (modelId details, token usage, etc.).
+
+Full List of the 40 Missing Chats (with line numbers in Новый текстовый документ.txt)
+1. Lines 1–22 (22 chats — after 2026-09-10 13:43 UTC)
+
+    Line 1: Ты можешь выписать все сцены где фигурируют Мики и Билли?
+    Line 2: Возможно ли создать/собрать ИИ агента который сможет зарабатывать деньги (почти) самостоятельно?
+    Line 3: Can you look at previous versions of ([lmarena.ru](http://lmarena.ru)) by using wayback machine?
+    Line 4: Посмотри страницу этого видео (https://m.youtube.com/watch?v=Gw_hnD7m00M&amp;pp=0gcJCYsCo7VqN5tDiggU…
+    Line 5: Я живу в России. Можно ли как-то заработать крипту (ты можешь посоветовать или помочь? Может локальн…
+    Line 6: Я в России. У меня есть Я, ты (agent mode на сайте arena ai), интернет (WiFi для ноутбука, мобильный…
+    Line 7: Сначала просмотри все данные ниже ссылки которые сможешь. Потом уже начни искать по текстовому запро…
+    Line 8: I want a roleplay. Year 2017. Imagine that you're one of these AI agents from stories where people l…
+    Line 9: I want a roleplay. Year 2017. Imagine that you're one of these AI agents from stories where people l…
+    Line 10: I want a roleplay. Year 2017. Imagine that you're one of these AI agents from stories where people l…
+    Line 11: Скайрим. МинМакс стратегии
+    Line 12: Я сейчас пишу с телефона (к ПК подойду только через несколько часов). Использую браузер opera touch.…
+    Line 13: Посмотри всю полезную информацию в статье "https://habr.com/ru/articles/1062238/"
+    Line 14: Модешь поискать в кубикусе сообщение от пользователя Arararium. В "помогите найти/вспомнить". Он спр…
+    Line 15: Найди фанфик "ggwp r?" Будущее, человек тестер виртуальных игр, его шлем (или капсула) ломается и он…
+    Line 16: Search all information about slmp windows (vk site got closed). Preferably author somewhere posted i…
+    Line 17: Try if you can read this forum - https://forum.paradoxplaza.com/forum/threads/mod-resource-cleanslat…
+    Line 18: I wanted to play Vrising offline. I tried some in game settings, something with LAN, it probably mea…
+    Line 19: Look at the picture. Think of how the whole game could look like. And if we could make it real
+    Line 20: Я хочу почувствовать себя попаданцем в Утиные Истории (может на место одного из утят). (Помоги опред…
+    Line 21: Narrate. I'm Ray, 17. I have normal teenage interests - playing PC, watching anime, reading fantasy,…
+    Line 22: write character sheets with bloodlines
+
+2. Lines 24–35 (12 chats — between 2026-08-29 and 2026-09-10)
+
+    Line 24: Если я хочу сделать яндекс игру, за которую хочу получать деньги. Достаточно ли мне кодинга(с которы…
+    Line 25: I want to see world's significant events. From perspective of a roman legionnaire. Who's immortal (b…
+    Line 26: Let's roleplay. I want an interactive story/litrpg in setting of chinese cultivation stories
+    Line 27: Попробуй найти фанфик по пиратам карибского моря. Там был Попаданец, ему бог моря дал бессмертие/рег…
+    Line 28: Представим что я попаданец в Скайрим, в теле бретонца. И я назову себя именем своего персонажа "Ray …
+    Line 29: I want Skyrim RP. I was a regular teenager, 16, really liked to play this game after school, went th…
+    Line 30: "Spore" game roleplay. I'm a cell
+    Line 31: Let's roleplay. I'm a person who died and was going to afterlife, but some spiritual wind blew me aw…
+    Line 32: Let's roleplay. I'm a person who died and was going to afterlife, but some spiritual wind blew me aw…
+    Line 33: Let's roleplay. I'm a person who died and was going to afterlife, but some spiritual wind blew me aw…
+    Line 34: Let's do roleplay. I'm a piece of sugar cane that got sent 66 millions years ago
+    Line 35: Яндекс Игры. Think of game that would attract people and would be addictive (or at least they spent …
+
+3. Older Scattered Missing Chats (6 chats — between 2026-05-02 and 2026-08-29)
+
+    Line 37 (between Aug 4 and Aug 29): Imagine this: A maze with closing doors. Rooms with bright lights closed and opened at the best. You…
+    Line 39 (Aug 4, between 12:57 and 13:47 UTC — note: lines 42 & 43 with the same prefix were exported, this third one was missed): look at map, read the text. write the best path between towns in order to meet all characters from l…
+    Line 56 (between Jun 20 and Jul 7): i want you to give me tree rimworld pawns (only their attributes) ideal for any playthrough. stats s…
+    Line 59 (between May 19 and Jun 1): I want to Roleplay with you. Like, I appear in Skyrim and start living here however I want
+    Line 61 (between May 2 and May 19): Для чего ты полезен с чем не может справиться обычный чат gpt, или battle mode?
+    Line 62 (between May 2 and May 19): what are you
+
+If you still have the userscript/console script you used to export your chats, feel free to paste it here and I can update it so it also exports your 40 Agent Mode chats (and optionally includes reasoning blocks in the .txt output).
+3m 23s | 21 hours ago
+20:44
+Arena.ai - LMSYS Arena Chat Exporter-2.1.user.txt
+
+here's original
+Explored1 read
+ReadArena.ai - LMSYS Arena Chat Exporter-2.1.user.txt
+Ran commands4
+Searched the web
+Searched the web
+Ran commands2
+Searched the web
+Ran commands2
+Ran commands3
+Fetched https://arena.ai/
+Ran commands7
+WriteArena.ai - LMSYS Arena Chat Exporter-2.2.user.js+1990
+Edit
+Arena.ai - LMSYS Arena Chat Exporter-2.2.user.js
++95−65×2
+
+I inspected your original userscript (Arena.ai / LMSYS Arena Chat Exporter v2.1) alongside the export timestamps in your two .zip files.
+Why v2.1 Missed All 40 Agent Mode Chats
+
+    The 40 missing chats were fetched from /api/history/unified, and fetchAgentById ran on each of them — but failed during parsing:
+        You can actually see this in the exportedAt timestamps inside your .zip files: between exported chat #1 (line 23 of Новый текстовый документ.txt) and exported chat #2 (line 36), there is a 53.02-second gap (~4.4 seconds per chat for the 12 Agent Mode chats on lines 24–35). The same ~4.4s gap appears at lines 37, 39, 56, 59, and 61–62.
+        For each of those 40 chats, the script fetched GET https://arena.ai/agent/<id> and then threw unexpected_evaluation_shape, silently incrementing failedCount in exportBatchConversations.
+
+    Root Cause in extractAgentPayloadObjectText(flightText) (lines 275–298 of v2.1):
+
+    JavaScript
+
+    const objectStartIndex = flightText.indexOf('{"messages":[', searchIndex);
+    ...
+    const candidate = JSON.parse(objectText);
+    if (
+      Array.isArray(candidate?.messages) &&
+      candidate.messages.some((message) => Array.isArray(message?.parts) && message?.role)
+    )
+
+    This fails on current Arena Agent Mode pages for three reasons:
+        Hardcoded first-key assumption ('{"messages":['): v2.1 only looks for a JSON object whose very first property right after { is "messages":[. As soon as another property precedes "messages" in the serialized Next.js Flight props (e.g., {"session":{...},"messages":[...]} or {"id":"...","messages":[...]} or {"initialMessages":[...]}), "messages":[ is preceded by a comma , instead of {, so flightText.indexOf('{"messages":[') returns -1.
+        Unresolved Flight row references ($hex): In Next.js React Flight (self.__next_f.push), messages, individual message objects, or message.parts can be outlined as Flight row references (e.g. "messages":"$1a", "messages":["$1b","$1c"], or "parts":"$1d"). v2.1 only extracted :T<hex>, text records and checked Array.isArray(message?.parts) before resolving Flight references.
+        Raw :T<hex>, text segments left in flightText during JSON scanning: v2.1 scanned flightText for JSON braces before stripping out raw :T<hex>, text segments, and used a slow per-character new TextEncoder().encode(char) loop.
+
+    What was missed inside .txt exports (formatEvaluationAsText & formatAgentPartAsText):
+        In regular evaluation chats, formatEvaluationAsText ignored message.reasoning (11 messages across 7 of your exported chats have model thinking/reasoning in the .json export that was dropped in the .txt export).
+        In Agent Mode .txt exports, formatAgentPartAsText only formatted query and url tool inputs (ignoring command, path/file_path, prompt, etc.) and didn't fall back to message.content when message.parts was absent.
+
+What I Fixed in v2.2
+
+I saved the fixed script to your repository as:
+
+    Arena.ai - LMSYS Arena Chat Exporter-2.2.user.js (opened in your viewer)
+    Arena.ai - LMSYS Arena Chat Exporter-2.2.user.txt
+
+Key fixes included:
+
+    Full Next.js RSC Flight Parser (parseNextFlightStream + resolveNextFlightReferences + extractAgentPayloadFromFlight):
+        Strips :T<hex>, raw text records first (using fast UTF-8 code-point byte counting with row-boundary self-healing), parses all <id>:<json> Flight rows, and deeply resolves $hex / $Lhex / $@hex references before inspecting the object tree.
+        Finds messages / initialMessages regardless of key order inside {...}, whether inline or referenced via $hex, and falls back between /agent/<id>, /c/<id>, and /api/evaluation/<id>.
+    "Select agent" Button in the Export Panel:
+        Added a Select agent button next to Select all and Clear so after clicking Fetch list, you can select only the 40 Agent Mode chats if you just want to export the missing ones without re-downloading all 194 regular chats.
+    Complete .txt Export Formatting:
+        Preserves [reasoning] blocks in .txt exports for both standard evaluation chats and Agent Mode chats, plus tool inputs (command, path, prompt, query, url).
+
+32m 34s | 20 hours ago
+21:25
+
+Please open a pull request for the changes on this branch.
+Ran commands3
+
+I have committed, pushed the changes on arena/01a0ee40-all-my-chats, and opened a pull request:
+
+    Pull Request: https://github.com/UselessMoron123/all-my-chats/pull/1
+
+39s | 20 hours ago
+21:42
+
+check, i uploaded
+Ran commands40
+34 minutes ago
+17:43
+Explored1 read
+ReadArena.ai - LMSYS Arena Chat Exporter-2.2.user.js
+Ran commands5
+Explored3 reads
+ReadArena.ai - LMSYS Arena Chat Exporter-2.2.user.js
+ReadArena.ai - LMSYS Arena Chat Exporter-2.2.user.js
+ReadArena.ai - LMSYS Arena Chat Exporter-2.2.user.js
+Ran commands7
+Edited files+213−121
+Ran commands3
+
+I inspected both newly uploaded archives (arena-chat-export-txt-2026-09-29T19-30-01-250Z.zip and Новая папка.rar, including the nested arena-agent-Модешь поискать в кубикусе сообщение от пользователя Ara-2026-09-29T19-22-27-742Z.rar inside it).
+1. All 40 Previously Missing Agent Mode Chats (+1 New Chat) Are Now Exported
+
+    arena-chat-export-txt-2026-09-29T19-30-01-250Z.zip (3.25 MB) contains 41 .txt files.
+    Новая папка.rar (4.7 MB compressed / 42.56 MB unpacked) contains 41 .json files (40 .json files directly + 1 nested .rar containing the 33.8 MB arena-agent-Модешь поискать в кубикусе...json).
+    100% of the 40 previously missing Agent Mode chats from Новый текстовый документ.txt are now present in both .json and .txt, plus the 41st chat (look in repo. i managed to export my chats, but i suspect it didn't export all of them. check what it missed).
+    Together with your earlier 194 evaluation exports, all 234 out of 234 chats from your history list are accounted for.
+    The exported .json files also confirm the exact root cause of why v2.1 failed on every Agent Mode chat: Arena's raw Agent payload object in the Next.js Flight stream begins with {"taskId":"chat-agent","triggerAddress":"...","messages":[...]} rather than {"messages":[...]}, which is why v2.1's flightText.indexOf('{"messages":[') returned -1 on 100% of Agent chats.
+
+2. What Was Still Missing or Affected in the .txt vs .json Exports
+
+Comparing all 41 .json files against all 41 .txt files revealed two issues (which I have now fixed in Arena.ai - LMSYS Arena Chat Exporter-2.2.user.js / .user.txt and pushed to PR #1):
+A. Details Present in .json That Were Omitted in .txt (formatAgentPartAsText)
+
+    10 (empty) User messages across 7 .txt files (data-tool-results):
+        Whenever the AI used the ask_user multiple-choice tool (15 times across your chats), your selected answers and custom responses were saved in the next user message under part.type === "data-tool-results" (data[].output.answers).
+        Because formatAgentPartAsText didn't handle data-tool-results (or input.questions in tool-ask_user), the AI's questions only showed [tool: ask_user] and 10 of your reply messages rendered as (empty) in .txt:
+            I want a roleplay. Year 2017... (Messages 3, 5)
+            Let's roleplay. I want an interactive story_litrpg... (Messages 3, 5)
+            Roleplay. I was isekaied in rimworld... (Messages 3, 5)
+            Think of a rimworld scenario for me... (Message 3)
+            We're going to roleplay as each isekaied into skyrim... (Message 3)
+            Давай проведём ролеплей. В стиле подземелий и драконов... (Message 3)
+            Я хочу ролеплей в мире марвел... (Message 3)
+    35 AI-written files (tool-write_file) & 19 file edits (tool-edit_file):
+        In .json, tool-write_file contains the full input.content of every file the agent created for you (e.g., /home/user/plan-kripto-zarabotka.md, /home/user/All-about-cool-AI/план-заработка.md, /home/user/slmp/SLMP_Windows_гайд.md, /home/user/slmp/Как_сделать_образ_самому.md, /home/user/quintus_channel.md, /home/user/summary_miki_billi.md, /home/user/character_questionnaires.md, /home/user/ducktales/00-ПРАВИЛА-ИГРЫ.md, character_sheet.md, rimworld_pawns.md, etc.).
+        In .txt, formatAgentPartAsText only wrote [tool: write_file]\npath: ...\nstatus: success and omitted input.content (and old_text / new_text for tool-edit_file).
+    User file attachments (part.type === "file") & tool-bash stdout/stderr:
+        Two user-uploaded images (novasurvivalgame_2026-09-17-22-16-21_1789672581690.webp and SmallMarked.png) and tool-bash stdout/stderr outputs were present in .json but omitted in .txt.
+
+B. Next.js Flight $f0–$ff / $f00–$fff Hex Reference Bug in 2 Huge Agent .json Files
+
+    In resolveNextFlightReferences, the reference regex /^\$(?:L|@|S|F|Q|W)?([0-9a-f]+)$/i included F in the optional prefix group with the case-insensitive /i flag.
+    Because f is also a hexadecimal digit, any Next.js Flight :T text chunk whose hex ID had 2+ digits starting with f ($f0–$ff at chunks 240–255, and $f00–$fff at chunks 3840–4095) had its leading f stripped as a prefix:
+        Only 2 of the 41 chats had enough tool calls (> 240 large strings) to reach hex ID $f0:
+            arena-agent-Модешь поискать в кубикусе сообщение от пользователя Ara-2026-09-29T19-22-27-742Z.json (which has ~1,900 tool calls and ~3,880 :T chunks):
+                In Message 3 (parts 51–58, chunks $f0–$ff) and Message 26 (parts 117–139, chunks $f00–$f39), stripping the leading f turned $f00–$f0f into $00–$0f (left unresolved as "$f00"–"$f0f") and turned $f10–$f39 into $10–$39.
+                In particular, in Message 26 Part 133 Result 4, "$f25" had its "f" stripped to "25", which matched rowRecords["25"] (the root Agent payload row itself), embedding a duplicate 5 MB copy of the raw Agent payload inside that search result and bloating the file to 33.8 MB.
+            arena-agent-Найди фанфик _ggwp r__ Будущее, человек тестер виртуальн-2026-09-29T19-22-42-016Z.json (which has 257 large strings):
+                13 tool-fetch_page / tool-web_search parts in Messages 7, 9, 11, and 12 (chunks $f0–$ff) resolved to top-level Flight rows 0–f instead of :T text chunks f0–ff.
+        All other 39 Agent .json files had < 240 :T chunks and were completely unaffected.
+
+3. Fixes Applied to Arena.ai - LMSYS Arena Chat Exporter-2.2.user.js (and Pushed to PR #1)
+
+    Fixed $fxx / $fxxx Hex Reference Resolution:
+        Changed the reference matcher in resolveNextFlightReferences to /^\$(?:L|@)?([0-9a-f]+)$/i (removing F|S|Q|W from the prefix group so hex digits a–f are never consumed as prefixes), filtered out I[...] / HL[...] / React VDOM ["$", ...] rows from rowRecords, and seeded activeStack with new Set([rowId]) so no row can ever inline itself.
+    Complete .txt Formatting for All Agent Parts & Attachments:
+        Added full formatting in formatAgentPartAsText for:
+            data-tool-results (renders all ask_user user answers — verified 0 (empty) messages across all 41 Agent chats),
+            tool-ask_user (renders all questions and option labels/descriptions),
+            tool-write_file (includes full content),
+            tool-edit_file (includes old_text and new_text),
+            tool-bash (includes exit_code, stdout, and stderr),
+            file parts and experimental_attachments (includes filename, media type, and URL).
+
+20m 27s | 34 minutes ago
+17:43
+
+
+Agent
+all-my-chats
+arena/01a0ee40-all-my-chats
++4222
+Merge PR
+Diff+4222
+Checks
+Arena.ai - LMSYS Arena Chat Exporter-2.2.user.js+2111
+Arena.ai - LMSYS Arena Chat Exporter-2.2.user.txt+2111
+arena-chat-export-txt-2026-09-29T19-30-01-250Z.zip
+Unknown file
+View all changes
+ExportChat
+arena chat export
+×
+Current chat
+Download JSON
+Download TXT
+Conversation list
+Fetch list
+The list starts empty. After loading, multi-select exports will be packed into one ZIP.
+Select all
+Select agent
+Clear
+41 selected
+look in repo. i managed to export my chats, but i suspect there's something missed by scrip...
+agentic | 29.09.2026, 20:40:34
+Ты можешь выписать все сцены где фигурируют Мики и Билли?
+agentic | 02.08.2026, 10:55:28
+Возможно ли создать/собрать ИИ агента который сможет зарабатывать деньги (почти) самостояте...
+agentic | 29.09.2026, 14:26:08
+Can you look at previous versions of ([lmarena.ru](http://lmarena.ru)) by using wayback mac...
+agentic | 29.09.2026, 10:48:38
+Посмотри страницу этого видео (https://m.youtube.com/watch?v=Gw_hnD7m00M&amp;pp=0gcJCYsCo7V...
+agentic | 28.09.2026, 11:06:20
+Я живу в России. Можно ли как-то заработать крипту (ты можешь посоветовать или помочь? Може...
+agentic | 28.09.2026, 10:39:49
+Я в России. У меня есть Я, ты (agent mode на сайте arena ai), интернет (WiFi для ноутбука, ...
+agentic | 28.09.2026, 08:38:10
+Сначала просмотри все данные ниже ссылки которые сможешь. Потом уже начни искать по текстов...
+agentic | 28.09.2026, 00:39:01
+I want a roleplay. Year 2017. Imagine that you're one of these AI agents from stories where...
+agentic | 26.09.2026, 13:13:31
+I want a roleplay. Year 2017. Imagine that you're one of these AI agents from stories where...
+agentic | 26.09.2026, 11:53:02
+I want a roleplay. Year 2017. Imagine that you're one of these AI agents from stories where...
+agentic | 26.09.2026, 11:37:35
+Скайрим. МинМакс стратегии
+agentic | 26.09.2026, 09:20:21
+Я сейчас пишу с телефона (к ПК подойду только через несколько часов). Использую браузер ope...
+agentic | 26.09.2026, 09:09:46
+Посмотри всю полезную информацию в статье "https://habr.com/ru/articles/1062238/"
+agentic | 26.09.2026, 08:00:53
+Модешь поискать в кубикусе сообщение от пользователя Arararium. В "помогите найти/вспомнить...
+agentic | 23.09.2026, 12:04:01
+Найди фанфик "ggwp r?" Будущее, человек тестер виртуальных игр, его шлем (или капсула) лома...
+agentic | 23.09.2026, 07:51:39
+Search all information about slmp windows (vk site got closed). Preferably author somewhere...
+agentic | 21.09.2026, 09:50:54
+Try if you can read this forum - https://forum.paradoxplaza.com/forum/threads/mod-resource-...
+agentic | 21.09.2026, 09:33:00
+I wanted to play Vrising offline. I tried some in game settings, something with LAN, it pro...
+agentic | 19.09.2026, 01:37:48
+Look at the picture. Think of how the whole game could look like. And if we could make it r...
+agentic | 18.09.2026, 18:52:53
+Я хочу почувствовать себя попаданцем в Утиные Истории (может на место одного из утят). (Пом...
+agentic | 15.09.2026, 13:17:25
+Narrate. I'm Ray, 17. I have normal teenage interests - playing PC, watching anime, reading...
+agentic | 15.09.2026, 11:34:12
+write character sheets with bloodlines
+agentic | 12.09.2026, 20:14:34
+Я хочу сделать яндекс игру которая принесёт прибыль
+direct-battle | 10.09.2026, 16:19:24
+Если я хочу сделать яндекс игру, за которую хочу получать деньги. Достаточно ли мне кодинга...
+agentic | 10.09.2026, 15:57:07
+I want to see world's significant events. From perspective of a roman legionnaire. Who's im...
+agentic | 09.09.2026, 07:58:49
+Let's roleplay. I want an interactive story/litrpg in setting of chinese cultivation stories
+agentic | 09.09.2026, 00:33:30
+Попробуй найти фанфик по пиратам карибского моря. Там был Попаданец, ему бог моря дал бессм...
+agentic | 08.09.2026, 12:00:40
+Представим что я попаданец в Скайрим, в теле бретонца. И я назову себя именем своего персон...
+agentic | 08.09.2026, 11:53:56
+I want Skyrim RP. I was a regular teenager, 16, really liked to play this game after school...
+agentic | 08.09.2026, 10:52:51
+"Spore" game roleplay. I'm a cell
+agentic | 08.09.2026, 10:40:33
+Let's roleplay. I'm a person who died and was going to afterlife, but some spiritual wind b...
+agentic | 08.09.2026, 10:32:11
+Let's roleplay. I'm a person who died and was going to afterlife, but some spiritual wind b...
+agentic | 08.09.2026, 10:28:18
+Let's roleplay. I'm a person who died and was going to afterlife, but some spiritual wind b...
+agentic | 08.09.2026, 09:06:49
+Let's do roleplay. I'm a piece of sugar cane that got sent 66 millions years ago
+agentic | 08.09.2026, 07:58:36
+Яндекс Игры. Think of game that would attract people and would be addictive (or at least th...
+agentic | 30.08.2026, 00:29:22
+An RP in Skyrim
+direct-battle | 30.08.2026, 00:24:39
+Imagine this: A maze with closing doors. Rooms with bright lights closed and opened at the ...
+agentic | 30.08.2026, 00:21:59
+write out all reqruits that cost 3000 and lower. (format - number of town, possible chars) ...
+direct-battle | 04.08.2026, 16:47:22
+look at map, read the text. write the best path between towns in order to meet all characte...
+agentic | 04.08.2026, 13:27:11
+write out free reqruits first. then with cost, but not higher than 2,999 (and the numbers o...
+direct-battle | 04.08.2026, 15:57:41
+write out free reqruits first. then with cost, but not higher than 2,999 Agnu/Free (Must f...
+direct-battle | 04.08.2026, 15:52:33
+look at map, read the text. write the best path between towns in order to meet all characte...
+side-by-side | 04.08.2026, 14:23:09
+look at map, read the text. write the best path between towns in order to meet all characte...
+side-by-side | 04.08.2026, 14:19:44
+So, I just spawned. What should I do first and where exactly?
+direct-battle | 21.07.2026, 22:31:38
+So, I just spawned. What should I do first and where exactly?
+direct-battle | 21.07.2026, 22:18:26
+look at map. i start in Hub. make me a path to find all characters (also pay attention to c...
+direct-battle | 14.07.2026, 15:18:31
+look at this map. i numerated locations. im starting in Hub. i want to visit all locations
+direct-battle | 14.07.2026, 15:27:54
+Agnu/Free (Must free from a cage)/Tower of Abuse Bard/3000/Bad Teeth, Blister Hill, Stack, ...
+direct-battle | 14.07.2026, 15:12:17
+Agnu/Free (Must free from a cage)/Tower of Abuse Bard/3000/Bad Teeth, Blister Hill, Stack, ...
+direct-battle | 14.07.2026, 12:03:54
+here's list of towns 1. Bark 2. Fishing Village 3. Sho-Battai 4. Burn's Tower 5. Flotsam Vi...
+direct-battle | 14.07.2026, 11:42:02
+1. Bark 2. Fishing Village 3. Sho-Battai 4. Burn's Tower 5. Flotsam Village 6. World's End ...
+direct-battle | 14.07.2026, 11:37:28
+look at dots number. how to numerate them more perfectly
+direct-battle | 13.07.2026, 23:33:39
+look how things were there (just look, don't analyse much yet)
+direct-battle | 13.07.2026, 23:25:15
+look at this map. i numerated locations. im starting in Hub. i want to visit all locations
+direct-battle | 12.07.2026, 22:57:27
+You know rimworld? If I want 3 pawns ideal for starting colony, what stats should they have...
+direct-battle | 07.07.2026, 19:01:40
+i want you to give me tree rimworld pawns (only their attributes) ideal for any playthrough...
+agentic | 06.07.2026, 22:08:43
+I am about to play the Sims 4, but I would like you to make all the decisions about my sim,...
+direct-battle | 20.06.2026, 17:01:23
+Перепиши всё
+direct-battle | 01.06.2026, 17:25:06
+I want to Roleplay with you. Like, I appear in Skyrim and start living here however I want
+agentic | 19.05.2026, 20:08:41
+«全民冲水：我的马桶全知全能» (приблизительный перевод: «Глобальный смыв: мой унитаз всеведущ и всемогущ»)
+direct-battle | 19.05.2026, 16:14:32
+Для чего ты полезен с чем не может справиться обычный чат gpt, или battle mode?
+agentic | 18.05.2026, 17:24:30
+what are you
+agentic | 12.05.2026, 22:36:39
+look at these personality traits. which 5 of them do you think could be the best/universal ...
+direct-battle | 02.05.2026, 12:19:47
+look at these personality traits. which 5 of them do you think could be the best/universal ...
+direct-battle | 02.05.2026, 10:59:43
+look at these personality traits. which 5 of them do you think could be the best/universal ...
+direct-battle | 02.05.2026, 10:54:57
+look at these personality traits. which 5 of them do you think could be the best/universal ...
+direct-battle | 02.05.2026, 10:51:19
+look at these personality traits. which 5 of them do you think could be the best/universal ...
+direct-battle | 02.05.2026, 10:49:24
+look at these personality traits. which 5 of them do you think could be the best/universal ...
+direct-battle | 02.05.2026, 10:47:04
+look at these personality traits. which 5 of them do you think could be the best/universal ...
+direct-battle | 02.05.2026, 10:45:08
+look at these personality traits. which 5 of them do you think could be the best/universal ...
+direct-battle | 02.05.2026, 10:38:23
+look at these personality traits. which 5 of them do you think could be the best/universal ...
+direct-battle | 02.05.2026, 10:31:24
+look at these personality traits. which 5 of them do you think could be the best/universal ...
+direct-battle | 02.05.2026, 10:25:26
+look at these personality traits. which 5 of them do you think could be the best/universal ...
+direct-battle | 02.05.2026, 10:21:39
+look at these traits. which 5 of them do you think could be the best/universal combination ...
+direct-battle | 02.05.2026, 10:18:28
+look at these traits. which 5 of them do you think could be the best/universal combination ...
+direct-battle | 02.05.2026, 10:15:58
+look at these traits. which 5 of them do you think could be the best/universal combination ...
+direct-battle | 02.05.2026, 10:13:56
+look at these traits. which 5 of them do you think could be the best/universal combination ...
+direct-battle | 02.05.2026, 10:10:00
+look at these traits. which 5 of them do you think could be the best/universal combination ...
+direct-battle | 01.05.2026, 19:45:37
+look at these traits. which 5 of them do you think could be the best/universal combination ...
+direct-battle | 01.05.2026, 22:40:43
+look at these traits. which 5 of them do you think could be the best/universal combination ...
+direct-battle | 01.05.2026, 20:54:01
+look at these traits. which 5 of them do you think could be the best/universal combination ...
+direct-battle | 01.05.2026, 20:27:27
+look at these traits. which 5 of them do you think could be the best/universal combination ...
+direct-battle | 01.05.2026, 19:54:19
+Есть одна старая мобильная wap игра. Онлайна нет и она не открывается на новом телефоне. Мо...
+direct-battle | 29.04.2026, 16:06:18
+CK2 good custom dynasty name
+direct-battle | 24.04.2026, 16:45:05
+I want Stardew Valley roleplay.
+direct-battle | 23.04.2026, 20:23:34
+Ck2 good custom dynasty name
+direct-battle | 19.04.2026, 14:57:14
+look at this list. ck2 bloodlines. look at genders British Isles: - Caradog Catuvellaun...
+direct-battle | 04.04.2026, 11:51:33
+CK2. Suggest names to my councillors. Something not long, not importantly real ir serious. ...
+direct-battle | 02.04.2026, 19:25:56
+look at this code. it's ck2. do you understand what's happening here? 900400 = { name = "...
+direct-battle | 31.03.2026, 16:54:26
+look at this list of bloodlines in ck2. in the end there should be 256 bloodlines. each gro...
+direct-battle | 28.03.2026, 23:41:17
+Hypothetical question. If Matilda Canossa, Enrico Dandolo, Bohemond (of Antioch ) Hautevill...
+direct-battle | 30.03.2026, 11:06:29
+Hypothetical question. If Matilda Canossa, Enrico Dandolo, Bohemond (of Antioch ) Hautevill...
+direct-battle | 30.03.2026, 11:05:21
+CK2 hypothetical question. If matilda canossa, enrico dandolo, bohemond (of Antioch ) and r...
+direct-battle | 30.03.2026, 10:59:49
+CK2 hypothetical question. If matilda canossa, enrico dandolo, bohemond and roger hautevill...
+direct-battle | 30.03.2026, 10:57:29
+CK2 hypothetical question. If matilda canossa, enrico dandolo, bohemond and roger hautevill...
+direct-battle | 30.03.2026, 10:57:16
+CK2 hypothetical question. If matilda canossa, enrico dandolo, bohemond and roger hautevill...
+direct-battle | 30.03.2026, 10:56:52
+look at this list of bloodlines in ck2. in the end there should be 256 bloodlines. each gro...
+direct-battle | 28.03.2026, 23:20:14
+look at this list of bloodlines in ck2. in the end there should be 256 bloodlines. each gro...
+direct-battle | 28.03.2026, 22:42:10
+look at this list of bloodlines in ck2. see that each group has limit of bloodlines. tell h...
+direct-battle | 28.03.2026, 21:43:56
+look at this list of bloodline founders in ck2. what do you think? do you have questions/ar...
+direct-battle | 28.03.2026, 16:43:24
+look at this list and how i grouped bloodlines (ck2 game) British Isles: - Caradog Catuv...
+direct-battle | 28.03.2026, 14:18:12
+imagine medieval world. there are empires - britain, spain, hre, italy, france. they have "...
+direct-battle | 28.03.2026, 14:02:03
+look at this list of bloodline founders from CK2. HOW WOULD YOU SUGGEST GROUPING THEM geogr...
+direct-battle | 28.03.2026, 12:53:34
+look at this list of CK2 bloodlines British Isles: Caradog Catuvellauni (male) Gwrtheyrn Gw...
+direct-battle | 28.03.2026, 11:56:23
+have a look at this British Isles: - Caradog Catuvellauni (male) - Gwrtheyrn Gwerthry...
+direct-battle | 28.03.2026, 11:49:36
+lool at these traits from ck2 varangian = { martial = 2 diplomacy = 1 combat_rating = 1...
+direct-battle | 23.03.2026, 17:47:32
+lool at these traits from ck2 brawny = { martial = 2 diplomacy = 1 health = 1 combat_r...
+direct-battle | 23.03.2026, 17:24:51
+CK2. Suggest names to my councillors. Something not long, not importantly real ir serious. ...
+direct-battle | 22.03.2026, 19:09:33
+Ck2. Give names for councillors. But they should be universal for every religion/culture - ...
+battle | 22.03.2026, 19:00:25
+"Spore" game simulator. Roleplay RPG. Beginning.
+direct-battle | 21.03.2026, 16:36:32
+"Spore" game simulator. Roleplay RPG. Beginning.
+direct-battle | 21.03.2026, 15:34:32
+"Spore" game simulator. Roleplay RPG. Beginning.
+direct-battle | 21.03.2026, 15:00:55
+lool at these traits from ck2 brawny = { martial = 2 diplomacy = 1 health = 1 combat_r...
+direct-battle | 21.03.2026, 14:49:18
+"Spore" game simulator. Roleplay RPG. Beginning. Stages progress in small steps (not from c...
+direct-battle | 21.03.2026, 14:00:47
+Roleplay rpg Spore game simulator. Beginning. Keep in mind that I want stages to progress i...
+direct-battle | 21.03.2026, 10:52:08
+Roleplay rpg Spore game simulator. Beginning. Keep in mind that I want stages to progress i...
+direct-battle | 21.03.2026, 09:57:36
+Какая европейская славянская страна очень националистичная, но любит русских? *Language Raw...
+direct-battle | 21.03.2026, 09:43:21
+CK2. Choose year, dynasty, and write the course of its progression. Like AAR but with less ...
+direct-battle | 19.02.2026, 13:31:13
+Narrate. World's pov seeing rising dynasty, arranging marriages all across the globe. Somet...
+direct-battle | 19.02.2026, 13:24:44
+Let's roleplay. Medieval fantasy world. I'm Ray, 18, and I want advenures - being a knight,...
+direct | 16.01.2026, 01:21:41
+Симбионт и вирус Алекса мерсера, чем похожи?
+direct | 10.01.2026, 21:26:05
+In CK2 i want to create 7 custom bloodlines. Give ideas in different directions.
+direct | 08.01.2026, 16:06:39
+Roleplay, simulator of getting the highest in Mafia. I'm Ray, 14 (I don't know about Mafia....
+direct | 02.01.2026, 16:28:20
+Roleplay, simulator of getting the highest in Mafia. I'm Ray, 14. Set in Italy.
+direct | 02.01.2026, 16:16:35
+Roleplay set in "Shrek" before the 1 chapter. (Start NOT near Shrek's swamp)
+direct | 02.01.2026, 15:49:13
+Cult simulator
+direct | 02.01.2026, 15:45:57
+Narrate. Desperate single lonely virgin office lady Linda (36). Her day off. Real dating is...
+direct | 01.01.2026, 21:28:24
+Roleplay set in "Shrek" before the 1 chapter. (Start NOT near Shrek's swamp)
+direct | 01.01.2026, 17:02:53
+Roleplay set in "Shrek" before the 1 chapter. (Start NOT near the swamp)
+direct | 01.01.2026, 01:46:40
+Roleplay set in "Shrek" (before the 1 chapter started)
+direct | 31.12.2025, 20:08:53
+Roleplay set in "Shrek"
+direct | 31.12.2025, 18:13:17
+sort by ids 900100 = { name = "Caradog_0" dynasty = 105920 religion = pagan culture = w...
+direct | 22.02.2026, 13:41:43
+sort by ids 900200 = { name = "Erdewan_0" dynasty = 1029098 religion = zoroastrian cul...
+direct | 22.02.2026, 13:05:25
+sort by ids 908600 = { name = "Defender_0" female = yes dynasty = 908600 religion = mi...
+direct | 22.02.2026, 13:01:05
+sort by ids 902300 = { name = "Sa'id_0" dynasty = 12279 religion = qarmatian culture =...
+direct | 22.02.2026, 12:59:25
+901700 = { name = "Rurik_0" dynasty = 705 religion = norse_pagan culture = norse 1.1.1...
+direct | 22.02.2026, 12:52:27
+sort by ids 902500 = { name = "Rudolf_0" dynasty = 650 religion = catholic culture = g...
+direct | 22.02.2026, 12:34:42
+sort by ids 900800 = { name = "Merovech_0" dynasty = 542 religion = norse_pagan cultur...
+direct | 21.02.2026, 22:41:57
+sort by ids 900100 = { name = "Caradog_0" dynasty = 105920 religion = pagan culture = ...
+direct | 21.02.2026, 22:22:56
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 15:50:28
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 15:47:59
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 15:46:19
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 15:43:54
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 15:41:45
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 15:39:17
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 15:35:10
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 15:28:13
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 15:25:05
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 15:22:22
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 15:17:45
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 15:15:46
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 13:40:40
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 13:38:22
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 13:35:42
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 13:22:22
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 13:18:49
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 13:15:31
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 13:08:28
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 13:02:46
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 12:03:50
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 11:39:16
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain e...
+direct | 21.02.2026, 11:34:06
+read. write "read" in answer 900100 = { name = "Caradog_0" dynasty = 105920 religion = ...
+direct | 21.02.2026, 11:24:17
+посмотри. напиши только "прочитал" в ответе Бородино — Скажи-ка, дядя, ведь не даром Моск...
+direct-battle | 20.02.2026, 22:23:16
+delete char lists with id ending with 00 and 01 911302 = { name = "Defender_2" dynasty =...
+direct-battle | 20.02.2026, 21:39:19
+copy only char lists with birth in 1.1.1 911302 = { name = "Defender_2" dynasty = 911300...
+direct-battle | 20.02.2026, 18:12:39
+Middle-aged ofiice lady. Single mother of 16 year old girl. her day. *woman's pov with inne...
+direct | 11.02.2026, 19:40:04
+Посмтори на текст ниже. просто прочитай. Пиши "прочитал" как ответ. Литстрим по Crusader K...
+direct | 11.02.2026, 19:03:13
+Посмтори на текст ниже. просто прочитай. Пиши "прочитал" как ответ.
+direct | 10.02.2026, 21:22:40
+Посмтори на текст ниже. просто прочитай. пиши "прочитал" как ответ Литстрим по Crusader Ki...
+direct | 10.02.2026, 20:40:32
+write AAR in game of CK2. half literature, half thoughts of player. beginning. don't rush
+direct | 10.02.2026, 20:17:32
+write лит-стрим or, how it's better known, AAR in game of CK2. but not too much of literatu...
+direct | 10.02.2026, 20:11:28
+narrate typical session in ck2. the beginning
+direct | 10.02.2026, 19:58:25
+in ck2 give ideas which dynasty/duchy to chose, to then form Archduchy
+direct | 09.02.2026, 19:13:37
+you know how ck2 players are obsessed with collecting bloodlines, right? how about giving s...
+direct | 09.02.2026, 19:10:40
+you know how ck2 players are obsessed with collecting bloodlines, right?
+direct | 09.02.2026, 19:02:55
+Narrate. World's pov seeing rising dynasty of CK2 player, who likes to collect bloodlines t...
+direct | 09.02.2026, 18:53:01
+narrate world's pov seeing dynasty of ck2 player, who likes to collect bloodlines through m...
+direct | 09.02.2026, 18:26:18
+narrate world's pov seeing dynasty of ck2 player, who likes to collect bloodlines through m...
+direct | 09.02.2026, 18:20:44
+Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all arond the g...
+direct | 09.02.2026, 17:49:06
+Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the ...
+direct | 08.02.2026, 18:17:08
+Narrate. From the beginning of times there was a dynasty. They didn't war. They married. He...
+direct | 08.02.2026, 14:27:21
+Narrate. From the beginning of times there was a dynasty. They didn't war. They married. He...
+direct | 08.02.2026, 13:31:34
+Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the ...
+direct | 08.02.2026, 11:52:47
+Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the ...
+direct | 07.02.2026, 21:51:43
+Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the ...
+direct | 07.02.2026, 21:25:25
+ck2 and ck3 gamers' most lovable traits
+direct | 07.02.2026, 21:12:37
+Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the ...
+direct | 07.02.2026, 20:53:13
+check for punctuation Narrate. World's pov seeing one peculiar rising dynasty arranging ma...
+direct | 07.02.2026, 20:49:54
+Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the ...
+direct | 07.02.2026, 19:27:56
+Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the ...
+direct | 07.02.2026, 18:19:41
+check this text. can it be rephrased or reorganised to be more clean, but without losing de...
+direct | 07.02.2026, 17:20:06
+check this text. can it be rephrased or reorganised to be more clean, but without losing de...
+direct | 07.02.2026, 17:13:15
+"Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all arond the ...
+direct | 07.02.2026, 11:14:51
+"eugenicl programs", "bene gesserit", "ck2 player hunting for bloodlines". is there similar...
+direct | 07.02.2026, 09:36:17
+Is it possible to make mobile browser online (kinda) game, but only for myself (for example...
+direct | 13.01.2026, 19:47:16
+look at this. suggest at better composition of characters (order of things inside char list...
+direct | 11.01.2026, 14:50:32
+look at this. suggest at better composition of characters 33350 = { name = "Athelstan" d...
+direct | 11.01.2026, 14:49:17
+just look at these traits. which are useless? brawny = { martial = 2 diplomacy = 1 heal...
+direct | 06.01.2026, 10:54:28
+just look at these traits brawny = { martial = 2 diplomacy = 1 health = 1 combat_ratin...
+direct | 05.01.2026, 20:08:34
+leave only important info about traits # THE SEVEN SINS envious = { personality = yes vi...
+direct | 02.01.2026, 17:39:34
+Look at this. Here are the attribute calculations. **The Universal Base:** Every character...
+direct | 04.01.2026, 17:08:03
+############ # EDUCATION ############ # INTRIGUE OUTCOMES amateurish_plotter = { education ...
+direct | 18.10.2025, 19:27:27
+leave only traits with "personality = yes". and leave only their effects on attributes. # ...
+direct | 31.12.2025, 20:03:08
+я буду давать списки трейтов из игры CK2, а ты должен выбирать только те которые влияют на ...
+direct | 31.12.2025, 16:33:38
+in ck2 i want a build of independent ruler that would be perfect for a newcomer, but not to...
+direct | 31.12.2025, 13:11:35
+leave only traits with "personality = yes". remove insults and compliments # THE SEVEN SINS...
+direct | 31.12.2025, 11:10:00
+Представим что я запустил машину времени и попал в триасовый период. Что я увижу? И что ста...
+direct | 07.12.2025, 18:56:42
+Ролеплей. Я попаданец в прошлое. Когда я проснулся, я очеулся 8 летним мальчиком, сыном бар...
+direct | 07.12.2025, 18:51:41
+Возможен ли такой сюжет для альтернативно историчесуого фанфика с попаданцем? Время жизни К...
+direct | 07.12.2025, 16:02:17
+In fairy tales and fantasy, two types of people go in towers: princesses and wizards. Princ...
+direct | 30.08.2025, 17:24:05
+Я хочу сыграть роль попаданца в Пираты Карибского моря
+direct | 18.11.2025, 15:29:26
+CK2 roleplay. Not a ruler yet. Son of Baron-Burgher (or whatever it's called in the land I'...
+direct | 24.10.2025, 23:36:57
+RolePlay "That Time I Got Reincarnated as Unemployed Villager in Cubical Fantasy World"
+direct | 24.10.2025, 22:49:14
+Let's roleplay. I want Harry Potter simulator
+direct | 14.09.2025, 11:17:00
+So, what I want. Imagine a usual citizen of Roman Empire. But he has a mentality and thinki...
+direct | 27.08.2025, 22:59:01
+Example of dialogue between peasant and knight in style of "Monty Python and Holy Grail"
+direct | 26.08.2025, 11:35:24
+Let's roleplay. I want a simulator of Minecraft
+direct | 01.09.2025, 14:34:17
+Let's roleplay. I want a peasant simulator. Everyone must talk in medievalish style (like i...
+direct | 26.08.2025, 17:16:41
+Is it possible to make mobile browser online (or offline) game, but only for myself (for ex...
+direct | 10.07.2025, 13:19:06
+Let's roleplay. I want Zomboid simulator
+direct | 03.09.2025, 14:23:01
+Do you know game Oregon trail?
+direct | 01.09.2025, 15:24:53
+Can you describe scene - typical middle-aged mom preparing for sleep
+direct | 29.08.2025, 21:48:27
+Concept of drone that would help with everything in case of surviving on different planet. ...
+direct | 02.09.2025, 14:24:54
+Let's roleplay. I want Rimworld simulator
+direct | 01.09.2025, 16:22:56
+Let's roleplay. I want a simulator of Minecraft. My actions shouldn't take much time, so th...
+direct | 02.09.2025, 14:33:50
+North Korea mode in CK2. What do you know?
+direct | 14.08.2025, 16:40:12
+Let's roleplay. I want a simulator of zombie apocalypse survival. Epidemy starts in single ...
+direct | 31.08.2025, 23:33:17
+Let's roleplay. I want Harry Potter LitRPG
+direct | 14.09.2025, 11:23:05
+Let's roleplay. I want a peasant simulator with LitRPG elements
+direct | 03.09.2025, 14:50:04
+I have an idea of a tool, and probably someone already gave it a name. Something you give r...
+direct | 01.09.2025, 22:30:32
+Let's roleplay. I want ant colony simulator
+direct | 23.08.2025, 23:02:33
+alt-history - Harold Godwinson wasnt shot and won against Harald Hardrada and William the B...
+direct | 29.09.2025, 19:04:42
+## Character Creation ### Gender Bonuses **Base Stats:** Strength 5 | Agility 5 | Intellig...
+direct | 22.08.2025, 21:54:25
+Export selected JSON
+Export selected TXT
+Status: Batch export finished. ZIP ready. Success: 41.
+
+
+[tool: read_file]
+metadata.toolCallId:
+call_pgvX71NPSfLIO79EeZpPEYje
+metadata.state:
+output-available
+input.path:
+/home/user/all-my-chats/Новый текстовый документ.txt
+input.offset:
+1
+input.limit:
+2000
+output.status:
+success
+output.kind:
+text
+output.size:
+24309
+output.lines:
+234
+output.content:
+    Ты можешь выписать все сцены где фигурируют Мики и Билли?
+    Возможно ли создать/собрать ИИ агента который сможет зарабатывать деньги (почти) самостоятельно?
+    Can you look at previous versions of ([lmarena.ru](http://lmarena.ru)) by using wayback machine?
+    Посмотри страницу этого видео (https://m.youtube.com/watch?v=Gw_hnD7m00M&amp;pp=0gcJCYsCo7VqN5tDiggU…
+    Я живу в России. Можно ли как-то заработать крипту (ты можешь посоветовать или помочь? Может локальн…
+    Я в России. У меня есть Я, ты (agent mode на сайте arena ai), интернет (WiFi для ноутбука, мобильный…
+    Сначала просмотри все данные ниже ссылки которые сможешь. Потом уже начни искать по текстовому запро…
+    I want a roleplay. Year 2017. Imagine that you're one of these AI agents from stories where people l…
+    I want a roleplay. Year 2017. Imagine that you're one of these AI agents from stories where people l…
+    I want a roleplay. Year 2017. Imagine that you're one of these AI agents from stories where people l…
+    Скайрим. МинМакс стратегии
+    Я сейчас пишу с телефона (к ПК подойду только через несколько часов). Использую браузер opera touch.…
+    Посмотри всю полезную информацию в статье "https://habr.com/ru/articles/1062238/"
+    Модешь поискать в кубикусе сообщение от пользователя Arararium. В "помогите найти/вспомнить". Он спр…
+    Найди фанфик "ggwp r?" Будущее, человек тестер виртуальных игр, его шлем (или капсула) ломается и он…
+    Search all information about slmp windows (vk site got closed). Preferably author somewhere posted i…
+    Try if you can read this forum - https://forum.paradoxplaza.com/forum/threads/mod-resource-cleanslat…
+    I wanted to play Vrising offline. I tried some in game settings, something with LAN, it probably mea…
+    Look at the picture. Think of how the whole game could look like. And if we could make it real
+    Я хочу почувствовать себя попаданцем в Утиные Истории (может на место одного из утят). (Помоги опред…
+    Narrate. I'm Ray, 17. I have normal teenage interests - playing PC, watching anime, reading fantasy,…
+    write character sheets with bloodlines
+    Я хочу сделать яндекс игру которая принесёт прибыль
+    Если я хочу сделать яндекс игру, за которую хочу получать деньги. Достаточно ли мне кодинга(с которы…
+    I want to see world's significant events. From perspective of a roman legionnaire. Who's immortal (b…
+    Let's roleplay. I want an interactive story/litrpg in setting of chinese cultivation stories
+    Попробуй найти фанфик по пиратам карибского моря. Там был Попаданец, ему бог моря дал бессмертие/рег…
+    Представим что я попаданец в Скайрим, в теле бретонца. И я назову себя именем своего персонажа "Ray …
+    I want Skyrim RP. I was a regular teenager, 16, really liked to play this game after school, went th…
+    "Spore" game roleplay. I'm a cell
+    Let's roleplay. I'm a person who died and was going to afterlife, but some spiritual wind blew me aw…
+    Let's roleplay. I'm a person who died and was going to afterlife, but some spiritual wind blew me aw…
+    Let's roleplay. I'm a person who died and was going to afterlife, but some spiritual wind blew me aw…
+    Let's do roleplay. I'm a piece of sugar cane that got sent 66 millions years ago
+    Яндекс Игры. Think of game that would attract people and would be addictive (or at least they spent …
+    An RP in Skyrim
+    Imagine this: A maze with closing doors. Rooms with bright lights closed and opened at the best. You…
+    write out all reqruits that cost 3000 and lower. (format - number of town, possible chars) Griffin,
+    look at map, read the text. write the best path between towns in order to meet all characters from l…
+    write out free reqruits first. then with cost, but not higher than 2,999 (and the numbers of towns w
+    write out free reqruits first. then with cost, but not higher than 2,999 Agnu/Free (Must free from
+    look at map, read the text. write the best path between towns in order to meet all characters from l
+    look at map, read the text. write the best path between towns in order to meet all characters from l
+    So, I just spawned. What should I do first and where exactly?
+    So, I just spawned. What should I do first and where exactly?
+    look at map. i start in Hub. make me a path to find all characters (also pay attention to conditions
+    look at this map. i numerated locations. im starting in Hub. i want to visit all locations
+    Agnu/Free (Must free from a cage)/Tower of Abuse Bard/3000/Bad Teeth, Blister Hill, Stack, Waystatio
+    Agnu/Free (Must free from a cage)/Tower of Abuse Bard/3000/Bad Teeth, Blister Hill, Stack, Waystatio
+    here's list of towns 1. Bark 2. Fishing Village 3. Sho-Battai 4. Burn's Tower 5. Flotsam Village 6.
+    1. Bark 2. Fishing Village 3. Sho-Battai 4. Burn's Tower 5. Flotsam Village 6. World's End 7. Stoat
+    look at dots number. how to numerate them more perfectly
+    look how things were there (just look, don't analyse much yet)
+    look at this map. i numerated locations. im starting in Hub. i want to visit all locations
+    You know rimworld? If I want 3 pawns ideal for starting colony, what stats should they have? Without
+    i want you to give me tree rimworld pawns (only their attributes) ideal for any playthrough. stats s…
+    I am about to play the Sims 4, but I would like you to make all the decisions about my sim, eg, what
+    Перепиши всё
+    I want to Roleplay with you. Like, I appear in Skyrim and start living here however I want
+    «全民冲水：我的马桶全知全能» (приблизительный перевод: «Глобальный смыв: мой унитаз всеведущ и всемогущ»)
+    Для чего ты полезен с чем не может справиться обычный чат gpt, или battle mode?
+    what are you
+    look at these personality traits. which 5 of them do you think could be the best/universal combinati
+    look at these personality traits. which 5 of them do you think could be the best/universal combinati
+    look at these personality traits. which 5 of them do you think could be the best/universal combinati
+    look at these personality traits. which 5 of them do you think could be the best/universal combinati
+    look at these personality traits. which 5 of them do you think could be the best/universal combinati
+    look at these personality traits. which 5 of them do you think could be the best/universal combinati
+    look at these personality traits. which 5 of them do you think could be the best/universal combinati
+    look at these personality traits. which 5 of them do you think could be the best/universal combinati
+    look at these personality traits. which 5 of them do you think could be the best/universal combinati
+    look at these personality traits. which 5 of them do you think could be the best/universal combinati
+    look at these personality traits. which 5 of them do you think could be the best/universal combinati
+    look at these traits. which 5 of them do you think could be the best/universal combination for any k
+    look at these traits. which 5 of them do you think could be the best/universal combination for any k
+    look at these traits. which 5 of them do you think could be the best/universal combination for any k
+    look at these traits. which 5 of them do you think could be the best/universal combination for any k
+    look at these traits. which 5 of them do you think could be the best/universal combination for any k
+    look at these traits. which 5 of them do you think could be the best/universal combination for any k
+    look at these traits. which 5 of them do you think could be the best/universal combination for any k
+    look at these traits. which 5 of them do you think could be the best/universal combination for any k
+    look at these traits. which 5 of them do you think could be the best/universal combination for any k
+    Есть одна старая мобильная wap игра. Онлайна нет и она не открывается на новом телефоне. Можно ли ка
+    CK2 good custom dynasty name
+    I want Stardew Valley roleplay.
+    Ck2 good custom dynasty name
+    look at this list. ck2 bloodlines. look at genders British Isles: - Caradog Catuvellauni (male)
+    CK2. Suggest names to my councillors. Something not long, not importantly real ir serious. That I im
+    look at this code. it's ck2. do you understand what's happening here? 900400 = { name = "Mirian_0"
+    look at this list of bloodlines in ck2. in the end there should be 256 bloodlines. each group has li
+    Hypothetical question. If Matilda Canossa, Enrico Dandolo, Bohemond (of Antioch ) Hauteville and Rog
+    Hypothetical question. If Matilda Canossa, Enrico Dandolo, Bohemond (of Antioch ) Hauteville and Rog
+    CK2 hypothetical question. If matilda canossa, enrico dandolo, bohemond (of Antioch ) and roger (of
+    CK2 hypothetical question. If matilda canossa, enrico dandolo, bohemond and roger hauteville's, live
+    CK2 hypothetical question. If matilda canossa, enrico dandolo, bohemond and roger hauteville's, live
+    CK2 hypothetical question. If matilda canossa, enrico dandolo, bohemond and roger hauteville's, live
+    look at this list of bloodlines in ck2. in the end there should be 256 bloodlines. each group has li
+    look at this list of bloodlines in ck2. in the end there should be 256 bloodlines. each group has li
+    look at this list of bloodlines in ck2. see that each group has limit of bloodlines. tell how much m
+    look at this list of bloodline founders in ck2. what do you think? do you have questions/arguments/s
+    look at this list and how i grouped bloodlines (ck2 game) British Isles: - Caradog Catuvellauni (
+    imagine medieval world. there are empires - britain, spain, hre, italy, france. they have "value" -
+    look at this list of bloodline founders from CK2. HOW WOULD YOU SUGGEST GROUPING THEM geographically
+    look at this list of CK2 bloodlines British Isles: Caradog Catuvellauni (male) Gwrtheyrn Gwerthrynio
+    have a look at this British Isles: - Caradog Catuvellauni (male) - Gwrtheyrn Gwerthrynion (mal
+    lool at these traits from ck2 varangian = { martial = 2 diplomacy = 1 combat_rating = 10 } pira
+    lool at these traits from ck2 brawny = { martial = 2 diplomacy = 1 health = 1 combat_rating = 1
+    CK2. Suggest names to my councillors. Something not long, not importantly real ir serious. That I im
+    Ck2. Give names for councillors. But they should be universal for every religion/culture - so i easi
+    "Spore" game simulator. Roleplay RPG. Beginning.
+    "Spore" game simulator. Roleplay RPG. Beginning.
+    "Spore" game simulator. Roleplay RPG. Beginning.
+    lool at these traits from ck2 brawny = { martial = 2 diplomacy = 1 health = 1 combat_rating = 1
+    "Spore" game simulator. Roleplay RPG. Beginning. Stages progress in small steps (not from cell to an
+    Roleplay rpg Spore game simulator. Beginning. Keep in mind that I want stages to progress in smalles
+    Roleplay rpg Spore game simulator. Beginning. Keep in mind that I want stages to progress in smalles
+    Какая европейская славянская страна очень националистичная, но любит русских? *Language Raw, direct,
+    CK2. Choose year, dynasty, and write the course of its progression. Like AAR but with less literatur
+    Narrate. World's pov seeing rising dynasty, arranging marriages all across the globe. Sometimes logi
+    Let's roleplay. Medieval fantasy world. I'm Ray, 18, and I want advenures - being a knight, fighting
+    Симбионт и вирус Алекса мерсера, чем похожи?
+    In CK2 i want to create 7 custom bloodlines. Give ideas in different directions.
+    Roleplay, simulator of getting the highest in Mafia. I'm Ray, 14 (I don't know about Mafia. I'm not
+    Roleplay, simulator of getting the highest in Mafia. I'm Ray, 14. Set in Italy.
+    Roleplay set in "Shrek" before the 1 chapter. (Start NOT near Shrek's swamp)
+    Cult simulator
+    Narrate. Desperate single lonely virgin office lady Linda (36). Her day off. Real dating is disappoi
+    Roleplay set in "Shrek" before the 1 chapter. (Start NOT near Shrek's swamp)
+    Roleplay set in "Shrek" before the 1 chapter. (Start NOT near the swamp)
+    Roleplay set in "Shrek" (before the 1 chapter started)
+    Roleplay set in "Shrek"
+    sort by ids 900100 = { name = "Caradog_0" dynasty = 105920 religion = pagan culture = welsh 1.1
+    sort by ids 900200 = { name = "Erdewan_0" dynasty = 1029098 religion = zoroastrian culture = ku
+    sort by ids 908600 = { name = "Defender_0" female = yes dynasty = 908600 religion = miaphysite
+    sort by ids 902300 = { name = "Sa'id_0" dynasty = 12279 religion = qarmatian culture = bedouin
+    901700 = { name = "Rurik_0" dynasty = 705 religion = norse_pagan culture = norse 1.1.1 = { bi
+    sort by ids 902500 = { name = "Rudolf_0" dynasty = 650 religion = catholic culture = german 1.
+    sort by ids 900800 = { name = "Merovech_0" dynasty = 542 religion = norse_pagan culture = frank
+    sort by ids 900100 = { name = "Caradog_0" dynasty = 105920 religion = pagan culture = welsh 1.
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+    read. write "read" in answer 900100 = { name = "Caradog_0" dynasty = 105920 religion = pagan cu
+    посмотри. напиши только "прочитал" в ответе Бородино — Скажи-ка, дядя, ведь не даром Москва, спале
+    delete char lists with id ending with 00 and 01 911302 = { name = "Defender_2" dynasty = 911300
+    copy only char lists with birth in 1.1.1 911302 = { name = "Defender_2" dynasty = 911300 religio
+    Middle-aged ofiice lady. Single mother of 16 year old girl. her day. *woman's pov with inner words t
+    Посмтори на текст ниже. просто прочитай. Пиши "прочитал" как ответ. Литстрим по Crusader Kings II.
+    Посмтори на текст ниже. просто прочитай. Пиши "прочитал" как ответ.
+    Посмтори на текст ниже. просто прочитай. пиши "прочитал" как ответ Литстрим по Crusader Kings II. И
+    write AAR in game of CK2. half literature, half thoughts of player. beginning. don't rush
+    write лит-стрим or, how it's better known, AAR in game of CK2. but not too much of literature
+    narrate typical session in ck2. the beginning
+    in ck2 give ideas which dynasty/duchy to chose, to then form Archduchy
+    you know how ck2 players are obsessed with collecting bloodlines, right? how about giving such playe
+    you know how ck2 players are obsessed with collecting bloodlines, right?
+    Narrate. World's pov seeing rising dynasty of CK2 player, who likes to collect bloodlines through ma
+    narrate world's pov seeing dynasty of ck2 player, who likes to collect bloodlines through marriages
+    narrate world's pov seeing dynasty of ck2 player, who likes to collect bloodlines through marriages
+    Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all arond the globe. Wit
+    Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the globe. Th
+    Narrate. From the beginning of times there was a dynasty. They didn't war. They married. Heroes, con
+    Narrate. From the beginning of times there was a dynasty. They didn't war. They married. Heroes, con
+    Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the globe. Th
+    Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the globe. Th
+    Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the globe. Th
+    ck2 and ck3 gamers' most lovable traits
+    Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the globe. Th
+    check for punctuation Narrate. World's pov seeing one peculiar rising dynasty arranging marriages a
+    Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the globe. Th
+    Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the globe. Th
+    check this text. can it be rephrased or reorganised to be more clean, but without losing details? wi
+    check this text. can it be rephrased or reorganised to be more clean, but without losing details? N
+    "Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all arond the globe. Wi
+    "eugenicl programs", "bene gesserit", "ck2 player hunting for bloodlines". is there similar things i
+    Is it possible to make mobile browser online (kinda) game, but only for myself (for example, with bo
+    look at this. suggest at better composition of characters (order of things inside char list) 33350
+    look at this. suggest at better composition of characters 33350 = { name = "Athelstan" dynasty =
+    just look at these traits. which are useless? brawny = { martial = 2 diplomacy = 1 health = 1 c
+    just look at these traits brawny = { martial = 2 diplomacy = 1 health = 1 combat_rating = 10 s
+    leave only important info about traits # THE SEVEN SINS envious = { personality = yes vice = yes
+    Look at this. Here are the attribute calculations. **The Universal Base:** Every character starts w
+    ############ # EDUCATION ############ # INTRIGUE OUTCOMES amateurish_plotter = { education = yes
+    leave only traits with "personality = yes". and leave only their effects on attributes. # THE SEVEN
+    я буду давать списки трейтов из игры CK2, а ты должен выбирать только те которые влияют на характери
+    in ck2 i want a build of independent ruler that would be perfect for a newcomer, but not too overpow
+    leave only traits with "personality = yes". remove insults and compliments # THE SEVEN SINS envious
+    Представим что я запустил машину времени и попал в триасовый период. Что я увижу? И что станет со мн
+    Ролеплей. Я попаданец в прошлое. Когда я проснулся, я очеулся 8 летним мальчиком, сыном барона
+    Возможен ли такой сюжет для альтернативно историчесуого фанфика с попаданцем? Время жизни Карла Вели
+    In fairy tales and fantasy, two types of people go in towers: princesses and wizards. Princesses are
+    Я хочу сыграть роль попаданца в Пираты Карибского моря
+    CK2 roleplay. Not a ruler yet. Son of Baron-Burgher (or whatever it's called in the land I'll choose
+    RolePlay "That Time I Got Reincarnated as Unemployed Villager in Cubical Fantasy World"
+    Let's roleplay. I want Harry Potter simulator
+    So, what I want. Imagine a usual citizen of Roman Empire. But he has a mentality and thinking proces
+    Example of dialogue between peasant and knight in style of "Monty Python and Holy Grail"
+    Let's roleplay. I want a simulator of Minecraft
+    Let's roleplay. I want a peasant simulator. Everyone must talk in medievalish style (like in "Monty
+    Is it possible to make mobile browser online (or offline) game, but only for myself (for example, wi
+    Let's roleplay. I want Zomboid simulator
+    Do you know game Oregon trail?
+    Can you describe scene - typical middle-aged mom preparing for sleep
+    Concept of drone that would help with everything in case of surviving on different planet. Like in r
+    Let's roleplay. I want Rimworld simulator
+    Let's roleplay. I want a simulator of Minecraft. My actions shouldn't take much time, so the day don
+    North Korea mode in CK2. What do you know?
+    Let's roleplay. I want a simulator of zombie apocalypse survival. Epidemy starts in single city (lik
+    Let's roleplay. I want Harry Potter LitRPG
+    Let's roleplay. I want a peasant simulator with LitRPG elements
+    I have an idea of a tool, and probably someone already gave it a name. Something you give raw materi
+    Let's roleplay. I want ant colony simulator
+    alt-history - Harold Godwinson wasnt shot and won against Harald Hardrada and William the Bastard
+    ## Character Creation ### Gender Bonuses **Base Stats:** Strength 5 | Agility 5 | Intelligence 4 |
+
+[tool: bash]
+metadata.toolCallId:
+call_JLL7DieeresXDawERmNPMlkX
+metadata.state:
+output-available
+input.command:
+unzip -l 'arena-chat-export-json-2026-09-29T17-08-30-840Z.zip' | head -60; echo '---TXT'; unzip -l 'arena-chat-export-txt-2026-09-29T17-26-59-584Z.zip' | head -60; echo '---RAR'; (unrar l 'Новая папка2.rar' || 7z l 'Новая папка2.rar') | head -80
+input.cwd:
+/home/user/all-my-chats
+input.timeout:
+30
+output.stdout:
+Archive:  arena-chat-export-json-2026-09-29T17-08-30-840Z.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+    56493  2026-09-29 20:08   arena-chat-� ������� ������+����� ��������� ������ ���������� �+������������ �+�������+��-2026-09-29T17-01-56-782Z.json
+     9057  2026-09-29 20:08   arena-chat-An RP in Skyrim-2026-09-29T17-02-49-809Z.json
+    28082  2026-09-29 20:08   arena-chat-write out all reqruits that cost 3000 and lower. (format-2026-09-29T17-02-54-332Z.json
+    24841  2026-09-29 20:08   arena-chat-write out free reqruits first. then with cost, but not h-2026-09-29T17-02-59-604Z.json
+    51927  2026-09-29 20:08   arena-chat-write out free reqruits first. then with cost, but not h-2026-09-29T17-03-01-478Z.json
+    28234  2026-09-29 20:08   arena-chat-look at map, read the text. write the best path between -2026-09-29T17-03-03-387Z.json
+    24902  2026-09-29 20:08   arena-chat-look at map, read the text. write the best path between -2026-09-29T17-03-07-114Z.json
+    12413  2026-09-29 20:08   arena-chat-So, I just spawned. What should I do first and where exa-2026-09-29T17-03-08-695Z.json
+    12226  2026-09-29 20:08   arena-chat-So, I just spawned. What should I do first and where exa-2026-09-29T17-03-09-463Z.json
+    45934  2026-09-29 20:08   arena-chat-look at map. i start in Hub. make me a path to find all -2026-09-29T17-03-11-713Z.json
+    11635  2026-09-29 20:08   arena-chat-look at this map. i numerated locations. im starting in -2026-09-29T17-03-13-228Z.json
+    17666  2026-09-29 20:08   arena-chat-Agnu_Free (Must free from a cage)_Tower of Abuse_Bard_30-2026-09-29T17-03-14-803Z.json
+    16180  2026-09-29 20:08   arena-chat-Agnu_Free (Must free from a cage)_Tower of Abuse_Bard_30-2026-09-29T17-03-16-188Z.json
+    38811  2026-09-29 20:08   arena-chat-here's list of towns_1. Bark_2. Fishing Village_3. Sho-B-2026-09-29T17-03-18-189Z.json
+    22532  2026-09-29 20:08   arena-chat-1. Bark_2. Fishing Village_3. Sho-Battai_4. Burn's Tower-2026-09-29T17-03-19-829Z.json
+    12439  2026-09-29 20:08   arena-chat-look at dots number. how to numerate them more perfectly-2026-09-29T17-03-21-177Z.json
+    18114  2026-09-29 20:08   arena-chat-look how things were there (just look, don't analyse muc-2026-09-29T17-03-22-388Z.json
+    10739  2026-09-29 20:08   arena-chat-look at this map. i numerated locations. im starting in -2026-09-29T17-03-23-629Z.json
+    11406  2026-09-29 20:08   arena-chat-You know rimworld_ If I want 3 pawns ideal for starting -2026-09-29T17-03-25-960Z.json
+    40275  2026-09-29 20:08   arena-chat-I am about to play the Sims 4, but I would like you to m-2026-09-29T17-03-29-463Z.json
+    11686  2026-09-29 20:08   arena-chat-���������+���� �����-2026-09-29T17-03-30-710Z.json
+    17306  2026-09-29 20:08   arena-chat--��࿵���妵���+ܵ�����ڮ�������������-+ (�+�����+���������+������ �+���������_ -����+����+������ ���+-2026-09-29T17-03-35-817Z.json
+    11380  2026-09-29 20:08   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-03-42-948Z.json
+    10610  2026-09-29 20:08   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-03-44-242Z.json
+    10249  2026-09-29 20:08   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-03-45-585Z.json
+     9498  2026-09-29 20:08   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-03-46-722Z.json
+    13578  2026-09-29 20:08   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-03-48-548Z.json
+     9594  2026-09-29 20:08   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-03-49-429Z.json
+    10603  2026-09-29 20:08   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-03-51-001Z.json
+    22846  2026-09-29 20:08   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-03-53-273Z.json
+    34003  2026-09-29 20:08   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-03-55-558Z.json
+    11973  2026-09-29 20:08   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-03-56-623Z.json
+    11971  2026-09-29 20:08   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-03-57-610Z.json
+    11278  2026-09-29 20:08   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-03-58-867Z.json
+    12663  2026-09-29 20:08   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-03-59-787Z.json
+    12246  2026-09-29 20:08   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-04-01-112Z.json
+    18992  2026-09-29 20:08   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-04-02-822Z.json
+    28721  2026-09-29 20:08   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-04-04-427Z.json
+     8980  2026-09-29 20:08   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-04-06-084Z.json
+     9593  2026-09-29 20:08   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-04-07-594Z.json
+    17970  2026-09-29 20:08   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-04-08-945Z.json
+    10533  2026-09-29 20:08   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-04-10-486Z.json
+    10674  2026-09-29 20:08   arena-chat-�������� ���� ���������� �+����+������ wap �����. ����+���� ����� � ��� �-2026-09-29T17-04-12-108Z.json
+     8434  2026-09-29 20:08   arena-chat-CK2 good custom dynasty name-2026-09-29T17-04-13-680Z.json
+     6352  2026-09-29 20:08   arena-chat-I want Stardew Valley roleplay-2026-09-29T17-04-17-352Z.json
+    15617  2026-09-29 20:08   arena-chat-Ck2 good custom dynasty name-2026-09-29T17-04-18-692Z.json
+    79548  2026-09-29 20:08   arena-chat-look at this list. ck2 bloodlines. look at genders__Brit-2026-09-29T17-04-21-739Z.json
+    12840  2026-09-29 20:08   arena-chat-CK2. Suggest names to my councillors. Something not long-2026-09-29T17-04-22-891Z.json
+   116307  2026-09-29 20:08   arena-chat-look at this code. it's ck2. do you understand what's ha-2026-09-29T17-04-24-651Z.json
+   337496  2026-09-29 20:08   arena-chat-look at this list of bloodlines in ck2. in the end there-2026-09-29T17-04-27-074Z.json
+     7674  2026-09-29 20:08   arena-chat-Hypothetical question. If Matilda Canossa, Enrico Dandol-2026-09-29T17-04-29-493Z.json
+     9657  2026-09-29 20:08   arena-chat-Hypothetical question. If Matilda Canossa, Enrico Dandol-2026-09-29T17-04-30-702Z.json
+     9498  2026-09-29 20:08   arena-chat-CK2 hypothetical question. If matilda canossa, enrico da-2026-09-29T17-04-31-853Z.json
+     7491  2026-09-29 20:08   arena-chat-CK2 hypothetical question. If matilda canossa, enrico da-2026-09-29T17-04-33-734Z.json
+     7836  2026-09-29 20:08   arena-chat-CK2 hypothetical question. If matilda canossa, enrico da-2026-09-29T17-04-34-797Z.json
+     7863  2026-09-29 20:08   arena-chat-CK2 hypothetical question. If matilda canossa, enrico da-2026-09-29T17-04-36-660Z.json
+    35492  2026-09-29 20:08   arena-chat-look at this list of bloodlines in ck2. in the end there-2026-09-29T17-04-38-422Z.json
+---TXT
+Archive:  arena-chat-export-txt-2026-09-29T17-26-59-584Z.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+    24036  2026-09-29 20:26   arena-chat-� ������� ������+����� ��������� ������ ���������� �+������������ �+�������+��-2026-09-29T17-18-45-624Z.txt
+     1889  2026-09-29 20:26   arena-chat-An RP in Skyrim-2026-09-29T17-20-01-403Z.txt
+    13766  2026-09-29 20:26   arena-chat-write out all reqruits that cost 3000 and lower. (format-2026-09-29T17-20-11-682Z.txt
+    11319  2026-09-29 20:26   arena-chat-write out free reqruits first. then with cost, but not h-2026-09-29T17-20-19-208Z.txt
+    12600  2026-09-29 20:26   arena-chat-write out free reqruits first. then with cost, but not h-2026-09-29T17-20-21-163Z.txt
+    17068  2026-09-29 20:26   arena-chat-look at map, read the text. write the best path between -2026-09-29T17-20-22-454Z.txt
+    14402  2026-09-29 20:26   arena-chat-look at map, read the text. write the best path between -2026-09-29T17-20-24-259Z.txt
+     3773  2026-09-29 20:26   arena-chat-So, I just spawned. What should I do first and where exa-2026-09-29T17-20-25-906Z.txt
+     3604  2026-09-29 20:26   arena-chat-So, I just spawned. What should I do first and where exa-2026-09-29T17-20-27-065Z.txt
+    18058  2026-09-29 20:26   arena-chat-look at map. i start in Hub. make me a path to find all -2026-09-29T17-20-28-635Z.txt
+     3847  2026-09-29 20:26   arena-chat-look at this map. i numerated locations. im starting in -2026-09-29T17-20-29-464Z.txt
+     4671  2026-09-29 20:26   arena-chat-Agnu_Free (Must free from a cage)_Tower of Abuse_Bard_30-2026-09-29T17-20-31-275Z.txt
+     8703  2026-09-29 20:26   arena-chat-Agnu_Free (Must free from a cage)_Tower of Abuse_Bard_30-2026-09-29T17-20-33-120Z.txt
+    18132  2026-09-29 20:26   arena-chat-here's list of towns_1. Bark_2. Fishing Village_3. Sho-B-2026-09-29T17-20-34-718Z.txt
+     8775  2026-09-29 20:26   arena-chat-1. Bark_2. Fishing Village_3. Sho-Battai_4. Burn's Tower-2026-09-29T17-20-35-402Z.txt
+     3978  2026-09-29 20:26   arena-chat-look at dots number. how to numerate them more perfectly-2026-09-29T17-20-36-662Z.txt
+     3016  2026-09-29 20:26   arena-chat-look how things were there (just look, don't analyse muc-2026-09-29T17-20-38-197Z.txt
+     2291  2026-09-29 20:26   arena-chat-look at this map. i numerated locations. im starting in -2026-09-29T17-20-39-744Z.txt
+     4289  2026-09-29 20:26   arena-chat-You know rimworld_ If I want 3 pawns ideal for starting -2026-09-29T17-20-41-476Z.txt
+    33105  2026-09-29 20:26   arena-chat-I am about to play the Sims 4, but I would like you to m-2026-09-29T17-20-45-762Z.txt
+     3776  2026-09-29 20:26   arena-chat-���������+���� �����-2026-09-29T17-20-49-880Z.txt
+     5439  2026-09-29 20:26   arena-chat--��࿵���妵���+ܵ�����ڮ�������������-+ (�+�����+���������+������ �+���������_ -����+����+������ ���+-2026-09-29T17-20-54-543Z.txt
+     6137  2026-09-29 20:26   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-21-10-422Z.txt
+     5558  2026-09-29 20:26   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-21-13-633Z.txt
+     5194  2026-09-29 20:26   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-21-19-429Z.txt
+     4210  2026-09-29 20:26   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-21-21-728Z.txt
+     5734  2026-09-29 20:26   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-21-24-337Z.txt
+     4403  2026-09-29 20:26   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-21-26-373Z.txt
+     5542  2026-09-29 20:26   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-21-27-580Z.txt
+     7332  2026-09-29 20:26   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-21-29-741Z.txt
+     6218  2026-09-29 20:26   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-21-31-186Z.txt
+     6682  2026-09-29 20:26   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-21-32-371Z.txt
+     6595  2026-09-29 20:26   arena-chat-look at these personality traits. which 5 of them do you-2026-09-29T17-21-33-655Z.txt
+     6008  2026-09-29 20:26   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-21-35-108Z.txt
+     7374  2026-09-29 20:26   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-21-36-003Z.txt
+     6854  2026-09-29 20:26   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-21-37-282Z.txt
+     9850  2026-09-29 20:26   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-21-38-616Z.txt
+    15603  2026-09-29 20:26   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-21-39-766Z.txt
+     3889  2026-09-29 20:26   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-21-41-193Z.txt
+     4577  2026-09-29 20:26   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-21-42-552Z.txt
+     5179  2026-09-29 20:26   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-21-43-819Z.txt
+     5273  2026-09-29 20:26   arena-chat-look at these traits. which 5 of them do you think could-2026-09-29T17-21-45-302Z.txt
+     5637  2026-09-29 20:26   arena-chat-�������� ���� ���������� �+����+������ wap �����. ����+���� ����� � ��� �-2026-09-29T17-21-46-534Z.txt
+     3530  2026-09-29 20:26   arena-chat-CK2 good custom dynasty name-2026-09-29T17-21-48-287Z.txt
+     1569  2026-09-29 20:26   arena-chat-I want Stardew Valley roleplay-2026-09-29T17-21-49-146Z.txt
+     3995  2026-09-29 20:26   arena-chat-Ck2 good custom dynasty name-2026-09-29T17-21-50-861Z.txt
+    50043  2026-09-29 20:26   arena-chat-look at this list. ck2 bloodlines. look at genders__Brit-2026-09-29T17-21-58-846Z.txt
+     4955  2026-09-29 20:26   arena-chat-CK2. Suggest names to my councillors. Something not long-2026-09-29T17-22-00-189Z.txt
+    79801  2026-09-29 20:26   arena-chat-look at this code. it's ck2. do you understand what's ha-2026-09-29T17-22-02-712Z.txt
+   161268  2026-09-29 20:26   arena-chat-look at this list of bloodlines in ck2. in the end there-2026-09-29T17-22-06-032Z.txt
+     3139  2026-09-29 20:26   arena-chat-Hypothetical question. If Matilda Canossa, Enrico Dandol-2026-09-29T17-22-06-904Z.txt
+     5097  2026-09-29 20:26   arena-chat-Hypothetical question. If Matilda Canossa, Enrico Dandol-2026-09-29T17-22-09-563Z.txt
+     4937  2026-09-29 20:26   arena-chat-CK2 hypothetical question. If matilda canossa, enrico da-2026-09-29T17-22-19-453Z.txt
+     3008  2026-09-29 20:26   arena-chat-CK2 hypothetical question. If matilda canossa, enrico da-2026-09-29T17-22-20-787Z.txt
+      947  2026-09-29 20:26   arena-chat-CK2 hypothetical question. If matilda canossa, enrico da-2026-09-29T17-22-22-794Z.txt
+      947  2026-09-29 20:26   arena-chat-CK2 hypothetical question. If matilda canossa, enrico da-2026-09-29T17-22-24-190Z.txt
+    24113  2026-09-29 20:26   arena-chat-look at this list of bloodlines in ck2. in the end there-2026-09-29T17-22-25-043Z.txt
+---RAR
+
+output.stdout_truncated:
+false
+output.stderr:
+/bin/bash: line 1: unrar: command not found
+/bin/bash: line 1: 7z: command not found
+
+output.stderr_truncated:
+false
+output.exit_code:
+0
+output.status:
+completed
+output.duration_ms:
+185
+
+metadata.state:
+done
+
+[tool: bash]
+metadata.toolCallId:
+call_FryeoYKsG5s1sWEtdTsn4hEL
+metadata.state:
+output-available
+input.command:
+file *.rar *.zip; python - <<'PY'
+import zipfile,glob
+for f in glob.glob('*.zip'):
+ z=zipfile.ZipFile(f); print(f, len([x for x in z.namelist() if not x.endswith('/')]), 'bad=',z.testzip())
+PY
+which bsdtar || true; git status --short; git ls-files
+input.cwd:
+/home/user/all-my-chats
+input.timeout:
+30
+output.stdout:
+arena-chat-export-json-2026-09-29T17-08-30-840Z.zip 194 bad= None
+arena-chat-export-txt-2026-09-29T17-26-59-584Z.zip 194 bad= None
+arena-chat-export-json-2026-09-29T17-08-30-840Z.zip
+arena-chat-export-txt-2026-09-29T17-26-59-584Z.zip
+"\320\235\320\276\320\262\320\260\321\217 \320\277\320\260\320\277\320\272\320\2602.rar"
+"\320\235\320\276\320\262\321\213\320\271 \321\202\320\265\320\272\321\201\321\202\320\276\320\262\321\213\320\271 \320\264\320\276\320\272\321\203\320\274\320\265\320\275\321\202.txt"
+"\320\235\320\276\320\262\321\213\320\271 \321\202\320\265\320\272\321\201\321\202\320\276\320\262\321\213\320\271 \320\264\320\276\320\272\321\203\320\274\320\265\320\275\321\2022.txt"
+
+output.stdout_truncated:
+false
+output.stderr:
+/bin/bash: line 1: file: command not found
+
+output.stderr_truncated:
+false
+output.exit_code:
+0
+output.status:
+completed
+output.duration_ms:
+183
+
+**No—not in the files currently in the repository.** Both ZIP exports contain 194 chats and pass the ZIP integrity check. Based on the chat list in `Новый текстовый документ2.txt`, there are 234 chats total, so those ZIPs are missing 40.
+
+The document also describes a later export that reportedly included those 40 chats, bringing the total to 234/234. But that later TXT ZIP and RAR aren’t present in this checkout; the RAR here is `Новая папка2.rar`, which I couldn’t inspect because no RAR extraction tool is available. So I can’t verify that later export’s completeness from the files currently available.
+
+The document’s conclusion is therefore **plausible, but not independently confirmed here**. To verify it, provide the later 41-chat TXT ZIP and JSON RAR/archive.
+metadata.state:
+done
+
+------------------------------------------------------------
+Message  : 3
+Speaker  : user
+------------------------------------------------------------
+look in repo
+
+------------------------------------------------------------
+Message  : 4
+Speaker  : assistant
+------------------------------------------------------------
+metadata.state:
+done
+
+[tool: bash]
+metadata.toolCallId:
+call_NvGyHPCHLg04MtZbszhUVKbH
+metadata.state:
+output-available
+input.command:
+find . -maxdepth 3 -type f -printf '%p\t%s bytes\n' | sort; python - <<'PY'
+for m in ['rarfile','libarchive','patoolib']:
+ try:
+  x=__import__(m); print(m,'available',getattr(x,'__version__',''))
+ except Exception as e: print(m,'unavailable',e)
+PY
+for x in unrar unar 7z 7zz bsdtar rar; do command -v "$x" || :; done
+input.cwd:
+/home/user/all-my-chats
+input.timeout:
+30
+output.stdout:
+./.git/FETCH_HEAD	136 bytes
+./.git/HEAD	44 bytes
+./.git/config	468 bytes
+./.git/description	73 bytes
+./.git/hooks/applypatch-msg.sample	478 bytes
+./.git/hooks/commit-msg	208 bytes
+./.git/hooks/commit-msg.sample	896 bytes
+./.git/hooks/fsmonitor-watchman.sample	4726 bytes
+./.git/hooks/post-update.sample	189 bytes
+./.git/hooks/pre-applypatch.sample	424 bytes
+./.git/hooks/pre-commit.sample	1643 bytes
+./.git/hooks/pre-merge-commit.sample	416 bytes
+./.git/hooks/pre-push.sample	1374 bytes
+./.git/hooks/pre-rebase.sample	4898 bytes
+./.git/hooks/pre-receive.sample	544 bytes
+./.git/hooks/prepare-commit-msg.sample	1492 bytes
+./.git/hooks/push-to-checkout.sample	2783 bytes
+./.git/hooks/update.sample	3650 bytes
+./.git/index	641 bytes
+./.git/info/exclude	240 bytes
+./.git/logs/HEAD	364 bytes
+./.git/packed-refs	112 bytes
+./.git/shallow	41 bytes
+./arena-chat-export-json-2026-09-29T17-08-30-840Z.zip	6424341 bytes
+./arena-chat-export-txt-2026-09-29T17-26-59-584Z.zip	4228289 bytes
+./Новая папка2.rar	6130474 bytes
+./Новый текстовый документ.txt	24309 bytes
+./Новый текстовый документ2.txt	51220 bytes
+rarfile unavailable No module named 'rarfile'
+libarchive unavailable No module named 'libarchive'
+patoolib unavailable No module named 'patoolib'
+
+output.stdout_truncated:
+false
+output.stderr:
+""
+output.stderr_truncated:
+false
+output.exit_code:
+0
+output.status:
+completed
+output.duration_ms:
+89
+
+metadata.state:
+done
+
+[tool: bash]
+metadata.toolCallId:
+call_0I9yDsxV0rdXHuREiRdNpTp6
+metadata.state:
+output-available
+input.command:
+ldconfig -p 2>/dev/null | grep -E 'archive|unrar' || true; python - <<'PY'
+import struct
+p='Новая папка2.rar'
+b=open(p,'rb').read(32)
+print('header hex:',b.hex())
+print('signature:',b[:8])
+PY
+
+input.cwd:
+/home/user/all-my-chats
+input.timeout:
+30
+output.stdout:
+header hex: 526172211a070100ee5b3dee0d01050900080101b3c2f58280004e4faed79601
+signature: b'Rar!\x1a\x07\x01\x00'
+
+output.stdout_truncated:
+false
+output.stderr:
+""
+output.stderr_truncated:
+false
+output.exit_code:
+0
+output.status:
+completed
+output.duration_ms:
+82
+
+I checked the repository itself. It contains only the two older ZIP exports (194 chats each), the 234-title chat list, the analysis document, and `Новая папка2.rar`. The later 41-chat TXT ZIP mentioned in the document is not here, and I couldn’t inspect the RAR because this environment has no RAR extraction tool.
+
+So the files I can verify still don’t establish that all chats were exported. The document *reports* that a later export covered all 234, but the corresponding exports aren’t available here to check.
+metadata.state:
+done

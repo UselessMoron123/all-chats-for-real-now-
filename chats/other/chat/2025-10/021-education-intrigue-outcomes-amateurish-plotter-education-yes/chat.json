@@ -1,0 +1,743 @@
+{
+  "exportedAt": "2026-10-09T16:28:32.632Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/0199f81e-c2e3-77a7-b24e-741526e6698f",
+  "archivedAt": "2026-09-30 19:19:51.386+00",
+  "evaluation": {
+    "id": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "############ # EDUCATION ############ # INTRIGUE OUTCOMES amateurish_plotter = { education = yes",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019b7ef1-d453-7926-9752-3235a9d871d0"
+    ],
+    "archivedAt": "2026-09-30 19:19:51.386+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": null,
+    "createdAt": "2025-10-18 16:27:27.229+00",
+    "updatedAt": "2026-01-02 13:42:04.716182+00",
+    "messages": [
+      {
+        "id": "0199f825-be1b-7c10-840f-d8ba01e84efd",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "############\n# EDUCATION\n############\n\n# INTRIGUE OUTCOMES\namateurish_plotter = {\n\teducation = yes\n\tattribute = intrigue\n\n\tintrigue = 1\n\tstewardship = -1\n\tcombat_rating = 4\n}\n\nflamboyant_schemer = {\n\teducation = yes\n\tattribute = intrigue\n\n\tintrigue = 3\n\tstewardship = -1\n\tcombat_rating = 8\n}\n\nintricate_webweaver = {\n\teducation = yes\n\tattribute = intrigue\n\n\tmartial = 1\n\tintrigue = 6\n\tdiplomacy = 1\n\tstewardship = -1\n\tcombat_rating = 12\n}\n\nelusive_shadow = {\n\teducation = yes\n\tattribute = intrigue\n\n\tmartial = 2\n\tintrigue = 9\n\tdiplomacy = 2\n\tstewardship = -1\n\tcombat_rating = 16\n}\n\n# DIPLOMACY OUTCOMES\nnaive_appeaser = {\n\teducation = yes\n\tattribute = diplomacy\n\n\tmartial = -1\n\tdiplomacy = 1\n}\n\nunderhanded_rogue = {\n\teducation = yes\n\tattribute = diplomacy\n\n\tmartial = -1\n\tdiplomacy = 3\n\tfertility = 0.05\n}\n\ncharismatic_negotiator = {\n\teducation = yes\n\tattribute = diplomacy\n\n\tmartial = -1\n\tintrigue = 1\n\tdiplomacy = 6\n\tlearning = 1\n\tfertility = 0.05\n}\n\ngrey_eminence = {\n\teducation = yes\n\tattribute = diplomacy\n\n\tmartial = -1\n\tintrigue = 2\n\tdiplomacy = 9\n\tlearning = 2\n\tfertility = 0.1\n}\n\n# STEWARDSHIP OUTCOMES\nindulgent_wastrel = {\n\teducation = yes\n\tattribute = stewardship\n\n\tdiplomacy = -1\n\tstewardship = 1\n}\n\nthrifty_clerk = {\n\teducation = yes\n\tattribute = stewardship\n\n\tdiplomacy = -1\n\tstewardship = 3\n\tfertility = 0.05\n}\n\nfortune_builder = {\n\teducation = yes\n\tattribute = stewardship\n\n\tmartial = 1\n\tdiplomacy = -1\n\tstewardship = 6\n\tlearning = 1\n\tfertility = 0.1\n}\n\nmidas_touched = {\n\teducation = yes\n\tattribute = stewardship\n\n\tmartial = 2\n\tdiplomacy = -1\n\tstewardship = 9\n\tlearning = 2\n\tfertility = 0.15\n}\n\n# MARTIAL OUTCOMES\nmisguided_warrior = {\n\teducation = yes\n\tattribute = martial\n\n\tmartial = 1\n\tlearning = -1\n\n\thealth = 0.5\n\n\tcombat_rating = 5\n}\n\ntough_soldier = {\n\teducation = yes\n\tattribute = martial\n\n\tmartial = 3\n\tlearning = -1\n\n\thealth = 0.5\n\n\tcombat_rating = 10\n}\n\nskilled_tactician = {\n\teducation = yes\n\tattribute = martial\n\n\tmartial = 6\n\tintrigue = 1\n\tstewardship = 1\n\tlearning = -1\n\n\thealth = 0.5\n\n\tcombat_rating = 15\n}\n\nbrilliant_strategist = {\n\teducation = yes\n\tattribute = martial\n\n\tmartial = 9\n\tintrigue = 2\n\tstewardship = 2\n\tlearning = -1\n\n\thealth = 0.5\n\n\tcombat_rating = 20\n}\n\n# ECCLESIASTICAL OUTCOMES\ndetached_priest = {\n\teducation = yes\n\tattribute = learning\n\n\tintrigue = -1\n\tlearning = 1\n}\n\ndutiful_cleric = {\n\teducation = yes\n\tattribute = learning\n\n\tintrigue = -1\n\tlearning = 3\n\n\tai_zeal = 10\n}\n\nscholarly_theologian = {\n\teducation = yes\n\tattribute = learning\n\n\tintrigue = -1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 6\n\n\tfertility = -0.05\n\n\tai_zeal = 20\n}\n\nmastermind_theologian = {\n\teducation = yes\n\tattribute = learning\n\n\tintrigue = -1\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 9\n\n\tfertility = -0.05\n\n\tai_zeal = 30\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T16:27:27.481669+00:00",
+        "updatedAt": "2025-10-18T16:27:27.481669+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f825-be1e-7eb2-91fd-8b1a02717225",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f825-be1b-7c10-840f-d8ba01e84efd"
+        ],
+        "content": "```json\n{\n  \"amateurish_plotter\": {\n    \"education\": true,\n    \"attribute\": \"intrigue\",\n    \"intrigue\": 1,\n    \"stewardship\": -1,\n    \"combat_rating\": 4\n  },\n  \"flamboyant_schemer\": {\n    \"education\": true,\n    \"attribute\": \"intrigue\",\n    \"intrigue\": 3,\n    \"stewardship\": -1,\n    \"combat_rating\": 8\n  },\n  \"intricate_webweaver\": {\n    \"education\": true,\n    \"attribute\": \"intrigue\",\n    \"martial\": 1,\n    \"intrigue\": 6,\n    \"diplomacy\": 1,\n    \"stewardship\": -1,\n    \"combat_rating\": 12\n  },\n  \"elusive_shadow\": {\n    \"education\": true,\n    \"attribute\": \"intrigue\",\n    \"martial\": 2,\n    \"intrigue\": 9,\n    \"diplomacy\": 2,\n    \"stewardship\": -1,\n    \"combat_rating\": 16\n  },\n  \"naive_appeaser\": {\n    \"education\": true,\n    \"attribute\": \"diplomacy\",\n    \"martial\": -1,\n    \"diplomacy\": 1\n  },\n  \"underhanded_rogue\": {\n    \"education\": true,\n    \"attribute\": \"diplomacy\",\n    \"martial\": -1,\n    \"diplomacy\": 3,\n    \"fertility\": 0.05\n  },\n  \"charismatic_negotiator\": {\n    \"education\": true,\n    \"attribute\": \"diplomacy\",\n    \"martial\": -1,\n    \"intrigue\": 1,\n    \"diplomacy\": 6,\n    \"learning\": 1,\n    \"fertility\": 0.05\n  },\n  \"grey_eminence\": {\n    \"education\": true,\n    \"attribute\": \"diplomacy\",\n    \"martial\": -1,\n    \"intrigue\": 2,\n    \"diplomacy\": 9,\n    \"learning\": 2,\n    \"fertility\": 0.1\n  },\n  \"indulgent_wastrel\": {\n    \"education\": true,\n    \"attribute\": \"stewardship\",\n    \"diplomacy\": -1,\n    \"stewardship\": 1\n  },\n  \"thrifty_clerk\": {\n    \"education\": true,\n    \"attribute\": \"stewardship\",\n    \"diplomacy\": -1,\n    \"stewardship\": 3,\n    \"fertility\": 0.05\n  },\n  \"fortune_builder\": {\n    \"education\": true,\n    \"attribute\": \"stewardship\",\n    \"martial\": 1,\n    \"diplomacy\": -1,\n    \"stewardship\": 6,\n    \"learning\": 1,\n    \"fertility\": 0.1\n  },\n  \"midas_touched\": {\n    \"education\": true,\n    \"attribute\": \"stewardship\",\n    \"martial\": 2,\n    \"diplomacy\": -1,\n    \"stewardship\": 9,\n    \"learning\": 2,\n    \"fertility\": 0.15\n  },\n  \"misguided_warrior\": {\n    \"education\": true,\n    \"attribute\": \"martial\",\n    \"martial\": 1,\n    \"learning\": -1,\n    \"health\": 0.5,\n    \"combat_rating\": 5\n  },\n  \"tough_soldier\": {\n    \"education\": true,\n    \"attribute\": \"martial\",\n    \"martial\": 3,\n    \"learning\": -1,\n    \"health\": 0.5,\n    \"combat_rating\": 10\n  },\n  \"skilled_tactician\": {\n    \"education\": true,\n    \"attribute\": \"martial\",\n    \"martial\": 6,\n    \"intrigue\": 1,\n    \"stewardship\": 1,\n    \"learning\": -1,\n    \"health\": 0.5,\n    \"combat_rating\": 15\n  },\n  \"brilliant_strategist\": {\n    \"education\": true,\n    \"attribute\": \"martial\",\n    \"martial\": 9,\n    \"intrigue\": 2,\n    \"stewardship\": 2,\n    \"learning\": -1,\n    \"health\": 0.5,\n    \"combat_rating\": 20\n  },\n  \"detached_priest\": {\n    \"education\": true,\n    \"attribute\": \"learning\",\n    \"intrigue\": -1,\n    \"learning\": 1\n  },\n  \"dutiful_cleric\": {\n    \"education\": true,\n    \"attribute\": \"learning\",\n    \"intrigue\": -1,\n    \"learning\": 3,\n    \"ai_zeal\": 10\n  },\n  \"scholarly_theologian\": {\n    \"education\": true,\n    \"attribute\": \"learning\",\n    \"intrigue\": -1,\n    \"diplomacy\": 1,\n    \"stewardship\": 1,\n    \"learning\": 6,\n    \"fertility\": -0.05,\n    \"ai_zeal\": 20\n  },\n  \"mastermind_theologian\": {\n    \"education\": true,\n    \"attribute\": \"learning\",\n    \"intrigue\": -1,\n    \"diplomacy\": 2,\n    \"stewardship\": 2,\n    \"learning\": 9,\n    \"fertility\": -0.05,\n    \"ai_zeal\": 30\n  }\n}\n```",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T16:27:27.484747+00:00",
+        "updatedAt": "2025-10-18T16:27:50.520108+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f82a-9323-79e8-b2dd-9998930eb813",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f825-be1e-7eb2-91fd-8b1a02717225"
+        ],
+        "content": "immortal = {\n\timmortal = yes\n\thealth = 10\n\ttaoist_opinion = 25\n}\n\nadventurer = {\n\tmartial = 1\n\tdiplomacy = -1\n\tcombat_rating = 10\n\tglobal_levy_size = 0.2\n\tmax_manpower_mult = 0.1\n\n\tsame_opinion = 10\n\n\tai_ambition = 40\n}\n\naugustus = {\n\tmonthly_character_prestige = 0.5\n\tvassal_opinion = 10\n}\n\ncannibal = {\n\tmartial = 3\n\tgeneral_opinion = -10\n\tcombat_rating = 10\n\n\tsame_opinion = 25\n\n\tai_rationality = -20\n\tai_honor = -10\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T16:32:43.875154+00:00",
+        "updatedAt": "2025-10-18T16:32:43.875154+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f82a-9325-760c-8fc2-0f3fef94d483",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f82a-9323-79e8-b2dd-9998930eb813"
+        ],
+        "content": "```json\n{\n  \"immortal\": {\n    \"immortal\": true,\n    \"health\": 10,\n    \"taoist_opinion\": 25\n  },\n  \"adventurer\": {\n    \"martial\": 1,\n    \"diplomacy\": -1,\n    \"combat_rating\": 10,\n    \"global_levy_size\": 0.2,\n    \"max_manpower_mult\": 0.1,\n    \"same_opinion\": 10,\n    \"ai_ambition\": 40\n  },\n  \"augustus\": {\n    \"monthly_character_prestige\": 0.5,\n    \"vassal_opinion\": 10\n  },\n  \"cannibal\": {\n    \"martial\": 3,\n    \"general_opinion\": -10,\n    \"combat_rating\": 10,\n    \"same_opinion\": 25,\n    \"ai_rationality\": -20,\n    \"ai_honor\": -10\n  }\n}\n```",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T16:32:43.877903+00:00",
+        "updatedAt": "2025-10-18T16:32:52.107669+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f82c-0f9e-7da4-ae38-f36eff171055",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f82a-9325-760c-8fc2-0f3fef94d483"
+        ],
+        "content": "################\n# PROFESSIONS\n################\n\nfalconer = {\n\tdiplomacy = 1\n\n\tsame_opinion = 10\n}\n\nphysician = {\n\tmonthly_character_prestige = 0.25\n\n\tdiplomacy = 1\n\tlearning = 2\n\n\thealth = 0.5\n\n\tgeneral_opinion = 5\n}\n\npoet = {\n\tdiplomacy = 1\n\n\tsame_opinion = 10\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T16:34:21.260595+00:00",
+        "updatedAt": "2025-10-18T16:34:21.260595+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f82c-0fa2-7bf4-be92-de0ed8bade4f",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f82c-0f9e-7da4-ae38-f36eff171055"
+        ],
+        "content": "```json\n{\n  \"falconer\": {\n    \"diplomacy\": 1,\n    \"same_opinion\": 10\n  },\n  \"physician\": {\n    \"monthly_character_prestige\": 0.25,\n    \"diplomacy\": 1,\n    \"learning\": 2,\n    \"health\": 0.5,\n    \"general_opinion\": 5\n  },\n  \"poet\": {\n    \"diplomacy\": 1,\n    \"same_opinion\": 10\n  }\n}\n```",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T16:34:21.262818+00:00",
+        "updatedAt": "2025-10-18T16:34:27.748805+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f834-0f29-78c2-9411-b63c0b5802d0",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f82c-0fa2-7bf4-be92-de0ed8bade4f"
+        ],
+        "content": "############\n# LIFESTYLES\n############\n\nadministrator = {\n\tcommand_modifier = {\n\t\tspeed = 0.1\n\t}\n\n\tstewardship = 3\n}\n\narchitect = {\n\tcommand_modifier = {\n\t\tsiege = 0.2\n\t}\n\n\tmartial = 1\n\tstewardship = 2\n\n\twonder_build_cost_modifier = -0.03\n\twonder_build_time_modifier = -0.05\n\n\tsame_opinion = 10\n}\n\ncelibate = {\n\topposites = {\n\t\thedonist\n\t\tmaster_seducer\n\t\tmaster_seductress\n\t}\n\n\tmonthly_character_piety = 1\n\n\tfertility = -10.0\n\n\tchristian_church_opinion = 5\n\tsame_opinion = 10\n\topposite_opinion = -5\n\n\tai_zeal = 30\n}\n\nduelist = {\n\tmartial = 3\n\tcombat_rating = 30\n\n\tsame_opinion = 10\n}\n\ngame_master = {\n\tmartial = 1\n\tdiplomacy = 2\n\n\tsame_opinion = 10\n}\n\ngardener = {\n\tstewardship = 2\n\tlearning = 1\n\n\tsame_opinion = 10\n}\n\nhedonist = {\n\topposites = {\n\t\tcelibate\n\t}\n\n\tintrigue = 1\n\tdiplomacy = 2\n\n\tfertility = 0.2\n\n\tchristian_church_opinion = -5\n\tsame_opinion = 10\n\topposite_opinion = -5\n\n\tai_zeal = -30\n}\n\nhunter = {\n\tmartial = 2\n\tdiplomacy = 1\n\n\tcombat_rating = 10\n\n\tsame_opinion = 10\n}\n\nimpaler = {\n\tintrigue = 2\n\tlearning = 1\n\n\tcombat_rating = 10\n\n\tsame_opinion = 10\n\n\tai_honor = -15\n}\n\nmystic = {\n\tstewardship = 1\n\tlearning = 2\n\n\tsame_opinion = 10\n}\n\nmaster_schemer = {\n\tintrigue = 3\n\n\tsame_opinion = -5\n}\n\nscholar = {\n\topposites = {\n\t\tfaqih\n\t}\n\n\tlearning = 3\n\n\tsame_opinion = 10\n}\n\nmaster_seducer = {\n\topposites = {\n\t\tcelibate\n\t\tmaster_seductress\n\t}\n\n\tintrigue = 2\n\tdiplomacy = 1\n\n\tsex_appeal_opinion = 50\n}\n\nmaster_seductress = {\n\topposites = {\n\t\tcelibate\n\t\tmaster_seducer\n\t}\n\n\tintrigue = 2\n\tdiplomacy = 1\n\n\tsex_appeal_opinion = 50\n}\n\nsocializer = {\n\tdiplomacy = 3\n\n\tsex_appeal_opinion = 10\n\tsame_opinion = 10\n}\n\nstrategist = {\n\tmartial = 2\n\tstewardship = 1\n\n\tsame_opinion = 10\n}\n\ntheologian = {\n\n\tintrigue = 1\n\tlearning = 2\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T16:43:05.636632+00:00",
+        "updatedAt": "2025-10-18T16:43:05.636632+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f834-0f2b-70c7-a032-85a96b8b6269",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f834-0f29-78c2-9411-b63c0b5802d0"
+        ],
+        "content": "```json\n{\n  \"administrator\": {\n    \"command_modifier\": {\n      \"speed\": 0.1\n    },\n    \"stewardship\": 3\n  },\n  \"architect\": {\n    \"command_modifier\": {\n      \"siege\": 0.2\n    },\n    \"martial\": 1,\n    \"stewardship\": 2,\n    \"wonder_build_cost_modifier\": -0.03,\n    \"wonder_build_time_modifier\": -0.05,\n    \"same_opinion\": 10\n  },\n  \"celibate\": {\n    \"opposites\": [\n      \"hedonist\",\n      \"master_seducer\",\n      \"master_seductress\"\n    ],\n    \"monthly_character_piety\": 1,\n    \"fertility\": -10.0,\n    \"christian_church_opinion\": 5,\n    \"same_opinion\": 10,\n    \"opposite_opinion\": -5,\n    \"ai_zeal\": 30\n  },\n  \"duelist\": {\n    \"martial\": 3,\n    \"combat_rating\": 30,\n    \"same_opinion\": 10\n  },\n  \"game_master\": {\n    \"martial\": 1,\n    \"diplomacy\": 2,\n    \"same_opinion\": 10\n  },\n  \"gardener\": {\n    \"stewardship\": 2,\n    \"learning\": 1,\n    \"same_opinion\": 10\n  },\n  \"hedonist\": {\n    \"opposites\": [\n      \"celibate\"\n    ],\n    \"intrigue\": 1,\n    \"diplomacy\": 2,\n    \"fertility\": 0.2,\n    \"christian_church_opinion\": -5,\n    \"same_opinion\": 10,\n    \"opposite_opinion\": -5,\n    \"ai_zeal\": -30\n  },\n  \"hunter\": {\n    \"martial\": 2,\n    \"diplomacy\": 1,\n    \"combat_rating\": 10,\n    \"same_opinion\": 10\n  },\n  \"impaler\": {\n    \"intrigue\": 2,\n    \"learning\": 1,\n    \"combat_rating\": 10,\n    \"same_opinion\": 10,\n    \"ai_honor\": -15\n  },\n  \"mystic\": {\n    \"stewardship\": 1,\n    \"learning\": 2,\n    \"same_opinion\": 10\n  },\n  \"master_schemer\": {\n    \"intrigue\": 3,\n    \"same_opinion\": -5\n  },\n  \"scholar\": {\n    \"opposites\": [\n      \"faqih\"\n    ],\n    \"learning\": 3,\n    \"same_opinion\": 10\n  },\n  \"master_seducer\": {\n    \"opposites\": [\n      \"celibate\",\n      \"master_seductress\"\n    ],\n    \"intrigue\": 2,\n    \"diplomacy\": 1,\n    \"sex_appeal_opinion\": 50\n  },\n  \"master_seductress\": {\n    \"opposites\": [\n      \"celibate\",\n      \"master_seducer\"\n    ],\n    \"intrigue\": 2,\n    \"diplomacy\": 1,\n    \"sex_appeal_opinion\": 50\n  },\n  \"socializer\": {\n    \"diplomacy\": 3,\n    \"sex_appeal_opinion\": 10,\n    \"same_opinion\": 10\n  },\n  \"strategist\": {\n    \"martial\": 2,\n    \"stewardship\": 1,\n    \"same_opinion\": 10\n  },\n  \"theologian\": {\n    \"intrigue\": 1,\n    \"learning\": 2\n  }\n}\n```",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T16:43:05.641043+00:00",
+        "updatedAt": "2025-10-18T16:43:24.460193+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f835-c08b-75e3-b9f2-9acb3e850c09",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f834-0f2b-70c7-a032-85a96b8b6269"
+        ],
+        "content": "leave only important stats\n########################\n# COMBAT TRAITS\n########################\n\nberserker = {\n\tpotential = {\n\t\treligion_openly_norse_or_reformed_trigger = yes\n\t}\n\n\tmartial = 4\n\tdiplomacy = -2\n\tcombat_rating = 25 # old value: 3\n\n\tsame_opinion = 10\n\n\tai_rationality = -5\n\n\tmale_compliment = COMPL_BERSERKER\n\tfemale_compliment = COMPL_BERSERKER\n\tmale_insult = INSULT_LUNATIC\n\tfemale_insult = INSULT_LUNATIC\n\tchild_insult = INSULT_TROLL\n\tmale_insult_adj = INSULT_CRAZED\n\tfemale_insult_adj = INSULT_CRAZED\n\tchild_insult_adj = INSULT_CRAZY\n}\n\nbrawny = {\n\topposites = {\n\t\tfrail\n\t\tsturdy\n\t}\n\n\tmartial = 2\n\tdiplomacy = 1\n\n\thealth = 1\n\n\tcombat_rating = 10 # old value: 1\n\n\tsex_appeal_opinion = 5\n\tvassal_opinion = 5\n\ttribal_opinion = 5\n\n\tmale_compliment_adj = COMPL_STRONG\n}\n\nfrail = {\n\topposites = {\n\t\tbrawny\n\t\tsturdy\n\t}\n\n\tmartial = -1\n\tcombat_rating = -10 # old value: -1\n\n\thealth = -0.5\n\n\tsex_appeal_opinion = -5\n\tvassal_opinion = -5\n\ttribal_opinion = -5\n\n\tmale_insult = INSULT_WEAKLING\n}\n\ngladiator = {\n\tmartial = 5\n\tintrigue = 2\n\tstewardship = -2\n\tlearning = -4\n\tcombat_rating = 15\n\n\tgeneral_opinion = -5\n\thealth = 1\n\tsame_opinion = 15\n\n\tleadership_traits = 1\n}\n\nshieldmaiden = {\n\tcustomizer = no\n\n\tmonthly_character_piety = 0.1\n\n\tcombat_rating = 10 # new value!\n\n\tpagan_group_opinion = 5\n\tsame_opinion_if_same_religion = 15\n\n\tai_zeal = 10\n\n\tfemale_compliment = COMPL_VALKYRIE\n\tfemale_compliment_adj = COMPL_VIKING_adj\n}\n\nsturdy = {\n\topposites = {\n\t\tfrail\n\t\tbrawny\n\t}\n\n\thealth = 0.25\n\n\tcombat_rating = 2\n\n}\n\nvarangian = {\n\tcustomizer = no\n\n\tmartial = 2\n\tdiplomacy = 1\n\tcombat_rating = 10 # old value: 2\n\n\tsame_opinion = 10\n}\n\n# Sea Raiders\npirate = {\n\t# religious = yes\n\n\topposites = {\n\t\tviking\n\t\travager\n\t\tsea_king\n\t\tsea_queen\n\t}\n\n\tpotential = {\n\t\tOR = {\n\t\t\treligion_openly_norse_or_reformed_trigger = yes\n\t\t\thas_character_flag = acquired_pirate_trait_by_bloodline\n\n\t\t\tAND = {\n\t\t\t\thas_religion_feature = religion_adventuring\n\t\t\t\thas_religion_feature = religion_seafaring\n\t\t\t}\n\t\t}\n\t}\n\n\tmonthly_character_prestige = 0.3\n\n\tmartial = 1\n\tcombat_rating = 10 # old value: 1\n\n\tnorse_pagan_opinion = 15\n\tnorse_pagan_reformed_opinion = 15\n\tsame_opinion = 5\n\n\tmale_insult = COMPL_PIRATE\n\tfemale_insult = COMPL_PIRATE\n}\n\nravager = {\n\t# religious = yes\n\n\topposites = {\n\t\tpirate\n\t\tviking\n\t\tsea_king\n\t\tsea_queen\n\t}\n\n\tpotential = {\n\t\tOR = {\n\t\t\treligion_openly_norse_or_reformed_trigger = yes\n\n\t\t\tany_owned_bloodline = {\n\t\t\t\thas_bloodline_flag = bloodline_viking\n\t\t\t\tbloodline_is_active_for = PREV\n\t\t\t}\n\n\t\t\tAND = {\n\t\t\t\thas_religion_feature = religion_adventuring\n\t\t\t\thas_religion_feature = religion_seafaring\n\t\t\t}\n\t\t}\n\t}\n\n\tmonthly_character_prestige = 0.4\n\n\tmartial = 2\n\tcombat_rating = 20 # old value: 2\n\n\tnorse_pagan_opinion = 20\n\tnorse_pagan_reformed_opinion = 20\n\tsame_opinion = 5\n\n\tmale_insult = COMPL_PIRATE\n\tfemale_insult = COMPL_PIRATE\n\tmale_compliment = COMPL_VIKING\n\tmale_compliment_adj = COMPL_VIKING_adj\n\tfemale_compliment = COMPL_VALKYRIE\n\tfemale_compliment_adj = COMPL_VIKING_adj\n}\n\nsea_king = {\n\t# religious = yes\n\n\topposites = {\n\t\tpirate\n\t\tviking\n\t\travager\n\t\tsea_queen\n\t}\n\n\tpotential = {\n\t\tOR = {\n\t\t\treligion_openly_norse_or_reformed_trigger = yes\n\n\t\t\tany_owned_bloodline = {\n\t\t\t\thas_bloodline_flag = bloodline_viking\n\t\t\t\tbloodline_is_active_for = PREV\n\t\t\t}\n\n\t\t\tAND = {\n\t\t\t\thas_religion_feature = religion_adventuring\n\t\t\t\thas_religion_feature = religion_seafaring\n\t\t\t}\n\t\t}\n\t}\n\n\tmonthly_character_prestige = 0.5\n\n\tmartial = 3\n\tcombat_rating = 20 # old value: 2\n\n\tnorse_pagan_opinion = 25\n\tnorse_pagan_reformed_opinion = 25\n\n\tmale_insult = COMPL_PIRATE\n\tfemale_insult = COMPL_PIRATE\n\tmale_compliment = COMPL_VIKING\n\tmale_compliment_adj = COMPL_VIKING_adj\n\tfemale_compliment = COMPL_VALKYRIE\n\tfemale_compliment_adj = COMPL_VIKING_adj\n}\n\nsea_queen = {\n\t# religious = yes\n\tcustomizer = no\n\n\topposites = {\n\t\tpirate\n\t\tviking\n\t\travager\n\t\tsea_king\n\t}\n\n\tpotential = {\n\t\tOR = {\n\t\t\treligion_openly_norse_or_reformed_trigger = yes\n\n\t\t\tany_owned_bloodline = {\n\t\t\t\thas_bloodline_flag = bloodline_viking\n\t\t\t\tbloodline_is_active_for = PREV\n\t\t\t}\n\n\t\t\tAND = {\n\t\t\t\thas_religion_feature = religion_adventuring\n\t\t\t\thas_religion_feature = religion_seafaring\n\t\t\t}\n\t\t}\n\t}\n\n\tmonthly_character_prestige = 0.5\n\n\tmartial = 3\n\tcombat_rating = 20 # old value: 2\n\n\tnorse_pagan_opinion = 25\n\tnorse_pagan_reformed_opinion = 25\n\n\tmale_insult = COMPL_PIRATE\n\tfemale_insult = COMPL_PIRATE\n\tmale_compliment = COMPL_VIKING\n\tmale_compliment_adj = COMPL_VIKING_adj\n\tfemale_compliment = COMPL_VALKYRIE\n\tfemale_compliment_adj = COMPL_VIKING_adj\n}\n\nviking = {\n\t# religious = yes\n\n\topposites = {\n\t\tpirate\n\t\travager\n\t\tsea_king\n\t\tsea_queen\n\t}\n\n\tpotential = {\n\t\tOR = {\n\t\t\treligion_openly_norse_or_reformed_trigger = yes\n\n\t\t\tany_owned_bloodline = {\n\t\t\t\thas_bloodline_flag = bloodline_viking\n\t\t\t\tbloodline_is_active_for = PREV\n\t\t\t}\n\t\t}\n\t}\n\n\tmonthly_character_prestige = 0.3\n\n\tmartial = 1\n\tcombat_rating = 10 # old value: 1\n\n\tnorse_pagan_opinion = 15\n\tnorse_pagan_reformed_opinion = 15\n\tsame_opinion = 5\n\n\tmale_insult = COMPL_PIRATE\n\tfemale_insult = COMPL_PIRATE\n\tmale_compliment = COMPL_VIKING\n\tmale_compliment_adj = COMPL_VIKING_adj\n\tfemale_compliment = COMPL_VALKYRIE\n\tfemale_compliment_adj = COMPL_VIKING_adj\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T16:44:56.571503+00:00",
+        "updatedAt": "2025-10-18T16:44:56.571503+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f835-c08c-7378-9fca-383f27240098",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f835-c08b-75e3-b9f2-9acb3e850c09"
+        ],
+        "content": "```json\n{\n  \"berserker\": {\n    \"martial\": 4,\n    \"diplomacy\": -2,\n    \"combat_rating\": 25,\n    \"same_opinion\": 10,\n    \"ai_rationality\": -5\n  },\n  \"brawny\": {\n    \"opposites\": [\n      \"frail\",\n      \"sturdy\"\n    ],\n    \"martial\": 2,\n    \"diplomacy\": 1,\n    \"health\": 1,\n    \"combat_rating\": 10,\n    \"sex_appeal_opinion\": 5,\n    \"vassal_opinion\": 5,\n    \"tribal_opinion\": 5\n  },\n  \"frail\": {\n    \"opposites\": [\n      \"brawny\",\n      \"sturdy\"\n    ],\n    \"martial\": -1,\n    \"combat_rating\": -10,\n    \"health\": -0.5,\n    \"sex_appeal_opinion\": -5,\n    \"vassal_opinion\": -5,\n    \"tribal_opinion\": -5\n  },\n  \"gladiator\": {\n    \"martial\": 5,\n    \"intrigue\": 2,\n    \"stewardship\": -2,\n    \"learning\": -4,\n    \"combat_rating\": 15,\n    \"general_opinion\": -5,\n    \"health\": 1,\n    \"same_opinion\": 15,\n    \"leadership_traits\": 1\n  },\n  \"shieldmaiden\": {\n    \"monthly_character_piety\": 0.1,\n    \"combat_rating\": 10,\n    \"pagan_group_opinion\": 5,\n    \"same_opinion_if_same_religion\": 15,\n    \"ai_zeal\": 10\n  },\n  \"sturdy\": {\n    \"opposites\": [\n      \"frail\",\n      \"brawny\"\n    ],\n    \"health\": 0.25,\n    \"combat_rating\": 2\n  },\n  \"varangian\": {\n    \"martial\": 2,\n    \"diplomacy\": 1,\n    \"combat_rating\": 10,\n    \"same_opinion\": 10\n  },\n  \"pirate\": {\n    \"opposites\": [\n      \"viking\",\n      \"ravager\",\n      \"sea_king\",\n      \"sea_queen\"\n    ],\n    \"monthly_character_prestige\": 0.3,\n    \"martial\": 1,\n    \"combat_rating\": 10,\n    \"norse_pagan_opinion\": 15,\n    \"norse_pagan_reformed_opinion\": 15,\n    \"same_opinion\": 5\n  },\n  \"ravager\": {\n    \"opposites\": [\n      \"pirate\",\n      \"viking\",\n      \"sea_king\",\n      \"sea_queen\"\n    ],\n    \"monthly_character_prestige\": 0.4,\n    \"martial\": 2,\n    \"combat_rating\": 20,\n    \"norse_pagan_opinion\": 20,\n    \"norse_pagan_reformed_opinion\": 20,\n    \"same_opinion\": 5\n  },\n  \"sea_king\": {\n    \"opposites\": [\n      \"pirate\",\n      \"viking\",\n      \"ravager\",\n      \"sea_queen\"\n    ],\n    \"monthly_character_prestige\": 0.5,\n    \"martial\": 3,\n    \"combat_rating\": 20,\n    \"norse_pagan_opinion\": 25,\n    \"norse_pagan_reformed_opinion\": 25\n  },\n  \"sea_queen\": {\n    \"opposites\": [\n      \"pirate\",\n      \"viking\",\n      \"ravager\",\n      \"sea_king\"\n    ],\n    \"monthly_character_prestige\": 0.5,\n    \"martial\": 3,\n    \"combat_rating\": 20,\n    \"norse_pagan_opinion\": 25,\n    \"norse_pagan_reformed_opinion\": 25\n  },\n  \"viking\": {\n    \"opposites\": [\n      \"pirate\",\n      \"ravager\",\n      \"sea_king\",\n      \"sea_queen\"\n    ],\n    \"monthly_character_prestige\": 0.3,\n    \"martial\": 1,\n    \"combat_rating\": 10,\n    \"norse_pagan_opinion\": 15,\n    \"norse_pagan_reformed_opinion\": 15,\n    \"same_opinion\": 5\n  }\n}\n```",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T16:44:56.573862+00:00",
+        "updatedAt": "2025-10-18T16:45:26.676792+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f843-f11e-7463-ad6e-b099d51cff21",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f835-c08c-7378-9fca-383f27240098"
+        ],
+        "content": "crusader = { \n\tmartial = 2\n\tcombat_rating = 10\n\n\tchurch_opinion = 15\n\tsame_opinion_if_same_religion = 15\n\n\tai_zeal = 10\n}\n\ncrusader_queen = {\n\tcommand_modifier = {\n\t\treligious_enemy = 0.3\n\t}\n\n\tmartial = 3\n\tglobal_levy_size = 0.2\n\tcombat_rating = 15\n\n\tsame_religion_opinion = 35\n\n\tai_zeal = 20\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T17:00:26.32062+00:00",
+        "updatedAt": "2025-10-18T17:00:26.32062+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f843-f120-711e-81d7-160324fc25f4",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f843-f11e-7463-ad6e-b099d51cff21"
+        ],
+        "content": "```json\n{\n  \"crusader\": {\n    \"martial\": 2,\n    \"combat_rating\": 10,\n    \"church_opinion\": 15,\n    \"same_opinion_if_same_religion\": 15,\n    \"ai_zeal\": 10\n  },\n  \"crusader_queen\": {\n    \"command_modifier\": {\n      \"religious_enemy\": 0.3\n    },\n    \"martial\": 3,\n    \"global_levy_size\": 0.2,\n    \"combat_rating\": 15,\n    \"same_religion_opinion\": 35,\n    \"ai_zeal\": 20\n  }\n}\n```",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T17:00:26.323418+00:00",
+        "updatedAt": "2025-10-18T17:00:33.375313+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f860-6c3c-7c3f-814a-2b560aa256c9",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f843-f120-711e-81d7-160324fc25f4"
+        ],
+        "content": "bastard = {\n\tdiplomacy = -1\n\tsame_opinion = 5\n\n}\n\nborn_in_the_purple = {\n\tmonthly_character_prestige = 0.5\n\tvassal_opinion = 5\n}\n\none_eyed = {\n\tlearning = 1\n\tcombat_rating = -10\n\tsex_appeal_opinion = -5\n\tpagan_group_opinion = 10\n\tsame_opinion = 5\n}\n\nattractive = {\n\tdiplomacy = 1\n\tsex_appeal_opinion = 30\n}\n\ngenius = {\n\tmartial = 5\n\tintrigue = 5\n\tdiplomacy = 5\n\tstewardship = 5\n\tlearning = 5\n\tcombat_rating = 10\n\tvassal_opinion = 5\n\tai_rationality = 30\n}\n\nquick = {\n\tmartial = 3\n\tintrigue = 3\n\tdiplomacy = 3\n\tstewardship = 3\n\tlearning = 3\n\tcombat_rating = 5\n\tai_rationality = 15\n}\n\nsayyid = {\n\tmuslim_opinion = 5\n}\n\nstrong = {\n\tmartial = 2\n\tdiplomacy = 1\n\n\tfertility = 0.1\n\thealth = 1\n\n\tcombat_rating = 10\n\n\tsex_appeal_opinion = 10\n\tvassal_opinion = 5\n\ttribal_opinion = 10\n}\n\nmutazilite = {opposite of erudite\n\tlearning = 5\n\topposite_opinion = -30\n}\n\nscarred = {\n\topposites = {\n\t\tscarred_mid\n\t\tscarred_high\n\t}\n\n\tmonthly_character_prestige = 0.1\n\topposite_opinion = 10\n}\n\nscarred_mid = {\n\trandom = no\n\n\topposites = {\n\t\tscarred\n\t\tscarred_high\n\t}\n\n\tcombat_rating = 5\n\n\tmonthly_character_prestige = 0.15\n\n\tsex_appeal_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = 5\n\ttribal_opinion = 5\n}\n\nscarred_high = {\n\trandom = no\n\n\topposites = {\n\t\tscarred\n\t\tscarred_mid\n\t}\n\n\tmonthly_character_prestige = 0.2\n\n\tcombat_rating = 10\n\n\tsex_appeal_opinion = 10\n\tsame_opinion = 10\n\topposite_opinion = 5\n\ttribal_opinion = 10\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T17:31:32.925147+00:00",
+        "updatedAt": "2025-10-18T17:31:32.925147+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f860-6c40-7b03-8d5c-ee7326cac451",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f860-6c3c-7c3f-814a-2b560aa256c9"
+        ],
+        "content": "```json\n{\n  \"bastard\": {\n    \"diplomacy\": -1,\n    \"same_opinion\": 5\n  },\n  \"born_in_the_purple\": {\n    \"monthly_character_prestige\": 0.5,\n    \"vassal_opinion\": 5\n  },\n  \"one_eyed\": {\n    \"learning\": 1,\n    \"combat_rating\": -10,\n    \"sex_appeal_opinion\": -5,\n    \"pagan_group_opinion\": 10,\n    \"same_opinion\": 5\n  },\n  \"attractive\": {\n    \"diplomacy\": 1,\n    \"sex_appeal_opinion\": 30\n  },\n  \"genius\": {\n    \"martial\": 5,\n    \"intrigue\": 5,\n    \"diplomacy\": 5,\n    \"stewardship\": 5,\n    \"learning\": 5,\n    \"combat_rating\": 10,\n    \"vassal_opinion\": 5,\n    \"ai_rationality\": 30\n  },\n  \"quick\": {\n    \"martial\": 3,\n    \"intrigue\": 3,\n    \"diplomacy\": 3,\n    \"stewardship\": 3,\n    \"learning\": 3,\n    \"combat_rating\": 5,\n    \"ai_rationality\": 15\n  },\n  \"sayyid\": {\n    \"muslim_opinion\": 5\n  },\n  \"strong\": {\n    \"martial\": 2,\n    \"diplomacy\": 1,\n    \"fertility\": 0.1,\n    \"health\": 1,\n    \"combat_rating\": 10,\n    \"sex_appeal_opinion\": 10,\n    \"vassal_opinion\": 5,\n    \"tribal_opinion\": 10\n  },\n  \"mutazilite\": {\n    \"opposites\": [\n      \"erudite\"\n    ],\n    \"learning\": 5,\n    \"opposite_opinion\": -30\n  },\n  \"scarred\": {\n    \"opposites\": [\n      \"scarred_mid\",\n      \"scarred_high\"\n    ],\n    \"monthly_character_prestige\": 0.1,\n    \"opposite_opinion\": 10\n  },\n  \"scarred_mid\": {\n    \"opposites\": [\n      \"scarred\",\n      \"scarred_high\"\n    ],\n    \"combat_rating\": 5,\n    \"monthly_character_prestige\": 0.15,\n    \"sex_appeal_opinion\": 5,\n    \"same_opinion\": 5,\n    \"opposite_opinion\": 5,\n    \"tribal_opinion\": 5\n  },\n  \"scarred_high\": {\n    \"opposites\": [\n      \"scarred\",\n      \"scarred_mid\"\n    ],\n    \"monthly_character_prestige\": 0.2,\n    \"combat_rating\": 10,\n    \"sex_appeal_opinion\": 10,\n    \"same_opinion\": 10,\n    \"opposite_opinion\": 5,\n    \"tribal_opinion\": 10\n  }\n}\n```",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T17:31:32.927781+00:00",
+        "updatedAt": "2025-10-18T17:31:52.599831+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f865-7c0f-762b-af69-342666204133",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f860-6c40-7b03-8d5c-ee7326cac451"
+        ],
+        "content": "###############\n# PERSONALITY\n###############\n\n# THE SEVEN SINS\nenvious = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\tkind\n\t}\n\n\tintrigue = 2\n\tdiplomacy = -1\n\tcombat_rating = 3\n\n\tliege_opinion = -15\n\n\tai_honor = -10\n}\n\ngluttonous = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\ttemperate\n\t}\n\n\tstewardship = -2\n\n\tchurch_opinion = -5\n\tsex_appeal_opinion = -15\n\tsame_opinion = 5\n\n\tai_greed = 20\n\tai_zeal = -10\n}\n\ngreedy = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\tcharitable\n\t}\n\n\tglobal_tax_modifier = 0.1\n\n\tdiplomacy = -1\n\n\tai_honor = -10\n\tai_ambition = 15\n\tai_greed = 100\n}\n\nlustful = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\tchaste\n\t}\n\n\tmonthly_character_piety = -0.25\n\n\tintrigue = 1\n\n\tfertility = 0.2\n\n\tchristian_church_opinion = -5\n\n\tai_greed = 20\n\tai_zeal = -10\n}\n\nproud = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\thumble\n\t}\n\n\tmonthly_character_prestige = 0.5\n\n\tai_ambition = 10\n}\n\nslothful = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\tdiligent\n\t}\n\n\tmartial = -1\n\tintrigue = -1\n\tdiplomacy = -1\n\tstewardship = -1\n\tlearning = -1\n\tcombat_rating = -5 # new value!\n\n\tvassal_opinion = -5\n\n\tai_ambition = -10\n\tai_greed = 10\n\tai_zeal = -10\n}\n\nwroth = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\tpatient\n\t}\n\n\tmartial = 3\n\tintrigue = -1\n\tdiplomacy = -1\n\tcombat_rating = 3 # new value!\n\n\tai_rationality = -10\n\tai_honor = -5\n}\n\n# THE SEVEN VIRTUES\ncharitable = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tgreedy\n\t}\n\n\tdiplomacy = 3\n\tcombat_rating = -3\n\n\tchurch_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_honor = 10\n\tai_ambition = -15\n\tai_greed = -100\n\tai_zeal = 10\n}\n\nchaste = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tlustful\n\t}\n\n\tmonthly_character_piety = 0.5\n\n\tlearning = 1\n\n\tfertility = -0.15\n\n\tchristian_church_opinion = 5\n\topposite_opinion = -5\n\n\tai_zeal = 10\n}\n\ndiligent = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tslothful\n\t}\n\n\tmartial = 1\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\n\tvassal_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_greed = -10\n\tai_zeal = 10\n}\n\nhumble = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tproud\n\t}\n\n\tmonthly_character_piety = 1\n\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_ambition = -10\n}\n\nkind = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tenvious\n\t\tcruel\n\t}\n\n\tintrigue = -2\n\tdiplomacy = 2\n\tcombat_rating = -5 # new value!\n\n\tvassal_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_honor = 10\n}\n\npatient = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\twroth\n\t}\n\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tcombat_rating = 5\n\n\topposite_opinion = -5\n\n\tai_rationality = 10\n}\n\ntemperate = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tgluttonous\n\t}\n\n\tstewardship = 2\n\n\tchurch_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_greed = -20\n\tai_zeal = 10\n}\n\n# OTHER\nambitious = {\n\tpersonality = yes\n\n\topposites = {\n\t\tcontent\n\t}\n\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3\n\n\tsame_opinion = -5\n\n\tai_ambition = 40\n\tai_zeal = 10\n}\n\narbitrary = {\n\tpersonality = yes\n\n\topposites = {\n\t\tjust\n\t}\n\n\tintrigue = 1\n\tstewardship = -2\n\tlearning = -1\n\n\tvassal_opinion = -5\n\n\tai_rationality = -20\n\tai_honor = -10\n\tai_zeal = -10\n}\n\nbrave = {\n\tpersonality = yes\n\n\topposites = {\n\t\tcraven\n\t}\n\n\tmartial = 2\n\tcombat_rating = 10\n\n\tvassal_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n}\n\ncontent = {\n\tpersonality = yes\n\n\topposites = {\n\t\tambitious\n\t}\n\n\tmonthly_character_piety = 0.5\n\n\tintrigue = -1\n\n\tliege_opinion = 25\n\n\tai_ambition = -40\n\tai_zeal = -10\n}\n\ncraven = {\n\tpersonality = yes\n\n\topposites = {\n\t\tbrave\n\t}\n\n\tmartial = -2\n\tcombat_rating = -10\n\n\tvassal_opinion = -5\n}\n\ncruel = {\n\tpersonality = yes\n\n\topposites = {\n\t\tkind\n\t}\n\n\tintrigue = 1\n\tdiplomacy = -1\n\tcombat_rating = 3\n\n\tvassal_opinion = -5\n\n\tai_honor = -5\n\tai_greed = 5\n}\n\ncynical = {\n\tpersonality = yes\n\n\topposites = {\n\t\tzealous\n\t}\n\n\tmonthly_character_piety = -0.2\n\n\tintrigue = 2\n\n\tchurch_opinion = -5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_rationality = 10\n\tai_zeal = -100\n}\n\ndeceitful = {\n\tpersonality = yes\n\n\topposites = {\n\t\thonest\n\t}\n\n\tintrigue = 3\n\tdiplomacy = -2\n\tcombat_rating = 3\n\n\topposite_opinion = -5\n\n\tai_honor = -25\n}\n\nerudite = {\n\tpersonality = yes\n\n\tlearning = 2\n\tcombat_rating = -2\n\n\tchurch_opinion = 5\n}\n\ngregarious = {\n\tpersonality = yes\n\n\topposites = {\n\t\tshy\n\t}\n\n\tdiplomacy = 2\n\n\tsex_appeal_opinion = 5\n\tvassal_opinion = 5\n\tsame_opinion = 5\n}\n\nhonest = {\n\tpersonality = yes\n\n\topposites = {\n\t\tdeceitful\n\t}\n\n\tintrigue = -2\n\tdiplomacy = 3\n\tcombat_rating = -2\n\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_honor = 25\n}\n\njust = {\n\tpersonality = yes\n\n\topposites = {\n\t\tarbitrary\n\t}\n\n\tstewardship = 2\n\tlearning = 1\n\n\tvassal_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_rationality = 20\n\tai_honor = 10\n\tai_zeal = 10\n}\n\nparanoid = {\n\tpersonality = yes\n\n\topposites = {\n\t\ttrusting\n\t}\n\n\tintrigue = 2\n\tdiplomacy = -1\n\n\tai_honor = -10\n}\n\nshrewd = {\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3\n\n\tai_rationality = 15\n}\n\nshy = {\n\tpersonality = yes\n\n\topposites = {\n\t\tgregarious\n\t}\n\n\tdiplomacy = -2\n\tcombat_rating = -2\n}\n\nstubborn = {\n\tpersonality = yes\n\n\tdiplomacy = -1\n\tstewardship = 1\n\tcombat_rating = 3\n\n\tvassal_opinion = -5\n\n\tai_ambition = 10\n\tai_zeal = 10\n}\n\ntrusting = {\n\tpersonality = yes\n\n\topposites = {\n\t\tparanoid\n\t}\n\n\tintrigue = -2\n\tdiplomacy = 1\n\tcombat_rating = -2\n\n\tai_honor = 10\n}\n\nzealous = {\n\tpersonality = yes\n\n\tmonthly_character_piety = 1\n\n\tmartial = 2\n\n\tchurch_opinion = 5\n\tinfidel_opinion = -25\n\topposite_opinion = -5\n\tsame_opinion_if_same_religion = 15\n\n\tai_rationality = -10\n\tai_zeal = 100\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T17:37:04.937129+00:00",
+        "updatedAt": "2025-10-18T17:37:04.937129+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f865-7c11-71d3-8583-7ae830bde45d",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f865-7c0f-762b-af69-342666204133"
+        ],
+        "content": "```json\n{\n  \"envious\": {\n    \"personality\": true,\n    \"vice\": true,\n    \"opposites\": [\n      \"kind\"\n    ],\n    \"intrigue\": 2,\n    \"diplomacy\": -1,\n    \"combat_rating\": 3,\n    \"liege_opinion\": -15,\n    \"ai_honor\": -10\n  },\n  \"gluttonous\": {\n    \"personality\": true,\n    \"vice\": true,\n    \"opposites\": [\n      \"temperate\"\n    ],\n    \"stewardship\": -2,\n    \"church_opinion\": -5,\n    \"sex_appeal_opinion\": -15,\n    \"same_opinion\": 5,\n    \"ai_greed\": 20,\n    \"ai_zeal\": -10\n  },\n  \"greedy\": {\n    \"personality\": true,\n    \"vice\": true,\n    \"opposites\": [\n      \"charitable\"\n    ],\n    \"global_tax_modifier\": 0.1,\n    \"diplomacy\": -1,\n    \"ai_honor\": -10,\n    \"ai_ambition\": 15,\n    \"ai_greed\": 100\n  },\n  \"lustful\": {\n    \"personality\": true,\n    \"vice\": true,\n    \"opposites\": [\n      \"chaste\"\n    ],\n    \"monthly_character_piety\": -0.25,\n    \"intrigue\": 1,\n    \"fertility\": 0.2,\n    \"christian_church_opinion\": -5,\n    \"ai_greed\": 20,\n    \"ai_zeal\": -10\n  },\n  \"proud\": {\n    \"personality\": true,\n    \"vice\": true,\n    \"opposites\": [\n      \"humble\"\n    ],\n    \"monthly_character_prestige\": 0.5,\n    \"ai_ambition\": 10\n  },\n  \"slothful\": {\n    \"personality\": true,\n    \"vice\": true,\n    \"opposites\": [\n      \"diligent\"\n    ],\n    \"martial\": -1,\n    \"intrigue\": -1,\n    \"diplomacy\": -1,\n    \"stewardship\": -1,\n    \"learning\": -1,\n    \"combat_rating\": -5,\n    \"vassal_opinion\": -5,\n    \"ai_ambition\": -10,\n    \"ai_greed\": 10,\n    \"ai_zeal\": -10\n  },\n  \"wroth\": {\n    \"personality\": true,\n    \"vice\": true,\n    \"opposites\": [\n      \"patient\"\n    ],\n    \"martial\": 3,\n    \"intrigue\": -1,\n    \"diplomacy\": -1,\n    \"combat_rating\": 3,\n    \"ai_rationality\": -10,\n    \"ai_honor\": -5\n  },\n  \"charitable\": {\n    \"personality\": true,\n    \"virtue\": true,\n    \"opposites\": [\n      \"greedy\"\n    ],\n    \"diplomacy\": 3,\n    \"combat_rating\": -3,\n    \"church_opinion\": 5,\n    \"same_opinion\": 5,\n    \"opposite_opinion\": -5,\n    \"ai_honor\": 10,\n    \"ai_ambition\": -15,\n    \"ai_greed\": -100,\n    \"ai_zeal\": 10\n  },\n  \"chaste\": {\n    \"personality\": true,\n    \"virtue\": true,\n    \"opposites\": [\n      \"lustful\"\n    ],\n    \"monthly_character_piety\": 0.5,\n    \"learning\": 1,\n    \"fertility\": -0.15,\n    \"christian_church_opinion\": 5,\n    \"opposite_opinion\": -5,\n    \"ai_zeal\": 10\n  },\n  \"diligent\": {\n    \"personality\": true,\n    \"virtue\": true,\n    \"opposites\": [\n      \"slothful\"\n    ],\n    \"martial\": 1,\n    \"intrigue\": 1,\n    \"diplomacy\": 1,\n    \"stewardship\": 1,\n    \"learning\": 1,\n    \"vassal_opinion\": 5,\n    \"same_opinion\": 5,\n    \"opposite_opinion\": -5,\n    \"ai_greed\": -10,\n    \"ai_zeal\": 10\n  },\n  \"humble\": {\n    \"personality\": true,\n    \"virtue\": true,\n    \"opposites\": [\n      \"proud\"\n    ],\n    \"monthly_character_piety\": 1,\n    \"same_opinion\": 5,\n    \"opposite_opinion\": -5,\n    \"ai_ambition\": -10\n  },\n  \"kind\": {\n    \"personality\": true,\n    \"virtue\": true,\n    \"opposites\": [\n      \"envious\",\n      \"cruel\"\n    ],\n    \"intrigue\": -2,\n    \"diplomacy\": 2,\n    \"combat_rating\": -5,\n    \"vassal_opinion\": 5,\n    \"same_opinion\": 5,\n    \"opposite_opinion\": -5,\n    \"ai_honor\": 10\n  },\n  \"patient\": {\n    \"personality\": true,\n    \"virtue\": true,\n    \"opposites\": [\n      \"wroth\"\n    ],\n    \"intrigue\": 1,\n    \"diplomacy\": 1,\n    \"stewardship\": 1,\n    \"learning\": 1,\n    \"combat_rating\": 5,\n    \"opposite_opinion\": -5,\n    \"ai_rationality\": 10\n  },\n  \"temperate\": {\n    \"personality\": true,\n    \"virtue\": true,\n    \"opposites\": [\n      \"gluttonous\"\n    ],\n    \"stewardship\": 2,\n    \"church_opinion\": 5,\n    \"same_opinion\": 5,\n    \"opposite_opinion\": -5,\n    \"ai_greed\": -20,\n    \"ai_zeal\": 10\n  },\n  \"ambitious\": {\n    \"personality\": true,\n    \"opposites\": [\n      \"content\"\n    ],\n    \"martial\": 2,\n    \"intrigue\": 2,\n    \"diplomacy\": 2,\n    \"stewardship\": 2,\n    \"learning\": 2,\n    \"combat_rating\": 3,\n    \"same_opinion\": -5,\n    \"ai_ambition\": 40,\n    \"ai_zeal\": 10\n  },\n  \"arbitrary\": {\n    \"personality\": true,\n    \"opposites\": [\n      \"just\"\n    ],\n    \"intrigue\": 1,\n    \"stewardship\": -2,\n    \"learning\": -1,\n    \"vassal_opinion\": -5,\n    \"ai_rationality\": -20,\n    \"ai_honor\": -10,\n    \"ai_zeal\": -10\n  },\n  \"brave\": {\n    \"personality\": true,\n    \"opposites\": [\n      \"craven\"\n    ],\n    \"martial\": 2,\n    \"combat_rating\": 10,\n    \"vassal_opinion\": 5,\n    \"same_opinion\": 5,\n    \"opposite_opinion\": -5\n  },\n  \"content\": {\n    \"personality\": true,\n    \"opposites\": [\n      \"ambitious\"\n    ],\n    \"monthly_character_piety\": 0.5,\n    \"intrigue\": -1,\n    \"liege_opinion\": 25,\n    \"ai_ambition\": -40,\n    \"ai_zeal\": -10\n  },\n  \"craven\": {\n    \"personality\": true,\n    \"opposites\": [\n      \"brave\"\n    ],\n    \"martial\": -2,\n    \"combat_rating\": -10,\n    \"vassal_opinion\": -5\n  },\n  \"cruel\": {\n    \"personality\": true,\n    \"opposites\": [\n      \"kind\"\n    ],\n    \"intrigue\": 1,\n    \"diplomacy\": -1,\n    \"combat_rating\": 3,\n    \"vassal_opinion\": -5,\n    \"ai_honor\": -5,\n    \"ai_greed\": 5\n  },\n  \"cynical\": {\n    \"personality\": true,\n    \"opposites\": [\n      \"zealous\"\n    ],\n    \"monthly_character_piety\": -0.2,\n    \"intrigue\": 2,\n    \"church_opinion\": -5,\n    \"same_opinion\": 5,\n    \"opposite_opinion\": -5,\n    \"ai_rationality\": 10,\n    \"ai_zeal\": -100\n  },\n  \"deceitful\": {\n    \"personality\": true,\n    \"opposites\": [\n      \"honest\"\n    ],\n    \"intrigue\": 3,\n    \"diplomacy\": -2,\n    \"combat_rating\": 3,\n    \"opposite_opinion\": -5,\n    \"ai_honor\": -25\n  },\n  \"erudite\": {\n    \"personality\": true,\n    \"learning\": 2,\n    \"combat_rating\": -2,\n    \"church_opinion\": 5\n  },\n  \"gregarious\": {\n    \"personality\": true,\n    \"opposites\": [\n      \"shy\"\n    ],\n    \"diplomacy\": 2,\n    \"sex_appeal_opinion\": 5,\n    \"vassal_opinion\": 5,\n    \"same_opinion\": 5\n  },\n  \"honest\": {\n    \"personality\": true,\n    \"opposites\": [\n      \"deceitful\"\n    ],\n    \"intrigue\": -2,\n    \"diplomacy\": 3,\n    \"combat_rating\": -2,\n    \"same_opinion\": 5,\n    \"opposite_opinion\": -5,\n    \"ai_honor\": 25\n  },\n  \"just\": {\n    \"personality\": true,\n    \"opposites\": [\n      \"arbitrary\"\n    ],\n    \"stewardship\": 2,\n    \"learning\": 1,\n    \"vassal_opinion\": 5,\n    \"same_opinion\": 5,\n    \"opposite_opinion\": -5,\n    \"ai_rationality\": 20,\n    \"ai_honor\": 10,\n    \"ai_zeal\": 10\n  },\n  \"paranoid\": {\n    \"personality\": true,\n    \"opposites\": [\n      \"trusting\"\n    ],\n    \"intrigue\": 2,\n    \"diplomacy\": -1,\n    \"ai_honor\": -10\n  },\n  \"shrewd\": {\n    \"martial\": 2,\n    \"intrigue\": 2,\n    \"diplomacy\": 2,\n    \"stewardship\": 2,\n    \"learning\": 2,\n    \"combat_rating\": 3,\n    \"ai_rationality\": 15\n  },\n  \"shy\": {\n    \"personality\": true,\n    \"opposites\": [\n      \"gregarious\"\n    ],\n    \"diplomacy\": -2,\n    \"combat_rating\": -2\n  },\n  \"stubborn\": {\n    \"personality\": true,\n    \"diplomacy\": -1,\n    \"stewardship\": 1,\n    \"combat_rating\": 3,\n    \"vassal_opinion\": -5,\n    \"ai_ambition\": 10,\n    \"ai_zeal\": 10\n  },\n  \"trusting\": {\n    \"personality\": true,\n    \"opposites\": [\n      \"paranoid\"\n    ],\n    \"intrigue\": -2,\n    \"diplomacy\": 1,\n    \"combat_rating\": -2,\n    \"ai_honor\": 10\n  },\n  \"zealous\": {\n    \"personality\": true,\n    \"monthly_character_piety\": 1,\n    \"martial\": 2,\n    \"church_opinion\": 5,\n    \"infidel_opinion\": -25,\n    \"opposite_opinion\": -5,\n    \"same_opinion_if_same_religion\": 15,\n    \"ai_rationality\": -10,\n    \"ai_zeal\": 100\n  }\n}\n```",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T17:37:04.943106+00:00",
+        "updatedAt": "2025-10-18T17:37:55.999077+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f867-a494-7997-b679-078230466b47",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f865-7c11-71d3-8583-7ae830bde45d"
+        ],
+        "content": "make lists of good traits for Chancellor, Marshal, Steward, Spy Master, Court Chaplain(+Physician)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T17:39:25.918472+00:00",
+        "updatedAt": "2025-10-18T17:39:25.918472+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f867-a498-7939-83bc-03de9f71324b",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f867-a494-7997-b679-078230466b47"
+        ],
+        "content": "Of course. Based on the data, here are lists of the best traits for each council position, plus the crucial role of Court Physician. Traits are grouped by how impactful they are for the primary job of that councilor.\n\n### **Chancellor (Diplomacy)**\n\nA Chancellor's main job is to improve relations. High diplomacy is paramount.\n\n**Top Tier (High Diplomacy & Opinion):**\n*   **Grey Eminence:** `+9 Diplomacy`. The pinnacle of diplomatic education.\n*   **Charismatic Negotiator:** `+6 Diplomacy`.\n*   **Genius:** `+5 Diplomacy`. A massive boost to the core stat.\n*   **Quick:** `+3 Diplomacy`. A significant, inheritable boost.\n*   **Charitable:** `+3 Diplomacy`, `+5 Church Opinion`. A virtue that's also great for statecraft.\n*   **Honest:** `+3 Diplomacy`, `+5 Same Opinion`.\n*   **Socializer:** `+3 Diplomacy`, `+10 Sex Appeal`, `+10 Same Opinion`.\n*   **Gregarious:** `+2 Diplomacy`, `+5 Vassal Opinion`. Directly makes vassals happier.\n*   **Attractive:** `+1 Diplomacy`, `+30 Sex Appeal Opinion`. The large opinion boost is very powerful.\n*   **Augustus:** `+10 Vassal Opinion`. Excellent for realm stability.\n*   **Born in the Purple:** `+5 Vassal Opinion`.\n\n**Good (Solid Bonuses):**\n*   **Kind:** `+2 Diplomacy`, `+5 Vassal Opinion`.\n*   **Strong:** `+1 Diplomacy`, `+5 Vassal Opinion`.\n*   **Brawny:** `+1 Diplomacy`, `+5 Vassal Opinion`.\n*   **Just:** `+5 Vassal Opinion`. While it doesn't boost Diplomacy, the direct vassal opinion is key.\n*   **Falconer / Poet:** `+1 Diplomacy`.\n\n**Traits to Avoid:**\n*   `Envious` (-1 Dip), `Deceitful` (-2 Dip), `Shy` (-2 Dip), `Arbitrary` (-5 Vassal Opinion), `Cruel` (-5 Vassal Opinion), `Craven` (-5 Vassal Opinion).\n\n---\n\n### **Marshal (Martial)**\n\nThe Marshal leads armies and trains troops. High Martial skill and combat traits are essential.\n\n**Top Tier (High Martial & Combat):**\n*   **Brilliant Strategist:** `+9 Martial`, `+20 Combat Rating`. The best military education.\n*   **Skilled Tactician:** `+6 Martial`, `+15 Combat Rating`.\n*   **Genius:** `+5 Martial`, `+10 Combat Rating`. A top-tier commander.\n*   **Gladiator:** `+5 Martial`, `+15 Combat Rating`, `+1 Health`. A warrior, though weak in other areas.\n*   **Berserker:** `+4 Martial`, `+25 Combat Rating`. Incredible for a Norse commander.\n*   **Quick:** `+3 Martial`, `+5 Combat Rating`.\n*   **Wroth:** `+3 Martial`, `+3 Combat Rating`. Anger channeled into martial prowess.\n*   **Duelist:** `+3 Martial`, `+30 Combat Rating`. Unbeatable in a duel, and a great commander.\n*   **Crusader Queen:** `+3 Martial`, `+15 Combat Rating`, `+20% Global Levy`. An outstanding wartime leader.\n*   **Brave:** `+2 Martial`, `+10 Combat Rating`.\n*   **Strong / Brawny:** `+2 Martial`, `+10 Combat Rating`, `+1 Health`. Makes for a tough and capable leader.\n*   **Zealous:** `+2 Martial`, massive `+AI Zeal`.\n\n**Good (Solid Bonuses):**\n*   **Adventurer:** `+1 Martial`, `+10 Combat Rating`, `+20% Global Levy`.\n*   **Hunter:** `+2 Martial`, `+10 Combat Rating`.\n*   **Strategist:** `+2 Martial`, `+1 Stewardship`.\n*   **Crusader:** `+2 Martial`, `+10 Combat Rating`.\n*   **Varangian:** `+2 Martial`, `+10 Combat Rating`.\n*   **Sea King / Sea Queen:** `+3 Martial`, `+20 Combat Rating`. The best of the Viking traits.\n\n**Traits to Avoid:**\n*   `Craven` (-2 Martial, -10 Combat Rating), `Slothful` (-1 all stats), `Frail` (-1 Martial, -10 Combat Rating, -0.5 Health), `Kind` (-5 Combat Rating).\n\n---\n\n### **Steward (Stewardship)**\n\nThe Steward manages your domain and collects taxes. High Stewardship is critical for a prosperous realm.\n\n**Top Tier (High Stewardship & Income):**\n*   **Midas Touched:** `+9 Stewardship`. The ultimate economic education.\n*   **Fortune Builder:** `+6 Stewardship`.\n*   **Genius:** `+5 Stewardship`.\n*   **Administrator:** `+3 Stewardship`. A great lifestyle trait for this role.\n*   **Quick:** `+3 Stewardship`.\n*   **Just:** `+2 Stewardship`, `+5 Vassal Opinion`. A perfect combination for a stable, well-run domain.\n*   **Temperate:** `+2 Stewardship`.\n*   **Diligent:** `+1 to all stats`, `+5 Vassal Opinion`. The all-around boost is excellent.\n*   **Greedy:** `+10% Global Tax Modifier`. The best trait for raw income, but the diplomacy penalty can cause trouble.\n\n**Good (Solid Bonuses):**\n*   **Architect:** `+2 Stewardship`, `+1 Martial`.\n*   **Gardener:** `+2 Stewardship`, `+1 Learning`.\n*   **Shrewd:** `+2 to all stats`.\n*   **Ambitious:** `+2 to all stats`.\n*   **Patient:** `+1 Stewardship`.\n*   **Stubborn:** `+1 Stewardship`.\n\n**Traits to Avoid:**\n*   `Gluttonous` (-2 Stw), `Arbitrary` (-2 Stw, -5 Vassal Opinion), `Slothful` (-1 Stw), and any education with a Stewardship penalty.\n\n---\n\n### **Spymaster (Intrigue)**\n\nThe Spymaster plots and protects you from the plots of others. High Intrigue is the only thing that matters.\n\n**Top Tier (High Intrigue):**\n*   **Elusive Shadow:** `+9 Intrigue`. The best education for a spymaster.\n*   **Intricate Webweaver:** `+6 Intrigue`.\n*   **Genius:** `+5 Intrigue`.\n*   **Master Schemer:** `+3 Intrigue`.\n*   **Deceitful:** `+3 Intrigue`. An essential personality for a master of secrets.\n*   **Quick:** `+3 Intrigue`.\n*   **Paranoid:** `+2 Intrigue`. Their paranoia is your protection.\n*   **Envious:** `+2 Intrigue`.\n*   **Cynical:** `+2 Intrigue`.\n*   **Master Seducer / Seductress:** `+2 Intrigue`.\n\n**Good (Solid Bonuses):**\n*   **Ambitious / Shrewd:** `+2 Intrigue`.\n*   **Impaler:** `+2 Intrigue`.\n*   **Lustful:** `+1 Intrigue`.\n*   **Patient:** `+1 Intrigue`.\n*   **Cruel:** `+1 Intrigue`.\n\n**Traits to Avoid:**\n*   `Honest` (-2 Intrigue), `Kind` (-2 Intrigue), `Trusting` (-2 Intrigue), `Slothful` (-1 Intrigue). A trusting and honest spymaster is a dead ruler.\n\n---\n\n### **Court Chaplain (Learning) & Physician**\n\nThe **Chaplain** needs high Learning to fabricate claims and improve religious relations. The **Physician** needs high Learning to keep you and your family alive. Often, the same person is ideal for both roles.\n\n**Top Tier (High Learning & Secondary Perks):**\n*   **Mastermind Theologian:** `+9 Learning`. The absolute best for this role.\n*   **Scholarly Theologian:** `+6 Learning`.\n*   **Genius:** `+5 Learning`.\n*   **Mutazilite:** `+5 Learning` (Muslim only).\n*   **Quick:** `+3 Learning`.\n*   **Scholar:** `+3 Learning`.\n*   **Physician:** `+2 Learning`, `+0.5 Health`. **The single most important trait for a Court Physician.** It also provides a direct opinion boost.\n*   **Erudite:** `+2 Learning`, `+5 Church Opinion`.\n*   **Zealous:** `+2 Martial`, `+5 Church Opinion`, `+1 Piety/month`. While no learning boost, the `+AI Zeal` and opinion are excellent for a Chaplain.\n\n**Good (Solid Bonuses):**\n*   **Mystic:** `+2 Learning`.\n*   **Theologian:** `+2 Learning`.\n*   **Just:** `+1 Learning`, `+5 Vassal Opinion`.\n*   **Chaste:** `+1 Learning`, `+5 Christian Church Opinion`.\n*   **Diligent:** `+1 Learning`.\n*   **Gardener:** `+1 Learning`.\n\n**Traits to Avoid:**\n*   `Gladiator` (-4 Learning), `Cynical` (-5 Church Opinion), `Frail` (-0.5 Health), and any military education with a Learning penalty.",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T17:39:25.920715+00:00",
+        "updatedAt": "2025-10-18T17:40:11.697381+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f895-17b0-7f38-b596-2ca5637b1abd",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f867-a498-7939-83bc-03de9f71324b"
+        ],
+        "content": "each character has 5 attributes - diplo, martial, steward, intrigue, learning. from start it will have 1 point in atribite needed for his job. number will grow with less important stat can you write starting points for these 5 characters above? without any traits",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T18:29:04.447271+00:00",
+        "updatedAt": "2025-10-18T18:29:04.447271+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f895-17b8-7684-9f15-c009057c08b7",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f895-17b0-7f38-b596-2ca5637b1abd"
+        ],
+        "content": "Of course. Based on your rule—where each character starts with 1 point in their primary job attribute and the points increase for less important stats—here are the starting attributes for base characters designed for each council role, without any traits.\n\n### **1. The Ideal Chancellor**\n*   **Job:** Diplomacy\n*   **Logic:** A Chancellor's primary role is diplomacy. Their secondary skills involve managing opinions and understanding court dynamics (Intrigue/Stewardship). They have the least need for martial skill.\n\n*   **Diplomacy:** **1**\n*   **Stewardship:** **2**\n*   **Intrigue:** **3**\n*   **Learning:** **4**\n*   **Martial:** **5**\n\n---\n\n### **2. The Ideal Marshal**\n*   **Job:** Martial\n*   **Logic:** A Marshal leads armies. Their secondary skills involve logistics (Stewardship) and battlefield tactics (Intrigue). They have the least need for abstract learning.\n\n*   **Martial:** **1**\n*   **Stewardship:** **2**\n*   **Intrigue:** **3**\n*   **Diplomacy:** **4**\n*   **Learning:** **5**\n\n---\n\n### **3. The Ideal Steward**\n*   **Job:** Stewardship\n*   **Logic:** A Steward manages the economy. Their secondary skills involve long-term planning (Learning) and negotiating with vassals/mayors (Diplomacy). They have the least need for leading troops.\n\n*   **Stewardship:** **1**\n*   **Learning:** **2**\n*   **Diplomacy:** **3**\n*   **Intrigue:** **4**\n*   **Martial:** **5**\n\n---\n\n### **4. The Ideal Spymaster**\n*   **Job:** Intrigue\n*   **Logic:** A Spymaster schemes and uncovers plots. Their secondary skills revolve around social manipulation (Diplomacy) and research (Learning). They have the least need for overt economic management.\n\n*   **Intrigue:** **1**\n*   **Diplomacy:** **2**\n*   **Learning:** **3**\n*   **Martial:** **4**\n*   **Stewardship:** **5**\n\n---\n\n### **5. The Ideal Court Chaplain / Physician**\n*   **Job:** Learning\n*   **Logic:** A Chaplain or Physician relies on knowledge. Their secondary skills are interacting with religious heads and vassals (Diplomacy) and managing church property (Stewardship). They have the least need for martial prowess.\n\n*   **Learning:** **1**\n*   **Diplomacy:** **2**\n*   **Stewardship:** **3**\n*   **Intrigue:** **4**\n*   **Martial:** **5**",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T18:29:04.449687+00:00",
+        "updatedAt": "2025-10-18T18:29:29.386941+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f8ca-ef2e-7139-a765-c4cc936532b1",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f895-17b8-7684-9f15-c009057c08b7"
+        ],
+        "content": "okay, no. leave only primary atribute. then add one highest educational trait. then one genetic trait",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T19:27:52.942473+00:00",
+        "updatedAt": "2025-10-18T19:27:52.942473+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f8ca-ef37-7c2a-b202-c9684cfe2f04",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f8ca-ef2e-7139-a765-c4cc936532b1"
+        ],
+        "content": "Understood. Here are the five ideal characters, built by focusing on their primary attribute, then adding the single best educational trait and the `Genius` genetic trait for maximum potential.\n\n### **1. The Ideal Chancellor**\n\nThis character is built to be the ultimate diplomat, capable of smoothing over any relationship and swaying the most stubborn vassals.\n\n*   **Primary Attribute Focus:** Diplomacy\n*   **Educational Trait:** **Grey Eminence** (`+9 Diplomacy`, `+2 Intrigue`, `+2 Learning`, `-1 Martial`)\n*   **Genetic Trait:** **Genius** (`+5` to all attributes)\n\n**Final Attributes:**\n*   **Diplomacy: 14**\n*   **Intrigue: 7**\n*   **Learning: 7**\n*   **Stewardship: 5**\n*   **Martial: 4**\n\n---\n\n### **2. The Ideal Marshal**\n\nThis character is a peerless commander and warrior, born for the battlefield and military strategy.\n\n*   **Primary Attribute Focus:** Martial\n*   **Educational Trait:** **Brilliant Strategist** (`+9 Martial`, `+2 Intrigue`, `+2 Stewardship`, `-1 Learning`, `+20 Combat Rating`)\n*   **Genetic Trait:** **Genius** (`+5` to all attributes)\n\n**Final Attributes:**\n*   **Martial: 14**\n*   **Intrigue: 7**\n*   **Stewardship: 7**\n*   **Diplomacy: 5**\n*   **Learning: 4**\n\n---\n\n### **3. The Ideal Steward**\n\nThis character is an economic prodigy, capable of making any domain overflow with gold.\n\n*   **Primary Attribute Focus:** Stewardship\n*   **Educational Trait:** **Midas Touched** (`+9 Stewardship`, `+2 Martial`, `+2 Learning`, `-1 Diplomacy`)\n*   **Genetic Trait:** **Genius** (`+5` to all attributes)\n\n**Final Attributes:**\n*   **Stewardship: 14**\n*   **Martial: 7**\n*   **Learning: 7**\n*   **Intrigue: 5**\n*   **Diplomacy: 4**\n\n---\n\n### **4. The Ideal Spymaster**\n\nThis character moves through the shadows, a master of secrets, plots, and counter-espionage.\n\n*   **Primary Attribute Focus:** Intrigue\n*   **Educational Trait:** **Elusive Shadow** (`+9 Intrigue`, `+2 Martial`, `+2 Diplomacy`, `-1 Stewardship`)\n*   **Genetic Trait:** **Genius** (`+5` to all attributes)\n\n**Final Attributes:**\n*   **Intrigue: 14**\n*   **Martial: 7**\n*   **Diplomacy: 7**\n*   **Learning: 5**\n*   **Stewardship: 4**\n\n---\n\n### **5. The Ideal Court Chaplain / Physician**\n\nThis character is a brilliant scholar and theologian, perfect for fabricating claims, converting provinces, or saving the royal family from the brink of death.\n\n*   **Primary Attribute Focus:** Learning\n*   **Educational Trait:** **Mastermind Theologian** (`+9 Learning`, `+2 Diplomacy`, `+2 Stewardship`, `-1 Intrigue`)\n*   **Genetic Trait:** **Genius** (`+5` to all attributes)\n\n**Final Attributes:**\n*   **Learning: 14**\n*   **Diplomacy: 7**\n*   **Stewardship: 7**\n*   **Martial: 5**\n*   **Intrigue: 4**",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T19:27:52.947806+00:00",
+        "updatedAt": "2025-10-18T19:28:21.078607+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f8cd-5bc5-780c-9997-42fbbf4e648c",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f8ca-ef37-7c2a-b202-c9684cfe2f04"
+        ],
+        "content": "add other apropriate traits",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T19:30:31.939257+00:00",
+        "updatedAt": "2025-10-18T19:30:31.939257+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f8cd-5bc7-7b21-ae14-f8b96c321ba7",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f8cd-5bc5-780c-9997-42fbbf4e648c"
+        ],
+        "content": "Of course. Here are the five ideal characters, fully fleshed out with a selection of appropriate traits to make them masters of their respective roles.\n\n### **1. The Ideal Chancellor**\nThis character is a diplomatic prodigy, born to build bridges and charm enemies. They are seen as fair, attractive, and outgoing, making them universally respected and admired.\n\n*   **Primary Attribute:** **Diplomacy**\n*   **Base Traits:**\n    *   **Grey Eminence** (Education)\n    *   **Genius** (Genetic)\n*   **Additional Traits:**\n    *   **Gregarious:** The core of a social master. (`+2 Diplomacy`, `+5 Vassal Opinion`)\n    *   **Attractive:** A massive boost to how others perceive them. (`+1 Diplomacy`, `+30 Sex Appeal Opinion`)\n    *   **Charitable:** A virtue that reinforces their kind image and boosts their primary skill. (`+3 Diplomacy`, `+5 Church Opinion`)\n    *   **Just:** Seen as a fair and reasonable negotiator, which builds trust and stability. (`+2 Stewardship`, `+5 Vassal Opinion`)\n\n**Final Attributes:**\n*   **Diplomacy: 20**\n*   **Stewardship: 7**\n*   **Intrigue: 7**\n*   **Learning: 7**\n*   **Martial: 4**\n\n---\n### **2. The Ideal Marshal**\nA true prodigy of war. This character combines a brilliant strategic mind with immense personal strength and bravery, making them an inspiration to their troops and a terror on the battlefield.\n\n*   **Primary Attribute:** **Martial**\n*   **Base Traits:**\n    *   **Brilliant Strategist** (Education)\n    *   **Genius** (Genetic)\n*   **Additional Traits:**\n    *   **Strong:** The physical counterpart to Genius, making them a powerhouse. (`+2 Martial`, `+10 Combat Rating`, `+1 Health`)\n    *   **Brave:** The quintessential trait for any commander; they will never back down. (`+2 Martial`, `+10 Combat Rating`)\n    *   **Duelist:** A master of personal combat, complementing their strategic skill. (`+3 Martial`, `+30 Combat Rating`)\n    *   **Ambitious:** They fight to win and to achieve greatness for the realm. (`+2` to all attributes)\n\n**Final Attributes:**\n*   **Martial: 21**\n*   **Intrigue: 9**\n*   **Stewardship: 9**\n*   **Diplomacy: 7**\n*   **Learning: 6**\n\n---\n### **3. The Ideal Steward**\nAn economic virtuoso. This character is diligent, fair, and incredibly skilled at managing the realm's wealth. Under their watch, the treasury will never run dry.\n\n*   **Primary Attribute:** **Stewardship**\n*   **Base Traits:**\n    *   **Midas Touched** (Education)\n    *   **Genius** (Genetic)\n*   **Additional Traits:**\n    *   **Diligent:** The perfect virtue for a hard-working administrator. (`+1` to all attributes)\n    *   **Just:** Ensures they are seen as a fair tax collector and governor, boosting vassal opinion. (`+2 Stewardship`, `+5 Vassal Opinion`)\n    *   **Administrator:** A lifestyle choice that perfectly aligns with their job. (`+3 Stewardship`)\n    *   **Temperate:** They are not wasteful, ensuring every coin is put to good use. (`+2 Stewardship`)\n\n**Final Attributes:**\n*   **Stewardship: 22**\n*   **Martial: 8**\n*   **Learning: 8**\n*   **Intrigue: 6**\n*   **Diplomacy: 5**\n\n---\n### **4. The Ideal Spymaster**\nThe perfect master of secrets. This character is a chillingly effective agent whose paranoia and deceit are your greatest shield. They see plots before they are even hatched.\n\n*   **Primary Attribute:** **Intrigue**\n*   **Base Traits:**\n    *   **Elusive Shadow** (Education)\n    *   **Genius** (Genetic)\n*   **Additional Traits:**\n    *   **Deceitful:** The core personality trait for a master of lies and manipulation. (`+3 Intrigue`)\n    *   **Paranoid:** Their paranoia keeps you safe. They trust no one and question everything. (`+2 Intrigue`)\n    *   **Master Schemer:** Their entire life revolves around plots and secrets. (`+3 Intrigue`)\n    *   **Patient:** They know that the best-laid plans require time and will wait for the perfect moment to act. (`+1` to all non-Martial attributes)\n\n**Final Attributes:**\n*   **Intrigue: 23**\n*   **Diplomacy: 8**\n*   **Martial: 7**\n*   **Learning: 6**\n*   **Stewardship: 5**\n\n---\n### **5. The Ideal Court Chaplain / Physician**\nA towering intellect of faith and science. This character can cure the deadliest diseases, convert the most stubborn heretics, and serve as a beacon of knowledge for the realm.\n\n*   **Primary Attribute:** **Learning**\n*   **Base Traits:**\n    *   **Mastermind Theologian** (Education)\n    *   **Genius** (Genetic)\n*   **Additional Traits:**\n    *   **Physician:** **Essential.** This makes them a world-class doctor capable of saving your dynasty. (`+2 Learning`, `+0.5 Health`)\n    *   **Scholar:** A lifestyle dedicated to the pursuit of knowledge. (`+3 Learning`)\n    *   **Diligent:** A tireless worker, whether in the library or at a patient's bedside. (`+1` to all attributes)\n    *   **Zealous:** The perfect trait for a Chaplain, ensuring their faith is absolute and their piety is high. (`+2 Martial`, `+5 Church Opinion`)\n\n**Final Attributes:**\n*   **Learning: 20**\n*   **Diplomacy: 8**\n*   **Stewardship: 8**\n*   **Martial: 8**\n*   **Intrigue: 5**",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T19:30:31.941236+00:00",
+        "updatedAt": "2025-10-18T19:31:19.778827+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f8d0-2bdb-706a-98d1-a8a726a843c8",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f8cd-5bc7-7b21-ae14-f8b96c321ba7"
+        ],
+        "content": "here's how i saw these characters. what do you think\n\n2666001 = {\n\tname = \"Diplo\"\n\treligion = baltic_pagan\n\tculture = prussian\n\teaster_egg = yes\n\tdiplomacy = 1\n\tmartial = 5\n\tstewardship = 4\t\n\tintrigue = 3\n\tlearning = 2\n\tadd_trait = grey_eminence\n\tadd_trait = genius\n\tadd_trait = socializer\n\tadd_trait = game_master\n\tadd_trait = charitable\n\tadd_trait = diligent\n\tadd_trait = ambitious\n\tadd_trait = gregarious\n\tadd_trait = just\n\tdisallow_random_traits = yes\n\t753.1.1 = {\n\t\tbirth = yes\n\t\temployer = 194074\n\t}\n\t770.1.1 = {\n\t\tdeath = yes\n\t}\n}\n\n2666002 = {\n\tname = \"Marti\"\n\treligion = baltic_pagan\n\tculture = prussian\n\teaster_egg = yes\n\tdiplomacy = 2\n\tmartial = 1\n\tstewardship = 3\n\tintrigue = 4\n\tlearning = 5\n\tadd_trait = brilliant_strategist\n\tadd_trait = genius\n\tadd_trait = strong\n\tadd_trait = pirate\n\tadd_trait = duelist\n\tadd_trait = hunter\n\tadd_trait = charitable\n\tadd_trait = diligent\n\tadd_trait = ambitious\n\tadd_trait = brave\n\tadd_trait = just\n\tdisallow_random_traits = yes\n\t753.1.1 = {\n\t\tbirth = yes\n\t\temployer = 194074\n\t}\n\t770.1.1 = {\n\t\tdeath = yes\n\t}\n}\n\n2666003 = {\n\tname = \"Stew\"\n\treligion = baltic_pagan\n\tculture = prussian\n\teaster_egg = yes\n\tdiplomacy = 5\n\tmartial = 4\n\tstewardship = 1\n\tintrigue = 3\n\tlearning = 2\n\tadd_trait = midas_touched\n\tadd_trait = genius\n\tadd_trait = shrewd\n\tadd_trait = administrator\n\tadd_trait = gardener\n\tadd_trait = diligent\n\tadd_trait = patient\n\tadd_trait = ambitious\n\tadd_trait = cruel\n\tadd_trait = just\n\tdisallow_random_traits = yes\n\t753.1.1 = {\n\t\tbirth = yes\n\t\temployer = 194074\n\t}\n\t770.1.1 = {\n\t\tdeath = yes\n\t}\n}\n\n2666004 = {\n\tname = \"Intri\"\n\treligion = baltic_pagan\n\tculture = prussian\n\teaster_egg = yes\n\tdiplomacy = 2\n\tmartial = 3\n\tstewardship = 5\n\tintrigue = 1\n\tlearning = 4\n\tadd_trait = elusive_shadow\n\tadd_trait = genius\n\tadd_trait = master_schemer\n\tadd_trait = impaler\n\tadd_trait = charitable\n\tadd_trait = diligent\n\tadd_trait = ambitious\n\tadd_trait = deceitful\n\tadd_trait = paranoid\n\tdisallow_random_traits = yes\n\t753.1.1 = {\n\t\tbirth = yes\n\t\temployer = 194074\n\t}\n\t770.1.1 = {\n\t\tdeath = yes\n\t}\n}\n\n2666005 = {\n\tname = \"Learn\"\n\treligion = baltic_pagan\n\tculture = prussian\n\teaster_egg = yes\n\tdiplomacy = 3\n\tmartial = 5\n\tstewardship = 2\n\tintrigue = 4\n\tlearning = 1\n\tadd_trait = mastermind_theologian\n\tadd_trait = genius\n\tadd_trait = physician\n\tadd_trait = scholar\n\tadd_trait = chaste\n\tadd_trait = diligent\n\tadd_trait = patient\n\tadd_trait = ambitious\n\tadd_trait = erudite\n\tadd_trait = just\n\tdisallow_random_traits = yes\n\t753.1.1 = {\n\t\tbirth = yes\n\t\temployer = 194074\n\t}\n\t770.1.1 = {\n\t\tdeath = yes\n\t}\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T19:33:36.322096+00:00",
+        "updatedAt": "2025-10-18T19:33:36.322096+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f8d0-2be2-763b-8ea9-7428b0c93fab",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f8d0-2bdb-706a-98d1-a8a726a843c8"
+        ],
+        "content": "This is a fantastic set of \"übermensch\" characters. You've clearly put a lot of thought into creating the absolute best possible councilor for each role, and it shows. These are not just stat-blocks; they have distinct personalities.\n\nLet's break down each one and what makes them so effective (and interesting).\n\n### General Observations on Your Builds:\n\n1.  **The \"Magic Number\" is 28:** You've meticulously crafted each character to reach a staggering **28** in their primary attribute. This is peak min-maxing and creates a true \"dream team.\"\n2.  **Base Stat Philosophy:** Your base stat distribution is the inverse of my suggestion (e.g., Diplo has 1 in Diplomacy, 5 in Martial). This is a perfectly valid and classic way to build a specialist: you start with a low base in their best skill because you know traits will provide the vast majority of the points.\n3.  **The Ambitious/Diligent Core:** Giving every character `Ambitious` and `Diligent` is a masterstroke for creating a council of prodigies. They will all work harder and be better at everything. However, be warned: a council full of ambitious geniuses might lead to some... interesting internal politics!\n4.  **Moral Complexity:** You didn't just stack positive traits. The inclusion of traits like `Cruel` on the Steward or `Charitable` on the Spymaster creates fascinatingly complex characters.\n\n---\n\n### Analysis of Each Character\n\n#### **1. \"Diplo\" - The Perfect Statesman**\n*   **Final Diplomacy:** **28**\n*   **Overall:** An absolute diplomatic powerhouse. This character could probably convince a rival to abdicate just by asking nicely.\n*   **Strengths:** The combination of `Grey Eminence`, `Genius`, `Socializer`, `Gregarious`, and `Charitable` is a tidal wave of positive opinion and diplomatic skill. Adding `Just` and `Diligent` makes him not only likable but also respected and effective.\n*   **Character Concept:** This is the ideal \"beloved right-hand man.\" He's a social butterfly (`Socializer`, `Gregarious`), a fun person to be around (`Game Master`), and fundamentally a good person (`Charitable`, `Just`). His ambition is likely channeled into serving the realm to achieve greatness.\n\n#### **2. \"Marti\" - The Warrior-King**\n*   **Final Martial:** **28**\n*   **Overall:** A legendary warrior straight out of a saga. He is terrifying in personal combat and a genius on the battlefield.\n*   **Strengths:** The \"holy trinity\" of `Brilliant Strategist`, `Genius`, and `Strong` forms an unbreakable core. `Brave` and `Duelist` make him a peerless fighter. `Hunter` and `Pirate` add both flavor and excellent combat stats.\n*   **Interesting Conflict:** He has **`Charitable`**, which gives a **-3 Combat Rating**. While this is a drop in the ocean compared to the massive bonuses from `Duelist` (+30), `Strong` (+10), `Pirate` (+10), and `Brave` (+10), it creates a fascinating character: a fundamentally good man who happens to be an absolute master of violence.\n\n#### **3. \"Stew\" - The Ruthless Administrator**\n*   **Final Stewardship:** **28**\n*   **Overall:** An economic machine. The realm's coffers will overflow, and development will boom.\n*   **Strengths:** Stacking `Midas Touched`, `Genius`, `Shrewd`, `Administrator`, and `Diligent` creates an unmatched economic engine.\n*   **The \"Fear and Respect\" Build:** This is the most compelling character from a role-playing perspective. He has both **`Just`** (+5 Vassal Opinion) and **`Cruel`** (-5 Vassal Opinion). The opinion modifiers cancel out, creating a character who is respected for his fair laws and efficient administration, but feared for his personal cruelty. This is the definition of a ruthlessly effective manager who you do *not* want to cross.\n\n#### **4. \"Intri\" - The Terrifying Spymaster**\n*   **Final Intrigue:** **28**\n*   **Overall:** The platonic ideal of a spymaster. Plots against you don't just fail; they are discovered before the plotter even has the idea.\n*   **Strengths:** This is a flawless synergy of traits. `Elusive Shadow`, `Genius`, `Master Schemer`, `Deceitful`, and `Paranoid` is the perfect recipe for a master of espionage. `Impaler` adds to the fear factor and stats.\n*   **The Charitable Schemer:** Like the Marshal, you gave him **`Charitable`**. This is a brilliant and unconventional choice. It suggests a \"Robin Hood\" type of schemer—someone who uses dark methods for what he perceives as a greater good. It makes him unpredictable and far more interesting than a one-note villainous spymaster.\n\n#### **5. \"Learn\" - The Renaissance Man**\n*   **Final Learning:** **28**\n*   **Overall:** The ultimate scholar, theologian, and doctor. He is a beacon of enlightenment and the key to your dynasty's health and technological advancement.\n*   **Strengths:** This is the most thematically coherent build. Every single trait contributes to the image of a wise and dedicated intellectual. `Mastermind Theologian`, `Genius`, `Physician`, `Scholar`, and `Erudite` create an unparalleled Learning stat.\n*   **Character Concept:** Adding `Chaste`, `Patient`, `Just`, and `Diligent` paints the perfect picture of a virtuous, tireless intellectual. He is the rock of stability and wisdom on the council, wholly dedicated to his craft without the moral ambiguity of his colleagues.\n\n**Conclusion:** Your vision for these characters is excellent. You've not only maxed out their primary function but also given them depth and personality through clever and sometimes conflicting trait choices. This is a dream team any ruler would kill for (or be killed by!).",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T19:33:36.325461+00:00",
+        "updatedAt": "2025-10-18T19:34:23.795388+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f8d8-daf5-7e75-9cfb-51379e13c5b4",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f8d0-2be2-763b-8ea9-7428b0c93fab"
+        ],
+        "content": "any other suggestions? they all must have same number in major skill. one-two genetic traits, one professional trait. 5 common personality trait. and maybe some more (suggestions? toround up numbers)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T19:43:05.521245+00:00",
+        "updatedAt": "2025-10-18T19:43:05.521245+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f8d8-daf8-7092-a4c7-e12e926bc12d",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f8d8-daf5-7e75-9cfb-51379e13c5b4"
+        ],
+        "content": "Excellent! Let's refine these builds based on your new structure. We will create a \"dream team\" where each member hits a staggering **30** in their primary attribute, constructed with a clear and consistent logic.\n\nHere is the design philosophy for each character:\n*   **1-2 Genetic Traits:** The god-tier `Genius` is mandatory. A second thematic one will be added where it creates the most impact.\n*   **1 Professional Trait:** A trait representing their profession or a key hobby.\n*   **5 Personality Traits:** The core of their character, defining their behavior and providing key stats.\n*   **1 \"Lifestyle\" Trait:** A major hobby or life path that further boosts their primary skill.\n\n---\n\n### **1. \"Diplo\" - The Divine Diplomat**\n\nThis character is a social and political demigod. They are impossibly charming, handsome, strong, and intelligent. They don't just win debates; they make people feel privileged to agree with them.\n\n*   **Primary Attribute:** **Diplomacy = 30**\n*   **Genetic Traits (2):**\n    *   **Genius:** The foundation of brilliance. (`+5` to all)\n    *   **Strong:** Adds physical presence, opinion, and a surprise point of Diplomacy. (`+1 Diplomacy`, `+2 Martial`)\n*   **Professional Trait (1):**\n    *   **Poet:** Adds courtly grace and a flair for words. (`+1 Diplomacy`)\n*   **Personality Traits (5):**\n    *   **Gregarious:** A natural extrovert who thrives in social settings. (`+2 Diplomacy`)\n    *   **Kind:** Fundamentally good-natured, making him beloved. (`+2 Diplomacy`)\n    *   **Charitable:** Seen as generous and selfless. (`+3 Diplomacy`)\n    *   **Ambitious:** He uses his immense talents to strive for greatness. (`+2` to all)\n    *   **Diligent:** A tireless worker who never rests on his laurels. (`+1` to all)\n*   **Lifestyle Trait (1):**\n    *   **Socializer:** The ultimate party-goer and networker. (`+3 Diplomacy`)\n\n**Final Diplomacy Score:**\n`1 (Base) + 9 (Grey Eminence) + 5 (Genius) + 1 (Strong) + 1 (Poet) + 2 (Gregarious) + 2 (Kind) + 3 (Charitable) + 2 (Ambitious) + 1 (Diligent) + 3 (Socializer) = 30`\n\n**Character Concept:** The perfect Prince Charming. His combination of `Genius`, `Strong`, and high Diplomacy makes him the ideal heir or right-hand man. He is universally loved (`Kind`, `Charitable`), tirelessly effective (`Diligent`, `Ambitious`), and the center of every social event (`Gregarious`, `Socializer`).\n\n---\n\n### **2. \"Marti\" - The Warlord**\n\nA terrifying prodigy of war. He combines strategic genius with immense personal strength and a furious, unyielding bravery. On the battlefield, he is less a man and more a force of nature.\n\n*   **Primary Attribute:** **Martial = 30**\n*   **Genetic Traits (2):**\n    *   **Genius:** For strategic brilliance. (`+5` to all)\n    *   **Strong:** For physical power and combat prowess. (`+2 Martial`)\n*   **Professional Trait (1):**\n    *   **Hunter:** A practical skill that hones his martial abilities. (`+2 Martial`)\n*   **Personality Traits (5):**\n    *   **Brave:** Fear is an alien concept to him. (`+2 Martial`)\n    *   **Wroth:** His fury is a weapon on the battlefield. (`+3 Martial`)\n    *   **Ambitious:** He seeks glory and conquest. (`+2` to all)\n    *   **Zealous:** He fights with divine purpose. (`+2 Martial`)\n    *   **Diligent:** He trains and plans relentlessly. (`+1` to all)\n*   **Lifestyle Trait (1):**\n    *   **Duelist:** A master of single combat, making him a legendary champion. (`+3 Martial`)\n\n**Final Martial Score:**\n`1 (Base) + 9 (Brilliant Strategist) + 5 (Genius) + 2 (Strong) + 2 (Hunter) + 2 (Brave) + 3 (Wroth) + 2 (Ambitious) + 2 (Zealous) + 1 (Diligent) + 3 (Duelist) = 32`\n*(This build is so powerful it slightly overshoots! He is the undisputed master of war.)*\n\n**Character Concept:** The quintessential warrior-king. His `Wroth` and `Zealous` nature makes him terrifying to his enemies, while his `Brave` and `Strong` traits make him an inspiration to his men. His ambition is for glory, won through battle.\n\n---\n\n### **3. \"Stew\" - The Architect of Wealth**\n\nA ruthless but brilliant administrator. He sees the realm not as a collection of people, but as an engine of gold and stone waiting to be perfected. He is respected for his results but feared for his methods.\n\n*   **Primary Attribute:** **Stewardship = 30**\n*   **Genetic Trait (1):**\n    *   **Genius:** For complex economic and logistical planning. (`+5` to all)\n*   **Professional Trait (1):**\n    *   **Gardener:** Represents a meticulous, patient attention to detail and growth. (`+2 Stewardship`)\n*   **Personality Traits (5):**\n    *   **Greedy:** His primary motivation is the accumulation of wealth. (`+0 Stewardship`, but a core personality)\n    *   **Ambitious:** He seeks to build the richest realm in the world. (`+2` to all)\n    *   **Just:** His rules are harsh, but they are applied fairly to all. (`+2 Stewardship`)\n    *   **Temperate:** He is not wasteful and accounts for every coin. (`+2 Stewardship`)\n    *   **Diligent:** Works tirelessly to optimize the economy. (`+1` to all)\n*   **Lifestyle Trait (1):**\n    *   **Administrator:** The perfect lifestyle for a master of coin. (`+3 Stewardship`)\n*   **Rounding Trait (1):**\n    *   **Shrewd:** A natural talent for all forms of management. (`+2` to all)\n\n**Final Stewardship Score:**\n`1 (Base) + 9 (Midas Touched) + 5 (Genius) + 2 (Gardener) + 2 (Ambitious) + 2 (Just) + 2 (Temperate) + 1 (Diligent) + 3 (Administrator) + 2 (Shrewd) + 1 (Stubborn) = 30` *(Replaced Greedy with Stubborn for the final point)*\n\n**Character Concept:** The Machiavellian economist. His `Greedy` nature is tempered by his `Just` application of law and `Temperate` habits. He is the ultimate \"ends justify the means\" character, creating immense prosperity through an iron will.\n\n---\n\n### **4. \"Intri\" - The Shadow**\n\nA perfect spymaster. He is a web of secrets and paranoia, utterly devoid of trust and a master of deceit. He believes everyone is a threat and acts accordingly, making him the ultimate protector—and a dangerous man to have as an enemy.\n\n*   **Primary Attribute:** **Intrigue = 30**\n*   **Genetic Trait (1):**\n    *   **Genius:** For weaving intricate plots. (`+5` to all)\n*   **Professional Trait (1):**\n    *   **Impaler:** A chilling hobby that advertises what happens to those who cross him. (`+2 Intrigue`)\n*   **Personality Traits (5):**\n    *   **Deceitful:** Lies are his native language. (`+3 Intrigue`)\n    *   **Paranoid:** He sees daggers in every shadow, which is why he's so good at his job. (`+2 Intrigue`)\n    *   **Cynical:** He believes the worst of everyone, and is usually right. (`+2 Intrigue`)\n    *   **Ambitious:** He seeks power through secrets and manipulation. (`+2` to all)\n    *   **Diligent:** He never stops watching, listening, and plotting. (`+1` to all)\n*   **Lifestyle Trait (1):**\n    *   **Master Schemer:** His life's work is the art of the plot. (`+3 Intrigue`)\n\n**Final Intrigue Score:**\n`1 (Base) + 9 (Elusive Shadow) + 5 (Genius) + 2 (Impaler) + 3 (Deceitful) + 2 (Paranoid) + 2 (Cynical) + 2 (Ambitious) + 1 (Diligent) + 3 (Master Schemer) = 30`\n\n**Character Concept:** The perfect Spymaster. This combination of traits creates a character who is purely dedicated to the dark arts of statecraft. He is not evil for evil's sake; he is a ruthlessly pragmatic professional.\n\n---\n\n### **5. \"Learn\" - The One-Eyed Sage**\n\nA figure of legendary wisdom. Having sacrificed an eye for knowledge, he is a master of theology, science, and medicine. He is ascetic and patient, a rock of intellectual integrity in a chaotic world.\n\n*   **Primary Attribute:** **Learning = 30**\n*   **Genetic Trait (1):**\n    *   **Genius:** The cornerstone of his intellect. (`+5` to all)\n*   **Professional Trait (1):**\n    *   **Physician:** A master of the healing arts, making him invaluable. (`+2 Learning`)\n*   **Personality Traits (5):**\n    *   **Erudite:** A deep and respected thinker. (`+2 Learning`)\n    *   **Patient:** He understands that great discoveries take time. (`+1 Learning`)\n    *   **Chaste:** He has sublimated worldly desires for intellectual pursuits. (`+1 Learning`)\n    *   **Ambitious:** His ambition is to uncover the secrets of the universe. (`+2` to all)\n    *   **Diligent:** A tireless researcher and scholar. (`+1` to all)\n*   **Lifestyle/Rounding Traits (2):**\n    *   **Scholar:** A life dedicated to books and knowledge. (`+3 Learning`)\n    *   **One-Eyed:** The classic mark of a sage who has sacrificed for wisdom. (`+1 Learning`)\n\n**Final Learning Score:**\n`1 (Base) + 9 (Mastermind Theologian) + 5 (Genius) + 2 (Physician) + 2 (Erudite) + 1 (Patient) + 1 (Chaste) + 2 (Ambitious) + 1 (Diligent) + 3 (Scholar) + 1 (One-Eyed) + 2 (Shrewd) = 30` *(Shrewd was added to hit the target)*\n\n**Character Concept:** The ultimate wise man. The `One-Eyed` trait adds incredible flavor, suggesting an Odin-like quest for knowledge. His `Chaste` and `Patient` nature makes him seem above worldly concerns, focused only on research and medicine.",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T19:43:05.524586+00:00",
+        "updatedAt": "2025-10-18T19:44:27.912365+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f8de-4e50-7b1a-abcd-926bec9084a4",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f8d8-daf8-7092-a4c7-e12e926bc12d"
+        ],
+        "content": "Good traits for councilors (smart equals to genius, or quick, or shrewd)\n\nDepending on your councilors' skills and traits, they may be able to trigger additional events, regardless of their current mission.\nJob \tCouncilor requirements \tLiege requirements \tDLC \tEvent\nChancellor \t12+ skill and\nSmart \tNot tribal or nomadic \t\tChoice of +25 feudal vassal opinion or +25 republic vassal opinion\nCapital prospers (if The Reaper's Due is enabled)\nChancellor \tDiligent \t\t\tImproved opinion from a random vassal, with spouse, or with all courtiers\nChancellor \tDiligent or\n(12+ and Gregarious ) \tAdult\nNone of Charismatic negotiator.pngGrey eminence.pngGregarious.png \tDLC icon Conclave.png \tFor a favor, chancellor helps you become multilingual (+1 diplomacy, +1 learning)\nMarshal \t12+ skill and\nSmart \t\t\tChoice of +10% morale (global) or +10% levy size (where marshal is working)\nCapital prospers\nMarshal \tWroth and landless \t\t\tLiege may imprison the marshal for a chance to become Just\nMarshal \tDiligent or\nLunatic \t\tDLC icon Conclave.png \tSpend 30 wealth on experiments that may yield +50 military tech points\nSteward \t12+ skill and\nSmart \t<50 wealth and 2% revolt risk \t\tChoice of +10% tax income (?) or -5% revolt risk (demesne provinces)\nCapital prospers\nSteward \tJust \t\t\t-5% revolt risk in a random demesne province (Justice Prevails)\nSteward \tKind or\nCharitable \tEpidemic in demesne \t\treduce_disease = 0.33\nSteward \tCruel \t\t\tExtra tax\nSteward \tDiligent \t\t\tRemove thieves guild from demesne province\nSteward \tDiligent \t\tDLC icon Conclave.png \tIf another councilor steals from the royal treasury, you are more likely to find out\nSteward \tGreedy \t\t\tLiege may seize steward's wealth\n(Only without Conclave)\nSteward \tBELOW 8 skill and\nProud \tCan borrow from Jews \tDLC icon Conclave.pngDlc icon sons of abraham.png \t-50 wealth via forced loan from Jews, but liege can become more Just or more Patient\nSteward \t15+ skill and\nAmbitious \t\tDLC icon Conclave.png \t+300 wealth; an additional +200 wealth and become Just if you then let the steward purchase a county from you.\nSteward \t15+ skill and\nAny of Ambitious.pngKind.pngProud.png \tAdult\nLess than 10 stewardship \tDLC icon Conclave.png \tJoin your steward on a full day's work\nGain Honest and Just (or an alternative stewardship bonus)\nOr leave early to become Greedy or Wroth , if you prefer.\nSpymaster \t12+ skill and\nSmart \t\t\tChoice of +10% arrest chance or +10% plot power\nCapital prospers\nSpymaster \tDiligent or\nLunatic \t\tDLC icon Conclave.png \tPrecautionary safety measures\nSpiritual \t12+ skill and\nSmart \t\t\tChoice of +25 church opinion or +0.1 monthly piety\n(For Muslims: +0.2 monthly piety)\nCapital prospers\nSpiritual \tZealous and\n350 wealth \t250 wealth \tDLC icon Conclave.png \tSpiritual offers to pay 250g toward the construction of a new temple, if you also spend 250g.",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T19:49:02.431967+00:00",
+        "updatedAt": "2025-10-18T19:49:02.431967+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f8de-4e52-74ad-ae06-0aecdc08c69c",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f8de-4e50-7b1a-abcd-926bec9084a4"
+        ],
+        "content": "Of course. This is a fantastic list of the hidden mechanics behind your councilors. Analyzing these events reveals that certain traits are far more valuable than their stat bonuses would suggest.\n\nHere is a breakdown of the best traits for each councilor, specifically based on their ability to trigger these powerful, hidden events.\n\n**Universal \"God Tier\" Traits for all Councilors:**\n\n1.  **\"Smart\" (`Genius`, `Quick`, `Shrewd`):** This is non-negotiable. As the list shows, a \"Smart\" councilor with 12+ skill in their respective field unlocks a powerful choice of bonus effects for every single position. This is the baseline for an elite council.\n2.  **`Diligent`:** This trait appears for almost every councilor, offering consistent, positive outcomes. From improving opinions (Chancellor) to finding tech points (Marshal) to foiling theft (Steward), a `Diligent` councilor is a proactive, reliable asset.\n\n---\n\n### **Chancellor: The Diplomat and Networker**\n\nYour Chancellor is not just for fabricating claims. With the right traits, they can stabilize your realm and even improve you personally.\n\n*   **Top Priority Traits:**\n    *   **`Smart` (`Genius`, `Quick`, `Shrewd`):** Unlocks the crucial event for a massive **+25 vassal opinion** boost. This can single-handedly prevent factions from forming.\n    *   **`Diligent`:** A workhorse trait that passively improves opinions with vassals or courtiers, and can also trigger the \"multilingual\" event.\n    *   **`Gregarious` (with 12+ skill):** The *only other way* to trigger the event to make your ruler **multilingual** (`+1 Diplomacy, +1 Learning`). This makes `Gregarious` a surprisingly powerful trait for your Chancellor if you want to improve your own stats.\n\n*   **Conclusion:** The ideal Chancellor is **`Smart`** and **`Diligent`**. If your ruler needs a stat boost, a **`Gregarious`** Chancellor is an excellent alternative.\n\n---\n\n### **Marshal: The Innovator and Leader**\n\nBeyond leading armies, a good Marshal can give you a crucial edge in military technology and effectiveness.\n\n*   **Top Priority Traits:**\n    *   **`Smart`:** The event choice between **+10% global morale** or **+10% local levy size** is a direct and powerful military buff. A \"Smart\" Marshal makes your armies fundamentally better.\n    *   **`Diligent`:** The ability to spend a small amount of gold for a chance at **+50 military tech points** is one of the best ways to accelerate your military technology.\n\n*   **Situational Traits:**\n    *   **`Lunatic`:** A wildcard that can also trigger the military tech event. It's a high-risk, high-reward choice.\n    *   **`Wroth` (if landless):** This is more of a role-playing event. It offers a chance for you to become `Just`, but it comes at the cost of drama with your Marshal. Not a trait to seek out for this event, but a consequence to be aware of.\n\n*   **Conclusion:** The perfect Marshal is **`Smart`** and **`Diligent`**. This combination provides both immediate army buffs and long-term technological advantages.\n\n---\n\n### **Steward: The Most Valuable Councilor**\n\nBased on these events, the Steward has by far the most potential to dramatically impact your realm's wealth and stability.\n\n*   **God Tier Trait:**\n    *   **`Ambitious` (with 15+ skill):** This is the jackpot. This event can grant you **+300 wealth** (or even more if you sell a county). A high-skill, **`Ambitious`** Steward is a walking treasury and an absolute must-have if you have the *Conclave* DLC.\n\n*   **Top Priority Traits:**\n    *   **`Smart`:** Provides the essential choice between a tax bonus or revolt risk reduction.\n    *   **`Diligent`:** A crucial security trait. They can remove the \"thieves guild\" modifier from a province and, more importantly, are more likely to **discover if another councilor is stealing from you**.\n    *   **`Just`:** Passively triggers events to lower revolt risk. A `Just` Steward is a powerful tool for maintaining a peaceful demesne.\n    *   **`Kind`** or **`Charitable`:** Invaluable during epidemics (*The Reaper's Due*). Their ability to slow the spread of disease can save your capital and your family.\n\n*   **Excellent Situational Traits:**\n    *   **`Cruel`:** A straightforward way to get extra cash, if you can handle the opinion malus.\n    *   **`Greedy`:** A high-risk, high-reward trait for you. You can't trust him, but the event allows you to seize his personal wealth.\n\n*   **Conclusion:** The ultimate Steward is **`Ambitious`**, **`Smart`**, and **`Diligent`**. For realm stability, **`Just`**, **`Kind`**, and **`Charitable`** are also S-Tier. This position is the one most heavily influenced by personality traits.\n\n---\n\n### **Spymaster: The Silent Guardian**\n\nWhile having fewer special events, the Spymaster's triggered abilities are vital for offensive and defensive plotting.\n\n*   **Top Priority Traits:**\n    *   **`Smart`:** The choice between **+10% plot power** and **+10% arrest chance** directly enhances the two primary functions of a Spymaster. This is essential.\n    *   **`Diligent`:** Triggers \"precautionary safety measures,\" which passively makes you and your court safer from enemy schemes.\n\n*   **Conclusion:** The event-driven Spymaster is simple: they must be **`Smart`** and **`Diligent`**. Other traits like `Deceitful` or `Paranoid` are critical for their raw Intrigue score, but these two traits unlock the special events.\n\n---\n\n### **Spiritual: The Pious Patron**\n\nYour Court Chaplain can be a source of piety, good church relations, and even cheap infrastructure.\n\n*   **Top Priority Traits:**\n    *   **`Smart`:** The choice between a significant **+25 church opinion** or a passive **piety gain** is always useful.\n    *   **`Zealous`:** If your chaplain is wealthy, their `Zealous` nature can trigger an event where they offer to co-fund the construction of a new temple. This is an excellent, cost-effective way to develop your holdings.\n\n*   **Conclusion:** An ideal Spiritual is **`Smart`** and **`Zealous`**. This ensures they are both spiritually influential and a potential patron of construction.",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T19:49:02.43497+00:00",
+        "updatedAt": "2025-10-18T19:49:45.675613+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f8e3-65f3-7c8d-ac74-17b659adff6f",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f8de-4e52-74ad-ae06-0aecdc08c69c"
+        ],
+        "content": "Other trait considerations\n\nCouncilors have increased plot power against you. Watch out for councilors who have traits that increase inclination to join assassination plots, such as Deceitful . This is especially crucial if they have low opinion of you, high intrigue skill, or the spymaster position.\n\nFor the post of Marshal, consider appointing a character with high Martial score, but also have the Craven trait, since such characters are usually not good commanders.\n\nWith DLC icon Conclave.pngConclave:\n\n    Marshal and Court Chaplain with certain traits may trigger an \"abuse of office\" event that gives them 100 wealth. This isn't possible for honest , kind or just councilor. If the councilor is a courtier, you'll have an opportunity to seize or inherit this wealth. This event is more likely if he is greedy , arbitrary or deceitful , and less likely if he is craven or slothful . Beware: for the Marshal , his location province (usually the capital) will get 3 years of peasant unrest modifier giving -50% taxes and 10% revolt risk.\n    Councilors who are Content are more likely to select the Loyalist stance. On the other hand, content vassals rarely join factions, so they are less important to pacify with council jobs. They are useful to have on the council when voting for law changes.\n\n\n\nTreatment outcome\n\nGood outcomes are more likely with:\n\n    1.44x the patient is Strong or Brawny\n    1.44x physician learning: 10, 15, 20, 25\n    1.2x physician has Renowned Physician trait\n    1.2x physician_good_trigger:\n        Either Israelite religion group ,\n        or any learned trait (Renowned Physician , Scholar , Erudite , Faqih , Scholarly theologian , Mastermind theologian )\n    1.2x opinion: −75, −50, −25, 0 (twice), 25, 50, 75",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T19:54:36.376195+00:00",
+        "updatedAt": "2025-10-18T19:54:36.376195+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f8e3-65f5-754c-ab9c-fb1073444bea",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f8e3-65f3-7c8d-ac74-17b659adff6f"
+        ],
+        "content": "Excellent additions. This information moves beyond simple stat optimization and into the realm of advanced strategic considerations and risk management. These hidden mechanics are what make the council so dynamic.\n\nHere’s a detailed analysis of these points and what they mean for your choices.\n\n### **1. The Danger of a Disloyal Council (\"The Fox in the Henhouse\")**\n\nThis is the single most important risk to manage with your council. A council seat grants a character enormous plot power against you.\n\n*   **The Spymaster is the Ultimate Threat:** A disloyal Spymaster is a death sentence waiting to happen. Not only do they have high intrigue, but their job is to *know* about plots. An `Ambitious`, `Deceitful`, or `Envious` Spymaster with a negative opinion of you is arguably the most dangerous character in the entire game.\n*   **Red Flag Traits for ANY Councilor:**\n    *   **`Deceitful`:** They are natural plotters.\n    *   **`Ambitious`:** They want your titles and will take action to get them.\n    *   **`Envious`:** They specifically covet what you have.\n*   **Green Flag (Safe) Traits:**\n    *   **`Content`:** They have no desire to overthrow you.\n    *   **`Honest`:** They are terrible liars and unlikely to plot.\n    *   **`Kind`:** Their personality goes against murder and intrigue.\n    *   **`Trusting`:** They are easily caught and poor schemers.\n\n**Strategic Takeaway:** You must balance skill with loyalty. A 25-Intrigue `Deceitful`, `Ambitious` Spymaster is incredibly effective at his job, but you are his #1 target. A 15-Intrigue `Honest` Spymaster is less effective against your enemies, but he will never betray you. The choice depends on your risk tolerance.\n\n---\n\n### **2. The Craven Marshal Strategy (\"The Safe Specialist\")**\n\nThis is a brilliant, counter-intuitive strategy for preserving a high-skill character.\n\n*   **The Logic:** The Marshal has two jobs: 1) Council tasks (Train Troops, Suppress Revolts) and 2) Leading armies. A `Craven` character is barred from leading armies.\n*   **Why It's Useful:** If you have a character with a god-tier Martial score (e.g., from `Brilliant Strategist` + `Genius`) whom you cannot afford to lose in battle—like your heir—making them a `Craven` Marshal is perfect. They will stay safely in your capital performing the council task with their high skill, rather than getting killed in a meaningless siege.\n*   **The Downside:** You are deliberately sacrificing a potentially great army commander.\n\n**Strategic Takeaway:** Use the Craven Marshal strategy when the council task is more important than army leadership. This is ideal for protecting a valuable heir or a unique character with an otherwise irreplaceable Martial score.\n\n---\n\n### **3. Abuse of Office (The \"Honeypot\" Strategy)**\n\nThis *Conclave* mechanic can be exploited, but it's risky.\n\n*   **The Goal:** Appoint a Marshal or Chaplain with \"corrupt\" traits so they steal 100g, then seize that wealth when they die (if they are a landless courtier).\n*   **The Right \"Criminals\":**\n    *   **`Greedy`, `Arbitrary`, `Deceitful`** make this event more likely.\n*   **The Wrong \"Honest Cops\":**\n    *   **`Honest`, `Kind`, `Just`** will prevent this event entirely.\n*   **The Marshal's Crippling Penalty:** This is the key. The Marshal's theft also gives his location province **-50% taxes and +10% revolt risk for 3 years**. This is devastating and almost never worth the 100g.\n*   **The Chaplain is the Real Target:** The Court Chaplain's theft has no such provincial penalty.\n\n**Strategic Takeaway:** If you want to exploit this, appoint a **landless, unmarried courtier** as your **Court Chaplain** who is **`Greedy`** or **`Deceitful`**. When he steals the money and eventually dies, you inherit it. **Almost never attempt this with a Marshal.**\n\n---\n\n### **4. The Content Loyalist (\"The Rubber Stamp\")**\n\nA `Content` councilor is a powerful political tool for one specific purpose: passing laws.\n\n*   **The Mechanic:** A `Content` councilor is highly likely to adopt the \"Loyalist\" stance, meaning they will always vote \"Yes\" on any law change you propose.\n*   **The Strategic Dilemma:**\n    *   **Pro:** You get a guaranteed vote to help you centralize your realm or change succession laws, fighting back against a council full of \"Glory Hounds\" or \"Pragmatists.\"\n    *   **Con:** A `Content` vassal *rarely joins factions anyway*. By giving them a council seat, you are \"wasting\" a spot that could be used to appease a powerful, ambitious, and dangerous vassal who *would* otherwise be plotting against you.\n\n**Strategic Takeaway:** Appoint a `Content` councilor only when you **specifically need a guaranteed vote** to pass a critical law. In all other situations, it is more efficient to use council seats to manage your most dangerous vassals.\n\n---\n\n### **5. The Ultimate Court Physician: A Deep Dive**\n\nThis statistical breakdown confirms that a physician is more than just their Learning score.\n\n**To build the GOD-TIER PHYSICIAN, you need to stack these multipliers:**\n\n1.  **High Learning (Foundation):**\n    *   The goal is **25+ Learning**. Each threshold (10, 15, 20, 25) grants a massive **1.44x** multiplier. Hitting 25 Learning is paramount.\n\n2.  **Key Traits (Multipliers):**\n    *   **`Renowned Physician`:** This is the specific Physician lifestyle trait. It gives a **1.2x** bonus.\n    *   **Any \"Learned\" Trait:** Having `Scholar`, `Erudite`, `Mastermind Theologian`, etc., provides another **1.2x** bonus. A character with both `Mastermind Theologian` and `Renowned Physician` gets **two separate 1.2x bonuses**.\n\n3.  **Culture/Religion (Niche but Powerful):**\n    *   Being of the **`Israelite`** religion group (e.g., Jewish) grants a **1.2x** bonus.\n\n4.  **High Opinion (The Relationship):**\n    *   Having a +75 opinion of your physician gives a **1.2x** bonus. Make your physician your friend!\n\n**Checklist for the Perfect Physician:**\n*   ✅ **Learning Skill of 25+**\n*   ✅ **`Renowned Physician`** trait\n*   ✅ A second \"Learned\" trait (like `Mastermind Theologian`)\n*   ✅ High Opinion (+75)\n*   ✅ (Bonus) `Israelite` culture/religion\n\n**Don't Forget the Patient!** Your own health matters. Being **`Strong`** or **`Brawny`** gives you a **1.44x** better chance of a good outcome, completely independent of your doctor's skill.",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T19:54:36.379256+00:00",
+        "updatedAt": "2025-10-18T19:55:15.871326+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f8e5-e2cf-7d31-9fe4-ad4499b143cb",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f8e3-65f5-754c-ab9c-fb1073444bea"
+        ],
+        "content": "if spymaster has high opinion then it's safe for him to be deceitful and high skill. from what we learned, make best councillors (with no limits for now)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T19:57:19.470242+00:00",
+        "updatedAt": "2025-10-18T19:57:19.470242+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f8e5-e2d8-7dc2-b890-a6b65edbf5c6",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f8e5-e2cf-7d31-9fe4-ad4499b143cb"
+        ],
+        "content": "Of course. Based on everything we've discussed—base stats, hidden events, personality conflicts, and risk management—here is the ultimate \"dream team.\" These characters are built with \"no limits,\" representing the theoretical pinnacle of each council position.\n\n### **The Guiding Principle: Skill AND Stability**\n\nThe best councilor isn't just the one with the highest skill; they are the ones who use that skill for *your* benefit. This means we are building for maximum effectiveness while also incorporating traits that ensure loyalty or mitigate risk.\n\n---\n\n### **1. The Chancellor: The Beloved Statesman**\n\n**Concept:** A diplomatic god-king. He is not just respected for his skill but universally loved for his character. Factions melt away in his presence, and foreign rulers are charmed into submission.\n\n*   **Education:** `Grey Eminence` (+9 Diplomacy)\n*   **Genetic:** `Genius` (+5 to all)\n*   **Key Personality & Lifestyle Traits:**\n    *   **`Gregarious`:** For the multilingual event and +2 Diplomacy.\n    *   **`Kind`:** For +2 Diplomacy and +5 Vassal Opinion.\n    *   **`Just`:** For +5 Vassal Opinion, making him a paragon of fairness.\n    *   **`Diligent`:** Triggers positive opinion events and shows he's a hard worker.\n    *   **`Honest`:** Makes him trustworthy and terrible at plotting against you. (+3 Diplomacy)\n    *   **`Attractive`:** A massive **+30 Sex Appeal Opinion** boost for free.\n    *   **`Socializer`:** The ultimate networker. (+3 Diplomacy)\n\n**Why he's the best:**\n*   **Staggering Diplomacy:** His base Diplomacy will soar into the 30s.\n*   **Opinion Powerhouse:** Stacks multiple Vassal, General, and Same-trait opinion bonuses. He is a walking \"+100 Opinion\" modifier.\n*   **Event Machine:** As a `Smart` (`Genius`) and `Gregarious`/`Diligent` councilor, he triggers the +25 Vassal Opinion event and can teach you new languages.\n*   **Safe as Houses:** `Honest`, `Kind`, and `Just`. He is a pillar of integrity who will never betray you.\n\n---\n\n### **2. The Marshal: The Warlord**\n\n**Concept:** A terrifying prodigy of war. He combines strategic genius with personal combat prowess, making him an inspiration to his troops and an engine of military innovation.\n\n*   **Education:** `Brilliant Strategist` (+9 Martial, +20 Combat Rating)\n*   **Genetic:** `Genius` (+5 to all), `Strong` (+2 Martial, +10 Combat Rating, +1 Health)\n*   **Key Personality & Lifestyle Traits:**\n    *   **`Brave`:** The quintessential commander trait. (+2 Martial, +10 Combat Rating)\n    *   **`Ambitious`:** His ambition is channeled into glorious conquest for your realm. (+2 to all)\n    *   **`Diligent`:** For the crucial military tech point event.\n    *   **`Duelist`:** Makes him a legendary champion in personal combat. (+3 Martial, +30 Combat Rating)\n    *   **`Zealous`:** Fights with a holy purpose, making him more effective against religious enemies. (+2 Martial)\n\n**Why he's the best:**\n*   **Unmatched Martial Skill:** His Martial score will be well over 30.\n*   **Legendary Commander:** An absurdly high Combat Rating from stacking `Brilliant Strategist`, `Strong`, `Brave`, and `Duelist`. He can personally turn the tide of a battle.\n*   **Tech Advantage:** As a `Smart` and `Diligent` Marshal, he consistently provides choices for army buffs and finds opportunities to advance your military technology.\n*   **Note:** This is the ultimate *field commander*. For the \"Safe Specialist\" to protect your heir, simply swap **`Brave`** with **`Craven`**.\n\n---\n\n### **3. The Steward: The Architect of Prosperity**\n\n**Concept:** A master of economics and development. He is a one-man engine of prosperity who funds your empire, keeps your people happy, your buildings built, and your realm healthy.\n\n*   **Education:** `Midas Touched` (+9 Stewardship)\n*   **Genetic:** `Genius` (+5 to all)\n*   **Key Personality & Lifestyle Traits:**\n    *   **`Ambitious`:** **CRITICAL.** This is the key to the **+300 wealth** event.\n    *   **`Diligent`:** Foils theft from other councilors and removes negative province modifiers.\n    *   **`Just`:** Passively lowers revolt risk across your demesne.\n    *   **`Kind`:** Invaluable for slowing the spread of disease in your capital.\n    *   **`Administrator`:** The perfect lifestyle choice for a master of coin. (+3 Stewardship)\n    *   **`Architect`:** Speeds up construction and lowers its cost, synergizing perfectly with the wealth he generates. (+2 Stewardship)\n\n**Why he's the best:**\n*   **Wealth Generation:** He triggers the single most profitable event in the game.\n*   **Realm Stability:** He simultaneously lowers revolt risk (`Just`) and fights disease (`Kind`).\n*   **Maximum Security:** His `Diligent` nature protects your treasury from internal threats.\n*   **Synergy King:** He generates a massive income and then uses his `Architect` trait to spend it more efficiently. He is a complete, self-contained economic system.\n\n---\n\n### **4. The Spymaster: The Loyal Monster**\n\n**Concept:** A terrifyingly effective weapon who is unshakably loyal to *you*. He is a monster to your enemies and a guardian angel to your family. His loyalty is not assumed; it is manufactured through your relationship.\n\n*   **The Build (The \"Monster\"):**\n    *   **Education:** `Elusive Shadow` (+9 Intrigue)\n    *   **Genetic:** `Genius` (+5 to all)\n    *   **Key Personality & Lifestyle Traits:**\n        *   **`Deceitful`:** The core trait of a master liar. (+3 Intrigue)\n        *   **`Paranoid`:** He sees threats everywhere, which is why he's so good at stopping them. (+2 Intrigue)\n        *   **`Ambitious`:** He channels his ambition into becoming the most feared spymaster in the world, serving you. (+2 to all)\n        *   **`Diligent`:** For the \"precautionary measures\" event that keeps you safe.\n        *   **`Master Schemer`:** His entire life is a plot. (+3 Intrigue)\n*   **The Loyalty (The \"Leash\"):**\n    *   **Relationship:** He must be your **Friend** or **Lover**. This provides a massive opinion boost that counteracts any negative trait modifiers.\n    *   **Family:** Ideally, he is your **Spouse** (if female), a loyal **Sibling**, or a **Child** you have a good relationship with.\n    *   **Your Actions:** Keep his opinion at **+100** through gifts, honorary titles, and swaying.\n\n**Why he's the best:**\n*   **Peak Effectiveness:** His Intrigue will be stratospheric. No plot against you will succeed, and any plot you hatch will be unstoppable.\n*   **Risk Mitigated:** By accepting that a \"safe\" spymaster is an \"ineffective\" one, this build embraces the danger but controls it. The combination of `Deceitful` effectiveness and manufactured loyalty is the true endgame strategy.\n\n---\n\n### **5. The Court Physician: The Miracle Worker**\n\n**Concept:** A living miracle of science and medicine. His knowledge is so profound that he can snatch you from the jaws of death itself. This build is pure mathematical optimization to maximize the \"good outcome\" multiplier in treatment.\n\n*   **Education:** `Mastermind Theologian` (+9 Learning)\n*   **Genetic:** `Genius` (+5 to all)\n*   **Culture/Religion:** `Israelite` religion group (e.g., Jewish)\n*   **Key Traits for Treatment Multipliers:**\n    *   **`Renowned Physician`:** This is the Physician lifestyle trait, and it is **non-negotiable**.\n    *   **`Scholar`:** A second \"learned\" trait to stack the bonus. (+3 Learning)\n    *   **`Erudite`:** A third \"learned\" trait for good measure. (+2 Learning)\n*   **Relationship:** Maintain **+100 Opinion** with him through any means necessary.\n\n**Why he's the best:**\n*   **He Stacks Every Multiplier:**\n    *   `Learning > 25` (easy with this build) = **1.44x**\n    *   `Renowned Physician` = **1.2x**\n    *   A \"learned\" trait (`Mastermind Theologian`) = **1.2x**\n    *   `Israelite` Religion Group = **1.2x**\n    *   `Opinion > 75` = **1.2x**\n*   This combination gives an absurdly high chance for a positive treatment outcome, making him the ultimate life insurance policy for your dynasty.",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T19:57:19.472692+00:00",
+        "updatedAt": "2025-10-18T19:58:06.489286+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f8e9-637b-70b1-8f14-ed4e929b9c96",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f8e5-e2d8-7dc2-b890-a6b65edbf5c6"
+        ],
+        "content": "look up for traits you didnt use but that can give + to stats. like ambitious and all in the beginning",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-18T20:01:08.86087+00:00",
+        "updatedAt": "2025-10-18T20:01:08.86087+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "0199f8e9-637e-70d7-9d71-ca7f1109278e",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "0199f8e9-637b-70b1-8f14-ed4e929b9c96"
+        ],
+        "content": "Excellent point. My previous builds were focused on a balance of skill, events, and role-playing. If the goal is to create the absolute statistical pinnacle for each role by leveraging every possible stat-boosting trait, we can refine the \"dream team\" to be even more powerful.\n\nThis time, we will incorporate the highly efficient \"global booster\" traits (`Ambitious`, `Shrewd`, `Diligent`) into every build as a core foundation, on top of their specialized traits.\n\nHere is the revised Ultimate \"No Limits\" Dream Team.\n\n---\n\n### **1. The Chancellor: The Voice of the Empire**\n\n**Concept:** A diplomatic force of nature. His raw charisma is backed by a brilliant, diligent, and shrewd mind. He doesn't just convince; he intellectually dismantles all opposition.\n\n*   **Education:** `Grey Eminence` (+9 Diplomacy)\n*   **Genetic:** `Genius` (+5 to all)\n*   **Global Boosters (The \"Prodigy Core\"):**\n    *   `Ambitious` (+2 to all)\n    *   `Shrewd` (+2 to all)\n    *   `Diligent` (+1 to all)\n*   **Specialist & Personality Traits:**\n    *   `Gregarious`: Essential for the multilingual event and social grace. (+2 Diplomacy)\n    *   `Honest`: For trustworthiness and a powerful +3 Diplomacy boost.\n    *   `Socializer`: The ultimate lifestyle for a diplomat. (+3 Diplomacy)\n    *   `Falconer`: A professional, courtly hobby. (+1 Diplomacy)\n\n**Final Diplomacy Score: 31**\n`(1 Base + 9 Edu + 5 Gen + 2 Amb + 2 Shr + 1 Dil + 2 Gre + 3 Hon + 3 Soc + 1 Fal)`\n\n**Why he's the new best:** By swapping out some of the \"softer\" opinion traits for the raw stats of `Shrewd` and `Ambitious`, his base skill becomes even more unshakable. He is still a `Smart`, `Gregarious`, and `Diligent` event machine, but now with an even higher numerical advantage.\n\n---\n\n### **2. The Marshal: The God of War**\n\n**Concept:** The perfect synthesis of commander and warrior. His mind (`Genius`, `Shrewd`) is as sharp as his blade (`Strong`, `Duelist`), and his ambition (`Ambitious`) is matched only by his ferocity (`Wroth`).\n\n*   **Education:** `Brilliant Strategist` (+9 Martial, +20 Combat Rating)\n*   **Genetic:** `Genius` (+5 to all), `Strong` (+2 Martial, +10 Combat Rating)\n*   **Global Boosters (The \"Prodigy Core\"):**\n    *   `Ambitious` (+2 to all)\n    *   `Shrewd` (+2 to all)\n    *   `Diligent` (+1 to all)\n*   **Specialist & Personality Traits:**\n    *   `Brave`: The non-negotiable trait for a leader. (+2 Martial)\n    *   `Wroth`: Pure battlefield fury. (+3 Martial)\n    *   `Duelist`: For personal combat supremacy. (+3 Martial)\n    *   `Strategist`: A lifestyle dedicated to the art of war. (+2 Martial)\n\n**Final Martial Score: 31**\n`(1 Base + 9 Edu + 5 Gen + 2 Str + 2 Amb + 2 Shr + 1 Dil + 2 Bra + 3 Wro + 3 Due + 2 Str)`\n\n**Why he's the new best:** This build is pure, concentrated lethality. It includes **five** different traits that boost all attributes (`Genius`, `Strong`, `Ambitious`, `Shrewd`, `Diligent`). The addition of `Shrewd` and `Strategist` makes him an even more complete military prodigy than before, triggering events while being a monster in the field.\n\n---\n\n### **3. The Steward: The Golden Emperor**\n\n**Concept:** An administrative genius. He is a tireless, ambitious, and shrewd manager who sees the realm as a single, massive economic engine to be perfected.\n\n*   **Education:** `Midas Touched` (+9 Stewardship)\n*   **Genetic:** `Genius` (+5 to all)\n*   **Global Boosters (The \"Prodigy Core\"):**\n    *   `Ambitious` (**CRITICAL** for the +300 wealth event) (+2 to all)\n    *   `Shrewd` (+2 to all)\n    *   `Diligent` (Foils theft, removes bad modifiers) (+1 to all)\n*   **Specialist & Personality Traits:**\n    *   `Just`: Lowers revolt risk. (+2 Stewardship)\n    *   `Temperate`: A perfect virtue for a master of coin. (+2 Stewardship)\n    *   `Administrator`: The ideal lifestyle trait. (+3 Stewardship)\n    *   `Stubborn`: Represents his unyielding will in collecting taxes and enforcing contracts. (+1 Stewardship)\n\n**Final Stewardship Score: 30**\n`(1 Base + 9 Edu + 5 Gen + 2 Amb + 2 Shr + 1 Dil + 2 Jus + 2 Tem + 3 Adm + 1 Stub)`\n\n**Why he's the new best:** This build doubles down on efficiency. The `Prodigy Core` ensures he is brilliant in all aspects, while every other trait is laser-focused on economic output and stability. The inclusion of `Shrewd` makes him not just a good steward, but a universally intelligent manager, more likely to succeed at any task.\n\n---\n\n### **4. The Spymaster: The Perfect Shadow**\n\n**Concept:** A cold, calculating intelligence operative. His loyalty is assured by his high opinion of you, freeing him to be the paranoid, deceitful, and ruthlessly efficient monster you need him to be.\n\n*   **Education:** `Elusive Shadow` (+9 Intrigue)\n*   **Genetic:** `Genius` (+5 to all)\n*   **Global Boosters (The \"Prodigy Core\"):**\n    *   `Ambitious` (+2 to all)\n    *   `Shrewd` (+2 to all)\n    *   `Diligent` (Triggers safety events) (+1 to all)\n*   **Specialist & Personality Traits:**\n    *   `Deceitful`: The core of a schemer. (+3 Intrigue)\n    *   `Paranoid`: He sees the threats you miss. (+2 Intrigue)\n    *   `Cynical`: He believes the worst of everyone, and is usually right. (+2 Intrigue)\n    *   `Master Schemer`: A life dedicated to plots. (+3 Intrigue)\n\n**Final Intrigue Score: 29**\n`(1 Base + 9 Edu + 5 Gen + 2 Amb + 2 Shr + 1 Dil + 3 Dec + 2 Par + 2 Cyn + 3 Mas)`\n\n**Why he's the new best:** This is the ultimate \"functional\" spymaster. By building him on the `Prodigy Core`, his secondary skills are significantly improved, making him better at surviving and navigating court politics. His personality is a pure, uncut cocktail of espionage, making him brutally effective. Ensure he is your friend or lover to guarantee his immense power is pointed *away* from you.\n\n---\n\n### **5. The Physician: The Sage of Life**\n\n**Concept:** A titan of intellect. His mind is a fortress of knowledge, dedicated to the preservation of life and the pursuit of wisdom. He is the ultimate safety net for your dynasty.\n\n*   **Education:** `Mastermind Theologian` (+9 Learning)\n*   **Genetic:** `Genius` (+5 to all)\n*   **Global Boosters (The \"Prodigy Core\"):**\n    *   `Ambitious` (+2 to all)\n    *   `Shrewd` (+2 to all)\n    *   `Diligent` (+1 to all)\n*   **Specialist & Personality Traits:**\n    *   `Physician`: **Non-negotiable** for treatment events. (+2 Learning)\n    *   `Scholar`: A life dedicated to study, and a \"learned\" trait for event multipliers. (+3 Learning)\n    *   `Erudite`: Another \"learned\" trait for multipliers and raw stats. (+2 Learning)\n    *   `Mystic`: Represents a willingness to explore all avenues of knowledge, conventional or not. (+2 Learning)\n\n**Final Learning Score: 31**\n`(1 Base + 9 Edu + 5 Gen + 2 Amb + 2 Shr + 1 Dil + 2 Phy + 3 Sch + 2 Eru + 2 Mys)`\n\n**Why he's the new best:** This build maximizes the Learning stat to an incredible degree, which is the single biggest factor in treatment success. By including the `Prodigy Core`, he becomes a well-rounded genius, not just a bookworm. He is a `Smart`, `Diligent`, and \"Learned\" character, triggering every positive event while having an unparalleled chance to save your life.",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2025-10-18T20:01:08.863133+00:00",
+        "updatedAt": "2025-10-18T20:01:57.617412+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "019b7ef1-d44a-7fb9-9efb-e72a2b8e9df7",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "user",
+        "parentMessageIds": [
+          "0199f8e9-637e-70d7-9d71-ca7f1109278e"
+        ],
+        "content": "would these builds be okay if i'd want to make a council that would look (trait-wise) good in court of different counties (feudal, pagan, nomad, etc)?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-01-02T13:42:04.688691+00:00",
+        "updatedAt": "2026-01-02T13:42:04.688691+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7ef1-d453-7926-9752-3235a9d871d0",
+        "evaluationSessionId": "0199f81e-c2e3-77a7-b24e-741526e6698f",
+        "evaluationId": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b7ef1-d44a-7fb9-9efb-e72a2b8e9df7"
+        ],
+        "content": "That is a brilliant and crucial question. The \"stat-monster\" builds are mechanically perfect, but politics and culture are all about perception. A trait that is respected in a Viking court might be seen as brutish in a Feudal one.\n\nThe answer is **yes, those builds would be incredibly effective everywhere, but they would not always *look* good or fit in culturally.** You can absolutely create a \"Universal Dream Team\" that is both devastatingly effective and culturally adaptable.\n\nHere is the philosophy for a universally respected council:\n\n*   **The Universal Core:** Intelligence (`Genius`, `Shrewd`), hard work (`Diligent`), and drive (`Ambitious`) are respected everywhere. Physical prowess (`Strong`, `Brave`) is also almost universally admired.\n*   **Avoid Extreme Personalities:** Traits like `Cruel`, `Wroth`, `Deceitful`, or even `Greedy` can be powerful but are often culturally divisive. We will replace them with traits that are seen as positive or neutral across most cultures.\n*   **Focus on Competence:** The final builds will project an aura of supreme competence and dedication, which is a form of power respected by all, from feudal lords to nomad khans.\n\nHere is the refined \"Universal Council,\" designed to look good and be respected in any court.\n\n---\n\n### **1. The Chancellor: The Incorruptible Ambassador**\n\n**Concept:** This Chancellor combines immense skill with unimpeachable integrity. He is seen not as a mere socialite, but as a wise, fair, and trustworthy statesman. This projection of integrity is valuable everywhere.\n\n*   **Education:** `Grey Eminence`\n*   **Universal Core:** `Genius`, `Ambitious`, `Shrewd`, `Diligent`\n*   **Specialist & Personality Traits:**\n    *   **`Just`:** The concept of justice is respected by feudal lords, tribal chieftains, and merchant doges alike. It implies fairness and reliability. (+5 Vassal Opinion)\n    *   **`Honest`:** Makes him trustworthy, a quality essential for any negotiator. (+3 Diplomacy)\n    *   **`Gregarious`:** Represents social skill without the potential frivolity of `Socializer`. It's about being good with people, which is always a plus. (+2 Diplomacy)\n    *   **`Patient`:** A patient negotiator is a dangerous one. This trait projects wisdom and strategic depth. (+1 to non-Martial attributes)\n\n**Why it's Universal:** Instead of being just a \"friend,\" this Chancellor is a \"respected pillar of the state.\" His `Just` and `Honest` nature makes him trustworthy for feudal vassals, while his `Patient` and `Shrewd` mind makes him a formidable negotiator in a merchant republic or a nomad court.\n\n---\n\n### **2. The Marshal: The Legendary Commander**\n\n**Concept:** This build is already almost perfectly universal. Martial prowess, strength, and bravery are admired by virtually every culture in the game. This Marshal is a living legend.\n\n*   **Education:** `Brilliant Strategist`\n*   **Universal Core:** `Genius`, `Ambitious`, `Shrewd`, `Diligent`, `Strong`, `Brave`\n*   **Specialist & Personality Traits:**\n    *   **`Strategist`:** A lifestyle trait showing his dedication to the craft of war. (+2 Martial)\n    *   **`Hunter`:** A practical, respected skill from the forests of Europe to the steppes of Asia. (+2 Martial)\n    *   **`Duelist`:** Personal combat skill is a universal measure of respect. (+3 Martial)\n\n**Why it's Universal:** This character is the epitome of martial competence. A Norse Jarl, a French King, and a Mongol Khan would all see this man and immediately recognize him as a master of war. We've removed `Wroth` to make him seem less like a wild berserker and more like a calculated, professional commander.\n\n---\n\n### **3. The Steward: The Master Administrator**\n\n**Concept:** This Steward is the embodiment of efficiency and fair management. He generates wealth not through overt greed, but through meticulous planning and just administration. This makes him valuable to all, without the negative opinion from `Greedy` or `Cruel`.\n\n*   **Education:** `Midas Touched`\n*   **Universal Core:** `Genius`, `Ambitious`, `Shrewd`, `Diligent`\n*   **Specialist & Personality Traits:**\n    *   **`Just`:** **CRITICAL.** This is the key to making him universally respected. It lowers revolt risk and makes taxation seem fair.\n    *   **`Administrator`:** The perfect lifestyle trait, signaling pure competence. (+3 Stewardship)\n    *   **`Architect`:** Building wonders, forts, and cities is a universally admired activity. (+2 Stewardship)\n    *   **`Temperate`:** Shows he is not wasteful—a virtue for a thrifty merchant republic and a pious kingdom alike. (+2 Stewardship)\n\n**Why it's Universal:** By replacing `Greedy` with `Just`, he transforms from a \"taxman\" to a \"chief developer.\" He still triggers the all-important `Ambitious` wealth event, but his public persona is one of fairness and building, not hoarding. This plays well in a feudal court that values stability and a nomad court that needs efficient camp management.\n\n---\n\n### **4. The Spymaster: The Watchful Guardian**\n\n**Concept:** This Spymaster is still a master of secrets, but his public-facing traits are those of a patient, watchful protector rather than an overtly deceitful villain. His danger is implied, not advertised.\n\n*   **Education:** `Elusive Shadow`\n*   **Universal Core:** `Genius`, `Ambitious`, `Shrewd`, `Diligent`\n*   **Specialist & Personality Traits:**\n    *   **`Paranoid`:** The essential trait for a defensive spymaster. It's easily framed as \"cautious\" and \"vigilant.\"\n    *   **`Patient`:** A patient schemer is far more terrifying than an impulsive one. It projects an aura of cold, calculating intelligence.\n    *   **`Deceitful`:** We keep this one because it's simply too good for the raw Intrigue score. His loyalty *must* be ensured through high opinion, making this his \"hidden\" professional tool.\n    *   **`Master Schemer`:** The lifestyle choice that shows his dedication to the craft.\n\n**Why it's Universal:** By swapping `Cynical` for `Patient`, his personality becomes less grating. He now appears as a quiet, thoughtful, and hyper-aware guardian. A nomad Khan respects a vigilant watchman, and a feudal King respects a spymaster who stops plots with quiet efficiency. The core danger is still there, but it is masked by a more professional and less overtly negative demeanor.\n\n---\n\n### **5. The Spiritual / Physician: The Wise Sage**\n\n**Concept:** This build is already **perfectly universal**. The pursuit of knowledge, science, and health is respected in every culture. A man who can heal the king's son or provide wise counsel is an asset everywhere.\n\n*   **Education:** `Mastermind Theologian`\n*   **Universal Core:** `Genius`, `Ambitious`, `Shrewd`, `Diligent`\n*   **Specialist & Personality Traits:**\n    *   **`Physician`:** A life-saver. Its value is absolute.\n    *   **`Scholar`:** Signals a life dedicated to learning.\n    *   **`Patient`:** Reinforces the image of a wise, thoughtful man.\n    *   **`Erudite`:** A respected intellectual.\n\n**Why it's Universal:** There is no culture in the game that disrespects a brilliant doctor and scholar. This character is the easiest to slot into any court and have him be immediately revered for his immense knowledge and utility.",
+        "experimental_attachments": [],
+        "modelId": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "createdAt": "2026-01-02T13:42:04.702255+00:00",
+        "updatedAt": "2026-01-02T13:42:39.02221+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "41f1063d-53aa-41f0-84b5-54c98c7297d4",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "0199f060-b306-7e1f-aeae-0ebb4e3f1122",
+        "organization": "google",
+        "provider": "googleVertex",
+        "publicName": "gemini-2.5-pro",
+        "name": "gemini-2.5-pro",
+        "displayName": "gemini-2.5-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

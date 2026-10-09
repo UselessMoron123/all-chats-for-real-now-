@@ -1,0 +1,103 @@
+{
+  "exportedAt": "2026-10-09T16:27:54.274Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019d3dc0-1842-719d-9410-615a43186f62",
+  "archivedAt": "2026-09-30 20:14:56.851+00",
+  "evaluation": {
+    "id": "019d3dc0-1842-719d-9410-615a43186f62",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "CK2 hypothetical question. If matilda canossa, enrico dandolo, bohemond (of Antioch ) and roger (of ",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019d3dc1-8bdb-7bd9-a52e-9d7014092e00"
+    ],
+    "archivedAt": "2026-09-30 20:14:56.851+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-03-30 07:59:49.063+00",
+    "updatedAt": "2026-03-30 07:59:49.630933+00",
+    "messages": [
+      {
+        "id": "019d3dc1-8bda-7b07-a005-09a1bca5199f",
+        "evaluationSessionId": "019d3dc0-1842-719d-9410-615a43186f62",
+        "evaluationId": "019d3dc1-9361-7e15-8429-2831ea0fdae8",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "CK2 hypothetical question. If matilda canossa, enrico dandolo, bohemond (of Antioch ) and roger (of Sicily) hauteville's, lived in same time, who would matilda choose to marry?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-30T07:59:49.623623+00:00",
+        "updatedAt": "2026-03-30T07:59:49.623623+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "dlpOutput": {
+            "stats": {
+              "PERSON_NAME": 2,
+              "GEOGRAPHIC_DATA": 1
+            },
+            "severity": "REDACT"
+          }
+        }
+      },
+      {
+        "id": "019d3dc1-8bdb-7bd9-a52e-9d7014092e00",
+        "evaluationSessionId": "019d3dc0-1842-719d-9410-615a43186f62",
+        "evaluationId": "019d3dc1-9361-7e15-8429-2831ea0fdae8",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d3dc1-8bda-7b07-a005-09a1bca5199f"
+        ],
+        "content": "To answer this, we have to look at it through two lenses: **CK2 game mechanics** (how the AI calculates marriage desires) and **Historical Roleplay** (their personalities, traits, and geopolitical goals). \n\nIf we drop Matilda of Canossa, Enrico Dandolo, Bohemond de Hauteville, and Roger de Hauteville into the same 1066-style lobby, **Matilda would almost certainly choose Bohemond.** \n\nHere is the breakdown of why she chooses Bohemond, and why she rejects the others.\n\n### 1. Enrico Dandolo (The Doge of Venice)\n**The Verdict: Immediate Rejection**\n*   **CK2 Mechanics:** Enrico Dandolo is a Patrician of a Merchant Republic. In CK2, feudal rulers have a massive negative modifier for marrying into merchant republics (\"Desires a Feudal Alliance\"). Furthermore, Dandolo is famously old and Blind, giving him terrible fertility and attraction penalties. The CK2 AI wouldn't touch this.\n*   **Historical/RP:** Matilda of Canossa was fiercely Zealous and the ultimate Papal loyalist. Enrico Dandolo was an ultra-pragmatic, Cynical statesman who literally got excommunicated by the Pope for sacking Zara and Constantinople. Matilda would despise him. Furthermore, Dandolo cares about Mediterranean trade, not fighting the Holy Roman Emperor in the Apennine Mountains. \n\n### 2. Roger de Hauteville (The Great Count of Sicily)\n**The Verdict: Great on paper, impossible in practice**\n*   **CK2 Mechanics:** As Duchess of Tuscany, Matilda *must* secure a Matrilineal Marriage, otherwise it's Game Over for the di Canossa dynasty. Roger de Hauteville is already a landed ruler (Count/Duke tier). In CK2, landed rulers have a massive \"--\" modifier rejecting matrilineal marriages (\"Is a Ruler / Desires a regular marriage\"). Unless Matilda wants to end her game, she can't marry him.\n*   **Historical/RP:** Uniting Matilda’s lands (Tuscany, Emilia-Romagna) with Roger’s lands (Sicily, Calabria) would effectively surround the Papal States. While the Normans were sometimes Papal allies, the Pope’s worst historical nightmare was the unification of Northern and Southern Italy. Because Matilda is a Papal loyalist, she would never enter a marriage that threatens the Holy Father. Furthermore, Roger was an independent state-builder; he wouldn't accept being a mere consort to Matilda.\n\n### 3. Bohemond de Hauteville (Prince of Antioch)\n**The Verdict: The Perfect Match**\n*   **CK2 Mechanics:** Before the First Crusade, Bohemond is usually a landless courtier (or a very minor vassal) in his father Robert Guiscard’s court. Because he is unlanded but possesses massive Prestige and a great dynasty, **he will accept a matrilineal marriage.** Furthermore, the CK2 AI heavily weighs stats. Bohemond is a towering warrior (often with traits like Strong, Brave, and a 20+ Martial stat). He is the exact kind of high-stat stud a female AI ruler looks for.\n*   **Historical/RP:** Matilda's primary historical problem was her constant, brutal warfare against the Holy Roman Emperor, Heinrich IV. She didn't want a husband to rule her; she wanted a general to lead her armies. Historically, she married Welf V strictly for a military alliance. Bohemond is the ultimate mercenary-crusader. He is incredibly ambitious, charismatic, and historically eager for wealth and titles. \n\n### How the Marriage Would Play Out:\nMatilda approaches Bohemond with a transactional offer: *“Marry me matrilineally. I will give you access to the immense wealth of Florence and Tuscany, and you will get to fight the biggest army in Europe (the HRE).”* \n\nBohemond, having been cut out of his inheritance in southern Italy by his half-brother, would jump at the chance to command the Tuscan armies and carve his name into history by fighting the Emperor.\n\n**Result:** Matilda stays in charge of the realm's administration (Stewardship) and Papal diplomacy, while Bohemond acts as her Marshall, crushing Imperial doomstacks in the mountains of Northern Italy. It’s a terrifying CK2 power couple.",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-03-30T07:59:49.627956+00:00",
+        "updatedAt": "2026-03-30T08:00:32.405347+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019d3dc1-9361-7e15-8429-2831ea0fdae8",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3.1-pro-preview",
+        "name": "gemini-3.1-pro-preview",
+        "displayName": "gemini-3.1-pro-preview",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

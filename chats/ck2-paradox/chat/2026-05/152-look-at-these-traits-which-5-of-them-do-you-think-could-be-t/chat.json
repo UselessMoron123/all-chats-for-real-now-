@@ -1,0 +1,203 @@
+{
+  "exportedAt": "2026-10-09T16:27:50.340Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019de46c-e413-7a7a-a70a-23629b23dfce",
+  "archivedAt": "2026-09-30 20:13:36.293+00",
+  "evaluation": {
+    "id": "019de46c-e413-7a7a-a70a-23629b23dfce",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "look at these traits. which 5 of them do you think could be the best/universal combination for any k",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019de77a-b2fe-77bd-b419-c4212eaa3bb0"
+    ],
+    "archivedAt": "2026-09-30 20:13:36.293+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-05-01 16:45:37.994+00",
+    "updatedAt": "2026-05-02 06:58:01.125147+00",
+    "messages": [
+      {
+        "id": "019de46e-5383-7469-be59-6fa72cd18491",
+        "evaluationSessionId": "019de46c-e413-7a7a-a70a-23629b23dfce",
+        "evaluationId": "019de46e-7a42-705f-baa1-2976d0c3984c",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "look at these traits. which 5 of them do you think could be the best/universal combination for any kind of ruler?\n\nenvious = {\n\tintrigue = 2\n\tdiplomacy = -1\n\tcombat_rating = 3\n\tliege_opinion = -15\n}\n\ngreedy = {\n\tglobal_tax_modifier = 0.1\n\tdiplomacy = -1\n}\n\nlustful = {\n\tmonthly_character_piety = -0.25\n\tintrigue = 1\n\tfertility = 0.2\n}\n\nproud = {\n\tmonthly_character_prestige = 0.5\n}\n\nwroth = {\n\tmartial = 3\n\tintrigue = -1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncharitable = {\n\tdiplomacy = 3\n\tcombat_rating = -3\n}\n\nchaste = {\n\tmonthly_character_piety = 0.5\n\tlearning = 1\n\tfertility = -0.15\n}\n\ndiligent = {\n\tmartial = 1\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tvassal_opinion = 5\n}\n\nhumble = {\n\tmonthly_character_piety = 1.0\n}\n\nkind = {\n\tintrigue = -2\n\tdiplomacy = 2\n\tcombat_rating = -5\n}\n\npatient = {\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tcombat_rating = 5\n}\n\ntemperate = {\n\tstewardship = 2\n}\n\nambitious = {\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3\n}\n\narbitrary = {\n\tintrigue = 1\n\tstewardship = -2\n\tlearning = -1\n}\n\nbrave = {\n\tmartial = 2\n\tcombat_rating = 10\n}\n\ncontent = {\n\tmonthly_character_piety = 0.5\n\tintrigue = -1\n\tliege_opinion = 25\n}\n\ncruel = {\n\tintrigue = 1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncynical = {\n\tmonthly_character_piety = -0.2\n\tintrigue = 2\n}\n\ndeceitful = {\n\tintrigue = 3\n\tdiplomacy = -2\n\tcombat_rating = 3\n}\n\nerudite = {\n\tlearning = 2\n\tcombat_rating = -2\n}\n\ngregarious = {\n\tdiplomacy = 2\n\tsex_appeal_opinion = 5\n}\n\nhonest = {\n\tintrigue = -2\n\tdiplomacy = 3\n\tcombat_rating = -2\n}\n\njust = {\n\tstewardship = 2\n\tlearning = 1\n}\n\nparanoid = {\n\tintrigue = 2\n\tdiplomacy = -1\n}\n\nstubborn = {\n\tdiplomacy = -1\n\tstewardship = 1\n\tcombat_rating = 3\n}\n\nzealous = {\n\tmonthly_character_piety = 1\n\tmartial = 2\n\topinion_against_infidels = -25\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-05-01T16:45:38.755932+00:00",
+        "updatedAt": "2026-05-01T16:45:38.755932+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019de46e-5385-77c9-82e1-ca6f9ea6f01f",
+        "evaluationSessionId": "019de46c-e413-7a7a-a70a-23629b23dfce",
+        "evaluationId": "019de46e-7a42-705f-baa1-2976d0c3984c",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019de46e-5383-7469-be59-6fa72cd18491"
+        ],
+        "content": "Based on the specific stat modifiers provided, the best universal combination for a ruler focuses on maximizing the five core attributes (Martial, Diplomacy, Stewardship, Intrigue, and Learning) while maintaining vassal stability and combat survivability.\n\nHere are the 5 best traits for a universal ruler:\n\n### 1. Ambitious\n*   **Stats:** +2 Martial, +2 Intrigue, +2 Diplomacy, +2 Stewardship, +2 Learning, +3 Combat Rating.\n*   **Why it’s essential:** This is the single most powerful trait in the game. It provides a massive +10 total bonus across all primary attributes. It makes the ruler better at everything—leading armies, managing money, keeping vassals happy, and uncovering plots.\n\n### 2. Diligent\n*   **Stats:** +1 Martial, +1 Intrigue, +1 Diplomacy, +1 Stewardship, +1 Learning, +5 Vassal Opinion.\n*   **Why it’s essential:** Similar to Ambitious, it provides a \"flat\" bonus to every single stat. However, the +5 Vassal Opinion is the real winner here. A ruler’s greatest threat is usually their own people; Diligent makes you more competent while simultaneously making your subordinates like you more.\n\n### 3. Patient\n*   **Stats:** +1 Intrigue, +1 Diplomacy, +1 Stewardship, +1 Learning, +5 Combat Rating.\n*   **Why it’s essential:** While it lacks a Martial bonus, it provides a +5 Combat Rating (vital for not dying in battle) and boosts almost every other stat. In gameplay terms, \"Patient\" characters often get better event outcomes, and these stat boosts complement Diligent and Ambitious perfectly.\n\n### 4. Just\n*   **Stats:** +2 Stewardship, +1 Learning.\n*   **Why it’s essential:** Stewardship is arguably the most important \"ruler\" stat because it determines your domain limit (how much land you can own personally) and your tax income. Between Ambitious, Diligent, Patient, and Just, you are gaining a massive **+6 bonus to Stewardship**, ensuring a wealthy and large personal demesne.\n\n### 5. Brave\n*   **Stats:** +2 Martial, +10 Combat Rating.\n*   **Why it’s essential:** A ruler who dies in their first battle is a failed ruler. The +10 Combat Rating is the highest defensive/offensive boost on this list, significantly increasing your survivability. The +2 Martial also increases the size of your levies (your army), which deters vassals from rebelling.\n\n***\n\n### The \"Super-Ruler\" Totals:\nIf a ruler has all five of these traits, their **base stat bonuses** (before their natural ability is even factored in) would be:\n\n*   **Martial:** +5\n*   **Diplomacy:** +4\n*   **Stewardship:** +6\n*   **Intrigue:** +4\n*   **Learning:** +5\n*   **Combat Rating:** +18\n*   **Vassal Opinion:** +5\n\n**Why this beats the others:**\nWhile traits like **Charitable** (+3 Diplomacy) or **Wroth** (+3 Martial) offer higher single-stat boosts, they come with heavy penalties (negative Combat Rating or negative Diplomacy/Intrigue). This \"Big Five\" combination has **zero negative modifiers**, making it the most stable and powerful foundation for any playstyle.",
+        "experimental_attachments": [],
+        "modelId": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "createdAt": "2026-05-01T16:45:38.764265+00:00",
+        "updatedAt": "2026-05-01T16:45:54.530296+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 815,
+            "totalTokens": 3201,
+            "usageSource": "provider",
+            "outputTokens": 2386,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 1645
+          },
+          "fromAutoRouter": false
+        }
+      },
+      {
+        "id": "019de777-f2a4-7636-a432-31dc3a7f7b7f",
+        "evaluationSessionId": "019de46c-e413-7a7a-a70a-23629b23dfce",
+        "evaluationId": "019de46e-7a42-705f-baa1-2976d0c3984c",
+        "role": "user",
+        "parentMessageIds": [
+          "019de46e-5385-77c9-82e1-ca6f9ea6f01f"
+        ],
+        "content": "here possible educational traits\n\namateurish_plotter = {\n\tintrigue = 1\n\tstewardship = -1\n\tcombat_rating = 4\n}\n\nflamboyant_schemer = {\n\tintrigue = 3\n\tstewardship = -1\n\tcombat_rating = 8\n}\n\nintricate_webweaver = {\n\tmartial = 1\n\tintrigue = 6\n\tdiplomacy = 1\n\tstewardship = -1\n\tcombat_rating = 12\n}\n\nelusive_shadow = {\n\tmartial = 2\n\tintrigue = 9\n\tdiplomacy = 2\n\tstewardship = -1\n\tcombat_rating = 16\n}\n\nnaive_appeaser = {\n\tmartial = -1\n\tdiplomacy = 1\n}\n\nunderhanded_rogue = {\n\tmartial = -1\n\tdiplomacy = 3\n\tfertility = 0.05\n}\n\ncharismatic_negotiator = {\n\tmartial = -1\n\tintrigue = 1\n\tdiplomacy = 6\n\tlearning = 1\n\tfertility = 0.05\n}\n\ngrey_eminence = {\n\tmartial = -1\n\tintrigue = 2\n\tdiplomacy = 9\n\tlearning = 2\n\tfertility = 0.1\n}\n\nindulgent_wastrel = {\n\tdiplomacy = -1\n\tstewardship = 1\n}\n\nthrifty_clerk = {\n\tdiplomacy = -1\n\tstewardship = 3\n\tfertility = 0.05\n}\n\nfortune_builder = {\n\tmartial = 1\n\tdiplomacy = -1\n\tstewardship = 6\n\tlearning = 1\n\tfertility = 0.1\n}\n\nmidas_touched = {\n\tmartial = 2\n\tdiplomacy = -1\n\tstewardship = 9\n\tlearning = 2\n\tfertility = 0.15\n}\n\nmisguided_warrior = {\n\tmartial = 1\n\tlearning = -1\n\thealth = 0.5\n\tcombat_rating = 5\n}\n\ntough_soldier = {\n\tmartial = 3\n\tlearning = -1\n\thealth = 0.5\n\tcombat_rating = 10\n}\n\nskilled_tactician = {\n\tmartial = 6\n\tintrigue = 1\n\tstewardship = 1\n\tlearning = -1\n\thealth = 0.5\n\tcombat_rating = 15\n}\n\nbrilliant_strategist = {\n\tmartial = 9\n\tintrigue = 2\n\tstewardship = 2\n\tlearning = -1\n\thealth = 0.5\n\tcombat_rating = 20\n}\n\ndetached_priest = {\n\tintrigue = -1\n\tlearning = 1\n}\n\ndutiful_cleric = {\n\tintrigue = -1\n\tlearning = 3\n}\n\nscholarly_theologian = {\n\tintrigue = -1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 6\n\tfertility = -0.05\n}\n\nmastermind_theologian = {\n\tintrigue = -1\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 9\n\tfertility = -0.05\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-05-02T06:55:01.283462+00:00",
+        "updatedAt": "2026-05-02T06:55:01.283462+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019de777-f2a8-7af4-9982-89e6b25d7e81",
+        "evaluationSessionId": "019de46c-e413-7a7a-a70a-23629b23dfce",
+        "evaluationId": "019de46e-7a42-705f-baa1-2976d0c3984c",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019de777-f2a4-7636-a432-31dc3a7f7b7f"
+        ],
+        "content": "To create the \"Perfect Ruler,\" we must now choose **one** Education trait to serve as the foundation, then pair it with the four strongest personality traits from the previous list.\n\nIn these games, you can usually only have one Education trait. The undisputed winner for a \"Universal\" ruler is **Brilliant Strategist**.\n\nHere is the ultimate 5-trait combination for any ruler:\n\n### 1. Brilliant Strategist (Education)\n*   **Stats:** +9 Martial, +2 Intrigue, +2 Stewardship, -1 Learning, **+0.5 Health**, +20 Combat Rating.\n*   **Why it’s the best:** While *Midas Touched* is great for money, *Brilliant Strategist* is better for survival. The **+0.5 Health** is a \"hidden\" god-tier stat that helps you live through plagues and old age. The **+20 Combat Rating** makes you nearly invincible in personal duels, and the **+9 Martial** ensures you have a massive personal army to discourage rebellions.\n\n### 2. Ambitious\n*   **Stats:** +2 to All Stats, +3 Combat Rating.\n*   **Why it’s essential:** It acts as a multiplier. It fixes the -1 Learning penalty from your education and boosts the Stewardship and Intrigue bonuses you’re already getting.\n\n### 3. Diligent\n*   **Stats:** +1 to All Stats, +5 Vassal Opinion.\n*   **Why it’s essential:** Universal stat boosts are rare. The +5 Vassal Opinion is the perfect \"shield\" to prevent your powerful dukes from forming factions against you.\n\n### 4. Just\n*   **Stats:** +2 Stewardship, +1 Learning.\n*   **Why it’s essential:** This is the \"Economic\" pick. Between this, Ambitious, Diligent, and your Education, you are getting a total of **+7 Stewardship**. This allows you to hold more land personally (Demesne Limit) and collect significantly more taxes without needing a specific Stewardship education.\n\n### 5. Patient\n*   **Stats:** +1 Diplomacy, +1 Stewardship, +1 Intrigue, +1 Learning, +5 Combat Rating.\n*   **Why it’s essential:** It rounds out the build by adding to every stat except Martial (which is already huge from your education). The extra +5 Combat Rating brings your total combat bonus to a level where you will almost never lose a duel.\n\n***\n\n### The \"God-King\" Final Totals:\nIf your ruler has these 5 traits, here are their **guaranteed bonuses** before factoring in their base genes or equipment:\n\n*   **Martial:** +12 (Massive army size and morale)\n*   **Stewardship:** +8 (High income and large personal land holdings)\n*   **Intrigue:** +6 (Great at catching assassins and uncovering plots)\n*   **Diplomacy:** +4 (Good relations with neighbors and vassals)\n*   **Learning:** +4 (Decent technology spread)\n*   **Combat Rating:** +28 (Virtually untouchable in personal combat)\n*   **Health:** +0.5 (A significantly longer life span)\n*   **Vassal Opinion:** +5 (General stability)\n\n### Why this beats the others:\nYou might be tempted by **Grey Eminence** (+9 Diplomacy), but Diplomacy only helps people like you. **Brilliant Strategist** makes people *fear* you while also giving you **Health** and **Stewardship**. \n\nThis combination ensures that even if your ruler starts with \"0\" in every base stat, they will still be a highly competent leader in every single category of government.",
+        "experimental_attachments": [],
+        "modelId": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "createdAt": "2026-05-02T06:55:01.286456+00:00",
+        "updatedAt": "2026-05-02T06:55:16.81925+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 2356,
+            "totalTokens": 4511,
+            "usageSource": "provider",
+            "outputTokens": 2155,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 1353
+          },
+          "fromAutoRouter": false
+        }
+      },
+      {
+        "id": "019de77a-b2fb-78f9-8991-53e40af6d50b",
+        "evaluationSessionId": "019de46c-e413-7a7a-a70a-23629b23dfce",
+        "evaluationId": "019de46e-7a42-705f-baa1-2976d0c3984c",
+        "role": "user",
+        "parentMessageIds": [
+          "019de777-f2a8-7af4-9982-89e6b25d7e81"
+        ],
+        "content": "i meant, look at possible educations (lowest and highest, without 2 and 3 grades). and calculate if personality combo suits each",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-05-02T06:58:01.096664+00:00",
+        "updatedAt": "2026-05-02T06:58:01.096664+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019de77a-b2fe-77bd-b419-c4212eaa3bb0",
+        "evaluationSessionId": "019de46c-e413-7a7a-a70a-23629b23dfce",
+        "evaluationId": "019de46e-7a42-705f-baa1-2976d0c3984c",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019de77a-b2fb-78f9-8991-53e40af6d50b"
+        ],
+        "content": "To test if a personality combination is truly \"universal,\" it must be able to rescue a \"Level 1\" failure and turn a \"Level 4\" master into a god.\n\nBased on the stats provided, the **\"Golden Five\"** personality traits are:\n1.  **Ambitious** (+2 all stats, +3 Combat)\n2.  **Diligent** (+1 all stats, +5 Vassal Opinion)\n3.  **Patient** (+1 all stats except Martial, +5 Combat)\n4.  **Just** (+2 Stewardship, +1 Learning)\n5.  **Brave** (+2 Martial, +10 Combat)\n\n**Personality Baseline (The \"Floor\"):**\nM: +5 | D: +4 | S: +6 | I: +4 | L: +5 | Combat: +18 | Vassal Opinion: +5\n\n---\n\n### 1. The Martial Path\n*   **Grade 1: Misguided Warrior**\n    *   *Total Stats:* **M: 6, D: 4, S: 6, I: 4, L: 4 | Combat: 23 | Health: +0.5**\n    *   **Verdict:** **Suits perfectly.** A character who failed their education usually has stats around 0–2. This combo boosts them to a 4–6 range, making them a \"competent\" king rather than a disaster.\n*   **Grade 4: Brilliant Strategist**\n    *   *Total Stats:* **M: 14, D: 4, S: 8, I: 6, L: 4 | Combat: 38 | Health: +0.5**\n    *   **Verdict:** **The Juggernaut.** This is the strongest military build possible. The personality traits provide the Stewardship (8) that military educations usually lack, allowing this general to actually afford his army.\n\n### 2. The Stewardship (Gold) Path\n*   **Grade 1: Indulgent Wastrel**\n    *   *Total Stats:* **M: 5, D: 3, S: 7, I: 4, L: 5 | Combat: 18**\n    *   **Verdict:** **Suits well.** It completely negates the \"Wastrel\" failure. A Stewardship of 7 is actually higher than most average AI characters.\n*   **Grade 4: Midas Touched**\n    *   *Total Stats:* **M: 7, D: 3, S: 15, I: 4, L: 7 | Combat: 18**\n    *   **Verdict:** **The Economic Superpower.** +15 Stewardship is massive; you will have the largest demesne limit on the map. The personalities mitigate the Diplomacy penalty of the education.\n\n### 3. The Diplomacy (Opinion) Path\n*   **Grade 1: Naive Appeaser**\n    *   *Total Stats:* **M: 4, D: 5, S: 6, I: 4, L: 5 | Combat: 18**\n    *   **Verdict:** **Suits well.** Despite being a \"Naive\" negotiator, the ruler is saved by their internal discipline (Diligent/Patient), making them a very stable, balanced leader.\n*   **Grade 4: Grey Eminence**\n    *   *Total Stats:* **M: 4, D: 13, S: 6, I: 6, L: 7 | Combat: 18**\n    *   **Verdict:** **The Diplomatic Anchor.** With 13 Diplomacy and +5 Vassal Opinion from Diligent, your kingdom will essentially never have a civil war.\n\n### 4. The Intrigue (Shadow) Path\n*   **Grade 1: Amateurish Plotter**\n    *   *Total Stats:* **M: 5, D: 4, S: 5, I: 5, L: 5 | Combat: 22**\n    *   **Verdict:** **Surprisingly strong.** Because \"Ambitious\" and \"Patient\" boost Intrigue, even an \"Amateur\" ends up with a 5 in the stat, which is enough to protect against most basic assassination plots.\n*   **Grade 4: Elusive Shadow**\n    *   *Total Stats:* **M: 7, D: 6, S: 5, I: 13, L: 5 | Combat: 34**\n    *   **Verdict:** **The Invisible Hand.** High Intrigue paired with \"Just\" is a rare and powerful combo; you can uncover every plot in your realm while maintaining the moral high ground.\n\n### 5. The Learning (Religious) Path\n*   **Grade 1: Detached Priest**\n    *   *Total Stats:* **M: 5, D: 4, S: 6, I: 3, L: 6 | Combat: 18**\n    *   **Verdict:** **Suits perfectly.** It turns a character meant for a monastery into a very capable feudal lord.\n*   **Grade 4: Mastermind Theologian**\n    *   *Total Stats:* **M: 5, D: 6, S: 8, I: 3, L: 14 | Combat: 18**\n    *   **Verdict:** **The Philosopher King.** The Learning stat is often secondary, but the personality combo adds enough Stewardship (8) and Martial (5) to ensure the ruler can still lead and tax effectively.\n\n### Final Conclusion:\nThe **Ambitious / Diligent / Patient / Just / Brave** combination is the ultimate \"Universal\" set because it provides a **+4 to +6 \"safety floor\"** for every single attribute. \n\n*   If you get a **Grade 1** education, the personality traits act as a **crutch**, making you a competent average ruler. \n*   If you get a **Grade 4** education, the personality traits act as a **multiplier**, filling in the gaps (like Stewardship for Warriors or Martial for Priests) to make you a flawless God-King.",
+        "experimental_attachments": [],
+        "modelId": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "createdAt": "2026-05-02T06:58:01.100295+00:00",
+        "updatedAt": "2026-05-02T06:58:18.247938+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 3186,
+            "totalTokens": 6291,
+            "usageSource": "provider",
+            "outputTokens": 3105,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 1757
+          },
+          "fromAutoRouter": false
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019de46e-7a42-705f-baa1-2976d0c3984c",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-flash",
+        "name": "gemini-3-flash",
+        "displayName": "gemini-3-flash",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

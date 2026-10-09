@@ -1,0 +1,247 @@
+{
+  "exportedAt": "2026-10-09T16:28:15.507Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c7c80-d127-7ad3-b3be-3c33a5e39d4e",
+  "archivedAt": "2026-09-30 20:28:04.192+00",
+  "evaluation": {
+    "id": "019c7c80-d127-7ad3-b3be-3c33a5e39d4e",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "посмотри. напиши только \"прочитал\" в ответе\n\nБородино\n\n— Скажи-ка, дядя, ведь не даром\nМосква, спале",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c7f42-12d5-7ab1-b2d1-df0243385b2e"
+    ],
+    "archivedAt": "2026-09-30 20:28:04.192+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-20 19:23:16.63+00",
+    "updatedAt": "2026-02-21 08:12:44.268495+00",
+    "messages": [
+      {
+        "id": "019c7c81-9982-7fd7-afe6-41ca8b8a67cf",
+        "evaluationSessionId": "019c7c80-d127-7ad3-b3be-3c33a5e39d4e",
+        "evaluationId": "019c7c81-a599-7d1d-94f6-a541fd1e42cf",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "посмотри. напиши только \"прочитал\" в ответе\n\nБородино\n\n— Скажи-ка, дядя, ведь не даром\nМосква, спаленная пожаром,\nФранцузу отдана?\nВедь были ж схватки боевые,\nДа, говорят, еще какие!\nНедаром помнит вся Россия\nПро день Бородина!\n— Да, были люди в наше время,\nНе то, что нынешнее племя:\nБогатыри — не вы!\nПлохая им досталась доля:\nНемногие вернулись с поля…\nНе будь на то господня воля,\nНе отдали б Москвы!\nМы долго молча отступали,\nДосадно было, боя ждали,\nВорчали старики:\n«Что ж мы? на зимние квартиры?\nНе смеют, что ли, командиры\nЧужие изорвать мундиры\nО русские штыки?»\nИ вот нашли большое поле:\nЕсть разгуляться где на воле!\nПостроили редут.\nУ наших ушки на макушке!\nЧуть утро осветило пушки\nИ леса синие верхушки —\nФранцузы тут как тут.\nЗабил заряд я в пушку туго\nИ думал: угощу я друга!\nПостой-ка, брат мусью!\nЧто тут хитрить, пожалуй к бою;\nУж мы пойдем ломить стеною,\nУж постоим мы головою\nЗа родину свою!\nДва дня мы были в перестрелке.\nЧто толку в этакой безделке?\nМы ждали третий день.\nПовсюду стали слышны речи:\n«Пора добраться до картечи!»\nИ вот на поле грозной сечи\nНочная пала тень.\nПрилег вздремнуть я у лафета,\nИ слышно было до рассвета,\nКак ликовал француз.\nНо тих был наш бивак открытый:\nКто кивер чистил весь избитый,\nКто штык точил, ворча сердито,\nКусая длинный ус.\nИ только небо засветилось,\nВсе шумно вдруг зашевелилось,\nСверкнул за строем строй.\nПолковник наш рожден был хватом:\nСлуга царю, отец солдатам…\nДа, жаль его: сражен булатом,\nОн спит в земле сырой.\nИ молвил он, сверкнув очами:\n«Ребята! не Москва ль за нами?\nУмремте ж под Москвой,\nКак наши братья умирали!»\nИ умереть мы обещали,\nИ клятву верности сдержали\nМы в Бородинский бой.\nНу ж был денек! Сквозь дым летучий\nФранцузы двинулись, как тучи,\nИ всё на наш редут.\nУланы с пестрыми значками,\nДрагуны с конскими хвостами,\nВсе промелькнули перед нами,\nВсе побывали тут.\nВам не видать таких сражений!..\nНосились знамена, как тени,\nВ дыму огонь блестел,\nЗвучал булат, картечь визжала,\nРука бойцов колоть устала,\nИ ядрам пролетать мешала\nГора кровавых тел.\nИзведал враг в тот день немало,\nЧто значит русский бой удалый,\nНаш рукопашный бой!..\nЗемля тряслась — как наши груди,\nСмешались в кучу кони, люди,\nИ залпы тысячи орудий\nСлились в протяжный вой…\nВот смерклось. Были все готовы\nЗаутра бой затеять новый\nИ до конца стоять…\nВот затрещали барабаны —\nИ отступили бусурманы.\nТогда считать мы стали раны,\nТоварищей считать.\nДа, были люди в наше время,\nМогучее, лихое племя:\nБогатыри — не вы.\nПлохая им досталась доля:\nНемногие вернулись с поля.\nКогда б на то не божья воля,\nНе отдали б Москвы!",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-20T19:23:17.319419+00:00",
+        "updatedAt": "2026-02-20T19:23:17.319419+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c7c81-9984-7451-871f-2f9d41fd5251",
+        "evaluationSessionId": "019c7c80-d127-7ad3-b3be-3c33a5e39d4e",
+        "evaluationId": "019c7c81-a599-7d1d-94f6-a541fd1e42cf",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c7c81-9982-7fd7-afe6-41ca8b8a67cf"
+        ],
+        "content": "прочитал",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-20T19:23:17.342245+00:00",
+        "updatedAt": "2026-02-20T19:23:26.038972+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c7c82-d0bd-7c3d-8113-db92583529be",
+        "evaluationSessionId": "019c7c80-d127-7ad3-b3be-3c33a5e39d4e",
+        "evaluationId": "019c7c81-a599-7d1d-94f6-a541fd1e42cf",
+        "role": "user",
+        "parentMessageIds": [
+          "019c7c81-9984-7451-871f-2f9d41fd5251"
+        ],
+        "content": "я хочу заставить Suno спеть этот стих. но надо сделать так чтобы программа правильно поняла знаки препинания, паузы, ударения",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-20T19:24:36.059052+00:00",
+        "updatedAt": "2026-02-20T19:24:36.059052+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c7c82-d0c1-785a-82a6-03fe54ca4aed",
+        "evaluationSessionId": "019c7c80-d127-7ad3-b3be-3c33a5e39d4e",
+        "evaluationId": "019c7c81-a599-7d1d-94f6-a541fd1e42cf",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c7c82-d0bd-7c3d-8113-db92583529be"
+        ],
+        "content": "Для того чтобы Suno (или любой другой ИИ-генератор музыки) качественно исполнил «Бородино», простого текста недостаточно. Алгоритму нужно «объяснить» структуру песни: где куплет, где припев, где нужно петь тише, а где — эмоциональнее.\n\nПоэма Лермонтова длинная, поэтому **ключевой совет**: не пытайтесь сгенерировать всё сразу. Suno обычно генерирует 2-4 минуты. Вам придется разбивать текст на части (Part 1, Part 2) и использовать функцию **Extend (Продолжить)**, либо склеивать потом.\n\nВот подготовленный текст с разметкой. Скопируйте его в окно **Lyrics** (в режиме Custom Mode).\n\n### Основные фишки разметки для Suno:\n*   **[Verse]** — Куплет (спокойное повествование).\n*   **[Chorus]** — Припев (основная, самая запоминающаяся часть, здесь это слова Дяди).\n*   **[Bridge]** — Переход (смена настроения, например, речь полковника).\n*   **(...)** — Текст в скобках часто исполняется как бэк-вокал или шепот.\n*   **Знаки препинания:** Я добавил многоточия `...` там, где нужна пауза подлиннее, и восклицательные знаки для экспрессии.\n\n---\n\n### Текст для Suno (Разметка)\n\n**Style Prompt (Жанр):** *Russian Folk Rock, Orchestral, Epic, Male Vocals, Ballad, Storytelling*\n\n**(Part 1: Начало и ожидание)**\n\n[Intro]\n(Барабанная дробь, тихая музыка)\n\n[Verse 1]\n— Скажи-ка, дядя, ведь не даром\nМосква, спаленная пожаром,\nФранцузу отдана?\nВедь были ж схватки боевые,\nДа, говорят, еще какие!\nНедаром помнит вся Россия...\nПро день Бородина!\n\n[Chorus]\n(Глубокий, низкий голос)\n— Да, были люди в наше время,\nНе то, что нынешнее племя:\nБогатыри — не вы!\nПлохая им досталась доля:\nНемногие вернулись с поля...\nНе будь на то господня воля,\nНе отдали б Москвы!\n\n[Verse 2]\nМы долго молча отступали,\nДосадно было, боя ждали,\nВорчали старики:\n«Что ж мы? на зимние квартиры?\nНе смеют, что ли, командиры\nЧужие изорвать мундиры\nО русские штыки?»\n\n[Build Up]\n(Нарастание ритма)\nИ вот нашли большое поле:\nЕсть разгуляться где на воле!\nПостроили редут.\nУ наших ушки на макушке!\nЧуть утро осветило пушки\nИ леса синие верхушки —\nФранцузы тут как тут.\n\n**(Part 2: Бой и кульминация)**\n*(Если будете генерировать через Extend, начните продолжение отсюда)*\n\n[Verse 3]\nЗабил заряд я в пушку туго\nИ думал: угощу я друга!\nПостой-ка, брат мусью!\nЧто тут хитрить, пожалуй к бою;\nУж мы пойдем ломить стеною,\nУж постоим мы головою\nЗа родину свою!\n\n[Atmospheric Break]\n(Тишина, звуки ночи)\nДва дня мы были в перестрелке.\nЧто толку в этакой безделке?\nМы ждали третий день.\n...\nИ слышно было до рассвета,\nКак ликовал француз.\nНо тих был наш бивак открытый:\nКто кивер чистил весь избитый,\nКто штык точил, ворча сердито,\nКусая длинный ус.\n\n[Bridge]\n(Торжественно, трагично)\nИ только небо засветилось,\nВсе шумно вдруг зашевелилось,\nСверкнул за строем строй.\nПолковник наш рожден был хватом:\nСлуга царю, отец солдатам...\nДа, жаль его: сражен булатом,\nОн спит в земле сырой.\n\n[Spoken Word]\n(Речитатив или громкий призыв)\nИ молвил он, сверкнув очами:\n«Ребята! не Москва ль за нами?\nУмремте ж под Москвой,\nКак наши братья умирали!»\nИ умереть мы обещали,\nИ клятву верности сдержали\nМы в Бородинский бой.\n\n[Chorus]\n(Эпичная музыка, громко)\nНу ж был денек! Сквозь дым летучий\nФранцузы двинулись, как тучи,\nИ всё на наш редут.\nУланы с пестрыми значками,\nДрагуны с конскими хвостами,\nВсе промелькнули перед нами,\nВсе побывали тут.\n\n[Guitar Solo / Orchestral Climax]\n\n[Verse 4]\n(Быстрый темп)\nВам не видать таких сражений!..\nНосились знамена, как тени,\nВ дыму огонь блестел,\nЗвучал булат, картечь визжала,\nРука бойцов колоть устала,\nИ ядрам пролетать мешала\nГора кровавых тел.\nИзведал враг в тот день немало,\nЧто значит русский бой удалый,\nНаш рукопашный бой!..\n\n[Outro]\n(Замедление, возвращение к теме начала)\nВот смерклось. Были все готовы\nЗаутра бой затеять новый\nИ до конца стоять...\n...\nДа, были люди в наше время,\nМогучее, лихое племя:\nБогатыри — не вы.\nПлохая им досталась доля:\nНемногие вернулись с поля.\nКогда б на то не божья воля...\nНе отдали б Москвы!\n\n[Fade Out]\n\n---\n\n### Советы по генерации:\n\n1.  **Ударения:** Suno v3.5 отлично понимает русский язык и контекст. Но если он вдруг скажет «мУсью» вместо «мусьЮ», попробуйте переписать слово фонетически, например: `мус-йю`. Но обычно слово «мусью» он понимает.\n2.  **Паузы:** Если Suno слишком торопится, разбивайте строки пустой строкой (Enter).\n    *   *Пример:*\n        `Не будь на то господня воля,`\n        *(пустая строка)*\n        `Не отдали б Москвы!`\n3.  **Жанр:** Для этого стиха лучше всего подходят стили: `Epic Orchestral`, `Russian Folk Metal` (как Ария или Radio Tapok) или `Symphonic Rock`. Если выбрать попсу или рэп, ударения и пафос могут \"поплыть\".",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-20T19:24:36.065328+00:00",
+        "updatedAt": "2026-02-20T19:25:08.743316+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c7c88-87da-707e-aacd-cb7205f6b44a",
+        "evaluationSessionId": "019c7c80-d127-7ad3-b3be-3c33a5e39d4e",
+        "evaluationId": "019c7c81-a599-7d1d-94f6-a541fd1e42cf",
+        "role": "user",
+        "parentMessageIds": [
+          "019c7c82-d0c1-785a-82a6-03fe54ca4aed"
+        ],
+        "content": "напиши какойнибудь gibberish бред",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-20T19:30:51.274718+00:00",
+        "updatedAt": "2026-02-20T19:30:51.274718+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c7c88-87dd-773d-8016-dbc5b6e2503d",
+        "evaluationSessionId": "019c7c80-d127-7ad3-b3be-3c33a5e39d4e",
+        "evaluationId": "019c7c81-a599-7d1d-94f6-a541fd1e42cf",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c7c88-87da-707e-aacd-cb7205f6b44a"
+        ],
+        "content": "Вот несколько вариантов отборного бреда в разных стилях:\n\n**Вариант 1: Псевдо-русская заумь (в стиле «Глокой куздры»)**\nШвабракадабра, зюзюка в пальто,\nКлямс — и в кармане шуршит эгип-то!\nБрымс, кукумберы летели на юг,\nШвакнулся в лужу фиолетовый утюг.\nЭки-маки, шуры-муры,\nВ пузе тикают лемуры.\n\n**Вариант 2: Фонетический ритмичный (хорошо для тестов звука)**\nBlip-blop, shama-lama zoom.\nFlibber-flabber, wibble-wobble, boom-boom-boom.\nZog-zog, skibidi-pap, ratatata-tu.\nVloom vroom, golo-golo, I see you.\n\n**Вариант 3: Сюрреалистический (грамматически верно, но бессмысленно)**\nВчерашний треугольник громко спал на подоконнике, пока зеленые идеи яростно переваривали запах фиолетовой тишины. Квадратный круг решил, что пора доить облака вилками, потому что резина слишком громко шепчет по четвергам.\n\n**Вариант 4: Просто набор букв**\nЫргл-быргл улю-лю! Пщщщщть. Хрясь-мясь, курлык шмурлык. Ёклмн-опрст-уфхцч.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-20T19:30:51.282106+00:00",
+        "updatedAt": "2026-02-20T19:31:13.734328+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c7c9b-896d-706d-9c42-001c4f171dec",
+        "evaluationSessionId": "019c7c80-d127-7ad3-b3be-3c33a5e39d4e",
+        "evaluationId": "019c7c81-a599-7d1d-94f6-a541fd1e42cf",
+        "role": "user",
+        "parentMessageIds": [
+          "019c7c88-87dd-773d-8016-dbc5b6e2503d"
+        ],
+        "content": "ещё. и добавь к каждому тексту стиль - но противоположный топу что ожидается от текста",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-20T19:51:37.091054+00:00",
+        "updatedAt": "2026-02-20T19:51:37.091054+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c7c9b-8971-78a4-b8f5-80074aed9544",
+        "evaluationSessionId": "019c7c80-d127-7ad3-b3be-3c33a5e39d4e",
+        "evaluationId": "019c7c81-a599-7d1d-94f6-a541fd1e42cf",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c7c9b-896d-706d-9c42-001c4f171dec"
+        ],
+        "content": "Без проблем. Вот порция отборного бреда, где стиль максимально **не подходит** к содержанию, чтобы сломать мозг слушателю (или нейросети).\n\n**Вариант 1: Агрессивный скрежет**\n**Текст:**\nХРЯСЬ! ГРЫЗЛО-БУРГ, ШТЫР-ПЫР!\nКРРР-А-К! ШВАБР-Р-Р! ГХЫР-БЫР!\nЧЕРЕП-ЧПОК, МОЗГ-ШМЯК!\nТРА-ТА-ТА, УБЬЮ-КУСЬ-БРЯК!\n\n**Стиль:** *Soft Lullaby, Whispering Female Vocals, Acoustic Guitar, Angelic, Calm*\n(Представь, как нежный женский голос под акустику шепчет \"Череп-чпок\" как колыбельную).\n\n---\n\n**Вариант 2: Сладкая ванильная слизь**\n**Текст:**\nУси-пуси, розовый пупок,\nНяша-мяша, сладкий пирожок.\nЧмоки-чмоки, зайка в облаках,\nБлестки, слюни, бабочка в трусах.\nЛюлю-мюлю, пупупи...\n\n**Стиль:** *Brutal Death Metal, Growling, Double Kick Drum, Screamo, Aggressive Industrial*\n(Гроулинг про \"розовый пупок\" и \"уси-пуси\" под тяжелейшие гитарные риффы).\n\n---\n\n**Вариант 3: Техногенный сбой**\n**Текст:**\nБип-буп-бип. Ошибка ноль-четыре.\nСистем-крэш. Ребут. Логин в эфире.\nВжжжжж-пиу. Диск-эррор. Синтаксис.\nФайл корраптед. Матрица. Катарсис.\n1001000100... Пшшшшш.\n\n**Стиль:** *Russian Romance, Soulful Accordion, Melancholic, Opera Vocals, Acoustic Folk*\n(Драматичный оперный баритон с надрывом поет \"Бип-буп-бип\" под плачущий баян).\n\n---\n\n**Вариант 4: Псевдо-латинское заклинание**\n**Текст:**\nИнквизицио! Доминус картошка!\nАвада-кефира, макаронус ложка.\nСанктус-кактус, спиритус-винцо,\nГлобус-пробитус, кирпичус в лицо.\nАминь!\n\n**Стиль:** *Mumble Rap, Trap Beat, Autotune, Club Banger*\n(Современный рэп с автотюном, басами и эдлибами «skrt-skrt» на фоне псевдо-молитвы).",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-20T19:51:37.095144+00:00",
+        "updatedAt": "2026-02-20T19:51:58.816968+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c7f42-12d2-7411-bd34-316a75c1187c",
+        "evaluationSessionId": "019c7c80-d127-7ad3-b3be-3c33a5e39d4e",
+        "evaluationId": "019c7c81-a599-7d1d-94f6-a541fd1e42cf",
+        "role": "user",
+        "parentMessageIds": [
+          "019c7c9b-8971-78a4-b8f5-80074aed9544"
+        ],
+        "content": "чтонибудь для фонка. на англ",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-21T08:12:44.26018+00:00",
+        "updatedAt": "2026-02-21T08:12:44.26018+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c7f42-12d5-7ab1-b2d1-df0243385b2e",
+        "evaluationSessionId": "019c7c80-d127-7ad3-b3be-3c33a5e39d4e",
+        "evaluationId": "019c7c81-a599-7d1d-94f6-a541fd1e42cf",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c7f42-12d2-7411-bd34-316a75c1187c"
+        ],
+        "content": "Вот бред на английском, специально заточенный под **Phonk**.\n\nВ фонке (особенно Drift Phonk) голос часто используется просто как еще один инструмент. Слова могут не иметь смысла, главное — **ритм, перкуссивные звуки (п, к, т, б) и повторения**.\n\n### Вариант 1: Drift Phonk (Быстрый, агрессивный)\n\nЭтот текст — ритмическая «каша», имитирующая сэмплы из Мемфис-рэпа, но без реального смысла.\n\n**Style Prompt:** *Drift Phonk, Cowbell, Aggressive, High BPM, Distorted Bass, Lo-Fi Vocals*\n\n**Lyrics:**\n[Intro]\n(Distorted voice sample)\nClick-clack.\nDoom-doom.\nListen to the vroom-vroom.\n\n[Drop]\n(Heavy Cowbell Melody)\nWicka-wacka, click-clack, switch-blade zoom!\nRatta-tatta, flippa-da-scripta, boom-boom-boom!\nShadow-badow, creepin-leepin, doom-doom-doom!\nGotta-getta-grippa, sippin-zippa, vroom-vroom-vroom!\n\n[Verse]\n(Triplet Flow - Fast)\nDigga-dagga, migga-magga, trigger on the finger.\nSwisha-swasha, glitcha-witcha, darkness is a linger.\nYadda-yadda, blabba-blabba, nothing on the radar.\nZoom-zoom, doom-doom, alpha to the beta.\n\n[Outro]\nClick. Clack.\nDoom.\n\n---\n\n### Вариант 2: Dark Phonk (Медленный, тягучий, \"Chopped & Screwed\")\n\nЗдесь слова должны звучать как замедленная, зажеванная пленка. Текст — набор \"мрачных\" звуков.\n\n**Style Prompt:** *Dark Phonk, Memphis Rap, Chopped and Screwed, Slowed, Heavy 808, Eerie*\n\n**Lyrics:**\n[Intro]\n(Slow, deep voice)\nMumble... Jumble...\nSix... Six... Six...\n\n[Hook]\nMurda-murda, wubba-wubba, ghost in the machine.\nSlippa-slappa, drippa-drappa, sipping on the lean.\nKilla-killa, vanilla-zilla, demon on the screen.\nHocus-pocus, lose the focus, nightmare in the green.\n\n[Bridge]\n(Pitch shift down)\nScary-wary...\nHairy-flairy...\nBusta-gusta...\n\n[Drop]\n(Bass Boosted)\nBOW. WOW.\nYIP-YAP. POW.\nGRIP. GRAIN.\nNO. BRAIN.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-21T08:12:44.264582+00:00",
+        "updatedAt": "2026-02-21T08:13:11.104391+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c7c81-a599-7d1d-94f6-a541fd1e42cf",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

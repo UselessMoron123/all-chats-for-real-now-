@@ -1,0 +1,305 @@
+{
+  "exportedAt": "2026-10-09T16:27:51.928Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019da599-d029-7121-9770-a09b6a8f2a5f",
+  "archivedAt": "2026-09-30 20:14:45.507+00",
+  "evaluation": {
+    "id": "019da599-d029-7121-9770-a09b6a8f2a5f",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "Ck2 good custom dynasty name",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019da59a-16ff-7b0d-a0e9-2810df28a402"
+    ],
+    "archivedAt": "2026-09-30 20:14:45.507+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-04-19 11:57:14.751+00",
+    "updatedAt": "2026-04-19 11:57:15.585008+00",
+    "messages": [
+      {
+        "id": "019da59a-16fd-7b17-bf51-420d17a5e739",
+        "evaluationSessionId": "019da599-d029-7121-9770-a09b6a8f2a5f",
+        "evaluationId": "019da59a-23b2-766d-9df4-dadb3c46d186",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "Ck2 good custom dynasty name",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-04-19T11:57:15.58033+00:00",
+        "updatedAt": "2026-04-19T11:57:15.58033+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019da59a-16ff-7b0d-a0e9-2810df28a402",
+        "evaluationSessionId": "019da599-d029-7121-9770-a09b6a8f2a5f",
+        "evaluationId": "019da59a-23b2-766d-9df4-dadb3c46d186",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019da59a-16fd-7b17-bf51-420d17a5e739"
+        ],
+        "content": "Choosing a good dynasty name in Crusader Kings II depends on your culture, your starting location, and the \"vibe\" you want for your playthrough.\n\nHere is a breakdown of custom dynasty names categorized by style and region:\n\n### 1. The \"Noble & Ancient\" Style (Generic Western)\nThese sound established and prestigious, perfect for a high-ranking Count or Duke.\n*   **Vandemar:** Sounds Germanic/Frankish; implies strength.\n*   **de Clarance:** A classic French-style house.\n*   **Valerius:** For those claiming a fake (or real) Roman lineage.\n*   **Aethelgard:** Perfect for an Anglo-Saxon lord.\n*   **Ironwood:** For a sturdy, northern-style family.\n*   **Beaufort:** \"Beautiful Fortress\" in French.\n\n### 2. The \"Ruthless & Dark\" Style\nBest for players who plan on murdering their way to the top of the Byzantine or Holy Roman Empire.\n*   **Morgrave:** Sounds ominous and authoritative.\n*   **Nacht:** German for \"Night.\"\n*   **Drax:** Short, punchy, and villainous.\n*   **Vane:** Simple, elegant, and cold.\n*   **Thorne:** Classic, sharp, and suggests a family that is hard to get rid of.\n\n### 3. Culture-Specific Names\nMatching the linguistic patterns of your region makes the game feel much more immersive.\n\n*   **Norse (Viking):**\n    *   **Siegfridsson:** Simple patronymic.\n    *   **Storm-Eye:** Use a \"Nickname\" style as a dynasty name.\n    *   **Wolf-Skin:** Great for a Berzerker lineage.\n    *   **Hrolfsson:** Traditional and rugged.\n*   **Byzantine (Greek):**\n    *   **Strategos:** Literally \"General.\"\n    *   **Kallistos:** \"The Most Beautiful.\"\n    *   **Draconis:** A Latin-Greek hybrid for \"Dragon.\"\n    *   **Arkonis:** Sounds like a ruling class name.\n*   **Celtic (Irish/Scottish/Welsh):**\n    *   **O’Finnigan:** Classic Irish.\n    *   **MacAlistair:** \"Son of the Defender.\"\n    *   **Pendragon:** If you are trying to reclaim Britannia as a Welshman.\n    *   **Dunstan:** Old English/Celtic feel.\n*   **Iberian (Spanish/Portuguese):**\n    *   **de la Vega:** \"Of the Meadow.\"\n    *   **de Luna:** \"Of the Moon.\"\n    *   **Cortes:** Very formal and regal.\n\n### 4. Based on Landmarks (The \"Locative\" Method)\nHistorically, many dynasties took names from the land they owned.\n*   **[Town Name] + er:** e.g., if you own Hamburg, be **Hamburger**.\n*   **von [Castle Name]:** e.g., **von Rheinfels**.\n*   **de [River Name]:** e.g., **de Loire**.\n\n### 5. Fantasy-Inspired (Subtle)\nNames that sound like they could be from *A Song of Ice and Fire* or *The Witcher* without being too \"meta.\"\n*   **Hightower**\n*   **Blackwood**\n*   **Redwyne**\n*   **Castellane**\n*   **Tenebris**\n\n### Pro-Tips for CK2 Dynasty Naming:\n*   **The \"De\" Factor:** If you are playing French, Italian, or Spanish, remember that the game will often put your dynasty name after your title (e.g., King Louis *of* [Dynasty]). If you name your dynasty \"de Valois,\" it might show up as \"King Louis of de Valois,\" which looks messy. Check your culture's naming conventions first.\n*   **Check the COA:** Match your name to your Coat of Arms. If your name is **Fox**, put a fox on your shield!\n*   **Dynasty Motto:** If you have the *Customization Pack* DLC, you can’t set a motto, but you can imagine one to help pick the name. \"House Ironwood: We Do Not Bend.\"",
+        "experimental_attachments": [],
+        "modelId": "019b24bb-5caf-71c3-b854-37d0c7086f21",
+        "createdAt": "2026-04-19T11:57:15.582877+00:00",
+        "updatedAt": "2026-04-19T11:57:25.6571+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 6,
+            "totalTokens": 944,
+            "usageSource": "provider",
+            "outputTokens": 938,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 0
+          },
+          "p2lConfig": {
+            "eta": 0.1,
+            "beta": 2,
+            "type": "bt-regularized-latency-cost",
+            "alpha": 1,
+            "timing": {
+              "glm-5.1-text": {
+                "ttcs": 73430,
+                "ttft": 39731
+              },
+              "gemini-3-flash": {
+                "ttcs": 15084,
+                "ttft": 7545
+              },
+              "claude-opus-4-6": {
+                "ttcs": 42774,
+                "ttft": 1898
+              },
+              "claude-sonnet-4-6": {
+                "ttcs": 31669,
+                "ttft": 1436
+              },
+              "gpt-5.4-mini-high": {
+                "ttcs": 19306,
+                "ttft": 11878
+              },
+              "gpt-5.2-chat-latest": {
+                "ttcs": 10052,
+                "ttft": 1193
+              },
+              "gemini-3.1-pro-preview": {
+                "ttcs": 34683,
+                "ttft": 21625
+              },
+              "claude-opus-4-5-20251101": {
+                "ttcs": 28881,
+                "ttft": 1877
+              },
+              "claude-opus-4-6-thinking": {
+                "ttcs": 51977,
+                "ttft": 12435
+              },
+              "gpt-5.4-no-system-prompt": {
+                "ttcs": 22695,
+                "ttft": 972
+              },
+              "gpt-5.4-high-no-system-prompt": {
+                "ttcs": 48864,
+                "ttft": 26621
+              },
+              "grok-4.20-beta-0309-reasoning": {
+                "ttcs": 11810,
+                "ttft": 5521
+              },
+              "gemini-3-flash-thinking-minimal": {
+                "ttcs": 9531,
+                "ttft": 2085
+              },
+              "grok-4.20-multi-agent-beta-0309": {
+                "ttcs": 16888,
+                "ttft": 10265
+              },
+              "claude-opus-4-5-20251101-thinking-32k": {
+                "ttcs": 37086,
+                "ttft": 10652
+              }
+            },
+            "pricing": {
+              "glm-5.1-text": {
+                "inputPrice": 0.95,
+                "outputPrice": 0.010105
+              },
+              "gemini-3-flash": {
+                "inputPrice": 0.5,
+                "outputPrice": 0.005103
+              },
+              "claude-opus-4-6": {
+                "inputPrice": 5,
+                "outputPrice": 0.09263
+              },
+              "claude-sonnet-4-6": {
+                "inputPrice": 3,
+                "outputPrice": 0.064832
+              },
+              "gpt-5.4-mini-high": {
+                "inputPrice": 2.5,
+                "outputPrice": 0.052292
+              },
+              "gpt-5.2-chat-latest": {
+                "inputPrice": 1.75,
+                "outputPrice": 0.010976
+              },
+              "gemini-3.1-pro-preview": {
+                "inputPrice": 2,
+                "outputPrice": 0.021722
+              },
+              "claude-opus-4-5-20251101": {
+                "inputPrice": 5,
+                "outputPrice": 0.0618975
+              },
+              "claude-opus-4-6-thinking": {
+                "inputPrice": 5,
+                "outputPrice": 0.1199
+              },
+              "gpt-5.4-no-system-prompt": {
+                "inputPrice": 2.5,
+                "outputPrice": 0.029058
+              },
+              "gpt-5.4-high-no-system-prompt": {
+                "inputPrice": 2.5,
+                "outputPrice": 0.061404
+              },
+              "grok-4.20-beta-0309-reasoning": {
+                "inputPrice": 2,
+                "outputPrice": 0.006101
+              },
+              "gemini-3-flash-thinking-minimal": {
+                "inputPrice": 0.5,
+                "outputPrice": 0.003498
+              },
+              "grok-4.20-multi-agent-beta-0309": {
+                "inputPrice": 2,
+                "outputPrice": 0.040748
+              },
+              "claude-opus-4-5-20251101-thinking-32k": {
+                "inputPrice": 5,
+                "outputPrice": 0.13855
+              }
+            },
+            "threshold": 0.9
+          },
+          "p2lModelData": [
+            {
+              "name": "gemini-3-flash-thinking-minimal-fixed-20251224",
+              "penalty": -0.7689170415159949,
+              "winProb": 0.9648582267716272,
+              "normalizedTtg": 0.18216068108425482,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.052477913971458054,
+              "normalizedInputPrice": 0.1,
+              "normalizedOutputPrice": 0.025247203175748825,
+              "leaderboardCoefficient": 0.7265625
+            },
+            {
+              "name": "gemini-3-flash",
+              "penalty": -0.6118805292510019,
+              "winProb": 0.9570576750786455,
+              "normalizedTtg": 0.1844358547803112,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.18990209156577986,
+              "normalizedInputPrice": 0.1,
+              "normalizedOutputPrice": 0.03683146878383255,
+              "leaderboardCoefficient": 0.7109375
+            },
+            {
+              "name": "gpt-5.2-chat-latest",
+              "penalty": -0.4352922338596351,
+              "winProb": 0.9162125272589521,
+              "normalizedTtg": 0.216728642724337,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.03002693111172636,
+              "normalizedInputPrice": 0.35,
+              "normalizedOutputPrice": 0.07922049801515697,
+              "leaderboardCoefficient": 0.62890625
+            },
+            {
+              "name": "gemini-3.1-pro-preview",
+              "penalty": 0.13301166010705145,
+              "winProb": 1,
+              "normalizedTtg": 0.3194539583129465,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.5442853187687197,
+              "normalizedInputPrice": 0.4,
+              "normalizedOutputPrice": 0.15678094550703717,
+              "leaderboardCoefficient": 0.796875
+            },
+            {
+              "name": "gpt-5.4-high-no-system-prompt",
+              "penalty": 0.7553019470673374,
+              "winProb": 0.9123349892846087,
+              "normalizedTtg": 0.5441579410901263,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.6700309581938537,
+              "normalizedInputPrice": 0.5,
+              "normalizedOutputPrice": 0.4431901840490797,
+              "leaderboardCoefficient": 0.62109375
+            }
+          ],
+          "routedModelId": "019b5265-8405-799e-87af-199dc9f4ad4a",
+          "fromAutoRouter": true,
+          "routedModelName": "gemini-3-flash-thinking-minimal-fixed-20251224",
+          "optimizerVariant": "default",
+          "routedModelOrganization": "google"
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019da59a-23b2-766d-9df4-dadb3c46d186",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b24bb-5caf-71c3-b854-37d0c7086f21",
+        "organization": "boss-bandit",
+        "provider": "boss-bandit",
+        "publicName": "Max",
+        "name": "boss-bandit",
+        "displayName": "Max",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": {
+              "multipleImages": true
+            }
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true,
+            "image": {
+              "aspectRatios": [
+                "1:1"
+              ]
+            },
+            "search": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

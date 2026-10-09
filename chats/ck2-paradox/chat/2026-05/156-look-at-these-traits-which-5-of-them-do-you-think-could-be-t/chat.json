@@ -1,0 +1,103 @@
+{
+  "exportedAt": "2026-10-09T16:27:50.845Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019de50e-2d29-729d-a38a-e323e523dc2a",
+  "archivedAt": "2026-09-30 20:13:58.412+00",
+  "evaluation": {
+    "id": "019de50e-2d29-729d-a38a-e323e523dc2a",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "look at these traits. which 5 of them do you think could be the best/universal combination for any k",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019de50e-9ed9-72d0-844c-8a3a623bb009"
+    ],
+    "archivedAt": "2026-09-30 20:13:58.412+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-05-01 19:40:43.187+00",
+    "updatedAt": "2026-05-01 19:40:43.868023+00",
+    "messages": [
+      {
+        "id": "019de50e-9ed6-71fb-9af0-b22c5adb4525",
+        "evaluationSessionId": "019de50e-2d29-729d-a38a-e323e523dc2a",
+        "evaluationId": "019de50e-c5a4-75d6-a863-4162f4473834",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "look at these traits. which 5 of them do you think could be the best/universal combination for any kind of ruler?\n\nenvious = {\n\tintrigue = 2\n\tdiplomacy = -1\n\tcombat_rating = 3\n\tliege_opinion = -15\n}\n\ngreedy = {\n\tglobal_tax_modifier = 0.1\n\tdiplomacy = -1\n}\n\nlustful = {\n\tmonthly_character_piety = -0.25\n\tintrigue = 1\n\tfertility = 0.2\n}\n\nproud = {\n\tmonthly_character_prestige = 0.5\n}\n\nwroth = {\n\tmartial = 3\n\tintrigue = -1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncharitable = {\n\tdiplomacy = 3\n\tcombat_rating = -3\n}\n\nchaste = {\n\tmonthly_character_piety = 0.5\n\tlearning = 1\n\tfertility = -0.15\n}\n\ndiligent = {\n\tmartial = 1\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tvassal_opinion = 5\n}\n\nhumble = {\n\tmonthly_character_piety = 1.0\n}\n\nkind = {\n\tintrigue = -2\n\tdiplomacy = 2\n\tcombat_rating = -5\n}\n\npatient = {\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tcombat_rating = 5\n}\n\ntemperate = {\n\tstewardship = 2\n}\n\nambitious = {\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3\n}\n\nbrave = {\n\tmartial = 2\n\tcombat_rating = 10\n}\n\ncruel = {\n\tintrigue = 1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncynical = {\n\tmonthly_character_piety = -0.2\n\tintrigue = 2\n}\n\ndeceitful = {\n\tintrigue = 3\n\tdiplomacy = -2\n\tcombat_rating = 3\n}\n\nerudite = {\n\tlearning = 2\n\tcombat_rating = -2\n}\n\ngregarious = {\n\tdiplomacy = 2\n\tsex_appeal_opinion = 5\n}\n\nhonest = {\n\tintrigue = -2\n\tdiplomacy = 3\n\tcombat_rating = -2\n}\n\njust = {\n\tstewardship = 2\n\tlearning = 1\n}\n\nparanoid = {\n\tintrigue = 2\n\tdiplomacy = -1\n}\n\nzealous = {\n\tmonthly_character_piety = 1\n\tmartial = 2\n\topinion_against_infidels = -25\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-05-01T19:40:43.832853+00:00",
+        "updatedAt": "2026-05-01T19:40:43.832853+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019de50e-9ed9-72d0-844c-8a3a623bb009",
+        "evaluationSessionId": "019de50e-2d29-729d-a38a-e323e523dc2a",
+        "evaluationId": "019de50e-c5a4-75d6-a863-4162f4473834",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019de50e-9ed6-71fb-9af0-b22c5adb4525"
+        ],
+        "content": "# 🏰 Top 5 Universal Ruler Traits\n\nThe goal: **maximize power, stability, and flexibility** across war, diplomacy, economy, and intrigue — regardless of realm size or era.\n\n| Rank | Trait | Why it's universal |\n|------|-------|--------------------|\n| 🥇 | **ambitious** | +2 to **ALL** skills + combat. The single most efficient stat bomb in the game. Covers every gap. |\n| 🥈 | **diligent** | +1 to all skills + **+5 vassal opinion** (stability king). The \"boring but unstoppable\" choice. |\n| 🥉 | **patient** | +1 int/dip/stew/learn + **+5 combat** (best combat bonus outside brave). Ruler who plans AND fights. |\n| 4️⃣ | **brave** | **+10 combat rating** = best field commander. Decisive in war, feared in duels. |\n| 5️⃣ | **temperate** | **+2 stewardship** = more taxes, better buildings. Silent economic engine. |\n\n---\n\n### 💡 Why NOT others?\n\n| Often-tempting | Problem |\n|---|---|\n| proud | prestige is cosmetic, no stats |\n| just | +2 stew but narrow; temperate covers it cleaner |\n| zealous | anti-infidel penalty is situational |\n| greedy | +10% tax is nice but **-1 dip hurts diplomacy badly** |\n| cruel/deceitful | strong intrigue but diplomatic poison |\n\n### ⚡ Synergy snapshot:\n> **Ambitious + Diligent + Patient + Brave + Temperate**\n> = +martial +5, +intrigue +4, +diplomacy +4, +stewardship +6, +learning +4, +combat ~18, +vassal opinion +5\n> → **A ruler who wins wars, keeps vassals loyal, grows the economy, and outschemes rivals.**",
+        "experimental_attachments": [],
+        "modelId": "019ce48d-4a2c-7173-a667-7f05ce5402cb",
+        "createdAt": "2026-05-01T19:40:43.850387+00:00",
+        "updatedAt": "2026-05-01T19:40:51.382185+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 685,
+            "totalTokens": 1117,
+            "usageSource": "provider",
+            "outputTokens": 432,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 0
+          },
+          "fromAutoRouter": false
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019de50e-c5a4-75d6-a863-4162f4473834",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019ce48d-4a2c-7173-a667-7f05ce5402cb",
+        "organization": "meituan",
+        "provider": "meituanSankuai",
+        "publicName": "frieza",
+        "name": "frieza",
+        "displayName": "longcat-flash-chat-2602-exp",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

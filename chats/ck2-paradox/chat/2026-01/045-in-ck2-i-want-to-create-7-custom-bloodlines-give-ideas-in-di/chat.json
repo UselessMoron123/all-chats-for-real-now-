@@ -1,0 +1,247 @@
+{
+  "exportedAt": "2026-10-09T16:28:05.488Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019b9db5-effc-775a-bc79-72727604c134",
+  "archivedAt": "2026-09-30 20:21:11.18+00",
+  "evaluation": {
+    "id": "019b9db5-effc-775a-bc79-72727604c134",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "In CK2 i want to create 7 custom bloodlines. Give ideas in different directions.",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019b9dd4-b9c1-7273-b603-dc5157acb078"
+    ],
+    "archivedAt": "2026-09-30 20:21:11.18+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-01-08 13:06:39.606+00",
+    "updatedAt": "2026-03-11 04:23:37.146191+00",
+    "messages": [
+      {
+        "id": "019b9db7-59da-741a-be5b-c745f4ec54e5",
+        "evaluationSessionId": "019b9db5-effc-775a-bc79-72727604c134",
+        "evaluationId": "019b9db7-6176-7326-819c-9e06b9764b3a",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "In CK2 i want to create 7 custom bloodlines. Give ideas in different directions.",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-01-08T13:06:39.830374+00:00",
+        "updatedAt": "2026-01-08T13:06:39.830374+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b9db7-59db-75b6-bee5-49339149abcd",
+        "evaluationSessionId": "019b9db5-effc-775a-bc79-72727604c134",
+        "evaluationId": "019b9db7-6176-7326-819c-9e06b9764b3a",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b9db7-59da-741a-be5b-c745f4ec54e5"
+        ],
+        "content": "Here are 7 distinct ideas for custom bloodlines in *Crusader Kings II*, covering various playstyles (Tall, Map-Painting, Intrigue, Roleplay, etc.).\n\nIf you are modding these in, I have included the types of modifiers you would look for in the files. If you are using the \"Create Custom Bloodline\" ambition in-game, these represent the archetypes you should aim for.\n\n### 1. The \"Grand Architect\" (Stewardship / Tall Play)\n**Theme:** A bloodline founded by a ruler who cared more about infrastructure, universities, and prosperity than war.\n*   **Name:** Blood of the Stone-Mason / Blood of the City-Builder\n*   **Modifiers:**\n    *   **Build Cost:** -15%\n    *   **Build Time:** -15%\n    *   **City Vassal Opinion:** +10\n    *   **Prestige:** +0.20/month\n*   **Special Effect:** Higher chance to trigger prosperity events in owned provinces.\n*   **Roleplay:** Perfect for a Republic run or playing \"Tall\" in a small kingdom (like Brittany or Sardinia), focusing on becoming the richest dynasty in the world.\n\n### 2. The \"Spider’s Web\" (Intrigue / Paranoia)\n**Theme:** A lineage known for assassination, spies, and ruling from the shadows.\n*   **Name:** Blood of the Silent Dagger\n*   **Modifiers:**\n    *   **Plot Power:** +20%\n    *   **Plot Power Defense:** +20%\n    *   **Imprisonment Chance:** +10%\n    *   **General Opinion:** -5 (People don't trust you)\n*   **Special Effect:** Can use the **\"Spy On\"** interaction even without the Intrigue focus (or boosts it significantly).\n*   **Roleplay:** Essential for a dynasty that wants to manipulate succession laws in foreign kingdoms by murdering the competition.\n\n### 3. The \"Divine Scourge\" (Martial / Zealot)\n**Theme:** A bloodline forged in Holy Wars. This is for the ruler who spent their life crushing infidels and heretics.\n*   **Name:** Blood of the Holy Flame\n*   **Modifiers:**\n    *   **Damage against Religious Enemies:** +15%\n    *   **Morale Damage:** +10%\n    *   **Church Vassal Opinion:** +10\n    *   **Piety:** +0.50/month\n*   **Special Effect:** Characters with this bloodline attract zealot commanders and holy warriors to their court periodically.\n*   **Roleplay:** Great for a Reconquista run or a Jerusalem Kingdom run.\n\n### 4. The \"Genetic Perfection\" (Diplomacy / Eugenics)\n**Theme:** A bloodline focused on beauty, fertility, and maintaining the purity of the dynasty.\n*   **Name:** Blood of the Golden Rose\n*   **Modifiers:**\n    *   **Fertility:** +15%\n    *   **Sex Appeal (Attraction Opinion):** +15\n    *   **Vassal Opinion:** +5\n    *   **Health:** +0.5\n*   **Special Effect:** Small increase in the chance of inheriting \"Good\" genetic traits (Strong, Genius, Attractive) or a reduction in inbreeding penalties (if you want a Targaryen-style run).\n*   **Roleplay:** The goal is to marry your daughters/sons onto every throne in Europe, eventually claiming them all through inheritance.\n\n### 5. The \"Wolf of the Steppes\" (Combat / Mobility)\n**Theme:** Geared towards Nomads or Tribal rulers. Focused on cavalry and movement speed.\n*   **Name:** Blood of the Eternal Rider\n*   **Modifiers:**\n    *   **Light Cavalry Offense:** +20%\n    *   **Horse Archers Offense:** +15%\n    *   **Army Movement Speed:** +10%\n    *   **Personal Combat Skill:** +10\n*   **Special Effect:** Ability to Loot/Raid regardless of government type (if moddable), or drastically reduced attrition.\n*   **Roleplay:** For the player who wants to be the next Genghis Khan, swarming enemies before they can even gather their levies.\n\n### 6. The \"Scholar King\" (Learning / Technology)\n**Theme:** A bloodline dedicated to the Hermetic Society, stars, and knowledge.\n*   **Name:** Blood of the Arcane Truth\n*   **Modifiers:**\n    *   **Technology Spread Rate:** +20%\n    *   **Learning:** +3\n    *   **Opinion of Mystics/Scholars:** +20\n    *   **Cultural Tech Points gain:** +10%\n*   **Special Effect:** Characters of this bloodline have a much higher chance of writing high-quality books (Magnum Opus).\n*   **Roleplay:** For playing a civilized, highly advanced pocket of the world that out-techs neighbors by 200 years.\n\n### 7. The \"Dread Lord\" (Fear / Tyranny)\n**Theme:** A bloodline that keeps vassals in line not through love, but through sheer terror.\n*   **Name:** Blood of the Iron Fist\n*   **Modifiers:**\n    *   **Revolt Risk:** -10% (Global)\n    *   **Arrest Chance:** +20%\n    *   **Execution Prestige:** Gains prestige when executing prisoners.\n    *   **Diplomacy:** -3\n*   **Special Effect:** Unlocks unique torture options or interaction to \"Intimidate Vassal\" to force them out of factions.\n*   **Roleplay:** Perfect for the Byzantine Empire or large unstable realms where you are tired of constant vassal rebellions. You rule with fear.\n\n### Implementation Tip\nIf you are adding these via **modding** (editing the `common/bloodlines` files), remember to set the **Inheritance Flags** correctly:\n*   `patrilineal_descent` (Standard)\n*   `matrilineal_descent` (Good for Enatic clans)\n*   `bastard_founder_allows_bastard_inheritance` (Crucial if you plan on having many lovers).",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-01-08T13:06:39.835602+00:00",
+        "updatedAt": "2026-01-08T13:07:10.567472+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b9dc1-2293-79fc-8542-f17522a37f59",
+        "evaluationSessionId": "019b9db5-effc-775a-bc79-72727604c134",
+        "evaluationId": "019b9db7-6176-7326-819c-9e06b9764b3a",
+        "role": "user",
+        "parentMessageIds": [
+          "019b9db7-59db-75b6-bee5-49339149abcd"
+        ],
+        "content": "More",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-01-08T13:17:21.101005+00:00",
+        "updatedAt": "2026-01-08T13:17:21.101005+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b9dc1-2294-7b98-833b-097b2f01d339",
+        "evaluationSessionId": "019b9db5-effc-775a-bc79-72727604c134",
+        "evaluationId": "019b9db7-6176-7326-819c-9e06b9764b3a",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b9dc1-2293-79fc-8542-f17522a37f59"
+        ],
+        "content": "Here are 7 additional custom bloodline ideas for *Crusader Kings II*, exploring new mechanics like naval warfare, mercenaries, tolerance, and personal combat.\n\n### 8. The \"Sea King\" (Naval / Trade)\n**Theme:** A bloodline for the rulers of the waves—be they Viking raiders or Merchant Republic Doges.\n*   **Name:** Blood of the Endless Horizon\n*   **Modifiers:**\n    *   **Ship Building Cost:** -30%\n    *   **Trade Post Cost:** -15%\n    *   **Naval Speed:** +20%\n    *   **Global Trade Value:** +10%\n*   **Special Effect:** Can navigate major rivers (even if not Germanic Pagan) or reduced attrition at sea.\n*   **Roleplay:** Perfect for a Merchant Republic of Venice/Gotland, or a Viking dynasty that settled in the Mediterranean but wants to keep raiding.\n\n### 9. The \"Living Legend\" (Personal Combat / Dueling)\n**Theme:** For the ruler who didn't just command from the back, but killed 50 men personally on the battlefield. Geared towards Warrior Lodges.\n*   **Name:** Blood of the Arena Champion\n*   **Modifiers:**\n    *   **Personal Combat Skill:** +20\n    *   **Prestige:** +0.5/month\n    *   **Enemy Commander Capture Chance:** +10%\n    *   **Retinue Reinforce Rate:** +10%\n*   **Special Effect:** Significantly reduced chance of dying in battle. Unlocks a special \"Challenge to Duel\" interaction with rivals that they cannot refuse without massive prestige loss.\n*   **Roleplay:** For characters who want to stack bloodlines by joining Warrior Lodges and winning every duel.\n\n### 10. The \"Condottieri\" (Mercenaries / Wealth)\n**Theme:** A bloodline that understands that loyalty is bought. Focused on gold and hired swords.\n*   **Name:** Blood of the Gilded Contract\n*   **Modifiers:**\n    *   **Mercenary Hire Cost:** -25%\n    *   **Mercenary Maintenance:** -20%\n    *   **National Tax Modifier:** +10%\n    *   **Levy Size:** -10% (You rely on pros, not peasants)\n*   **Special Effect:** High likelihood of \"Great Captains\" (high martial lowborns) arriving at your court seeking employment.\n*   **Roleplay:** Ideal for small, rich realms (like playing Tall in Flanders or Tuscany) where you don't have the manpower but have the money to fight the HRE.\n\n### 11. The \"Great Unifier\" (Tolerance / Stability)\n**Theme:** A cosmopolitan bloodline for creating multi-cultural empires without constant revolts.\n*   **Name:** Blood of the Open Hand\n*   **Modifiers:**\n    *   **Short Reign Penalty:** -50% (New rulers are accepted faster)\n    *   **Different Culture Vassal Opinion:** +15\n    *   **Different Religion Vassal Opinion:** +10\n    *   **Diplomacy:** +2\n*   **Special Effect:** Drastically reduced \"Foreigner\" opinion penalties.\n*   **Roleplay:** Essential for playing the Byzantine Empire, Persian Empire, or any game where you expand rapidly into lands that hate you.\n\n### 12. The \"Iron Sentinel\" (Defense / Fortification)\n**Theme:** A turtle-style bloodline. You don't expand; you make your current land impossible to conquer.\n*   **Name:** Blood of the Unyielding Wall\n*   **Modifiers:**\n    *   **Fort Level:** +1.0 (Global)\n    *   **Garrison Size:** +20%\n    *   **Defensive Bonus (In controlled territory):** +25%\n    *   **Siege Defense:** +30%\n*   **Special Effect:** Enemy armies suffer significantly higher attrition when walking through your lands.\n*   **Roleplay:** Playing a small Kingdom (like Wales or Armenia) sandwiched between massive empires, ensuring they bleed dry if they try to attack you.\n\n### 13. The \"Forest Warden\" (Terrain / Ambush)\n**Theme:** Guerrilla warfare. Utilizing terrain to defeat superior numbers.\n*   **Name:** Blood of the Wild Hunt\n*   **Modifiers:**\n    *   **Movement Speed:** +10%\n    *   **Leading Troops in Woods/Forest/Hills:** +20% Defense/Offense\n    *   **Light Infantry Offense:** +20%\n    *   **Archers Offense:** +15%\n*   **Special Effect:** Commanders with this bloodline have a high chance of rolling \"Narrow Flank\" tactics, allowing small armies to hold off massive doomstacks.\n*   **Roleplay:** Perfect for a Welsh or Scottish longbow run, or a pagan tribe in the dense forests of Finland/Russia.\n\n### 14. The \"Saintly Healer\" (Health / Benevolence)\n**Theme:** A bloodline focused on survival, hospitals, and caring for the sick.\n*   **Name:** Blood of the Miracle Worker\n*   **Modifiers:**\n    *   **Disease Resistance:** +20% (Court)\n    *   **Hospital Construction Cost:** -25%\n    *   **Health:** +1.0\n    *   **Religious Vassal Opinion:** +15\n*   **Special Effect:** Greatly increased chance of successful treatments by Court Physicians. Lower chance of epidemics spreading to your capital.\n*   **Roleplay:** Essential for surviving the Black Death and maximizing the lifespan of your rulers so they can rule for 50+ years.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-01-08T13:17:21.90134+00:00",
+        "updatedAt": "2026-01-08T13:17:56.852547+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b9dc6-58af-7db2-b18e-69414417e389",
+        "evaluationSessionId": "019b9db5-effc-775a-bc79-72727604c134",
+        "evaluationId": "019b9db7-6176-7326-819c-9e06b9764b3a",
+        "role": "user",
+        "parentMessageIds": [
+          "019b9dc1-2294-7b98-833b-097b2f01d339"
+        ],
+        "content": "7 bloodline focused on personal attributes",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-01-08T13:23:02.887898+00:00",
+        "updatedAt": "2026-01-08T13:23:02.887898+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b9dc6-58b1-7d4a-9636-f0ddcddedc2f",
+        "evaluationSessionId": "019b9db5-effc-775a-bc79-72727604c134",
+        "evaluationId": "019b9db7-6176-7326-819c-9e06b9764b3a",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b9dc6-58af-7db2-b18e-69414417e389"
+        ],
+        "content": "Here are 7 custom bloodlines strictly focused on **Personal Attributes**. These are designed to boost the specific stats and capabilities of the character themselves, rather than their armies or buildings.\n\n### 15. The \"Silver Tongue\" (Diplomacy Focus)\n**Theme:** A bloodline for rulers who can talk their way out of anything.\n*   **Name:** Blood of the Great Negotiator\n*   **Attribute Modifiers:**\n    *   **Diplomacy:** +4\n    *   **General Opinion:** +5\n    *   **Vassal Opinion:** +5\n*   **Special Effect:** Characters are much more likely to succeed when using the \"Offer Vassalization\" diplomatic interaction.\n*   **Why use it:** Essential for rapidly expanding your realm peacefully or keeping a massive, unstable empire from fracturing upon succession.\n\n### 16. The \"Titan\" (Martial Prowess Focus)\n**Theme:** Distinct from commanding armies, this is about physical strength and personal combat skill (PCS).\n*   **Name:** Blood of the Giant-Slayer\n*   **Attribute Modifiers:**\n    *   **Martial:** +3\n    *   **Personal Combat Skill:** +20\n    *   **Health:** +0.5\n*   **Special Effect:** Characters tend to gain the \"Brawny\" or \"Strong\" traits more often (via event) and have a reduced chance of receiving wounds in battle.\n*   **Why use it:** If you enjoy the Warrior Lodge mechanics or leading troops personally without dying immediately.\n\n### 17. The \"Midas Touch\" (Stewardship Focus)\n**Theme:** Pure management skill. The ability to hold more land personally than anyone else.\n*   **Name:** Blood of the Penny-Pincher\n*   **Attribute Modifiers:**\n    *   **Stewardship:** +4\n    *   **Demesne Size Limit:** +1 (Very powerful)\n    *   **Greed:** AI characters with this bloodline tend to hoard gold.\n*   **Special Effect:** Reduced chance of gaining the \"Stressed\" or \"Depressed\" traits when Over Domain Limit.\n*   **Why use it:** Demesne limit is the most powerful modifier in the game. Holding 1 extra castle personally is worth more than 5 vassals.\n\n### 18. The \"Faceless Man\" (Intrigue Focus)\n**Theme:** A bloodline focused not just on killing, but on not getting caught. High defensiveness.\n*   **Name:** Blood of the Elusive Shadow\n*   **Attribute Modifiers:**\n    *   **Intrigue:** +4\n    *   **Plot Power Defense:** +25%\n    *   **Imprisonment Chance:** +15%\n*   **Special Effect:** Greatly reduced chance of plots against the character being discovered.\n*   **Why use it:** If you are tired of your genius heirs being murdered by their jealous aunts. This makes your dynasty incredibly difficult to assassinate.\n\n### 19. The \"Oracle\" (Learning Focus)\n**Theme:** A bloodline for the highly educated, the theologians, and the mystics.\n*   **Name:** Blood of the Ancient Wisdom\n*   **Attribute Modifiers:**\n    *   **Learning:** +5\n    *   **Piety:** +0.25/month\n    *   **Tech Spread Rate:** +10%\n*   **Special Effect:** Characters have a higher chance of successfully treating illnesses themselves if they take the \"Renowned Physician\" path.\n*   **Why use it:** High Learning helps rush technology, but it also helps with the Hermetic Society and composing high-quality books (Magnum Opus).\n\n### 20. The \"Broodmother / Patriarch\" (Fertility Focus)\n**Theme:** A bloodline dedicated to biological success and dynastic survival.\n*   **Name:** Blood of the Fertile Plains\n*   **Attribute Modifiers:**\n    *   **Fertility:** +25%\n    *   **Health:** +1.0\n    *   **Family Opinion:** +10\n*   **Special Effect:** Lower chance of women dying in childbirth and lower infant mortality rates (via event triggers).\n*   **Why use it:** If you are playing a small religion (like Zoroastrian) or a difficult start where one bad flu could wipe out your whole game.\n\n### 21. The \"Polymath\" (All-Rounder Focus)\n**Theme:** A bloodline for the \"Renaissance Man.\" Not a master of one, but good at everything.\n*   **Name:** Blood of the Enlightened Soul\n*   **Attribute Modifiers:**\n    *   **Diplomacy:** +1\n    *   **Martial:** +1\n    *   **Stewardship:** +1\n    *   **Intrigue:** +1\n    *   **Learning:** +1\n*   **Special Effect:** Character gains prestige/piety slightly faster and has a small opinion boost with all \"Smart\" characters (Genius/Quick/Shrewd).\n*   **Why use it:** The versatility makes this the safest bloodline. No matter what education your heir gets, this bloodline ensures they are at least competent.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-01-08T13:23:02.904889+00:00",
+        "updatedAt": "2026-01-08T13:23:33.188872+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b9dcb-c468-7f06-867a-07207572e5e6",
+        "evaluationSessionId": "019b9db5-effc-775a-bc79-72727604c134",
+        "evaluationId": "019b9db7-6176-7326-819c-9e06b9764b3a",
+        "role": "user",
+        "parentMessageIds": [
+          "019b9dc6-58b1-7d4a-9636-f0ddcddedc2f"
+        ],
+        "content": "What else in same field?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-01-08T13:28:58.563497+00:00",
+        "updatedAt": "2026-01-08T13:28:58.563497+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b9dcb-c46a-76d6-88a6-35ac1dab39cc",
+        "evaluationSessionId": "019b9db5-effc-775a-bc79-72727604c134",
+        "evaluationId": "019b9db7-6176-7326-819c-9e06b9764b3a",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b9dcb-c468-7f06-867a-07207572e5e6"
+        ],
+        "content": "Here are 7 more bloodlines focused on **Personal Attributes**, but diving deeper into personality traits, social interactions, and physical quirks rather than just raw base stats (like Learning or Martial).\n\n### 22. The \"Siren / Casanova\" (Attraction Focus)\n**Theme:** Distinct from fertility, this is about pure charisma and seduction. The \"Master Seducer\" archetype.\n*   **Name:** Blood of the Bewitching Smile\n*   **Attribute Modifiers:**\n    *   **Sex Appeal (Attraction Opinion):** +25 (Massive boost)\n    *   **Seduction Plot Power:** +20%\n    *   **Opinion of Lovers:** +15\n    *   **Intrigue:** +2\n*   **Special Effect:** AI characters with this bloodline will prioritize the Seduction focus. High chance of gaining the \"Lustful\" or \"Attractive\" traits.\n*   **Why use it:** To destabilize rival kingdoms by seducing their queens/kings, or simply to ensure you always have a lover to protect you from plots.\n\n### 23. The \"Party Animal\" (Social/Carousing Focus)\n**Theme:** A bloodline for rulers who rule through friendship and feasts rather than laws.\n*   **Name:** Blood of the Hearth-Keeper\n*   **Attribute Modifiers:**\n    *   **Opinion of Friends:** +25\n    *   **Diplomacy:** +2\n    *   **Prestige:** +0.5/month\n    *   **General Opinion:** +5\n*   **Special Effect:** Carousing (Partying) is much more effective. Higher chance of gaining the \"Gregarious\" or \"Socializer\" traits.\n*   **Why use it:** Friends in CK2 cannot join factions against you. If you befriend your 5 strongest vassals, you are immune to civil wars.\n\n### 24. The \"Paragon of Virtue\" (Morality Focus)\n**Theme:** A bloodline that naturally gravitates toward the \"Seven Heavenly Virtues\" (Kind, Just, Temperate, etc.).\n*   **Name:** Blood of the White Soul\n*   **Attribute Modifiers:**\n    *   **Same Religion Opinion:** +10\n    *   **Church Vassal Opinion:** +15\n    *   **Monthly Piety:** +1.0\n    *   **Learnng:** +2\n*   **Special Effect:** Reduced chance of gaining \"Sin\" traits (Gluttonous, Envious, etc.). AI characters act with high \"Honor\" and \"Rationality.\"\n*   **Why use it:** Great for stability and rapid Sainthood/Beatification upon death.\n\n### 25. The \"Iron-Willed Survivor\" (Resilience Focus)\n**Theme:** Not necessarily a great warrior, but someone who is incredibly hard to kill via disease, torture, or depression.\n*   **Name:** Blood of the Unbroken\n*   **Attribute Modifiers:**\n    *   **Health:** +1.5 (Very high)\n    *   **Disease Defense:** +25%\n    *   **Stress Threshold:** Higher (Hidden modifier: less likely to get Stressed/Depressed)\n*   **Special Effect:** Characters recover from wounds and illnesses much faster. High chance to gain \"Stubborn\" or \"Brawny.\"\n*   **Why use it:** The most frustrating way to lose in CK2 is your ruler dying of \"Poor Health\" at age 24. This prevents that.\n\n### 26. The \"Lunatic Visionary\" (Madness Focus)\n**Theme:** A bloodline touched by the moon. Genius often comes with madness.\n*   **Name:** Blood of the Fractured Mind\n*   **Attribute Modifiers:**\n    *   **Random Skill Buff:** +1 to +3 to a random stat (varies by character).\n    *   **Opinion of Mystics:** +20\n    *   **General Opinion:** -5 (People are unsettled by you)\n*   **Special Effect:** significantly higher chance of gaining the \"Lunatic\" or \"Possessed\" trait, but also unlocks the unique events associated with them (like the Glitterhoof horse event or the Cthulhu event chain).\n*   **Why use it:** For a \"Chaotic\" playthrough. The Lunatic trait unlocks unique buildings (Glass Monument) and laws.\n\n### 27. The \"Vile Hedonist\" (Sin Focus)\n**Theme:** The opposite of the Paragon. This bloodline embraces the Seven Deadly Sins for fun and profit.\n*   **Name:** Blood of the Viper’s Nest\n*   **Attribute Modifiers:**\n    *   **Intrigue:** +3\n    *   **Fertility:** +10%\n    *   **Opinion of Wicked Characters:** +20\n    *   **Church Opinion:** -15\n*   **Special Effect:** Gaining Sins (Lustful, Gluttonous, Greed) actually grants Prestige or Piety (via custom mechanics) or simply costs less opinion penalty.\n*   **Why use it:** Playing a \"Villain\" run. Also, the Satanist societies love characters with many sins, allowing you to rank up instantly.\n\n### 28. The \"Duelist's Reflexes\" (Skill Focus)\n**Theme:** Unlike the \"Titan\" (which is about brute strength/martial score), this is about *Personal Combat Skill* exclusively.\n*   **Name:** Blood of the Swift Blade\n*   **Attribute Modifiers:**\n    *   **Personal Combat Skill:** +30\n    *   **Martial:** +1\n    *   **Prestige:** +0.3/month\n*   **Special Effect:** High chance to gain the \"Duelist\" trait. Access to battlefield duel events is more frequent.\n*   **Why use it:** To stack Personal Combat Skill to the moon (100+). This allows you to win almost any Holmgang or Battlefield Duel, even against Bears.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-01-08T13:28:58.714263+00:00",
+        "updatedAt": "2026-01-08T13:29:32.931866+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b9dd4-b9bf-7efc-afc1-929304247b76",
+        "evaluationSessionId": "019b9db5-effc-775a-bc79-72727604c134",
+        "evaluationId": "019b9db7-6176-7326-819c-9e06b9764b3a",
+        "role": "user",
+        "parentMessageIds": [
+          "019b9dcb-c46a-76d6-88a6-35ac1dab39cc"
+        ],
+        "content": "Some ideas like in mods \"more bloodlines\"?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-01-08T13:38:45.333+00:00",
+        "updatedAt": "2026-01-08T13:38:45.333+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b9dd4-b9c1-7273-b603-dc5157acb078",
+        "evaluationSessionId": "019b9db5-effc-775a-bc79-72727604c134",
+        "evaluationId": "019b9db7-6176-7326-819c-9e06b9764b3a",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b9dd4-b9bf-7efc-afc1-929304247b76"
+        ],
+        "content": "The \"More Bloodlines\" submod (often used with AGOT or HIP) is famous for adding bloodlines that do more than just give `+5 Opinion`. They often unlock **unique buildings**, enable **special actions** (like raiding for non-pagans), or drastically change **combat tactics**.\n\nHere are 7 ideas designed in the spirit of the \"More Bloodlines\" mod mechanics:\n\n### 29. The \"Feudal Reaver\" (Enabling Mechanics)\n**Theme:** A bloodline for a \"civilized\" Feudal lord who never forgot the Old Ways of raiding.\n*   **Name:** Blood of the Sea-Wolf’s Legacy\n*   **The \"Modded\" Effect:**\n    *   **Enables Raiding:** Allows the character to Loot/Raid even if they are Feudal or Catholic (this is a specific toggle in modding files: `allow_looting = yes`).\n    *   **Sailing Speed:** +10%\n    *   **Prestige from Loot:** +10%\n*   **Flavor:** You play as a localized Christian King (like in Ireland or Brittany) who acts like a Viking, burning down the coasts of Spain for gold.\n\n### 30. The \"Castellan\" (Unique Building Unlock)\n**Theme:** A builder bloodline that allows you to construct a unique, powerful building in your capital that no one else can build.\n*   **Name:** Blood of the Master Mason\n*   **The \"Modded\" Effect:**\n    *   **Unlocks Building:** \"Ancestral Keep\" (or \"Royal Highway\").\n    *   **Building Stats:** Provides massive Fort Level (+2), Tax (+15%), and Retinue Size (+100) in the province where built.\n    *   **Construction Speed:** -20% (Global)\n*   **Flavor:** This forces a \"Tall\" playstyle where your capital province becomes an impregnable fortress that generates massive wealth.\n\n### 31. The \"Tactician\" (Combat Tactic Weights)\n**Theme:** Instead of just giving \"+10% damage,\" this bloodline changes *how* your army fights by influencing the \"weight\" of combat tactics rolling during battle.\n*   **Name:** Blood of the Thunderous Charge\n*   **The \"Modded\" Effect:**\n    *   **Tactic Affinity:** Greatly increases the chance of rolling the **\"Awesome Charge\"** or **\"Heroic Counter-Charge\"** tactics in the Shock phase.\n    *   **Heavy Cavalry Offense:** +15%\n    *   **Retinue Limit:** +10%\n*   **Flavor:** Your armies stop using generic tactics and almost exclusively use devastating cavalry charges. Perfect for French or Polish knights.\n\n### 32. The \"Hybrid Administrator\" (Mixed Stats)\n**Theme:** \"More Bloodlines\" often rewards mixed playstyles. This is for the Ruler who combines **Learning** (Tech) with **Martial** (War).\n*   **Name:** Blood of the Warrior-Philosopher\n*   **The \"Modded\" Effect:**\n    *   **Martial:** +2\n    *   **Learning:** +2\n    *   **Siege Speed:** +20% (Using math to defeat walls)\n    *   **Tech Spread:** +10%\n*   **Special Interaction:** Can \"Study Strategy\" (decision) to trade Piety for Military Tech points.\n*   **Flavor:** Think Marcus Aurelius or Alexander the Great—conquering the world with a book in one hand and a sword in the other.\n\n### 33. The \"Creature of the Night\" (Trait Evolution)\n**Theme:** A bloodline that forces specific personality traits to appear or \"stick\" to descendants.\n*   **Name:** Blood of the Cold Heart\n*   **The \"Modded\" Effect:**\n    *   **Trait Retention:** Descendants have a 40% chance to gain **\"Patient\"** and **\"Cruel\"** upon reaching adulthood.\n    *   **Torture:** Can torture prisoners without losing Piety.\n    *   **Dread:** Revolt Risk -15% (People are terrified of your family).\n*   **Flavor:** Creating a dynasty of Roose Boltons. You aren't angry (Wroth), you are calculated and cruel. The bloodline ensures your heirs don't end up \"Kind\" or \"Soft.\"\n\n### 34. The \"Beastmaster\" (Special Units)\n**Theme:** Utilizing terrain and potentially \"Special Unit\" types (like War Elephants or Camels) even if you aren't the right culture.\n*   **Name:** Blood of the Desert Wind\n*   **The \"Modded\" Effect:**\n    *   **Unlocks Retinue:** Allows recruitment of **Camel Cavalry** (or Horse Archers) regardless of your Culture.\n    *   **Terrain Bonus:** +20% Movement speed and Damage in Deserts and Plains.\n    *   **Attrition:** -20% Attrition for units under your command.\n*   **Flavor:** Bringing the tactics of the steppes or deserts into Europe. You can play as a German King but field an army of Camels because of your ancestry.\n\n### 35. The \"Genetic Goldmine\" (Congenital Trait Focus)\n**Theme:** A bloodline designed to stack with the \"Blood\" DLC mechanics to ensure genetic superiority.\n*   **Name:** Blood of the Vital Essence\n*   **The \"Modded\" Effect:**\n    *   **Twin Chance:** +5% (Twins are rare, this makes them common).\n    *   **Inbreeding Protection:** Reduced chance of \"Inbred\" trait (essential for \"keeping the bloodline pure\").\n    *   **Strong/Robust:** Descendants have a higher weight to inherit the **\"Strong\"** trait if a parent has it.\n*   **Flavor:** This is the Targaryen/Valyrian style bloodline. You marry your sister-wife to keep the blood pure, and this bloodline prevents your kids from turning out as potatoes.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-01-08T13:38:45.344563+00:00",
+        "updatedAt": "2026-01-08T13:39:19.495556+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019b9db7-6176-7326-819c-9e06b9764b3a",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

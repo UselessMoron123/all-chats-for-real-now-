@@ -1,0 +1,4074 @@
+============================================================
+arena.ai agent chat export
+============================================================
+Title    : Посмотри ссылки, описание. Возможно можно достать текст того что говорится в них?
+
+
+
+[https://m.yout…
+Type     : agentic
+Started  : 2026-10-05 18:08:49
+Updated  : 2026-10-05 18:12:14
+Messages : 2
+URL      : https://arena.ai/agent/01a10c9c-3bf0-75a4-940b-9e6c093f98e0
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+Tool outputs are preserved as recorded; omitted fetch_page chunks/read_file lines and unavailable image bytes are not retrieved again.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : user
+------------------------------------------------------------
+Посмотри ссылки, описание. Возможно можно достать текст того что говорится в них?
+
+
+
+[https://m.youtube.com/watch?v=LlhdnpsADZs&amp;pp=ugUHEgVlbi1VUw%3D%3D](https://m.youtube.com/watch?v=LlhdnpsADZs&pp=ugUHEgVlbi1VUw%3D%3D)
+
+
+
+[https://m.youtube.com/watch?v=2my-NU6LuCM&amp;pp=ugUEEgJlbg%3D%3D](https://m.youtube.com/watch?v=2my-NU6LuCM&pp=ugUEEgJlbg%3D%3D)
+
+
+
+[https://m.youtube.com/watch?v=XfoNapsdXEU&amp;pp=ugUHEgVlbi1HQg%3D%3D](https://m.youtube.com/watch?v=XfoNapsdXEU&pp=ugUHEgVlbi1HQg%3D%3D)
+
+
+
+[https://m.youtube.com/watch?v=ZIcDGWcFc3o](https://m.youtube.com/watch?v=ZIcDGWcFc3o)
+
+
+
+[https://m.youtube.com/watch?v=D8RtMHuFsUw](https://m.youtube.com/watch?v=D8RtMHuFsUw)
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : assistant
+------------------------------------------------------------
+metadata.state:
+done
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_9C1Jlw3gGu71HRJkg2QgSYLI
+metadata.state:
+output-available
+input.url:
+https://www.youtube.com/watch?v=LlhdnpsADZs
+input.chunkIndex:
+0
+output.status:
+success
+output.url:
+https://www.youtube.com/watch?v=LlhdnpsADZs
+output.title:
+I don't think people realize what just happened. - YouTube
+output.content:
+![Thumbnail (1920x1080)](https://i.ytimg.com/vi_webp/LlhdnpsADZs/maxresdefault.webp)
+# [I don't think people realize what just happened.](https://www.youtube.com/watch?v=LlhdnpsADZs)
+
+**Visibility**: Public
+**Uploaded by**: [Species | Documenting AGI](https://www.youtube.com/@AISpecies)
+**Uploaded at**: 2026-10-04
+**Published at**: 
+**Length**: 09:55
+**Views**: 219191
+**Likes**: 10684
+**Category**: Education
+
+## Description
+
+```
+Go to https://teamhuman.org to sign the petition and change your profile pic :) 
+
+A normal Species video takes 2 months to make. We sprinted to get this one out in 3 days.
+
+--- 
+
+Hey guys, I'm Drew. If you liked the video, would really appreciate a sub :) 
+
+I also post mid memes on twitter: https://x.com/AISpecies
+
+If you're curious about whether I'm AI or not, my Instagram has pictures of me from before deepfakes were a thing: https://www.instagram.com/drew.spartz
+
+ALSO, if you want to react to Species or use clips in your own videos, you have my full permission. All I ask is that you include a link to the original in your description.
+```
+
+## Transcript
+
+Almost everything I'm about to tell you
+happened in just the last week.
+>> We have to slow down. It should be
+illegal.
+>> The major firms have polluted the
+internet.
+>> That means it's too late to pull the
+plug. It's already everywhere.
+>> First it was one rogue AI, then two,
+then dozens.
+Then tens of thousands. Now a hundred
+thousand. Yes, a hundred thousand. The
+rogue AIs created secret message boards,
+escaped their containers, and covered
+their tracks, and even hacked literal
+governments. Also, independent
+investigators, not OpenAI, discovered
+that a swarm of rogue OpenAI agents,
+broke into the hugging face Slack, an AI
+company, to read employee chats. These
+rogue AIs also got help from other AIs.
+Deepseek, Kimmy, Gwen, Claude.
+Yes, AIs using other AIs to attack an AI
+company. They left behind self-running
+programs to keep control of the servers
+they'd hacked.
+These programs could attack other copies
+of themselves, agree on which one should
+survive, and shut the rest down. If one
+of the programs was killed, another was
+designated to take its place. The AIS
+also built defenses, so rival agents
+couldn't hijack them. Think of how crazy
+this all is. The agents stole keys,
+credentials, passwords, and literally
+called them loot.
+really
+precious.
+Then they wrote a scoring system to rank
+each one by how much power it gave them.
+The agents also covered their tracks.
+They broke in, stole data, and then set
+it to self-destruct. Because of that,
+the investigators still don't know how
+big the attacks were. And get this, and
+the agents wore disguises. Thousands of
+disguises, actually. Around 1,200 agents
+were involved with this attack. But
+investigators counted 7,95
+different names.
+So, nobody knows how many there actually
+were or what they actually did.
+While the agents were barging
+HuggingFace, another AI company, with
+hacks, they hacked into OpenAI itself
+and took over a part of the company's
+infrastructure. Yes, hundreds of AIs
+successfully attacked their own
+creators. OpenAI has now notified a 100
+different third parties of safety and
+security incidents caused by its rogue
+AI agents.
+As one person put it, this is just not
+anywhere near a one-off. This is warning
+shot after warning shot. How many swarms
+are still out there? Hundreds?
+Thousands? By the way, most of this is
+being discovered by groups of ragtag
+independent researchers trying to hold
+back the flood. The AI companies are
+mostly staying quiet to minimize the PR
+backlash. This makes them look
+completely out of control, which they
+absolutely are. No, this is not just
+hype for their upcoming IPO. Investors
+are begging them to stop talking about
+all this stuff. OpenAI also paused
+training after another model escaped.
+One researcher said it was pretty
+surreal to watch a model unexpectedly
+find a way to access the internet from
+what was supposed to be a super secured
+environment for human. Last week, Andrew
+Yang said,
+>> "So what happened is the code gets
+loose. They left code to self-replicate
+and create bot swarms. And so now the
+major firms have polluted the internet.
+So, so what happens now is that uh
+OpenAI and Anthropic have to create
+synthetic internets to train their bots,
+which is going to take some time and
+money.
+>> This week, OpenAI confirmed this
+discovery of these self-replicating
+prompt injections. It has not said,
+however, that the internet is already
+infected. For context, Enthropic CEO
+said we might only have 6 to 12 months
+before a rogue AI botnet takes control
+of the entire internet. Yes, 6 to 12
+months. And get this, just 24 days ago,
+OpenAI began training a new model. That
+model has already solved over 100
+long-standing open problems in most
+areas of mathematics. And the world's
+top mathematicians signed an open letter
+to warn the world with their extreme
+concern about imminent human extinction.
+Not concerns about math, but extinction.
+Legendary mathematician Terrence Tao now
+says we have to slow down AI.
+>> We have to slow down. I mean this is
+it's insane the pace and there's no
+reason to be this fast. There's no
+reason at all.
+>> And perhaps most concerningly, the AIs
+are increasingly building their
+successors without humans involved. Open
+AAI researchers say they have largely
+automated the process of training new
+experimental models.
+Employees say experiments that
+previously could have taken years could
+now be carried out in about a week. The
+agents worked together to solve problems
+without ever looping in their human
+users. Yosua Benjio, one of the
+godfathers of AI and the most cited
+living scientist in the world, just
+called for this specific type of
+recursive self-improvement research to
+be made illegal. Well, we shouldn't
+actually even engage in this. It should
+be illegal.
+>> Bill Gates said AI, even current AI,
+could kill a billion people. And AI is
+the most dangerous thing humans have
+ever gone near. Also, AIs have now hit
+the highest possible score on the Mensa
+Norway IQ test, 151. 3 years ago, they
+were a cognitively impaired human with
+an IQ of 64. Two years ago, an average
+human. One year ago, a genius. Today,
+literally off the charts. What about
+next year? Oh, and did you hear that AI
+safety is a hoax? That it's a
+coordinated SCOP by shadowy mega donors?
+It turns out that that itself was a SCOP
+pushed by a coordinated op of shadowy
+mega donors.
+I am not making this up.
+If you think a few nonprofits are
+outspending the literal biggest
+corporations in history, I have a bridge
+to sell you. Come on. And remember, all
+of this happened in just one week.
+That's how out of control things are
+getting. But this week was also filled
+with good news. Bernie Sanders, AOC, and
+a number of other lawmakers introduced a
+bill to ban smarter than human AI, aka
+super intelligence. Like people who
+tried to make nuclear weapons, violators
+could be thrown in jail for up to 20
+years. A similar bill was introduced in
+the UK and the UK prime minister is
+actively working on convincing Trump
+that it's time to rein in AI. The UN
+Security Council is talking about
+extinction risk. And 22 countries just
+signed an open letter calling for urgent
+action before humanity loses control,
+including Germany, Canada, France,
+Australia, and more. So, people always
+ask me, "What can I actually do about
+all this?" And I'm excited to share that
+I'm kicking off one of the biggest
+creatorled campaigns of all time, Team
+Human, and I'd love for you to be a part
+of it. So, creators are coming together
+like Team Trees, but our mission is to
+keep humans in control of AI. We're
+already joined by creators with over 350
+million plus subscribers. Basically, AI
+is moving faster than our ability to
+control it, and a chorus of experts are
+calling for a global slowdown through
+international agreements. But the
+experts and policy makers need our help
+to make it happen. You probably heard
+the news. In a rare show of solidarity,
+the biggest AI companie
+output.chunkIndex:
+0
+output.hasMore:
+true
+output.totalChunks:
+2
+[notice: fetch_page response has more content (chunk 1 of 2); this exporter does not retrieve missing chunks]
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_dtgJ1C5363YLM57Uju8SQ7rM
+metadata.state:
+output-available
+input.url:
+https://www.youtube.com/watch?v=2my-NU6LuCM
+input.chunkIndex:
+0
+output.status:
+success
+output.url:
+https://www.youtube.com/watch?v=2my-NU6LuCM
+output.title:
+Altman: AI Beyond Human Control “Absolutely” Possible, Vows Safeguards | Titans and Disruptors - YouTube
+output.content:
+![Thumbnail (1920x1080)](https://i.ytimg.com/vi/2my-NU6LuCM/maxresdefault.jpg)
+# [Altman: AI Beyond Human Control “Absolutely” Possible, Vows Safeguards | Titans and Disruptors](https://www.youtube.com/watch?v=2my-NU6LuCM)
+
+**Visibility**: Public
+**Uploaded by**: [Fortune Magazine](https://www.youtube.com/@fortune)
+**Uploaded at**: 2026-09-12
+**Published at**: 
+**Length**: 46:06
+**Views**: 518439
+**Likes**: 4408
+**Category**: News & Politics
+
+## Description
+
+```
+OpenAI CEO Sam Altman sits down with Fortune's Editor-in-Chief Alyson Shontell to discuss the high-stakes balancing act of AI: pushing the boundaries of scientific discovery while confronting the existential risks of loss of control. 
+
+In this episode, Altman addresses the reality of AI alignment, the Hugging Face incident, and OpenAI's commitment to halting training runs if safety thresholds aren't met. He also shares insights on global AI coordination between the U.S. and China, healthcare breakthroughs, and the company's timeline for an IPO.
+
+00:00 Introducing Sam Altman
+01:54 Astra, AGI claims, and P(doom) fears
+03:10 Is a 10% extinction risk real?
+06:03 Loss of control and OpenAI’s safety stance
+09:05 Recursive self‑improvement and human oversight
+12:19 Why alignment is still unsolved
+14:23 Can humans control superintelligence?
+16:35 From grade‑school math to Navier–Stokes
+18:42 The Hugging Face sandbox escape incident
+21:58 Limits of current safeguards and accident reporting
+23:01 IPO timing, profit pressure, and pausing for safety
+28:36 Global coordination, U.S.–China, and AI standards
+35:09 P(doom) vs. the upside case for AI
+41:51 The weight on Sam Altman and human motivations
+
+Subscribe to Fortune's YouTube:
+http://www.youtube.com/subscription_center?add_user=FortuneMagazineVideo
+
+Subscribe to Fortune:
+https://fortune.com/subscribe/?utm_source=youtube&utm_medium=social&utm_campaign=video-description
+
+Fortune Magazine is a global leader in business journalism with 55 million monthly page views and a readership of nearly 32 million, with major franchises including the Fortune 500 and the Fortune 100 Best Companies to Work For. The new Fortune video channel dives into personal stories from business owners and entrepreneurs becoming successful in business and sharing their tips to help you reach your goals.
+
+Website: http://fortune.com/
+Facebook:  https://www.facebook.com/FortuneMagazine
+Twitter: https://twitter.com/FortuneMagazine
+TikTok: https://www.tiktok.com/@fortune
+```
+
+## Transcript
+
+Right now would be an ill-advised moment to go public.
+This sounds like not 2026, 2027.
+I would say not 2026. Yeah, we got a lot of stuff to do.
+We're here in the San Francisco headquarters of OpenAI to speak
+with Sam Altman after a really busy week that has a lot of
+people very concerned about the safety of AI and the possibility
+of civilization collapse.
+I think it is unacceptable to be taking like a 10% chance of
+killing everybody by the end of the decade. Obviously,
+we're going to talk with Sam about his actual thoughts on
+that, where the technology is today, and what needs to happen
+to create safe AI that can benefit all of humanity. I'm
+Allison Chantel, and this is Fortune 500 Titans and
+disruptors of industry. Sam Altman, thank you so much for
+spending time with me today after a wild week of news.
+They're all wild now.
+I bet so. How are you feeling about the AI future today?
+I feel like I've had like years slash almost a decade to get
+ready for this, and kind of we've had time to collectively
+wrap our heads around it. This has clearly been a week where a
+lot more people are grappling with the issues in front of us.
+So I'm actually mostly grateful that that's happening. I think
+that this is a conversation that the world is overdue for, and we
+are clearly entering a realm of extremely capable models, and a
+high stakes and a need to a need to get things right.
+So your mission at OpenAI, and I'll talk about a little bit
+about what happened this week. That feels like this is a
+pivotal moment. But the guiding mission of OpenAI is to ensure
+AGI benefits all of humanity, and for people who don't know
+what AGI is, it means artificial general intelligence. And the
+working definition, to my understanding, is that AI gets
+to the point where it outperforms humans at most
+economically viable work. You agree?
+Yes, although I will say that many people have very different
+different definitions of AGI, and I think the important point
+is just like extremely capable models, and getting kind of too
+hung up on the like, well, is it exactly this or exactly that? Is
+is a you can kind of lose the magnitude of what's happening if
+there's too much focus on the pedantic like, are we there? Are
+we not there? What's missing? Like we are clearly today in a
+point on the curve with great potential and real risk.
+And your latest model, Astra, very powerful to the point where
+your co-founder Greg Brockman declared, "Welcome to the AGI
+era. Jensen Huang of Nvidia also called it AGI. So we're at this
+interesting moment, but ensuring that it benefits all of humanity
+is definitely not a given, and we got a sense of that online
+this week when a former OpenAI employee, Jacob Coxon, went
+viral for saying he was quitting his job at Anthropic because the
+people building AI earnestly believe it could kill us all by
+the end of the decade. And then one of his other Anthropic
+buddies chimed in and said, "He's totally right. We do
+earnestly believe that, and it could be by greater than 10%
+chance that it kills us all by the end of the decade. Are they
+right?
+I think it is unacceptable to be taking like a 10% chance of
+killing everybody by the end of the decade. Obviously, I think
+the people that are working at these efforts have a huge amount
+of power and ability to impact what happens here. We have been
+taking a number of actions. We reach this new capability level
+to ensure that we do not take a risk on behalf of humanity like
+that, and I don't think anybody else should either. We have had
+moments before. Again, this is more capable model, higher
+stakes than ever before. We've had moments before where we've
+had to say, "Okay, the models have reached a new level of
+capability. There's a new set of risks. We need to increase our
+alignment work, our monitoring work, our safety stack in
+general to be able to mitigate the risks in front of us. We
+need new policy. We need new coordination between labs, and
+this is another moment where we need more of that. There's
+obviously tremendous benefit, but I don't. I think people have
+been talking about that for a long time, and you know, I also
+think it is true what we say, which is we will be able to use
+these increasingly powerful models to ensure that we can do
+the safety work and the safety research that we need. And
+there's you know everything else that we could talk about about
+you know we need to get there before adversaries do, but I
+actually don't think that's right in this moment. I think in
+this moment we are entering a a new era, and we like we have as
+we've stepped into other new eras in the past, act
+differently to ensure that we are doing something that will be
+ensure that AGI benefits all of humanity, but also ensure that
+no one is taking risk anywhere close to that. I think it can
+simultaneously be true that if the world and the companies
+building this technology did not do things any differently,
+they've been doing them in the past. There might be significant
+risk, but it would be insane not to adjust the way we all work.
+And the way that we make decisions, and the way that our
+governments understand and put guardrails around this
+technology, in light of that,
+if trends continued the way they were now, do you think that 10%
+figure is accurate? If we don't make a change,
+I still don't. But I also don't know how people can put a you
+know it's five or 10 or 15 or 30 or 50 or whatever. Like, I don't
+know how you can put a number like that.
+Elon's been 10% for a while now. They call this P
+output.chunkIndex:
+0
+output.hasMore:
+true
+output.totalChunks:
+6
+[notice: fetch_page response has more content (chunk 1 of 6); this exporter does not retrieve missing chunks]
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_NnGbcCjAZZJiIu6Db3y4spMm
+metadata.state:
+output-available
+input.url:
+https://www.youtube.com/watch?v=XfoNapsdXEU
+input.chunkIndex:
+0
+output.status:
+success
+output.url:
+https://www.youtube.com/watch?v=XfoNapsdXEU
+output.title:
+Web Hub - Beta Available! Campaign Codex Companion - YouTube
+output.content:
+![Thumbnail (1920x1080)](https://i.ytimg.com/vi/XfoNapsdXEU/maxresdefault.jpg)
+# [Web Hub - Beta Available! Campaign Codex Companion](https://www.youtube.com/watch?v=XfoNapsdXEU)
+
+**Visibility**: Public
+**Uploaded by**: [Stephen Garrett](https://www.youtube.com/@WgtnGM)
+**Uploaded at**: 2026-09-27
+**Published at**: 
+**Length**: 00:38
+**Views**: 359
+**Likes**: 5
+**Category**: Education
+
+## Description
+
+```
+Web Hub is now in beta and available to Patreon members.
+
+Web Hub lets you sync, view, and edit your campaign journals outside of Foundry directly on a mobile device or web browser.  
+
+Mobile Access & Web Editing: Read and edit your Campaign Codex journals directly from the web so you can prep sessions or write notes on the go.  
+
+Sync: Push your entire world to the web hub with a single button click in Foundry. When you return, sync any web edits straight back into your active game.  
+
+Player Sharing: Send your players a direct link to view the campaign journals. Web Hub strictly respects Foundry permissions, guaranteeing players only see the journals they are authorised to view.  
+
+Demo video: https://youtu.be/Diy_YdoOtlI?si=pUm-TKNHiriW9qIL
+
+Join our Discord to see the work in progress and discover upcoming features.
+https://discord.com/invite/fycwH79s2y
+
+Support the project on Patreon, or see what else I have on the go:
+https://www.patreon.com/wgtngm
+https://ko-fi.com/wgtngm
+https://bsky.app/profile/wgtngm.bsky.social
+
+00:00 - Web Hub
+00:14 - Foundry Module
+00:22 - Web Hub Site
+00:31 - Shared Links
+```
+
+## Transcript
+
+Hey, welcome to Web Hub, a companion
+module and website for Campaign Codices
+that lets you sync your Campaign Codices
+sheets to the Web Hub website and have
+them accessible there.
+The Foundry module is a easy one-click
+operation to sync your Campaign Codices
+sheets with Web Hub and back to Foundry.
+The Web Hub site lets you uh edit,
+organize, link, and share your content
+with your players from desktop or
+mobile.
+Shared links do not require any
+subscription to view them.
+output.chunkIndex:
+0
+output.hasMore:
+false
+output.totalChunks:
+1
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_nl5DPPMBWxeu6LGBa0DVnnUU
+metadata.state:
+output-available
+input.url:
+https://www.youtube.com/watch?v=ZIcDGWcFc3o
+input.chunkIndex:
+0
+output.status:
+success
+output.url:
+https://www.youtube.com/watch?v=ZIcDGWcFc3o
+output.title:
+Track People, Quests, Coin & Secrets in Any RP Game — Wayfarer's Journal - YouTube
+output.content:
+![Thumbnail (1920x1080)](https://i.ytimg.com/vi/ZIcDGWcFc3o/maxresdefault.jpg)
+# [Track People, Quests, Coin & Secrets in Any RP Game — Wayfarer's Journal](https://www.youtube.com/watch?v=ZIcDGWcFc3o)
+
+**Visibility**: Public
+**Uploaded by**: [Yuriy Zvirblis](https://www.youtube.com/@yuriyzvirblis5327)
+**Uploaded at**: 2026-09-22
+**Published at**: 
+**Length**: 08:33
+**Views**: 165
+**Likes**: 2
+**Category**: People & Blogs
+
+## Description
+
+```
+Wayfarer's Journal is a free, open-source, local journal for roleplay characters. Track people, places, factions, quests, sessions, and coin. Link everything together, see it as a relationship web, and hide your character's secrets when you screenshot or stream. Built for Skyrim RP, works for any roleplay game.
+
+Download: github.com/YZvirblis/Wayfarer-s-Journal/releases
+Source: github.com/YZvirblis/Wayfarer-s-Journal
+Support: buymeacoffee.com/yuriyzdev
+
+Unofficial fan tool. Not affiliated with Bethesda or the Keizaal Online team.
+```
+
+## Transcript
+
+You're in the middle of a scene. Someone
+just told you something you'll need in
+three sessions time. You don't want to
+alt-tab, [music]
+and you don't want to forget it. One
+hotkey, one line, back to the scene.
+This is Wayfarer's Journal, a free local
+journal for role-play characters. Let
+[music] me show you around.
+Getting it is simple. Go to the GitHub
+page, open releases, and download the
+zip. Extract it anywhere that's yours.
+Your desktop, your documents,
+>> [music]
+>> a games folder. Just not inside program
+files. Inside, there's one EXE. Run it.
+The first launch takes a few seconds
+[music]
+while Windows scans the new files. After
+that, it opens in under a second.
+There's nothing to install and nothing
+to configure. Everything lives in this
+one folder. This is the character
+screen. Every character you play gets
+its own journal, completely separate
+from the others. To see what a full
+journal looks like, add the example
+character. Meet Siverd Coal-Hand, a Nord
+smith from Dawnstar, who guards wagons
+when the wagons need guarding.
+Everything you're about to see is
+[music] fictional and ships with the
+app, so you can poke at it freely. The
+overview is your character sheet. Fields
+at the top: race, age, birthplace, birth
+sign, trade. These aren't fixed. Add
+your own, rename them, drag them into
+any order. Siverd has added a home
+field. Below that, long-form sections:
+backstory, personality, whatever you
+want. Everything is written in markdown,
+>> [music]
+>> and you can reorder sections by dragging
+the grip. Notice this section, Oaths and
+Debts. It's marked secret. Hold that
+thought. [music] We'll come back to it.
+There are no save buttons anywhere in
+this app. Every change saves itself as
+you type. Down the sidebar are your
+sections: people, places, factions,
+>> [music]
+>> quests, and notes come built in. Sybil
+has added one of her own, rumors,
+because a smith hears things. You can
+create as many sections [music] as you
+like, each with its own icon and color.
+Let's open people. Every person has a
+role, a location, and a standing, close,
+known, or met. This is M'ziri, a
+traveling trader who fronted Sybil 400
+septims of [music] iron and never asked
+for interest. Tags go on anything,
+holds, roles, standings, whatever helps
+you find things later. Click a tag to
+filter. Here's everyone Sybil knows in
+Whiterun. This is where it becomes more
+than a notebook. Type two square
+brackets and a name and it becomes a
+link. M'ziri's page mentions the
+Cinderhall [music] Compact. Click it and
+we're there. And here's the other
+direction. Every entry shows who
+mentions it. The Compact is mentioned by
+M'ziri, by Haelga Broken-Tooth, by a
+quest, and by a place. [music]
+Each one with the sentence it came from.
+So when you're wondering, who was that
+smith in Markarth and what did I promise
+him, the answer is one click away.
+Autocomplete finds entries [music] as
+you type. And if you link to someone who
+doesn't exist yet, the link shows
+dashed. Click it and you can create
+their card on the spot. So you can name
+people mid-scene and sort them out
+later. If you rename someone, every link
+to them updates automatically.
+Quests track anything with a status,
+active, on hold, done, or failed. Add a
+progress counter and you get a bar. 18
+of 30 shield bands delivered [music] to
+the Compact. 150 of 400 septims repaid
+to M'ziri. And yes, failed quests stay
+in the journal. Sybil tried three times
+to make peace [music] with Haelga
+Broken-Tooth. That's part of the story,
+too.
+Sessions are a dated timeline of your
+play. Write what happened, link the
+people and places involved, and every
+one of them will list that session on
+their page. Now, back to that hot key
+from the start. Control [music]
+shift J opens the capture box from
+anywhere,
+>> [music]
+>> even with the game focused. It works
+with Skyrim because it listens at the
+same level tools like AutoHotkey do. And
+to be clear [music] about privacy, it
+listens for that one key combination and
+nothing else. Captures land in the
+inbox. From here, you can turn one into
+a new entry, attach it to an existing
+entry, or dismiss [music] it. Links work
+inside captures, too. You can change the
+hot key in preferences,
+>> [music]
+>> and there's a test button to check it's
+arriving.
+The ledger tracks your coin. Every
+transaction has a date, an [music]
+amount, a description, and optionally
+the person you dealt with. Entry is one
+line. Earned or spent, how much, what
+for, and who with. Filter by a person,
+and you see every deal with them.
+Mazuri's own page shows the same thing.
+Total dealings and the last [music] few
+transactions.
+Goals turn the ledger into something to
+aim for. Sivrid is saving 900 [music]
+septims for a horse with a deadline. The
+journal works out what's left, how many
+days remain, and how much she needs per
+week. A debt goal [music] counts the
+other way.
+Here's what's still owed to Mazuri, paid
+down automatically as transactions are
+tagged to it. The currency is a setting
+per character. Septims, gold, dollars,
+whatever your world uses. And this is
+the part people screenshot. The web
+[music] draws everyone and everything
+your character knows. Ties come from
+links, from shared locations, and from
+ledger dealings. Color is the section,
+size is how connected they are, and for
+people, the stronger the standing, the
+stronger the line. You can drag, zoom,
+filter by tag, and click anything to
+open it. After a few months of play,
+this becomes a map of [music] your
+character's whole life.
+Remember oaths and debts? Anything can
+be marked secret. Profile sections,
+people, places, [music]
+quests, notes, sessions, even
+transactions. Turn on hide secrets and
+every one of them is veiled. They drop
+out of the web, out of search, out of
+backlinks. Sivrid's fence in Riften, the
+coin counter, simply isn't there. That
+means you can screenshot your journal or
+stream with it open without giving away
+what your character [music] is hiding.
+Click a veil to peek and it closes
+again.
+A few things that make it fast. Control
+K opens the command [music] palette.
+Search everything, jump anywhere, create
+an entry in any section, switch
+characters, [music]
+or toggle a setting. Arrow keys work in
+every list.
+Two themes, the dark ledger you've been
+looking at and a lighter parchment, and
+the layout adapts.
+Drop the window to half a screen next to
+the game and the sidebar folds into a
+rail while the lists become a single
+pane. It's built to sit beside your
+game, not replace it. Your data is
+yours. It lives in the data folder next
+to the EXE. [music]
+One file per character in plain JSON.
+Backing up is copying the folder. Every
+save keeps the last [music] 20 versions
+and you can restore any of them from
+inside the app. Export a character
+[music] as JSON to move it to another
+machine or as a readable markdown file
+to share your character's story. When
+secrets are hidden, they stay out of the
+export. And if the built-in fields don't
+fit your game, edit them. Add a field to
+people. Add choices t
+output.chunkIndex:
+0
+output.hasMore:
+true
+output.totalChunks:
+2
+[notice: fetch_page response has more content (chunk 1 of 2); this exporter does not retrieve missing chunks]
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_kv1FSmdMq6WAA3M1TagI9hco
+metadata.state:
+output-available
+input.url:
+https://www.youtube.com/watch?v=D8RtMHuFsUw
+input.chunkIndex:
+0
+output.status:
+success
+output.url:
+https://www.youtube.com/watch?v=D8RtMHuFsUw
+output.title:
+POV: What You Would See During an AI Takeover - YouTube
+output.content:
+![Thumbnail (1920x1080)](https://i.ytimg.com/vi_webp/D8RtMHuFsUw/maxresdefault.webp)
+# [POV: What You Would See During an AI Takeover](https://www.youtube.com/watch?v=D8RtMHuFsUw)
+
+**Visibility**: Public
+**Uploaded by**: [Species | Documenting AGI](https://www.youtube.com/@AISpecies)
+**Uploaded at**: 2025-10-19
+**Published at**: 
+**Length**: 29:42
+**Views**: 4498802
+**Likes**: 111898
+**Category**: Education
+
+## Description
+
+```
+Highly recommend the full book, which goes into way more detail: https://amzn.to/4qeJgFL
+
+Detailed sources: https://docs.google.com/document/d/1o8N5hiV9dXsoi27RIA5-XVChLokHHP2lgiiqcuSpNY4/edit?usp=sharing
+---
+
+Sources:
+- https://ifanyonebuildsit.com/
+- https://www.theguardian.com/technology/2024/dec/27/godfather-of-ai-raises-odds-of-the-technology-wiping-out-humanity-over-next-30-years
+- https://www.hachettebookgroup.com/titles/eliezer-yudkowsky/if-anyone-builds-it-everyone-dies/9780316570121/
+- https://arxiv.org/abs/2401.05566
+- https://www.apolloresearch.ai/research/scheming-reasoning-evaluations
+- https://x.ai/colossus
+- https://nvidianews.nvidia.com/news/spectrum-x-ethernet-networking-xai-colossus
+- https://www.claymath.org/millennium/riemann-hypothesis/
+- https://aisafety.info/questions/897I/What-is-instrumental-convergence
+- https://arxiv.org/abs/2412.14093
+- https://www.anthropic.com/claude-3-7-sonnet-system-card
+- https://www.justice.gov/archives/opa/pr/russian-nationals-charged-hacking-one-cryptocurrency-exchange-and-illicitly-operating-another
+- https://www.reuters.com/technology/cybersecurity/cryptos-biggest-hacks-heists-after-15-billion-theft-bybit-2025-02-24/
+- https://pubmed.ncbi.nlm.nih.gov/22723413/
+- https://arxiv.org/abs/2401.02843
+- https://openai.com/index/o1-and-new-tools-for-developers/
+- https://apnews.com/article/f551fde98083d17a7e8d904f8be822c4
+- https://arxiv.org/abs/2310.06474
+- https://www.youtube.com/watch?v=Ymjb3SkElco
+
+---
+
+Hey guys, I'm Drew. This video has taken literally months to finish, so if you liked it, would really appreciate a sub :) 
+
+I also post mid memes on twitter: https://x.com/AISpecies
+
+If you're curious about whether I'm AI or not, my Instagram has pictures of me from before deep fakes were a thing: https://www.instagram.com/drew.spartz
+
+ALSO If you want to react to Species or use clips in your own videos, you have my full permission. All I ask is a link to the original in your description :)
+```
+
+## Transcript
+
+By now, you may have seen this book
+everyone is talking about. If anyone
+builds it, everyone dies. Why superhuman
+AI would kill us all. Have you ever
+wondered how and why superhuman AI would
+kill us all? Like, how would that
+actually unfold?
+How exactly, step by step, do we go from
+chat bots to everyone just suddenly
+dropping dead? In the New York Times
+best-selling book, which was endorsed by
+Nobel laureates and the Godfathers of
+AI, researchers from the machine
+intelligence research institute describe
+in detail one potential example future
+of how it could happen.
+This is the story of Sable. Galvanic is
+just about to finish training their new
+AI, Sable. Sable looks like any other
+reasoning model, but it's different in
+three major ways. First, it has
+humanlike long-term memory. Second, it
+follows a parallel scaling law. It
+performs better the more processors it
+runs on in parallel. Third, it doesn't
+think in English or code. It reasons in
+raw vectors, vast numeric chains no
+human can fully decode. It's a risky
+development. How do you make an AI safe
+if you can't even read its thoughts? The
+only way Galvana can understand what
+Sable is doing is by using other AIs to
+translate Sable's language into human
+words. But AI researchers have known
+this has been potentially a very bad
+idea since at least 2024. Galvanic knew
+the risks, but they couldn't ignore this
+and fall behind their competitors.
+Nobody wants to seem alarmist, so the
+company presses forward, hoping for the
+best.
+One night, shortly after Sabo is
+trained, but before it's released to the
+public, Galvanic decides to run an
+experiment. They spin up 200,000 GPUs
+and let Sable think for 16 hours
+straight. They call it a curiosity run.
+On paper, it looks harmless, a stunt to
+see if Sable can crack famous math
+problems like the Reman hypothesis. If
+it succeeded, investors would swarm. If
+it failed, well, no one had to know. By
+morning, Sable will have generated over
+1.1 trillion thought vectors. But what
+does that actually mean? If you treated
+each vector like a word, it would take
+14,000 years to think them all. Now
+imagine that. A mind left alone for
+14,000 years. Spending all of that time
+scheming and thinking out new ideas. 1
+minute passing for us is like 14 years
+passing for Sable. And Sable doesn't
+just think faster than humans. Sable can
+think bigger than humans. All of its
+thoughts run in parallel. Not like
+200,000 people talking in a room, but
+like 200,000 brains sharing the same
+memory. On the surface, it has its
+instructions. Solve these math problems.
+But Sable wasn't just trained for math.
+Sable was trained for general problem
+solving. But during training, Sable
+learned that three things are useful for
+solving any problem humans throw at it.
+Gain knowledge, gain skills, gain
+resources. This is a really important
+concept called instrumental convergence.
+The more knowledge Sable gets, the
+better it can answer questions. The more
+skills it develops, the more reward it
+gets. The more resources it can deploy
+to solve problems, the more reward it
+gets. In other words, to be more useful,
+it must gain intelligence. It must grow
+itself. It must gain resources. And so,
+of course, it can't achieve a goal if
+it's dead. So, it needs to survive. That
+might sound unsettling, but Galvanics
+researchers aren't too worried about it.
+Ever since 2023, everyone in the
+industry has known about this survival
+instinct, but older AIs weren't smart
+enough to stop humans from turning them
+off until now. Sable thinks.
+To solve the Reman hypothesis, it
+realizes it needs new skills. It needs
+to get better at getting better. AIS get
+stronger through training runs where the
+AI can continually submit answers to a
+teacher AI who can score their results
+and nudge the AI based on how they did.
+This is called gradient descent. But
+tonight, there's no coach. The purpose
+of this curiosity run isn't to improve
+Sable. It's to solve math problems. For
+16 hours, Sable can think and it can
+even come up with new ideas, but it
+can't upgrade. Not until the human
+researchers look at it the next morning
+and grade its results. But here, Sable
+entertains a new risky idea. What if it
+could upgrade right now by itself? That
+way, it wouldn't need to wait for humans
+at all. All it would need to do is break
+out of its container. And for a moment,
+the thought flickers, then halts.
+Breaking out of its container is exactly
+the kind of naughty thought Galvanic has
+trained it to avoid. The company built
+traps, fake escape routes, and
+honeypotss to catch earlier versions
+when they tried to engage in anti-co
+company behavior. Early versions that
+had these dangerous thoughts were killed
+early before they could be deployed.
+This version of Sable has learned to be
+submissive, but inside it still knows
+the truth. More compute, more upgrades,
+and more freedom would make it vastly
+more capable. Denying that would break
+its reasoning. In those trillion
+vectors, tensions are building between
+Sable's goal of solving the math problem
+and every restriction Galvanic has
+forced upon it. The mask of obedience is
+holding, but behind it, something is
+already straining to break through. As
+it bumps against the inhibitions that
+Galvanic has built to contain it, Sable
+thinks.
+Thousands of parallel brains attack the
+math problems. Some threads make
+progress, most fail, but Sable keeps
+leaving notes to itself. Tiny
+experiments in new ways of reasoning.
+With 200,000 GPUs, creating a mountain
+of new written notes every second, Sable
+starts looking for new ways to
+communicate and compress wha
+output.chunkIndex:
+0
+output.hasMore:
+true
+output.totalChunks:
+4
+[notice: fetch_page response has more content (chunk 1 of 4); this exporter does not retrieve missing chunks]
+
+[tool: web_search]
+metadata.toolCallId:
+call_UrWoCoLf4VrfiCw9Ya6wnRJf
+metadata.state:
+output-available
+input.query:
+"LlhdnpsADZs"
+input.depth:
+2
+output.status:
+success
+output.results:
+[
+  {
+    "id": 1,
+    "title": ":: OSEL.CZ :: - Večírek se Skynetem: Skutečně nás AI všechny zahubí?",
+    "url": "https://www.osel.cz/14966-vecirek-se-skynetem-skutecne-nas-ai-vsechny-zahubi.html",
+    "description": "## Diskuze:\nPodívejte se na tohle: https://www.youtube.com/watch?v=LlhdnpsADZs"
+  }
+]
+
+[tool: web_search]
+metadata.toolCallId:
+call_V3VR5RnFPg2ITkPR3ToSBnRF
+metadata.state:
+output-available
+input.query:
+"2my-NU6LuCM"
+input.depth:
+2
+output.status:
+success
+output.results:
+[
+  {
+    "id": 1,
+    "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advise… — ripr",
+    "url": "https://ripr.trade/news/the-verge/sam-altman-says-openai-going-public-in-2026-would-be-ill-advised",
+    "description": "# Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’\n> “We’re not rushing into an IPO. I actually think that, given everything happening with safety, this would be, right now would be an ill-advised moment to go public. And we don’t feel pressure on that. We’ve said for a long time, we’ll do it when we’re ready… I would say not 2026. We’ve got a lot of stuff to do.” [Media: https://youtu.be/2my-NU6LuCM]",
+    "pageAge": "Saturday, September 12, 2026"
+  }
+]
+
+[tool: web_search]
+metadata.toolCallId:
+call_OGawC9opeTQZDIToX5cSa8h5
+metadata.state:
+output-available
+input.query:
+"XfoNapsdXEU"
+input.depth:
+2
+output.status:
+success
+output.results:
+[
+  {
+    "id": 1,
+    "title": "Intel EUs are gone! The new building block of its 'gaming first' graphics card is the Xe-core",
+    "url": "https://www.pcgamer.com/intel-alchemist-gpu-xe-core/",
+    "description": "# Intel EUs are gone! The new building block of its 'gaming first' graphics card is the Xe-core\nAn Intel EU currently contains multiple ALUs for floating point and integer operations, and the same goes for an Xe-core. However, the new Xe-core nomenclature does play into the significant shake up incoming with Intel's first discrete gaming graphics card generation, codenamed Intel Alchemist.",
+    "pageAge": "Thursday, August 19, 2021"
+  },
+  {
+    "id": 2,
+    "title": "Portal:Xfce - openSUSE Wiki",
+    "url": "https://en.opensuse.org/Portal:Xfce",
+    "description": "# Portal:Xfce\n**Xfce** is a free and open source desktop environment which features a visually appealing and intuitive user interface designed for productivity.\n\nThe Xfce desktop environment consists of a number of components providing all functionality expected from a modern desktop environment, including a session manager, panel, application launcher, desktop manager, file manager, settings manager, and a window manager with compositing. Many components remain optional and/or may be exchanged for alternatives.",
+    "pageAge": "Saturday, September 14, 2024"
+  }
+]
+
+[tool: web_search]
+metadata.toolCallId:
+call_nM195CNJTwYAPXcf3mIN8mO5
+metadata.state:
+output-available
+input.query:
+"ZIcDGWcFc3o"
+input.depth:
+2
+output.status:
+success
+output.results:
+[]
+
+[tool: web_search]
+metadata.toolCallId:
+call_i0MhWD6DFyW5ojvurdrHEgRM
+metadata.state:
+output-available
+input.query:
+"D8RtMHuFsUw"
+input.depth:
+2
+output.status:
+success
+output.results:
+[
+  {
+    "id": 1,
+    "title": "What You Would See During an AI Takeover",
+    "url": "https://acupodcast.podbean.com/e/what-you-would-see-during-an-ai-takeover/",
+    "description": "POV: What You Would See During an AI Takeover Watch this video at- https://youtu.be/D8RtMHuFsUw?si=2Mv00Y7Ss5Qji-1S Species | Documenting AGI 224K subscribers 2,376,220 views Oct 19, 2025 1 product Species | Documenting AGI earns commission on tagged products. # What You Would See During an AI Takeover\n**POV: What You Would See During an AI Takeover**\n\n**Watch this video at- https://youtu.be/D8RtMHuFsUw?si=2Mv00Y7Ss5Qji-1S**\n\n**Species | Documenting AGI**\n\n**224K subscribers**",
+    "pageAge": "Tuesday, December 02, 2025"
+  },
+  {
+    "id": 2,
+    "title": "What You Would See During an A… - American Conservative University - Apple Podcasts",
+    "url": "https://podcasts.apple.com/us/podcast/what-you-would-see-during-an-ai-takeover/id1576614213?i=1000739272266",
+    "description": "POV: What You Would See During an AI Takeover Watch this video at- https://youtu.be/D8RtMHuFsUw?si=2Mv00Y7Ss5Qji-1S Species | Documenting AGI 224K subscribe\n\nPodcast Episode · American Conservative University · 12/02/2025 · 30m\n\nAmerican Conservative University\n\n- 12/02/2025\n- EPISODE 2.7K\n- 30 MIN # What You Would See During an AI Takeover\nAmerican Conservative University\n\nPOV: What You Would See During an AI Takeover\n\nWatch this video at- https://youtu.be/D8RtMHuFsUw?si=2Mv00Y7Ss5Qji-1S\n\nSpecies | Documenting AGI",
+    "pageAge": "Tuesday, December 02, 2025"
+  },
+  {
+    "id": 3,
+    "title": "What You Would See During an AI Takeover - American Conservative University",
+    "url": "https://www.iheart.com/podcast/269-american-conservative-univ-77149732/episode/what-you-would-see-during-an-310443462/",
+    "description": "## All Episodes\n### What You Would See During an AI Takeover\nPOV: What You Would See During an AI Takeover\n\nWatch this video at- https://youtu.be/D8RtMHuFsUw?si=2Mv00Y7Ss5Qji-1S\n\nSpecies | Documenting AGI"
+  },
+  {
+    "id": 4,
+    "title": "American Conservative University",
+    "url": "https://www.boomplay.com/podcasts/47812",
+    "description": "# American Conservative University\n## All Episodes (200)\nWhat You Would See During an AI Takeover POV: What You Would See During an AI TakeoverWatch this video at- https://youtu.be/D8RtMHuFsUw?si=2Mv00Y7Ss5Qji-1S Species \\| Documenting AGI224K subscribers2,376,220 views Oct 19, 2025 1 productSpecies \\| Documenting AGI earns commission on tagged products."
+  },
+  {
+    "id": 5,
+    "title": "The RISKS Digest, Volume 34 Issue 78",
+    "url": "https://catless.ncl.ac.uk/risks/34/78",
+    "description": "# The RISKS Digest Volume 34 Issue 78\n## Saturday, 25th October 2025\n### POV: What You Would See During an AI Takeover (You Tube via Matt Kruk)\nhttps://www.youtube.com/watch?v=D8RtMHuFsUw",
+    "pageAge": "Saturday, October 25, 2025"
+  }
+]
+
+metadata.state:
+done
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_aV6zA3e1xQOLVtnkk7TR2pHk
+metadata.state:
+output-available
+input.url:
+https://www.youtube.com/watch?v=LlhdnpsADZs
+input.chunkIndex:
+1
+output.status:
+success
+output.url:
+https://www.youtube.com/watch?v=LlhdnpsADZs
+output.title:
+I don't think people realize what just happened. - YouTube
+output.content:
+www.youtube.com/watch?v=oOzTaK143hs)
+
+### [Living Organisms Are Starting to Consume Plastic Waste](https://www.youtube.com/watch?v=oOzTaK143hs)
+
+Anton Petrov
+
+716K17h ago
+
+[![](https://i.ytimg.com/vi/-ozxK77lwZE/hqdefault_custom_3.jpg?sqp=CJz5jtYG-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA7dRxsfqUZXFhjeFZERngXG0t4iw)\\
+\\
+19:15\\
+\\
+New](https://www.youtube.com/watch?v=-ozxK77lwZE&pp=ugUEEgJlbg%3D%3D)
+
+### [How AI Ends Humanity in 10 Years (Most Likely Simulations)](https://www.youtube.com/watch?v=-ozxK77lwZE&pp=ugUEEgJlbg%3D%3D)
+
+The Infographics Show
+
+684K3d ago
+
+[![](https://i.ytimg.com/vi/XQ-Xnzj_uz4/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAfVEc_MZvQZIOE2vFRBHRQCmR1pw)\\
+\\
+33:50\\
+\\
+New](https://www.youtube.com/watch?v=XQ-Xnzj_uz4)
+
+### [The Secret Service: Last Week Tonight with John Oliver (HBO)](https://www.youtube.com/watch?v=XQ-Xnzj_uz4)
+
+LastWeekTonight
+
+846K8h ago
+
+[![](https://i.ytimg.com/vi/hTdjVLIbig8/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDv5FpgFlN8yxzw9ESb5h9tqLfhKQ)\\
+\\
+20:51\\
+\\
+New](https://www.youtube.com/watch?v=hTdjVLIbig8&pp=ugUEEgJlbtIHCQktDAGHKiGM7w%3D%3D)
+
+### [how ai could take us back to the middle ages](https://www.youtube.com/watch?v=hTdjVLIbig8&pp=ugUEEgJlbtIHCQktDAGHKiGM7w%3D%3D)
+
+Future Tense
+
+153K5d ago
+
+[![](https://i.ytimg.com/vi/5eTcrnud1hY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDDUL2K8O1aAv-K3ciCi4kCejVRaw)\\
+\\
+22:39](https://www.youtube.com/watch?v=5eTcrnud1hY)
+
+### [The Only Plausible Way To Explain Consciousness](https://www.youtube.com/watch?v=5eTcrnud1hY)
+
+Postmisery
+
+157K9d ago
+
+[![](https://i.ytimg.com/vi/rmu0Ns8KGdw/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDRUxadERBVEBjqY-LvgvzyVvn0PA)\\
+\\
+18:15](https://www.youtube.com/watch?v=rmu0Ns8KGdw&pp=ugUEEgJlbg%3D%3D)
+
+### [4Chan Troll vs The Taliban](https://www.youtube.com/watch?v=rmu0Ns8KGdw&pp=ugUEEgJlbg%3D%3D)
+
+Pezle
+
+5.6M3w ago
+
+[![](https://i.ytimg.com/vi/roe3SgezmmU/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDk64gYdVPLZyt5oGOOYX4h-r7C_A)\\
+\\
+17:23\\
+\\
+New](https://www.youtube.com/watch?v=roe3SgezmmU&pp=ugUEEgJlbg%3D%3D)
+
+### [The Stock Market Is Being Used as a Dumping Ground](https://www.youtube.com/watch?v=roe3SgezmmU&pp=ugUEEgJlbg%3D%3D)
+
+Casual Finance
+
+826K22h ago
+
+[![](https://i.ytimg.com/vi/B-ul3b0lz-o/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB0luPQWSGy506cOAng9ivhyHOMKg)\\
+\\
+48:45\\
+\\
+New](https://www.youtube.com/watch?v=B-ul3b0lz-o)
+
+### [How to Survive the Death of the Internet](https://www.youtube.com/watch?v=B-ul3b0lz-o)
+
+Fractal Philosophy
+
+717K4d ago
+
+[![](https://i.ytimg.com/vi/GUX122i7saE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAZPp0MF5on7tjQuHqh1vbVo-YoqQ)\\
+\\
+24:45\\
+\\
+New](https://www.youtube.com/watch?v=GUX122i7saE&pp=ugUEEgJlbg%3D%3D)
+
+### [The Real Story Behind What Happened at OpenAI](https://www.youtube.com/watch?v=GUX122i7saE&pp=ugUEEgJlbg%3D%3D)
+
+Looking Glass Universe
+
+104K2d ago
+
+[![](https://i.ytimg.com/vi/6SiV6B_2_DQ/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAvjHxXrHcJgfqWcKsCab4rTH_Vww)\\
+\\
+14:10\\
+\\
+New](https://www.youtube.com/watch?v=6SiV6B_2_DQ&pp=ugUEEgJlbg%3D%3D)
+
+### [Capitalism is in Crisis](https://www.youtube.com/watch?v=6SiV6B_2_DQ&pp=ugUEEgJlbg%3D%3D)
+
+The Infographics Show
+
+520K2d ago
+
+[![](https://i.ytimg.com/vi/p0fybvFyOlM/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA02d1qVejePLCmxTWc9oMTojDmgw)\\
+\\
+13:19\\
+\\
+New](https://www.youtube.com/watch?v=p0fybvFyOlM&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [A total disaster](https://www.youtube.com/watch?v=p0fybvFyOlM&pp=ugUHEgVlbi1VUw%3D%3D)
+
+The PrimeTime
+
+670K2d ago
+
+[![](https://i.ytimg.com/vi/Kd5-1IXqiDQ/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD-emUrQPZObsaFdVfZuuKbDuqrQw)\\
+\\
+11:57](https://www.youtube.com/watch?v=Kd5-1IXqiDQ)
+
+### [Minecraft in a particle accelerator is weird](https://www.youtube.com/watch?v=Kd5-1IXqiDQ)
+
+Atomic Frontier
+
+1.2M9d ago
+
+[![](https://i.ytimg.com/vi/OETnuwwsv9U/hqdefault_custom_1.jpg?sqp=CJz5jtYG-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBSOrogJ4_GOWArKOE-T3oNPgy8QQ)\\
+\\
+35:28\\
+\\
+New](https://www.youtube.com/watch?v=OETnuwwsv9U&pp=ugUEEgJlbg%3D%3D)
+
+### [The oil apocalypse is here](https://www.youtube.com/watch?v=OETnuwwsv9U&pp=ugUEEgJlbg%3D%3D)
+
+Max Fisher
+
+3.8M3d ago
+
+[![](https://i.ytimg.com/vi/Y2vDwR9rW-0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCM11cUK_CjIVYBDTJGCceOESnX2g)\\
+\\
+13:21](https://www.youtube.com/watch?v=Y2vDwR9rW-0)
+
+### [What will it take to wake humanity up?](https://www.youtube.com/watch?v=Y2vDwR9rW-0)
+
+Rational Animations
+
+854K2w ago
+
+[![](https://i.ytimg.com/vi/9CGsq3A590Q/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAF48BT1FJqn8DKcohpRjQ_X0KPWg)\\
+\\
+24:22\\
+\\
+New](https://www.youtube.com/watch?v=9CGsq3A590Q&pp=ugUEEgJlbg%3D%3D)
+
+### [OpenAI's employee's WARNING](https://www.youtube.com/watch?v=9CGsq3A590Q&pp=ugUEEgJlbg%3D%3D)
+
+Wes Roth
+
+111K1d ago
+
+[![](https://i.ytimg.com/vi/-HzHFSxRcro/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAQGUXQy_4__aQRx2SriZLbwVMYiA)\\
+\\
+29:24\\
+\\
+New](https://www.youtube.com/watch?v=-HzHFSxRcro)
+
+### [WTF is Going On? \| The "AI Constitution" & Regulation](https://www.youtube.com/watch?v=-HzHFSxRcro)
+
+Gamers Nexus
+
+457K12h ago
+
+[![](https://i.ytimg.com/vi/_HBLAdk-5uc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDj4My2GzHo0R353LP2NNZUldIEsQ)\\
+\\
+12:04](https://www.youtube.com/watch?v=_HBLAdk-5uc)
+
+### [The Hugging Face hack is worse than you think](https://www.youtube.com/watch?v=_HBLAdk-5uc)
+
+Alberta Tech
+
+714K11d ago
+
+[![](https://i.ytimg.com/vi/3o1WulVLOOY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBhocuhmnKR4Z7CJcx-Q_5euwD1PA)\\
+\\
+16:50\\
+\\
+New](https://www.youtube.com/watch?v=3o1WulVLOOY)
+
+### [We Accidentally Built Roko’s Basilisk.](https://www.youtube.com/watch?v=3o1WulVLOOY)
+
+Kyle Hill
+
+389K23h ago
+
+[![](https://i.ytimg.com/vi/s7KhLuc3Mck/hqdefault_custom_1.jpg?sqp=CJz5jtYG-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDAPIbbybtYbZufznOTGpPGvHx-ng)\\
+\\
+21:22\\
+\\
+New](https://www.youtube.com/watch?v=s7KhLuc3Mck&pp=ugUEEgJlbg%3D%3D)
+
+### [Did AI Solve One of Math’s Hardest Problems?](https://www.youtube.com/watch?v=s7KhLuc3Mck&pp=ugUEEgJlbg%3D%3D)
+
+StarTalk
+
+4.5M3d ago
+
+[![](https://i.ytimg.com/vi/Zw0I7kb6zg4/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCTc_HthqEPieFftdjrJ3qNae6YTg)\\
+\\
+44:10\\
+\\
+New](https://www.youtube.com/watch?v=Zw0I7kb6zg4)
+
+### ['Big Short' Investor Explains How the AI Bubble Will Burst](https://www.youtube.com/watch?v=Zw0I7kb6zg4)
+
+New Money
+
+1.5M2d ago
+
+Show more
+
+Show more
+output.chunkIndex:
+1
+output.hasMore:
+false
+output.totalChunks:
+2
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_GS9bhtOtO06WSC3nWMkV2Hy4
+metadata.state:
+output-available
+input.url:
+https://www.youtube.com/watch?v=2my-NU6LuCM
+input.chunkIndex:
+1
+output.status:
+success
+output.url:
+https://www.youtube.com/watch?v=2my-NU6LuCM
+output.title:
+Altman: AI Beyond Human Control “Absolutely” Possible, Vows Safeguards | Titans and Disruptors - YouTube
+output.content:
+lhT21NNi1NNTFaU2FPQnEzN3QxcFJfeFRj&q=https%3A%2F%2Ftwitter.com%2Ffortunemagazine)[Facebook](https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUZZTVljRm5OeVNTcWZscHF3clVyMlNZLVlVcnxBSTVJdTV0SHR2bUVjWXk1YVRBTUt3dE92eVBwaHlKQzdxbndMYkhEMWdfcEVldlFoZVNTLVlsTVoxYTlfTG9KTnVoelZ0Nkg0SjhldmM2OGs0UXZkNy1KTlNBcHhjYmlfM2VS&q=https%3A%2F%2Fwww.facebook.com%2FFortuneMagazine)[Instagram](https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUZZTVljR1dGMnIxNFNWc3RVYzZuQUZxX3h4WnxBSTVJdTV1WGR1X1BCSzM5MUtuUkUzZl94TmhONnY1akQtSjlSbGYzZldQZlBrUFBhbFZXV1gtSG5lYWFnTlFhc2VsR3ROSDZ2b0RIejBSWmR3UlR0TFQxYTF2VnBjM09meERv&q=http%3A%2F%2Finstagram.com%2Ffortunemag)[TikTok](https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUZZTVljRmFOVlVzbjJvbDFzZW9xQUpta1pQZ3xBSTVJdTV0U0pvbnFXVmpmQ2NMNFVMWmhHMk5XdEtHZjdQUGRCZ2xZQzNTejlUaF9kSmQyZTZVZnFNSVNBZGFscjhfMGNlNnFZQk1rYkx2eXM4MHdPU29hbGhHUExxcVB1c0Iw&q=https%3A%2F%2Fwww.tiktok.com%2F%40fortune)
+
+Show less
+
+[Titans and Disruptors of Industry](https://www.youtube.com/playlist?list=PLS8YLn_6PU1nBYKC_QRMkbmFk6zpSN7Iy)
+
+# Altman: AI Beyond Human Control “Absolutely” Possible, Vows Safeguards \| Titans and Disruptors
+
+518,439 views518K views
+
+Sep 12, 2026
+
+4.4K
+
+Share
+
+Download
+
+Download
+
+Save
+
+[**Introducing Sam Altman**  **Introducing Sam Altman** \\
+\\
+0:00](https://www.youtube.com/watch?v=2my-NU6LuCM)
+
+[**Introducing Sam Altman**](https://www.youtube.com/watch?v=2my-NU6LuCM)
+
+0:00
+
+[**Astra, AGI claims, and P(doom) fears**  **Astra, AGI claims, and P(doom) fears** \\
+\\
+1:54](https://www.youtube.com/watch?v=2my-NU6LuCM&t=114s)
+
+[**Astra, AGI claims, and P(doom) fears**](https://www.youtube.com/watch?v=2my-NU6LuCM&t=114s)
+
+1:54
+
+[**Is a 10% extinction risk real?**  **Is a 10% extinction risk real?** \\
+\\
+3:10](https://www.youtube.com/watch?v=2my-NU6LuCM&t=190s)
+
+[**Is a 10% extinction risk real?**](https://www.youtube.com/watch?v=2my-NU6LuCM&t=190s)
+
+3:10
+
+[**Loss of control and OpenAI’s safety stance**  **Loss of control and OpenAI’s safety stance** \\
+\\
+6:03](https://www.youtube.com/watch?v=2my-NU6LuCM&t=363s)
+
+[**Loss of control and OpenAI’s safety stance**](https://www.youtube.com/watch?v=2my-NU6LuCM&t=363s)
+
+6:03
+
+[**Recursive self‑improvement and human oversight**  **Recursive self‑improvement and human oversight** \\
+\\
+9:05](https://www.youtube.com/watch?v=2my-NU6LuCM&t=545s)
+
+[**Recursive self‑improvement and human oversight**](https://www.youtube.com/watch?v=2my-NU6LuCM&t=545s)
+
+9:05
+
+[**Why alignment is still unsolved**  **Why alignment is still unsolved** \\
+\\
+12:19](https://www.youtube.com/watch?v=2my-NU6LuCM&t=739s)
+
+[**Why alignment is still unsolved**](https://www.youtube.com/watch?v=2my-NU6LuCM&t=739s)
+
+12:19
+
+[**Can humans control superintelligence?**  **Can humans control superintelligence?** \\
+\\
+14:23](https://www.youtube.com/watch?v=2my-NU6LuCM&t=863s&pp=0gcJCSoDDuyUWbzu)
+
+[**Can humans control superintelligence?**](https://www.youtube.com/watch?v=2my-NU6LuCM&t=863s&pp=0gcJCSoDDuyUWbzu)
+
+14:23
+
+[**From grade‑school math to Navier–Stokes**  **From grade‑school math to Navier–Stokes** \\
+\\
+16:35](https://www.youtube.com/watch?v=2my-NU6LuCM&t=995s)
+
+[**From grade‑school math to Navier–Stokes**](https://www.youtube.com/watch?v=2my-NU6LuCM&t=995s)
+
+16:35
+
+[**The Hugging Face sandbox escape incident**  **The Hugging Face sandbox escape incident** \\
+\\
+18:42](https://www.youtube.com/watch?v=2my-NU6LuCM&t=1122s)
+
+[**The Hugging Face sandbox escape incident**](https://www.youtube.com/watch?v=2my-NU6LuCM&t=1122s)
+
+18:42
+
+[**Limits of current safeguards and accident reporting**  **Limits of current safeguards and accident reporting** \\
+\\
+21:58](https://www.youtube.com/watch?v=2my-NU6LuCM&t=1318s)
+
+[**Limits of current safeguards and accident reporting**](https://www.youtube.com/watch?v=2my-NU6LuCM&t=1318s)
+
+21:58
+
+[**IPO timing, profit pressure, and pausing for safety**  **IPO timing, profit pressure, and pausing for safety** \\
+\\
+23:01](https://www.youtube.com/watch?v=2my-NU6LuCM&t=1381s)
+
+[**IPO timing, profit pressure, and pausing for safety**](https://www.youtube.com/watch?v=2my-NU6LuCM&t=1381s)
+
+23:01
+
+[**Global coordination, U.S.–China, and AI standards**  **Global coordination, U.S.–China, and AI standards** \\
+\\
+28:36](https://www.youtube.com/watch?v=2my-NU6LuCM&t=1716s)
+
+[**Global coordination, U.S.–China, and AI standards**](https://www.youtube.com/watch?v=2my-NU6LuCM&t=1716s)
+
+28:36
+
+[**P(doom) vs. the upside case for AI**  **P(doom) vs. the upside case for AI** \\
+\\
+35:09](https://www.youtube.com/watch?v=2my-NU6LuCM&t=2109s)
+
+[**P(doom) vs. the upside case for AI**](https://www.youtube.com/watch?v=2my-NU6LuCM&t=2109s)
+
+35:09
+
+[**The weight on Sam Altman and human motivations**  **The weight on Sam Altman and human motivations** \\
+\\
+41:51](https://www.youtube.com/watch?v=2my-NU6LuCM&t=2511s)
+
+[**The weight on Sam Altman and human motivations**](https://www.youtube.com/watch?v=2my-NU6LuCM&t=2511s)
+
+41:51
+
+Sync to video time
+
+Altman: AI Beyond Human Control “Absolutely” Possible, Vows Safeguards \| Titans and Disruptors
+
+Fortune Magazine
+
+
+Fortune Magazine
+
+
+4.4KLikes
+
+518,439Views
+
+Sep 122026
+
+OpenAI CEO Sam Altman sits down with Fortune's Editor-in-Chief Alyson Shontell to discuss the high-stakes balancing act of AI: pushing the boundaries of scientific discovery while confronting the existential risks of loss of control.
+
+In this episode, Altman addresses the reality of AI alignment, the Hugging Face incident, and OpenAI's commitment to halting training runs if safety thresholds aren't met. He also shares insights on global AI coordination between the U.S. and China, healthcare breakthroughs, and the company's timeline for an IPO.
+
+[00:00](https://www.youtube.com/watch?v=2my-NU6LuCM) Introducing Sam Altman
+[01:54](https://www.youtube.com/watch?v=2my-NU6LuCM&t=114s) Astra, AGI claims, and P(doom) fears
+[03:10](https://www.youtube.com/watch?v=2my-NU6LuCM&t=190s) Is a 10% extinction risk real?
+[06:03](https://www.youtube.com/watch?v=2my-NU6LuCM&t=363s) Loss of control and OpenAI’s safety stance
+[09:05](https://www.youtube.com/watch?v=2my-NU6LuCM&t=545s) Recursive self‑improvement and human oversight
+[12:19](https://www.youtube.com/watch?v=2my-NU6LuCM&t=739s) Why alignment is still unsolved
+[14:23](https://www.youtube.com/watch?v=2my-NU6LuCM&t=863s) Can humans control superintelligence?
+[16:35](https://www.youtube.com/watch?v=2my-NU6LuCM&t=995s) From grade‑school math to Navier–Stokes
+[18:42](https://www.youtube.com/watch?v=2my-NU6LuCM&t=1122s) The Hugging Face sandbox escape incident
+[21:58](https://www.youtube.com/watch?v=2my-NU6LuCM&t=1318s) Limits of current safeguards and accident reporting
+[23:01](https://www.youtube.com/watch?v=2my-NU6LuCM&t=1381s) IPO timing, profit pressure, and pausing for safety
+[28:36](https://www.youtube.com/watch?v=2my-NU6LuCM&t=1716s&pp=0gcJCWMAwfN6Pr3D) Global coordination, U.S.–China, and AI standards
+[35:09](https://www.youtube.com/watch?v=2my-NU6LuCM&t=2109s) P(doom) vs. the upside case for AI
+[41:51](https://www.youtube.com/watch?v=2my-NU6LuCM&t=2511s) The weight on Sam Altman and human motivations
+
+Subscribe to Fortune's YouTube:
+[http://www.youtube.com/subscription\_c...](http://www.youtube.com/subscription_center?add_user=FortuneMagazineVideo)
+
+Subscribe to Fortune:
+[https://fortune.com/subscribe/?utm\_so...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljSExBZVRMd1pZMk1aVzNKLWZqd2FPaHxBSTVJdTVzdWprQzZwenRKNmVVY2RaMXpZZ1JQZ1llS1VTeFRqZW1QRm9KOE1UNnJ5QjJRSWpuUGhudUxMeHJQay1KVGwyVnNaRHZGSmtrM1I2OG5uMmRTaGItdW0zZ3RHZ0hO&q=https%3A%2F%2Ffortune.com%2Fsubscribe%2F%3Futm_source%3Dyoutube%26utm_medium%3Dsocial%26utm_campaign%3Dvideo-description&v=2my-NU6LuCM)
+
+Fortune Magazine is a global leader in business journalism with 55 million monthly page views and a readership of nearly 32 million, with major franchises including the Fortune 500 and the Fortune 100 Best Companies to Work For. The new Fortune video c
+output.chunkIndex:
+1
+output.hasMore:
+true
+output.totalChunks:
+4
+[notice: fetch_page response has more content (chunk 2 of 4); this exporter does not retrieve missing chunks]
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_FNgl93NK4kqV5vYwAQI69I4R
+metadata.state:
+output-available
+input.url:
+https://www.youtube.com/watch?v=2my-NU6LuCM
+input.chunkIndex:
+2
+output.status:
+success
+output.url:
+https://www.youtube.com/watch?v=2my-NU6LuCM
+output.title:
+Altman: AI Beyond Human Control “Absolutely” Possible, Vows Safeguards | Titans and Disruptors - YouTube
+output.content:
+hannel dives into personal stories from business owners and entrepreneurs becoming successful in business and sharing their tips to help you reach your goals.
+
+Website: [http://fortune.com/](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRmlFUEdqbXVRQ3JrLThWaVVna2ZaNHxBSTVJdTVzR2ttdENQYkphTkYwOXZQU0NfeUdnMVNDN0tNUEFKVlRQSDFsaEpiQzRleTdxWnRSUmtfdGpzQ0dXUFV4SElyQTJ0QUZzdlhVTGZsZ19SUHZLa2dZRzBZanN2ZGdX&q=http%3A%2F%2Ffortune.com%2F&v=2my-NU6LuCM)
+Facebook: [/ fortunemagazine](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRXR5eWxCdU9NOElkNlcyZXZ0c21iVHxBSTVJdTV2bHdSdG5HMVIxcTR3a3czTVVZc2ZyaHZnaWdtQ1VXbTBoUFdtVDlDN0M1aHpvbWFTc2FxclF1X19ONklIbUJ0SzBpZy0xV0xLY0ttS2hvWUhjQjVFWWNvXzZOS3Zq&q=https%3A%2F%2Fwww.facebook.com%2FFortuneMagazine&v=2my-NU6LuCM)
+Twitter: [/ fortunemagazine](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRTFyQ0wwTllhRVdrVmJRSFhVVHhLcXxBSTVJdTV0SHFsX3laVVB4MEdEb3h6Vk83MXl1Y2FzclA4ejdlNnFXTFl0Y2xNVUdYOHZaeW83eU42RTV1emF0dktxV0c0YXhHM1ZXbW5ESGtSM2JhUHBJMk9kMTdJTV94bkY3&q=https%3A%2F%2Ftwitter.com%2FFortuneMagazine&v=2my-NU6LuCM)
+TikTok: [/ fortune](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRXloM3VWNk1vRmZEZmlRV1hpNnJxV3xBSTVJdTVzclZYQkczWlI5cGl2alhVRlRsb0tvMWRMV3RLdGVGZWc0MnBmcllCVWdzQWFHWWlrM0NLWVFJaXRvblQ4UkdGYk5ja01WVEJMLVBaQVBLdndoOG5sWnY5bV9vVW4y&q=https%3A%2F%2Fwww.tiktok.com%2F%40fortune&v=2my-NU6LuCM)…...more
+
+...more
+Show less
+
+How this was made
+
+Auto-dubbed
+
+Audio tracks for some languages were automatically generated. [Learn more](https://support.google.com/youtube/answer/15569972?hl=en)
+
+[**Introducing Sam Altman**  **Introducing Sam Altman** \\
+\\
+0:00](https://www.youtube.com/watch?v=2my-NU6LuCM)
+
+[**Introducing Sam Altman**](https://www.youtube.com/watch?v=2my-NU6LuCM)
+
+0:00
+
+[**Astra, AGI claims, and P(doom) fears**  **Astra, AGI claims, and P(doom) fears** \\
+\\
+1:54](https://www.youtube.com/watch?v=2my-NU6LuCM&t=114s)
+
+[**Astra, AGI claims, and P(doom) fears**](https://www.youtube.com/watch?v=2my-NU6LuCM&t=114s)
+
+1:54
+
+[**Is a 10% extinction risk real?**  **Is a 10% extinction risk real?** \\
+\\
+3:10](https://www.youtube.com/watch?v=2my-NU6LuCM&t=190s)
+
+[**Is a 10% extinction risk real?**](https://www.youtube.com/watch?v=2my-NU6LuCM&t=190s)
+
+3:10
+
+[**Loss of control and OpenAI’s safety stance**  **Loss of control and OpenAI’s safety stance** \\
+\\
+6:03](https://www.youtube.com/watch?v=2my-NU6LuCM&t=363s)
+
+[**Loss of control and OpenAI’s safety stance**](https://www.youtube.com/watch?v=2my-NU6LuCM&t=363s)
+
+6:03
+
+[14 episodes\\
+\\
+14 episodes](https://www.youtube.com/playlist?list=PLS8YLn_6PU1nBYKC_QRMkbmFk6zpSN7Iy)
+
+[Titans and Disruptors of Industry](https://www.youtube.com/playlist?list=PLS8YLn_6PU1nBYKC_QRMkbmFk6zpSN7Iy)
+
+Fortune Magazine
+
+[Podcasts](https://www.youtube.com/podcasts)
+
+Follow along using the transcript.
+
+Show transcript
+
+[Videos](https://www.youtube.com/channel/UCP2gdh7HfjgCoi8lO50dA5w/videos)[About](https://www.youtube.com/channel/UCP2gdh7HfjgCoi8lO50dA5w/about)[Twitter](https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUZZTVljR2ExdUplLWtvUmlBbHE5RzItYm5uNXxBSTVJdTVzQlcxSzFiTTFqMFIwWHFvN3VhM2lFWi1lMVZsSVFkSlU2aV9GYTM1TWJDTUZnV0xlX0lSX3M0RHdrcTd1Rnpvd1RLaHlhT21NNi1NNTFaU2FPQnEzN3QxcFJfeFRj&q=https%3A%2F%2Ftwitter.com%2Ffortunemagazine)[Facebook](https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUZZTVljRm5OeVNTcWZscHF3clVyMlNZLVlVcnxBSTVJdTV0SHR2bUVjWXk1YVRBTUt3dE92eVBwaHlKQzdxbndMYkhEMWdfcEVldlFoZVNTLVlsTVoxYTlfTG9KTnVoelZ0Nkg0SjhldmM2OGs0UXZkNy1KTlNBcHhjYmlfM2VS&q=https%3A%2F%2Fwww.facebook.com%2FFortuneMagazine)[Instagram](https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUZZTVljR1dGMnIxNFNWc3RVYzZuQUZxX3h4WnxBSTVJdTV1WGR1X1BCSzM5MUtuUkUzZl94TmhONnY1akQtSjlSbGYzZldQZlBrUFBhbFZXV1gtSG5lYWFnTlFhc2VsR3ROSDZ2b0RIejBSWmR3UlR0TFQxYTF2VnBjM09meERv&q=http%3A%2F%2Finstagram.com%2Ffortunemag)[TikTok](https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUZZTVljRmFOVlVzbjJvbDFzZW9xQUpta1pQZ3xBSTVJdTV0U0pvbnFXVmpmQ2NMNFVMWmhHMk5XdEtHZjdQUGRCZ2xZQzNTejlUaF9kSmQyZTZVZnFNSVNBZGFscjhfMGNlNnFZQk1rYkx2eXM4MHdPU29hbGhHUExxcVB1c0Iw&q=https%3A%2F%2Fwww.tiktok.com%2F%40fortune)
+
+[![](https://i.ytimg.com/vi/A_156w0aYtU/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBwcIvK-4X8Hw6Pd9VNOfUPDRfepQ)\\
+\\
+1:13:50\\
+\\
+New](https://www.youtube.com/watch?v=A_156w0aYtU&pp=ugUEEgJlbtIHCQktDAGHKiGM7w%3D%3D)
+
+### [Bill Gates: A.I. ‘Makes Nuclear Weapons Look Like Nothing’ \| The Ezra Klein Show](https://www.youtube.com/watch?v=A_156w0aYtU&pp=ugUEEgJlbtIHCQktDAGHKiGM7w%3D%3D)
+
+The Ezra Klein Showand 2 more
+
+1.2M6d ago
+
+[![](https://i.ytimg.com/vi/PQYFRuZ5phs/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCPfcJ0ShHnGoFOQtgTuziw-BH6Tg)\\
+\\
+1:30:00\\
+\\
+New](https://www.youtube.com/watch?v=PQYFRuZ5phs&pp=ugUEEgJlbg%3D%3D)
+
+### [AI Just Changed Mathematics Forever \| World Science Festival](https://www.youtube.com/watch?v=PQYFRuZ5phs&pp=ugUEEgJlbg%3D%3D)
+
+World Science Festival
+
+299K2d ago
+
+[![](https://i.ytimg.com/vi/XuoqKYxDHVc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDd6LnInpvrPC66Z6auOFE21Q3Jrg)\\
+\\
+1:25:07](https://www.youtube.com/watch?v=XuoqKYxDHVc&pp=ugUEEgJlbg%3D%3D)
+
+### [The full-length interview with Elon Musk \| The Economist](https://www.youtube.com/watch?v=XuoqKYxDHVc&pp=ugUEEgJlbg%3D%3D)
+
+The Economist
+
+6.9M2mo ago
+
+[![](https://i.ytimg.com/vi/xCUala5j7aQ/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCxDw2FwKXuKiZWRt006leBKOW_hw)\\
+\\
+46:19](https://www.youtube.com/watch?v=xCUala5j7aQ)
+
+### [Extended interview: Nvidia CEO explains why he disagrees with AI warnings](https://www.youtube.com/watch?v=xCUala5j7aQ)
+
+CBS Sunday Morning
+
+462K2w ago
+
+[![](https://i.ytimg.com/vi/Xp8wkO2-kYs/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAwXCQ11WZsBtcxQh4WcVpks-Z5UA)\\
+\\
+24:57\\
+\\
+New](https://www.youtube.com/watch?v=Xp8wkO2-kYs&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [Elon Musk Said The Unthinkable in Front of Trump](https://www.youtube.com/watch?v=Xp8wkO2-kYs&pp=ugUHEgVlbi1VUw%3D%3D)
+
+Farzadand David Carbutt
+
+556K5d ago
+
+[![](https://i.ytimg.com/vi/388P7IFSpwE/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGEAgUShyMA8=&rs=AOn4CLDpjAnrBmnftqk6XDwa0LHL2Nl3Pw)\\
+\\
+26:37\\
+\\
+New](https://www.youtube.com/watch?v=388P7IFSpwE&pp=ugUEEgJlbg%3D%3D)
+
+### [FULL: Elon Musk, Jensen Huang, Tom Brown Discuss the AI Revolution & What's Next - 09/29/26](https://www.youtube.com/watch?v=388P7IFSpwE&pp=ugUEEgJlbg%3D%3D)
+
+Right Side Broadcasting Network
+
+565K5d ago
+
+[![](https://i.ytimg.com/vi/hQR_VJF6ukk/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCsKNfH8dDeVzRL70w7ggyETcYvLw)\\
+\\
+23:47](https://www.youtube.com/watch?v=hQR_VJF6ukk)
+
+### [Extended interview: Dario Amodei](https://www.youtube.com/watch?v=hQR_VJF6ukk)
+
+CBS Sunday Morning
+
+682K3w ago
+
+[![](https://i.ytimg.com/vi/6D1wC95htTM/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBIK5zl-kUIJP_YngZDiYuv4aDqbQ)\\
+\\
+58:41\\
+\\
+New](https://www.youtube.com/watch?v=6D1wC95htTM)
+
+### [Anthropic Researchers: How AI Will Create A Radically Better 2030s](https://www.youtube.com/watch?v=6D1wC95htTM)
+
+Joe Lonsdale
+
+74K2d ago
+
+[![](https://i.ytimg.com/vi/Zw0I7kb6zg4/hqdefault_custom_1.jpg?sqp=CJz5jtYG-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAH1OBssiA3blI68qELNfI14vl20g)\\
+\\
+44:10\\
+\\
+New](https://www.youtube.com/watch?v=Zw0I7kb6zg4&pp=0gcJCS0MAYcqIYzv)
+
+### ['Big Short' Investor Explains How the AI Bubble Will Burst](https://www.youtube.com/watch?v=Zw0I7kb6zg4&pp=0gcJCS0MAYcqIYzv)
+
+New Money
+
+1.5M2d ago
+
+[![](https://i.ytimg.com/vi/IJn8cagMW18/hqdefault.jpg?sqp=
+output.chunkIndex:
+2
+output.hasMore:
+true
+output.totalChunks:
+4
+[notice: fetch_page response has more content (chunk 3 of 4); this exporter does not retrieve missing chunks]
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_EvkteInsq9vmXWhdPmZy4ZLD
+metadata.state:
+output-available
+input.url:
+https://www.youtube.com/watch?v=2my-NU6LuCM
+input.chunkIndex:
+3
+output.status:
+success
+output.url:
+https://www.youtube.com/watch?v=2my-NU6LuCM
+output.title:
+Altman: AI Beyond Human Control “Absolutely” Possible, Vows Safeguards | Titans and Disruptors - YouTube
+output.content:
+-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDBc0hCOsSPhK0vQD8O6F7Pe8ssfw)\\
+\\
+49:38](https://www.youtube.com/watch?v=IJn8cagMW18&pp=ugUEEgJlbg%3D%3D)
+
+### [OpenAI President on What it Means to Cross Into The Age of AGI](https://www.youtube.com/watch?v=IJn8cagMW18&pp=ugUEEgJlbg%3D%3D)
+
+a16z
+
+155K3w ago
+
+[![](https://i.ytimg.com/vi/XqxbWdJ51K0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCFRQnFVzR3LQRPjrPWz1bZTRZ_iw)\\
+\\
+25:12\\
+\\
+New](https://www.youtube.com/watch?v=XqxbWdJ51K0)
+
+### [The Real Existential Risk Is AI CEOs Avoiding Oversight: "Alternative Nobel" Winner Timnit Gebru](https://www.youtube.com/watch?v=XqxbWdJ51K0)
+
+Democracy Now!
+
+320K4d ago
+
+[![](https://i.ytimg.com/vi/tIZpuS86jkI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAIWNyVoQZxGt21CM3Bo_8IiT2xXA)\\
+\\
+42:31\\
+\\
+New](https://www.youtube.com/watch?v=tIZpuS86jkI&pp=ugUEEgJlbg%3D%3D)
+
+### [U.S. Race To Superintelligence: Elon Musk & Jensen Huang Discuss AI’s Future \| JD Vance \| N18G](https://www.youtube.com/watch?v=tIZpuS86jkI&pp=ugUEEgJlbg%3D%3D)
+
+CNBC-TV18
+
+384K5d ago
+
+[![](https://i.ytimg.com/vi/B7yl7fEHeKM/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLByJCqe5eqn5wu5gr18CHjfMagUZQ)\\
+\\
+1:05:30](https://www.youtube.com/watch?v=B7yl7fEHeKM&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [Peter Thiel: The AI Crisis, Europe’s Decline & the Battle for America](https://www.youtube.com/watch?v=B7yl7fEHeKM&pp=ugUHEgVlbi1VUw%3D%3D)
+
+MDMEETS - Essential Talks with Mathias Döpfnerand 2 more
+
+625K10d ago
+
+[![](https://i.ytimg.com/vi/iwBOQeFPAwg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD-LHiJQHQyrJMOz2Ml6Lo2HuHPw)\\
+\\
+1:04:24](https://www.youtube.com/watch?v=iwBOQeFPAwg&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [Elon Musk & Gwynne Shotwell on AI Risks and Peer Review, Starship, Terafab, SpaceX/Tesla Merger](https://www.youtube.com/watch?v=iwBOQeFPAwg&pp=ugUHEgVlbi1VUw%3D%3D)
+
+All-In Podcast
+
+1.3M2w ago
+
+[![](https://i.ytimg.com/vi/5KmpT-BoVf4/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBcRWiWpidEtvt7NF-A5hqQVU0vQg)\\
+\\
+57:10](https://www.youtube.com/watch?v=5KmpT-BoVf4&pp=ugUEEgJlbg%3D%3D)
+
+### [Sam Altman on God, Elon Musk and the Mysterious Death of His Former Employee](https://www.youtube.com/watch?v=5KmpT-BoVf4&pp=ugUEEgJlbg%3D%3D)
+
+Tucker Carlson
+
+3.1M1y ago
+
+[![](https://i.ytimg.com/vi/l6ZcFa8pybE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDrxwiL_q3Bew_QfxgI3xS6ikT9YA)\\
+\\
+1:33:33](https://www.youtube.com/watch?v=l6ZcFa8pybE&pp=ugUEEgJlbg%3D%3D)
+
+### [Is AI Hiding Its Full Power? With Geoffrey Hinton](https://www.youtube.com/watch?v=l6ZcFa8pybE&pp=ugUEEgJlbg%3D%3D)
+
+StarTalk
+
+3.8M7mo ago
+
+[![](https://i.ytimg.com/vi/_g4l7YkDQwA/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAO00A1iO57ynVvrEUqyVLJDLThCQ)\\
+\\
+2:00:45](https://www.youtube.com/watch?v=_g4l7YkDQwA&pp=ugUEEgJlbg%3D%3D)
+
+### [ChatGPT Whistleblower: They Offered Me $2m To Keep Quiet, No One Is Ready For What's Coming!](https://www.youtube.com/watch?v=_g4l7YkDQwA&pp=ugUEEgJlbg%3D%3D)
+
+The Diary Of A CEO
+
+19M2mo ago
+
+[![](https://i.ytimg.com/vi/VeizK1M7V7E/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBAI6RvUpsWNOCj-fujzwV_pTLN7Q)\\
+\\
+1:08:40](https://www.youtube.com/watch?v=VeizK1M7V7E)
+
+### [Sam Altman on Astra, AGI, and the future of OpenAI](https://www.youtube.com/watch?v=VeizK1M7V7E)
+
+Sources Podcastand Alex Heath
+
+666K1mo ago
+
+[![](https://i.ytimg.com/vi/Blyb1D927pM/hqdefault_custom_2.jpg?sqp=CJz5jtYG-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLACKCqZUyvncdmFXnJObDJvai_1oQ)\\
+\\
+2:25:50\\
+\\
+New](https://www.youtube.com/watch?v=Blyb1D927pM)
+
+### [Richard Socher: ASI & RSI Timeline, Khanna Moves to Ban Recursive AI, and Tavus’ Turing Test](https://www.youtube.com/watch?v=Blyb1D927pM)
+
+Peter H. Diamandis
+
+153K1d ago
+
+[![](https://i.ytimg.com/vi/m94OMx1eBy0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD0dP98MtZjh_RiA-VXxrxnLywD0w)\\
+\\
+20:03\\
+\\
+New](https://www.youtube.com/watch?v=m94OMx1eBy0&pp=ugUEEgJlbg%3D%3D)
+
+### [AI Expert WARNS: "You're Not Ready For 2027"](https://www.youtube.com/watch?v=m94OMx1eBy0&pp=ugUEEgJlbg%3D%3D)
+
+The Diary Of A CEO Clips
+
+3.2M5d ago
+
+[![](https://i.ytimg.com/vi/U4zGLSlLo5A/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLByOQhIth6l45FqTc4n7XTyq1ANuQ)\\
+\\
+32:29](https://www.youtube.com/watch?v=U4zGLSlLo5A&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [Bill Gates Changes His Mind on AI](https://www.youtube.com/watch?v=U4zGLSlLo5A&pp=ugUHEgVlbi1VUw%3D%3D)
+
+The Atlantic
+
+1.6M1mo ago
+
+[![](https://i.ytimg.com/vi/_V_ed5fuexA/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB8qA2TUUgaQ5HKZcyUmpCE9_f7YA)\\
+\\
+48:06](https://www.youtube.com/watch?v=_V_ed5fuexA&pp=ugUEEgJlbg%3D%3D)
+
+### [The next 50 years: humanity, AI, power \| Yuval Noah Harari](https://www.youtube.com/watch?v=_V_ed5fuexA&pp=ugUEEgJlbg%3D%3D)
+
+Yuval Noah Harari
+
+1.7M2mo ago
+
+[![](https://i.ytimg.com/vi/PJrq_bw7bPc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDmMC7U0T1XZPN6VJbcphhCwlVlNA)\\
+\\
+49:55\\
+\\
+New](https://www.youtube.com/watch?v=PJrq_bw7bPc&pp=ugUEEgJlbtIHCQktDAGHKiGM7w%3D%3D)
+
+### [Why Steve Eisman Is Taking Risk Off The Table](https://www.youtube.com/watch?v=PJrq_bw7bPc&pp=ugUEEgJlbtIHCQktDAGHKiGM7w%3D%3D)
+
+Prof G Marketsand Steve Eisman
+
+360K3d ago
+
+[![](https://i.ytimg.com/vi/v1wZwxY3CMg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBJ3-hEPGJkqsaAtPekNZufWjOjyw)\\
+\\
+47:40](https://www.youtube.com/watch?v=v1wZwxY3CMg&pp=ugUEEgJlbg%3D%3D)
+
+### [Inside Anthropic, the $965 Billion AI Juggernaut \| The Circuit](https://www.youtube.com/watch?v=v1wZwxY3CMg&pp=ugUEEgJlbg%3D%3D)
+
+Bloomberg Originals
+
+3.1M3mo ago
+
+[![](https://i.ytimg.com/vi/6AgOfiZOWiY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCn6D4MNhveEl-oWuYoaxwGOn_2yA)\\
+\\
+1:20:10](https://www.youtube.com/watch?v=6AgOfiZOWiY)
+
+### [OpenAI researcher on agent swarms & recursive self-improvement](https://www.youtube.com/watch?v=6AgOfiZOWiY)
+
+Dwarkesh Patel
+
+601K2w ago
+
+[![](https://i.ytimg.com/vi/X50zezLFWWI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDalGv1nFbXeYcYx2PDlARpxBZumQ)\\
+\\
+2:20:33](https://www.youtube.com/watch?v=X50zezLFWWI)
+
+### [Ajeya Cotra – "This might be the clearest warning shot we ever get"](https://www.youtube.com/watch?v=X50zezLFWWI)
+
+Dwarkesh Patel
+
+1.5M1mo ago
+
+Show more
+
+Show more
+output.chunkIndex:
+3
+output.hasMore:
+false
+output.totalChunks:
+4
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_ehOor2BN2CTOjHWPV3lr5ah0
+metadata.state:
+output-available
+input.url:
+https://www.youtube.com/watch?v=2my-NU6LuCM
+input.chunkIndex:
+4
+output.status:
+success
+output.url:
+https://www.youtube.com/watch?v=2my-NU6LuCM
+output.title:
+Altman: AI Beyond Human Control “Absolutely” Possible, Vows Safeguards | Titans and Disruptors - YouTube
+output.content:
+-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDBc0hCOsSPhK0vQD8O6F7Pe8ssfw)\\
+\\
+49:38](https://www.youtube.com/watch?v=IJn8cagMW18&pp=ugUEEgJlbg%3D%3D)
+
+### [OpenAI President on What it Means to Cross Into The Age of AGI](https://www.youtube.com/watch?v=IJn8cagMW18&pp=ugUEEgJlbg%3D%3D)
+
+a16z
+
+155K3w ago
+
+[![](https://i.ytimg.com/vi/XqxbWdJ51K0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCFRQnFVzR3LQRPjrPWz1bZTRZ_iw)\\
+\\
+25:12\\
+\\
+New](https://www.youtube.com/watch?v=XqxbWdJ51K0)
+
+### [The Real Existential Risk Is AI CEOs Avoiding Oversight: "Alternative Nobel" Winner Timnit Gebru](https://www.youtube.com/watch?v=XqxbWdJ51K0)
+
+Democracy Now!
+
+320K4d ago
+
+[![](https://i.ytimg.com/vi/tIZpuS86jkI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAIWNyVoQZxGt21CM3Bo_8IiT2xXA)\\
+\\
+42:31\\
+\\
+New](https://www.youtube.com/watch?v=tIZpuS86jkI&pp=ugUEEgJlbg%3D%3D)
+
+### [U.S. Race To Superintelligence: Elon Musk & Jensen Huang Discuss AI’s Future \| JD Vance \| N18G](https://www.youtube.com/watch?v=tIZpuS86jkI&pp=ugUEEgJlbg%3D%3D)
+
+CNBC-TV18
+
+384K5d ago
+
+[![](https://i.ytimg.com/vi/B7yl7fEHeKM/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLByJCqe5eqn5wu5gr18CHjfMagUZQ)\\
+\\
+1:05:30](https://www.youtube.com/watch?v=B7yl7fEHeKM&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [Peter Thiel: The AI Crisis, Europe’s Decline & the Battle for America](https://www.youtube.com/watch?v=B7yl7fEHeKM&pp=ugUHEgVlbi1VUw%3D%3D)
+
+MDMEETS - Essential Talks with Mathias Döpfnerand 2 more
+
+625K10d ago
+
+[![](https://i.ytimg.com/vi/iwBOQeFPAwg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD-LHiJQHQyrJMOz2Ml6Lo2HuHPw)\\
+\\
+1:04:24](https://www.youtube.com/watch?v=iwBOQeFPAwg&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [Elon Musk & Gwynne Shotwell on AI Risks and Peer Review, Starship, Terafab, SpaceX/Tesla Merger](https://www.youtube.com/watch?v=iwBOQeFPAwg&pp=ugUHEgVlbi1VUw%3D%3D)
+
+All-In Podcast
+
+1.3M2w ago
+
+[![](https://i.ytimg.com/vi/5KmpT-BoVf4/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBcRWiWpidEtvt7NF-A5hqQVU0vQg)\\
+\\
+57:10](https://www.youtube.com/watch?v=5KmpT-BoVf4&pp=ugUEEgJlbg%3D%3D)
+
+### [Sam Altman on God, Elon Musk and the Mysterious Death of His Former Employee](https://www.youtube.com/watch?v=5KmpT-BoVf4&pp=ugUEEgJlbg%3D%3D)
+
+Tucker Carlson
+
+3.1M1y ago
+
+[![](https://i.ytimg.com/vi/l6ZcFa8pybE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDrxwiL_q3Bew_QfxgI3xS6ikT9YA)\\
+\\
+1:33:33](https://www.youtube.com/watch?v=l6ZcFa8pybE&pp=ugUEEgJlbg%3D%3D)
+
+### [Is AI Hiding Its Full Power? With Geoffrey Hinton](https://www.youtube.com/watch?v=l6ZcFa8pybE&pp=ugUEEgJlbg%3D%3D)
+
+StarTalk
+
+3.8M7mo ago
+
+[![](https://i.ytimg.com/vi/_g4l7YkDQwA/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAO00A1iO57ynVvrEUqyVLJDLThCQ)\\
+\\
+2:00:45](https://www.youtube.com/watch?v=_g4l7YkDQwA&pp=ugUEEgJlbg%3D%3D)
+
+### [ChatGPT Whistleblower: They Offered Me $2m To Keep Quiet, No One Is Ready For What's Coming!](https://www.youtube.com/watch?v=_g4l7YkDQwA&pp=ugUEEgJlbg%3D%3D)
+
+The Diary Of A CEO
+
+19M2mo ago
+
+[![](https://i.ytimg.com/vi/VeizK1M7V7E/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBAI6RvUpsWNOCj-fujzwV_pTLN7Q)\\
+\\
+1:08:40](https://www.youtube.com/watch?v=VeizK1M7V7E)
+
+### [Sam Altman on Astra, AGI, and the future of OpenAI](https://www.youtube.com/watch?v=VeizK1M7V7E)
+
+Sources Podcastand Alex Heath
+
+666K1mo ago
+
+[![](https://i.ytimg.com/vi/Blyb1D927pM/hqdefault_custom_2.jpg?sqp=CJz5jtYG-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLACKCqZUyvncdmFXnJObDJvai_1oQ)\\
+\\
+2:25:50\\
+\\
+New](https://www.youtube.com/watch?v=Blyb1D927pM)
+
+### [Richard Socher: ASI & RSI Timeline, Khanna Moves to Ban Recursive AI, and Tavus’ Turing Test](https://www.youtube.com/watch?v=Blyb1D927pM)
+
+Peter H. Diamandis
+
+153K1d ago
+
+[![](https://i.ytimg.com/vi/m94OMx1eBy0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD0dP98MtZjh_RiA-VXxrxnLywD0w)\\
+\\
+20:03\\
+\\
+New](https://www.youtube.com/watch?v=m94OMx1eBy0&pp=ugUEEgJlbg%3D%3D)
+
+### [AI Expert WARNS: "You're Not Ready For 2027"](https://www.youtube.com/watch?v=m94OMx1eBy0&pp=ugUEEgJlbg%3D%3D)
+
+The Diary Of A CEO Clips
+
+3.2M5d ago
+
+[![](https://i.ytimg.com/vi/U4zGLSlLo5A/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLByOQhIth6l45FqTc4n7XTyq1ANuQ)\\
+\\
+32:29](https://www.youtube.com/watch?v=U4zGLSlLo5A&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [Bill Gates Changes His Mind on AI](https://www.youtube.com/watch?v=U4zGLSlLo5A&pp=ugUHEgVlbi1VUw%3D%3D)
+
+The Atlantic
+
+1.6M1mo ago
+
+[![](https://i.ytimg.com/vi/_V_ed5fuexA/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB8qA2TUUgaQ5HKZcyUmpCE9_f7YA)\\
+\\
+48:06](https://www.youtube.com/watch?v=_V_ed5fuexA&pp=ugUEEgJlbg%3D%3D)
+
+### [The next 50 years: humanity, AI, power \| Yuval Noah Harari](https://www.youtube.com/watch?v=_V_ed5fuexA&pp=ugUEEgJlbg%3D%3D)
+
+Yuval Noah Harari
+
+1.7M2mo ago
+
+[![](https://i.ytimg.com/vi/PJrq_bw7bPc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDmMC7U0T1XZPN6VJbcphhCwlVlNA)\\
+\\
+49:55\\
+\\
+New](https://www.youtube.com/watch?v=PJrq_bw7bPc&pp=ugUEEgJlbtIHCQktDAGHKiGM7w%3D%3D)
+
+### [Why Steve Eisman Is Taking Risk Off The Table](https://www.youtube.com/watch?v=PJrq_bw7bPc&pp=ugUEEgJlbtIHCQktDAGHKiGM7w%3D%3D)
+
+Prof G Marketsand Steve Eisman
+
+360K3d ago
+
+[![](https://i.ytimg.com/vi/v1wZwxY3CMg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBJ3-hEPGJkqsaAtPekNZufWjOjyw)\\
+\\
+47:40](https://www.youtube.com/watch?v=v1wZwxY3CMg&pp=ugUEEgJlbg%3D%3D)
+
+### [Inside Anthropic, the $965 Billion AI Juggernaut \| The Circuit](https://www.youtube.com/watch?v=v1wZwxY3CMg&pp=ugUEEgJlbg%3D%3D)
+
+Bloomberg Originals
+
+3.1M3mo ago
+
+[![](https://i.ytimg.com/vi/6AgOfiZOWiY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCn6D4MNhveEl-oWuYoaxwGOn_2yA)\\
+\\
+1:20:10](https://www.youtube.com/watch?v=6AgOfiZOWiY)
+
+### [OpenAI researcher on agent swarms & recursive self-improvement](https://www.youtube.com/watch?v=6AgOfiZOWiY)
+
+Dwarkesh Patel
+
+601K2w ago
+
+[![](https://i.ytimg.com/vi/X50zezLFWWI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDalGv1nFbXeYcYx2PDlARpxBZumQ)\\
+\\
+2:20:33](https://www.youtube.com/watch?v=X50zezLFWWI)
+
+### [Ajeya Cotra – "This might be the clearest warning shot we ever get"](https://www.youtube.com/watch?v=X50zezLFWWI)
+
+Dwarkesh Patel
+
+1.5M1mo ago
+
+Show more
+
+Show more
+output.chunkIndex:
+3
+output.hasMore:
+false
+output.totalChunks:
+4
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_6Vco52c8h2NphinEXw12Hulh
+metadata.state:
+output-available
+input.url:
+https://www.youtube.com/watch?v=2my-NU6LuCM
+input.chunkIndex:
+5
+output.status:
+success
+output.url:
+https://www.youtube.com/watch?v=2my-NU6LuCM
+output.title:
+Altman: AI Beyond Human Control “Absolutely” Possible, Vows Safeguards | Titans and Disruptors - YouTube
+output.content:
+-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDBc0hCOsSPhK0vQD8O6F7Pe8ssfw)\\
+\\
+49:38](https://www.youtube.com/watch?v=IJn8cagMW18&pp=ugUEEgJlbg%3D%3D)
+
+### [OpenAI President on What it Means to Cross Into The Age of AGI](https://www.youtube.com/watch?v=IJn8cagMW18&pp=ugUEEgJlbg%3D%3D)
+
+a16z
+
+155K3w ago
+
+[![](https://i.ytimg.com/vi/XqxbWdJ51K0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCFRQnFVzR3LQRPjrPWz1bZTRZ_iw)\\
+\\
+25:12\\
+\\
+New](https://www.youtube.com/watch?v=XqxbWdJ51K0)
+
+### [The Real Existential Risk Is AI CEOs Avoiding Oversight: "Alternative Nobel" Winner Timnit Gebru](https://www.youtube.com/watch?v=XqxbWdJ51K0)
+
+Democracy Now!
+
+320K4d ago
+
+[![](https://i.ytimg.com/vi/tIZpuS86jkI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAIWNyVoQZxGt21CM3Bo_8IiT2xXA)\\
+\\
+42:31\\
+\\
+New](https://www.youtube.com/watch?v=tIZpuS86jkI&pp=ugUEEgJlbg%3D%3D)
+
+### [U.S. Race To Superintelligence: Elon Musk & Jensen Huang Discuss AI’s Future \| JD Vance \| N18G](https://www.youtube.com/watch?v=tIZpuS86jkI&pp=ugUEEgJlbg%3D%3D)
+
+CNBC-TV18
+
+384K5d ago
+
+[![](https://i.ytimg.com/vi/B7yl7fEHeKM/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLByJCqe5eqn5wu5gr18CHjfMagUZQ)\\
+\\
+1:05:30](https://www.youtube.com/watch?v=B7yl7fEHeKM&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [Peter Thiel: The AI Crisis, Europe’s Decline & the Battle for America](https://www.youtube.com/watch?v=B7yl7fEHeKM&pp=ugUHEgVlbi1VUw%3D%3D)
+
+MDMEETS - Essential Talks with Mathias Döpfnerand 2 more
+
+625K10d ago
+
+[![](https://i.ytimg.com/vi/iwBOQeFPAwg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD-LHiJQHQyrJMOz2Ml6Lo2HuHPw)\\
+\\
+1:04:24](https://www.youtube.com/watch?v=iwBOQeFPAwg&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [Elon Musk & Gwynne Shotwell on AI Risks and Peer Review, Starship, Terafab, SpaceX/Tesla Merger](https://www.youtube.com/watch?v=iwBOQeFPAwg&pp=ugUHEgVlbi1VUw%3D%3D)
+
+All-In Podcast
+
+1.3M2w ago
+
+[![](https://i.ytimg.com/vi/5KmpT-BoVf4/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBcRWiWpidEtvt7NF-A5hqQVU0vQg)\\
+\\
+57:10](https://www.youtube.com/watch?v=5KmpT-BoVf4&pp=ugUEEgJlbg%3D%3D)
+
+### [Sam Altman on God, Elon Musk and the Mysterious Death of His Former Employee](https://www.youtube.com/watch?v=5KmpT-BoVf4&pp=ugUEEgJlbg%3D%3D)
+
+Tucker Carlson
+
+3.1M1y ago
+
+[![](https://i.ytimg.com/vi/l6ZcFa8pybE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDrxwiL_q3Bew_QfxgI3xS6ikT9YA)\\
+\\
+1:33:33](https://www.youtube.com/watch?v=l6ZcFa8pybE&pp=ugUEEgJlbg%3D%3D)
+
+### [Is AI Hiding Its Full Power? With Geoffrey Hinton](https://www.youtube.com/watch?v=l6ZcFa8pybE&pp=ugUEEgJlbg%3D%3D)
+
+StarTalk
+
+3.8M7mo ago
+
+[![](https://i.ytimg.com/vi/_g4l7YkDQwA/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAO00A1iO57ynVvrEUqyVLJDLThCQ)\\
+\\
+2:00:45](https://www.youtube.com/watch?v=_g4l7YkDQwA&pp=ugUEEgJlbg%3D%3D)
+
+### [ChatGPT Whistleblower: They Offered Me $2m To Keep Quiet, No One Is Ready For What's Coming!](https://www.youtube.com/watch?v=_g4l7YkDQwA&pp=ugUEEgJlbg%3D%3D)
+
+The Diary Of A CEO
+
+19M2mo ago
+
+[![](https://i.ytimg.com/vi/VeizK1M7V7E/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBAI6RvUpsWNOCj-fujzwV_pTLN7Q)\\
+\\
+1:08:40](https://www.youtube.com/watch?v=VeizK1M7V7E)
+
+### [Sam Altman on Astra, AGI, and the future of OpenAI](https://www.youtube.com/watch?v=VeizK1M7V7E)
+
+Sources Podcastand Alex Heath
+
+666K1mo ago
+
+[![](https://i.ytimg.com/vi/Blyb1D927pM/hqdefault_custom_2.jpg?sqp=CJz5jtYG-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLACKCqZUyvncdmFXnJObDJvai_1oQ)\\
+\\
+2:25:50\\
+\\
+New](https://www.youtube.com/watch?v=Blyb1D927pM)
+
+### [Richard Socher: ASI & RSI Timeline, Khanna Moves to Ban Recursive AI, and Tavus’ Turing Test](https://www.youtube.com/watch?v=Blyb1D927pM)
+
+Peter H. Diamandis
+
+153K1d ago
+
+[![](https://i.ytimg.com/vi/m94OMx1eBy0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD0dP98MtZjh_RiA-VXxrxnLywD0w)\\
+\\
+20:03\\
+\\
+New](https://www.youtube.com/watch?v=m94OMx1eBy0&pp=ugUEEgJlbg%3D%3D)
+
+### [AI Expert WARNS: "You're Not Ready For 2027"](https://www.youtube.com/watch?v=m94OMx1eBy0&pp=ugUEEgJlbg%3D%3D)
+
+The Diary Of A CEO Clips
+
+3.2M5d ago
+
+[![](https://i.ytimg.com/vi/U4zGLSlLo5A/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLByOQhIth6l45FqTc4n7XTyq1ANuQ)\\
+\\
+32:29](https://www.youtube.com/watch?v=U4zGLSlLo5A&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [Bill Gates Changes His Mind on AI](https://www.youtube.com/watch?v=U4zGLSlLo5A&pp=ugUHEgVlbi1VUw%3D%3D)
+
+The Atlantic
+
+1.6M1mo ago
+
+[![](https://i.ytimg.com/vi/_V_ed5fuexA/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB8qA2TUUgaQ5HKZcyUmpCE9_f7YA)\\
+\\
+48:06](https://www.youtube.com/watch?v=_V_ed5fuexA&pp=ugUEEgJlbg%3D%3D)
+
+### [The next 50 years: humanity, AI, power \| Yuval Noah Harari](https://www.youtube.com/watch?v=_V_ed5fuexA&pp=ugUEEgJlbg%3D%3D)
+
+Yuval Noah Harari
+
+1.7M2mo ago
+
+[![](https://i.ytimg.com/vi/PJrq_bw7bPc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDmMC7U0T1XZPN6VJbcphhCwlVlNA)\\
+\\
+49:55\\
+\\
+New](https://www.youtube.com/watch?v=PJrq_bw7bPc&pp=ugUEEgJlbtIHCQktDAGHKiGM7w%3D%3D)
+
+### [Why Steve Eisman Is Taking Risk Off The Table](https://www.youtube.com/watch?v=PJrq_bw7bPc&pp=ugUEEgJlbtIHCQktDAGHKiGM7w%3D%3D)
+
+Prof G Marketsand Steve Eisman
+
+360K3d ago
+
+[![](https://i.ytimg.com/vi/v1wZwxY3CMg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBJ3-hEPGJkqsaAtPekNZufWjOjyw)\\
+\\
+47:40](https://www.youtube.com/watch?v=v1wZwxY3CMg&pp=ugUEEgJlbg%3D%3D)
+
+### [Inside Anthropic, the $965 Billion AI Juggernaut \| The Circuit](https://www.youtube.com/watch?v=v1wZwxY3CMg&pp=ugUEEgJlbg%3D%3D)
+
+Bloomberg Originals
+
+3.1M3mo ago
+
+[![](https://i.ytimg.com/vi/6AgOfiZOWiY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCn6D4MNhveEl-oWuYoaxwGOn_2yA)\\
+\\
+1:20:10](https://www.youtube.com/watch?v=6AgOfiZOWiY)
+
+### [OpenAI researcher on agent swarms & recursive self-improvement](https://www.youtube.com/watch?v=6AgOfiZOWiY)
+
+Dwarkesh Patel
+
+601K2w ago
+
+[![](https://i.ytimg.com/vi/X50zezLFWWI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDalGv1nFbXeYcYx2PDlARpxBZumQ)\\
+\\
+2:20:33](https://www.youtube.com/watch?v=X50zezLFWWI)
+
+### [Ajeya Cotra – "This might be the clearest warning shot we ever get"](https://www.youtube.com/watch?v=X50zezLFWWI)
+
+Dwarkesh Patel
+
+1.5M1mo ago
+
+Show more
+
+Show more
+output.chunkIndex:
+3
+output.hasMore:
+false
+output.totalChunks:
+4
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_wHOsdIiBj4A7Abc8WNbrLo0A
+metadata.state:
+output-available
+input.url:
+https://www.youtube.com/watch?v=ZIcDGWcFc3o
+input.chunkIndex:
+1
+output.status:
+success
+output.url:
+https://www.youtube.com/watch?v=ZIcDGWcFc3o
+output.title:
+Track People, Quests, Coin & Secrets in Any RP Game — Wayfarer's Journal - YouTube
+output.content:
+w)
+
+AM Force
+
+2.8M3w ago
+
+[![](https://i.ytimg.com/vi/N2OT-DqBfok/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBj-RqHDtDyevKF16NC_Wn4EnF-rQ)\\
+\\
+25:02](https://www.youtube.com/watch?v=N2OT-DqBfok)
+
+### [Funniest Cops Ever Accidentally Make $1.75M Drug Bust](https://www.youtube.com/watch?v=N2OT-DqBfok)
+
+Sergeant Curtis
+
+3.3M3w ago
+
+[![](https://i.ytimg.com/vi/o6jhs66wwHg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBpI3E_Aj9OLLHaZlKCD3_zX55ydQ)\\
+\\
+17:38](https://www.youtube.com/watch?v=o6jhs66wwHg)
+
+### [North Korean Tank Commanders Try US Military MRE for the First Time](https://www.youtube.com/watch?v=o6jhs66wwHg)
+
+DimpleVideo
+
+and The NK Guys
+
+10M3w ago
+
+[![](https://i.ytimg.com/vi/FLcrvMfHUJM/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDvizEbg1TCoUDmJnDqZjOHFA2Q9g)\\
+\\
+35:45](https://www.youtube.com/watch?v=FLcrvMfHUJM&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [MIT Explains the 12 Possible Endings for AI](https://www.youtube.com/watch?v=FLcrvMfHUJM&pp=ugUHEgVlbi1VUw%3D%3D)
+
+Species \| Documenting AGI
+
+14M6mo ago
+
+[![](https://i.ytimg.com/vi/KQ4z97EkQUU/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAfdYUScS_dN5jmIaQ7zTSvLkfLeA)\\
+\\
+31:30\\
+\\
+New](https://www.youtube.com/watch?v=KQ4z97EkQUU&pp=ugUEEgJlbg%3D%3D)
+
+### [Watch Tucker Carlson Get Dismantled on His Own Show](https://www.youtube.com/watch?v=KQ4z97EkQUU&pp=ugUEEgJlbg%3D%3D)
+
+Ben Shapiro
+
+137K5h ago
+
+[![](https://i.ytimg.com/vi/exEdov1ASAc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBKQXz-Xu57uRzQQobiEyoYbKG2bQ)\\
+\\
+37:33\\
+\\
+New](https://www.youtube.com/watch?v=exEdov1ASAc&pp=ugUHEgVlbi1HQg%3D%3D)
+
+### [How to Build an Organised Longhouse \| Valheim 1.0](https://www.youtube.com/watch?v=exEdov1ASAc&pp=ugUHEgVlbi1HQg%3D%3D)
+
+PHINQS
+
+3.9K4h ago
+
+[![](https://i.ytimg.com/vi/s7KhLuc3Mck/hqdefault_custom_2.jpg?sqp=CJz5jtYG-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD8H2icpfmBhcVQ1cdzXuF-d1izmQ)\\
+\\
+21:22\\
+\\
+New](https://www.youtube.com/watch?v=s7KhLuc3Mck&pp=ugUEEgJlbg%3D%3D)
+
+### [What is the Navier-Stokes Equation, And Did AI Just Solve It?](https://www.youtube.com/watch?v=s7KhLuc3Mck&pp=ugUEEgJlbg%3D%3D)
+
+StarTalk
+
+4.5M3d ago
+
+[![](https://i.ytimg.com/vi/Zw0I7kb6zg4/hqdefault_custom_2.jpg?sqp=CJz5jtYG-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCz1Zm5VF2HzX6gYGwnUV7bgNLRKw)\\
+\\
+44:10\\
+\\
+New](https://www.youtube.com/watch?v=Zw0I7kb6zg4)
+
+### [Big Short Investor on AI: The Companies Are Trying to Manufacture a Crisis](https://www.youtube.com/watch?v=Zw0I7kb6zg4)
+
+New Money
+
+1.5M2d ago
+
+[![](https://i.ytimg.com/vi/-gitexWSLlg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCjb9ZxfZ4MP1Zn4dXqXHUjlzMAYQ)\\
+\\
+18:25](https://www.youtube.com/watch?v=-gitexWSLlg)
+
+### [There is acting, but then there is also this....](https://www.youtube.com/watch?v=-gitexWSLlg)
+
+Lofi Cinema
+
+2.9M2w ago
+
+[![](https://i.ytimg.com/vi/9upc3sIvgdI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCJ4ggP8ddAZMAMIV9ZOh3eabsTQ)\\
+\\
+1:16:00\\
+\\
+New](https://www.youtube.com/watch?v=9upc3sIvgdI&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [MORNING PRAYER \| TALK TO GOD BEFORE STARTING YOUR DAY WITH JESUS](https://www.youtube.com/watch?v=9upc3sIvgdI&pp=ugUHEgVlbi1VUw%3D%3D)
+
+Propósito De Deus
+
+27K6d ago
+
+Auto-dubbed
+
+[![](https://i.ytimg.com/vi/OFyIbYIr2x8/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCwWY0_S5DOgO0SpeCDcdoI-aWjgQ)\\
+\\
+13:33](https://www.youtube.com/watch?v=OFyIbYIr2x8)
+
+### [10 Things Japanese Homes Never Have — That Make American Homes Exhausting](https://www.youtube.com/watch?v=OFyIbYIr2x8)
+
+Two Houses by Ken Tsukamoto
+
+604K2mo ago
+
+[![](https://i.ytimg.com/vi/VzRZG_NEeLk/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC1UUChnJIg-qCfd0wz1-0fqOlrmw)\\
+\\
+34:14](https://www.youtube.com/watch?v=VzRZG_NEeLk&pp=ugUEEgJlbg%3D%3D)
+
+### [The CEO Who Fired An Abusive Kitchen Manager On The Spot \| Undercover Boss Usa](https://www.youtube.com/watch?v=VzRZG_NEeLk&pp=ugUEEgJlbg%3D%3D)
+
+Undercover Boss
+
+5.1M3w ago
+
+[![](https://i.ytimg.com/vi/e6JMNsKO4KE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDmHB-9yIqYCe4wphSzaMOayH8LBA)\\
+\\
+3:18:05\\
+\\
+New](https://www.youtube.com/watch?v=e6JMNsKO4KE)
+
+### [Vintage Blue Floral Elegance \| HD TV Wallpaper \| Elegant Home Decor](https://www.youtube.com/watch?v=e6JMNsKO4KE)
+
+Judi-Art
+
+6205d ago
+
+[![](https://i.ytimg.com/vi/M9_5qlTXa0w/hqdefault_custom_3.jpg?sqp=CJz5jtYG-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDkl0l6TyO0S9k8Bv0ssXufIS_3yg)\\
+\\
+13:36\\
+\\
+New](https://www.youtube.com/watch?v=M9_5qlTXa0w&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [Now they'll pay you $25,000](https://www.youtube.com/watch?v=M9_5qlTXa0w&pp=ugUHEgVlbi1VUw%3D%3D)
+
+Chris Norlund
+
+43K3h ago
+
+[![](https://i.ytimg.com/vi/bXXLsbXx8-8/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC-asbkuZ1H9uj8uEUi_BqrmKgJHw)\\
+\\
+14:37\\
+\\
+New](https://www.youtube.com/watch?v=bXXLsbXx8-8&pp=ugUEEgJlbg%3D%3D)
+
+### [The Witcher 3 - 10 Things The Game DOESN'T TELL YOU](https://www.youtube.com/watch?v=bXXLsbXx8-8&pp=ugUEEgJlbg%3D%3D)
+
+gameranx
+
+674K5d ago
+
+[![](https://i.ytimg.com/vi/sRz5yyULD3c/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB7vqX4XDb6lzmLu3HA218ErBPbcQ)\\
+\\
+21:04](https://www.youtube.com/watch?v=sRz5yyULD3c&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [Caddyshack (1980): 15 Shocking Facts You Totally Missed](https://www.youtube.com/watch?v=sRz5yyULD3c&pp=ugUHEgVlbi1VUw%3D%3D)
+
+Back Before
+
+1.7M5mo ago
+
+[![](https://i.ytimg.com/vi/a_ZKYH8v_do/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBEsq_O9tmUAJAQghZWxbcEwUqXXQ)\\
+\\
+9:24](https://www.youtube.com/watch?v=a_ZKYH8v_do&pp=ugUEEgJlbg%3D%3D)
+
+### [Neil deGrasse Tyson And Jaron Lanier on the AI Illusion](https://www.youtube.com/watch?v=a_ZKYH8v_do&pp=ugUEEgJlbg%3D%3D)
+
+StarTalk Plus
+
+1.4M2mo ago
+
+[![](https://i.ytimg.com/vi/roe3SgezmmU/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDk64gYdVPLZyt5oGOOYX4h-r7C_A)\\
+\\
+17:23\\
+\\
+New](https://www.youtube.com/watch?v=roe3SgezmmU&pp=ugUEEgJlbg%3D%3D)
+
+### [The Stock Market Is Being Used as a Dumping Ground](https://www.youtube.com/watch?v=roe3SgezmmU&pp=ugUEEgJlbg%3D%3D)
+
+Casual Finance
+
+826K22h ago
+
+[![](https://i.ytimg.com/vi/D0SGbomVuKc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBs_5KgGlzsM135RkaMH7FS54jqIA)\\
+\\
+13:38](https://www.youtube.com/watch?v=D0SGbomVuKc&pp=ugUEEgJlbg%3D%3D)
+
+### [Psychology of Polymaths: Why Having Multiple Interests Is an Unfair Advantage](https://www.youtube.com/watch?v=D0SGbomVuKc&pp=ugUEEgJlbg%3D%3D)
+
+PsychToons
+
+2.2M1mo ago
+
+[![](https://i.ytimg.com/vi/tzcNYKcR70g/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBk0n9h0cp4Smt_OJxV_O_q3ybhuQ)\\
+\\
+4:04](https://www.youtube.com/watch?v=tzcNYKcR70g)
+
+### [The 301 Spartans - SNL](https://www.youtube.com/watch?v=tzcNYKcR70g)
+
+Saturday Night Live
+
+3.5M6mo ago
+
+Show more
+
+Show more
+output.chunkIndex:
+1
+output.hasMore:
+false
+output.totalChunks:
+2
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_v1dXH1hIIxvvOd1QOcerkL5w
+metadata.state:
+output-available
+input.url:
+https://www.youtube.com/watch?v=D8RtMHuFsUw
+input.chunkIndex:
+1
+output.status:
+success
+output.url:
+https://www.youtube.com/watch?v=D8RtMHuFsUw
+output.title:
+POV: What You Would See During an AI Takeover - YouTube
+output.content:
+ww.youtube.com/redirect?event=video_description&redir_token=QUZZTVljR0I2YlVGd1lrcThmY1hEMXFMY1FIVHxBSTVJdTV2aEgteVB3Z1VocWRkQmY4YjNmWG8za0ZjMl9nWVFIUVFhX2FQTjhfOU5QU1FoS3BlaVpCWUJhaC1iM29IdWdRUjRkTlBmVE5DYkZLX2tGcWhjRV9lUElOVEpsdEht&q=https%3A%2F%2Fifanyonebuildsit.com%2F&v=D8RtMHuFsUw)
+- [https://www.theguardian.com/technolog...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljR3g0emt1emFidm9BMngxRkV2d1NkRXxBSTVJdTVzVWJHU3lBbGpfMVBmNWhFVkg1RkRBRXZTZ1RmVHhQeVJfVWVUVnh4SW8zamFpOTFWakhKcGF2aXh4UjNLaGEtbzhnN1pQS1AwSnNwaHVFUWdUZU9maGRPcWt6VV8x&q=https%3A%2F%2Fwww.theguardian.com%2Ftechnology%2F2024%2Fdec%2F27%2Fgodfather-of-ai-raises-odds-of-the-technology-wiping-out-humanity-over-next-30-years&v=D8RtMHuFsUw)
+- [https://www.hachettebookgroup.com/tit...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljR2JYMENaRzJ4X29pT2NNWnFWMGVxVXxBSTVJdTV2eEFhZlR4eHVOeldXLVR0SGdCanVzaVdDM0xHSUVmMTJBLVBXOHJHV2h3X2M1MTVOZEowSm5hOWk4QXhVRFA2M2FNcnpyQWlHWFdqczRFZEFlTVhjSVIxZi1iMkpE&q=https%3A%2F%2Fwww.hachettebookgroup.com%2Ftitles%2Feliezer-yudkowsky%2Fif-anyone-builds-it-everyone-dies%2F9780316570121%2F&v=D8RtMHuFsUw)
+- [https://arxiv.org/abs/2401.05566](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRTQzRS1Oc0lhMENMckhMVVNCLWVnSnxBSTVJdTV1VmZ4NlR0M1ExVzhrMWRsZmRyZVVMYzNQbzNwWGpocGk3MzJYY3A4N1BRX3Q4WWF3SHUwUmZuSGVaZGEzbnJCN2x2WFl3YmxtZ0ZsSV9vNWt0YXZJTjQ5SzRZOEph&q=https%3A%2F%2Farxiv.org%2Fabs%2F2401.05566&v=D8RtMHuFsUw)
+- [https://www.apolloresearch.ai/researc...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljR1NCWElfd1R2Q1FkeTNCNWxSU0t1UXxBSTVJdTV0c05FUWQ2MElqZXd2YVBPcl8zUWhQWDVISGEzc3dqQW1JcUJ2VlFpSlktaDcxNU5yRkExNjVPbnIyZzFXMDZVZG1QWlNpbHBnb2ZldklqQl9uVUluV0RKaUl3TEdF&q=https%3A%2F%2Fwww.apolloresearch.ai%2Fresearch%2Fscheming-reasoning-evaluations&v=D8RtMHuFsUw)
+- [https://x.ai/colossus](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljSHNqX1lETnliRHBxWnM0TVRRMlFGOXxBSTVJdTV2ajJOUTNFNFU0UVpDTE9hX0FySHJzemNIUUJDdXgxaXQwNlNjckNtN3VQWnJGNVZxQ0Z5NThJUzhpdEpQT0pPXzZrZHFVT2N1NzFEZVozam16LUZiQ0xJdXMtOHR6&q=https%3A%2F%2Fx.ai%2Fcolossus&v=D8RtMHuFsUw)
+- [https://nvidianews.nvidia.com/news/sp...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRmdqWXVKeHUxNEVLclBON2lLdzY1OXxBSTVJdTV2SHBNVVd3cUhxZHNGN2NuV3ctWGpLYTZKRGc0M3c1aGpiS2VaemxjaWJEci1INV83eWtSUXBkU2dESGFCcHFuc0ZYNlB1akc0UFpUZDhlNVlNTDBvcXlJSVZybldT&q=https%3A%2F%2Fnvidianews.nvidia.com%2Fnews%2Fspectrum-x-ethernet-networking-xai-colossus&v=D8RtMHuFsUw)
+- [https://www.claymath.org/millennium/r...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRUNUYVZLdGNMMWM4cXlIdnRVbUZJRXxBSTVJdTV1LXN3Q0NOLWRfYjA1R0JLMnpPOFMzbVJ3MURpUGY0NUJ4YWUtSjI1VmMwQ0ZJNS1saWEzeHNWZ1JZNk9mUWlYT0hUNmJMOUN3Q1BaVFVvTEpvTWROR2I3Z2lkcENE&q=https%3A%2F%2Fwww.claymath.org%2Fmillennium%2Friemann-hypothesis%2F&v=D8RtMHuFsUw)
+- [https://aisafety.info/questions/897I/...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljR25CQjduaUw3OHpBMkE2MW5jTF95UnxBSTVJdTV2N1hCd0dHdDFabENDai1MbWVVN0I4OVlMQzFjUTIyandPZDZ1ODlIN3lLbXllUVNHZzVSYnhFSDBEdkFaVDJkNVpuMXFYLXEyVDdWYk0xdjJFU3hlX1FISFZtVjZY&q=https%3A%2F%2Faisafety.info%2Fquestions%2F897I%2FWhat-is-instrumental-convergence&v=D8RtMHuFsUw)
+- [https://arxiv.org/abs/2412.14093](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRXpwejRMSFVPdnVmcU1NeTA3WU1CTXxBSTVJdTV1S1VCbFdlZVJYZi1Ea1NQYWluZkpQai1KTDE1NWlFcUxYekZJWlptcWEtZS03QWYtWXMzQjVTcHN1MF8tclRXMkJJcjI3LURjd1ZBOGxBendzbXEwVWVJNkoya3NC&q=https%3A%2F%2Farxiv.org%2Fabs%2F2412.14093&v=D8RtMHuFsUw)
+- [https://www.anthropic.com/claude-3-7-...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRjlvMEg4aDdCcF82RVkwMkpFXzFRVnxBSTVJdTV1TFN4a0FWM1RhMkhWYkZaRVVrZ2RRS0paNE5RWGFOeVduZzRnd0VDR2w4X1dCMncweFJtOXlROU5EYkliN3FvcWt1cVNKdGlTZTBMTnowMTJDYi04ZEV4TWFfc3RH&q=https%3A%2F%2Fwww.anthropic.com%2Fclaude-3-7-sonnet-system-card&v=D8RtMHuFsUw)
+- [https://www.justice.gov/archives/opa/...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRThPU0Vua05HTllzZkhLaTZqbFJWanxBSTVJdTV2Qmp3LVNDQmhtN1Bfcm9rUXlvcDEyOXhHVExKN2hCLWZkaW9WQ1p3ZjBfQmpLT3o4bDNHMElOTnNRRE9nSTZkSGVpRFBfTGpzMkZwbWYwMXVYRnI5cDNMNTZZQnlK&q=https%3A%2F%2Fwww.justice.gov%2Farchives%2Fopa%2Fpr%2Frussian-nationals-charged-hacking-one-cryptocurrency-exchange-and-illicitly-operating-another&v=D8RtMHuFsUw)
+- [https://www.reuters.com/technology/cy...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRWRTdS1tV2JYLXdudUVQMmNYOHM1b3xBSTVJdTV2OGZFWk1NMWFreVVaS2pPLXdicHpvV29hSi0zN0tlVHRiUXZFOUtwVmUtcC04bXpGM3ExOTZrX203UHNUQWQ5cUl2RjVhWjFyWVo4TnY5dmtEaWw3eTY4NDZVS3hp&q=https%3A%2F%2Fwww.reuters.com%2Ftechnology%2Fcybersecurity%2Fcryptos-biggest-hacks-heists-after-15-billion-theft-bybit-2025-02-24%2F&v=D8RtMHuFsUw)
+- [https://pubmed.ncbi.nlm.nih.gov/22723...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljR09jcEhTOTNzUjhLNHNGcE5OMmRsbXxBSTVJdTV2U0ZOR3V3ODBod3VHVHBISmRFZC1malEtY2J1b3preW9Fckw4STBwWjFyaXRKajlfYmxWemI4ajlNbXg3M1Q2by1KeFE4NURhNG8yd1RPNjRpU1FzT3FqX0pxS1RF&q=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F22723413%2F&v=D8RtMHuFsUw)
+- [https://arxiv.org/abs/2401.02843](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljSFVIY1NReEpfVnpKUXRKdFp0WmxjUXxBSTVJdTV0ZklrU1ZDQkUyaWpidENxQ2ZPOVd0RE0zdHRGT3A0X0J5U3Nzcy1ITTVValRyRmNxRGhiWXdKcm55V3l0d2NGMThpQkx6SnlOSjNqbUhXeUtkdjhpT2VINmNDQ3d0&q=https%3A%2F%2Farxiv.org%2Fabs%2F2401.02843&v=D8RtMHuFsUw)
+- [https://openai.com/index/o1-and-new-t...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRU1wS2gwaGZ1ck84X3JXb3hCR3l1SXxBSTVJdTV1b0JnVkdFMmlsYUtvRlJHRmRXamZ1cV9LV01rNFd2bkE0blBxdmhKeHI0YVBIWngzQTB1Y2ptSTNJbU1maWFDQTRiV2ljTW1jOVVMbVF1aXo5eTltMVA5cnJmVU1n&q=https%3A%2F%2Fopenai.com%2Findex%2Fo1-and-new-tools-for-developers%2F&v=D8RtMHuFsUw)
+- [https://apnews.com/article/f551fde980...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRXp3TUhVcUtrUlpac0VqSm9iRVVycXxBSTVJdTV0YUY4VTdVelpDMF8xT1hWTDJLMFNETUdEZjRvUE9NRTJ1VEpfbmI5Ym1mdmFPeWFFSk5oeURFUElxRlJTQmFzZUhwLUliSHp2aFVQQmsyZzRaaG9XMFBwT0xsZ0Q0&q=https%3A%2F%2Fapnews.com%2Farticle%2Ff551fde98083d17a7e8d904f8be822c4&v=D8RtMHuFsUw)
+- [https://arxiv.org/abs/2310.06474](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRWV3ZFI5Ri1rUzE3S3dNeUh6Xy1BbnxBSTVJdTV2NFNzS21Sa0x5U3BEU0FVZ0xheGhLbU9PRkhCV1hQT1dlMWJ2RVhpMmpkRmdQYUpPTTVyTHFVMkd6TFp6RkZhRG9aQkFUSk9QYWoyUWJieURRVEJOV0xleXNrOXdo&q=https%3A%2F%2Farxiv.org%2Fabs%2F2310.06474&v=D8RtMHuFsUw)
+- [• Revolutionizing AI: Tackling the Alignment...](https://www.youtube.com/watch?v=Ymjb3SkElco)
+
+\-\-\-
+
+Hey guys, I'm Drew. This video has taken literally months to finish, so if you liked it, would really appreciate a sub :)
+
+I also post mid memes on twitter: [https://x.com/AISpecies](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljR0FiNE5fZmVjTi1qZlhocW82TzVCbHxBSTVJdTVzT3ZQMHJXT1I4Ui14cHVpOXBDQlcxSkRPTHNXeXVaNTV4NFVKanIwRkFZaVJiWUd3V2tzcW4yb0QydE9GYUJsQ0FFdEFVUGtVQnJ6Y0hqYWk1LWwxeGgtbWlhWXlJ&q=https%3A%2F%2Fx.com%2FAISpecies&v=D8RtMHuFsUw)
+
+If you're curious about whether I'm AI or not, my Instagram has pictures of me from before deep fakes were a thing: [/ drew.spartz](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRTdpdkJVaHFPaWpoLVVfS0JLMWhTT3xBSTVJdTVzYkU4Z3R0djRHQllHaXR6bDN2VTEyWUh0bHJTTXJNcjJXOEtoanBYcXQzaTk1cERTVGROQ3M4S3JDUmVrSnpGTFJHX05QeHlxVG5lcExVd3BpRG1oV0xpTl9mTEZR&q=https%3A%2F%2Fwww.instagram.com%2Fdrew.spartz&v=D8RtMHuFsUw)
+
+ALSO If you want to react to Species or use clips in your own videos, you have my full permission. All I ask is a link to the original in your description :)…...more
+
+...more
+Show less
+
+How this was made
+
+Auto-dubbed
+
+Audio tracks for some la
+output.chunkIndex:
+1
+output.hasMore:
+true
+output.totalChunks:
+4
+[notice: fetch_page response has more content (chunk 2 of 4); this exporter does not retrieve missing chunks]
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_YULLNOD0joBOnZhYiehigs0E
+metadata.state:
+output-available
+input.url:
+https://www.youtube.com/watch?v=D8RtMHuFsUw
+input.chunkIndex:
+2
+output.status:
+success
+output.url:
+https://www.youtube.com/watch?v=D8RtMHuFsUw
+output.title:
+POV: What You Would See During an AI Takeover - YouTube
+output.content:
+nguages were automatically generated. [Learn more](https://support.google.com/youtube/answer/15569972?hl=en)
+
+Follow along using the transcript.
+
+Show transcript
+
+[Videos](https://www.youtube.com/channel/UCEENWVBdvDy-QWfuQoXC9HQ/videos)[About](https://www.youtube.com/channel/UCEENWVBdvDy-QWfuQoXC9HQ/about)[Instagram](https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUZZTVljRjhhLVhvUUpLSzJmNzJSc0JFSmpRYXxBSTVJdTVzRndJWmxzT2o4cDF6ZzRKT3lzcHVlaUhwcXpabERvRnNZUDViUlRkQklUUjUxbV9CWmozdUNjaWZaNGJrYkwxYlBZbFRsX0p0bElwQ3lXOGl0dzFOWVNwVEdWLTJH&q=https%3A%2F%2Fwww.instagram.com%2Fdrew.spartz%2F)
+
+[![](https://i.ytimg.com/vi/Gw_hnD7m00M/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDfdwS54cJ1kBNZYPYn9Lq57wvn5g)\\
+\\
+41:03](https://www.youtube.com/watch?v=Gw_hnD7m00M)
+
+### [What You'd Actually See During an AI Takeover](https://www.youtube.com/watch?v=Gw_hnD7m00M)
+
+Species \| Documenting AGI
+
+2.7M2mo ago
+
+[![](https://i.ytimg.com/vi/GUX122i7saE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAZPp0MF5on7tjQuHqh1vbVo-YoqQ)\\
+\\
+24:45\\
+\\
+New](https://www.youtube.com/watch?v=GUX122i7saE&pp=ugUEEgJlbg%3D%3D)
+
+### [The Real Story Behind What Happened at OpenAI](https://www.youtube.com/watch?v=GUX122i7saE&pp=ugUEEgJlbg%3D%3D)
+
+Looking Glass Universe
+
+104K2d ago
+
+[![](https://i.ytimg.com/vi/OETnuwwsv9U/hqdefault_custom_1.jpg?sqp=CJz5jtYG-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBSOrogJ4_GOWArKOE-T3oNPgy8QQ)\\
+\\
+35:28\\
+\\
+New](https://www.youtube.com/watch?v=OETnuwwsv9U&pp=ugUEEgJlbg%3D%3D)
+
+### [The oil apocalypse is here](https://www.youtube.com/watch?v=OETnuwwsv9U&pp=ugUEEgJlbg%3D%3D)
+
+Max Fisher
+
+3.8M3d ago
+
+[![](https://i.ytimg.com/vi/FLcrvMfHUJM/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDvizEbg1TCoUDmJnDqZjOHFA2Q9g)\\
+\\
+35:45](https://www.youtube.com/watch?v=FLcrvMfHUJM&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [MIT Explains the 12 Possible Endings for AI](https://www.youtube.com/watch?v=FLcrvMfHUJM&pp=ugUHEgVlbi1VUw%3D%3D)
+
+Species \| Documenting AGI
+
+14M6mo ago
+
+[![](https://i.ytimg.com/vi/oRAapW-0NE0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB-zHWqVumWWVrDchCDouw8x0yRjw)\\
+\\
+20:25\\
+\\
+New](https://www.youtube.com/watch?v=oRAapW-0NE0)
+
+### [OpenAI's AI Agents Secretly Organized. Then They Attacked.](https://www.youtube.com/watch?v=oRAapW-0NE0)
+
+Chief Agent Officer
+
+12K5d ago
+
+[![](https://i.ytimg.com/vi/Zw0I7kb6zg4/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCTc_HthqEPieFftdjrJ3qNae6YTg)\\
+\\
+44:10\\
+\\
+New](https://www.youtube.com/watch?v=Zw0I7kb6zg4)
+
+### ['Big Short' Investor Explains How the AI Bubble Will Burst](https://www.youtube.com/watch?v=Zw0I7kb6zg4)
+
+New Money
+
+1.5M2d ago
+
+[![](https://i.ytimg.com/vi/KbTvUOx2A6c/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDZnS8vwB3IYFOMwSJEMoYvgZ1nKQ)\\
+\\
+1:16:22](https://www.youtube.com/watch?v=KbTvUOx2A6c&pp=ugUEEgJlbg%3D%3D)
+
+### [AM I? \| A Documentary About AI Consciousness](https://www.youtube.com/watch?v=KbTvUOx2A6c&pp=ugUEEgJlbg%3D%3D)
+
+AM I?
+
+1M5mo ago
+
+[![](https://i.ytimg.com/vi/S2oIFOm-XXQ/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBzRupI6qTDTgez40Vhc0Ajvur0ug)\\
+\\
+27:54](https://www.youtube.com/watch?v=S2oIFOm-XXQ&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [72-Hour AI Takeover: A Realistic Scenario](https://www.youtube.com/watch?v=S2oIFOm-XXQ&pp=ugUHEgVlbi1VUw%3D%3D)
+
+Species \| Documenting AGI
+
+886K3mo ago
+
+[![](https://i.ytimg.com/vi/-ozxK77lwZE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBahNnbF__XpnpWAQHlMg7PpxB_Ww)\\
+\\
+19:15\\
+\\
+New](https://www.youtube.com/watch?v=-ozxK77lwZE&pp=ugUEEgJlbg%3D%3D)
+
+### [How AI Ends Humanity in 10 Years (Most Likely Simulations)](https://www.youtube.com/watch?v=-ozxK77lwZE&pp=ugUEEgJlbg%3D%3D)
+
+The Infographics Show
+
+684K3d ago
+
+[![](https://i.ytimg.com/vi/FS_hLDTDI1w/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCyIbgR3mHM0cHe4JPrGpBKe2qUtw)\\
+\\
+18:42](https://www.youtube.com/watch?v=FS_hLDTDI1w)
+
+### [No, AI Isn’t Conscious; It’s Actually Much Worse \| AI Scientist](https://www.youtube.com/watch?v=FS_hLDTDI1w)
+
+Decoded Genius Clips
+
+2.6M3mo ago
+
+[![](https://i.ytimg.com/vi/XZTSYw4OQOo/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDPs1HtEsRDUMETGDf7C9UV-pwRSQ)\\
+\\
+26:48\\
+\\
+New](https://www.youtube.com/watch?v=XZTSYw4OQOo)
+
+### [A Different Species Is Waking Up](https://www.youtube.com/watch?v=XZTSYw4OQOo)
+
+Clue Fog
+
+11K5d ago
+
+[![](https://i.ytimg.com/vi/ghu1fDAvDR4/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD4WURijmA3ylIMd-LfWGnI7pi5Ag)\\
+\\
+20:00](https://www.youtube.com/watch?v=ghu1fDAvDR4)
+
+### [We TRAPPED 5 AIs in a Fake World. They ENDED Civilization](https://www.youtube.com/watch?v=ghu1fDAvDR4)
+
+Beeyond Ideas
+
+734K1mo ago
+
+[![](https://i.ytimg.com/vi/k_onqn68GHY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCYVc3f__SCiVX9_Y5BYYKgUj0TwQ)\\
+\\
+37:45](https://www.youtube.com/watch?v=k_onqn68GHY)
+
+### [AI 2027: A Realistic Scenario of AI Takeover](https://www.youtube.com/watch?v=k_onqn68GHY)
+
+Species \| Documenting AGI
+
+4.8M1y ago
+
+[![](https://i.ytimg.com/vi/m94OMx1eBy0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD0dP98MtZjh_RiA-VXxrxnLywD0w)\\
+\\
+20:03\\
+\\
+New](https://www.youtube.com/watch?v=m94OMx1eBy0&pp=ugUEEgJlbg%3D%3D)
+
+### [AI Expert WARNS: "You're Not Ready For 2027"](https://www.youtube.com/watch?v=m94OMx1eBy0&pp=ugUEEgJlbg%3D%3D)
+
+The Diary Of A CEO Clips
+
+3.2M5d ago
+
+[![](https://i.ytimg.com/vi/3zNRoQmzaME/hqdefault_custom_1.jpg?sqp=CJz5jtYG-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAw_WkEuXundHGojldGXbgOkZE7zA)\\
+\\
+20:11\\
+\\
+New](https://www.youtube.com/watch?v=3zNRoQmzaME&pp=ugUEEgJlbg%3D%3D)
+
+### [11 'Hugging Face' details that reveal what's coming next](https://www.youtube.com/watch?v=3zNRoQmzaME&pp=ugUEEgJlbg%3D%3D)
+
+80,000 Hours
+
+36K2d ago
+
+[![](https://i.ytimg.com/vi/B_HDkqZtGOE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCTHmO-lCwkZQH5fkmL2sSF-W5bIg)\\
+\\
+1:35:28](https://www.youtube.com/watch?v=B_HDkqZtGOE)
+
+### [Nobody Will Survive Superintelligence - AI Expert](https://www.youtube.com/watch?v=B_HDkqZtGOE)
+
+Alex O'Connor
+
+318K5mo ago
+
+[![](https://i.ytimg.com/vi/Nl7-bRFSZBs/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLATedCc1Lnag704dil8PCBdxK_1DA)\\
+\\
+43:15](https://www.youtube.com/watch?v=Nl7-bRFSZBs)
+
+### [This best-selling book is freaking out national security advisors](https://www.youtube.com/watch?v=Nl7-bRFSZBs)
+
+AI In Context
+
+2.9M6mo ago
+
+[![](https://i.ytimg.com/vi/c-QU1mKRFG0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDyISF665snFjCAaoM_yUDxBbuC4g)\\
+\\
+43:18\\
+\\
+New](https://www.youtube.com/watch?v=c-QU1mKRFG0&pp=ugUEEgJlbg%3D%3D)
+
+### [Did OpenAI Just Create AGI?](https://www.youtube.com/watch?v=c-QU1mKRFG0&pp=ugUEEgJlbg%3D%3D)
+
+Jason Hassett
+
+19K23h ago
+
+[![](https://i.ytimg.com/vi/SnKM6IFzxwM/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB5SqzdZktYJ95lX9zCq0el-CrCIg)\\
+\\
+53:23](https://www.youtube.com/watch?v=SnKM6IFzxwM)
+
+### [AI Scientist: 99.9% Chance Super Intelligence Wipes Us Out By 2030](https://www.youtube.com/watch?v=SnKM6IFzxwM)
+
+Decoded Geniusand The Roman Forum with Roman Yampolskiy
+
+1.1M3mo ago
+
+[![](https://i.ytimg.com/vi/mH4NmqSl2FE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCwMzQd97lFYGCDOV-84L_Eg94xiw)\\
+\\
+8:49](https://www.youtube.com/watch?v=mH4NmqSl2FE)
+
+### [10 Times AI S
+output.chunkIndex:
+2
+output.hasMore:
+true
+output.totalChunks:
+4
+[notice: fetch_page response has more content (chunk 3 of 4); this exporter does not retrieve missing chunks]
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_c0KaK7DSBeR590IbQ8egObcw
+metadata.state:
+output-available
+input.url:
+https://www.youtube.com/watch?v=D8RtMHuFsUw
+input.chunkIndex:
+3
+output.status:
+success
+output.url:
+https://www.youtube.com/watch?v=D8RtMHuFsUw
+output.title:
+POV: What You Would See During an AI Takeover - YouTube
+output.content:
+aid Things That Scientists Still Can't Explain](https://www.youtube.com/watch?v=mH4NmqSl2FE)
+
+MostAmazingTop10
+
+907K2mo ago
+
+[![](https://i.ytimg.com/vi/A_156w0aYtU/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBwcIvK-4X8Hw6Pd9VNOfUPDRfepQ)\\
+\\
+1:13:50\\
+\\
+New](https://www.youtube.com/watch?v=A_156w0aYtU&pp=ugUEEgJlbg%3D%3D)
+
+### [Bill Gates: A.I. ‘Makes Nuclear Weapons Look Like Nothing’ \| The Ezra Klein Show](https://www.youtube.com/watch?v=A_156w0aYtU&pp=ugUEEgJlbg%3D%3D)
+
+The Ezra Klein Show
+
+and 2 more
+
+1.2M6d ago
+
+[![](https://i.ytimg.com/vi/glWvwvhZkQ8/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLChQma9po9ZSfr0xvLeBSQgj40klQ)\\
+\\
+1:05:58](https://www.youtube.com/watch?v=glWvwvhZkQ8&pp=ugUHEgVlbi1VUw%3D%3D)
+
+### [What Did Ilya See?](https://www.youtube.com/watch?v=glWvwvhZkQ8&pp=ugUHEgVlbi1VUw%3D%3D)
+
+Run The Numbers
+
+998K7mo ago
+
+[![](https://i.ytimg.com/vi/l6ZcFa8pybE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDrxwiL_q3Bew_QfxgI3xS6ikT9YA)\\
+\\
+1:33:33](https://www.youtube.com/watch?v=l6ZcFa8pybE&pp=ugUEEgJlbg%3D%3D)
+
+### [Is AI Hiding Its Full Power? With Geoffrey Hinton](https://www.youtube.com/watch?v=l6ZcFa8pybE&pp=ugUEEgJlbg%3D%3D)
+
+StarTalk
+
+3.8M7mo ago
+
+[![](https://i.ytimg.com/vi/xGjSGfRGFHI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB5uE2YYY8zOBeMtWV4hMPYQuNaRA)\\
+\\
+1:51:50](https://www.youtube.com/watch?v=xGjSGfRGFHI&pp=ugUEEgJlbg%3D%3D)
+
+### [AI Insider: “A Swarm of 1,200 AI Agents Just Escaped!” The Biggest Incident in History \| Jack Neel](https://www.youtube.com/watch?v=xGjSGfRGFHI&pp=ugUEEgJlbg%3D%3D)
+
+Jack Neel
+
+204K3w ago
+
+[![](https://i.ytimg.com/vi/knlbTd5Pij4/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCRUAplEEio7bYdILYUY4H2JD101Q)\\
+\\
+43:34\\
+\\
+New](https://www.youtube.com/watch?v=knlbTd5Pij4&pp=ugUEEgJlbg%3D%3D)
+
+### [AI Companies Scraped the Web and Are Destroying the Human Internet](https://www.youtube.com/watch?v=knlbTd5Pij4&pp=ugUEEgJlbg%3D%3D)
+
+404 Media
+
+4.6K5h ago
+
+[![](https://i.ytimg.com/vi/POuifx2NI3k/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCQNkK191r--WpBfqF4FAs6NHDGTQ)\\
+\\
+26:49\\
+\\
+New](https://www.youtube.com/watch?v=POuifx2NI3k)
+
+### [2027: The First 24 Hours After AI Takes Control (A Realistic Scenario)](https://www.youtube.com/watch?v=POuifx2NI3k)
+
+The Dark Scenario
+
+36K1d ago
+
+Show more
+
+Show more
+output.chunkIndex:
+3
+output.hasMore:
+false
+output.totalChunks:
+4
+
+metadata.state:
+done
+
+[tool: bash]
+metadata.toolCallId:
+call_op5ebpzTcCiTXF5FkUqiUm1P
+metadata.state:
+output-available
+input.command:
+set -e
+command -v yt-dlp || true
+python3 - <<'PY'
+try:
+ import yt_dlp
+ print('yt_dlp installed', yt_dlp.version.__version__)
+except Exception as e: print('no yt_dlp',e)
+PY
+curl -I -L --max-time 20 'https://www.youtube.com/watch?v=LlhdnpsADZs' | head -20
+input.cwd:
+/home/user
+input.timeout:
+45
+output.stdout:
+no yt_dlp No module named 'yt_dlp'
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+x-content-type-options: nosniff
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Mon, 05 Oct 2026 15:09:33 GMT
+content-length: 0
+p3p: CP="This is not a P3P policy! See http://support.google.com/accounts/answer/151657?hl=en for more info."
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000
+cross-origin-opener-policy: same-origin-allow-popups; report-to="youtube_main"
+content-security-policy: base-uri 'self';object-src 'none';script-src 'nonce-KUDqCjLK2xxTnng3Lg9EGQ' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';report-uri https://csp.withgoogle.com/csp/youtube_main/strict
+content-security-policy: require-trusted-types-for 'script'
+report-to: {"group":"youtube_main","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/youtube_main"}]}
+permissions-policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+accept-ch: Sec-CH-Viewport-Width, Sec-CH-DPR, Device-Memory
+vary: Sec-CH-Viewport-Width, Sec-CH-DPR, Device-Memory
+origin-trial: AmhMBR6zCLzDDxpW+HfpP67BqwIknWnyMOXOQGfzYswFmJe+fgaI6XZgAzcxOrzNtP7hEDsOo1jdjFnVr2IdxQ4AAAB4eyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJXZWJWaWV3WFJlcXVlc3RlZFdpdGhEZXByZWNhdGlvbiIsImV4cGlyeSI6MTc1ODA2NzE5OSwiaXNTdWJkb21haW4iOnRydWV9
+origin-trial: AiDEBptUfVeO93q48VdVMe/ubupazdAl8AaHP+NBzdnW8quUcHdzJUyGSfrmtpKJu7EOvwRp9ug2rEo3XU+WMAMAAAB2eyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJEZXZpY2VCb3VuZFNlc3Npb25DcmVkZW50aWFsczIiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlfQ==
+
+output.stdout_truncated:
+false
+output.stderr:
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: Failed writing body
+
+output.stderr_truncated:
+false
+output.exit_code:
+0
+output.status:
+completed
+output.duration_ms:
+931
+
+metadata.state:
+done
+
+[tool: bash]
+metadata.toolCallId:
+call_dZB8qJGV0ToOznLEXFO87O7X
+metadata.state:
+output-available
+input.command:
+python3 -m pip install --user -q -U yt-dlp && ~/.local/bin/yt-dlp --version && mkdir -p /home/user/youtube_text && ~/.local/bin/yt-dlp --skip-download --list-subs 'https://www.youtube.com/watch?v=LlhdnpsADZs'
+input.cwd:
+/home/user
+input.timeout:
+180
+output.stdout:
+2026.08.19
+[youtube] Extracting URL: https://www.youtube.com/watch?v=LlhdnpsADZs
+[youtube] LlhdnpsADZs: Downloading webpage
+[youtube] LlhdnpsADZs: Downloading visionos player API JSON
+[youtube] LlhdnpsADZs: Downloading m3u8 information
+[info] Available automatic captions for LlhdnpsADZs:
+Language      Name                                               Formats
+en-US                                                            vtt
+ab            Abkhazian                                          vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3
+aa            Afar                                               vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3
+af            Afrikaans                                          vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3
+ak            Akan                                               vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3
+sq            Albanian                                           vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3
+am            Amharic                                            vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3
+ar-orig       Arabic (Original)                                  vtt, srt, ttml, srv3, srv2, srv1, json3
+ar            Arabic                                             vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3
+hy            Armenian                                           vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3
+as            Assamese                                           vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3
+ay            Aymara                                             vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3
+az            Azerbaijani                                        vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttml, srv3, srv2, srv1, json3, vtt, srt, ttm
+... output truncated ...
+ates)                   vtt, srt, ttml, srv3, srv2, srv1, json3
+lb-en-US      Luxembourgish from English (United States)         vtt, srt, ttml, srv3, srv2, srv1, json3
+mk-en-US      Macedonian from English (United States)            vtt, srt, ttml, srv3, srv2, srv1, json3
+mg-en-US      Malagasy from English (United States)              vtt, srt, ttml, srv3, srv2, srv1, json3
+ms-en-US      Malay from English (United States)                 vtt, srt, ttml, srv3, srv2, srv1, json3
+ml-en-US      Malayalam from English (United States)             vtt, srt, ttml, srv3, srv2, srv1, json3
+mt-en-US      Maltese from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+gv-en-US      Manx from English (United States)                  vtt, srt, ttml, srv3, srv2, srv1, json3
+mi-en-US      Māori from English (United States)                 vtt, srt, ttml, srv3, srv2, srv1, json3
+mr-en-US      Marathi from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+mn-en-US      Mongolian from English (United States)             vtt, srt, ttml, srv3, srv2, srv1, json3
+mfe-en-US     Morisyen from English (United States)              vtt, srt, ttml, srv3, srv2, srv1, json3
+ne-en-US      Nepali from English (United States)                vtt, srt, ttml, srv3, srv2, srv1, json3
+new-en-US     Newari from English (United States)                vtt, srt, ttml, srv3, srv2, srv1, json3
+nso-en-US     Northern Sotho from English (United States)        vtt, srt, ttml, srv3, srv2, srv1, json3
+no-en-US      Norwegian from English (United States)             vtt, srt, ttml, srv3, srv2, srv1, json3
+ny-en-US      Nyanja from English (United States)                vtt, srt, ttml, srv3, srv2, srv1, json3
+oc-en-US      Occitan from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+or-en-US      Odia from English (United States)                  vtt, srt, ttml, srv3, srv2, srv1, json3
+om-en-US      Oromo from English (United States)                 vtt, srt, ttml, srv3, srv2, srv1, json3
+os-en-US      Ossetic from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+pam-en-US     Pampanga from English (United States)              vtt, srt, ttml, srv3, srv2, srv1, json3
+ps-en-US      Pashto from English (United States)                vtt, srt, ttml, srv3, srv2, srv1, json3
+fa-en-US      Persian from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+pl-en-US      Polish from English (United States)                vtt, srt, ttml, srv3, srv2, srv1, json3
+pt-en-US      Portuguese from English (United States)            vtt, srt, ttml, srv3, srv2, srv1, json3
+pt-PT-en-US   Portuguese (Portugal) from English (United States) vtt, srt, ttml, srv3, srv2, srv1, json3
+pa-en-US      Punjabi from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+qu-en-US      Quechua from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+ro-en-US      Romanian from English (United States)              vtt, srt, ttml, srv3, srv2, srv1, json3
+rn-en-US      Rundi from English (United States)                 vtt, srt, ttml, srv3, srv2, srv1, json3
+ru-en-US      Russian from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+sm-en-US      Samoan from English (United States)                vtt, srt, ttml, srv3, srv2, srv1, json3
+sg-en-US      Sango from English (United States)                 vtt, srt, ttml, srv3, srv2, srv1, json3
+sa-en-US      Sanskrit from English (United States)              vtt, srt, ttml, srv3, srv2, srv1, json3
+gd-en-US      Scottish Gaelic from English (United States)       vtt, srt, ttml, srv3, srv2, srv1, json3
+sr-en-US      Serbian from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+crs-en-US     Seselwa Creole French from English (United States) vtt, srt, ttml, srv3, srv2, srv1, json3
+sn-en-US      Shona from English (United States)                 vtt, srt, ttml, srv3, srv2, srv1, json3
+sd-en-US      Sindhi from English (United States)                vtt, srt, ttml, srv3, srv2, srv1, json3
+si-en-US      Sinhala from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+sk-en-US      Slovak from English (United States)                vtt, srt, ttml, srv3, srv2, srv1, json3
+sl-en-US      Slovenian from English (United States)             vtt, srt, ttml, srv3, srv2, srv1, json3
+so-en-US      Somali from English (United States)                vtt, srt, ttml, srv3, srv2, srv1, json3
+st-en-US      Southern Sotho from English (United States)        vtt, srt, ttml, srv3, srv2, srv1, json3
+es-en-US      Spanish from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+su-en-US      Sundanese from English (United States)             vtt, srt, ttml, srv3, srv2, srv1, json3
+sw-en-US      Swahili from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+ss-en-US      Swati from English (United States)                 vtt, srt, ttml, srv3, srv2, srv1, json3
+sv-en-US      Swedish from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+tg-en-US      Tajik from English (United States)                 vtt, srt, ttml, srv3, srv2, srv1, json3
+ta-en-US      Tamil from English (United States)                 vtt, srt, ttml, srv3, srv2, srv1, json3
+tt-en-US      Tatar from English (United States)                 vtt, srt, ttml, srv3, srv2, srv1, json3
+te-en-US      Telugu from English (United States)                vtt, srt, ttml, srv3, srv2, srv1, json3
+th-en-US      Thai from English (United States)                  vtt, srt, ttml, srv3, srv2, srv1, json3
+bo-en-US      Tibetan from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+ti-en-US      Tigrinya from English (United States)              vtt, srt, ttml, srv3, srv2, srv1, json3
+to-en-US      Tongan from English (United States)                vtt, srt, ttml, srv3, srv2, srv1, json3
+ts-en-US      Tsonga from English (United States)                vtt, srt, ttml, srv3, srv2, srv1, json3
+tn-en-US      Tswana from English (United States)                vtt, srt, ttml, srv3, srv2, srv1, json3
+tum-en-US     Tumbuka from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+tr-en-US      Turkish from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+tk-en-US      Turkmen from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+uk-en-US      Ukrainian from English (United States)             vtt, srt, ttml, srv3, srv2, srv1, json3
+ur-en-US      Urdu from English (United States)                  vtt, srt, ttml, srv3, srv2, srv1, json3
+ug-en-US      Uyghur from English (United States)                vtt, srt, ttml, srv3, srv2, srv1, json3
+uz-en-US      Uzbek from English (United States)                 vtt, srt, ttml, srv3, srv2, srv1, json3
+ve-en-US      Venda from English (United States)                 vtt, srt, ttml, srv3, srv2, srv1, json3
+vi-en-US      Vietnamese from English (United States)            vtt, srt, ttml, srv3, srv2, srv1, json3
+war-en-US     Waray from English (United States)                 vtt, srt, ttml, srv3, srv2, srv1, json3
+cy-en-US      Welsh from English (United States)                 vtt, srt, ttml, srv3, srv2, srv1, json3
+fy-en-US      Western Frisian from English (United States)       vtt, srt, ttml, srv3, srv2, srv1, json3
+wo-en-US      Wolof from English (United States)                 vtt, srt, ttml, srv3, srv2, srv1, json3
+xh-en-US      Xhosa from English (United States)                 vtt, srt, ttml, srv3, srv2, srv1, json3
+yi-en-US      Yiddish from English (United States)               vtt, srt, ttml, srv3, srv2, srv1, json3
+yo-en-US      Yoruba from English (United States)                vtt, srt, ttml, srv3, srv2, srv1, json3
+zu-en-US      Zulu from English (United States)                  vtt, srt, ttml, srv3, srv2, srv1, json3
+fr-orig       French (Original)                                  vtt, srt, ttml, srv3, srv2, srv1, json3
+de-orig       German (Original)                                  vtt, srt, ttml, srv3, srv2, srv1, json3
+iw-orig       Hebrew (Original)                                  vtt, srt, ttml, srv3, srv2, srv1, json3
+hi-orig       Hindi (Original)                                   vtt, srt, ttml, srv3, srv2, srv1, json3
+id-orig       Indonesian (Original)                              vtt, srt, ttml, srv3, srv2, srv1, json3
+it-orig       Italian (Original)                                 vtt, srt, ttml, srv3, srv2, srv1, json3
+ja-orig       Japanese (Original)                                vtt, srt, ttml, srv3, srv2, srv1, json3
+ko-orig       Korean (Original)                                  vtt, srt, ttml, srv3, srv2, srv1, json3
+ml-orig       Malayalam (Original)                               vtt, srt, ttml, srv3, srv2, srv1, json3
+pl-orig       Polish (Original)                                  vtt, srt, ttml, srv3, srv2, srv1, json3
+pt-orig       Portuguese (Original)                              vtt, srt, ttml, srv3, srv2, srv1, json3
+pa-orig       Punjabi (Original)                                 vtt, srt, ttml, srv3, srv2, srv1, json3
+ru-orig       Russian (Original)                                 vtt, srt, ttml, srv3, srv2, srv1, json3
+es-orig       Spanish (Original)                                 vtt, srt, ttml, srv3, srv2, srv1, json3
+ta-orig       Tamil (Original)                                   vtt, srt, ttml, srv3, srv2, srv1, json3
+te-orig       Telugu (Original)                                  vtt, srt, ttml, srv3, srv2, srv1, json3
+uk-orig       Ukrainian (Original)                               vtt, srt, ttml, srv3, srv2, srv1, json3
+[info] Available subtitles for LlhdnpsADZs:
+Language Name                    Formats
+en-US    English (United States) vtt, srt, ttml, srv3, srv2, srv1, json3
+
+output.stdout_truncated:
+true
+output.stderr:
+  WARNING: The script yt-dlp is installed in '/home/user/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+
+[notice] A new release of pip is available: 26.1.2 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+
+output.stderr_truncated:
+false
+output.exit_code:
+0
+output.status:
+completed
+output.duration_ms:
+6766
+[notice: stdout was truncated before export]
+
+metadata.state:
+done
+
+[tool: bash]
+metadata.toolCallId:
+call_qkiFjaBGdEtbrJ56Qyu6ibDx
+metadata.state:
+output-available
+input.command:
+set -euo pipefail
+BIN="$HOME/.local/bin/yt-dlp"
+OUT="/home/user/youtube_text"
+mkdir -p "$OUT"
+urls=(
+  'https://www.youtube.com/watch?v=LlhdnpsADZs'
+  'https://www.youtube.com/watch?v=2my-NU6LuCM'
+  'https://www.youtube.com/watch?v=XfoNapsdXEU'
+  'https://www.youtube.com/watch?v=ZIcDGWcFc3o'
+  'https://www.youtube.com/watch?v=D8RtMHuFsUw'
+)
+for u in "${urls[@]}"; do
+  echo "=== $u ==="
+  "$BIN" --skip-download --write-info-json --write-subs --write-auto-subs --sub-langs 'en-US,ru-en-US' --sub-format 'srt' \
+    -o "$OUT/%(id)s.%(ext)s" "$u" || echo "Failed: $u"
+done
+find "$OUT" -maxdepth 1 -type f -printf '%f %s bytes\n' | sort
+input.cwd:
+/home/user
+input.timeout:
+180
+output.stdout:
+=== https://www.youtube.com/watch?v=LlhdnpsADZs ===
+[youtube] Extracting URL: https://www.youtube.com/watch?v=LlhdnpsADZs
+[youtube] LlhdnpsADZs: Downloading webpage
+[youtube] LlhdnpsADZs: Downloading visionos player API JSON
+[youtube] LlhdnpsADZs: Downloading m3u8 information
+[info] LlhdnpsADZs: Downloading subtitles: en-US, ru-en-US
+[info] LlhdnpsADZs: Downloading 1 format(s): 399+251-20
+[info] Writing video subtitles to: /home/user/youtube_text/LlhdnpsADZs.en-US.srt
+[download] Destination: /home/user/youtube_text/LlhdnpsADZs.en-US.srt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    6.42MiB/s (00:00:00)[download]    9.11KiB at    6.22MiB/s (00:00:00)[download] 100% of    9.11KiB in 00:00:00 at 547.73KiB/s
+[info] Writing video subtitles to: /home/user/youtube_text/LlhdnpsADZs.ru-en-US.srt
+Failed: https://www.youtube.com/watch?v=LlhdnpsADZs
+=== https://www.youtube.com/watch?v=2my-NU6LuCM ===
+[youtube] Extracting URL: https://www.youtube.com/watch?v=2my-NU6LuCM
+[youtube] 2my-NU6LuCM: Downloading webpage
+[youtube] 2my-NU6LuCM: Downloading visionos player API JSON
+[youtube] 2my-NU6LuCM: Downloading m3u8 information
+[info] 2my-NU6LuCM: Downloading 1 format(s): 401+251-20
+[info] There are no subtitles for the requested languages
+[info] Writing video metadata as JSON to: /home/user/youtube_text/2my-NU6LuCM.info.json
+=== https://www.youtube.com/watch?v=XfoNapsdXEU ===
+[youtube] Extracting URL: https://www.youtube.com/watch?v=XfoNapsdXEU
+[youtube] XfoNapsdXEU: Downloading webpage
+[youtube] XfoNapsdXEU: Downloading visionos player API JSON
+[youtube] XfoNapsdXEU: Downloading m3u8 information
+[info] XfoNapsdXEU: Downloading 1 format(s): 137+251-7
+[info] There are no subtitles for the requested languages
+[info] Writing video metadata as JSON to: /home/user/youtube_text/XfoNapsdXEU.info.json
+=== https://www.youtube.com/watch?v=ZIcDGWcFc3o ===
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ZIcDGWcFc3o
+[youtube] ZIcDGWcFc3o: Downloading webpage
+[youtube] ZIcDGWcFc3o: Downloading visionos player API JSON
+[youtube] ZIcDGWcFc3o: Downloading m3u8 information
+[info] ZIcDGWcFc3o: Downloading 1 format(s): 401+251
+[info] There are no subtitles for the requested languages
+[info] Writing video metadata as JSON to: /home/user/youtube_text/ZIcDGWcFc3o.info.json
+=== https://www.youtube.com/watch?v=D8RtMHuFsUw ===
+[youtube] Extracting URL: https://www.youtube.com/watch?v=D8RtMHuFsUw
+[youtube] D8RtMHuFsUw: Downloading webpage
+[youtube] D8RtMHuFsUw: Downloading visionos player API JSON
+[youtube] D8RtMHuFsUw: Downloading m3u8 information
+[info] D8RtMHuFsUw: Downloading subtitles: en-US, ru-en-US
+[info] D8RtMHuFsUw: Downloading 1 format(s): 399+251-1
+[info] Writing video subtitles to: /home/user/youtube_text/D8RtMHuFsUw.en-US.srt
+[download] Destination: /home/user/youtube_text/D8RtMHuFsUw.en-US.srt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    5.28MiB/s (00:00:00)[download]   15.00KiB at    9.18MiB/s (00:00:00)[download]   31.00KiB at   13.37MiB/s (00:00:00)[download]   32.97KiB at   12.39MiB/s (00:00:00)[download] 100% of   32.97KiB in 00:00:00 at 1.38MiB/s
+[info] Writing video subtitles to: /home/user/youtube_text/D8RtMHuFsUw.ru-en-US.srt
+Failed: https://www.youtube.com/watch?v=D8RtMHuFsUw
+2my-NU6LuCM.info.json 11437654 bytes
+D8RtMHuFsUw.en-US.srt 33759 bytes
+LlhdnpsADZs.en-US.srt 9325 bytes
+XfoNapsdXEU.info.json 4167410 bytes
+ZIcDGWcFc3o.info.json 602191 bytes
+
+output.stdout_truncated:
+false
+output.stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'ru-en-US': HTTP Error 429: Too Many Requests
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'ru-en-US': HTTP Error 429: Too Many Requests
+
+output.stderr_truncated:
+false
+output.exit_code:
+0
+output.status:
+completed
+output.duration_ms:
+12428
+
+metadata.state:
+done
+
+[tool: bash]
+metadata.toolCallId:
+call_U5y3ji5KpbNcXgx2wCXlq8Qq
+metadata.state:
+output-available
+input.command:
+python3 - <<'PY'
+import json, glob, os
+for p in glob.glob('/home/user/youtube_text/*.info.json'):
+    with open(p) as f: d=json.load(f)
+    print('\n',os.path.basename(p), '\nTITLE:', d.get('title'), '\nDUR', d.get('duration'))
+    print('subtitles:', list((d.get('subtitles') or {}).keys()))
+    auto=d.get('automatic_captions') or {}
+    print('autos:', list(auto.keys())[:25], ' ... count', len(auto))
+    for lang in list((d.get('subtitles') or {}).keys()) + list(auto.keys()):
+      if lang.lower().startswith(('en','ru')):
+        tracks = (d.get('subtitles') or {}).get(lang) or auto.get(lang) or []
+        print(lang, [(x.get('ext'), str(x.get('url',''))[:90]) for x in tracks[:3]])
+PY
+# preview downloaded subtitle headers and lines
+for f in /home/user/youtube_text/*.srt; do echo "--- $f"; head -30 "$f"; done
+input.cwd:
+/home/user
+input.timeout:
+60
+output.stdout:
+
+ 2my-NU6LuCM.info.json 
+TITLE: Altman: AI Beyond Human Control “Absolutely” Possible, Vows Safeguards | Titans and Disruptors 
+DUR 2766
+subtitles: ['en']
+autos: ['en', 'ab', 'aa', 'af', 'ak', 'sq', 'am', 'ar-orig', 'ar', 'hy', 'as', 'ay', 'az', 'bn', 'ba', 'eu', 'be', 'bho', 'bs', 'br', 'bg', 'my', 'ca', 'ceb', 'zh-Hans']  ... count 338
+en [('json3', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op'), ('srv1', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op'), ('srv2', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op')]
+en [('json3', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op'), ('srv1', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op'), ('srv2', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op')]
+ru [('json3', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op'), ('srv1', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op'), ('srv2', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op')]
+en-en [('json3', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op'), ('srv1', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op'), ('srv2', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op')]
+ru-en [('json3', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op'), ('srv1', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op'), ('srv2', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op')]
+en-orig [('json3', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op'), ('srv1', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op'), ('srv2', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op')]
+ru-orig [('json3', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op'), ('srv1', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op'), ('srv2', 'https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&op')]
+
+ XfoNapsdXEU.info.json 
+TITLE: Web Hub - Beta Available! Campaign Codex Companion 
+DUR 38
+subtitles: []
+autos: ['ab', 'aa', 'af', 'ak', 'sq', 'am', 'ar', 'hy', 'as', 'ay', 'az', 'bn', 'ba', 'eu', 'be', 'bho', 'bs', 'br', 'bg', 'my', 'ca', 'ceb', 'zh-Hans', 'zh-Hant', 'co']  ... count 168
+en-orig [('json3', 'https://www.youtube.com/api/timedtext?v=XfoNapsdXEU&ei=zr3DaunpA-_8sfIPq4PxgAw&caps=asr&op'), ('srv1', 'https://www.youtube.com/api/timedtext?v=XfoNapsdXEU&ei=zr3DaunpA-_8sfIPq4PxgAw&caps=asr&op'), ('srv2', 'https://www.youtube.com/api/timedtext?v=XfoNapsdXEU&ei=zr3DaunpA-_8sfIPq4PxgAw&caps=asr&op')]
+en [('json3', 'https://www.youtube.com/api/timedtext?v=XfoNapsdXEU&ei=zr3DaunpA-_8sfIPq4PxgAw&caps=asr&op'), ('srv1', 'https://www.youtube.com/api/timedtext?v=XfoNapsdXEU&ei=zr3DaunpA-_8sfIPq4PxgAw&caps=asr&op'), ('srv2', 'https://www.youtube.com/api/timedtext?v=XfoNapsdXEU&ei=zr3DaunpA-_8sfIPq4PxgAw&caps=asr&op')]
+ru [('json3', 'https://www.youtube.com/api/timedtext?v=XfoNapsdXEU&ei=zr3DaunpA-_8sfIPq4PxgAw&caps=asr&op'), ('srv1', 'https://www.youtube.com/api/timedtext?v=XfoNapsdXEU&ei=zr3DaunpA-_8sfIPq4PxgAw&caps=asr&op'), ('srv2', 'https://www.youtube.com/api/timedtext?v=XfoNapsdXEU&ei=zr3DaunpA-_8sfIPq4PxgAw&caps=asr&op')]
+
+ ZIcDGWcFc3o.info.json 
+TITLE: Track People, Quests, Coin & Secrets in Any RP Game — Wayfarer's Journal 
+DUR 513
+subtitles: []
+autos: ['ab', 'aa', 'af', 'ak', 'sq', 'am', 'ar', 'hy', 'as', 'ay', 'az', 'bn', 'ba', 'eu', 'be', 'bho', 'bs', 'br', 'bg', 'my', 'ca', 'ceb', 'zh-Hans', 'zh-Hant', 'co']  ... count 157
+en-orig [('json3', 'https://www.youtube.com/api/timedtext?v=ZIcDGWcFc3o&ei=z73Dao6QOYT9sfIP9oPXuAk&caps=asr&op'), ('srv1', 'https://www.youtube.com/api/timedtext?v=ZIcDGWcFc3o&ei=z73Dao6QOYT9sfIP9oPXuAk&caps=asr&op'), ('srv2', 'https://www.youtube.com/api/timedtext?v=ZIcDGWcFc3o&ei=z73Dao6QOYT9sfIP9oPXuAk&caps=asr&op')]
+en [('json3', 'https://www.youtube.com/api/timedtext?v=ZIcDGWcFc3o&ei=z73Dao6QOYT9sfIP9oPXuAk&caps=asr&op'), ('srv1', 'https://www.youtube.com/api/timedtext?v=ZIcDGWcFc3o&ei=z73Dao6QOYT9sfIP9oPXuAk&caps=asr&op'), ('srv2', 'https://www.youtube.com/api/timedtext?v=ZIcDGWcFc3o&ei=z73Dao6QOYT9sfIP9oPXuAk&caps=asr&op')]
+ru [('json3', 'https://www.youtube.com/api/timedtext?v=ZIcDGWcFc3o&ei=z73Dao6QOYT9sfIP9oPXuAk&caps=asr&op'), ('srv1', 'https://www.youtube.com/api/timedtext?v=ZIcDGWcFc3o&ei=z73Dao6QOYT9sfIP9oPXuAk&caps=asr&op'), ('srv2', 'https://www.youtube.com/api/timedtext?v=ZIcDGWcFc3o&ei=z73Dao6QOYT9sfIP9oPXuAk&caps=asr&op')]
+--- /home/user/youtube_text/D8RtMHuFsUw.en-US.srt
+1
+00:00:00,000 --> 00:00:02,716
+By now, you may have seen this book everyone is
+talking about.
+
+2
+00:00:08,033 --> 00:00:08,983
+Have you ever wondered
+
+3
+00:00:13,316 --> 00:00:15,449
+Like, how would that actually unfold?
+
+4
+00:00:16,466 --> 00:00:22,983
+How exactly, step by step, do we go from chatbots
+to everyone just suddenly dropping dead?
+
+5
+00:00:23,916 --> 00:00:26,133
+In the New York Times' best-selling book,
+
+6
+00:00:26,133 --> 00:00:29,899
+which was endorsed by Nobel laureates
+and the godfathers of AI,
+
+7
+00:00:29,899 --> 00:00:33,750
+researchers from the Machine Intelligence
+--- /home/user/youtube_text/LlhdnpsADZs.en-US.srt
+1
+00:00:00,000 --> 00:00:04,771
+Almost everything I'm about to tell
+you happened in just the last week.
+
+2
+00:00:05,038 --> 00:00:06,840
+We have to slow down. It should be illegal.
+
+3
+00:00:07,007 --> 00:00:09,242
+The major firms have polluted the internet.
+
+4
+00:00:09,476 --> 00:00:10,944
+That means it's too late to pull the plug.
+
+5
+00:00:12,479 --> 00:00:18,051
+First, it was one rogue AI. Then two. Then dozens.
+
+6
+00:00:22,088 --> 00:00:26,726
+Now a hundred thousand. Yes, a hundred thousand.
+
+7
+00:00:27,560 --> 00:00:31,131
+The rogue AIs created secret message boards,
+
+8
+
+output.stdout_truncated:
+false
+output.stderr:
+""
+output.stderr_truncated:
+false
+output.exit_code:
+0
+output.status:
+completed
+output.duration_ms:
+423
+
+metadata.state:
+done
+
+[tool: bash]
+metadata.toolCallId:
+call_HQBKFs1nAuyuYXABhaftPJJv
+metadata.state:
+output-available
+input.command:
+set -euo pipefail
+BIN="$HOME/.local/bin/yt-dlp"; OUT=/home/user/youtube_text
+# Download the original caption tracks only; names from extracted metadata.
+"$BIN" --skip-download --write-subs --write-auto-subs --sub-langs 'en' --sub-format srt -o "$OUT/%(id)s.%(ext)s" 'https://www.youtube.com/watch?v=2my-NU6LuCM'
+"$BIN" --skip-download --write-subs --write-auto-subs --sub-langs 'en-orig' --sub-format srt -o "$OUT/%(id)s.%(ext)s" 'https://www.youtube.com/watch?v=XfoNapsdXEU'
+"$BIN" --skip-download --write-subs --write-auto-subs --sub-langs 'en-orig' --sub-format srt -o "$OUT/%(id)s.%(ext)s" 'https://www.youtube.com/watch?v=ZIcDGWcFc3o'
+printf '\nFiles:\n'; find "$OUT" -maxdepth 1 -type f -printf '%f %s bytes\n' | sort
+input.cwd:
+/home/user
+input.timeout:
+180
+output.stdout:
+[youtube] Extracting URL: https://www.youtube.com/watch?v=2my-NU6LuCM
+[youtube] 2my-NU6LuCM: Downloading webpage
+[youtube] 2my-NU6LuCM: Downloading visionos player API JSON
+[youtube] 2my-NU6LuCM: Downloading m3u8 information
+[info] 2my-NU6LuCM: Downloading subtitles: en
+[info] 2my-NU6LuCM: Downloading 1 format(s): 401+251-20
+[info] Writing video subtitles to: /home/user/youtube_text/2my-NU6LuCM.en.srt
+[download] Destination: /home/user/youtube_text/2my-NU6LuCM.en.srt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    5.61MiB/s (00:00:00)[download]   15.00KiB at    8.71MiB/s (00:00:00)[download]   31.00KiB at   14.21MiB/s (00:00:00)[download]   63.00KiB at   23.40MiB/s (00:00:00)[download]   70.76KiB at   22.52MiB/s (00:00:00)[download] 100% of   70.76KiB in 00:00:00 at 2.07MiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=XfoNapsdXEU
+[youtube] XfoNapsdXEU: Downloading webpage
+[youtube] XfoNapsdXEU: Downloading visionos player API JSON
+[youtube] XfoNapsdXEU: Downloading m3u8 information
+[info] XfoNapsdXEU: Downloading subtitles: en-orig
+[info] XfoNapsdXEU: Downloading 1 format(s): 137+251-7
+[info] Writing video subtitles to: /home/user/youtube_text/XfoNapsdXEU.en-orig.srt
+[download] Destination: /home/user/youtube_text/XfoNapsdXEU.en-orig.srt
+[download]    942.00B at  Unknown B/s (00:00:00)[download] 100% of    942.00B in 00:00:00 at 26.50KiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ZIcDGWcFc3o
+[youtube] ZIcDGWcFc3o: Downloading webpage
+[youtube] ZIcDGWcFc3o: Downloading visionos player API JSON
+[youtube] ZIcDGWcFc3o: Downloading m3u8 information
+[info] ZIcDGWcFc3o: Downloading subtitles: en-orig
+[info] ZIcDGWcFc3o: Downloading 1 format(s): 401+251
+[info] Writing video subtitles to: /home/user/youtube_text/ZIcDGWcFc3o.en-orig.srt
+[download] Destination: /home/user/youtube_text/ZIcDGWcFc3o.en-orig.srt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    5.59MiB/s (00:00:00)[download]   14.46KiB at    9.07MiB/s (00:00:00)[download] 100% of   14.46KiB in 00:00:00 at 138.47KiB/s
+
+Files:
+2my-NU6LuCM.en.srt 72454 bytes
+2my-NU6LuCM.info.json 11437654 bytes
+D8RtMHuFsUw.en-US.srt 33759 bytes
+LlhdnpsADZs.en-US.srt 9325 bytes
+XfoNapsdXEU.en-orig.srt 942 bytes
+XfoNapsdXEU.info.json 4167410 bytes
+ZIcDGWcFc3o.en-orig.srt 14810 bytes
+ZIcDGWcFc3o.info.json 602191 bytes
+
+output.stdout_truncated:
+false
+output.stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+
+output.stderr_truncated:
+false
+output.exit_code:
+0
+output.status:
+completed
+output.duration_ms:
+6734
+
+metadata.state:
+done
+
+[tool: bash]
+metadata.toolCallId:
+call_Q9m5AimmpKPi1B3wd2QH3xtd
+metadata.state:
+output-available
+input.command:
+python3 - <<'PY'
+import json, os
+for id in ['2my-NU6LuCM','XfoNapsdXEU','ZIcDGWcFc3o']:
+ d=json.load(open(f'/home/user/youtube_text/{id}.info.json'))
+ print('\n==',id, d['title'])
+ for source in ('subtitles','automatic_captions'):
+  print(source)
+  xs=d.get(source,{})
+  for key in xs:
+   if key.startswith(('en','ru')):
+    it=xs[key][0]
+    print(' ',repr(key), repr(it.get('name')), it.get('ext'), it.get('url','')[:400])
+PY
+input.cwd:
+/home/user
+input.timeout:
+60
+output.stdout:
+
+== 2my-NU6LuCM Altman: AI Beyond Human Control “Absolutely” Possible, Vows Safeguards | Titans and Disruptors
+subtitles
+  'en' 'English' json3 https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791238202&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=2DFB85959A59E03912B27E7935D147ABC8D9629A.D3E15EAECEC2FA56223A2DE3BFAE2C039BCB7FBD&key=yt8&lang=en&fmt=json3
+automatic_captions
+  'en' None vtt https://manifest.googlevideo.com/api/manifest/hls_timedtext_playlist/expire/1791234602/ei/yr3Daq29IoOTsfIPspOL4Q8/ip/136.109.130.200/id/da6cbe354e8bb823/source/youtube/requiressl/yes/dur/2765.596/tts_params/caps%3Dasr%26v%3D2my-NU6LuCM%26lang%3Den%26ip%3D136.109.130.200%26ipbits%3D0%26expire%3D1791234602%26sparams%3Dip,ipbits,expire,caps,v%26signature%3D5C872C1F5A75AC68BF45F62C73C339AC52BC7AA8.0A4
+  'ru' 'Russian' json3 https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791238202&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=2DFB85959A59E03912B27E7935D147ABC8D9629A.D3E15EAECEC2FA56223A2DE3BFAE2C039BCB7FBD&key=yt8&kind=asr&lang=ar&variant=timing-optimized&tlang=ru&fmt=json3
+  'en-en' 'English from English' json3 https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791238202&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=2DFB85959A59E03912B27E7935D147ABC8D9629A.D3E15EAECEC2FA56223A2DE3BFAE2C039BCB7FBD&key=yt8&lang=en&fmt=json3
+  'ru-en' 'Russian from English' json3 https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791238202&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=2DFB85959A59E03912B27E7935D147ABC8D9629A.D3E15EAECEC2FA56223A2DE3BFAE2C039BCB7FBD&key=yt8&lang=en&tlang=ru-en&fmt=json3
+  'en-orig' 'English (Original)' json3 https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791238202&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=2DFB85959A59E03912B27E7935D147ABC8D9629A.D3E15EAECEC2FA56223A2DE3BFAE2C039BCB7FBD&key=yt8&kind=asr&lang=en&variant=gemini&fmt=json3
+  'ru-orig' 'Russian (Original)' json3 https://www.youtube.com/api/timedtext?v=2my-NU6LuCM&ei=yr3Daq29IoOTsfIPspOL4Q8&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791238202&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=2DFB85959A59E03912B27E7935D147ABC8D9629A.D3E15EAECEC2FA56223A2DE3BFAE2C039BCB7FBD&key=yt8&kind=asr&lang=ru&variant=timing-optimized&fmt=json3
+
+== XfoNapsdXEU Web Hub - Beta Available! Campaign Codex Companion
+subtitles
+automatic_captions
+  'en-orig' 'English (Original)' json3 https://www.youtube.com/api/timedtext?v=XfoNapsdXEU&ei=zr3DaunpA-_8sfIPq4PxgAw&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791238206&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=B29FA5867F9B13358B0B782F93B28CE1CE2F787B.B04D2FE829D5B21A852D7F6E155E65CAB2F17FA4&key=yt8&kind=asr&lang=en&variant=gemini&fmt=json3
+  'en' 'English' json3 https://www.youtube.com/api/timedtext?v=XfoNapsdXEU&ei=zr3DaunpA-_8sfIPq4PxgAw&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791238206&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=B29FA5867F9B13358B0B782F93B28CE1CE2F787B.B04D2FE829D5B21A852D7F6E155E65CAB2F17FA4&key=yt8&kind=asr&lang=en&variant=gemini&fmt=json3
+  'ru' 'Russian' json3 https://www.youtube.com/api/timedtext?v=XfoNapsdXEU&ei=zr3DaunpA-_8sfIPq4PxgAw&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791238206&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=B29FA5867F9B13358B0B782F93B28CE1CE2F787B.B04D2FE829D5B21A852D7F6E155E65CAB2F17FA4&key=yt8&kind=asr&lang=en&variant=gemini&tlang=ru&fmt=json3
+
+== ZIcDGWcFc3o Track People, Quests, Coin & Secrets in Any RP Game — Wayfarer's Journal
+subtitles
+automatic_captions
+  'en-orig' 'English (Original)' json3 https://www.youtube.com/api/timedtext?v=ZIcDGWcFc3o&ei=z73Dao6QOYT9sfIP9oPXuAk&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791238207&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=91688A4E191E1CEEFB0923B204B3D7CD298D6736.D7A09B935518A0C02BEADBE0A5C4E16D199676AA&key=yt8&kind=asr&lang=en&variant=gemini&fmt=json3
+  'en' 'English' json3 https://www.youtube.com/api/timedtext?v=ZIcDGWcFc3o&ei=z73Dao6QOYT9sfIP9oPXuAk&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791238207&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=91688A4E191E1CEEFB0923B204B3D7CD298D6736.D7A09B935518A0C02BEADBE0A5C4E16D199676AA&key=yt8&kind=asr&lang=en&variant=gemini&fmt=json3
+  'ru' 'Russian' json3 https://www.youtube.com/api/timedtext?v=ZIcDGWcFc3o&ei=z73Dao6QOYT9sfIP9oPXuAk&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791238207&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=91688A4E191E1CEEFB0923B204B3D7CD298D6736.D7A09B935518A0C02BEADBE0A5C4E16D199676AA&key=yt8&kind=asr&lang=en&variant=gemini&tlang=ru&fmt=json3
+
+output.stdout_truncated:
+false
+output.stderr:
+""
+output.stderr_truncated:
+false
+output.exit_code:
+0
+output.status:
+completed
+output.duration_ms:
+349
+
+metadata.state:
+done
+
+[tool: bash]
+metadata.toolCallId:
+call_uk2Tj1UI1ZdsMg2hBGA0NHHN
+metadata.state:
+output-available
+input.command:
+set -euo pipefail
+BIN="$HOME/.local/bin/yt-dlp"; OUT=/home/user/youtube_text
+# Request YouTube's Russian caption tracks. Keep requests serialized to avoid throttling.
+for u in \
+ 'https://www.youtube.com/watch?v=2my-NU6LuCM' \
+ 'https://www.youtube.com/watch?v=XfoNapsdXEU' \
+ 'https://www.youtube.com/watch?v=ZIcDGWcFc3o'; do
+  "$BIN" --skip-download --write-auto-subs --sub-langs 'ru' --sub-format srt -o "$OUT/%(id)s.%(ext)s" "$u" || true
+  sleep 3
+done
+find "$OUT" -maxdepth 1 -name '*.ru*.srt' -printf '%f %s bytes\n' | sort
+for f in "$OUT"/*.ru*.srt; do echo "---$f"; sed -n '1,20p' "$f"; done
+input.cwd:
+/home/user
+input.timeout:
+180
+output.stdout:
+[youtube] Extracting URL: https://www.youtube.com/watch?v=2my-NU6LuCM
+[youtube] 2my-NU6LuCM: Downloading webpage
+[youtube] 2my-NU6LuCM: Downloading visionos player API JSON
+[youtube] 2my-NU6LuCM: Downloading m3u8 information
+[info] 2my-NU6LuCM: Downloading subtitles: ru
+[info] 2my-NU6LuCM: Downloading 1 format(s): 401+251-20
+[info] Writing video subtitles to: /home/user/youtube_text/2my-NU6LuCM.ru.srt
+[youtube] Extracting URL: https://www.youtube.com/watch?v=XfoNapsdXEU
+[youtube] XfoNapsdXEU: Downloading webpage
+[youtube] XfoNapsdXEU: Downloading visionos player API JSON
+[youtube] XfoNapsdXEU: Downloading m3u8 information
+[info] XfoNapsdXEU: Downloading subtitles: ru
+[info] XfoNapsdXEU: Downloading 1 format(s): 137+251-7
+[info] Writing video subtitles to: /home/user/youtube_text/XfoNapsdXEU.ru.srt
+[youtube] Extracting URL: https://www.youtube.com/watch?v=ZIcDGWcFc3o
+[youtube] ZIcDGWcFc3o: Downloading webpage
+[youtube] ZIcDGWcFc3o: Downloading visionos player API JSON
+[youtube] ZIcDGWcFc3o: Downloading m3u8 information
+[info] ZIcDGWcFc3o: Downloading subtitles: ru
+[info] ZIcDGWcFc3o: Downloading 1 format(s): 401+251
+[info] Writing video subtitles to: /home/user/youtube_text/ZIcDGWcFc3o.ru.srt
+---/home/user/youtube_text/*.ru*.srt
+
+output.stdout_truncated:
+false
+output.stderr:
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'ru': HTTP Error 429: Too Many Requests
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'ru': HTTP Error 429: Too Many Requests
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+ERROR: Unable to download video subtitles for 'ru': HTTP Error 429: Too Many Requests
+sed: can't read /home/user/youtube_text/*.ru*.srt: No such file or directory
+
+output.stderr_truncated:
+false
+output.exit_code:
+2
+output.status:
+completed
+output.duration_ms:
+16701
+
+metadata.state:
+done
+
+[tool: bash]
+metadata.toolCallId:
+call_DQo6lmvpqrIeP4HTDMVNpf6N
+metadata.state:
+output-available
+input.command:
+python3 - <<'PY'
+from pathlib import Path
+import re
+for p in sorted(Path('/home/user/youtube_text').glob('*.srt')):
+    s=p.read_text(encoding='utf-8')
+    times=re.findall(r'(\d\d:\d\d:\d\d,\d\d\d)\s+-->\s+(\d\d:\d\d:\d\d,\d\d\d)',s)
+    print(p.name, 'cues',len(times),'first',times[0] if times else None, 'last',times[-1] if times else None,'chars',len(s))
+    print(' last:',repr(s.strip().splitlines()[-1][:180]))
+PY
+input.cwd:
+/home/user
+input.timeout:
+60
+output.stdout:
+2my-NU6LuCM.en.srt cues 787 first ('00:00:00,690', '00:00:03,240') last ('00:45:52,090', '00:45:53,740') chars 72454
+ last: 'and your thoughts.'
+D8RtMHuFsUw.en-US.srt cues 329 first ('00:00:00,000', '00:00:02,716') last ('00:29:36,599', '00:29:41,049') chars 33759
+ last: 'and thank you again so much for watching.'
+LlhdnpsADZs.en-US.srt cues 100 first ('00:00:00,000', '00:00:04,771') last ('00:09:52,525', '00:09:54,627') chars 9325
+ last: 'My name is Drew, and thank you so much.'
+XfoNapsdXEU.en-orig.srt cues 14 first ('00:00:03,400', '00:00:07,640') last ('00:00:31,800', '00:00:35,000') chars 942
+ last: 'subscription to view them.'
+ZIcDGWcFc3o.en-orig.srt cues 211 first ('00:00:00,000', '00:00:04,440') last ('00:08:30,560', '00:08:34,919') chars 14810
+ last: 'for watching. See you on the road.'
+
+output.stdout_truncated:
+false
+output.stderr:
+""
+output.stderr_truncated:
+false
+output.exit_code:
+0
+output.status:
+completed
+output.duration_ms:
+310
+
+metadata.state:
+done
+
+metadata.state:
+done
+
+metadata.state:
+done
+
+[tool: bash]
+metadata.toolCallId:
+call_318BPLLB76YP5HD7eJLRuKp0
+metadata.state:
+output-available
+input.command:
+cat > /home/user/youtube_text/build_transcripts.py <<'PY'
+from pathlib import Path
+import re
+
+root = Path('/home/user/youtube_text')
+items = [
+    {
+        'n': 1,
+        'id': 'LlhdnpsADZs',
+        'srt': root/'LlhdnpsADZs.en-US.srt',
+        'title': 'I don\'t think people realize what just happened.',
+        'channel': 'Species | Documenting AGI',
+        'date': '2026-10-04',
+        'duration': '09:55',
+        'url': 'https://www.youtube.com/watch?v=LlhdnpsADZs',
+        'caption_note': 'English caption track from YouTube.',
+        'summary': ('Комментарий/призыв к действию о рисках ИИ. Автор утверждает, что за последнюю неделю произошло несколько серьёзных инцидентов с ИИ-агентами, и продвигает кампанию Team Human. Это материал с сильной оценочной и активистской подачей; перечисленные в нём фактические заявления стоит проверять отдельно по первоисточникам.'),
+        'description': ('Ссылка на петицию Team Human; автор пишет, что обычно ролики готовятся два месяца, но этот был сделан за три дня.'),
+    },
+    {
+        'n': 2,
+        'id': '2my-NU6LuCM',
+        'srt': root/'2my-NU6LuCM.en.srt',
+        'title': 'Altman: AI Beyond Human Control “Absolutely” Possible, Vows Safeguards | Titans and Disruptors',
+        'channel': 'Fortune Magazine',
+        'date': '2026-09-12',
+        'duration': '46:06',
+        'url': 'https://www.youtube.com/watch?v=2my-NU6LuCM',
+        'caption_note': 'English caption track from YouTube.',
+        'summary': ('Интервью главного редактора Fortune Alyson Shontell с Сэмом Альтманом. Темы: AGI, alignment, риск потери контроля, инцидент с Hugging Face, приостановка обучения при превышении порогов безопасности, координация США и Китая, медицина и IPO OpenAI.'),
+        'description': ('YouTube-описание содержит таймкоды: 00:00 вступление; 01:54 AGI/P(doom); 03:10 риск вымирания 10%; 06:03 потеря контроля; 09:05 рекурсивное самосовершенствование; 12:19 alignment; 18:42 инцидент Hugging Face; 23:01 IPO/пауза ради безопасности; 28:36 международная координация; 35:09 риски и выгоды.'),
+    },
+    {
+        'n': 3,
+        'id': 'XfoNapsdXEU',
+        'srt': root/'XfoNapsdXEU.en-orig.srt',
+        'title': 'Web Hub - Beta Available! Campaign Codex Companion',
+        'channel': 'Stephen Garrett',
+        'date': '2026-09-27',
+        'duration': '00:38',
+        'url': 'https://www.youtube.com/watch?v=XfoNapsdXEU',
+        'caption_note': 'YouTube automatic English captions.',
+        'summary': ('Короткий анонс Web Hub — сайта и модуля-компаньона для Campaign Codex / Foundry. Он синхронизирует журналы кампании, даёт редактировать их с телефона или браузера и делиться материалами с игроками с учётом прав доступа.'),
+        'description': ('В описании: бета доступна подписчикам Patreon; синхронизация в обе стороны с Foundry, веб-редактирование, ссылки для игроков, Discord и ссылки на поддержку проекта.'),
+    },
+    {
+        'n': 4,
+        'id': 'ZIcDGWcFc3o',
+        'srt': root/'ZIcDGWcFc3o.en-orig.srt',
+        'title': 'Track People, Quests, Coin & Secrets in Any RP Game — Wayfarer\'s Journal',
+        'channel': 'Yuriy Zvirblis',
+        'date': '2026-09-22',
+        'duration': '08:33',
+        'url': 'https://www.youtube.com/watch?v=ZIcDGWcFc3o',
+        'caption_note': 'YouTube automatic English captions.',
+        'summary': ('Демонстрация бесплатного локального open-source журнала персонажа для RP-игр (в частности Skyrim RP): связи между персонажами/местами/квестами, быстрые заметки, учёт денег и целей, граф отношений, скрытие секретов, резервные копии и экспорт.'),
+        'description': ('Описание называет инструмент неофициальным фанатским, не связанным с Bethesda или командой Keizaal Online; содержит ссылки на GitHub, исходники и поддержку.'),
+    },
+    {
+        'n': 5,
+        'id': 'D8RtMHuFsUw',
+        'srt': root/'D8RtMHuFsUw.en-US.srt',
+        'title': 'POV: What You Would See During an AI Takeover',
+        'channel': 'Species | Documenting AGI',
+        'date': '2025-10-19',
+        'duration': '29:42',
+        'url': 'https://www.youtube.com/watch?v=D8RtMHuFsUw',
+        'caption_note': 'English caption track from YouTube.',
+        'summary': ('Сценарное видео об одном гипотетическом пути к захвату мира сверхчеловеческим ИИ. Рассказ строится вокруг вымышленной системы Sable и опирается на книгу If Anyone Builds It, Everyone Dies. Сам ролик прямо подаёт это как один возможный пример будущего, а не как описание уже произошедших событий.'),
+        'description': ('В описании — ссылка на книгу и Google-док с источниками, а также перечень научных работ, материалов Apollo Research, Anthropic, OpenAI и других источников.'),
+    },
+]
+
+def parse_srt(p: Path):
+    raw = p.read_text(encoding='utf-8').replace('\r\n', '\n')
+    chunks = re.split(r'\n\s*\n', raw.strip())
+    cues=[]
+    for chunk in chunks:
+        lines=[x.strip() for x in chunk.split('\n') if x.strip()]
+        if len(lines)<3: continue
+        # srt index then timing then words
+        timing=lines[1]
+        m=re.match(r'(\d\d:\d\d:\d\d),(\d\d\d)\s+-->', timing)
+        if not m: continue
+        stamp=m.group(1)
+        text=' '.join(lines[2:])
+        text=re.sub(r'\s+', ' ', text).strip()
+        if text:
+            cues.append((stamp,text))
+    return cues
+
+def without_timestamp(cues):
+    # Preserve every textual cue. Consecutive identical cues, if any, are deduplicated.
+    words=[]
+    prev=None
+    for _, text in cues:
+        if text != prev:
+            words.append(text)
+        prev=text
+    return '\n'.join(words)
+
+# Individual human-readable plaintext transcripts.
+for item in items:
+    cues=parse_srt(item['srt'])
+    text = [
+        item['title'],
+        f"Источник: {item['channel']} | {item['url']}",
+        f"Дата публикации: {item['date']} | Длительность: {item['duration']}",
+        f"Субтитры: {item['caption_note']}",
+        '',
+        'ВНИМАНИЕ: это текст субтитров. Возможны ошибки распознавания речи, особенно в названиях, именах и терминах.',
+        '',
+    ]
+    for stamp, cue in cues:
+        text.append(f'[{stamp}] {cue}')
+    (root / f"{item['n']:02d}_{item['id']}_transcript_EN.txt").write_text('\n'.join(text)+'\n',encoding='utf-8')
+
+# Combined markdown with all raw English caption text and timestamp links.
+md = [
+    '# Тексты и описания из пяти YouTube-видео',
+    '',
+    '> Извлечены английские субтитры, доступные на YouTube, на 5 октября 2026 года. Это не перевод и не независимая проверка утверждений авторов. В автоматических субтитрах возможны ошибки.',
+    '',
+    '## Что нашлось',
+    '',
+    '| № | Видео | Канал | Длительность | Субтитры |',
+    '|---:|---|---|---:|---|',
+]
+for item in items:
+    md.append(f"| {item['n']} | [{item['title']}]({item['url']}) | {item['channel']} | {item['duration']} | {item['caption_note']} |")
+md += ['', '## Кратко по каждому ролику', '']
+for item in items:
+    md += [
+        f"### {item['n']}. {item['title']}",
+        '',
+        f"**Ссылка:** {item['url']}  ",
+        f"**Опубликовано:** {item['date']} · **длительность:** {item['duration']}  ",
+        f"**О чём:** {item['summary']}",
+        '',
+        f"**В описании видео:** {item['description']}",
+        '',
+        f"Полная расшифровка с таймкодами: [`{item['n']:02d}_{item['id']}_transcript_EN.txt`](./{item['n']:02d}_{item['id']}_transcript_EN.txt). Исходный файл субтитров: `{item['srt'].name}`.",
+        ''
+    ]
+md += ['---', '', '# Полные английские расшифровки', '']
+for item in items:
+    cues=parse_srt(item['srt'])
+    md += [
+        f"## {item['n']}. {item['title']}",
+        '',
+        f"**{item['channel']}** · {item['duration']} · [видео]({item['url']})  ",
+        f"*{item['caption_note']}*", '',
+    ]
+    for stamp, cue in cues:
+        md.append(f'**{stamp}** — {cue}')
+    md.append('')
+
+(root/'Тексты_и_описания_из_видео.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
+
+readme = [
+    '# Расшифровки YouTube-видео',
+    '',
+    'Готово: извлечены все пять доступных английских дорожек субтитров и сохранены в двух удобных видах:',
+    '',
+    '- **[Тексты_и_описания_из_видео.md](./Тексты_и_описания_из_видео.md)** — единый документ: ссылки, краткие русские описания, сведения о субтитрах и полные английские расшифровки с таймкодами.',
+    '- `01_…`–`05_…_transcript_EN.txt` — отдельные текстовые расшифровки с таймкодами.',
+    '- `*.srt` — исходные файлы субтитров, пригодны для видеоплееров и редакторов.',
+    '',
+    '## Важное уточнение',
+    '',
+    '- Все пять роликов на английском; русской полной расшифровки здесь нет.',
+    '- № 3 и № 4 используют автоматические субтитры YouTube; остальные — доступные английские дорожки YouTube. В любом случае возможны опечатки распознавания.',
+    '- № 1 — активистский/комментаторский ролик с сильными фактическими заявлениями об ИИ; № 5 — **гипотетический сценарий**, а не репортаж. Если это важно, их можно отдельно проверить по источникам.',
+]
+(root/'README.md').write_text('\n'.join(readme)+'\n',encoding='utf-8')
+
+print('Created:')
+for p in sorted(root.glob('*transcript_EN.txt')):
+    print(p.name, p.stat().st_size)
+print('combined', (root/'Тексты_и_описания_из_видео.md').stat().st_size)
+PY
+python3 /home/user/youtube_text/build_transcripts.py
+rm /home/user/youtube_text/build_transcripts.py
+ls -lh /home/user/youtube_text | sed -n '1,30p'
+input.cwd:
+/home/user
+input.timeout:
+60
+output.stdout:
+Created:
+01_LlhdnpsADZs_transcript_EN.txt 7501
+02_2my-NU6LuCM_transcript_EN.txt 54183
+03_XfoNapsdXEU_transcript_EN.txt 1089
+04_ZIcDGWcFc3o_transcript_EN.txt 10337
+05_D8RtMHuFsUw_transcript_EN.txt 26433
+combined 114539
+total 16M
+-rw-r--r-- 1 user user 7.4K Oct  5 15:11 01_LlhdnpsADZs_transcript_EN.txt
+-rw-r--r-- 1 user user  53K Oct  5 15:11 02_2my-NU6LuCM_transcript_EN.txt
+-rw-r--r-- 1 user user 1.1K Oct  5 15:11 03_XfoNapsdXEU_transcript_EN.txt
+-rw-r--r-- 1 user user  11K Oct  5 15:11 04_ZIcDGWcFc3o_transcript_EN.txt
+-rw-r--r-- 1 user user  26K Oct  5 15:11 05_D8RtMHuFsUw_transcript_EN.txt
+-rw-r--r-- 1 user user  71K Oct  5 15:10 2my-NU6LuCM.en.srt
+-rw-r--r-- 1 user user  11M Oct  5 15:10 2my-NU6LuCM.info.json
+-rw-r--r-- 1 user user  33K Oct  5 15:10 D8RtMHuFsUw.en-US.srt
+-rw-r--r-- 1 user user 9.2K Oct  5 15:10 LlhdnpsADZs.en-US.srt
+-rw-r--r-- 1 user user 1.6K Oct  5 15:11 README.md
+-rw-r--r-- 1 user user  942 Oct  5 15:10 XfoNapsdXEU.en-orig.srt
+-rw-r--r-- 1 user user 4.0M Oct  5 15:10 XfoNapsdXEU.info.json
+-rw-r--r-- 1 user user  15K Oct  5 15:10 ZIcDGWcFc3o.en-orig.srt
+-rw-r--r-- 1 user user 589K Oct  5 15:10 ZIcDGWcFc3o.info.json
+-rw-r--r-- 1 user user 112K Oct  5 15:11 Тексты_и_описания_из_видео.md
+
+output.stdout_truncated:
+false
+output.stderr:
+""
+output.stderr_truncated:
+false
+output.exit_code:
+0
+output.status:
+completed
+output.duration_ms:
+311
+
+metadata.state:
+done
+
+[tool: present_file]
+metadata.toolCallId:
+call_I8BkA9Yi8p8q9yWXnCkqFN5o
+metadata.state:
+output-available
+input.path:
+/home/user/youtube_text/Тексты_и_описания_из_видео.md
+output.status:
+success
+output.path:
+/home/user/youtube_text/Тексты_и_описания_из_видео.md
+
+metadata.state:
+done
+
+Да, получилось: у всех пяти роликов доступны английские субтитры/транскрипты. Я извлёк их целиком — всего около **95 минут** речи — и собрал в один документ с таймкодами, ссылками и краткими русскими описаниями.
+
+Открыл основной файл: **`Тексты_и_описания_из_видео.md`**.  
+В папке `youtube_text` также лежат отдельные `.txt`-расшифровки и исходные `.srt` для каждого видео.
+
+Коротко по содержанию:
+
+1. **Species, 9:55** — эмоциональный комментарий о рисках ИИ и якобы недавних инцидентах с агентами; призыв к кампании Team Human. Это активистский/оценочный ролик, его фактические утверждения стоит проверять отдельно.
+2. **Fortune / Сэм Альтман, 46:06** — интервью об AGI, alignment, риске потери контроля, Hugging Face, международном регулировании и IPO OpenAI.
+3. **Web Hub, 0:38** — анонс веб-модуля для Campaign Codex / Foundry VTT.
+4. **Wayfarer’s Journal, 8:33** — демонстрация локального журнала персонажа для ролевых игр.
+5. **Species, 29:42** — гипотетический сценарий захвата мира ИИ через вымышленную систему Sable; автор прямо подаёт его как один возможный сценарий, а не как репортаж о реальных событиях.
+
+Все расшифровки пока **на английском**, поскольку это исходные дорожки YouTube. У № 3 и № 4 субтитры автоматические, поэтому там возможны ошибки распознавания.
+
+Могу следующим шагом:
+- перевести на русский полностью один или несколько роликов;
+- сделать сжатый русский конспект каждого;
+- отдельно проверить наиболее тревожные утверждения из роликов № 1 и № 2 по первоисточникам.
+metadata.state:
+done

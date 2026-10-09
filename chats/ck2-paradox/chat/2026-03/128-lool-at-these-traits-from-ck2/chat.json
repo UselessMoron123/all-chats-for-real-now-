@@ -1,0 +1,135 @@
+{
+  "exportedAt": "2026-10-09T16:28:01.668Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019d1af8-c247-791a-8e30-624ee28aba57",
+  "archivedAt": "2026-09-30 20:22:28.573+00",
+  "evaluation": {
+    "id": "019d1af8-c247-791a-8e30-624ee28aba57",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "lool at these traits from ck2\n\nvarangian = {\n\tmartial = 2\n\tdiplomacy = 1\n\tcombat_rating = 10\n}\n\npira",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019d1b0b-fa1a-7c04-bee5-9b9f881bfa42"
+    ],
+    "archivedAt": "2026-09-30 20:22:28.573+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-03-23 14:47:32.141+00",
+    "updatedAt": "2026-03-23 15:08:21.572932+00",
+    "messages": [
+      {
+        "id": "019d1af8-e8db-7ff7-8706-eee105ceca06",
+        "evaluationSessionId": "019d1af8-c247-791a-8e30-624ee28aba57",
+        "evaluationId": "019d1b2a-5762-7233-8744-d3572767e80f",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "lool at these traits from ck2\n\nvarangian = {\n\tmartial = 2\n\tdiplomacy = 1\n\tcombat_rating = 10\n}\n\npirate = {\n\tmonthly_character_prestige = 0.3\n\tmartial = 1\n\tcombat_rating = 10\n}\n\nviking = {\n\tmonthly_character_prestige = 0.3\n\tmartial = 1\n\tcombat_rating = 10\n}\n\ncrusader = {\n\tmartial = 2\n\tcombat_rating = 10\n}\n\ncrusader_king = {\n\tmartial = 3\n\tglobal_levy_size = 0.2\n\tcombat_rating = 15\n\tsame_religion_opinion = 35\n\t\treligious_enemy = 0.3\n}\n\ncrusader_queen = {\n\tmartial = 3\n\tglobal_levy_size = 0.2\n\tcombat_rating = 15\n\tsame_religion_opinion = 35\n\t\treligious_enemy = 0.3\n}\n\nelusive_shadow = {\n\tmartial = 2\n\tintrigue = 9\n\tdiplomacy = 2\n\tstewardship = -1\n\tcombat_rating = 16\n}\n\ngrey_eminence = {\n\tmartial = -1\n\tintrigue = 2\n\tdiplomacy = 9\n\tlearning = 2\n\tfertility = 0.1\n}\n\nmidas_touched = {\n\tmartial = 2\n\tdiplomacy = -1\n\tstewardship = 9\n\tlearning = 2\n\tfertility = 0.15\n}\n\nmisguided_warrior = {\n\tmartial = 1\n\tlearning = -1\n\thealth = 0.5\n\tcombat_rating = 5\n}\n\nbrilliant_strategist = {\n\tmartial = 9\n\tintrigue = 2\n\tstewardship = 2\n\tlearning = -1\n\thealth = 0.5\n\tcombat_rating = 20\n}\n\nmastermind_theologian = {\n\tintrigue = -1\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 9\n\tfertility = -0.05\n}\n\nattractive = {\n\tdiplomacy = 1\n\tsex_appeal_opinion = 30\n}\n\ngenius = {\n\tmartial = 5\n\tintrigue = 5\n\tdiplomacy = 5\n\tstewardship = 5\n\tlearning = 5\n\tcombat_rating = 10\n\tvassal_opinion = 5\n}\n\nlefthanded = {\n\tcombat_rating = 15\n\tchristian_church_opinion = -10\n\tmuslim_opinion = -10\n\tsame_opinion = 5\n}\n\nquick = {\n\tmartial = 3\n\tintrigue = 3\n\tdiplomacy = 3\n\tstewardship = 3\n\tlearning = 3\n\tcombat_rating = 5\n}\n\nsayyid = {\n\tmuslim_opinion = 5\n}\n\nstrong = {\n\tmartial = 2\n\tdiplomacy = 1\n\tfertility = 0.1\n\thealth = 1\n\tcombat_rating = 10\n\tsex_appeal_opinion = 10\n\tvassal_opinion = 5\n\ttribal_opinion = 10\n}\n\nadministrator = {\n\tstewardship = 3\n}\n\narchitect = {\n\tmartial = 1\n\tstewardship = 2\n}\n\ncelibate = {\n\tmonthly_character_piety = 1.0\n\tfertility = -10.0\n}\n\nduelist = {\n\tmartial = 3\n\tcombat_rating = 30\n}\n\ngame_master = {\n\tmartial = 1\n\tdiplomacy = 2\n}\n\ngardener = {\n\tstewardship = 2\n\tlearning = 1\n}\n\nhedonist = {\n\tintrigue = 1\n\tdiplomacy = 2\n\tfertility = 0.2\n}\n\nhunter = {\n\tmartial = 2\n\tdiplomacy = 1\n\tcombat_rating = 10\n}\n\nimpaler = {\n\tintrigue = 2\n\tlearning = 1\n\tcombat_rating = 10\n}\n\nmystic = {\n\tstewardship = 1\n\tlearning = 2\n}\n\nmaster_schemer = {\n\tintrigue = 3\n}\n\nscholar = {\n\tlearning = 3\n}\n\nmaster_seducer/seductress = {\n\tintrigue = 2\n\tdiplomacy = 1\n\tsex_appeal_opinion = 50\n}\n\nsocializer = {\n\tdiplomacy = 3\n\tsex_appeal_opinion = 10\n}\n\nstrategist = {\n\tmartial = 2\n\tstewardship = 1\n}\n\ntheologian = {\n\tintrigue = 1\n\tlearning = 2\n}\n\nenvious = {\n\tintrigue = 2\n\tdiplomacy = -1\n\tcombat_rating = 3\n\tliege_opinion = -15\n}\n\ngreedy = {\n\tglobal_tax_modifier = 0.1\n\tdiplomacy = -1\n}\n\nlustful = {\n\tmonthly_character_piety = -0.25\n\tintrigue = 1\n\tfertility = 0.2\n}\n\nproud = {\n\tmonthly_character_prestige = 0.5\n}\n\nwroth = {\n\tmartial = 3\n\tintrigue = -1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncharitable = {\n\tdiplomacy = 3\n\tcombat_rating = -3\n}\n\nchaste = {\n\tmonthly_character_piety = 0.5\n\tlearning = 1\n\tfertility = -0.15\n}\n\ndiligent = {\n\tmartial = 1\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tvassal_opinion = 5\n}\n\nhumble = {\n\tmonthly_character_piety = 1.0\n}\n\nkind = {\n\tintrigue = -2\n\tdiplomacy = 2\n\tcombat_rating = -5\n}\n\npatient = {\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tcombat_rating = 5\n}\n\ntemperate = {\n\tstewardship = 2\n}\n\nambitious = {\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3\n}\n\narbitrary = {\n\tintrigue = 1\n\tstewardship = -2\n\tlearning = -1\n}\n\nbrave = {\n\tmartial = 2\n\tcombat_rating = 10\n}\n\ncontent = {\n\tmonthly_character_piety = 0.5\n\tintrigue = -1\n\tliege_opinion = 25\n}\n\ncruel = {\n\tintrigue = 1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncynical = {\n\tmonthly_character_piety = -0.2\n\tintrigue = 2\n}\n\ndeceitful = {\n\tintrigue = 3\n\tdiplomacy = -2\n\tcombat_rating = 3\n}\n\nerudite = {\n\tlearning = 2\n\tcombat_rating = -2\n}\n\ngregarious = {\n\tdiplomacy = 2\n\tsex_appeal_opinion = 5\n}\n\nhonest = {\n\tintrigue = -2\n\tdiplomacy = 3\n\tcombat_rating = -2\n}\n\njust = {\n\tstewardship = 2\n\tlearning = 1\n}\n\nparanoid = {\n\tintrigue = 2\n\tdiplomacy = -1\n}\n\nshrewd = {\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3\n}\n\nstubborn = {\n\tdiplomacy = -1\n\tstewardship = 1\n\tcombat_rating = 3\n}\n\nzealous = {\n\tmonthly_character_piety = 1\n\tmartial = 2\n\topinion_against_infidels = -25\n}\n\nadventurer = {\n\tmartial = 1\n\tdiplomacy = -1\n\tcombat_rating = 10\n\tglobal_levy_size = 0.2\n\tmax_manpower_mult = 0.1\n}\n\naugustus = {\n\tmonthly_character_prestige = 0.5\n\tvassal_opinion = 10\n}\n\nimmortal = {\n\thealth = 10\n\ttaoist_opinion = 25\n}\n\nbastard = {\n\tdiplomacy = -1\n}\n\nborn_in_the_purple = {\n\tmonthly_character_prestige = 0.5\n\tvassal_opinion = 5\n}\n\nhomosexual = {\n\tsex_appeal_opinion = 30 # Only to those of the same sex\n\tfertility = -0.15\n\t+ Homosexual wife can't cheat with men\n}\n\nheresiarch = {\n\tcombat_rating = 3\n\tinfidel_opinion = -15\n\tsame_religion_opinion = 25\n}\n\nmutazilite = {\n\tlearning = 5\n}\n\nphysician = {\n\tmonthly_character_prestige = 0.25\n\tdiplomacy = 1\n\tlearning = 2\n\thealth = 0.5\n\tgeneral_opinion = 5\n}\n\npoet = {\n\tdiplomacy = 1\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-23T14:47:32.978864+00:00",
+        "updatedAt": "2026-03-23T14:47:32.978864+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1af8-e8dd-79af-b058-d7b7f168c7ea",
+        "evaluationSessionId": "019d1af8-c247-791a-8e30-624ee28aba57",
+        "evaluationId": "019d1b2a-5762-7233-8744-d3572767e80f",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d1af8-e8db-7ff7-8706-eee105ceca06"
+        ],
+        "content": "I have taken a look at your list! This is a fantastic overview of some of the most important and iconic traits from **Crusader Kings II (CK2)**. \n\nLooking at the raw data, it really highlights how CK2 calculates a character's worth. You can clearly see how certain traits are designed to make a character a battlefield god, a master manipulator, or a beloved ruler.\n\nHere is a breakdown of the most interesting takeaways and \"power-gaming\" observations based on the stats you provided:\n\n### 1. The \"God-Tier\" Stat Boosters\nIf you are trying to breed or create the ultimate ruler, stacking these traits gives absurd bonuses:\n*   **Genius:** Still the holy grail of CK2. **+5 to all stats**, +10 Combat Rating, and a Vassal Opinion boost. \n*   **Ambitious & Shrewd:** Both give **+2 to all stats**. \n*   *Combo:* A character who is a Genius, Ambitious, and Shrewd gets **+9 to every single stat** before their education or base stats are even calculated!\n\n### 2. The Duelist / Battlefield Terminators\nCombat Rating dictates who lives and dies in personal combat and battlefield events. \n*   **Duelist (+30)** and **Brilliant Strategist (+20)** are massive.\n*   Stacking traits like **Brave (+10)**, **Strong (+10)**, **Hunter (+10)**, and **Lefthanded (+15)** can easily push a character's Combat Rating past 100.\n*   *Note:* I love the CK2 logic that being **Lefthanded** makes you a deadly fighter (+15 combat rating), but the Church hates you for it (-10 opinion).\n\n### 3. The Best Education Traits\nThe tier-4 education traits dictate a character's lifestyle:\n*   **Brilliant Strategist:** The best for expansion (+9 Martial, +20 Combat Rating, +0.5 Health).\n*   **Elusive Shadow:** Incredible for surviving assassination and plotting (+9 Intrigue).\n*   **Grey Eminence / Midas Touched:** The go-to traits for managing a massive empire peacefully (insane Diplomacy/Stewardship and a very important Fertility boost to secure an heir).\n\n### 4. Fertility & Health (Survival Mechanics)\nA great ruler is useless if they die at age 20 without an heir.\n*   **Immortal:** Naturally, **+10 Health** makes you virtually immune to disease and old age.\n*   **Strong (+1 Health, +0.1 Fertility)** and **Physician (+0.5 Health)** are incredibly valuable for living long enough to stabilize a realm.\n*   **Lustful** and **Hedonist** are great for pumping out heirs (+0.2 Fertility each), while **Celibate (-10.0 Fertility)** guarantees you will never have children (great for managing succession laws if you already have a good heir).\n\n### 5. Realm Stability Traits\nIf you want your vassals to love you and not join factions:\n*   **Augustus (+10 Vassal Opinion)** and **Born in the Purple (+5)** are Byzantine powerhouses.\n*   **Content (+25 Liege Opinion)** is the absolute best trait for your vassals to have. You *want* your vassals to be Content, and you *never* want them to be **Ambitious** or **Envious**.\n\n### 6. Fun Details in the Code\n*   **Homosexual:** That note at the bottom (*\"Homosexual wife can't cheat with men\"*) is a classic CK2 mechanical quirk. It ensures you won't get secret bastard children passed off as your own if your wife is homosexual.\n*   **Misguided Warrior:** It's funny how a terrible military education actually gives you *negative* learning (-1). You spent all your time learning to swing a sword badly and forgot how to read.\n\n***\n\n**What would you like to do with this list?** \n*   Are you looking to create a custom ruler and want to know the best point-buy combination? \n*   Are you writing a mod for the game? \n*   Or do you want to compare these to how traits work in CK3?",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-03-23T14:47:33.019479+00:00",
+        "updatedAt": "2026-03-23T14:51:06.35814+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "nRetries": 1
+        }
+      },
+      {
+        "id": "019d1b0b-fa15-7421-ad1a-edba14bb63cc",
+        "evaluationSessionId": "019d1af8-c247-791a-8e30-624ee28aba57",
+        "evaluationId": "019d1b2a-5762-7233-8744-d3572767e80f",
+        "role": "user",
+        "parentMessageIds": [
+          "019d1af8-e8dd-79af-b058-d7b7f168c7ea"
+        ],
+        "content": "give lists of personality traits for diplomacy, military, stewardship, intrigue, learning",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-23T15:08:21.535871+00:00",
+        "updatedAt": "2026-03-23T15:08:21.535871+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1b0b-fa1a-7c04-bee5-9b9f881bfa42",
+        "evaluationSessionId": "019d1af8-c247-791a-8e30-624ee28aba57",
+        "evaluationId": "019d1b2a-5762-7233-8744-d3572767e80f",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d1b0b-fa15-7421-ad1a-edba14bb63cc"
+        ],
+        "content": "Based on the data you provided, here is how the traits break down into the five main attributes. \n\nI have separated them into **Personality Traits** (how the character acts) and **Lifestyle/Other Traits** (what they learned to do) so you can see exactly which traits to look out for when building up a specific stat.\n\n### 🕊️ Diplomacy (Making people like you)\n*Diplomats excel at keeping factions happy, negotiating, and making people love them.*\n\n**Personality Traits:**\n*   **Charitable:** +3 Diplomacy\n*   **Honest:** +3 Diplomacy (but -2 Intrigue)\n*   **Gregarious:** +2 Diplomacy (and +5 Sex Appeal)\n*   **Kind:** +2 Diplomacy (but -2 Intrigue)\n\n**Lifestyle, Education & Other Traits:**\n*   **Grey Eminence:** +9 Diplomacy \n*   **Socializer:** +3 Diplomacy (and +10 Sex Appeal)\n*   **Game Master:** +2 Diplomacy \n*   **Hedonist:** +2 Diplomacy \n*   **Poet:** +1 Diplomacy\n*   **Attractive:** +1 Diplomacy\n\n### ⚔️ Military / Martial (Winning wars and battles)\n*Martial characters are battlefield commanders. They get high Martial stats and massive Combat Rating boosts.*\n\n**Personality Traits:**\n*   **Wroth:** +3 Martial (but -1 Diplomacy/Intrigue)\n*   **Brave:** +2 Martial (and +10 Combat Rating)\n*   **Zealous:** +2 Martial \n\n**Lifestyle, Education & Other Traits:**\n*   **Brilliant Strategist:** +9 Martial\n*   **Crusader King / Queen:** +3 Martial (and +15 Combat Rating)\n*   **Duelist:** +3 Martial (and +30 Combat Rating!)\n*   **Strategist:** +2 Martial\n*   **Hunter:** +2 Martial\n*   **Varangian / Crusader:** +2 Martial\n*   **Strong:** +2 Martial\n\n### 💰 Stewardship (Making money and managing domains)\n*Stewards increase your tax income and allow you to hold more castles personally without penalties.*\n\n**Personality Traits:**\n*   **Temperate:** +2 Stewardship\n*   **Just:** +2 Stewardship\n*   **Stubborn:** +1 Stewardship (but -1 Diplomacy)\n*   *Note on Greedy:* It doesn't give a flat Stewardship stat, but gives +10% Global Tax Modifier.\n\n**Lifestyle, Education & Other Traits:**\n*   **Midas Touched:** +9 Stewardship\n*   **Administrator:** +3 Stewardship\n*   **Architect:** +2 Stewardship\n*   **Gardener:** +2 Stewardship\n\n### 🗡️ Intrigue (Assassinations, plotting, and surviving)\n*Intrigue characters are sneaky. Interestingly, most Intrigue personality traits are considered \"bad\" or sinful, but they are incredibly useful for staying alive.*\n\n**Personality Traits:**\n*   **Deceitful:** +3 Intrigue (but -2 Diplomacy)\n*   **Envious:** +2 Intrigue (but -1 Diplomacy)\n*   **Cynical:** +2 Intrigue\n*   **Paranoid:** +2 Intrigue\n*   **Lustful / Cruel / Arbitrary:** +1 Intrigue\n\n**Lifestyle, Education & Other Traits:**\n*   **Elusive Shadow:** +9 Intrigue\n*   **Master Schemer:** +3 Intrigue\n*   **Impaler:** +2 Intrigue\n*   **Master Seducer / Seductress:** +2 Intrigue\n\n### 📚 Learning (Technology, Piety, and Religion)\n*Learning helps you generate Piety, interact with the Church/Scholars, and boost cultural technology.*\n\n**Personality Traits:**\n*   **Erudite:** +2 Learning\n*   **Chaste:** +1 Learning\n\n**Lifestyle, Education & Other Traits:**\n*   **Mastermind Theologian:** +9 Learning\n*   **Mutazilite:** +5 Learning *(Massive boost for Muslim characters)*\n*   **Scholar:** +3 Learning\n*   **Mystic / Theologian / Physician:** +2 Learning\n\n---\n\n### 🌟 The \"All-Rounders\" (The God-Tier Traits)\nThese traits don't fit into just one category because they boost almost **everything**. If you see these traits, that character is incredibly valuable.\n\n*   **Genius:** +5 to ALL stats\n*   **Quick:** +3 to ALL stats\n*   **Ambitious:** +2 to ALL stats\n*   **Shrewd:** +2 to ALL stats\n*   **Diligent:** +1 to ALL stats\n*   **Patient:** +1 to Intrigue, Diplomacy, Stewardship, and Learning",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-03-23T15:08:21.556333+00:00",
+        "updatedAt": "2026-03-23T15:09:17.294271+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019d1b2a-5762-7233-8744-d3572767e80f",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3.1-pro-preview",
+        "name": "gemini-3.1-pro-preview",
+        "displayName": "gemini-3.1-pro-preview",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

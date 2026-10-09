@@ -1,0 +1,94 @@
+{
+  "exportedAt": "2026-10-09T16:28:29.662Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c393c-1a26-7b77-a64b-58fad44de86a",
+  "archivedAt": "2026-09-30 19:26:41.154+00",
+  "evaluation": {
+    "id": "019c393c-1a26-7b77-a64b-58fad44de86a",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the globe. Th",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c393c-81eb-7348-be7f-8487c157bc3d"
+    ],
+    "archivedAt": "2026-09-30 19:26:41.154+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-07 17:53:13.668+00",
+    "updatedAt": "2026-02-07 17:53:14.073394+00",
+    "messages": [
+      {
+        "id": "019c393c-81e8-707f-afdf-f73e30ef1dd9",
+        "evaluationSessionId": "019c393c-1a26-7b77-a64b-58fad44de86a",
+        "evaluationId": "019c393c-85c4-71df-b131-bdbeb6140e42",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the globe. Their members equally intermarrying with currently prosperous families, and with families that are going to obscurity, fading for one or another reason. They don't seek conquest -  in set of decisive actions (not only war), they carved their own domain once, and then saw no need to expand their Archduchy any further. They send their people searching for knowledge: geneology, myths, legends - in paper, oral traditions, rumors, beliefs. They usualy resolve things diplomatically, and the only kind of wars they are participating, are defending. They accept people seeking better life (declining house; these whose royal families got overthrown; these who aren't first in line of succession and probably won't get anything, except claim that they'll never have means to realize) (but still not everyone, only these who are listed as famous/notable in modern history). They could offer money and give better promises. They could \"buy\" marriage from unwilling parent. They don't care about person's position in succession line. They could even invite people seemingly not descending from any famous house (if their origins long forgotten. or if they are from cadet branch of cadet branch [x] times. or if their ancenstor was a bastard of someone notable, what's often forcibly forgotten). They marry families with claims of descending from someone, be it acquired by diligent research(by target family; though dynasty of Archduchy does researches too), masterfully fabricated (when many believe in lie, it becomes thuth) with money or cunning (by target family, not Archduchy), or if their ancestor accomplished deed fitting figure of the past - Archduchy dynasty \"senses\" if these claims are important to them (in CK all of that can grant dynasty a bloodline). Unlike others, they treat their women not as spare coins or incubators, but with respect, and give time to decide if they like groom chosen for them (dynasty gets wast, so it's easy to eventually find compatible partner). This dynasty also looks for men and women, young or adult, with good qualities and talents (the most lovable traits of CK2 and CK3 players), most gets married to common members of family, and only the best gets groomed, educated, and married into rulling line. They often accept last members of dynasties into family. It's not rare for them to set up matrilineal marriages - they value their women, so it's understandable when after marrying some scion their kids have mother's dynasty name; but sometimes they also marry distant nephews with women of other families, with condition that at least one child has father's dynasty name - other kids can continue mother's lineage. It doesn't bother them much if kids from these unions doesn't their dynasty name, as long as it makes the bloodline continue. Only ruling line demands all kids to carry their dynasty name. And in the end, even making marriages with someone seemingly insignificant, they still look like they are the winners.\n\n(this whole thing is about CK2 player, using all modern knowledge, to hunt for bloodlines to merge into their dynasty, and to have a descent from every famous historical, mythical, cultural house/figure possible. calculating eugenic programms {like Bene Gesserit with their Kwisatz Haderach, but this line is only for comparison}. for a player, using in-game ledgers, it's easy to track bloodlines passing, and see if the person is really carrying a bloodline or not. player chose the most optimal location, setting nice borders in early stages, and now is playing tall. the majority of bloodlines are patrilineal, meaning that they can't be passed through female by normal marriage. matrilineal marriage can be done, allowing matrilineal transfer from both parents, useful when the last member of bloodline is female. marriages inside dynasty, that are meant to slowly merge all collected bloodlines into the rulling branch, happen only between distant members, avoiding incest)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-07T17:53:14.063145+00:00",
+        "updatedAt": "2026-02-07T17:53:14.063145+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c393c-81eb-7348-be7f-8487c157bc3d",
+        "evaluationSessionId": "019c393c-1a26-7b77-a64b-58fad44de86a",
+        "evaluationId": "019c393c-85c4-71df-b131-bdbeb6140e42",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c393c-81e8-707f-afdf-f73e30ef1dd9"
+        ],
+        "content": "They were not born with an empire beneath their feet.\n\nWhen the Archducal House first appeared in the lists of serious powers, the scribes wrote it the usual way: a border dispute settled by steel, a claimant elevated, a strip of riverland taken “for security,” a troublesome marcher lord brought to heel. One quick, decisive season—some battles, some bribes, a hostage exchanged, a charter signed under pressure—and then, abruptly, a silence of ambition.\n\nNo marching banners after that. No appetite for farther conquests. The Archduchy’s borders, once carved, hardened like cooling iron. Neighboring kings waited for the next bite and found none. Their generals watched the passes and saw only patrols. Their chancelleries sent spies and received, more often than not, invitations.\n\nAnd then the world noticed the marriages.\n\nAt first it seemed ordinary: a duke’s sister wed to a count abroad, a cousin placed at a foreign court, a widowed princess remarried “for stability.” But the pattern thickened until it could be traced like a net cast over the map.\n\nThey married into the prosperous—merchant-princes swollen with coin, reforming kings with disciplined armies, rising houses whose banners had only recently begun to appear in the tournament lists.\n\nAnd, with the same calm courtesy, they married into the dying.\n\nA dethroned royal line living on pensions and bitter memory. An old mountain dynasty with empty granaries and too many sons. A once-great family reduced to a single sickly girl kept behind monastery walls “for her safety.” A cadet branch of a cadet branch, ten times removed, surviving on nothing but a cracked seal-ring and a story their neighbors mocked.\n\nIt was the second kind that unsettled everyone, because it looked—until you watched closely—like charity.\n\nIt was not. Not really.\n\nThe Archducal envoys arrived with contracts and gifts measured to the parent’s weakness: a dowry large enough to stop the sale of ancestral lands, a promise of asylum for the whole household, a guarantee that the family name would not be extinguished. Sometimes there was a title offered, sometimes a governorship, sometimes merely the polite certainty that refusing would be financially ruinous next year.\n\nIn more than one court, people muttered that the Archduchy could “buy a marriage.” In more than one, it did.\n\nYet they did not bargain the way conquerors bargain. They did not demand armies. They did not demand annexation. Their asks were peculiar, almost scholarly:\n\n* access to family archives and old correspondence;\n* a list of known bastards and “unspoken” children;\n* the names of grandmothers whose origins had been deliberately blurred;\n* permission to question retired stewards and half-deaf aunts who remembered the true shape of old scandals.\n\nAnd always, always: genealogies.\n\nTheir people went out like pilgrims, but not to relics. They sought stories.\n\nThey paid monks to unroll rotting parchments. They bribed caravan guides for campfire legends. They hired bards and then listened past the poetry for the hard bones of kinship beneath it. They copied tomb inscriptions. They sent courteous letters to enemies asking after “a line in your family history we have long admired.”\n\nWhen a rumor surfaced—that a minor lord in the far west descended from a hero of the old epics, or that a merchant matron’s grandmother had been a hidden princess—they appeared with that same disarming gentleness: congratulations, interest, and a marriage proposal that treated the rumor as if it were already proved.\n\nThat, too, became part of the unease: the way their attention made claims real.\n\nIn other realms, a fabricated ancestry was a parlor trick, useful for a generation at most. Under Archducal notice, it hardened into accepted fact. When enough influential mouths repeated a pleasing lie, the lie acquired witnesses; when it acquired witnesses, it acquired documents; when it acquired documents, it acquired legitimacy. The Archduchy did not always invent these stories—often the target families had been polishing them for years—but the Archduchy had a talent for sensing which stories *mattered*, which ones would be believed, and which ones would change how people behaved.\n\nAnd then they married accordingly.\n\nWhat baffled foreign chancellors most was their indifference to succession.\n\nA prince who was tenth in line—politically worthless in the usual arithmetic—was still welcomed if his blood carried a name the world remembered. A dispossessed queen’s nephew, living in exile and unlikely ever to hold so much as a fortified manor, could find himself treated like a valuable relic. A “nobody” with no recognized arms might receive an offer if, upon investigation, his family proved to be the last twig of a forgotten branch—perhaps descending from a bastard everyone had agreed not to mention.\n\n“Why?” ambassadors wrote home. “They gain no claims.”\n\nThey did not understand that the Archduchy was not collecting claims the way a warlord collects pretexts.\n\nThey were collecting *lineage* the way scholars collect manuscripts.\n\nThis made their court unlike any other. The Archducal palace became a refuge with sharp edges: hospitable, but with rules as precise as liturgy. Deposed royals were received with honor and assigned income; ruined houses were offered marriages that preserved their dignity; ambitious younger children—those who would inherit nothing but a grievance—were given a place where grievances could be turned into careers.\n\nNot everyone was admitted. They were selective, almost coldly so. Petitioners with no notable history were often turned away with polite gifts. But anyone whose name had ever mattered—anyone mentioned in chronicles, sung in ballads, cursed in sermons—found doors opening.\n\nIt was, many decided, a kind of curated asylum: a museum of living nobility.\n\nTheir domestic practices only deepened the sense that something new was happening.\n\nWhere other realms treated daughters as coin and womb, the Archduchy treated women as actors in the game. Prospective brides were educated, not simply adorned. They were allowed to refuse matches more often than scandal would suggest. There were courtships that lasted seasons. If a groom proved unsuitable, the match was quietly redirected—another cousin, another branch, another pairing—because the Archducal family was sprawling enough to absorb delay without losing opportunity.\n\nAnd their contracts grew stranger still in their approach to names.\n\nMatrilineal arrangements—so often resisted elsewhere—were used openly when it served the woman’s standing or preserved a threatened line. A foreign scion might marry in and see his children bear the Archducal name without anyone pretending it was “temporary.” Other times, the Archduchy did the reverse: they married a distant nephew out, agreeing that one child would keep the father’s dynasty-name while others continued the mother’s. The goal was not always to stamp the Archducal crest on every cradle. The goal was to ensure that whatever bloodline they valued did not vanish into a convent, a battlefield, or a forgotten graveyard.\n\nOnly the ruling line insisted on uniformity: there, every child carried the Archducal name, as if the house needed one unbroken trunk even while it cultivated a forest of grafted branches around it.\n\nThey were also unnervingly pragmatic in talent.\n\nThey did not only seek names; they sought *people*. Young or mature, man or woman, noble or merely noble-adjacent—if someone showed the qualities that make realms run (discipline, charm, a mind for accounts, a gift for command, an instinct for intrigue, a rare piety that could shame bishops), the Archduchy found a place for them. Most were married into the wider family and made useful. The best were drawn inward, educated carefully, and paired—so it seemed to outside observers—with almost frightening compatibility.\n\nIt began to look as if the Archduchy could manufacture excellent spouses the way other realms manufactured coin.\n\nAll of this might have been dismissed as eccentricity if they had also been aggressive.\n\nBut they were not.\n\nWhen wars touched them, it was because someone else brought war to their gates. Their response, then, was quick and final: fortresses provisioned in advance, alliances activated with frightening speed, enemy commanders bribed or captured, peace negotiated from a position of calm strength. They did not chase broken foes across borders for glory. They did not annex “to punish.” They simply returned to their chosen shape and resumed their marriages and their archives.\n\nSo the world filled in motives, because the world cannot tolerate a vacuum of motive.\n\nSome called them sanctimonious: a court that spoke of peace while practicing a subtler domination.\n\nSome called them parasitic: a spider at the center of a web, feeding on the dying houses of others.\n\nSome called them merciful: the one place where a fallen dynasty could land without being mocked.\n\nSome whispered stranger things—that the Archducal family believed in an ancient prophecy, that they were breeding toward a particular kind of heir, that they were assembling not an empire of land but an empire of ancestry. Priests argued whether such obsessive attention to blood was vanity or sorcery. Poets, with less caution, began to name them in new ways: *the Archivists*, *the Blood-Weavers*, *the Quiet Conquerors*.\n\nAnd yet, in the practical language of chancelleries, the problem was simpler.\n\nYou could not easily isolate them.\n\nCut them off from one alliance and you discovered they had cousins in three courts. Threaten them economically and a “distant relative” in a trading republic would suddenly remember fond ties. Attempt to smear them and a bishop—related by marriage—would intervene with a sermon on charity and truth. Even when they married into obscurity, that obscurity stopped being obscure; it acquired money, teachers, and the Archduchy’s calm competence.\n\nIt was as if every marriage was a seed planted in someone else’s soil, and every seed grew into influence.\n\nIn time, the map did what maps always do: borders changed, crowns toppled, great houses became footnotes. But whenever a notable line seemed about to end—whenever the last daughter was sent to a nunnery, whenever the last son rode out sick and proud—the Archduchy’s heralds appeared with a proposal that felt like inevitability.\n\nAnd, most irritatingly to their rivals, even when they took “insignificant” spouses, they still looked like the winners afterward: richer in connections, safer in diplomacy, heavier with inherited prestige that did not require a single new acre of land.\n\nThe world had seen conquerors. It had seen saints. It had seen merchants, schemers, and reformers.\n\nIt had not often seen a dynasty that expanded without expanding—one that treated the globe as its marriage-bed, treated history as its quarry, and treated bloodlines as if they were the only kind of territory that never truly rebels.",
+        "experimental_attachments": [],
+        "modelId": "019b1449-0313-7911-b836-419e2ed79b2e",
+        "createdAt": "2026-02-07T17:53:14.069392+00:00",
+        "updatedAt": "2026-02-07T17:54:25.685352+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c393c-85c4-71df-b131-bdbeb6140e42",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b1449-0313-7911-b836-419e2ed79b2e",
+        "organization": "openai",
+        "provider": "openai",
+        "publicName": "gpt-5.2-high",
+        "name": "gpt-5.2-high-no-system-prompt-text",
+        "displayName": "gpt-5.2-high",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

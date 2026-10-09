@@ -1,0 +1,794 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+Mode     : direct
+Started  : 2026-02-21 15:35:10
+Updated  : 2026-02-21 15:35:10
+Archived : 2026-09-30 23:27:41
+Messages : 2
+URL      : https://arena.ai/c/019c8031-f160-76ec-957c-23f80c94b847
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 15:35:10
+------------------------------------------------------------
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything else
+912300 = {
+	name = "Defender_0"
+	dynasty = 912300
+	religion = aztec
+	culture = nahua
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912301 = {
+	name = "Defender_1"
+	dynasty = 912300
+	religion = aztec
+	culture = nahua
+	father = 912300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_aztec_01
+		}
+		add_spouse = 923101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912400 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 912400
+	religion = aztec
+	culture = nahua
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912401 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 912400
+	religion = aztec
+	culture = nahua
+	mother = 912400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_aztec_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912402 = {
+	name = "Culture_2"
+	dynasty = 912400
+	religion = aztec
+	culture = nahua
+	father = 912501
+	mother = 912401
+	2.1.1 = {
+		birth = yes
+		add_spouse = 912602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912500 = {
+	name = "Inquisitor_0"
+	dynasty = 912500
+	religion = aztec
+	culture = nahua
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912501 = {
+	name = "Inquisitor_1"
+	dynasty = 912500
+	religion = aztec
+	culture = nahua
+	father = 912500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_aztec_04
+		}
+		add_spouse = 912401
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912600 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 912600
+	religion = catholic
+	culture = nahua
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912601 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 912600
+	religion = catholic
+	culture = nahua
+	mother = 912600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_aztec_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912602 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 912600
+	religion = catholic
+	culture = nahua
+	father = 912701
+	mother = 912601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912603 = {
+	name = "Jewish_3"
+	dynasty = 912600
+	religion = catholic
+	culture = nahua
+	father = 912402
+	mother = 912602
+	3.1.1 = {
+		birth = yes
+		add_spouse = 917203
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912700 = {
+	name = "Theologic_0"
+	dynasty = 912700
+	religion = aztec
+	culture = nahua
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912701 = {
+	name = "Theologic_1"
+	dynasty = 912700
+	religion = aztec
+	culture = nahua
+	father = 912700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_aztec_06
+		}
+		add_spouse = 912601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917100 = {
+	name = "MBlood_0"
+	dynasty = 917100
+	religion = aztec
+	culture = nahua
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917101 = {
+	name = "MBlood_1"
+	dynasty = 917100
+	religion = aztec
+	culture = nahua
+	father = 917100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = bloodthirsty_bloodline
+		}
+		add_spouse = 917201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917200 = {
+	name = "FBlood_0"
+	female = yes
+	dynasty = 917200
+	religion = aztec
+	culture = nahua
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917201 = {
+	name = "FBlood_1"
+	female = yes
+	dynasty = 917200
+	religion = aztec
+	culture = nahua
+	mother = 917200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = bloodthirsty_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917202 = {
+	name = "FBlood_2"
+	female = yes
+	dynasty = 917200
+	religion = aztec
+	culture = nahua
+	father = 917101
+	mother = 917201
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917203 = {
+	name = "FBlood_3"
+	female = yes
+	dynasty = 917200
+	religion = aztec
+	culture = nahua
+	father = 923102
+	mother = 917202
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917204 = {
+	name = "FBlood_4"
+	female = yes
+	dynasty = 917200
+	religion = aztec
+	culture = nahua
+	father = 912603
+	mother = 917203
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917205 = {
+	name = "FBlood_5"
+	dynasty = 917200
+	religion = aztec
+	culture = nahua
+	father = 912804
+	mother = 917204
+	5.1.1 = {
+		birth = yes
+		add_spouse = 921105
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923100 = {
+	name = "FEagle_0"
+	female = yes
+	dynasty = 923100
+	religion = tengri_pagan
+	culture = khazar
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923101 = {
+	name = "FEagle_1"
+	female = yes
+	dynasty = 923100
+	religion = tengri_pagan
+	culture = khazar
+	mother = 923100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_eagle_hunter_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923102 = {
+	name = "FEagle_2"
+	dynasty = 923100
+	religion = tengri_pagan
+	culture = khazar
+	father = 912301
+	mother = 923101
+	2.1.1 = {
+		birth = yes
+		add_spouse = 917202
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 15:35:10
+------------------------------------------------------------
+### List 1: IDs ending with **00**
+
+```javascript
+912300 = {
+	name = "Defender_0"
+	dynasty = 912300
+	religion = aztec
+	culture = nahua
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912400 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 912400
+	religion = aztec
+	culture = nahua
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912500 = {
+	name = "Inquisitor_0"
+	dynasty = 912500
+	religion = aztec
+	culture = nahua
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912600 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 912600
+	religion = catholic
+	culture = nahua
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912700 = {
+	name = "Theologic_0"
+	dynasty = 912700
+	religion = aztec
+	culture = nahua
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917100 = {
+	name = "MBlood_0"
+	dynasty = 917100
+	religion = aztec
+	culture = nahua
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917200 = {
+	name = "FBlood_0"
+	female = yes
+	dynasty = 917200
+	religion = aztec
+	culture = nahua
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923100 = {
+	name = "FEagle_0"
+	female = yes
+	dynasty = 923100
+	religion = tengri_pagan
+	culture = khazar
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 2: IDs ending with **01**
+
+```javascript
+912301 = {
+	name = "Defender_1"
+	dynasty = 912300
+	religion = aztec
+	culture = nahua
+	father = 912300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_aztec_01
+		}
+		add_spouse = 923101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912401 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 912400
+	religion = aztec
+	culture = nahua
+	mother = 912400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_aztec_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912501 = {
+	name = "Inquisitor_1"
+	dynasty = 912500
+	religion = aztec
+	culture = nahua
+	father = 912500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_aztec_04
+		}
+		add_spouse = 912401
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912601 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 912600
+	religion = catholic
+	culture = nahua
+	mother = 912600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_aztec_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912701 = {
+	name = "Theologic_1"
+	dynasty = 912700
+	religion = aztec
+	culture = nahua
+	father = 912700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_aztec_06
+		}
+		add_spouse = 912601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917101 = {
+	name = "MBlood_1"
+	dynasty = 917100
+	religion = aztec
+	culture = nahua
+	father = 917100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = bloodthirsty_bloodline
+		}
+		add_spouse = 917201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917201 = {
+	name = "FBlood_1"
+	female = yes
+	dynasty = 917200
+	religion = aztec
+	culture = nahua
+	mother = 917200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = bloodthirsty_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923101 = {
+	name = "FEagle_1"
+	female = yes
+	dynasty = 923100
+	religion = tengri_pagan
+	culture = khazar
+	mother = 923100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_eagle_hunter_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 3: Everything Else
+
+```javascript
+912402 = {
+	name = "Culture_2"
+	dynasty = 912400
+	religion = aztec
+	culture = nahua
+	father = 912501
+	mother = 912401
+	2.1.1 = {
+		birth = yes
+		add_spouse = 912602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912602 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 912600
+	religion = catholic
+	culture = nahua
+	father = 912701
+	mother = 912601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+912603 = {
+	name = "Jewish_3"
+	dynasty = 912600
+	religion = catholic
+	culture = nahua
+	father = 912402
+	mother = 912602
+	3.1.1 = {
+		birth = yes
+		add_spouse = 917203
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917202 = {
+	name = "FBlood_2"
+	female = yes
+	dynasty = 917200
+	religion = aztec
+	culture = nahua
+	father = 917101
+	mother = 917201
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917203 = {
+	name = "FBlood_3"
+	female = yes
+	dynasty = 917200
+	religion = aztec
+	culture = nahua
+	father = 923102
+	mother = 917202
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917204 = {
+	name = "FBlood_4"
+	female = yes
+	dynasty = 917200
+	religion = aztec
+	culture = nahua
+	father = 912603
+	mother = 917203
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917205 = {
+	name = "FBlood_5"
+	dynasty = 917200
+	religion = aztec
+	culture = nahua
+	father = 912804
+	mother = 917204
+	5.1.1 = {
+		birth = yes
+		add_spouse = 921105
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923102 = {
+	name = "FEagle_2"
+	dynasty = 923100
+	religion = tengri_pagan
+	culture = khazar
+	father = 912301
+	mother = 923101
+	2.1.1 = {
+		birth = yes
+		add_spouse = 917202
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

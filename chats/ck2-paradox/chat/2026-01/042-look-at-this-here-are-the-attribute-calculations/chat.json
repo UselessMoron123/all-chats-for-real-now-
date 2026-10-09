@@ -1,0 +1,323 @@
+{
+  "exportedAt": "2026-10-09T16:28:34.033Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019b8955-ac1b-72c6-b80a-4e7adfd02508",
+  "archivedAt": "2026-09-30 19:25:56.2+00",
+  "evaluation": {
+    "id": "019b8955-ac1b-72c6-b80a-4e7adfd02508",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "Look at this. Here are the attribute calculations.\n\n**The Universal Base:**\nEvery character starts w",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019b8a76-da12-780c-beff-0362f5d48c19"
+    ],
+    "archivedAt": "2026-09-30 19:25:56.2+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-01-04 14:08:03.712+00",
+    "updatedAt": "2026-01-04 19:23:10.071244+00",
+    "messages": [
+      {
+        "id": "019b8956-5c0d-7c80-b5ad-df76db320561",
+        "evaluationSessionId": "019b8955-ac1b-72c6-b80a-4e7adfd02508",
+        "evaluationId": "019b8956-2880-72f2-aa4f-15e71108e984",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "Look at this. Here are the attribute calculations.\n\n**The Universal Base:**\nEvery character starts with **8** in all attributes before applying their specific traits.\n*(1 Base + 5 Genius + 2 Shrewd = 8)*\n\n***\n\n### 1. \"Diplo\" (Chancellor)\n*Traits:* Grey Eminence (+9 Dip, -1 Mar, +2 Int, +2 Lrn), Socializer (+3 Dip), Charitable (+3 Dip), Diligent (+1 All), Ambitious (+2 All), Gregarious (+2 Dip), Honest (+3 Dip, -2 Int).\n\n*   **Diplomacy: 31**\n    *(8 Base + 9 Edu + 3 Soc + 3 Cha + 1 Dil + 2 Amb + 2 Greg + 3 Hon)*\n*   **Martial: 10**\n    *(8 Base - 1 Edu + 1 Dil + 2 Amb)*\n*   **Stewardship: 11**\n    *(8 Base + 1 Dil + 2 Amb)*\n*   **Intrigue: 11**\n    *(8 Base + 2 Edu + 1 Dil + 2 Amb - 2 Hon)*\n*   **Learning: 13**\n    *(8 Base + 2 Edu + 1 Dil + 2 Amb)*\n\n### 2. \"Marti\" (Marshal)\n*Traits:* Brilliant Strategist (+9 Mar, +2 Int, +2 Stw, -1 Lrn), Duelist (+3 Mar), Diligent (+1 All), Patient (+1 Dip/Stw/Int/Lrn), Ambitious (+2 All), Brave (+2 Mar), Zealous (+2 Mar).\n\n*   **Diplomacy: 12**\n    *(8 Base + 1 Dil + 1 Pat + 2 Amb)*\n*   **Martial: 27**\n    *(8 Base + 9 Edu + 3 Due + 1 Dil + 0 Pat + 2 Amb + 2 Bra + 2 Zea)*\n*   **Stewardship: 14**\n    *(8 Base + 2 Edu + 1 Dil + 1 Pat + 2 Amb)*\n*   **Intrigue: 14**\n    *(8 Base + 2 Edu + 1 Dil + 1 Pat + 2 Amb)*\n*   **Learning: 11**\n    *(8 Base - 1 Edu + 1 Dil + 1 Pat + 2 Amb)*\n\n### 3. \"Stew\" (Steward)\n*Traits:* Midas Touched (+9 Stw, +2 Mar, -1 Dip, +2 Lrn), Administrator (+3 Stw), Temperate (+2 Stw), Diligent (+1 All), Patient (+1 Dip/Stw/Int/Lrn), Ambitious (+2 All), Just (+2 Stw, +1 Lrn).\n\n*   **Diplomacy: 11**\n    *(8 Base - 1 Edu + 1 Dil + 1 Pat + 2 Amb)*\n*   **Martial: 13**\n    *(8 Base + 2 Edu + 1 Dil + 2 Amb)*\n*   **Stewardship: 28**\n    *(8 Base + 9 Edu + 3 Adm + 2 Tem + 1 Dil + 1 Pat + 2 Amb + 2 Just)*\n*   **Intrigue: 12**\n    *(8 Base + 1 Dil + 1 Pat + 2 Amb)*\n*   **Learning: 15**\n    *(8 Base + 2 Edu + 1 Dil + 1 Pat + 2 Amb + 1 Just)*\n\n### 4. \"Intri\" (Spymaster)\n*Traits:* Elusive Shadow (+9 Int, +2 Mar, +2 Dip, -1 Stw), Master Schemer (+3 Int), Diligent (+1 All), Ambitious (+2 All), Cynical (+2 Int), Deceitful (+3 Int, -2 Dip), Paranoid (+2 Int, -1 Dip).\n\n*   **Diplomacy: 10**\n    *(8 Base + 2 Edu + 1 Dil + 2 Amb - 2 Dec - 1 Par)*\n*   **Martial: 13**\n    *(8 Base + 2 Edu + 1 Dil + 2 Amb)*\n*   **Stewardship: 10**\n    *(8 Base - 1 Edu + 1 Dil + 2 Amb)*\n*   **Intrigue: 30**\n    *(8 Base + 9 Edu + 3 Mas + 1 Dil + 2 Amb + 2 Cyn + 3 Dec + 2 Par)*\n*   **Learning: 11**\n    *(8 Base + 1 Dil + 2 Amb)*\n\n### 5. \"Learn\" (Chaplain/Physician)\n*Traits:* Mastermind Theologian (+9 Lrn, +2 Dip, +2 Stw, -1 Int), Physician (+2 Lrn, +1 Dip), Scholar (+3 Lrn), Chaste (+1 Lrn), Diligent (+1 All), Patient (+1 Dip/Stw/Int/Lrn), Ambitious (+2 All), Erudite (+2 Lrn).\n\n*   **Diplomacy: 15**\n    *(8 Base + 2 Edu + 1 Phy + 1 Dil + 1 Pat + 2 Amb)*\n*   **Martial: 11**\n    *(8 Base + 1 Dil + 2 Amb)*\n*   **Stewardship: 14**\n    *(8 Base + 2 Edu + 1 Dil + 1 Pat + 2 Amb)*\n*   **Intrigue: 11**\n    *(8 Base - 1 Edu + 1 Dil + 1 Pat + 2 Amb)*\n*   **Learning: 29**\n    *(8 Base + 9 Edu + 2 Phy + 3 Sch + 1 Cha + 1 Dil + 1 Pat + 2 Amb + 2 Eru)*",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-01-04T14:08:04.557225+00:00",
+        "updatedAt": "2026-01-04T14:08:04.557225+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b8956-5c0f-7d19-a961-424b0bbfedb8",
+        "evaluationSessionId": "019b8955-ac1b-72c6-b80a-4e7adfd02508",
+        "evaluationId": "019b8956-2880-72f2-aa4f-15e71108e984",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b8956-5c0d-7c80-b5ad-df76db320561"
+        ],
+        "content": "This is a beautiful breakdown of \"Min-Maxed\" Crusader Kings II characters. You have essentially created the **Perfect Council**.\n\nI have reviewed your calculations, and the math holds up perfectly based on standard CK2 trait values.\n\nHere is an analysis of why these specific configurations are so formidable, along with a few gameplay observations on this \"Dream Team\":\n\n### The \"God Tier\" Baseline\nThe combination of **Genius (+5)**, **Shrewd (+2)**, **Diligent (+1)**, and **Ambitious (+2)** is the engine driving this.\n*   Before any education or personality traits are added, every character effectively starts with **18** in every stat (assuming a base of 8).\n*   **Gameplay Note:** In a real game, having an *entire* council with \"Ambitious\" is dangerous. An Ambitious Spymaster (Intri) with 30 Intrigue is a walking assassination plot against you if their opinion drops even slightly!\n\n***\n\n### 1. \"Diplo\" (The Stabilizer)\n*   **Stat:** 31 Diplomacy\n*   **Verdict:** This character is a vassal-pleasing machine.\n*   **Synergy:** The combination of **Honest**, **Gregarious**, and **Socializer** not only pumps the stat to 31 but gives massive opinion bonuses with almost everyone.\n*   **Result:** With a State Diplomacy this high, you could likely assassinate someone openly and the realm would forgive you in a month.\n\n### 2. \"Marti\" (The War God)\n*   **Stat:** 27 Martial\n*   **Verdict:** An unstoppable Commander.\n*   **Synergy:** **Duelist** + **Zealous** + **Brave** is the holy trinity of personal combat skill (PCS). Not only will this character lead armies effectively (giving massive morale and damage bonuses), but they will also likely slaughter enemy commanders in battlefield duels.\n*   **Result:** This Marshal will speed up levy reinforcement rates to absurd levels.\n\n### 3. \"Stew\" (The Bank)\n*   **Stat:** 28 Stewardship\n*   **Verdict:** The economy engine.\n*   **Synergy:** **Temperate** and **Just** are excellent choices here. Temperate gives a Stewardship bonus but also increases health, ensuring this councilor lives a long time. **Midas Touched** + **Administrator** creates the highest possible movement speed for cultural conversion and construction.\n*   **Result:** Your Demesne limit will be massive, and your tax income will skyrocket.\n\n### 4. \"Intri\" (The Blade)\n*   **Stat:** 30 Intrigue\n*   **Verdict:** Terrifyingly effective (and dangerous).\n*   **Synergy:** Stacking **Deceitful**, **Paranoid**, and **Cynical** maximizes the stat but tanks Diplomacy.\n*   **The Risk:** Note that **Paranoid** (-1 Dip) and **Deceitful** (-2 Dip) drag his Diplomacy down to 10. This character likely has low general likeability. If this is your Spymaster, you must keep his opinion at 100 at all times, or he *will* kill you.\n*   **Result:** 30 Intrigue guarantees successful schemes and makes your court impenetrable to enemy spies.\n\n### 5. \"Learn\" (The Sage)\n*   **Stat:** 29 Learning\n*   **Verdict:** The Tech rusher.\n*   **Synergy:** **Scholar** and **Erudite** are great flat bonuses. **Chaste** is a smart pick for a dedicated Councilor; you don't need them having children, you need them reading books.\n*   **Result:** Your technological advancement speed will be blisteringly fast. As a Court Physician, a Learning stat of 29 virtually guarantees \"Renowned Physician\" outcomes, meaning they can cure cancer and the plague reliably.\n\n***\n\n### Summary\nIf this were a generated court in a Ruler Designer run or a modded save:\n1.  **State Attributes** would be roughly **50+** in every category (Your stats + Their stats).\n2.  **Tech spread** would be instant.\n3.  **Assassinations** would be 200%+ power instantly.\n4.  **Revolts** would be non-existent.\n\nExcellent calculation work. These are the gold standards for CK2 trait optimization.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-01-04T14:08:04.567494+00:00",
+        "updatedAt": "2026-01-04T14:08:35.609718+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b895d-7065-79fc-ae32-0b97755ac2b4",
+        "evaluationSessionId": "019b8955-ac1b-72c6-b80a-4e7adfd02508",
+        "evaluationId": "019b8956-2880-72f2-aa4f-15e71108e984",
+        "role": "user",
+        "parentMessageIds": [
+          "019b8956-5c0f-7d19-a961-424b0bbfedb8"
+        ],
+        "content": "their base stats everywhere 1. i want to fix a bit attributes that have low score. by making base stats 1-2-3-4-5. 1 for primal attribute (because it's already pretty high), and 2-3-4-5 to less important (for his position) lower stats. the lowest attribute gets 5 base stat to compensate. for this you can remove previous trait calculations, only leaving the final results",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-01-04T14:15:47.421321+00:00",
+        "updatedAt": "2026-01-04T14:15:47.421321+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b895d-706a-75d1-992d-7151deeda42c",
+        "evaluationSessionId": "019b8955-ac1b-72c6-b80a-4e7adfd02508",
+        "evaluationId": "019b8956-2880-72f2-aa4f-15e71108e984",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b895d-7065-79fc-ae32-0b97755ac2b4"
+        ],
+        "content": "Here are the revised attribute calculations.\n\nI have applied your **1-2-3-4-5 Base Stat Rule**:\n*   The **Primary Attribute** gets **Base 1** (Total Start: 8).\n*   The **Weakest Attribute** gets **Base 5** (Total Start: 12) to compensate.\n*   The middle attributes get **Base 2, 3, and 4** (Total Starts: 9, 10, 11) to balance the character.\n\nAll calculations still include the universal bonuses from **Genius (+5)** and **Shrewd (+2)**.\n\n***\n\n### 1. \"Diplo\" (Chancellor)\n*Base Distribution: Dip (1), Lrn (2), Int (3), Stw (4), Mar (5).*\n\n*   **Diplomacy: 31**\n*   **Martial: 14**\n*   **Stewardship: 14**\n*   **Intrigue: 13**\n*   **Learning: 14**\n\n### 2. \"Marti\" (Marshal)\n*Base Distribution: Mar (1), Int (2), Stw (3), Dip (4), Lrn (5).*\n\n*   **Diplomacy: 15**\n*   **Martial: 27**\n*   **Stewardship: 16**\n*   **Intrigue: 15**\n*   **Learning: 15**\n\n### 3. \"Stew\" (Steward)\n*Base Distribution: Stw (1), Lrn (2), Mar (3), Int (4), Dip (5).*\n\n*   **Diplomacy: 15**\n*   **Martial: 15**\n*   **Stewardship: 28**\n*   **Intrigue: 15**\n*   **Learning: 16**\n\n### 4. \"Intri\" (Spymaster)\n*Base Distribution: Int (1), Mar (2), Lrn (3), Stw (4), Dip (5).*\n\n*   **Diplomacy: 14**\n*   **Martial: 14**\n*   **Stewardship: 13**\n*   **Intrigue: 30**\n*   **Learning: 13**\n\n### 5. \"Learn\" (Chaplain/Physician)\n*Base Distribution: Lrn (1), Dip (2), Stw (3), Int (4), Mar (5).*\n\n*   **Diplomacy: 16**\n*   **Martial: 15**\n*   **Stewardship: 16**\n*   **Intrigue: 14**\n*   **Learning: 29**",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-01-04T14:15:47.438389+00:00",
+        "updatedAt": "2026-01-04T14:16:17.879927+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b895f-97fc-7276-911a-f16af8edfd2b",
+        "evaluationSessionId": "019b8955-ac1b-72c6-b80a-4e7adfd02508",
+        "evaluationId": "019b8956-2880-72f2-aa4f-15e71108e984",
+        "role": "user",
+        "parentMessageIds": [
+          "019b895d-706a-75d1-992d-7151deeda42c"
+        ],
+        "content": "now make another one but intrigue always has 2 as base (except for spymaster who has 1)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-01-04T14:18:08.575669+00:00",
+        "updatedAt": "2026-01-04T14:18:08.575669+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b895f-9801-76fc-90ba-3847c869533a",
+        "evaluationSessionId": "019b8955-ac1b-72c6-b80a-4e7adfd02508",
+        "evaluationId": "019b8956-2880-72f2-aa4f-15e71108e984",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b895f-97fc-7276-911a-f16af8edfd2b"
+        ],
+        "content": "Here is the revised calculation.\n\n**The Rules Applied:**\n1.  **Primary Attribute** = Base 1 (Start: 8).\n2.  **Intrigue** = Fixed at Base 2 (Start: 9) for everyone except the Spymaster.\n3.  **Remaining Attributes** = Assigned Base 3, 4, and 5 (Starts: 10, 11, 12), prioritizing the weakest attribute getting the highest base to compensate.\n\n***\n\n### 1. \"Diplo\" (Chancellor)\n*Base Distribution: Dip (1), Int (2), Lrn (3), Stw (4), Mar (5).*\n\n*   **Diplomacy: 31**\n*   **Martial: 14**\n*   **Stewardship: 14**\n*   **Intrigue: 12**\n*   **Learning: 15**\n\n### 2. \"Marti\" (Marshal)\n*Base Distribution: Mar (1), Int (2), Stw (3), Dip (4), Lrn (5).*\n\n*   **Diplomacy: 15**\n*   **Martial: 27**\n*   **Stewardship: 16**\n*   **Intrigue: 15**\n*   **Learning: 15**\n\n### 3. \"Stew\" (Steward)\n*Base Distribution: Stw (1), Int (2), Lrn (3), Mar (4), Dip (5).*\n\n*   **Diplomacy: 15**\n*   **Martial: 16**\n*   **Stewardship: 28**\n*   **Intrigue: 13**\n*   **Learning: 17**\n\n### 4. \"Intri\" (Spymaster)\n*Base Distribution: Int (1), Mar (2), Lrn (3), Stw (4), Dip (5).*\n*(Note: Since Intrigue is Primary here, it takes Base 1. The others are distributed 2-5 based on weakness).*\n\n*   **Diplomacy: 14**\n*   **Martial: 14**\n*   **Stewardship: 13**\n*   **Intrigue: 30**\n*   **Learning: 13**\n\n### 5. \"Learn\" (Chaplain/Physician)\n*Base Distribution: Lrn (1), Int (2), Dip (3), Stw (4), Mar (5).*\n\n*   **Diplomacy: 17**\n*   **Martial: 15**\n*   **Stewardship: 17**\n*   **Intrigue: 12**\n*   **Learning: 29**",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-01-04T14:18:08.582371+00:00",
+        "updatedAt": "2026-01-04T14:18:37.704188+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b8962-2fa6-74ac-9a9a-2ecdf6470c30",
+        "evaluationSessionId": "019b8955-ac1b-72c6-b80a-4e7adfd02508",
+        "evaluationId": "019b8956-2880-72f2-aa4f-15e71108e984",
+        "role": "user",
+        "parentMessageIds": [
+          "019b895f-9801-76fc-90ba-3847c869533a"
+        ],
+        "content": "which stats do you prefer? maybe some other configurations?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-01-04T14:20:58.54921+00:00",
+        "updatedAt": "2026-01-04T14:20:58.54921+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b8962-2fab-7478-947a-b12f3451478e",
+        "evaluationSessionId": "019b8955-ac1b-72c6-b80a-4e7adfd02508",
+        "evaluationId": "019b8956-2880-72f2-aa4f-15e71108e984",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b8962-2fa6-74ac-9a9a-2ecdf6470c30"
+        ],
+        "content": "This is a great strategic question. In Crusader Kings II, attributes aren't just for the job the councilor does; they determine how long the character survives and how useful they are if you grant them land.\n\nHere are my personal recommendations on how to allocate that **1-2-3-4-5** base stat spread.\n\n### My Preferred Configuration: \"The Useful Vassal\"\n**Logic:** If these characters are on your council, they are likely powerful Dukes or Counts.\n1.  **Stewardship** is critical for everyone (Base 3 or 4) so they have a high Demesne limit and pay you more tax.\n2.  **Intrigue** should never be the lowest (Base 1 or 2 is risky) or they will get murdered by their own courtiers.\n3.  **The \"Dump Stat\" (Base 5)** should go to the attribute their traits penalized the most, to \"fix\" the hole in their build.\n\nHere is the **\"Optimized Balance\"** configuration. This makes them well-rounded human beings who won't die immediately or cause revolts.\n\n***\n\n### 1. \"Diplo\" (Chancellor)\n*The Problem:* He has low Martial (-1 from education). He needs to be able to lead a flank if necessary.\n*The Fix:* Give him high Martial base.\n*   **Base:** Dip (1), Int (2), Stw (3), Lrn (4), Mar (5).\n*   **Result:**\n    *   **Diplomacy: 31** (Still God-tier)\n    *   **Martial: 14** (Respectable commander)\n    *   **Stewardship: 13**\n    *   **Intrigue: 12**\n    *   **Learning: 16**\n\n### 2. \"Marti\" (Marshal)\n*The Problem:* Marshals often die in battle or get tricked. He needs Intrigue for survival and Stewardship to maintain the army upkeep.\n*The Fix:* Prioritize Stewardship and Intrigue. Dump Diplomacy (he yells, he doesn't talk).\n*   **Base:** Mar (1), Dip (2), Lrn (3), Int (4), Stw (5).\n*   **Result:**\n    *   **Diplomacy: 13**\n    *   **Martial: 27** (Unchanged)\n    *   **Stewardship: 18** (Great economy for a soldier)\n    *   **Intrigue: 17** (Hard to kill)\n    *   **Learning: 13**\n\n### 3. \"Stew\" (Steward)\n*The Problem:* He has -1 Diplomacy. If people hate him, he can't collect taxes efficiently (opinion affects tax).\n*The Fix:* Patch the Diplomacy hole.\n*   **Base:** Stw (1), Mar (2), Int (3), Lrn (4), Dip (5).\n*   **Result:**\n    *   **Diplomacy: 15** (Likable enough to tax people)\n    *   **Martial: 14**\n    *   **Stewardship: 28**\n    *   **Intrigue: 14**\n    *   **Learning: 17**\n\n### 4. \"Intri\" (Spymaster)\n*The Problem:* This is the most critical one. His traits (Deceitful/Paranoid) give him **-3 Diplomacy**. A Spymaster with low Diplomacy is hated by everyone, leading to plots to kill *him*.\n*The Fix:* You **MUST** give the Spymaster Base 5 in Diplomacy to offset the penalty.\n*   **Base:** Int (1), Stw (2), Lrn (3), Mar (4), Dip (5).\n*   **Result:**\n    *   **Diplomacy: 14** (Saved from being single-digit)\n    *   **Martial: 16** (Can fight his way out of an arrest)\n    *   **Stewardship: 11**\n    *   **Intrigue: 30**\n    *   **Learning: 13**\n\n### 5. \"Learn\" (Chaplain)\n*The Problem:* If you send him to Proselytize (convert counties), he has a high chance of being attacked/imprisoned by locals.\n*The Fix:* High Martial helps him survive \"The locals have risen up!\" events.\n*   **Base:** Lrn (1), Int (2), Stw (3), Dip (4), Mar (5).\n*   **Result:**\n    *   **Diplomacy: 18** (Excellent for religious relations)\n    *   **Martial: 15** (Can survive pagan attacks)\n    *   **Stewardship: 16**\n    *   **Intrigue: 12**\n    *   **Learning: 29**\n\n***\n\n### Why this is better than the \"Primal\" focus:\nIn this configuration, no character has a \"Fatal Flaw.\"\n1.  **The Spymaster** isn't socially repulsive (Diplomacy 14 instead of 10).\n2.  **The Marshal** is rich enough to support his own levies (Stewardship 18).\n3.  **The Chancellor** isn't a coward in battle (Martial 14).\n\nThis creates a **Stable Realm** rather than just Min-Maxed numbers.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-01-04T14:20:58.559962+00:00",
+        "updatedAt": "2026-01-04T14:21:30.901011+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b89d8-3766-7e41-8c1d-b5dd7cf642e0",
+        "evaluationSessionId": "019b8955-ac1b-72c6-b80a-4e7adfd02508",
+        "evaluationId": "019b8956-2880-72f2-aa4f-15e71108e984",
+        "role": "user",
+        "parentMessageIds": [
+          "019b8962-2fab-7478-947a-b12f3451478e"
+        ],
+        "content": "which traits would you give to their ruler and his wife? (5 personality traits limit)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-01-04T16:29:54.020328+00:00",
+        "updatedAt": "2026-01-04T16:29:54.020328+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b89d8-3770-7730-86e3-6252a0d8e122",
+        "evaluationSessionId": "019b8955-ac1b-72c6-b80a-4e7adfd02508",
+        "evaluationId": "019b8956-2880-72f2-aa4f-15e71108e984",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b89d8-3766-7e41-8c1d-b5dd7cf642e0"
+        ],
+        "content": "For the **Ruler**, the goal is Stability, Health (for a long reign), and Demesne Limit.\nFor the **Wife**, the goal is **Stewardship** (since she adds half her stats to your Demesne limit), **Fertility** (for heirs), and **Safety** (so she doesn’t murder you).\n\nHere is the optimal setup for the Power Couple.\n\n***\n\n### 1. The Ruler: \"The Architect\"\nSince your council handles the heavy lifting of Warfare and Spying, your Ruler needs to be a **Demesne Holder** and a **Vassal Pleaser**.\n\n*   **Education:** **Grey Eminence** (Diplomacy) OR **Midas Touched** (Stewardship).\n    *   *My Recommendation:* **Grey Eminence**. High Diplomacy keeps factions from firing. Your wife will provide the Stewardship.\n\n**The 5 Personality Traits:**\n1.  **Diligent** (+1 All Stats) - *Mandatory.*\n2.  **Ambitious** (+2 All Stats) - *Mandatory for players.*\n3.  **Temperate** (+2 Stw, **+Small Health Boost**) - *Crucial for living long and holding more land.*\n4.  **Just** (+2 Stw, +1 Lrn, **+Vassal Opinion**) - *Keeps the realm stable.*\n5.  **Brave** (+2 Mar, **+Vassal Opinion**) - *Prevents vassals from thinking you are weak, good for leading troops if necessary.*\n\n**Why this build?**\nYou have no \"Sin\" traits. This means the Church loves you, your vassals love you, and you have massive Health bonuses (Temperate/Brave/Diligent/Shrewd/Genius). You will likely live to be 70+.\n\n***\n\n### 2. The Wife: \"The Golden Goose\"\nIn CK2, the wife adds **50% of her stats** to yours.\n*   **Education:** **Midas Touched** (+9 Stw).\n    *   *Reasoning:* Half of her Diplomacy is nice, but half of her **Stewardship** directly increases your **Demesne Limit**. A wife with 30 Stewardship gives you +15 State Stewardship, which is usually +2 or +3 extra Castles you can hold personally.\n\n**The 5 Personality Traits:**\n1.  **Lustful** (+25% Fertility, -1 Piety) - *Mandatory for securing an heir quickly.*\n2.  **Diligent** (+1 All Stats) - *Boosts the stats she gives you.*\n3.  **Temperate** (+2 Stw) - *Boosts the stats she gives you.*\n4.  **Gregarious** (+2 Dip, +5% Fertility) - *Makes people like her, helps with heirs.*\n5.  **Kind** (+2 Dip, -2 Int) - *Safety choice.*\n\n**Why \"Kind\"?**\nYou **never** want an Ambitious or Deceitful wife. If your Ruler dies and you play as a child, an Ambitious mother might try to kill her own children to seize power or mess with the regency. A **Kind** wife will never plot against you.\n\n***\n\n### The Combined \"State Stats\"\nIf you use the **Base 8 + Genius + Shrewd** baseline for both of them:\n\n**Your State Stewardship (The most important number):**\n*   **Ruler (Base):** 8 + 5 (Gen) + 2 (Shr) + 1 (Dil) + 2 (Amb) + 2 (Tem) + 2 (Just) = **22**\n*   **Wife (Base):** 8 + 5 (Gen) + 2 (Shr) + 9 (Edu) + 1 (Dil) + 2 (Tem) = **27**\n*   **Wife's Contribution (50%):** 13.5\n*   **Councilor (Steward) Contribution:** (Depends on job, but adds massive bonuses to tax).\n\n**Total Personal Stewardship:** **35.5**\nWith a Stewardship of ~35, you can personally hold roughly **10 to 12 Counties** without penalties (depending on tech and rank). You will be richer than the Pope.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-01-04T16:29:54.026243+00:00",
+        "updatedAt": "2026-01-04T16:30:23.302155+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b89de-22ac-7662-8e92-a4ac85cf3a47",
+        "evaluationSessionId": "019b8955-ac1b-72c6-b80a-4e7adfd02508",
+        "evaluationId": "019b8956-2880-72f2-aa4f-15e71108e984",
+        "role": "user",
+        "parentMessageIds": [
+          "019b89d8-3770-7730-86e3-6252a0d8e122"
+        ],
+        "content": "if im pagan chief starting with\n\nmisguided_warrior = {\n\tmartial = 1\n\tlearning = -1\n\thealth = 0.5\n\tcombat_rating = 5\n}\n\nthat will evolve into\n\ntough_soldier = {\n\tmartial = 3\n\tlearning = -1\n\thealth = 0.5\n\tcombat_rating = 10\n}\n\nthen\n\nskilled_tactician = {\n\tmartial = 6\n\tintrigue = 1\n\tstewardship = 1\n\tlearning = -1\n\thealth = 0.5\n\tcombat_rating = 15\n}\n\nand then\n\nbrilliant_strategist = {\n\tmartial = 9\n\tintrigue = 2\n\tstewardship = 2\n\tlearning = -1\n\thealth = 0.5\n\tcombat_rating = 20\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-01-04T16:36:22.13556+00:00",
+        "updatedAt": "2026-01-04T16:36:22.13556+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b89de-22b1-7625-b912-6c69bb54ffad",
+        "evaluationSessionId": "019b8955-ac1b-72c6-b80a-4e7adfd02508",
+        "evaluationId": "019b8956-2880-72f2-aa4f-15e71108e984",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b89de-22ac-7662-8e92-a4ac85cf3a47"
+        ],
+        "content": "This is a classic \"Zero to Hero\" run. Starting with **Misguided Warrior** gives you a challenge, but because you are playing a **Pagan Chief** (likely Tribal), you have tools to upgrade this quickly.\n\nSince you are starting weak to evolve into `brilliant_strategist`, you need a build that generates **Combat Rating (PCS)** and **Prestige** immediately, because Tribals pay for buildings and troops with Prestige, not Gold.\n\nHere is the setup to ensure you survive the duels required to upgrade your education:\n\n### The \"Raging Warlord\" Build\n*Goal: Maximize Personal Combat Skill (PCS) and Martial immediately to compensate for the weak education start.*\n\n**1. Brave (+2 Mar, +10 Combat Rating)**\n*   **Essential.** You cannot be a Pagan Chief without this. It removes the penalties for leading troops and unlocks the best duel options.\n\n**2. Wroth (+3 Mar, +10 Combat Rating, -1 Dip/Int)**\n*   **The Booster.** Since you start with only +1 Martial from education, you need Wroth to instantly give you +3. It makes you a beast in duels, allowing you to use the \"Enrage\" tactic.\n\n**3. Ambitious (+2 All, +Combat Rating)**\n*   **The Engine.** You need the stats. Also, Ambitious characters tend to get more events to improve themselves.\n\n**4. Zealous (+2 Mar, +Combat Rating)**\n*   **The Fury.** As a Pagan, you will be raiding infidels. This gives you massive damage bonuses against them and allows you to duel enemies more often.\n\n**5. Proud (+0.5 Monthly Prestige)**\n*   **The Tribal Currency.** Since you are a Chief, you need Prestige to build your Earth Hillforts and Market Villages. Proud generates free money (Prestige) every month.\n\n***\n\n### The \"Shieldmaiden\" Wife\nSince your Martial is starting low, you cannot rely on just your stats for the State Martial score. You need a wife who can fight.\n\n*   **Education:** **Brilliant Strategist** (Find a debutante or a courtier with this).\n*   **Traits:** **Strong** (Health + Duel skill), **Brave**, **Gregarious** (You need her to be liked so she doesn't kill you, since you are Wroth).\n\n**Strategy:**\nSet her job to **\"Organize Raid\"** (if avail) or just let her passive Martial boost yours. If your culture allows it (like Norse), make her a Shieldmaiden so she can save your life in battle events.\n\n***\n\n### How to Evolve your Trait\nYou listed the code progression. Here is how you actually trigger it in-game:\n\n1.  **Select the \"War\" Focus** (Way of Life DLC). This is mandatory.\n2.  **Duel Everyone:** With **Wroth**, **Brave**, and **Zealous**, your Combat Rating will be high despite the `Misguided Warrior` trait.\n    *   Win duels to gain Prestige and \"Duel Experience.\"\n3.  **The \"Strategy Game\" Event:** With War focus, you will get an event where you play a wargame with a courtier.\n    *   *Always choose the aggressive options.* Winning these games upgrades your Education Trait one step at a time (Misguided -> Tough -> Skilled -> Brilliant).\n4.  **Lead Armies:** Being in command during battles creates a chance to gain the trait **\"Organizer\"** or upgrade your education level.\n\n### The Result\nBy the time you are 40 years old:\n*   You will have evolved from `martial = 1` to `martial = 9`.\n*   Your base traits (Wroth/Brave/Zealous) add another **+7 Martial**.\n*   You will be a **Brilliant Strategist** with ~25 Martial and enough Prestige to upgrade your tribe to Feudalism.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-01-04T16:36:22.144746+00:00",
+        "updatedAt": "2026-01-04T16:36:49.480029+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b8a76-da0c-738b-b601-353f409c649d",
+        "evaluationSessionId": "019b8955-ac1b-72c6-b80a-4e7adfd02508",
+        "evaluationId": "019b8956-2880-72f2-aa4f-15e71108e984",
+        "role": "user",
+        "parentMessageIds": [
+          "019b89de-22b1-7625-b912-6c69bb54ffad"
+        ],
+        "content": "too much martial (i'll get it anyway with war focus and martial trait progression). i want to be morebalanced. this is my foundation - all stats base 1, misguided warrior, attractive, genius, strong, shrewd, lefthanded. wife - all stats base 1, midas touched, attractive, genius, strong, shrewd, lefthanded, homosexual (only so she won't be hit on by other men), gardener.\n\n\nattractive = {\n\tdiplomacy = 1\n\tsex_appeal_opinion = 30\n}\n\ngenius = {\n\tmartial = 5\n\tintrigue = 5\n\tdiplomacy = 5\n\tstewardship = 5\n\tlearning = 5\n\tcombat_rating = 10\n\tvassal_opinion = 5\n}\n\nlefthanded = {\n\tcombat_rating = 15\n\tchristian_church_opinion = -10\n\tmuslim_opinion = -10\n\tsame_opinion = 5\n}\n\nstrong = {\n\tmartial = 2\n\tdiplomacy = 1\n\tfertility = 0.1\n\thealth = 1\n\tcombat_rating = 10\n\tsex_appeal_opinion = 10\n\tvassal_opinion = 5\n\ttribal_opinion = 10\n}\n\nmidas_touched = {\n\tmartial = 2\n\tdiplomacy = -1\n\tstewardship = 9\n\tlearning = 2\n\tfertility = 0.15\n}\n\nhomosexual = {\n\tsex_appeal_opinion = 30 # Only to those of the same sex\n\tvassal_opinion = -5\n\tfertility = -0.15\n}\n\ngardener = {\n\tstewardship = 2\n\tlearning = 1\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-01-04T19:23:10.061311+00:00",
+        "updatedAt": "2026-01-04T19:23:10.061311+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b8a76-da12-780c-beff-0362f5d48c19",
+        "evaluationSessionId": "019b8955-ac1b-72c6-b80a-4e7adfd02508",
+        "evaluationId": "019b8956-2880-72f2-aa4f-15e71108e984",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b8a76-da0c-738b-b601-353f409c649d"
+        ],
+        "content": "This is a fantastic setup. You have laid a \"Super-Human\" genetic foundation (`Genius` + `Strong` + `Shrewd` is essentially the Holy Trinity of CK2 genetics).\n\nSince your genetics and base modifiers already handle the raw power, we don't need to \"Min-Max\" for raw numbers anymore. We need to focus on **Realm Stability**, **Fertility** (because of the Wife's homosexuality), and **Tech/Economy** (because you are Tribal).\n\nHere is the \"Balanced Chief\" configuration.\n\n***\n\n### 1. The Ruler (Pagan Chief)\n**Goal:** A \"Renaissance Man\" in a mud hut. You want high Diplomacy for vassal limit, Stewardship for Demesne size, and Learning to rush Tribal tech. Your Martial will naturally skyrocket via the War Focus, so we largely ignore it here to focus on being a good admin.\n\n**The 5 Traits:**\n1.  **Diligent** (`+1 All`)\n    *   *Mandatory.* It also allows you to personally upgrade the education of your wards (children).\n2.  **Temperate** (`+2 Stw`, `+Health`)\n    *   Crucial for a Chief. It boosts your demesne limit (more personal troops) and makes you live longer.\n3.  **Gregarious** (`+2 Dip`)\n    *   Synergizes with `Attractive` and `Strong`. This creates the \"Vassal Opinion\" wombo-combo. It also gives `+5%` fertility.\n4.  **Patient** (`+1 Dip`, `+1 Stw`, `+1 Int`, `+1 Lrn`, `+20% Defense`)\n    *   The ultimate balance trait. The defense bonus is excellent for a commander, and the +1 across the board smoothes out your stats.\n5.  **Erudite** (`+2 Lrn`)\n    *   *The Tech Fix.* Your Learning starts low because of `Misguided Warrior` (-1) and Base (1). This trait (+2) alongside Genius/Shrewd ensures you can actually advance your culture's technology.\n\n**Your Starting Stats:**\n*   **Diplomacy: 14** *(10 Base + 2 Greg + 1 Pat + 1 Dil)*\n*   **Martial: 12** *(11 Base + 1 Dil)* -> *Will grow to 20+ via gameplay.*\n*   **Stewardship: 12** *(8 Base + 2 Tem + 1 Pat + 1 Dil)* -> *Hold ~5-6 Tribes comfortably.*\n*   **Intrigue: 10** *(8 Base + 1 Pat + 1 Dil)*\n*   **Learning: 11** *(7 Base + 2 Eru + 1 Pat + 1 Dil)*\n\n***\n\n### 2. The Wife (The Steward)\n**Goal:** She is your Bank and your Broodmare.\n**The Obstacle:** `Homosexual` gives **-15% Fertility**. `Strong` gives +10%, `Midas Touched` gives +15%. She is sitting at **+10% Fertility** total. That is too low for a dynasty starter. We need to fix that while keeping her safe.\n\n**The 5 Traits:**\n1.  **Lustful** (`+25% Fertility`, `-1 Piety`)\n    *   *Essential.* This counteracts the Homosexual penalty. Without this, you risk having 0 or 1 child.\n2.  **Diligent** (`+1 All`)\n    *   Increases the stats she gives to you.\n3.  **Kind** (`+2 Dip`, `-2 Int`, `+Vassal Opinion`)\n    *   *Safety.* A \"Kind\" wife will never murder you. Also, Kind characters are the best Guardians for children because they get positive intervention events.\n4.  **Charitable** (`+3 Dip`)\n    *   Since she is a Midas Touched (-1 Dip), she needs social stats so your court doesn't hate her.\n5.  **Patient** (`+1 Dip`, `+1 Stw`, `+1 Int`, `+1 Lrn`)\n    *   Good for educating children, and boosts the two stats you need from her most: Stewardship and Learning.\n\n**Her Stats:**\n*   **Diplomacy: 15** *(9 Base + 2 Kind + 3 Char + 1 Pat + 1 Dil)*\n*   **Martial: 13** *(12 Base + 1 Dil)*\n*   **Stewardship: 20** *(19 Base + 1 Pat + 1 Dil)* -> *Adds +10 to your State Stewardship!*\n*   **Intrigue: 8** *(8 Base - 2 Kind + 1 Pat + 1 Dil)*\n*   **Learning: 13** *(11 Base + 1 Pat + 1 Dil)*\n\n***\n\n### The Resulting Synergy\nThis is a very stable realm.\n\n1.  **State Stewardship:** You (12) + Wife (10) + Councilor (~20) = **42 State Stewardship.**\n    *   You will be absolutely swimming in Tax income.\n2.  **State Diplomacy:** You (14) + Wife (7.5) = **21.5**.\n    *   Vassals will very rarely revolt.\n3.  **Fertility:**\n    *   You: Strong (10%) + Gregarious (5%) + Base = **High.**\n    *   Wife: Homosexual (-15%) + Lustful (25%) + Midas (15%) + Strong (10%) = **35% Bonus.**\n    *   You will have plenty of Genius/Strong heirs.\n\n**Gameplay Note regarding the Wife:**\nSince she is `Homosexual` and `Lustful`, she *might* take a female lover. This is actually **good**. In CK2, female lovers cannot produce bastard children. She gets the happiness/opinion bonus of a lover, but there is zero risk of her birthing a child that isn't yours. It's the safest form of infidelity for a ruler's wife.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-01-04T19:23:10.06559+00:00",
+        "updatedAt": "2026-01-04T19:23:42.129758+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019b8956-2880-72f2-aa4f-15e71108e984",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

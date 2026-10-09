@@ -1,0 +1,476 @@
+{
+  "exportedAt": "2026-10-09T16:28:03.017Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019d1063-bc95-75e0-b381-b27361edd2c4",
+  "archivedAt": "2026-09-30 20:19:36.952+00",
+  "evaluation": {
+    "id": "019d1063-bc95-75e0-b381-b27361edd2c4",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "\"Spore\" game simulator. Roleplay RPG. Beginning.",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019d1070-67fb-7cb7-b395-23ab866f1954",
+      "019d1070-67fb-755a-bb34-d1a740f35086"
+    ],
+    "archivedAt": "2026-09-30 20:19:36.952+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-03-21 12:34:32.346+00",
+    "updatedAt": "2026-03-21 12:48:16.747444+00",
+    "messages": [
+      {
+        "id": "019d1063-d66b-720f-bc93-ba31329af52c",
+        "evaluationSessionId": "019d1063-bc95-75e0-b381-b27361edd2c4",
+        "evaluationId": "019d1063-dbab-73a6-835d-9569f3a77d82",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "\"Spore\" game simulator. Roleplay RPG. Beginning.",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-21T12:34:33.014971+00:00",
+        "updatedAt": "2026-03-21T12:34:33.014971+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1063-d66c-781d-8a83-8fbf3dd22dc2",
+        "evaluationSessionId": "019d1063-bc95-75e0-b381-b27361edd2c4",
+        "evaluationId": "019d1063-dbab-73a6-835d-9569f3a77d82",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d1063-d66b-720f-bc93-ba31329af52c"
+        ],
+        "content": "# 🌌 SPORE: THE SIMULATION\n\n```\n╔════════════════════════════════════════╗\n║  S P O R E  -  LIFE SIMULATOR RPG     ║\n║  \"From microbe to galactic empire\"     ║\n╚════════════════════════════════════════╝\n```\n\n---\n\n## 🧫 GENESIS\n\nA meteor crashes into a young, ocean-covered planet. Organic matter spills into the primordial waters. Among billions of amino acid chains, **one** sparks to life.\n\n**You.**\n\n---\n\n## STAGE SELECT\n\nYou are about to begin your evolutionary journey. Choose your starting stage:\n\n```\n🔬 [1] CELL STAGE\n     - You are a tiny organism in the tide pools\n     - Eat, survive, evolve\n     \n🦎 [2] CREATURE STAGE\n     - You've crawled onto land\n     - Build your body, find your pack\n\n🏰 [3] TRIBAL STAGE\n     - Your species has gained sentience\n     - Lead your tribe to dominance\n\n🏙️ [4] CIVILIZATION STAGE\n     - Cities rise, nations clash\n     - Conquer or unite your world\n\n🚀 [5] SPACE STAGE\n     - The stars await\n     - Explore the galaxy\n```\n\n---\n\n## FIRST CHOICE\n\nBefore we begin — **what is your diet?**\n\n> 🟢 **Herbivore** — Peaceful filter-feeder\n> 🔴 **Carnivore** — Aggressive predator\n> 🟡 **Omnivore** — Adaptive survivor\n\n---\n\n**Type your Stage number and Diet to begin.**\n*(Example: \"1, Carnivore\")*\n\n*Your choices will shape your evolution, abilities, and the fate of your species...*",
+        "experimental_attachments": [],
+        "modelId": "019b24bb-5caf-71c3-b854-37d0c7086f21",
+        "createdAt": "2026-03-21T12:34:33.018835+00:00",
+        "updatedAt": "2026-03-21T12:34:45.219567+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "p2lConfig": {
+            "eta": 0.1,
+            "type": "latency-constrained",
+            "lambda": 1,
+            "timing": {
+              "grok-4.1": {
+                "ttcs": 12445,
+                "ttft": 1844
+              },
+              "gemini-3-pro": {
+                "ttcs": 31107,
+                "ttft": 19962
+              },
+              "gpt-5.1-high": {
+                "ttcs": 44672,
+                "ttft": 25941
+              },
+              "ernie-5.0-0110": {
+                "ttcs": 111374,
+                "ttft": 53476
+              },
+              "gemini-2.5-pro": {
+                "ttcs": 30748,
+                "ttft": 17213
+              },
+              "gemini-3-flash": {
+                "ttcs": 13351,
+                "ttft": 6016
+              },
+              "claude-opus-4-6": {
+                "ttcs": 38107,
+                "ttft": 1472
+              },
+              "grok-4.1-thinking": {
+                "ttcs": 20532,
+                "ttft": 7479
+              },
+              "ernie-5.0-preview-1203": {
+                "ttcs": 81789,
+                "ttft": 37806
+              },
+              "claude-opus-4-5-20251101": {
+                "ttcs": 29538,
+                "ttft": 1512
+              },
+              "claude-opus-4-6-thinking": {
+                "ttcs": 44208,
+                "ttft": 10350
+              },
+              "claude-sonnet-4-5-20250929": {
+                "ttcs": 30913,
+                "ttft": 1593
+              },
+              "gemini-3-flash-thinking-minimal": {
+                "ttcs": 9331,
+                "ttft": 2105
+              },
+              "claude-opus-4-5-20251101-thinking-32k": {
+                "ttcs": 35808,
+                "ttft": 10855
+              },
+              "claude-sonnet-4-5-20250929-thinking-32k": {
+                "ttcs": 35940,
+                "ttft": 8561
+              }
+            },
+            "threshold": 0.9
+          },
+          "p2lModelData": [
+            {
+              "name": "claude-opus-4-6-vertex",
+              "penalty": -0.9410109232382722,
+              "winProb": 1,
+              "normalizedTtcs": 0.3421534649020418,
+              "normalizedTtft": 0.02752636696835964,
+              "leaderboardCoefficient": 0.78125
+            },
+            {
+              "name": "claude-opus-4-6-thinking",
+              "penalty": -0.7861164233422824,
+              "winProb": 1,
+              "normalizedTtcs": 0.39693285686066765,
+              "normalizedTtft": 0.1935447677462787,
+              "leaderboardCoefficient": 0.78125
+            },
+            {
+              "name": "grok-4.1-thinking",
+              "penalty": -0.7816106251747947,
+              "winProb": 0.9259172264876316,
+              "normalizedTtcs": 0.18435182358539695,
+              "normalizedTtft": 0.13985713217144138,
+              "leaderboardCoefficient": 0.6328125
+            },
+            {
+              "name": "claude-opus-4-5-20251101-thinking-32k",
+              "penalty": -0.6936195448490121,
+              "winProb": 0.9084601060471086,
+              "normalizedTtcs": 0.3215113042541347,
+              "normalizedTtft": 0.2029882564140923,
+              "leaderboardCoefficient": 0.59765625
+            }
+          ],
+          "routedModelId": "019c2fac-13de-7550-a751-f5f593c77c72",
+          "routedModelName": "claude-opus-4-6-vertex",
+          "optimizerVariant": "default",
+          "routedModelOrganization": "anthropic"
+        }
+      },
+      {
+        "id": "019d1067-74fe-735f-a188-fcf522470fee",
+        "evaluationSessionId": "019d1063-bc95-75e0-b381-b27361edd2c4",
+        "evaluationId": "019d1063-dbab-73a6-835d-9569f3a77d82",
+        "role": "user",
+        "parentMessageIds": [
+          "019d1063-d66c-781d-8a83-8fbf3dd22dc2"
+        ],
+        "content": "Cell stage. Herbivore.. for now.",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-21T12:38:30.454418+00:00",
+        "updatedAt": "2026-03-21T12:38:30.454418+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1067-7500-7f0f-9a0c-fb2d1114021b",
+        "evaluationSessionId": "019d1063-bc95-75e0-b381-b27361edd2c4",
+        "evaluationId": "019d1063-dbab-73a6-835d-9569f3a77d82",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d1067-74fe-735f-a188-fcf522470fee"
+        ],
+        "content": "# 🔬 CELL STAGE INITIATED\n\n```\n╔════════════════════════════════════════╗\n║     PRIMORDIAL TIDE POOL - DAY 1      ║\n╚════════════════════════════════════════╝\n```\n\n---\n\n## 🧫 YOUR CELL\n\nA delicate green membrane pulses with newfound life. You drift through murky waters, sunlight filtering from above.\n\n```\n    .-~~~-.\n  .' o o  '.\n :    ∪     :  <-- YOU\n  '.  __  .'      [Tiny Filter-Feeder]\n    '~~~'\n```\n\n**CURRENT STATS:**\n- **Size:** Microscopic (1 cell)\n- **Speed:** Slow drift\n- **Diet:** 🟢 Herbivore (algae bits)\n- **DNA Points:** 0/15\n- **Parts:** Basic flagella, filter mouth\n\n---\n\n## 🌊 YOUR ENVIRONMENT\n\nThe warm tide pool teems with life:\n\n```\n    ☀️ [Surface - Bright, algae-rich]\n         ~~~≈≈~~~\n    🌿 • • · ·  ·  <-- Algae chunks (FOOD)\n       \n    🦠 ○ ○     <-- Other herbivore cells\n    \n    🔴 ◉        <-- Small carnivore! (DANGER)\n    \n    ⬇️  [Depths - Darker, safer, less food]\n```\n\n---\n\n## ⚡ ACTION REQUIRED\n\nThe carnivore cell has **spotted you** and is slowly drifting closer!\n\n**What do you do?**\n\n```\n[1] 🏊 Swim toward algae at surface (risky but food)\n[2] 🌀 Dive deeper to hide in darkness\n[3] ⚔️ Attempt to ram the predator (desperate)\n[4] 🤝 Try to hide behind other herbivores\n[5] 💨 Pulse your flagella - sprint away!\n```\n\n**Choose a number, or describe your action!**\n\n*DNA points earned by eating and surviving. At 15 DNA, you can evolve!*",
+        "experimental_attachments": [],
+        "modelId": "019b24bb-5caf-71c3-b854-37d0c7086f21",
+        "createdAt": "2026-03-21T12:38:30.457648+00:00",
+        "updatedAt": "2026-03-21T12:38:48.714694+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "p2lConfig": {
+            "eta": 0.1,
+            "type": "latency-constrained",
+            "lambda": 1,
+            "timing": {
+              "grok-4.1": {
+                "ttcs": 12445,
+                "ttft": 1844
+              },
+              "gemini-3-pro": {
+                "ttcs": 31107,
+                "ttft": 19962
+              },
+              "gpt-5.1-high": {
+                "ttcs": 44672,
+                "ttft": 25941
+              },
+              "ernie-5.0-0110": {
+                "ttcs": 111374,
+                "ttft": 53476
+              },
+              "gemini-2.5-pro": {
+                "ttcs": 30748,
+                "ttft": 17213
+              },
+              "gemini-3-flash": {
+                "ttcs": 13351,
+                "ttft": 6016
+              },
+              "claude-opus-4-6": {
+                "ttcs": 38107,
+                "ttft": 1472
+              },
+              "grok-4.1-thinking": {
+                "ttcs": 20532,
+                "ttft": 7479
+              },
+              "ernie-5.0-preview-1203": {
+                "ttcs": 81789,
+                "ttft": 37806
+              },
+              "claude-opus-4-5-20251101": {
+                "ttcs": 29538,
+                "ttft": 1512
+              },
+              "claude-opus-4-6-thinking": {
+                "ttcs": 44208,
+                "ttft": 10350
+              },
+              "claude-sonnet-4-5-20250929": {
+                "ttcs": 30913,
+                "ttft": 1593
+              },
+              "gemini-3-flash-thinking-minimal": {
+                "ttcs": 9331,
+                "ttft": 2105
+              },
+              "claude-opus-4-5-20251101-thinking-32k": {
+                "ttcs": 35808,
+                "ttft": 10855
+              },
+              "claude-sonnet-4-5-20250929-thinking-32k": {
+                "ttcs": 35940,
+                "ttft": 8561
+              }
+            },
+            "threshold": 0.9
+          },
+          "p2lModelData": [
+            {
+              "name": "claude-sonnet-4-5-20250929",
+              "penalty": -0.8577688022219676,
+              "winProb": 0.9123349892846087,
+              "normalizedTtcs": 0.2775602923483039,
+              "normalizedTtft": 0.029789064253122895,
+              "leaderboardCoefficient": 0.98046875
+            },
+            {
+              "name": "claude-opus-4-5-20251101-thinking-32k",
+              "penalty": -0.7851594388019034,
+              "winProb": 1,
+              "normalizedTtcs": 0.3215113042541347,
+              "normalizedTtft": 0.2029882564140923,
+              "leaderboardCoefficient": 1.15625
+            },
+            {
+              "name": "claude-sonnet-4-5-20250929-thinking-32k",
+              "penalty": -0.7768081950170198,
+              "winProb": 0.9531593021273521,
+              "normalizedTtcs": 0.3226965000808088,
+              "normalizedTtft": 0.16009050789139054,
+              "leaderboardCoefficient": 1.0625
+            },
+            {
+              "name": "claude-opus-4-6-thinking",
+              "penalty": -0.719807614008666,
+              "winProb": 0.9336911906663836,
+              "normalizedTtcs": 0.39693285686066765,
+              "normalizedTtft": 0.1935447677462787,
+              "leaderboardCoefficient": 1.0234375
+            }
+          ],
+          "routedModelId": "019a2d13-28a5-7205-908c-0a58de904617",
+          "routedModelName": "claude-sonnet-4-5-20250929",
+          "optimizerVariant": "default",
+          "routedModelOrganization": "anthropic"
+        }
+      },
+      {
+        "id": "019d1070-67ed-7b79-a287-85e3e0888ba4",
+        "evaluationSessionId": "019d1063-bc95-75e0-b381-b27361edd2c4",
+        "evaluationId": "019d1070-6d56-7b22-948f-ea647b1af976",
+        "role": "user",
+        "parentMessageIds": [
+          "019d1067-7500-7f0f-9a0c-fb2d1114021b"
+        ],
+        "content": "I swim between the herbivores and away, towards plant food",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-21T12:48:16.737966+00:00",
+        "updatedAt": "2026-03-21T12:48:16.737966+00:00",
+        "participantPosition": "a",
+        "pairwiseFeedbackId": "019d1083-b9ef-78b4-9375-06ea62c591af",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1070-67fb-755a-bb34-d1a740f35086",
+        "evaluationSessionId": "019d1063-bc95-75e0-b381-b27361edd2c4",
+        "evaluationId": "019d1070-6d56-7b22-948f-ea647b1af976",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d1070-67ed-7b79-a287-85e3e0888ba4"
+        ],
+        "content": "# 🔬 CELL STAGE: THE ESCAPE\n\nYou beat your tiny flagellum with a frantic, rhythmic pulse. By ducking behind a cluster of floating green cells, you break the predator's line of sight. It seems confused for a moment, snapping at a nearby microbe before drifting off into the deep.\n\nYou’ve successfully navigated the social chaos of the tide pool. Now, you reach a shimmering patch of **Rich Algae**.\n\n```\n      🌿 🌿 🌿\n    🌿 YOU 🌿\n      🌿 🌿 🌿\n```\n\n**[+] FEEDING SUCCESS!**\n*You filter the nutrient-rich algae through your mouth. Your membrane glows with vigor.*\n\n**CURRENT STATS:**\n- **DNA Points:** +3 (3/15)\n- **Status:** Healthy / Hungry\n- **Environment:** The tide pool is calm, but you notice something strange in the water—a **falling fragment** of a meteor, glowing with strange energy, landing nearby.\n\n---\n\n## 🌊 A NEW DISCOVERY\n\nAs you finish your meal, the water ripples. The meteor fragment is emitting a soft, golden bioluminescence. Other cells are gathering around it, seemingly transfixed. \n\n**What do you do?**\n\n```\n[1] 🧪 Approach the glowing meteor fragment (curiosity)\n[2] 🛡️ Ignore the distraction and keep grazing (cautious)\n[3] 🔍 Observe the other cells from a distance (tactical)\n[4] ⚡ Dash to steal a piece of the meteor and swim away (aggressive scavenger)\n```\n\n**Choose your next evolutionary step!**",
+        "experimental_attachments": [],
+        "modelId": "019cb616-bf47-7457-acaf-3e2a15a882ef",
+        "createdAt": "2026-03-21T12:48:16.743482+00:00",
+        "updatedAt": "2026-03-21T12:48:22.311488+00:00",
+        "participantPosition": "b",
+        "pairwiseFeedbackId": "019d1083-b9ef-78b4-9375-06ea62c591af",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "directBattleStrategy": "random-random"
+        }
+      },
+      {
+        "id": "019d1070-67fb-7cb7-b395-23ab866f1954",
+        "evaluationSessionId": "019d1063-bc95-75e0-b381-b27361edd2c4",
+        "evaluationId": "019d1070-6d56-7b22-948f-ea647b1af976",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d1070-67ed-7b79-a287-85e3e0888ba4"
+        ],
+        "content": "# ⚡ TACTICAL RETREAT: SUCCESS\n\n*ZIP!*\n\nYou kick your tiny flagella into overdrive. You shoot through the gap between two fat, slow-moving herbivores just as the **Red Spike-Ball** lunges!\n\n**CRUNCH.**\n\nThe predator chomps down on one of the other cells instead of you. It’s distracted by its fresh kill. You used your brethren as a meat shield. *Cold. Calculated. Efficient.*\n\nYou are now bobbing safely near the sunlit surface, right next to a massive, juicy clump of green algae.\n\n---\n\n## 🌿 FEEDING TIME\n\nYou latch onto the algae cluster.\n*Nom nom nom nom...*\n\nYour cell swells. Energy floods your nucleus.\n\n```\n╔════════════════════════════════════════╗\n║  🧬 DNA POINTS GAINED: +5             ║\n║  📊 TOTAL DNA: 5 / 15                 ║\n╚════════════════════════════════════════╝\n```\n\n---\n\n## 🌊 NEW SITUATION\n\nYou are now **slightly larger** than when you started. The dead cell's nutrients are drifting in the current.\n\nHowever, the Red Spike-Ball has finished its meal. It looks... bigger now. And it's looking around for seconds. **It sees you.**\n\n```\n    ☀️ [Surface]\n       🌿 [You are here - SIZE: SMALL]\n       \n       💀 [Dead cell floating]\n       \n       🔴 [RED PREDATOR - SIZE: MEDIUM] <-- Swimming up fast!\n```\n\nIt’s too big to eat you right now, but if it hits you, you lose health!\n\n**WHAT DO YOU DO?**\n\n```\n[1] 🌿 Ignore it and keep eating the algae (Get fat fast!)\n[2] 💨 Dive down to the depths (Safety, but no food)\n[3] 💥 Bump the dead cell into the predator (Knock it back!)\n[4] 🧬 CALL TO MATE? (Spend 5 DNA to lay an egg/reproduce now)\n```",
+        "reasoning": "Here's what I'm thinking. The user, that little green guy, wants to swim between the other herbivores and away from the predator, heading towards the algae. Smart move, using the other cells as a shield. That's a good tactical decision.\n\nSo, first, I need to figure out how that works mechanically. It's a speed/stealth check, maybe with a bonus for using the environment. Definitely not a direct attack, more of an evasion.\n\nAlright, the predator is closing in, but the user is making a break for it. *Zoom!* They dart between two of the other cells. The predator, that red spikeball, gets confused for a second, bumping into one of the other herbivores instead. Perfect! The user is now closer to the food.\n\nTime for the narrative. I'll start with the action: \"You kick your flagella hard!\" Describe the maneuver: \"You zip between two larger, slower herbivores.\" The predator's reaction: \"The red spike-ball slams into one of them instead! CHOMP.\" Ouch, but not the user! Now the user is near the food. \"You're safe... for now. And right in front of a giant green clump of algae.\"\n\nNow the game logic. They avoided danger, good. They reached food, also good. I'll give them some DNA. Not a full meal, but enough to feel like they accomplished something. +5 DNA sounds right.\n\nLet's update the status. DNA is now 5/15. They're still microscopic, but maybe a little quicker from the sprint? I'll add a note about that. \"Speed: Slightly faster (Adrenaline!)\"\n\nOkay, next choice. They're at the food. Do they eat? Do they see another threat? I'll give them the obvious choice first: Eat the algae. But I'll add a twist. The predator survived and is coming back, or maybe a new one appears. \"The predator is circling back...\" or \"A bigger shadow looms...\"\n\nRefining the output... I'll start with a success sound: *ZIP!* Describe the sacrifice: \"One of your peaceful brethren is eaten, but you are ignored.\" Describe the reward: \"You latch onto a giant algae cluster. NOM NOM NOM.\" Update the stats clearly. Then, present the new situation: \"You feel bigger. Stronger. But the water is getting crowded.\"\n\nAnd the new choices: [1] Keep eating (get full), [2] Dart to a safety gap (conservative), [3] Evolve a spike (costs DNA, not enough yet), [4] Poop out a toxin (classic Spore move!).\n\nFinally, polish. Use the emojis. Keep the tone game-y. Make sure the \"Herbivore... for now\" is hinted at. Maybe the toxin or a future carnivore switch? Perfect. Let's get this turn done!",
+        "experimental_attachments": [],
+        "modelId": "019b47ea-4256-7afd-85e6-8c0c8ea24a26",
+        "createdAt": "2026-03-21T12:48:16.743482+00:00",
+        "updatedAt": "2026-03-21T12:49:02.398338+00:00",
+        "participantPosition": "a",
+        "pairwiseFeedbackId": "019d1083-b9ef-78b4-9375-06ea62c591af",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "directBattleStrategy": "random-random"
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019d1063-dbab-73a6-835d-9569f3a77d82",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      },
+      {
+        "id": "019d1070-6d56-7b22-948f-ea647b1af976",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": {
+          "filtered": true,
+          "filteredReason": "battles-in-direct-3:random-random-10",
+          "directBattleStrategy": "random-random"
+        }
+      }
+    ],
+    "pairwiseFeedbacks": [
+      {
+        "id": "019d1083-b9ef-78b4-9375-06ea62c591af",
+        "messageAId": "019d1070-67fb-7cb7-b395-23ab866f1954",
+        "messageBId": "019d1070-67fb-755a-bb34-d1a740f35086",
+        "value": "model_b",
+        "modelAId": "019b47ea-4256-7afd-85e6-8c0c8ea24a26",
+        "modelBId": "019cb616-bf47-7457-acaf-3e2a15a882ef",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340"
+      }
+    ],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b24bb-5caf-71c3-b854-37d0c7086f21",
+        "organization": "boss-bandit",
+        "provider": "boss-bandit",
+        "publicName": "Max",
+        "name": "boss-bandit",
+        "displayName": "Max",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": {
+              "multipleImages": true
+            }
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true,
+            "image": {
+              "aspectRatios": [
+                "1:1"
+              ]
+            },
+            "search": true
+          }
+        },
+        "userSelectable": true
+      },
+      {
+        "id": "019b47ea-4256-7afd-85e6-8c0c8ea24a26",
+        "organization": "baidu",
+        "provider": "baiduyiyan",
+        "publicName": "ernie-5.0-0110",
+        "name": "proto-think",
+        "displayName": "ernie-5.0-0110",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": false
+      },
+      {
+        "id": "019cb616-bf47-7457-acaf-3e2a15a882ef",
+        "organization": "google",
+        "provider": "googleVertexGlobalWithThoughtSignatures",
+        "publicName": "gemini-3.1-flash-lite-preview",
+        "name": "gemini-3.1-flash-lite-preview",
+        "displayName": "gemini-3.1-flash-lite-preview",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

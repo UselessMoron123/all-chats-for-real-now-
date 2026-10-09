@@ -1,0 +1,102 @@
+{
+  "exportedAt": "2026-10-09T16:27:54.088Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019d3dc7-8ddd-75b3-b9af-ceb9b8766374",
+  "archivedAt": "2026-09-30 20:15:49.683+00",
+  "evaluation": {
+    "id": "019d3dc7-8ddd-75b3-b9af-ceb9b8766374",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "Hypothetical question. If Matilda Canossa, Enrico Dandolo, Bohemond (of Antioch ) Hauteville and Rog",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019d3dc7-a70b-7f22-9f80-1058a5571af4"
+    ],
+    "archivedAt": "2026-09-30 20:15:49.683+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-03-30 08:06:29.063+00",
+    "updatedAt": "2026-03-30 08:06:30.249996+00",
+    "messages": [
+      {
+        "id": "019d3dc7-a70a-70ec-88b7-f43323eb78c4",
+        "evaluationSessionId": "019d3dc7-8ddd-75b3-b9af-ceb9b8766374",
+        "evaluationId": "019d3dc7-b048-7dbc-a6e2-26fccbe208a3",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "Hypothetical question. If Matilda Canossa, Enrico Dandolo, Bohemond (of Antioch ) Hauteville and Roger (of Sicily) Hauteville, lived in same time, who would Matilda choose to marry?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-30T08:06:30.231506+00:00",
+        "updatedAt": "2026-03-30T08:06:30.231506+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "dlpOutput": {
+            "stats": {
+              "PERSON_NAME": 2,
+              "GEOGRAPHIC_DATA": 4
+            },
+            "severity": "REDACT"
+          }
+        }
+      },
+      {
+        "id": "019d3dc7-a70b-7f22-9f80-1058a5571af4",
+        "evaluationSessionId": "019d3dc7-8ddd-75b3-b9af-ceb9b8766374",
+        "evaluationId": "019d3dc7-b048-7dbc-a6e2-26fccbe208a3",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d3dc7-a70a-70ec-88b7-f43323eb78c4"
+        ],
+        "content": "Hypothetically, **Matilda of Canossa would most likely marry Roger Hauteville of Sicily** — with **Bohemond of Antioch** as the next most plausible choice, and **Enrico Dandolo** the least likely.\n\n## Why Roger is the best fit\nMatilda’s real marriages were deeply political. She was one of the most powerful rulers in Italy, so any husband would need to offer:\n\n- **military strength**\n- **political usefulness in Italy**\n- **high noble status**\n- ideally, **not overshadow her too much inside her own lands**\n\nRoger Hauteville checks a lot of boxes:\n\n- He was a **major Norman ruler**\n- He had **power close to Italy**\n- An alliance with Sicily would be enormously useful in Italian politics\n- The Normans were ambitious, militarily effective, and already deeply involved in southern Italian affairs\n\nA marriage between Matilda and Roger could create a very formidable north-central/southern Italian alliance.\n\n## Why not Bohemond first?\nBohemond was brilliant, charismatic, and famous, but:\n\n- he was more of an **adventurer-conqueror**\n- his power base was less stable than Roger’s\n- Antioch was prestigious, but also **far away**\n- he might be a more disruptive husband politically\n\nHe’d be attractive if Matilda wanted a highly martial crusading partner, but less ideal than Roger if the goal was consolidating power in Italy.\n\n## Why not Dandolo?\nEnrico Dandolo was certainly formidable, but as Doge of Venice:\n\n- his authority came from a **merchant republic**, not hereditary princely lordship\n- Venice’s interests were often commercial and maritime, not focused on strengthening Matilda’s territorial rule\n- a marriage to a doge would be a much less natural feudal-dynastic match\n\nAlso, Venetian political culture was not especially centered on marriage alliances in the same way as princely houses.\n\n## Final ranking\nMost likely to least likely:\n\n1. **Roger Hauteville of Sicily**\n2. **Bohemond Hauteville of Antioch**\n3. **Enrico Dandolo**\n\nIf you want, I can also answer this from a different angle:\n- **who Matilda would personally like best**\n- **who would be best for the Papacy**\n- **who would create the strongest alternate-history state**",
+        "experimental_attachments": [],
+        "modelId": "019cc5a9-cc73-721a-a124-efee4e783d1a",
+        "createdAt": "2026-03-30T08:06:30.245045+00:00",
+        "updatedAt": "2026-03-30T08:06:40.690523+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019d3dc7-b048-7dbc-a6e2-26fccbe208a3",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019cc5a9-cc73-721a-a124-efee4e783d1a",
+        "organization": "openai",
+        "provider": "openaiResponses",
+        "publicName": "gpt-5.4-no-system-prompt",
+        "name": "gpt-5.4-no-system-prompt",
+        "displayName": "gpt-5.4",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

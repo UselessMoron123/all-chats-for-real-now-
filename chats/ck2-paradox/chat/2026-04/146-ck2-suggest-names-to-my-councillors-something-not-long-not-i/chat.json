@@ -1,0 +1,146 @@
+{
+  "exportedAt": "2026-10-09T16:27:51.810Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019d4f03-0640-7b5c-9648-4968163d787e",
+  "archivedAt": "2026-09-30 20:18:08.538+00",
+  "evaluation": {
+    "id": "019d4f03-0640-7b5c-9648-4968163d787e",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "CK2. Suggest names to my councillors. Something not long, not importantly real ir serious. That I im",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019d4f17-7dea-79de-b3cd-b69f894cacb5"
+    ],
+    "archivedAt": "2026-09-30 20:18:08.538+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-04-02 16:25:56.073+00",
+    "updatedAt": "2026-04-02 16:47:21.61961+00",
+    "messages": [
+      {
+        "id": "019d4f03-e138-759b-91b3-10f68a5a0a68",
+        "evaluationSessionId": "019d4f03-0640-7b5c-9648-4968163d787e",
+        "evaluationId": "019d4f04-0482-775c-8f28-01b54fcf06ba",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "CK2. Suggest names to my councillors. Something not long, not importantly real ir serious. That I immediately understand persons specialisation. I have no imagination, so I valled them Diplo, Marty, Stew, Intri, Learn (he's chaplain and physician), plus commanders Left (speed of army), Center (damage against different faith), Right (siege speed). And wife - Wifey. (but don't make all of them end with \"y\" in a silly childish manner)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-04-02T16:25:56.617575+00:00",
+        "updatedAt": "2026-04-02T16:25:56.617575+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d4f03-e13c-7400-bf67-ae502f225628",
+        "evaluationSessionId": "019d4f03-0640-7b5c-9648-4968163d787e",
+        "evaluationId": "019d4f04-0482-775c-8f28-01b54fcf06ba",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d4f03-e138-759b-91b3-10f68a5a0a68"
+        ],
+        "content": "Here’s a set of short, instantly readable, slightly silly-but-not-babyish councilor names that scream exactly what they do in CK2. No long fantasy names, no historical pretension, just pure function with a smirk.\n\n**Council positions (the six classic ones)**  \n- Lord Chancellor (Diplomacy) → **Charm**  \n- Marshal (Martial) → **Stab**  \n- Steward (Stewardship) → **Coin**  \n- Spymaster (Intrigue) → **Sneak**  \n- Court Chaplain (Learning) → **Pray** (covers the religious stuff)  \n- Court Physician (also Learning) → **Patch** (so you can tell Pray and Patch apart at a glance)\n\n**Your three permanent commanders**  \n- Left flank (movement speed guy) → **Zoom**  \n- Center (pagan/heretic damage guy) → **Smite**  \n- Right flank (siege speed guy) → **Batter**\n\n**Wife**  \nKeep her as **Wifey** (it’s already perfect) or upgrade to **Queenbee** if you want something equally clear but a bit spicier.\n\nFull council screen now looks like:  \nCharm · Stab · Coin · Sneak · Pray · Patch  \nCommanders: Zoom · Smite · Batter  \nConsort: Wifey (or Queenbee)\n\nZero imagination required, zero confusion possible, maximum medieval meme energy achieved. Enjoy your perfectly labeled murder-spreadsheet.",
+        "experimental_attachments": [],
+        "modelId": "019a9389-a4d8-748d-9939-b4640198302e",
+        "createdAt": "2026-04-02T16:25:56.620453+00:00",
+        "updatedAt": "2026-04-02T16:26:01.479407+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 348,
+            "totalTokens": 652,
+            "usageSource": "provider",
+            "outputTokens": 304
+          }
+        }
+      },
+      {
+        "id": "019d4f17-7de6-7f04-8fd2-b3eb2910e8b9",
+        "evaluationSessionId": "019d4f03-0640-7b5c-9648-4968163d787e",
+        "evaluationId": "019d4f04-0482-775c-8f28-01b54fcf06ba",
+        "role": "user",
+        "parentMessageIds": [
+          "019d4f03-e13c-7400-bf67-ae502f225628"
+        ],
+        "content": "more serious? with surnames (dynasty name)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-04-02T16:47:21.592403+00:00",
+        "updatedAt": "2026-04-02T16:47:21.592403+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d4f17-7dea-79de-b3cd-b69f894cacb5",
+        "evaluationSessionId": "019d4f03-0640-7b5c-9648-4968163d787e",
+        "evaluationId": "019d4f04-0482-775c-8f28-01b54fcf06ba",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d4f17-7de6-7f04-8fd2-b3eb2910e8b9"
+        ],
+        "content": "Here’s a more serious (but still short and crystal-clear) version with proper surnames. I gave them all the same dynasty name “de Functio” (Latin for “of the function”) so they feel like a coherent team of ultra-specialized professionals your court hired explicitly for the job.\n\n| Role                  | Name                         | What you instantly read                                          |\n|-----------------------|------------------------------|------------------------------------------------------------------|\n| Chancellor (Diplomacy)| Lord Etienne de Functio      | “Etiquette” → diplomat                                          |\n| Marshal (Martial)     | Sir Balian de Functio        | “Valiant” with a B → martial beast                               |\n| Steward (Stewardship) | Master Renaud de Functio     | “Revenue” → money guy                                            |\n| Spymaster (Intrigue)  | Lady Morgaine de Functio     | “Morgana” → obvious intrigue vibes                               |\n| Court Chaplain        | Bishop Aldric de Functio     | “Aldric” sounds very churchy                                     |\n| Court Physician       | Master Gerard de Functio     | Classic physician name, keeps him distinct from the bishop      |\n| Commander – Left      | Captain Swift de Functio     | Literally the fast-march guy                                     |\n| Commander – Center    | Captain Crusader de Functio  | The holy-war damage monster                                      |\n| Commander – Right     | Captain Ram de Functio       | Siege engines go brrrrr                                          |\n| Wife                  | Lady [Your Dynasty] (Wifey)  | Keep the nickname privately, publicly she’s just your proper consort |\n\nIf you want them to feel even more like a single “department” you can shorten the dynasty to just **de Func** (still reads as noble):\n\n- Etienne de Func  \n- Balian de Func  \n- Renaud de Func  \netc.\n\nShort, dead serious on the council screen, and you’ll never forget who does what.",
+        "experimental_attachments": [],
+        "modelId": "019a9389-a4d8-748d-9939-b4640198302e",
+        "createdAt": "2026-04-02T16:47:21.600995+00:00",
+        "updatedAt": "2026-04-02T16:47:29.417851+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 672,
+            "totalTokens": 1062,
+            "usageSource": "provider",
+            "outputTokens": 390
+          }
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019d4f04-0482-775c-8f28-01b54fcf06ba",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a9389-a4d8-748d-9939-b4640198302e",
+        "organization": "xai",
+        "provider": "xaiApi",
+        "publicName": "grok-4.1",
+        "name": "grok-4.1",
+        "displayName": "grok-4.1",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

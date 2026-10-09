@@ -1,0 +1,793 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+Mode     : direct
+Started  : 2026-02-21 15:47:59
+Updated  : 2026-02-21 15:48:00
+Archived : 2026-09-30 23:27:23
+Messages : 2
+URL      : https://arena.ai/c/019c803d-ed07-750f-afd9-3a304e9a88df
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 15:48:00
+------------------------------------------------------------
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything else
+901200 = {
+	name = "Songtsen Gampo_0"
+	dynasty = 105800
+	religion = buddhist
+	culture = bodpa
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901201 = {
+	name = "Songtsen Gampo_1"
+	dynasty = 105800
+	religion = buddhist
+	culture = bodpa
+	father = 901200
+	trait = vajrayana_buddhist
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = songtsen_gampo
+		}
+		add_spouse = 922601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907200 = {
+	name = "Red Panda_0"
+	female = yes
+	dynasty = 907200
+	religion = taoist
+	culture = red_panda
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907201 = {
+	name = "Red Panda_1"
+	female = yes
+	dynasty = 907200
+	religion = taoist
+	culture = red_panda
+	mother = 907200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = random_world_bloodline_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907202 = {
+	name = "Red Panda_2"
+	dynasty = 907200
+	religion = catholic
+	culture = red_panda
+	father = 914401
+	mother = 907201
+	2.1.1 = {
+		birth = yes
+		add_spouse = 922602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914400 = {
+	name = "Defender_0"
+	dynasty = 914400
+	religion = bon
+	culture = zhangzhung
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914401 = {
+	name = "Defender_1"
+	dynasty = 914400
+	religion = bon
+	culture = zhangzhung
+	father = 914400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_bon_01
+		}
+		add_spouse = 907201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914500 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 914500
+	religion = bon
+	culture = zhangzhung
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914501 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 914500
+	religion = bon
+	culture = zhangzhung
+	mother = 914500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_bon_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914502 = {
+	name = "Culture_2"
+	dynasty = 914500
+	religion = bon
+	culture = zhangzhung
+	father = 914601
+	mother = 914501
+	2.1.1 = {
+		birth = yes
+		add_spouse = 914702
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914600 = {
+	name = "Inquisitor_0"
+	dynasty = 914600
+	religion = bon
+	culture = zhangzhung
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914601 = {
+	name = "Inquisitor_1"
+	dynasty = 914600
+	religion = bon
+	culture = zhangzhung
+	father = 914600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_bon_04
+		}
+		add_spouse = 914501
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914700 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 914700
+	religion = nestorian
+	culture = zhangzhung
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914701 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 914700
+	religion = nestorian
+	culture = zhangzhung
+	mother = 914700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_bon_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914702 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 914700
+	religion = nestorian
+	culture = zhangzhung
+	father = 914801
+	mother = 914701
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914703 = {
+	name = "Jewish_3"
+	dynasty = 914700
+	religion = nestorian
+	culture = zhangzhung
+	father = 914502
+	mother = 914702
+	3.1.1 = {
+		birth = yes
+		add_spouse = 922603
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914800 = {
+	name = "Theologic_0"
+	dynasty = 914800
+	religion = bon
+	culture = zhangzhung
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914801 = {
+	name = "Theologic_1"
+	dynasty = 914800
+	religion = bon
+	culture = zhangzhung
+	father = 914800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_bon_06
+		}
+		add_spouse = 914701
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922600 = {
+	name = "Immortal_0"
+	female = yes
+	dynasty = 922600
+	religion = taoist
+	culture = han
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922601 = {
+	name = "Immortal_1"
+	female = yes
+	dynasty = 922600
+	religion = taoist
+	culture = han
+	mother = 922600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = immortal_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922602 = {
+	name = "Immortal_2"
+	female = yes
+	dynasty = 922600
+	religion = taoist
+	culture = han
+	father = 901201
+	mother = 922601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922603 = {
+	name = "Immortal_3"
+	female = yes
+	dynasty = 922600
+	religion = taoist
+	culture = han
+	father = 907202
+	mother = 922602
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922604 = {
+	name = "Immortal_4"
+	female = yes
+	dynasty = 922600
+	religion = taoist
+	culture = han
+	father = 914703
+	mother = 922603
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922605 = {
+	name = "Immortal_5"
+	dynasty = 922600
+	religion = taoist
+	culture = han
+	father = 923304
+	mother = 922604
+	5.1.1 = {
+		birth = yes
+		add_spouse = 922705
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 15:48:00
+------------------------------------------------------------
+### List 1: IDs ending with 00
+```javascript
+901200 = {
+	name = "Songtsen Gampo_0"
+	dynasty = 105800
+	religion = buddhist
+	culture = bodpa
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907200 = {
+	name = "Red Panda_0"
+	female = yes
+	dynasty = 907200
+	religion = taoist
+	culture = red_panda
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914400 = {
+	name = "Defender_0"
+	dynasty = 914400
+	religion = bon
+	culture = zhangzhung
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914500 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 914500
+	religion = bon
+	culture = zhangzhung
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914600 = {
+	name = "Inquisitor_0"
+	dynasty = 914600
+	religion = bon
+	culture = zhangzhung
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914700 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 914700
+	religion = nestorian
+	culture = zhangzhung
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914800 = {
+	name = "Theologic_0"
+	dynasty = 914800
+	religion = bon
+	culture = zhangzhung
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922600 = {
+	name = "Immortal_0"
+	female = yes
+	dynasty = 922600
+	religion = taoist
+	culture = han
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 2: IDs ending with 01
+```javascript
+901201 = {
+	name = "Songtsen Gampo_1"
+	dynasty = 105800
+	religion = buddhist
+	culture = bodpa
+	father = 901200
+	trait = vajrayana_buddhist
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = songtsen_gampo
+		}
+		add_spouse = 922601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907201 = {
+	name = "Red Panda_1"
+	female = yes
+	dynasty = 907200
+	religion = taoist
+	culture = red_panda
+	mother = 907200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = random_world_bloodline_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914401 = {
+	name = "Defender_1"
+	dynasty = 914400
+	religion = bon
+	culture = zhangzhung
+	father = 914400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_bon_01
+		}
+		add_spouse = 907201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914501 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 914500
+	religion = bon
+	culture = zhangzhung
+	mother = 914500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_bon_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914601 = {
+	name = "Inquisitor_1"
+	dynasty = 914600
+	religion = bon
+	culture = zhangzhung
+	father = 914600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_bon_04
+		}
+		add_spouse = 914501
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914701 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 914700
+	religion = nestorian
+	culture = zhangzhung
+	mother = 914700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_bon_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914801 = {
+	name = "Theologic_1"
+	dynasty = 914800
+	religion = bon
+	culture = zhangzhung
+	father = 914800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_bon_06
+		}
+		add_spouse = 914701
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922601 = {
+	name = "Immortal_1"
+	female = yes
+	dynasty = 922600
+	religion = taoist
+	culture = han
+	mother = 922600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = immortal_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 3: Everything else
+```javascript
+907202 = {
+	name = "Red Panda_2"
+	dynasty = 907200
+	religion = catholic
+	culture = red_panda
+	father = 914401
+	mother = 907201
+	2.1.1 = {
+		birth = yes
+		add_spouse = 922602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914502 = {
+	name = "Culture_2"
+	dynasty = 914500
+	religion = bon
+	culture = zhangzhung
+	father = 914601
+	mother = 914501
+	2.1.1 = {
+		birth = yes
+		add_spouse = 914702
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914702 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 914700
+	religion = nestorian
+	culture = zhangzhung
+	father = 914801
+	mother = 914701
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914703 = {
+	name = "Jewish_3"
+	dynasty = 914700
+	religion = nestorian
+	culture = zhangzhung
+	father = 914502
+	mother = 914702
+	3.1.1 = {
+		birth = yes
+		add_spouse = 922603
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922602 = {
+	name = "Immortal_2"
+	female = yes
+	dynasty = 922600
+	religion = taoist
+	culture = han
+	father = 901201
+	mother = 922601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922603 = {
+	name = "Immortal_3"
+	female = yes
+	dynasty = 922600
+	religion = taoist
+	culture = han
+	father = 907202
+	mother = 922602
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922604 = {
+	name = "Immortal_4"
+	female = yes
+	dynasty = 922600
+	religion = taoist
+	culture = han
+	father = 914703
+	mother = 922603
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922605 = {
+	name = "Immortal_5"
+	dynasty = 922600
+	religion = taoist
+	culture = han
+	father = 923304
+	mother = 922604
+	5.1.1 = {
+		birth = yes
+		add_spouse = 922705
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

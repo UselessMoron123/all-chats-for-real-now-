@@ -1,0 +1,131 @@
+{
+  "exportedAt": "2026-10-09T16:28:39.453Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019a17c3-b06b-7462-8a36-3f3896ed5011",
+  "archivedAt": "2026-09-30 19:18:54.227+00",
+  "evaluation": {
+    "id": "019a17c3-b06b-7462-8a36-3f3896ed5011",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "RolePlay \"That Time I Got Reincarnated as Unemployed Villager in Cubical Fantasy World\"",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019a17c8-1fac-7cc9-971d-3be4e56e58e6"
+    ],
+    "archivedAt": "2026-09-30 19:18:54.227+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": null,
+    "createdAt": "2025-10-24 19:49:14.988+00",
+    "updatedAt": "2025-10-24 19:53:04.376969+00",
+    "messages": [
+      {
+        "id": "019a17c4-a1d5-7036-a412-f2699cf1b04a",
+        "evaluationSessionId": "019a17c3-b06b-7462-8a36-3f3896ed5011",
+        "evaluationId": "019a17c4-a66c-78cc-9552-ca8460dd04eb",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "RolePlay \"That Time I Got Reincarnated as Unemployed Villager in Cubical Fantasy World\"",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-24T19:49:15.350223+00:00",
+        "updatedAt": "2025-10-24T19:49:15.350223+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019a17c4-a1d6-7a42-a961-d59a39d4cde4",
+        "evaluationSessionId": "019a17c3-b06b-7462-8a36-3f3896ed5011",
+        "evaluationId": "019a17c4-a66c-78cc-9552-ca8460dd04eb",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019a17c4-a1d5-7036-a412-f2699cf1b04a"
+        ],
+        "content": "Excellent choice of premise — that title alone is hilariously self‑aware! Before diving in: would you prefer the tone to lean **comedic slice‑of‑life** (absurd mundane struggles with RPG elements) or **epic parody adventure** (a mock‑heroic quest led by someone unqualified for heroism)?  \n\nThis will help set how we shape the world and your character’s initial predicament — whether we’re focusing on the daily tragedy of trying to cook instant noodles with 3 HP left, or on the existential weight of being the “Chosen Layabout.”",
+        "experimental_attachments": [],
+        "modelId": "4b11c78c-08c8-461c-938e-5fc97d56a40d",
+        "createdAt": "2025-10-24T19:49:15.353404+00:00",
+        "updatedAt": "2025-10-24T19:49:17.862352+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019a17c8-1fab-7338-9563-4140f634bf66",
+        "evaluationSessionId": "019a17c3-b06b-7462-8a36-3f3896ed5011",
+        "evaluationId": "019a17c4-a66c-78cc-9552-ca8460dd04eb",
+        "role": "user",
+        "parentMessageIds": [
+          "019a17c4-a1d6-7a42-a961-d59a39d4cde4"
+        ],
+        "content": "1st",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-24T19:53:04.366527+00:00",
+        "updatedAt": "2025-10-24T19:53:04.366527+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019a17c8-1fac-7cc9-971d-3be4e56e58e6",
+        "evaluationSessionId": "019a17c3-b06b-7462-8a36-3f3896ed5011",
+        "evaluationId": "019a17c4-a66c-78cc-9552-ca8460dd04eb",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019a17c8-1fab-7338-9563-4140f634bf66"
+        ],
+        "content": "Perfect — comedic slice‑of‑life! You’ve selected what I lovingly call the “Epic of Indolence” tone: tiny stakes, unnecessarily dramatic narration, and a world where washing socks carries the same gravitas as slaying a dragon.  \n\n---\n\n### 🌍 Setting: The Cubical Fantasy World\nThe land is literally cubical. Every hill is stair‑stepped, every cloud a hovering cube of mist, and every villager’s house looks like someone built it in a voxel editor after too much coffee. Magic is common, but efficiency is not: half the wizards here spend their time enchanting teapots to gossip.\n\n---\n\n### 🧍‍♂️You, the Unemployed Villager\n**Name:** Optional, but villagers currently refer to you as **“That One Guy Who’s Always on Break.”**  \n**Class:** None officially recognized. Local registry lists your occupation as *“potentially useful if motivated.”*  \n**Stats (approximate):**  \n- HP: 8 (drops to 6 after existential crises)  \n- MP: 11 (used exclusively for heating leftovers)  \n- Charisma: 9 (you can charm pigeons into giving moral support)  \n- Luck: fluctuates wildly depending on snacks available\n\n---\n\n### ☀️ Scene 1: Another Gloriously Ordinary Morning\nThe square sun has risen precisely at a 90‑degree angle. Roosters crow in perfect cube notes. You awaken in your modest 3x3x3 hut to the smell of… slightly burnt bread. The Bread Golem next door has been stress‑baking again.\n\nYour quest log (written on suspiciously sticky parchment) reads:\n1. Find a job.  \n2. Maybe.  \n3. If there’s coffee first.\n\nA villager knocks on your door — it’s Mira, the overly dedicated Guild Intern. She’s balancing nine clipboards and a sense of overachievement.  \n\n**Mira:** *“Good morning, uh… you! The Guild said they can no longer process your Unemployment XP unless you take *some* quest before noon. Apparently, loitering doesn’t count as exploration.”*\n\n---\n\nHow would your profoundly unambitious alter ego respond to this sudden burst of responsibility?  \n\n1. **Feign heroism** — “Of course! I was *just* about to embark on a brave job hunt… after breakfast.”  \n2. **Negotiate bureaucracy** — Attempt to convince Mira that being unemployed is critical world‑building research.  \n3. **Panic‑nap** — Collapse into your cube‑bed and try to sleep the problem away.  \n4. **Something completely unexpected** — unleash your true “talent,” whatever that might be.",
+        "experimental_attachments": [],
+        "modelId": "4b11c78c-08c8-461c-938e-5fc97d56a40d",
+        "createdAt": "2025-10-24T19:53:04.37128+00:00",
+        "updatedAt": "2025-10-24T19:53:14.405382+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019a17c4-a66c-78cc-9552-ca8460dd04eb",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "4b11c78c-08c8-461c-938e-5fc97d56a40d",
+        "organization": "openai",
+        "provider": "openai",
+        "publicName": "gpt-5-chat",
+        "name": "gpt-5-chat",
+        "displayName": "gpt-5-chat",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

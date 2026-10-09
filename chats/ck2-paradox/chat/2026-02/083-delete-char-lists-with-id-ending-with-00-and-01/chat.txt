@@ -1,0 +1,831 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : delete char lists with id ending with 00 and 01
+
+911302 = {
+	name = "Defender_2"
+	dynasty = 911300
+	
+Mode     : direct-battle
+Started  : 2026-02-20 21:39:19
+Updated  : 2026-02-20 21:39:20
+Archived : 2026-09-30 23:28:06
+Messages : 2
+URL      : https://arena.ai/c/019c7c58-bdc5-70f1-b13c-2e9acd294e68
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-20 21:39:20
+------------------------------------------------------------
+delete char lists with id ending with 00 and 01
+
+911302 = {
+	name = "Defender_2"
+	dynasty = 911300
+	religion = tengri_pagan
+	culture = khazar
+	father = 901001
+	mother = 911301
+	2.1.1 = {
+		birth = yes
+		add_spouse = 922702
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911400 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 911400
+	religion = tengri_pagan
+	culture = khazar
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911401 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 911400
+	religion = tengri_pagan
+	culture = khazar
+	mother = 911400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_tengri_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911402 = {
+	name = "Culture_2"
+	female = yes
+	dynasty = 911400
+	religion = tengri_pagan
+	culture = khazar
+	father = 906001
+	mother = 911401
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911403 = {
+	name = "Culture_3"
+	dynasty = 911400
+	religion = tengri_pagan
+	culture = khazar
+	father = 911502
+	mother = 911402
+	3.1.1 = {
+		birth = yes
+		add_spouse = 911603
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911500 = {
+	name = "Inquisitor_0"
+	female = yes
+	dynasty = 911500
+	religion = tengri_pagan
+	culture = khazar
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911501 = {
+	name = "Inquisitor_1"
+	female = yes
+	dynasty = 911500
+	religion = tengri_pagan
+	culture = khazar
+	mother = 911500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_tengri_04
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911502 = {
+	name = "Inquisitor_2"
+	dynasty = 911500
+	religion = tengri_pagan
+	culture = khazar
+	father = 906401
+	mother = 911501
+	2.1.1 = {
+		birth = yes
+		add_spouse = 911402
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911600 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 911600
+	religion = nestorian
+	culture = khazar
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911601 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 911600
+	religion = nestorian
+	culture = khazar
+	mother = 911600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_tengri_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911602 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 911600
+	religion = nestorian
+	culture = khazar
+	father = 903201
+	mother = 911601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911603 = {
+	name = "Jewish_3"
+	female = yes
+	dynasty = 911600
+	religion = nestorian
+	culture = khazar
+	father = 911702
+	mother = 911602
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911604 = {
+	name = "Jewish_4"
+	dynasty = 911600
+	religion = nestorian
+	culture = khazar
+	father = 911403
+	mother = 911603
+	4.1.1 = {
+		birth = yes
+		add_spouse = 922704
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911700 = {
+	name = "Theologic_0"
+	female = yes
+	dynasty = 911700
+	religion = tengri_pagan
+	culture = khazar
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911701 = {
+	name = "Theologic_1"
+	female = yes
+	dynasty = 911700
+	religion = tengri_pagan
+	culture = khazar
+	mother = 911700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_tengri_06
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911702 = {
+	name = "Theologic_2"
+	dynasty = 911700
+	religion = tengri_pagan
+	culture = khazar
+	father = 903101
+	mother = 911701
+	2.1.1 = {
+		birth = yes
+		add_spouse = 911602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915100 = {
+	name = "SkyBurial_0"
+	female = yes
+	dynasty = 915100
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915101 = {
+	name = "SkyBurial_1"
+	female = yes
+	dynasty = 915100
+	religion = catholic
+	culture = french
+	mother = 915100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = ancestor_worship_bloodline_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915102 = {
+	name = "SkyBurial_2"
+	dynasty = 915100
+	religion = catholic
+	culture = french
+	father = 923001
+	mother = 915101
+	2.1.1 = {
+		birth = yes
+		add_spouse = 915202
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915200 = {
+	name = "Mercenary_0"
+	female = yes
+	dynasty = 915200
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915201 = {
+	name = "Mercenary_1"
+	female = yes
+	dynasty = 915200
+	religion = catholic
+	culture = french
+	mother = 915200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = ancestor_worship_bloodline_04
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915202 = {
+	name = "Mercenary_2"
+	female = yes
+	dynasty = 915200
+	religion = catholic
+	culture = french
+	father = 901101
+	mother = 915201
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915203 = {
+	name = "Mercenary_3"
+	dynasty = 915200
+	religion = catholic
+	culture = french
+	father = 915102
+	mother = 915202
+	3.1.1 = {
+		birth = yes
+		add_spouse = 922703
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922700 = {
+	name = "Han_0"
+	female = yes
+	dynasty = 922700
+	religion = buddhist
+	culture = han
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922701 = {
+	name = "Han_1"
+	female = yes
+	dynasty = 922700
+	religion = buddhist
+	culture = han
+	mother = 922700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = chinese_imperial_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922702 = {
+	name = "Han_2"
+	female = yes
+	dynasty = 922700
+	religion = buddhist
+	culture = han
+	father = 905301
+	mother = 922701
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922703 = {
+	name = "Han_3"
+	female = yes
+	dynasty = 922700
+	religion = buddhist
+	culture = han
+	father = 911302
+	mother = 922702
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922704 = {
+	name = "Han_4"
+	female = yes
+	dynasty = 922700
+	religion = buddhist
+	culture = han
+	father = 915203
+	mother = 922703
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922705 = {
+	name = "Han_5"
+	female = yes
+	dynasty = 922700
+	religion = buddhist
+	culture = han
+	father = 911604
+	mother = 922704
+	5.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922706 = {
+	name = "Han_6"
+	female = yes
+	dynasty = 922700
+	religion = buddhist
+	culture = han
+	father = 922605
+	mother = 922705
+	6.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922707 = {
+	name = "Han_7"
+	dynasty = 922700
+	religion = buddhist
+	culture = han
+	father = 922406
+	mother = 922706
+	7.1.1 = {
+		birth = yes
+		add_spouse = 914907
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923000 = {
+	name = "MEagle_0"
+	dynasty = 923000
+	religion = tengri_pagan
+	culture = khazar
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923001 = {
+	name = "MEagle_1"
+	dynasty = 923000
+	religion = tengri_pagan
+	culture = khazar
+	father = 923000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_eagle_hunter_bloodline
+		}
+		add_spouse = 915101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-20 21:39:20
+------------------------------------------------------------
+Here is the list with all character blocks ending in **00** and **01** removed:
+
+```bracket
+911302 = {
+	name = "Defender_2"
+	dynasty = 911300
+	religion = tengri_pagan
+	culture = khazar
+	father = 901001
+	mother = 911301
+	2.1.1 = {
+		birth = yes
+		add_spouse = 922702
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911402 = {
+	name = "Culture_2"
+	female = yes
+	dynasty = 911400
+	religion = tengri_pagan
+	culture = khazar
+	father = 906001
+	mother = 911401
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911403 = {
+	name = "Culture_3"
+	dynasty = 911400
+	religion = tengri_pagan
+	culture = khazar
+	father = 911502
+	mother = 911402
+	3.1.1 = {
+		birth = yes
+		add_spouse = 911603
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911502 = {
+	name = "Inquisitor_2"
+	dynasty = 911500
+	religion = tengri_pagan
+	culture = khazar
+	father = 906401
+	mother = 911501
+	2.1.1 = {
+		birth = yes
+		add_spouse = 911402
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911602 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 911600
+	religion = nestorian
+	culture = khazar
+	father = 903201
+	mother = 911601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911603 = {
+	name = "Jewish_3"
+	female = yes
+	dynasty = 911600
+	religion = nestorian
+	culture = khazar
+	father = 911702
+	mother = 911602
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911604 = {
+	name = "Jewish_4"
+	dynasty = 911600
+	religion = nestorian
+	culture = khazar
+	father = 911403
+	mother = 911603
+	4.1.1 = {
+		birth = yes
+		add_spouse = 922704
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911702 = {
+	name = "Theologic_2"
+	dynasty = 911700
+	religion = tengri_pagan
+	culture = khazar
+	father = 903101
+	mother = 911701
+	2.1.1 = {
+		birth = yes
+		add_spouse = 911602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915102 = {
+	name = "SkyBurial_2"
+	dynasty = 915100
+	religion = catholic
+	culture = french
+	father = 923001
+	mother = 915101
+	2.1.1 = {
+		birth = yes
+		add_spouse = 915202
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915202 = {
+	name = "Mercenary_2"
+	female = yes
+	dynasty = 915200
+	religion = catholic
+	culture = french
+	father = 901101
+	mother = 915201
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915203 = {
+	name = "Mercenary_3"
+	dynasty = 915200
+	religion = catholic
+	culture = french
+	father = 915102
+	mother = 915202
+	3.1.1 = {
+		birth = yes
+		add_spouse = 922703
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922702 = {
+	name = "Han_2"
+	female = yes
+	dynasty = 922700
+	religion = buddhist
+	culture = han
+	father = 905301
+	mother = 922701
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922703 = {
+	name = "Han_3"
+	female = yes
+	dynasty = 922700
+	religion = buddhist
+	culture = han
+	father = 911302
+	mother = 922702
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922704 = {
+	name = "Han_4"
+	female = yes
+	dynasty = 922700
+	religion = buddhist
+	culture = han
+	father = 915203
+	mother = 922703
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922705 = {
+	name = "Han_5"
+	female = yes
+	dynasty = 922700
+	religion = buddhist
+	culture = han
+	father = 911604
+	mother = 922704
+	5.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922706 = {
+	name = "Han_6"
+	female = yes
+	dynasty = 922700
+	religion = buddhist
+	culture = han
+	father = 922605
+	mother = 922705
+	6.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922707 = {
+	name = "Han_7"
+	dynasty = 922700
+	religion = buddhist
+	culture = han
+	father = 922406
+	mother = 922706
+	7.1.1 = {
+		birth = yes
+		add_spouse = 914907
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

@@ -1,0 +1,1553 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+Mode     : direct
+Started  : 2026-02-21 15:17:45
+Updated  : 2026-02-21 15:17:47
+Archived : 2026-09-30 23:29:26
+Messages : 2
+URL      : https://arena.ai/c/019c8022-32c6-7934-bc02-862fd3d5d0a9
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 15:17:47
+------------------------------------------------------------
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything else
+901300 = {
+	name = "Degna Mikael_0"
+	dynasty = 7246
+	religion = miaphysite
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901301 = {
+	name = "Degna Mikael_1"
+	dynasty = 7246
+	religion = miaphysite
+	culture = ethiopian
+	father = 901300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = solomon
+		}
+		add_spouse = 920401
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916000 = {
+	name = "MIsrael_0"
+	dynasty = 916000
+	religion = jewish
+	culture = sephardi
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916001 = {
+	name = "MIsrael_1"
+	dynasty = 916000
+	religion = jewish
+	culture = sephardi
+	father = 916000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = israel_bloodline
+		}
+		add_spouse = 916101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916100 = {
+	name = "FIsrael_0"
+	female = yes
+	dynasty = 916100
+	religion = jewish
+	culture = ashkenazi
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916101 = {
+	name = "FIsrael_1"
+	female = yes
+	dynasty = 916100
+	religion = jewish
+	culture = ashkenazi
+	mother = 916100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = israel_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916102 = {
+	name = "FIsrael_2"
+	female = yes
+	dynasty = 916100
+	religion = jewish
+	culture = ashkenazi
+	father = 916001
+	mother = 916101
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916103 = {
+	name = "FIsrael_3"
+	dynasty = 916100
+	religion = jewish
+	culture = ashkenazi
+	father = 921602
+	mother = 916102
+	3.1.1 = {
+		birth = yes
+		add_spouse = 921103
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916800 = {
+	name = "FDestiny_0"
+	female = yes
+	dynasty = 916800
+	religion = slavic_pagan
+	culture = croatian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916801 = {
+	name = "FDestiny_1"
+	female = yes
+	dynasty = 916800
+	religion = slavic_pagan
+	culture = croatian
+	mother = 916800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = child_of_destiny_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916802 = {
+	name = "FDestiny_2"
+	dynasty = 916800
+	religion = slavic_pagan
+	culture = croatian
+	father = 923601
+	mother = 916801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 921102
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918600 = {
+	name = "Murder Child_0"
+	female = yes
+	dynasty = 918600
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918601 = {
+	name = "Murder Child_1"
+	female = yes
+	dynasty = 918600
+	religion = norse_pagan
+	culture = egyptian
+	mother = 918600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = pure_murder_bloodline_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918602 = {
+	name = "Murder Child_2"
+	female = yes
+	dynasty = 918600
+	religion = norse_pagan
+	culture = egyptian
+	father = 918701
+	mother = 918601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918603 = {
+	name = "Murder Child_3"
+	female = yes
+	dynasty = 918600
+	religion = norse_pagan
+	culture = egyptian
+	father = 918802
+	mother = 918602
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918604 = {
+	name = "Murder Child_4"
+	dynasty = 918600
+	religion = norse_pagan
+	culture = egyptian
+	father = 920203
+	mother = 918603
+	4.1.1 = {
+		birth = yes
+		add_spouse = 921104
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918700 = {
+	name = "Macabre_0"
+	dynasty = 918700
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918701 = {
+	name = "Macabre_1"
+	dynasty = 918700
+	religion = norse_pagan
+	culture = egyptian
+	father = 918700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = pure_murder_bloodline_02
+		}
+		add_spouse = 918601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918800 = {
+	name = "Silent Killer_0"
+	female = yes
+	dynasty = 918800
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918801 = {
+	name = "Silent Killer_1"
+	female = yes
+	dynasty = 918800
+	religion = norse_pagan
+	culture = egyptian
+	mother = 918800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = pure_murder_bloodline_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918802 = {
+	name = "Silent Killer_2"
+	dynasty = 918800
+	religion = norse_pagan
+	culture = egyptian
+	father = 918901
+	mother = 918801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 918602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918900 = {
+	name = "Butcher_0"
+	dynasty = 918900
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918901 = {
+	name = "Butcher_1"
+	dynasty = 918900
+	religion = norse_pagan
+	culture = egyptian
+	father = 918900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = pure_murder_bloodline_04
+		}
+		add_spouse = 918801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919000 = {
+	name = "Dragon_0"
+	dynasty = 919000
+	religion = norse_pagan
+	culture = dragon_culture
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919001 = {
+	name = "Dragon_1"
+	dynasty = 919000
+	religion = norse_pagan
+	culture = dragon_culture
+	father = 919000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = pure_murder_bloodline_05
+		}
+		add_spouse = 921101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920100 = {
+	name = "MurderWar_0"
+	dynasty = 920100
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920101 = {
+	name = "MurderWar_1"
+	dynasty = 920100
+	religion = norse_pagan
+	culture = egyptian
+	father = 920100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = hybrid_murder_war_bloodline
+		}
+		add_spouse = 920201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920200 = {
+	name = "MurderPeace_0"
+	female = yes
+	dynasty = 920200
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920201 = {
+	name = "MurderPeace_1"
+	female = yes
+	dynasty = 920200
+	religion = norse_pagan
+	culture = egyptian
+	mother = 920200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = hybrid_murder_peace_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920202 = {
+	name = "MurderPeace_2"
+	female = yes
+	dynasty = 920200
+	religion = norse_pagan
+	culture = egyptian
+	father = 920101
+	mother = 920201
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920203 = {
+	name = "MurderPeace_3"
+	dynasty = 920200
+	religion = norse_pagan
+	culture = egyptian
+	father = 920402
+	mother = 920202
+	3.1.1 = {
+		birth = yes
+		add_spouse = 918603
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920400 = {
+	name = "MurderBuilder_0"
+	female = yes
+	dynasty = 920400
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920401 = {
+	name = "MurderBuilder_1"
+	female = yes
+	dynasty = 920400
+	religion = west_african_pagan
+	culture = ethiopian
+	mother = 920400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = hybrid_murder_builder_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920402 = {
+	name = "MurderBuilder_2"
+	dynasty = 920400
+	religion = west_african_pagan
+	culture = ethiopian
+	father = 901301
+	mother = 920401
+	2.1.1 = {
+		birth = yes
+		add_spouse = 920202
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921100 = {
+	name = "Ruthless_0"
+	female = yes
+	dynasty = 921100
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921101 = {
+	name = "Ruthless_1"
+	female = yes
+	dynasty = 921100
+	religion = norse_pagan
+	culture = egyptian
+	mother = 921100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_ruthless_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921102 = {
+	name = "Ruthless_2"
+	female = yes
+	dynasty = 921100
+	religion = norse_pagan
+	culture = egyptian
+	father = 919001
+	mother = 921101
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921103 = {
+	name = "Ruthless_3"
+	female = yes
+	dynasty = 921100
+	religion = norse_pagan
+	culture = egyptian
+	father = 916802
+	mother = 921102
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921104 = {
+	name = "Ruthless_4"
+	female = yes
+	dynasty = 921100
+	religion = norse_pagan
+	culture = egyptian
+	father = 916103
+	mother = 921103
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921105 = {
+	name = "Ruthless_5"
+	female = yes
+	dynasty = 921100
+	religion = norse_pagan
+	culture = egyptian
+	father = 918604
+	mother = 921104
+	5.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921106 = {
+	name = "Ruthless_6"
+	dynasty = 921100
+	religion = norse_pagan
+	culture = egyptian
+	father = 917205
+	mother = 921105
+	6.1.1 = {
+		birth = yes
+		add_spouse = 914906
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921600 = {
+	name = "PisJewish_0"
+	female = yes
+	dynasty = 921600
+	religion = jewish
+	culture = sephardi
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921601 = {
+	name = "PisJewish_1"
+	female = yes
+	dynasty = 921600
+	religion = jewish
+	culture = sephardi
+	mother = 921600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_religion_peaceful_bloodline_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921602 = {
+	name = "PisJewish_2"
+	dynasty = 921600
+	religion = jewish
+	culture = sephardi
+	father = 921701
+	mother = 921601
+	2.1.1 = {
+		birth = yes
+		add_spouse = 916102
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921700 = {
+	name = "AgroJewish_0"
+	dynasty = 921700
+	religion = jewish
+	culture = sephardi
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921701 = {
+	name = "AgroJewish_1"
+	dynasty = 921700
+	religion = jewish
+	culture = sephardi
+	father = 921700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_religion_aggressive_bloodline_03
+		}
+		add_spouse = 921601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923600 = {
+	name = "MLeader_0"
+	dynasty = 923600
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923601 = {
+	name = "MLeader_1"
+	dynasty = 923600
+	religion = catholic
+	culture = french
+	father = 923600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_leader_bloodline
+		}
+		add_spouse = 916801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 15:17:47
+------------------------------------------------------------
+Here are the characters organized into the three lists based on their ID endings.
+
+### List 1: IDs ending in 00
+```ruby
+901300 = {
+	name = "Degna Mikael_0"
+	dynasty = 7246
+	religion = miaphysite
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916000 = {
+	name = "MIsrael_0"
+	dynasty = 916000
+	religion = jewish
+	culture = sephardi
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916100 = {
+	name = "FIsrael_0"
+	female = yes
+	dynasty = 916100
+	religion = jewish
+	culture = ashkenazi
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916800 = {
+	name = "FDestiny_0"
+	female = yes
+	dynasty = 916800
+	religion = slavic_pagan
+	culture = croatian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918600 = {
+	name = "Murder Child_0"
+	female = yes
+	dynasty = 918600
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918700 = {
+	name = "Macabre_0"
+	dynasty = 918700
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918800 = {
+	name = "Silent Killer_0"
+	female = yes
+	dynasty = 918800
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918900 = {
+	name = "Butcher_0"
+	dynasty = 918900
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919000 = {
+	name = "Dragon_0"
+	dynasty = 919000
+	religion = norse_pagan
+	culture = dragon_culture
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920100 = {
+	name = "MurderWar_0"
+	dynasty = 920100
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920200 = {
+	name = "MurderPeace_0"
+	female = yes
+	dynasty = 920200
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920400 = {
+	name = "MurderBuilder_0"
+	female = yes
+	dynasty = 920400
+	religion = west_african_pagan
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921100 = {
+	name = "Ruthless_0"
+	female = yes
+	dynasty = 921100
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921600 = {
+	name = "PisJewish_0"
+	female = yes
+	dynasty = 921600
+	religion = jewish
+	culture = sephardi
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921700 = {
+	name = "AgroJewish_0"
+	dynasty = 921700
+	religion = jewish
+	culture = sephardi
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923600 = {
+	name = "MLeader_0"
+	dynasty = 923600
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 2: IDs ending in 01
+```ruby
+901301 = {
+	name = "Degna Mikael_1"
+	dynasty = 7246
+	religion = miaphysite
+	culture = ethiopian
+	father = 901300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = solomon
+		}
+		add_spouse = 920401
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916001 = {
+	name = "MIsrael_1"
+	dynasty = 916000
+	religion = jewish
+	culture = sephardi
+	father = 916000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = israel_bloodline
+		}
+		add_spouse = 916101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916101 = {
+	name = "FIsrael_1"
+	female = yes
+	dynasty = 916100
+	religion = jewish
+	culture = ashkenazi
+	mother = 916100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = israel_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916801 = {
+	name = "FDestiny_1"
+	female = yes
+	dynasty = 916800
+	religion = slavic_pagan
+	culture = croatian
+	mother = 916800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = child_of_destiny_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918601 = {
+	name = "Murder Child_1"
+	female = yes
+	dynasty = 918600
+	religion = norse_pagan
+	culture = egyptian
+	mother = 918600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = pure_murder_bloodline_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918701 = {
+	name = "Macabre_1"
+	dynasty = 918700
+	religion = norse_pagan
+	culture = egyptian
+	father = 918700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = pure_murder_bloodline_02
+		}
+		add_spouse = 918601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918801 = {
+	name = "Silent Killer_1"
+	female = yes
+	dynasty = 918800
+	religion = norse_pagan
+	culture = egyptian
+	mother = 918800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = pure_murder_bloodline_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918901 = {
+	name = "Butcher_1"
+	dynasty = 918900
+	religion = norse_pagan
+	culture = egyptian
+	father = 918900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = pure_murder_bloodline_04
+		}
+		add_spouse = 918801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919001 = {
+	name = "Dragon_1"
+	dynasty = 919000
+	religion = norse_pagan
+	culture = dragon_culture
+	father = 919000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = pure_murder_bloodline_05
+		}
+		add_spouse = 921101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920101 = {
+	name = "MurderWar_1"
+	dynasty = 920100
+	religion = norse_pagan
+	culture = egyptian
+	father = 920100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = hybrid_murder_war_bloodline
+		}
+		add_spouse = 920201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920201 = {
+	name = "MurderPeace_1"
+	female = yes
+	dynasty = 920200
+	religion = norse_pagan
+	culture = egyptian
+	mother = 920200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = hybrid_murder_peace_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920401 = {
+	name = "MurderBuilder_1"
+	female = yes
+	dynasty = 920400
+	religion = west_african_pagan
+	culture = ethiopian
+	mother = 920400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = hybrid_murder_builder_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921101 = {
+	name = "Ruthless_1"
+	female = yes
+	dynasty = 921100
+	religion = norse_pagan
+	culture = egyptian
+	mother = 921100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_ruthless_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921601 = {
+	name = "PisJewish_1"
+	female = yes
+	dynasty = 921600
+	religion = jewish
+	culture = sephardi
+	mother = 921600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_religion_peaceful_bloodline_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921701 = {
+	name = "AgroJewish_1"
+	dynasty = 921700
+	religion = jewish
+	culture = sephardi
+	father = 921700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_religion_aggressive_bloodline_03
+		}
+		add_spouse = 921601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923601 = {
+	name = "MLeader_1"
+	dynasty = 923600
+	religion = catholic
+	culture = french
+	father = 923600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_leader_bloodline
+		}
+		add_spouse = 916801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 3: Everything Else
+```ruby
+916102 = {
+	name = "FIsrael_2"
+	female = yes
+	dynasty = 916100
+	religion = jewish
+	culture = ashkenazi
+	father = 916001
+	mother = 916101
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916103 = {
+	name = "FIsrael_3"
+	dynasty = 916100
+	religion = jewish
+	culture = ashkenazi
+	father = 921602
+	mother = 916102
+	3.1.1 = {
+		birth = yes
+		add_spouse = 921103
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916802 = {
+	name = "FDestiny_2"
+	dynasty = 916800
+	religion = slavic_pagan
+	culture = croatian
+	father = 923601
+	mother = 916801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 921102
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918602 = {
+	name = "Murder Child_2"
+	female = yes
+	dynasty = 918600
+	religion = norse_pagan
+	culture = egyptian
+	father = 918701
+	mother = 918601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918603 = {
+	name = "Murder Child_3"
+	female = yes
+	dynasty = 918600
+	religion = norse_pagan
+	culture = egyptian
+	father = 918802
+	mother = 918602
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918604 = {
+	name = "Murder Child_4"
+	dynasty = 918600
+	religion = norse_pagan
+	culture = egyptian
+	father = 920203
+	mother = 918603
+	4.1.1 = {
+		birth = yes
+		add_spouse = 921104
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918802 = {
+	name = "Silent Killer_2"
+	dynasty = 918800
+	religion = norse_pagan
+	culture = egyptian
+	father = 918901
+	mother = 918801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 918602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920202 = {
+	name = "MurderPeace_2"
+	female = yes
+	dynasty = 920200
+	religion = norse_pagan
+	culture = egyptian
+	father = 920101
+	mother = 920201
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920203 = {
+	name = "MurderPeace_3"
+	dynasty = 920200
+	religion = norse_pagan
+	culture = egyptian
+	father = 920402
+	mother = 920202
+	3.1.1 = {
+		birth = yes
+		add_spouse = 918603
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920402 = {
+	name = "MurderBuilder_2"
+	dynasty = 920400
+	religion = west_african_pagan
+	culture = ethiopian
+	father = 901301
+	mother = 920401
+	2.1.1 = {
+		birth = yes
+		add_spouse = 920202
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921102 = {
+	name = "Ruthless_2"
+	female = yes
+	dynasty = 921100
+	religion = norse_pagan
+	culture = egyptian
+	father = 919001
+	mother = 921101
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921103 = {
+	name = "Ruthless_3"
+	female = yes
+	dynasty = 921100
+	religion = norse_pagan
+	culture = egyptian
+	father = 916802
+	mother = 921102
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921104 = {
+	name = "Ruthless_4"
+	female = yes
+	dynasty = 921100
+	religion = norse_pagan
+	culture = egyptian
+	father = 916103
+	mother = 921103
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921105 = {
+	name = "Ruthless_5"
+	female = yes
+	dynasty = 921100
+	religion = norse_pagan
+	culture = egyptian
+	father = 918604
+	mother = 921104
+	5.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921106 = {
+	name = "Ruthless_6"
+	dynasty = 921100
+	religion = norse_pagan
+	culture = egyptian
+	father = 917205
+	mother = 921105
+	6.1.1 = {
+		birth = yes
+		add_spouse = 914906
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921602 = {
+	name = "PisJewish_2"
+	dynasty = 921600
+	religion = jewish
+	culture = sephardi
+	father = 921701
+	mother = 921601
+	2.1.1 = {
+		birth = yes
+		add_spouse = 916102
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

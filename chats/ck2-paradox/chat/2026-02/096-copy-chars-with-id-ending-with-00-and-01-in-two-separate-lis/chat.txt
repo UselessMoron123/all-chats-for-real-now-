@@ -1,0 +1,889 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+Mode     : direct
+Started  : 2026-02-21 13:40:40
+Updated  : 2026-02-21 13:40:40
+Archived : 2026-09-30 23:27:44
+Messages : 2
+URL      : https://arena.ai/c/019c7fc9-70f2-748e-b27f-92d6a1063cb3
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 13:40:40
+------------------------------------------------------------
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything else
+913800 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 913800
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913801 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 913800
+	religion = hellenic_pagan
+	culture = greek
+	father = 913800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_hellenic_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913802 = {
+	name = "Defender_2"
+	dynasty = 913800
+	religion = hellenic_pagan
+	culture = greek
+	father = 913901
+	mother = 913801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 916302
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913900 = {
+	name = "Monastic_0"
+	dynasty = 913900
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913901 = {
+	name = "Monastic_1"
+	dynasty = 913900
+	religion = hellenic_pagan
+	culture = greek
+	father = 913900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_hellenic_02
+		}
+		add_spouse = 913801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914000 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 914000
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914001 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 914000
+	religion = hellenic_pagan
+	culture = greek
+	father = 914000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_hellenic_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914002 = {
+	name = "Culture_2"
+	dynasty = 914000
+	religion = hellenic_pagan
+	culture = greek
+	father = 914101
+	mother = 914001
+	2.1.1 = {
+		birth = yes
+		add_spouse = 914202
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914100 = {
+	name = "Inquisitor_0"
+	dynasty = 914100
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914101 = {
+	name = "Inquisitor_1"
+	dynasty = 914100
+	religion = hellenic_pagan
+	culture = greek
+	father = 914100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_hellenic_04
+		}
+		add_spouse = 914001
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914200 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 914200
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914201 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 914200
+	religion = orthodox
+	culture = greek
+	father = 914200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_hellenic_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914202 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 914200
+	religion = orthodox
+	culture = greek
+	father = 914301
+	mother = 914201
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914203 = {
+	name = "Jewish_3"
+	dynasty = 914200
+	religion = orthodox
+	culture = greek
+	father = 914002
+	mother = 914202
+	3.1.1 = {
+		birth = yes
+		add_spouse = 916303
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914300 = {
+	name = "Theologic_0"
+	dynasty = 914300
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914301 = {
+	name = "Theologic_1"
+	dynasty = 914300
+	religion = hellenic_pagan
+	culture = greek
+	father = 914300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_hellenic_06
+		}
+		add_spouse = 914201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916200 = {
+	name = "MRoman_0"
+	dynasty = 916200
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916201 = {
+	name = "MRoman_1"
+	dynasty = 916200
+	religion = hellenic_pagan
+	culture = greek
+	father = 916200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = roman_emperor_bloodline
+		}
+		add_spouse = 916301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916300 = {
+	name = "FRoman_0"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916301 = {
+	name = "FRoman_1"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	father = 916300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = roman_emperor_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916302 = {
+	name = "FRoman_2"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	father = 916201
+	mother = 916301
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916303 = {
+	name = "FRoman_3"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	father = 913802
+	mother = 916302
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916304 = {
+	name = "FRoman_4"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	father = 914203
+	mother = 916303
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916305 = {
+	name = "FRoman_5"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	father = 908004
+	mother = 916304
+	5.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916306 = {
+	name = "FRoman_6"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	father = 917605
+	mother = 916305
+	6.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916307 = {
+	name = "FRoman_7"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	father = 917006
+	mother = 916306
+	7.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916308 = {
+	name = "FRoman_8"
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	father = 920807
+	mother = 916307
+	8.1.1 = {
+		birth = yes
+		add_spouse = 914908
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 13:40:40
+------------------------------------------------------------
+Here are the characters separated into the three requested lists based on their ID endings.
+
+### List 1: IDs ending with 00
+```txt
+913800 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 913800
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913900 = {
+	name = "Monastic_0"
+	dynasty = 913900
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914000 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 914000
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914100 = {
+	name = "Inquisitor_0"
+	dynasty = 914100
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914200 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 914200
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914300 = {
+	name = "Theologic_0"
+	dynasty = 914300
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916200 = {
+	name = "MRoman_0"
+	dynasty = 916200
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916300 = {
+	name = "FRoman_0"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 2: IDs ending with 01
+```txt
+913801 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 913800
+	religion = hellenic_pagan
+	culture = greek
+	father = 913800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_hellenic_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913901 = {
+	name = "Monastic_1"
+	dynasty = 913900
+	religion = hellenic_pagan
+	culture = greek
+	father = 913900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_hellenic_02
+		}
+		add_spouse = 913801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914001 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 914000
+	religion = hellenic_pagan
+	culture = greek
+	father = 914000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_hellenic_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914101 = {
+	name = "Inquisitor_1"
+	dynasty = 914100
+	religion = hellenic_pagan
+	culture = greek
+	father = 914100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_hellenic_04
+		}
+		add_spouse = 914001
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914201 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 914200
+	religion = orthodox
+	culture = greek
+	father = 914200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_hellenic_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914301 = {
+	name = "Theologic_1"
+	dynasty = 914300
+	religion = hellenic_pagan
+	culture = greek
+	father = 914300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_hellenic_06
+		}
+		add_spouse = 914201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916201 = {
+	name = "MRoman_1"
+	dynasty = 916200
+	religion = hellenic_pagan
+	culture = greek
+	father = 916200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = roman_emperor_bloodline
+		}
+		add_spouse = 916301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916301 = {
+	name = "FRoman_1"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	father = 916300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = roman_emperor_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 3: Everything Else
+```txt
+913802 = {
+	name = "Defender_2"
+	dynasty = 913800
+	religion = hellenic_pagan
+	culture = greek
+	father = 913901
+	mother = 913801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 916302
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914002 = {
+	name = "Culture_2"
+	dynasty = 914000
+	religion = hellenic_pagan
+	culture = greek
+	father = 914101
+	mother = 914001
+	2.1.1 = {
+		birth = yes
+		add_spouse = 914202
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914202 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 914200
+	religion = orthodox
+	culture = greek
+	father = 914301
+	mother = 914201
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914203 = {
+	name = "Jewish_3"
+	dynasty = 914200
+	religion = orthodox
+	culture = greek
+	father = 914002
+	mother = 914202
+	3.1.1 = {
+		birth = yes
+		add_spouse = 916303
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916302 = {
+	name = "FRoman_2"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	father = 916201
+	mother = 916301
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916303 = {
+	name = "FRoman_3"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	father = 913802
+	mother = 916302
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916304 = {
+	name = "FRoman_4"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	father = 914203
+	mother = 916303
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916305 = {
+	name = "FRoman_5"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	father = 908004
+	mother = 916304
+	5.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916306 = {
+	name = "FRoman_6"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	father = 917605
+	mother = 916305
+	6.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916307 = {
+	name = "FRoman_7"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	father = 917006
+	mother = 916306
+	7.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916308 = {
+	name = "FRoman_8"
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	father = 920807
+	mother = 916307
+	8.1.1 = {
+		birth = yes
+		add_spouse = 914908
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

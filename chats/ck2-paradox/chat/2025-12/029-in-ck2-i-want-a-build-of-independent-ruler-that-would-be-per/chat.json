@@ -1,0 +1,95 @@
+{
+  "exportedAt": "2026-10-09T16:28:38.770Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019b73e1-eb77-7f19-9335-19ee61e608e8",
+  "archivedAt": "2026-09-30 19:26:17.531+00",
+  "evaluation": {
+    "id": "019b73e1-eb77-7f19-9335-19ee61e608e8",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "in ck2 i want a build of independent ruler that would be perfect for a newcomer, but not too overpow",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019b73e4-6ddf-7e45-91ca-4df3921afa16"
+    ],
+    "archivedAt": "2026-09-30 19:26:17.531+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2025-12-31 10:11:35.508+00",
+    "updatedAt": "2025-12-31 10:11:35.845374+00",
+    "messages": [
+      {
+        "id": "019b73e4-6ddd-7216-b9c6-356fcb06c3a9",
+        "evaluationSessionId": "019b73e1-eb77-7f19-9335-19ee61e608e8",
+        "evaluationId": "019b73e4-39d4-7b9d-a275-1a7d462f36f5",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "in ck2 i want a build of independent ruler that would be perfect for a newcomer, but not too overpowered. min max but not too much. what traits and attributes (base and final) do you think would be good?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T10:11:35.832736+00:00",
+        "updatedAt": "2025-12-31T10:11:35.832736+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b73e4-6ddf-7e45-91ca-4df3921afa16",
+        "evaluationSessionId": "019b73e1-eb77-7f19-9335-19ee61e608e8",
+        "evaluationId": "019b73e4-39d4-7b9d-a275-1a7d462f36f5",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b73e4-6ddd-7216-b9c6-356fcb06c3a9"
+        ],
+        "content": "This is a classic Crusader Kings 2 dilemma. You want a character who can survive the chaos and expand, but you don't want to start as an immortal demigod, because that robs the game of its tension.\n\nHere is a build designed for **Stability and Economy**. As a newcomer, your biggest enemies will be running out of money and vassals hating you. This build solves both, allowing you to focus on learning the warfare and marriage mechanics.\n\n### The Philosophy: \"The Enlightened Administrator\"\nThis build focuses on **Stewardship**. High stewardship gives you a larger Demesne Limit (you can hold more castles personally without penalties) and higher tax income. Holding more land personally means you have more troops than your vassals, preventing rebellions.\n\n### 1. Education Trait\n*   **Midas Touched (Stewardship Level 4)**\n    *   *Effect:* Huge boost to Stewardship and Fertility.\n    *   *Why:* Money is the \"fix mistake\" button in CK2. If you mess up a war, money buys mercenaries. If a vassal hates you, money buys a gift.\n\n### 2. Base Attributes\n(In the Ruler Designer, set these manually. We keep them low to save \"points\" for traits, which are more valuable).\n*   **Diplomacy:** 3\n*   **Martial:** 5\n*   **Stewardship:** 6\n*   **Intrigue:** 0\n*   **Learning:** 0\n    *   *Note:* Don't worry about the zeros. The traits below will boost these up to respectable levels.\n\n### 3. Positive Traits (The \"Min-Max\")\nThese are expensive in terms of age/points, but essential.\n\n*   **Genius**\n    *   *Cost:* High\n    *   *Effect:* +5 to **All** Attributes.\n    *   *Why:* This is the only \"OP\" trait we are taking. It is crucial for a newcomer because it makes your heir likely to be a Genius too. It provides a safety net for every action in the game.\n*   **Diligent**\n    *   *Cost:* Moderate\n    *   *Effect:* +1 to All Attributes. Boosts Stewardship.\n    *   *Why:* The single best personality trait in the game. It unlocks special event options that almost always succeed.\n*   **Patient**\n    *   *Cost:* Moderate\n    *   *Effect:* +Defense, +Diplomacy, +Stewardship, +Intrigue, +Learning.\n    *   *Why:* In battle, this makes you a defensive specialist (great for surviving). In court, it boosts stats across the board.\n*   **Just**\n    *   *Cost:* Low\n    *   *Effect:* +2 Stewardship, +Learning, +Vassal Opinion.\n    *   *Why:* Vassals love a Just ruler. This prevents factions from firing early on.\n\n### 4. Negative Traits (The Age Reducers)\nTo keep your character from starting at age 50, we need to take \"bad\" traits. These are chosen specifically because their downsides are manageable for a new player.\n\n*   **Wounded**\n    *   *Effect:* -1 Health, lowers stats slightly.\n    *   *The Trick:* This dramatically lowers your starting age (making you younger). The \"Wounded\" trait usually heals within the first 3-6 months of gameplay, leaving you with a \"Scarred\" trait which gives you Prestige. It is essentially **free points**.\n*   **Lustful**\n    *   *Effect:* +25% Fertility, slight Piety loss.\n    *   *Why:* In CK2, the game ends if you have no heir. Lustful ensures you pump out children. The Piety hit is negligible.\n*   **Greedy**\n    *   *Effect:* +10% Tax income, -Diplomacy.\n    *   *Why:* We want money. The diplomacy hit is offset by the *Genius* trait.\n*   **Legitimized Bastard** (Optional, if you need to lower age further)\n    *   *Effect:* -1 Diplomacy.\n    *   *Why:* If you are an independent ruler, nobody cares if you are a bastard. It’s free points.\n\n### The Final Result\n\nIf you input this correctly, you should be starting between the ages of **18 and 23**.\n\n**Estimated Final Stats (approximate):**\n*   **Diplomacy:** ~10 (Decent. Vassals won't hate you.)\n*   **Martial:** ~14 (Good. You can lead armies, but you aren't Alexander the Great.)\n*   **Stewardship:** ~20+ (Excellent. You will be rich and can hold 6-8 counties personally.)\n*   **Intrigue:** ~8 (Okay. Just keeps your Spymaster happy.)\n*   **Learning:** ~8 (Low. You won't be building tech fast, but you don't need to yet.)\n\n### Strategy for this Build\n\n1.  **Day 1:** Pick the **Business Focus** (requires Way of Life DLC) or **Stewardship Focus**. This will trigger events to make you money.\n2.  **The Wound:** Wait a few months for your \"Wounded\" trait to heal. Do not go to war or lead armies until the wound is gone, or you might die immediately.\n3.  **Marriage:** Because you are a **Genius**, try to marry someone with the **Strong** or **Genius** trait to breed a super-heir. Because you are **Lustful** and a **Midas Touched**, you will have many children.\n4.  **Expansion:** Use your high Stewardship to hold every county you conquer personally (up to your limit). Do not give land to vassals until you hit your limit (usually 6 or 7 holdings). This ensures you get 100% of the levies and tax from those lands.\n\n### Where to play?\nFor this build, start in **Ireland** (The Tutorial Island) in the **1066 start date** (Petty King of Mumu is the classic choice). This build allows you to hold almost half of Ireland personally without needing vassals, making unifying the island very satisfying.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T10:11:35.83964+00:00",
+        "updatedAt": "2025-12-31T10:12:08.898544+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019b73e4-39d4-7b9d-a275-1a7d462f36f5",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

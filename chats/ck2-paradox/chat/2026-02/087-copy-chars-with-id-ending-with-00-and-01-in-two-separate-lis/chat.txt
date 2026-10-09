@@ -1,0 +1,1605 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+Mode     : direct
+Started  : 2026-02-21 11:39:16
+Updated  : 2026-02-21 11:39:17
+Archived : 2026-09-30 23:27:55
+Messages : 2
+URL      : https://arena.ai/c/019c7f5a-4c46-72ef-b760-85432b4917d1
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 11:39:17
+------------------------------------------------------------
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything else
+901600 = {
+	name = "Ragnarr_0"
+	dynasty = 502
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901601 = {
+	name = "Ragnarr_1"
+	dynasty = 502
+	religion = norse_pagan
+	culture = norse
+	father = 901600
+	diplomacy = 5
+	martial = 9
+	stewardship = 7
+	intrigue = 5
+	learning = 3
+	trait = wroth
+	trait = hunter
+	trait = strong
+	trait = brave
+	trait = viking
+	trait = skilled_tactician
+	give_nickname = nick_lodbrok
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = ragnarr_lodbrok
+		}
+		add_spouse = 915401
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902200 = {
+	name = "Haraldr_0"
+	dynasty = 499
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902201 = {
+	name = "Haraldr_1"
+	dynasty = 499
+	religion = norse_pagan
+	culture = norse
+	father = 902200
+	dna = bhjaavafacj
+	properties = 0b00d0
+	diplomacy = 7
+	martial = 7
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	trait = quick
+	trait = patient
+	trait = brave
+	trait = ambitious
+	trait = hunter
+	trait = skilled_tactician
+	give_nickname = nick_fairhair
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = harald_fairhair
+		}
+		add_spouse = 915001
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906500 = {
+	name = "Bear_0"
+	dynasty = 906500
+	religion = norse
+	culture = bear
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906501 = {
+	name = "Bear_1"
+	dynasty = 906500
+	religion = norse
+	culture = bear
+	father = 906500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = great_conqueror_bloodline
+		}
+		add_spouse = 909801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909800 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 909800
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909801 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 909800
+	religion = norse_pagan
+	culture = norse
+	mother = 909800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_germanic_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909802 = {
+	name = "Defender_2"
+	female = yes
+	dynasty = 909800
+	religion = norse_pagan
+	culture = norse
+	father = 906501
+	mother = 909801
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909803 = {
+	name = "Defender_3"
+	female = yes
+	dynasty = 909800
+	religion = norse_pagan
+	culture = norse
+	father = 921802
+	mother = 909802
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909804 = {
+	name = "Defender_4"
+	dynasty = 909800
+	religion = norse_pagan
+	culture = norse
+	father = 910103
+	mother = 909803
+	4.1.1 = {
+		birth = yes
+		add_spouse = 917004
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909900 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 909900
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909901 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 909900
+	religion = norse_pagan
+	culture = norse
+	mother = 909900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_germanic_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909902 = {
+	name = "Culture_2"
+	dynasty = 909900
+	religion = norse_pagan
+	culture = norse
+	father = 910001
+	mother = 909901
+	2.1.1 = {
+		birth = yes
+		add_spouse = 910102
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910000 = {
+	name = "Inquisitor_0"
+	dynasty = 910000
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910001 = {
+	name = "Inquisitor_1"
+	dynasty = 910000
+	religion = norse_pagan
+	culture = norse
+	father = 910000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_germanic_04
+		}
+		add_spouse = 909901
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910100 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 910100
+	religion = catholic
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910101 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 910100
+	religion = catholic
+	culture = norse
+	mother = 910100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_germanic_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910102 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 910100
+	religion = catholic
+	culture = norse
+	father = 910201
+	mother = 910101
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910103 = {
+	name = "Jewish_3"
+	dynasty = 910100
+	religion = catholic
+	culture = norse
+	father = 909902
+	mother = 910102
+	3.1.1 = {
+		birth = yes
+		add_spouse = 909803
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910200 = {
+	name = "Theologic_0"
+	dynasty = 910200
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910201 = {
+	name = "Theologic_1"
+	dynasty = 910200
+	religion = norse_pagan
+	culture = norse
+	father = 910200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_germanic_06
+		}
+		add_spouse = 910101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915000 = {
+	name = "Bastard_0"
+	female = yes
+	dynasty = 915000
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915001 = {
+	name = "Bastard_1"
+	female = yes
+	dynasty = 915000
+	religion = catholic
+	culture = french
+	mother = 915000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = ancestor_worship_bloodline_02
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915002 = {
+	name = "Bastard_2"
+	dynasty = 915000
+	religion = catholic
+	culture = french
+	father = 902201
+	mother = 915001
+	2.1.1 = {
+		birth = yes
+		add_spouse = 915402
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915400 = {
+	name = "Raider_0"
+	female = yes
+	dynasty = 915400
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915401 = {
+	name = "Raider_1"
+	female = yes
+	dynasty = 915400
+	religion = catholic
+	culture = french
+	mother = 915400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = ancestor_worship_bloodline_06
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915402 = {
+	name = "Raider_2"
+	female = yes
+	dynasty = 915400
+	religion = catholic
+	culture = french
+	father = 901601
+	mother = 915401
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915403 = {
+	name = "Raider_3"
+	dynasty = 915400
+	religion = catholic
+	culture = french
+	father = 915002
+	mother = 915402
+	3.1.1 = {
+		birth = yes
+		add_spouse = 917003
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916900 = {
+	name = "SeaKing_0"
+	dynasty = 916900
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916901 = {
+	name = "SeaKing_1"
+	dynasty = 916900
+	religion = norse_pagan
+	culture = norse
+	father = 916900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = sea_king_bloodline
+		}
+		add_spouse = 917001
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917000 = {
+	name = "SeaQueen_0"
+	female = yes
+	dynasty = 917000
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917001 = {
+	name = "SeaQueen_1"
+	female = yes
+	dynasty = 917000
+	religion = norse_pagan
+	culture = norse
+	mother = 917000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = seaqueen_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917002 = {
+	name = "SeaQueen_2"
+	female = yes
+	dynasty = 917000
+	religion = norse_pagan
+	culture = norse
+	father = 916901
+	mother = 917001
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917003 = {
+	name = "SeaQueen_3"
+	female = yes
+	dynasty = 917000
+	religion = norse_pagan
+	culture = norse
+	father = 924302
+	mother = 917002
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917004 = {
+	name = "SeaQueen_4"
+	female = yes
+	dynasty = 917000
+	religion = norse_pagan
+	culture = norse
+	father = 915403
+	mother = 917003
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917005 = {
+	name = "SeaQueen_5"
+	female = yes
+	dynasty = 917000
+	religion = norse_pagan
+	culture = norse
+	father = 909804
+	mother = 917004
+	5.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917006 = {
+	name = "SeaQueen_6"
+	dynasty = 917000
+	religion = norse_pagan
+	culture = norse
+	father = 924905
+	mother = 917005
+	6.1.1 = {
+		birth = yes
+		add_spouse = 916306
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921800 = {
+	name = "PisPagan_0"
+	female = yes
+	dynasty = 921800
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921801 = {
+	name = "PisPagan_1"
+	female = yes
+	dynasty = 921800
+	religion = norse_pagan
+	culture = norse
+	mother = 921800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_religion_peaceful_bloodline_04
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921802 = {
+	name = "PisPagan_2"
+	dynasty = 921800
+	religion = norse_pagan
+	culture = norse
+	father = 921901
+	mother = 921801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 909802
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921900 = {
+	name = "AgroPagan_0"
+	dynasty = 921900
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921901 = {
+	name = "AgroPagan_1"
+	dynasty = 921900
+	religion = norse_pagan
+	culture = norse
+	father = 921900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_religion_aggressive_bloodline_04
+		}
+		add_spouse = 921801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923200 = {
+	name = "MDog_0"
+	dynasty = 923200
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923201 = {
+	name = "MDog_1"
+	dynasty = 923200
+	religion = catholic
+	culture = french
+	father = 923200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_dog_hunter_bloodline
+		}
+		add_spouse = 924301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924300 = {
+	name = "FBard_0"
+	female = yes
+	dynasty = 924300
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924301 = {
+	name = "FBard_1"
+	female = yes
+	dynasty = 924300
+	religion = catholic
+	culture = french
+	mother = 924300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_battle_bard_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924302 = {
+	name = "FBard_2"
+	dynasty = 924300
+	religion = catholic
+	culture = french
+	father = 923201
+	mother = 924301
+	2.1.1 = {
+		birth = yes
+		add_spouse = 917002
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 11:39:17
+------------------------------------------------------------
+Here are the characters sorted into the three requested lists based on their IDs.
+
+### List 1: IDs ending with 00
+```txt
+901600 = {
+	name = "Ragnarr_0"
+	dynasty = 502
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902200 = {
+	name = "Haraldr_0"
+	dynasty = 499
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906500 = {
+	name = "Bear_0"
+	dynasty = 906500
+	religion = norse
+	culture = bear
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909800 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 909800
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909900 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 909900
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910000 = {
+	name = "Inquisitor_0"
+	dynasty = 910000
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910100 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 910100
+	religion = catholic
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910200 = {
+	name = "Theologic_0"
+	dynasty = 910200
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915000 = {
+	name = "Bastard_0"
+	female = yes
+	dynasty = 915000
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915400 = {
+	name = "Raider_0"
+	female = yes
+	dynasty = 915400
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916900 = {
+	name = "SeaKing_0"
+	dynasty = 916900
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917000 = {
+	name = "SeaQueen_0"
+	female = yes
+	dynasty = 917000
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921800 = {
+	name = "PisPagan_0"
+	female = yes
+	dynasty = 921800
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921900 = {
+	name = "AgroPagan_0"
+	dynasty = 921900
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923200 = {
+	name = "MDog_0"
+	dynasty = 923200
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924300 = {
+	name = "FBard_0"
+	female = yes
+	dynasty = 924300
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 2: IDs ending with 01
+```txt
+901601 = {
+	name = "Ragnarr_1"
+	dynasty = 502
+	religion = norse_pagan
+	culture = norse
+	father = 901600
+	diplomacy = 5
+	martial = 9
+	stewardship = 7
+	intrigue = 5
+	learning = 3
+	trait = wroth
+	trait = hunter
+	trait = strong
+	trait = brave
+	trait = viking
+	trait = skilled_tactician
+	give_nickname = nick_lodbrok
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = ragnarr_lodbrok
+		}
+		add_spouse = 915401
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902201 = {
+	name = "Haraldr_1"
+	dynasty = 499
+	religion = norse_pagan
+	culture = norse
+	father = 902200
+	dna = bhjaavafacj
+	properties = 0b00d0
+	diplomacy = 7
+	martial = 7
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	trait = quick
+	trait = patient
+	trait = brave
+	trait = ambitious
+	trait = hunter
+	trait = skilled_tactician
+	give_nickname = nick_fairhair
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = harald_fairhair
+		}
+		add_spouse = 915001
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906501 = {
+	name = "Bear_1"
+	dynasty = 906500
+	religion = norse
+	culture = bear
+	father = 906500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = great_conqueror_bloodline
+		}
+		add_spouse = 909801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909801 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 909800
+	religion = norse_pagan
+	culture = norse
+	mother = 909800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_germanic_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909901 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 909900
+	religion = norse_pagan
+	culture = norse
+	mother = 909900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_germanic_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910001 = {
+	name = "Inquisitor_1"
+	dynasty = 910000
+	religion = norse_pagan
+	culture = norse
+	father = 910000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_germanic_04
+		}
+		add_spouse = 909901
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910101 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 910100
+	religion = catholic
+	culture = norse
+	mother = 910100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_germanic_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910201 = {
+	name = "Theologic_1"
+	dynasty = 910200
+	religion = norse_pagan
+	culture = norse
+	father = 910200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_germanic_06
+		}
+		add_spouse = 910101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915001 = {
+	name = "Bastard_1"
+	female = yes
+	dynasty = 915000
+	religion = catholic
+	culture = french
+	mother = 915000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = ancestor_worship_bloodline_02
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915401 = {
+	name = "Raider_1"
+	female = yes
+	dynasty = 915400
+	religion = catholic
+	culture = french
+	mother = 915400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = ancestor_worship_bloodline_06
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916901 = {
+	name = "SeaKing_1"
+	dynasty = 916900
+	religion = norse_pagan
+	culture = norse
+	father = 916900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = sea_king_bloodline
+		}
+		add_spouse = 917001
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917001 = {
+	name = "SeaQueen_1"
+	female = yes
+	dynasty = 917000
+	religion = norse_pagan
+	culture = norse
+	mother = 917000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = seaqueen_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921801 = {
+	name = "PisPagan_1"
+	female = yes
+	dynasty = 921800
+	religion = norse_pagan
+	culture = norse
+	mother = 921800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_religion_peaceful_bloodline_04
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921901 = {
+	name = "AgroPagan_1"
+	dynasty = 921900
+	religion = norse_pagan
+	culture = norse
+	father = 921900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_religion_aggressive_bloodline_04
+		}
+		add_spouse = 921801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923201 = {
+	name = "MDog_1"
+	dynasty = 923200
+	religion = catholic
+	culture = french
+	father = 923200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_dog_hunter_bloodline
+		}
+		add_spouse = 924301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924301 = {
+	name = "FBard_1"
+	female = yes
+	dynasty = 924300
+	religion = catholic
+	culture = french
+	mother = 924300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_battle_bard_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 3: Everything else
+```txt
+909802 = {
+	name = "Defender_2"
+	female = yes
+	dynasty = 909800
+	religion = norse_pagan
+	culture = norse
+	father = 906501
+	mother = 909801
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909803 = {
+	name = "Defender_3"
+	female = yes
+	dynasty = 909800
+	religion = norse_pagan
+	culture = norse
+	father = 921802
+	mother = 909802
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909804 = {
+	name = "Defender_4"
+	dynasty = 909800
+	religion = norse_pagan
+	culture = norse
+	father = 910103
+	mother = 909803
+	4.1.1 = {
+		birth = yes
+		add_spouse = 917004
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909902 = {
+	name = "Culture_2"
+	dynasty = 909900
+	religion = norse_pagan
+	culture = norse
+	father = 910001
+	mother = 909901
+	2.1.1 = {
+		birth = yes
+		add_spouse = 910102
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910102 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 910100
+	religion = catholic
+	culture = norse
+	father = 910201
+	mother = 910101
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910103 = {
+	name = "Jewish_3"
+	dynasty = 910100
+	religion = catholic
+	culture = norse
+	father = 909902
+	mother = 910102
+	3.1.1 = {
+		birth = yes
+		add_spouse = 909803
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915002 = {
+	name = "Bastard_2"
+	dynasty = 915000
+	religion = catholic
+	culture = french
+	father = 902201
+	mother = 915001
+	2.1.1 = {
+		birth = yes
+		add_spouse = 915402
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915402 = {
+	name = "Raider_2"
+	female = yes
+	dynasty = 915400
+	religion = catholic
+	culture = french
+	father = 901601
+	mother = 915401
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915403 = {
+	name = "Raider_3"
+	dynasty = 915400
+	religion = catholic
+	culture = french
+	father = 915002
+	mother = 915402
+	3.1.1 = {
+		birth = yes
+		add_spouse = 917003
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917002 = {
+	name = "SeaQueen_2"
+	female = yes
+	dynasty = 917000
+	religion = norse_pagan
+	culture = norse
+	father = 916901
+	mother = 917001
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917003 = {
+	name = "SeaQueen_3"
+	female = yes
+	dynasty = 917000
+	religion = norse_pagan
+	culture = norse
+	father = 924302
+	mother = 917002
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917004 = {
+	name = "SeaQueen_4"
+	female = yes
+	dynasty = 917000
+	religion = norse_pagan
+	culture = norse
+	father = 915403
+	mother = 917003
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917005 = {
+	name = "SeaQueen_5"
+	female = yes
+	dynasty = 917000
+	religion = norse_pagan
+	culture = norse
+	father = 909804
+	mother = 917004
+	5.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917006 = {
+	name = "SeaQueen_6"
+	dynasty = 917000
+	religion = norse_pagan
+	culture = norse
+	father = 924905
+	mother = 917005
+	6.1.1 = {
+		birth = yes
+		add_spouse = 916306
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921802 = {
+	name = "PisPagan_2"
+	dynasty = 921800
+	religion = norse_pagan
+	culture = norse
+	father = 921901
+	mother = 921801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 909802
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924302 = {
+	name = "FBard_2"
+	dynasty = 924300
+	religion = catholic
+	culture = french
+	father = 923201
+	mother = 924301
+	2.1.1 = {
+		birth = yes
+		add_spouse = 917002
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

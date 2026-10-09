@@ -1,0 +1,95 @@
+{
+  "exportedAt": "2026-10-09T16:28:14.129Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c7fb5-759e-7d1c-816e-276ca4f606c2",
+  "archivedAt": "2026-09-30 20:29:37.021+00",
+  "evaluation": {
+    "id": "019c7fb5-759e-7d1c-816e-276ca4f606c2",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c7fb5-859e-7cb5-a64e-d72282f601f7"
+    ],
+    "archivedAt": "2026-09-30 20:29:37.021+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-21 10:18:49.605+00",
+    "updatedAt": "2026-02-21 10:18:50.115602+00",
+    "messages": [
+      {
+        "id": "019c7fb5-859d-74ba-8d7b-14cc70771de3",
+        "evaluationSessionId": "019c7fb5-759e-7d1c-816e-276ca4f606c2",
+        "evaluationId": "019c7fb5-8b8c-7694-ae11-06421d00fca2",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything else\n910300 = {\n\tname = \"Defender_0\"\n\tfemale = yes\n\tdynasty = 910300\n\treligion = baltic_pagan\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910301 = {\n\tname = \"Defender_1\"\n\tfemale = yes\n\tdynasty = 910300\n\treligion = baltic_pagan\n\tculture = prussian\n\tmother = 910300\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_romuva_01\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910302 = {\n\tname = \"Defender_2\"\n\tdynasty = 910300\n\treligion = baltic_pagan\n\tculture = prussian\n\tfather = 924601\n\tmother = 910301\n\t2.1.1 = {\n\t\tbirth = yes\n\t\tadd_spouse = 915502\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910400 = {\n\tname = \"Culture_0\"\n\tfemale = yes\n\tdynasty = 910400\n\treligion = baltic_pagan\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910401 = {\n\tname = \"Culture_1\"\n\tfemale = yes\n\tdynasty = 910400\n\treligion = baltic_pagan\n\tculture = prussian\n\tmother = 910400\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_romuva_03\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910402 = {\n\tname = \"Culture_2\"\n\tdynasty = 910400\n\treligion = baltic_pagan\n\tculture = prussian\n\tfather = 910501\n\tmother = 910401\n\t2.1.1 = {\n\t\tbirth = yes\n\t\tadd_spouse = 910602\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910500 = {\n\tname = \"Inquisitor_0\"\n\tdynasty = 910500\n\treligion = baltic_pagan\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910501 = {\n\tname = \"Inquisitor_1\"\n\tdynasty = 910500\n\treligion = baltic_pagan\n\tculture = prussian\n\tfather = 910500\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_romuva_04\n\t\t}\n\t\tadd_spouse = 910401\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910600 = {\n\tname = \"Jewish_0\"\n\tfemale = yes\n\tdynasty = 910600\n\treligion = catholic\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910601 = {\n\tname = \"Jewish_1\"\n\tfemale = yes\n\tdynasty = 910600\n\treligion = catholic\n\tculture = prussian\n\tmother = 910600\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_romuva_05\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910602 = {\n\tname = \"Jewish_2\"\n\tfemale = yes\n\tdynasty = 910600\n\treligion = catholic\n\tculture = prussian\n\tfather = 910701\n\tmother = 910601\n\t2.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910603 = {\n\tname = \"Jewish_3\"\n\tdynasty = 910600\n\treligion = catholic\n\tculture = prussian\n\tfather = 910402\n\tmother = 910602\n\t3.1.1 = {\n\t\tbirth = yes\n\t\tadd_spouse = 915503\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910700 = {\n\tname = \"Theologic_0\"\n\tdynasty = 910700\n\treligion = baltic_pagan\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910701 = {\n\tname = \"Theologic_1\"\n\tdynasty = 910700\n\treligion = baltic_pagan\n\tculture = prussian\n\tfather = 910700\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_romuva_06\n\t\t}\n\t\tadd_spouse = 910601\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915500 = {\n\tname = \"Dueling_0\"\n\tfemale = yes\n\tdynasty = 915500\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915501 = {\n\tname = \"Dueling_1\"\n\tfemale = yes\n\tdynasty = 915500\n\treligion = catholic\n\tculture = french\n\tmother = 915500\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = ancestor_worship_bloodline_07\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915502 = {\n\tname = \"Dueling_2\"\n\tfemale = yes\n\tdynasty = 915500\n\treligion = catholic\n\tculture = french\n\tfather = 924801\n\tmother = 915501\n\t2.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915503 = {\n\tname = \"Dueling_3\"\n\tfemale = yes\n\tdynasty = 915500\n\treligion = catholic\n\tculture = french\n\tfather = 910302\n\tmother = 915502\n\t3.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915504 = {\n\tname = \"Dueling_4\"\n\tdynasty = 915500\n\treligion = catholic\n\tculture = french\n\tfather = 910603\n\tmother = 915503\n\t4.1.1 = {\n\t\tbirth = yes\n\t\tadd_spouse = 924904\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n924600 = {\n\tname = \"MCaptor_0\"\n\tdynasty = 924600\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n924601 = {\n\tname = \"MCaptor_1\"\n\tdynasty = 924600\n\treligion = catholic\n\tculture = french\n\tfather = 924600\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = legendary_captor_bloodline\n\t\t}\n\t\tadd_spouse = 910301\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n924800 = {\n\tname = \"MRaider_0\"\n\tdynasty = 924800\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n924801 = {\n\tname = \"MRaider_1\"\n\tdynasty = 924800\n\treligion = catholic\n\tculture = french\n\tfather = 924800\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = legendary_raider_bloodline\n\t\t}\n\t\tadd_spouse = 915501\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-21T10:18:50.109193+00:00",
+        "updatedAt": "2026-02-21T10:18:50.109193+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c7fb5-859e-7cb5-a64e-d72282f601f7",
+        "evaluationSessionId": "019c7fb5-759e-7d1c-816e-276ca4f606c2",
+        "evaluationId": "019c7fb5-8b8c-7694-ae11-06421d00fca2",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c7fb5-859d-74ba-8d7b-14cc70771de3"
+        ],
+        "content": "### List 1: IDs ending with 00\n```text\n910300 = {\n\tname = \"Defender_0\"\n\tfemale = yes\n\tdynasty = 910300\n\treligion = baltic_pagan\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910400 = {\n\tname = \"Culture_0\"\n\tfemale = yes\n\tdynasty = 910400\n\treligion = baltic_pagan\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910500 = {\n\tname = \"Inquisitor_0\"\n\tdynasty = 910500\n\treligion = baltic_pagan\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910600 = {\n\tname = \"Jewish_0\"\n\tfemale = yes\n\tdynasty = 910600\n\treligion = catholic\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910700 = {\n\tname = \"Theologic_0\"\n\tdynasty = 910700\n\treligion = baltic_pagan\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915500 = {\n\tname = \"Dueling_0\"\n\tfemale = yes\n\tdynasty = 915500\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n924600 = {\n\tname = \"MCaptor_0\"\n\tdynasty = 924600\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n924800 = {\n\tname = \"MRaider_0\"\n\tdynasty = 924800\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n```\n\n### List 2: IDs ending with 01\n```text\n910301 = {\n\tname = \"Defender_1\"\n\tfemale = yes\n\tdynasty = 910300\n\treligion = baltic_pagan\n\tculture = prussian\n\tmother = 910300\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_romuva_01\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910401 = {\n\tname = \"Culture_1\"\n\tfemale = yes\n\tdynasty = 910400\n\treligion = baltic_pagan\n\tculture = prussian\n\tmother = 910400\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_romuva_03\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910501 = {\n\tname = \"Inquisitor_1\"\n\tdynasty = 910500\n\treligion = baltic_pagan\n\tculture = prussian\n\tfather = 910500\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_romuva_04\n\t\t}\n\t\tadd_spouse = 910401\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910601 = {\n\tname = \"Jewish_1\"\n\tfemale = yes\n\tdynasty = 910600\n\treligion = catholic\n\tculture = prussian\n\tmother = 910600\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_romuva_05\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910701 = {\n\tname = \"Theologic_1\"\n\tdynasty = 910700\n\treligion = baltic_pagan\n\tculture = prussian\n\tfather = 910700\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_romuva_06\n\t\t}\n\t\tadd_spouse = 910601\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915501 = {\n\tname = \"Dueling_1\"\n\tfemale = yes\n\tdynasty = 915500\n\treligion = catholic\n\tculture = french\n\tmother = 915500\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = ancestor_worship_bloodline_07\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n924601 = {\n\tname = \"MCaptor_1\"\n\tdynasty = 924600\n\treligion = catholic\n\tculture = french\n\tfather = 924600\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = legendary_captor_bloodline\n\t\t}\n\t\tadd_spouse = 910301\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n924801 = {\n\tname = \"MRaider_1\"\n\tdynasty = 924800\n\treligion = catholic\n\tculture = french\n\tfather = 924800\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = legendary_raider_bloodline\n\t\t}\n\t\tadd_spouse = 915501\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n```\n\n### List 3: Everything else\n```text\n910302 = {\n\tname = \"Defender_2\"\n\tdynasty = 910300\n\treligion = baltic_pagan\n\tculture = prussian\n\tfather = 924601\n\tmother = 910301\n\t2.1.1 = {\n\t\tbirth = yes\n\t\tadd_spouse = 915502\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910402 = {\n\tname = \"Culture_2\"\n\tdynasty = 910400\n\treligion = baltic_pagan\n\tculture = prussian\n\tfather = 910501\n\tmother = 910401\n\t2.1.1 = {\n\t\tbirth = yes\n\t\tadd_spouse = 910602\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910602 = {\n\tname = \"Jewish_2\"\n\tfemale = yes\n\tdynasty = 910600\n\treligion = catholic\n\tculture = prussian\n\tfather = 910701\n\tmother = 910601\n\t2.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910603 = {\n\tname = \"Jewish_3\"\n\tdynasty = 910600\n\treligion = catholic\n\tculture = prussian\n\tfather = 910402\n\tmother = 910602\n\t3.1.1 = {\n\t\tbirth = yes\n\t\tadd_spouse = 915503\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915502 = {\n\tname = \"Dueling_2\"\n\tfemale = yes\n\tdynasty = 915500\n\treligion = catholic\n\tculture = french\n\tfather = 924801\n\tmother = 915501\n\t2.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915503 = {\n\tname = \"Dueling_3\"\n\tfemale = yes\n\tdynasty = 915500\n\treligion = catholic\n\tculture = french\n\tfather = 910302\n\tmother = 915502\n\t3.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915504 = {\n\tname = \"Dueling_4\"\n\tdynasty = 915500\n\treligion = catholic\n\tculture = french\n\tfather = 910603\n\tmother = 915503\n\t4.1.1 = {\n\t\tbirth = yes\n\t\tadd_spouse = 924904\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n```",
+        "experimental_attachments": [],
+        "modelId": "019b0ad8-856e-74fc-871c-86ccbb2b1d35",
+        "createdAt": "2026-02-21T10:18:50.11244+00:00",
+        "updatedAt": "2026-02-21T10:19:09.618156+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c7fb5-8b8c-7694-ae11-06421d00fca2",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b0ad8-856e-74fc-871c-86ccbb2b1d35",
+        "organization": "google",
+        "provider": "googleWithThoughtSignatures",
+        "publicName": "gemini-3-flash",
+        "name": "fiercefalcon",
+        "displayName": "gemini-3-flash",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

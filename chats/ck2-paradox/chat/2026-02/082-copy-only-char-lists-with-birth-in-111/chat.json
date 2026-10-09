@@ -1,0 +1,171 @@
+{
+  "exportedAt": "2026-10-09T16:28:15.929Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c7b9a-3e11-79f0-883e-d0beab77bfb1",
+  "archivedAt": "2026-09-30 20:28:09.371+00",
+  "evaluation": {
+    "id": "019c7b9a-3e11-79f0-883e-d0beab77bfb1",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "copy only char lists with birth in 1.1.1\n\n911302 = {\n\tname = \"Defender_2\"\n\tdynasty = 911300\n\treligio",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c7c50-fa56-764b-98d5-ae3446b448c9"
+    ],
+    "archivedAt": "2026-09-30 20:28:09.371+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-20 15:12:39.138+00",
+    "updatedAt": "2026-02-20 18:30:09.791162+00",
+    "messages": [
+      {
+        "id": "019c7b9c-22fe-7b6c-a87c-32e958795012",
+        "evaluationSessionId": "019c7b9a-3e11-79f0-883e-d0beab77bfb1",
+        "evaluationId": "019c7b9c-30c9-7fcf-b356-99adec778c4e",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "copy only char lists with birth in 1.1.1\n\n911302 = {\n\tname = \"Defender_2\"\n\tdynasty = 911300\n\treligion = tengri_pagan\n\tculture = khazar\n\tfather = 901001\n\tmother = 911301\n\t2.1.1 = {\n\t\tbirth = yes\n\t\tadd_spouse = 922702\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911400 = {\n\tname = \"Culture_0\"\n\tfemale = yes\n\tdynasty = 911400\n\treligion = tengri_pagan\n\tculture = khazar\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911401 = {\n\tname = \"Culture_1\"\n\tfemale = yes\n\tdynasty = 911400\n\treligion = tengri_pagan\n\tculture = khazar\n\tmother = 911400\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_tengri_03\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911402 = {\n\tname = \"Culture_2\"\n\tfemale = yes\n\tdynasty = 911400\n\treligion = tengri_pagan\n\tculture = khazar\n\tfather = 906001\n\tmother = 911401\n\t2.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911403 = {\n\tname = \"Culture_3\"\n\tdynasty = 911400\n\treligion = tengri_pagan\n\tculture = khazar\n\tfather = 911502\n\tmother = 911402\n\t3.1.1 = {\n\t\tbirth = yes\n\t\tadd_spouse = 911603\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911500 = {\n\tname = \"Inquisitor_0\"\n\tfemale = yes\n\tdynasty = 911500\n\treligion = tengri_pagan\n\tculture = khazar\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911501 = {\n\tname = \"Inquisitor_1\"\n\tfemale = yes\n\tdynasty = 911500\n\treligion = tengri_pagan\n\tculture = khazar\n\tmother = 911500\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_tengri_04\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911502 = {\n\tname = \"Inquisitor_2\"\n\tdynasty = 911500\n\treligion = tengri_pagan\n\tculture = khazar\n\tfather = 906401\n\tmother = 911501\n\t2.1.1 = {\n\t\tbirth = yes\n\t\tadd_spouse = 911402\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911600 = {\n\tname = \"Jewish_0\"\n\tfemale = yes\n\tdynasty = 911600\n\treligion = nestorian\n\tculture = khazar\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911601 = {\n\tname = \"Jewish_1\"\n\tfemale = yes\n\tdynasty = 911600\n\treligion = nestorian\n\tculture = khazar\n\tmother = 911600\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_tengri_05\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911602 = {\n\tname = \"Jewish_2\"\n\tfemale = yes\n\tdynasty = 911600\n\treligion = nestorian\n\tculture = khazar\n\tfather = 903201\n\tmother = 911601\n\t2.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911603 = {\n\tname = \"Jewish_3\"\n\tfemale = yes\n\tdynasty = 911600\n\treligion = nestorian\n\tculture = khazar\n\tfather = 911702\n\tmother = 911602\n\t3.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911604 = {\n\tname = \"Jewish_4\"\n\tdynasty = 911600\n\treligion = nestorian\n\tculture = khazar\n\tfather = 911403\n\tmother = 911603\n\t4.1.1 = {\n\t\tbirth = yes\n\t\tadd_spouse = 922704\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911700 = {\n\tname = \"Theologic_0\"\n\tfemale = yes\n\tdynasty = 911700\n\treligion = tengri_pagan\n\tculture = khazar\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911701 = {\n\tname = \"Theologic_1\"\n\tfemale = yes\n\tdynasty = 911700\n\treligion = tengri_pagan\n\tculture = khazar\n\tmother = 911700\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_tengri_06\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911702 = {\n\tname = \"Theologic_2\"\n\tdynasty = 911700\n\treligion = tengri_pagan\n\tculture = khazar\n\tfather = 903101\n\tmother = 911701\n\t2.1.1 = {\n\t\tbirth = yes\n\t\tadd_spouse = 911602\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915100 = {\n\tname = \"SkyBurial_0\"\n\tfemale = yes\n\tdynasty = 915100\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915101 = {\n\tname = \"SkyBurial_1\"\n\tfemale = yes\n\tdynasty = 915100\n\treligion = catholic\n\tculture = french\n\tmother = 915100\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = ancestor_worship_bloodline_03\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915102 = {\n\tname = \"SkyBurial_2\"\n\tdynasty = 915100\n\treligion = catholic\n\tculture = french\n\tfather = 923001\n\tmother = 915101\n\t2.1.1 = {\n\t\tbirth = yes\n\t\tadd_spouse = 915202\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915200 = {\n\tname = \"Mercenary_0\"\n\tfemale = yes\n\tdynasty = 915200\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915201 = {\n\tname = \"Mercenary_1\"\n\tfemale = yes\n\tdynasty = 915200\n\treligion = catholic\n\tculture = french\n\tmother = 915200\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = ancestor_worship_bloodline_04\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915202 = {\n\tname = \"Mercenary_2\"\n\tfemale = yes\n\tdynasty = 915200\n\treligion = catholic\n\tculture = french\n\tfather = 901101\n\tmother = 915201\n\t2.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915203 = {\n\tname = \"Mercenary_3\"\n\tdynasty = 915200\n\treligion = catholic\n\tculture = french\n\tfather = 915102\n\tmother = 915202\n\t3.1.1 = {\n\t\tbirth = yes\n\t\tadd_spouse = 922703\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n922700 = {\n\tname = \"Han_0\"\n\tfemale = yes\n\tdynasty = 922700\n\treligion = buddhist\n\tculture = han\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n922701 = {\n\tname = \"Han_1\"\n\tfemale = yes\n\tdynasty = 922700\n\treligion = buddhist\n\tculture = han\n\tmother = 922700\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = chinese_imperial_bloodline\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n922702 = {\n\tname = \"Han_2\"\n\tfemale = yes\n\tdynasty = 922700\n\treligion = buddhist\n\tculture = han\n\tfather = 905301\n\tmother = 922701\n\t2.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n922703 = {\n\tname = \"Han_3\"\n\tfemale = yes\n\tdynasty = 922700\n\treligion = buddhist\n\tculture = han\n\tfather = 911302\n\tmother = 922702\n\t3.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n922704 = {\n\tname = \"Han_4\"\n\tfemale = yes\n\tdynasty = 922700\n\treligion = buddhist\n\tculture = han\n\tfather = 915203\n\tmother = 922703\n\t4.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n922705 = {\n\tname = \"Han_5\"\n\tfemale = yes\n\tdynasty = 922700\n\treligion = buddhist\n\tculture = han\n\tfather = 911604\n\tmother = 922704\n\t5.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n922706 = {\n\tname = \"Han_6\"\n\tfemale = yes\n\tdynasty = 922700\n\treligion = buddhist\n\tculture = han\n\tfather = 922605\n\tmother = 922705\n\t6.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n922707 = {\n\tname = \"Han_7\"\n\tdynasty = 922700\n\treligion = buddhist\n\tculture = han\n\tfather = 922406\n\tmother = 922706\n\t7.1.1 = {\n\t\tbirth = yes\n\t\tadd_spouse = 914907\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n923000 = {\n\tname = \"MEagle_0\"\n\tdynasty = 923000\n\treligion = tengri_pagan\n\tculture = khazar\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n923001 = {\n\tname = \"MEagle_1\"\n\tdynasty = 923000\n\treligion = tengri_pagan\n\tculture = khazar\n\tfather = 923000\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = legendary_eagle_hunter_bloodline\n\t\t}\n\t\tadd_spouse = 915101\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-20T15:12:39.635064+00:00",
+        "updatedAt": "2026-02-20T15:12:39.635064+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c7b9c-22ff-721f-9ba0-69ef93114aa9",
+        "evaluationSessionId": "019c7b9a-3e11-79f0-883e-d0beab77bfb1",
+        "evaluationId": "019c7b9c-30c9-7fcf-b356-99adec778c4e",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c7b9c-22fe-7b6c-a87c-32e958795012"
+        ],
+        "content": "911400 = {\n\tname = \"Culture_0\"\n\tfemale = yes\n\tdynasty = 911400\n\treligion = tengri_pagan\n\tculture = khazar\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911500 = {\n\tname = \"Inquisitor_0\"\n\tfemale = yes\n\tdynasty = 911500\n\treligion = tengri_pagan\n\tculture = khazar\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911600 = {\n\tname = \"Jewish_0\"\n\tfemale = yes\n\tdynasty = 911600\n\treligion = nestorian\n\tculture = khazar\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911700 = {\n\tname = \"Theologic_0\"\n\tfemale = yes\n\tdynasty = 911700\n\treligion = tengri_pagan\n\tculture = khazar\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915100 = {\n\tname = \"SkyBurial_0\"\n\tfemale = yes\n\tdynasty = 915100\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915200 = {\n\tname = \"Mercenary_0\"\n\tfemale = yes\n\tdynasty = 915200\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n922700 = {\n\tname = \"Han_0\"\n\tfemale = yes\n\tdynasty = 922700\n\treligion = buddhist\n\tculture = han\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n923000 = {\n\tname = \"MEagle_0\"\n\tdynasty = 923000\n\treligion = tengri_pagan\n\tculture = khazar\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}",
+        "experimental_attachments": [],
+        "modelId": "019b0ad8-856e-74fc-871c-86ccbb2b1d35",
+        "createdAt": "2026-02-20T15:12:39.638789+00:00",
+        "updatedAt": "2026-02-20T15:12:49.130552+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c7c4d-7a76-708f-9725-aa60796b4172",
+        "evaluationSessionId": "019c7b9a-3e11-79f0-883e-d0beab77bfb1",
+        "evaluationId": "019c7b9c-30c9-7fcf-b356-99adec778c4e",
+        "role": "user",
+        "parentMessageIds": [
+          "019c7b9c-22ff-721f-9ba0-69ef93114aa9"
+        ],
+        "content": "add these who's id ends with 00",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-20T18:26:20.987456+00:00",
+        "updatedAt": "2026-02-20T18:26:20.987456+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c7c4d-7a7b-77be-b77f-164a53f81ed0",
+        "evaluationSessionId": "019c7b9a-3e11-79f0-883e-d0beab77bfb1",
+        "evaluationId": "019c7b9c-30c9-7fcf-b356-99adec778c4e",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c7c4d-7a76-708f-9725-aa60796b4172"
+        ],
+        "content": "In the provided text, all characters with IDs ending in **00** are the same characters who have a birth date of **1.1.1**. Here are those character lists:\n\n```text\n911400 = {\n\tname = \"Culture_0\"\n\tfemale = yes\n\tdynasty = 911400\n\treligion = tengri_pagan\n\tculture = khazar\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911500 = {\n\tname = \"Inquisitor_0\"\n\tfemale = yes\n\tdynasty = 911500\n\treligion = tengri_pagan\n\tculture = khazar\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911600 = {\n\tname = \"Jewish_0\"\n\tfemale = yes\n\tdynasty = 911600\n\treligion = nestorian\n\tculture = khazar\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911700 = {\n\tname = \"Theologic_0\"\n\tfemale = yes\n\tdynasty = 911700\n\treligion = tengri_pagan\n\tculture = khazar\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915100 = {\n\tname = \"SkyBurial_0\"\n\tfemale = yes\n\tdynasty = 915100\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915200 = {\n\tname = \"Mercenary_0\"\n\tfemale = yes\n\tdynasty = 915200\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n922700 = {\n\tname = \"Han_0\"\n\tfemale = yes\n\tdynasty = 922700\n\treligion = buddhist\n\tculture = han\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n923000 = {\n\tname = \"MEagle_0\"\n\tdynasty = 923000\n\treligion = tengri_pagan\n\tculture = khazar\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n```",
+        "experimental_attachments": [],
+        "modelId": "019b0ad8-856e-74fc-871c-86ccbb2b1d35",
+        "createdAt": "2026-02-20T18:26:20.99307+00:00",
+        "updatedAt": "2026-02-20T18:26:46.842441+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c7c50-fa54-7959-b1b6-300ba8cd4fbe",
+        "evaluationSessionId": "019c7b9a-3e11-79f0-883e-d0beab77bfb1",
+        "evaluationId": "019c7b9c-30c9-7fcf-b356-99adec778c4e",
+        "role": "user",
+        "parentMessageIds": [
+          "019c7c4d-7a7b-77be-b77f-164a53f81ed0"
+        ],
+        "content": "now 01",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-20T18:30:09.781934+00:00",
+        "updatedAt": "2026-02-20T18:30:09.781934+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c7c50-fa56-764b-98d5-ae3446b448c9",
+        "evaluationSessionId": "019c7b9a-3e11-79f0-883e-d0beab77bfb1",
+        "evaluationId": "019c7b9c-30c9-7fcf-b356-99adec778c4e",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c7c50-fa54-7959-b1b6-300ba8cd4fbe"
+        ],
+        "content": "Here are the character lists for the IDs ending in **01**:\n\n```text\n911401 = {\n\tname = \"Culture_1\"\n\tfemale = yes\n\tdynasty = 911400\n\treligion = tengri_pagan\n\tculture = khazar\n\tmother = 911400\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_tengri_03\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911501 = {\n\tname = \"Inquisitor_1\"\n\tfemale = yes\n\tdynasty = 911500\n\treligion = tengri_pagan\n\tculture = khazar\n\tmother = 911500\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_tengri_04\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911601 = {\n\tname = \"Jewish_1\"\n\tfemale = yes\n\tdynasty = 911600\n\treligion = nestorian\n\tculture = khazar\n\tmother = 911600\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_tengri_05\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911701 = {\n\tname = \"Theologic_1\"\n\tfemale = yes\n\tdynasty = 911700\n\treligion = tengri_pagan\n\tculture = khazar\n\tmother = 911700\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = saintly_bloodline_tengri_06\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915101 = {\n\tname = \"SkyBurial_1\"\n\tfemale = yes\n\tdynasty = 915100\n\treligion = catholic\n\tculture = french\n\tmother = 915100\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = ancestor_worship_bloodline_03\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915201 = {\n\tname = \"Mercenary_1\"\n\tfemale = yes\n\tdynasty = 915200\n\treligion = catholic\n\tculture = french\n\tmother = 915200\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = ancestor_worship_bloodline_04\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n922701 = {\n\tname = \"Han_1\"\n\tfemale = yes\n\tdynasty = 922700\n\treligion = buddhist\n\tculture = han\n\tmother = 922700\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = chinese_imperial_bloodline\n\t\t}\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n923001 = {\n\tname = \"MEagle_1\"\n\tdynasty = 923000\n\treligion = tengri_pagan\n\tculture = khazar\n\tfather = 923000\n\t1.5.1 = {\n\t\tbirth = yes\n\t\tcreate_bloodline = {\n\t\t\ttype = legendary_eagle_hunter_bloodline\n\t\t}\n\t\tadd_spouse = 915101\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n```",
+        "experimental_attachments": [],
+        "modelId": "019b0ad8-856e-74fc-871c-86ccbb2b1d35",
+        "createdAt": "2026-02-20T18:30:09.788105+00:00",
+        "updatedAt": "2026-02-20T18:30:24.828333+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c7b9c-30c9-7fcf-b356-99adec778c4e",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b0ad8-856e-74fc-871c-86ccbb2b1d35",
+        "organization": "google",
+        "provider": "googleWithThoughtSignatures",
+        "publicName": "gemini-3-flash",
+        "name": "fiercefalcon",
+        "displayName": "gemini-3-flash",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

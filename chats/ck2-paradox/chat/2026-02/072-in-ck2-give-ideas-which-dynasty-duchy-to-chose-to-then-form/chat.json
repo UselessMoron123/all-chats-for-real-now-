@@ -1,0 +1,209 @@
+{
+  "exportedAt": "2026-10-09T16:28:25.232Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c432d-35b7-72f5-8127-895fddf2b2e0",
+  "archivedAt": "2026-09-30 20:29:54.3+00",
+  "evaluation": {
+    "id": "019c432d-35b7-72f5-8127-895fddf2b2e0",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "in ck2 give ideas which dynasty/duchy to chose, to then form Archduchy",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c481f-1fcf-76a1-a87e-c4e1d6d5aaac"
+    ],
+    "archivedAt": "2026-09-30 20:29:54.3+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-09 16:13:37.285+00",
+    "updatedAt": "2026-02-10 15:15:27.925312+00",
+    "messages": [
+      {
+        "id": "019c432e-0699-78bd-9c85-292db124b763",
+        "evaluationSessionId": "019c432d-35b7-72f5-8127-895fddf2b2e0",
+        "evaluationId": "019c432e-0c85-70e2-a9fe-577fc6f98ba2",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "in ck2 give ideas which dynasty/duchy to chose, to then form Archduchy",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-09T16:13:39.582287+00:00",
+        "updatedAt": "2026-02-09T16:13:39.582287+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c432e-069b-7ccd-abaa-2c90dc1527b4",
+        "evaluationSessionId": "019c432d-35b7-72f5-8127-895fddf2b2e0",
+        "evaluationId": "019c432e-0c85-70e2-a9fe-577fc6f98ba2",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c432e-0699-78bd-9c85-292db124b763"
+        ],
+        "content": "In **Crusader Kings 2**, forming the **Archduchy of Austria** is a specific decision called **\"Issue the Privilegium Maius.\"**\n\nTo take this decision, you generally need to be a vassal of the Holy Roman Empire, hold the **Duchies of Austria, Styria (Steyermark), and Carinthia**, and have a high opinion with the Emperor (or be the Emperor yourself). This creates a Kingdom-tier title known as the Archduchy.\n\nHere are the best starts to accomplish this, ranging from historical roleplay to strategic advantages.\n\n---\n\n### 1. The Historical \"Zero to Hero\"\n**Dynasty:** **von Habsburg**\n**Start Date:** **1066 (High Middle Ages)**\n**Character:** **Count Werner of Aargau** (Upper Burgundy)\n\nThis is the quintessential CK2 run. In 1066, the Habsburgs are not powerful. They are minor counts in Switzerland (County of Aargau) under the Holy Roman Empire.\n\n*   **The Strategy:** You start small. You need to expand within the HRE, usually moving eastward. Historically, the Habsburgs acquired Austria after the Babenberg line went extinct.\n*   **The Play:** Use marriage and fabrication to move your power base from Switzerland to the Duchy of Austria. Once you become Duke of Austria, conquer your southern neighbors (Styria and Carinthia) and save up gold to bribe the Kaiser for the *Privilegium Maius*.\n*   **Difficulty:** **Hard.** You have to climb the ladder from the very bottom.\n\n### 2. The Incumbents (The Easiest Path)\n**Dynasty:** **Babenberg**\n**Start Date:** **1066 or 1187**\n**Character:** **Duke Ernst 'the Brave'** (1066) or **Duke Leopold V** (1187)\n\nBefore the Habsburgs, the Babenbergs ruled Austria. They are already established, hold the correct primary title, and usually have good relations with the Emperor.\n\n*   **The Strategy:** In 1066, you already hold the Duchy of Austria. Your primary goal is to fabricate claims on or marry into the Duchies of Styria (held by the Otakars) and Carinthia (held by the Eppensteins).\n*   **The Play:** In the 1187 start, the Babenbergs are very strong and actually hold both Austria and Styria already. You are only one Duchy (Carinthia) away from being able to form the Archduchy.\n*   **Difficulty:** **Easy.** You start with the primary requirement fulfilled.\n\n### 3. The Southern Strategy\n**Dynasty:** **Otakar (Traungau)**\n**Start Date:** **1066**\n**Character:** **Count Otakar of Steiermark**\n\nThe Otakars are the historical rulers of Styria (Steyermark), which borders Austria to the south. You need Styria to form the Archduchy anyway, so starting here puts you in a prime position.\n\n*   **The Strategy:** You start as a vassal to the Duke of Carinthia. First, usurp the Duchy of Carinthia from within. Once you hold Styria and Carinthia, you represent a massive power bloc in the Southeast HRE.\n*   **The Play:** Look north. The Babenbergs hold Austria. Wait for them to have a child ruler or a civil war, then press claims to take Vienna. Once you unite the three duchies, the Archduchy is yours.\n*   **Difficulty:** **Medium.**\n\n### 4. The Bohemian \"Iron King\"\n**Dynasty:** **Přemyslid**\n**Start Date:** **1240s-1250s (The Mongols bookmark or custom date)**\n**Character:** **King Ottokar II of Bohemia**\n\nHistorically, Ottokar II briefly conquered Austria and Styria before being defeated by the Habsburgs. In CK2, you can make his dream a reality.\n\n*   **The Strategy:** You are a King-tier ruler inside the HRE. You are much stronger than the Austrian dukes.\n*   **The Play:** Bully your way south. Conquer the Duchies of Austria, Styria, and Carinthia. Because you are already a King (of Bohemia), forming the Archduchy (also King-tier) is less of an upgrade and more of a prestige move/secondary title, but it allows you to consolidate the region under your rule.\n*   **Difficulty:** **Very Easy** (Military wise), but managing HRE politics as a powerful King is tricky.\n\n### 5. The 769 / 867 Start (Old Gods / Charlemagne)\n**Region:** **Bavaria**\n**Character:** **Any Count in the Ostmark/Passau region**\n\nIf you have the DLCs for early start dates, \"Austria\" doesn't exist yet. The land is usually part of Bavaria or the realm of the Avars/Great Moravia.\n\n*   **The Strategy:** You must survive the Magyars (Hungarians) who will invade around 900 AD. If you survive, the HRE usually forms (or East Francia remains).\n*   **The Play:** Start as a vassal of the Duke of Bavaria. Slowly eat the counties along the Danube (Wien, Passau, Sankt Polten). Form the Duchy of Austria manually, then play the long game to get the *Privilegium Maius*.\n*   **Difficulty:** **Hard / Chaotic.** The borders in this era are very unstable due to tribal invasions.\n\n---\n\n### Summary Checklist for the Decision\nRegardless of who you pick, remember the requirements to click the button:\n1.  **Tier:** You must be a Duke (if you are a King, it creates a second kingdom title).\n2.  **Land:** You must completely control the **Duchy of Austria**.\n3.  **More Land:** You must also control the **Duchy of Steyermark** AND the **Duchy of Carinthia**.\n4.  **Capital:** Your capital must be in the Duchy of Austria (move it to **Wien**).\n5.  **Liege:** You must be a vassal of the Holy Roman Emperor (and he must like you) **OR** you must be the Emperor yourself.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-09T16:13:39.59231+00:00",
+        "updatedAt": "2026-02-09T16:14:32.139099+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c4333-b762-76dd-9b6b-02a42d01ae8f",
+        "evaluationSessionId": "019c432d-35b7-72f5-8127-895fddf2b2e0",
+        "evaluationId": "019c432e-0c85-70e2-a9fe-577fc6f98ba2",
+        "role": "user",
+        "parentMessageIds": [
+          "019c432e-069b-7ccd-abaa-2c90dc1527b4"
+        ],
+        "content": "any other lands worth gathering into mega duchy?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-09T16:19:50.429477+00:00",
+        "updatedAt": "2026-02-09T16:19:50.429477+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c4333-b765-7562-8c6e-a4f22b64e365",
+        "evaluationSessionId": "019c432d-35b7-72f5-8127-895fddf2b2e0",
+        "evaluationId": "019c432e-0c85-70e2-a9fe-577fc6f98ba2",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c4333-b762-76dd-9b6b-02a42d01ae8f"
+        ],
+        "content": "If you are playing the long game and want to build a \"Tall\" power base (a small area with massive troop counts and income) before you hit the button to become the Archduke, there are specific duchies you should prioritize.\n\nBecause the Archduchy of Austria is a **Kingdom-tier title**, you want to secure lands that solve Austria's biggest geographic weakness: **being landlocked.**\n\nHere are the best duchies to gather into your realm before (or immediately after) forming the Archduchy:\n\n### 1. The Coastal Route: Duchy of Carniola (Krain) & Istria\n**Strategic Priority:** **Critical**\nAustria has no ships. This makes Crusading or transporting troops to Italy expensive (hiring mercenaries) or slow (walking).\n*   **Why:** You need access to the **Adriatic Sea**.\n*   **The Land:** Carniola lies directly south of Carinthia. Istria is the peninsula below that.\n*   **The Benefit:** Owning coastal counties gives you a dock. This allows you to build a navy, participate in Crusades for massive gold chests, and transport your heavy infantry anywhere in the Mediterranean.\n\n### 2. The Mountain Fortress: Duchy of Tyrol\n**Strategic Priority:** **High (Defensive)**\nHistorically, Tyrol is the western part of modern Austria (Innsbruck). In CK2, it is usually part of Bavaria or Italy depending on the start date.\n*   **Why:** **Mountains.**\n*   **The Benefit:** If you hold Tyrol, you control the Alps. If the Emperor or a rival King attacks you, you can bait them into attacking you in the mountains of Tyrol. The defensive bonuses there are insane—a small Austrian army can massacre a much larger HRE army in the narrow passes.\n*   **Bonus:** It connects you to Italy, allowing you to expand into the rich lands of Lombardy/Verona later.\n\n### 3. The Gold Mine: Duchy of Bohemia (specifically Prague)\n**Strategic Priority:** **High (Economic)**\nBohemia is usually its own Kingdom, but if you can snag the *Duchy* title or just the county of **Praha (Prague)**, do it.\n*   **Why:** Prague is one of the best counties in the game. It has a high number of holding slots (you can build many castles/cities in one province).\n*   **The Benefit:** If you hold Vienna and Prague personally, you will likely be richer than the Emperor. It creates a massive continuous block of land that is very hard to conquer.\n\n### 4. The Parent: Duchy of Bavaria\n**Strategic Priority:** **Medium (Political)**\nAustria is *de jure* part of Bavaria at the start of the game.\n*   **Why:** Eliminating the Duke of Bavaria consolidates your power.\n*   **The Benefit:** If you hold the Duchies of Austria, Carinthia, Styria, and Bavaria, you essentially own all of South Germany. It prevents a rival Duke from having a *de jure* claim on your capital (Vienna). However, once you form the Archduchy, Austria stops belonging to Bavaria, so this becomes less critical for survival and more about raw power.\n\n---\n\n### Important Mechanics Note: The \"Too Many Duchies\" Trap\nWhile you are still a **Duke**, your vassals will get a **-10 opinion penalty** for every Duchy title you hold over the limit of **2**.\n\nTo hold Austria, Styria, Carinthia, plus Carniola/Tyrol without your vassals revolting *before* you become Archduke:\n\n1.  **Destroy the Titles:** Hold the land, but destroy the Duchy titles of Styria/Carinthia until you are ready to form the Archduchy. You only need to *create/hold* the titles at the exact moment you click the decision.\n2.  **No Vassal Counts:** If you hold all the counties personally (Demesne), there are no Count-tier vassals to get angry at you for holding too many Duchies.\n3.  **The \"Super Duke\":** Just accept the opinion penalty. If your diplomacy is high enough and you are prestigious, -20 opinion (for holding 4 duchies) is manageable.\n\n### The Ideal \"Mega-Austria\" Borders\nIf you want the perfect campaign, aim for this setup:\n*   **Capital:** Vienna (Austria)\n*   **Personal Demesne:** All counties in Austria and Styria.\n*   **Vassal Dukes:** Duke of Carinthia, Duke of Carniola (for the ships), Duke of Tyrol (for the defense).\n\nThis creates a compact, rich, defensible Kingdom that can punch way above its weight class against the rest of the HRE.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-09T16:19:50.432713+00:00",
+        "updatedAt": "2026-02-09T16:20:23.162592+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c4335-38b8-72c5-bec1-8423c593c3b9",
+        "evaluationSessionId": "019c432d-35b7-72f5-8127-895fddf2b2e0",
+        "evaluationId": "019c432e-0c85-70e2-a9fe-577fc6f98ba2",
+        "role": "user",
+        "parentMessageIds": [
+          "019c4333-b765-7562-8c6e-a4f22b64e365"
+        ],
+        "content": "i mean entirely different Archduchy, not related to Austria. custom",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-09T16:21:29.649385+00:00",
+        "updatedAt": "2026-02-09T16:21:29.649385+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c4335-38bd-7558-baa1-3671069bd7ea",
+        "evaluationSessionId": "019c432d-35b7-72f5-8127-895fddf2b2e0",
+        "evaluationId": "019c432e-0c85-70e2-a9fe-577fc6f98ba2",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c4335-38b8-72c5-bec1-8423c593c3b9"
+        ],
+        "content": "Ah, I see. In CK2, the title \"Archduchy\" is unique to Austria via a specific event. However, if you have the **Charlemagne DLC**, you can take the **\"Found a New Kingdom\"** decision.\n\nThis decision takes all the Duchies you currently hold and permanently merges them into a new, custom Kingdom-tier title. You can then use the generic customization tool to rename your \"Kingdom\" to \"Archduchy\" for roleplay purposes.\n\nHere are the best **\"Mega-Duchy\"** combinations to form a powerful, custom \"Archduchy\" that rivals emperors in power.\n\n---\n\n### 1. The \"Archduchy of the Low Countries\" (Economic Powerhouse)\nThis is arguably the strongest tall start in the game. You will have more gold than the entire HRE combined.\n\n*   **The Duchies:** **Flanders**, **Brabant**, **Holland** (or Luxembourg).\n*   **Why it works:**\n    *   **Holding Slots:** These provinces have massive holding slots (Bruges, Ghent, etc.). You can build multiple cities in every county.\n    *   **Coastal:** almost every county is coastal, meaning massive trade income and cheap ship levies.\n    *   **Geography:** It is a very small geographic area, meaning your armies can reinforce each other instantly.\n*   **The Start:** **1066**. Play as **Duke Baldwin V of Flanders** (France) or the **Duke of Lower Lorraine** (HRE).\n*   **The Goal:** Break free from France/HRE, combine these three rich duchies, form your custom Kingdom, and rename it \"Archduchy of the Netherlands/Burgundy.\"\n\n### 2. The \"Archduchy of Tuscany\" (The Italian Fortress)\nA classic \"Tall\" game. You control the mountains and the money of Northern Italy.\n\n*   **The Duchies:** **Tuscany** (Firenze), **Pisa**, **Genoa**.\n*   **Why it works:**\n    *   **Tech:** Italy starts with the best technology in the game.\n    *   **Terrain:** Northern Italy is mountainous (defense) but the cities are on the coast (money).\n    *   **Republics:** By conquering the Republics of Pisa and Genoa, you seize their trade posts and massive tax revenues.\n*   **The Start:** **1066**. **Matilda di Canossa** (Duchess of Tuscany). She is the most powerful female ruler at the start of the game.\n*   **The Goal:** Conquer the coast. Form a custom Kingdom and name it the \"Grand Duchy of Tuscany.\" You can easily dominate the Pope from here.\n\n### 3. The \"Archduchy of Prussia\" (The Militaristic State)\nLong before the actual Kingdom of Prussia existed, you can form a pagan (or Teutonic) powerhouse in the Baltic.\n\n*   **The Duchies:** **Prussia**, **Courland**, **Livonia** (or Pomerania).\n*   **Why it works:**\n    *   **Eldership Succession:** If you play as the Romuva faith (Pagans), you get a very stable succession law.\n    *   **Raiding:** You can raid your wealthy neighbors for gold while staying small.\n    *   **Expansion:** You are outside the HRE, so you don't have to worry about the Emperor's laws.\n*   **The Start:** **867 (Old Gods)** or **769**. Pick a generic **High Chieftain in Prussia**.\n*   **The Goal:** Unite the Romuva holy sites, reform the religion, and create a custom Kingdom called the \"Archduchy of Prussia.\"\n\n### 4. The \"Archduchy of Outremer\" (The Crusader Prince)\nInstead of forming the Kingdom of Jerusalem (which creates a scattered realm), form a compact, defensible state in Northern Syria.\n\n*   **The Duchies:** **Antioch**, **Tripoli**, **Edessa** (or Aleppo).\n*   **Why it works:**\n    *   **Silk Road:** The northern duchies (Antioch/Aleppo) are often trade nodes on the Silk Road, providing massive income if you have the *Horse Lords* or *Jade Dragon* DLC.\n    *   **Chokepoints:** The terrain here is mountainous and coastal, much easier to defend against Jihads than Jerusalem is.\n*   **The Start:** **1099** (Choose a date just after the First Crusade succeeds). Play as **Bohemond of Antioch**.\n*   **The Goal:** Expand slightly east and south, form a custom Kingdom, and call it the \"Principality of Antioch\" or \"Archduchy of the East.\"\n\n### 5. The \"Archduchy of the Rhine\" (HRE Core)\nIf you want to be the \"Kingmaker\" of the Holy Roman Empire without actually being the Emperor.\n\n*   **The Duchies:** **Upper Lorraine**, **Alsace**, **Franconia**.\n*   **Why it works:**\n    *   **Central Position:** You are in the direct center of Western Europe. You can intervene in France, Germany, or Italy easily.\n    *   **The River:** Counties along the Rhine river get economic bonuses.\n    *   **Roleplay:** You are restoring the ancient core of the Frankish lands.\n*   **The Start:** **1066**. The **Salian** dynasty (who are Emperors) hold Franconia, or the **Chatenois** in Upper Lorraine.\n*   **The Goal:** Gather the lands along the Rhine river. Form a custom Kingdom. Name it \"Rhenish Archduchy.\"\n\n### How to do it mechanically:\n1.  **Acquire 3 Duchy Titles.** You cannot hold more than 2 without a penalty, so try to hold the third one for as short a time as possible before clicking the button.\n2.  **Amass 1000 Prestige.**\n3.  **Ensure you are Independent** (or your Liege allows you to form Kingdoms). If you are a vassal, you usually have to fight an Independence war first.\n4.  **Click the \"Found a New Kingdom\" decision** in the Intrigue tab.\n5.  **Rename it:** Go to your new title's screen, click the small \"ABC\" wrench icon, and change \"Kingdom of [Primary Title]\" to \"Archduchy of [Name].\"\n6.  **Change the \"Short Name\":** In the customization menu, check the box that says \"Short Name.\" This prevents the map from saying \"Kingdom of Archduchy of Flanders\" and makes it just say \"Archduchy of Flanders.\"",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-09T16:21:29.652962+00:00",
+        "updatedAt": "2026-02-09T16:22:11.449408+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c481f-1fcd-7d75-bdac-705c7606f86b",
+        "evaluationSessionId": "019c432d-35b7-72f5-8127-895fddf2b2e0",
+        "evaluationId": "019c432e-0c85-70e2-a9fe-577fc6f98ba2",
+        "role": "user",
+        "parentMessageIds": [
+          "019c4335-38bd-7558-baa1-3671069bd7ea"
+        ],
+        "content": "other promising places? couties, duchies?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-10T15:15:27.917419+00:00",
+        "updatedAt": "2026-02-10T15:15:27.917419+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c481f-1fcf-76a1-a87e-c4e1d6d5aaac",
+        "evaluationSessionId": "019c432d-35b7-72f5-8127-895fddf2b2e0",
+        "evaluationId": "019c432e-0c85-70e2-a9fe-577fc6f98ba2",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c481f-1fcd-7d75-bdac-705c7606f86b"
+        ],
+        "content": "Here are some of the most \"promising\" locations for a custom Archduchy run, focusing on **high holding slots** (economic potential), **strategic geography** (defense), or **unique mechanics** (like the Silk Road).\n\n### 1. The \"Archduchy of the Two Seas\" (Sicily)\nThis is widely considered the best duchy in the game outside of Flanders/Constantinople.\n*   **Target Duchies:** **Sicily**, **Calabria**, **Apulia**.\n*   **The Crown Jewel:** **The County of Palermo**. It has 7 holding slots (the maximum). If you fill it with cities/castles, you are untouchable.\n*   **Strategy:** Start as the Normans (de Hauteville) or a Muslim ruler in Sicily.\n*   **Why it’s good:**\n    *   **Culture Blending:** Sicily has unique events to blend Latin, Greek, and Arab cultures for massive tech and stability bonuses.\n    *   **Navy:** You dominate the Mediterranean.\n    *   **Isolation:** Since you are on an island (mostly), the AI has a hard time invading you successfully due to the \"Amphibious Landing\" combat penalty.\n\n### 2. The \"Archduchy of the Black Sea\" (Crimea)\nA hidden gem for players who own the *Horse Lords* or *Jade Dragon* DLC.\n*   **Target Duchies:** **Cherson**, **Crimea**, **Azov**.\n*   **The Crown Jewel:** **The County of Cherson**.\n*   **Strategy:** Start as a Byzantine vassal or a local Goth.\n*   **Why it’s good:**\n    *   **The Silk Road:** The Northern branch of the Silk Road ends here. If you build a Trade Post in Cherson/Theodosia, your income skyrockets.\n    *   **Defense:** The Crimean peninsula connects to the mainland by a tiny land bridge. Park your army there, and enemy armies (like Nomad hordes) will suffer massive attrition and combat penalties attacking you.\n    *   **Merchant Republic:** This is an S-Tier spot to form a Merchant Republic if you want to play a trade game.\n\n### 3. The \"Archduchy of the Pyrenees\" (Barcelona)\nA militaristic buffer state between France and the Muslims in Spain.\n*   **Target Duchies:** **Barcelona**, **Valencia**, **Toulouse** (or Gascogne).\n*   **The Crown Jewel:** **The County of Barcelona**.\n*   **Strategy:** Start as the Count of Barcelona in 867 or 1066.\n*   **Why it’s good:**\n    *   **Visigothic Codes:** If you start early, you can access Absolute Cognatic succession (women inherit equally) long before anyone else.\n    *   **Expansion:** You have the \"Reconquista\" or Holy War CBs against the south (rich Muslim lands) but the safety of Christian allies to the North.\n    *   **Custom Name:** \"Archduchy of Catalonia\" or \"Archduchy of Aragon.\"\n\n### 4. The \"Archduchy of the Islands\" (Sardinia & Corsica)\nThe ultimate \"Tall\" defensive game.\n*   **Target Duchies:** **Sardinia**, **Corsica**, **Mallorca** (Balearic Islands).\n*   **The Crown Jewel:** **The County of Cagliari** (Sardinia).\n*   **Strategy:** Unite the islands. Stay out of mainland politics.\n*   **Why it’s good:**\n    *   **Gold Mine:** In later patches/DLC, Cagliari has a special event/building for a Gold Mine which provides a lot of passive income.\n    *   **Total Isolation:** The AI is terrible at naval invasions. You can sit on your islands, accumulate wealth, and upgrade your holdings while the mainland burns in wars.\n    *   **Mercenaries:** You can conquer the whole Kingdom of Sardinia & Corsica easily, then just rent out your army as Condottieri for money.\n\n### 5. The \"Archduchy of Babylon\" (Baghdad)\nIf you want to play as a Muslim ruler (or a brave Zoroastrian/Nestorian), this is the center of the world.\n*   **Target Duchies:** **Baghdad**, **Tigris**, **Basra**.\n*   **The Crown Jewel:** **The County of Baghdad**.\n*   **Strategy:** You are usually a vassal of the Abbasids or Seljuks. Rot from within, then declare independence.\n*   **Why it’s good:**\n    *   **The House of Wisdom:** Baghdad contains a unique \"Great Work\" (Wonder) at the start of many dates. It gives insane technology spread bonuses.\n    *   **Silk Road:** The main artery of the Silk Road runs right through Baghdad.\n    *   **Holding Slots:** The region is incredibly developed with high holding slots and high base tax.\n\n### 6. The \"Archduchy of the White Knight\" (Brittany)\nBrittany is unique because it is culturally Celtic, not French, and holds a tight corner of the map.\n*   **Target Duchies:** **Brittany**, **Normandy**, **Anjou**.\n*   **The Crown Jewel:** **The County of Nantes** (Vikings love to raid here for a reason).\n*   **Strategy:** Start as a Breton Duke. Resist the French King.\n*   **Why it’s good:**\n    *   **Chokepoints:** Brittany is a peninsula. It’s easy to defend.\n    *   **Raiding:** If you remain tribal or choose a culture that allows raiding, you are within sailing distance of London, Paris, and Amsterdam.\n    *   **Flavor:** It feels like creating a successor to King Arthur’s realm.\n\n### Summary: The \"High Value\" Counties to Look For\nWhen building your custom Archduchy, try to center your capital in one of these counties because they have **7 Holding Slots** (the max possible):\n1.  **Brugge** (Flanders)\n2.  **Baghdad** (Iraq)\n3.  **Constantinople** (Thrace - Good luck taking it!)\n4.  **Paris** (France)\n5.  **Praha** (Bohemia)\n6.  **Kiev** (Ukraine - Risk of Viking/Mongol attacks)\n7.  **Cairo** (Egypt)\n8.  **Rome** (Italy - You have to kick out the Pope)",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-10T15:15:27.921971+00:00",
+        "updatedAt": "2026-02-10T15:16:43.357891+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c432e-0c85-70e2-a9fe-577fc6f98ba2",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

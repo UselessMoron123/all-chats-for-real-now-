@@ -1,0 +1,65 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : So, I just spawned. What should I do first and where exactly?
+Mode     : direct-battle
+Started  : 2026-07-21 22:18:26
+Updated  : 2026-07-21 22:18:27
+Archived : 2026-09-30 23:06:33
+Messages : 2
+URL      : https://arena.ai/c/019f861b-96b6-7031-95fc-d75160dde615
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-07-21 22:18:27
+Attach   : 2 files attached: 0995c648-8914-4762-b5b9-0eb0d213652d/1784661494582-IMG_20260721_220725.jpg (image/jpeg) https://messages-prod.27c852f3500f38c1e7786e2c9ff9e48f.r2.cloudflarestorage.com/0995c648-8914-4762-b5b9-0eb0d213652d/1784661494582-IMG_20260721_220725.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=b33de61d4f22a31b59b25364ab5037c5%2F20261009%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261009T162738Z&X-Amz-Expires=3600&X-Amz-Signature=988ee5a24b3c849e2505c371b2e0c644e023f4a78714caaec0d43f9a9f415f0a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject; 0995c648-8914-4762-b5b9-0eb0d213652d/1784661496036-IMG_20260721_220742.jpg (image/jpeg) https://messages-prod.27c852f3500f38c1e7786e2c9ff9e48f.r2.cloudflarestorage.com/0995c648-8914-4762-b5b9-0eb0d213652d/1784661496036-IMG_20260721_220742.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=b33de61d4f22a31b59b25364ab5037c5%2F20261009%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261009T162738Z&X-Amz-Expires=3600&X-Amz-Signature=f918422a44cd77b6ddae696a7a2fe133acb8850946075136c63a211fd9ee10fc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
+------------------------------------------------------------
+So, I just spawned. What should I do first and where exactly?
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-07-21 22:18:27
+------------------------------------------------------------
+Welcome to **Oxygen Not Included**! You’ve spawned in a cold biome (likely the Rime asteroid or a Frosty DLC start), which adds a unique challenge: keeping things warm enough to grow food, while most of your water is currently frozen.
+
+Here is exactly what you should do in the first 2-3 cycles:
+
+### 1. Dig Out Your Living Space
+First, use the **Dig (G)** tool. You want to create horizontal "floors" that are 4 tiles high. 
+*   **Where:** Dig out to the left and right of your Printing Pod. This pod provides a little bit of light and a tiny bit of oxygen to start.
+*   **Goal:** Create flat areas for your first rooms.
+
+### 2. Sanitation (The Most Urgent Task)
+If you don't build toilets, your Duplicants will make a mess on the floor, which leads to germs and stress.
+*   **Where:** Dig a room a bit to the side (maybe to the right of the pod).
+*   **What to build:** Go to the **Plumbing** tab and build **2 Outhouses** and **1 Wash Basin**. 
+*   **Pro-Tip:** Make sure the Wash Basin is set to "Direction: Left" (or whichever way they exit) so they are forced to wash their hands after using the toilet.
+
+### 3. Oxygen
+You have some oxygen in the air now, but it will run out fast.
+*   **What to build:** In the **Oxygen** tab, build an **Algae Deoxidizer** near your pod. 
+*   **Power:** You’ll need a **Manual Generator** (hamster wheel) and a **Tiny Battery** (under the **Power** tab) connected with wires to make it run.
+
+### 4. Sleeping
+*   **What to build:** In the **Furniture** tab, build **3 Cots** (one for each Duplicant).
+*   **Where:** Place them together in a room to create a "Barracks," which gives them a morale boost.
+
+### 5. Find Liquid Water
+Looking at your screenshot, that big blue area below you is mostly **Ice**. You can't pump ice!
+*   **Where to look:** Look at the first image, the green area at the very top has a pool of **Liquid Water**. 
+*   **Action:** Dig a path upward toward that green biome. Once you reach the water, build a **Pitcher Pump** (Plumbing tab) over it. Your Duplicants need this liquid water to fill the Wash Basin so they stay clean.
+
+### 6. Food (The Cold Problem)
+You start with some rations (16,000 kcal), but you’ll need more.
+*   **Short term:** Dig into any tiles that have "cracks" in them (Buried Objects). These often contain **Muckroot**, which is free food.
+*   **Long term:** Since you are in a cold area, normal plants like Mealwood might not grow because it's too chilly. Look for **Hexalent** fruit in the surroundings for now while you research heaters.
+
+**Summary of your first dig path:**
+1.  Dig **Right** for a Bathroom.
+2.  Dig **Left** for a Bedroom.
+3.  Dig **Up** to reach that liquid water pool in the green area.
+
+Good luck, and try not to let them hold it in for too long!

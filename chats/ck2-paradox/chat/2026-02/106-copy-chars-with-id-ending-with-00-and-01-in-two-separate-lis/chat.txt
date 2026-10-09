@@ -1,0 +1,763 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+Mode     : direct
+Started  : 2026-02-21 15:46:19
+Updated  : 2026-02-21 15:46:19
+Archived : 2026-09-30 23:27:32
+Messages : 2
+URL      : https://arena.ai/c/019c803c-7874-7231-a405-44ecadf3a5b6
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 15:46:19
+------------------------------------------------------------
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything else
+906900 = {
+	name = "Dog_0"
+	dynasty = 906900
+	religion = zun_pagan
+	culture = dog_culture
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906901 = {
+	name = "Dog_1"
+	dynasty = 906900
+	religion = zun_pagan
+	culture = dog_culture
+	father = 906900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = random_world_bloodline_02
+		}
+		add_spouse = 923301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913300 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 913300
+	religion = zun_pagan
+	culture = afghan
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913301 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 913300
+	religion = zun_pagan
+	culture = afghan
+	mother = 913300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_zun_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913302 = {
+	name = "Defender_2"
+	dynasty = 913300
+	religion = zun_pagan
+	culture = afghan
+	father = 917301
+	mother = 913301
+	2.1.1 = {
+		birth = yes
+		add_spouse = 923302
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913400 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 913400
+	religion = zun_pagan
+	culture = afghan
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913401 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 913400
+	religion = zun_pagan
+	culture = afghan
+	mother = 913400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_zun_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913402 = {
+	name = "Culture_2"
+	dynasty = 913400
+	religion = zun_pagan
+	culture = afghan
+	father = 913501
+	mother = 913401
+	2.1.1 = {
+		birth = yes
+		add_spouse = 913602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913500 = {
+	name = "Inquisitor_0"
+	dynasty = 913500
+	religion = zun_pagan
+	culture = afghan
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913501 = {
+	name = "Inquisitor_1"
+	dynasty = 913500
+	religion = zun_pagan
+	culture = afghan
+	father = 913500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_zun_04
+		}
+		add_spouse = 913401
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913600 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 913600
+	religion = nestorian
+	culture = afghan
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913601 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 913600
+	religion = nestorian
+	culture = afghan
+	mother = 913600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_zun_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913602 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 913600
+	religion = nestorian
+	culture = afghan
+	father = 913701
+	mother = 913601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913603 = {
+	name = "Jewish_3"
+	dynasty = 913600
+	religion = nestorian
+	culture = afghan
+	father = 913402
+	mother = 913602
+	3.1.1 = {
+		birth = yes
+		add_spouse = 923303
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913700 = {
+	name = "Theologic_0"
+	dynasty = 913700
+	religion = zun_pagan
+	culture = afghan
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913701 = {
+	name = "Theologic_1"
+	dynasty = 913700
+	religion = zun_pagan
+	culture = afghan
+	father = 913700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_zun_06
+		}
+		add_spouse = 913601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917300 = {
+	name = "MDuelist_0"
+	dynasty = 917300
+	religion = finnish_pagan
+	culture = finnish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917301 = {
+	name = "MDuelist_1"
+	dynasty = 917300
+	religion = finnish_pagan
+	culture = finnish
+	father = 917300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = duelist_bloodline
+		}
+		add_spouse = 913301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923300 = {
+	name = "FDog_0"
+	female = yes
+	dynasty = 923300
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923301 = {
+	name = "FDog_1"
+	female = yes
+	dynasty = 923300
+	religion = catholic
+	culture = french
+	mother = 923300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_dog_hunter_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923302 = {
+	name = "FDog_2"
+	female = yes
+	dynasty = 923300
+	religion = catholic
+	culture = french
+	father = 906901
+	mother = 923301
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923303 = {
+	name = "FDog_3"
+	female = yes
+	dynasty = 923300
+	religion = catholic
+	culture = french
+	father = 913302
+	mother = 923302
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923304 = {
+	name = "FDog_4"
+	dynasty = 923300
+	religion = catholic
+	culture = french
+	father = 913603
+	mother = 923303
+	4.1.1 = {
+		birth = yes
+		add_spouse = 922604
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 15:46:19
+------------------------------------------------------------
+### List 1: IDs ending with 00
+```
+906900 = {
+	name = "Dog_0"
+	dynasty = 906900
+	religion = zun_pagan
+	culture = dog_culture
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913300 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 913300
+	religion = zun_pagan
+	culture = afghan
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913400 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 913400
+	religion = zun_pagan
+	culture = afghan
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913500 = {
+	name = "Inquisitor_0"
+	dynasty = 913500
+	religion = zun_pagan
+	culture = afghan
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913600 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 913600
+	religion = nestorian
+	culture = afghan
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913700 = {
+	name = "Theologic_0"
+	dynasty = 913700
+	religion = zun_pagan
+	culture = afghan
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917300 = {
+	name = "MDuelist_0"
+	dynasty = 917300
+	religion = finnish_pagan
+	culture = finnish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923300 = {
+	name = "FDog_0"
+	female = yes
+	dynasty = 923300
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+---
+
+### List 2: IDs ending with 01
+```
+906901 = {
+	name = "Dog_1"
+	dynasty = 906900
+	religion = zun_pagan
+	culture = dog_culture
+	father = 906900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = random_world_bloodline_02
+		}
+		add_spouse = 923301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913301 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 913300
+	religion = zun_pagan
+	culture = afghan
+	mother = 913300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_zun_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913401 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 913400
+	religion = zun_pagan
+	culture = afghan
+	mother = 913400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_zun_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913501 = {
+	name = "Inquisitor_1"
+	dynasty = 913500
+	religion = zun_pagan
+	culture = afghan
+	father = 913500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_zun_04
+		}
+		add_spouse = 913401
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913601 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 913600
+	religion = nestorian
+	culture = afghan
+	mother = 913600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_zun_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913701 = {
+	name = "Theologic_1"
+	dynasty = 913700
+	religion = zun_pagan
+	culture = afghan
+	father = 913700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_zun_06
+		}
+		add_spouse = 913601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917301 = {
+	name = "MDuelist_1"
+	dynasty = 917300
+	religion = finnish_pagan
+	culture = finnish
+	father = 917300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = duelist_bloodline
+		}
+		add_spouse = 913301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923301 = {
+	name = "FDog_1"
+	female = yes
+	dynasty = 923300
+	religion = catholic
+	culture = french
+	mother = 923300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_dog_hunter_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+---
+
+### List 3: Everything Else
+```
+913302 = {
+	name = "Defender_2"
+	dynasty = 913300
+	religion = zun_pagan
+	culture = afghan
+	father = 917301
+	mother = 913301
+	2.1.1 = {
+		birth = yes
+		add_spouse = 923302
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913402 = {
+	name = "Culture_2"
+	dynasty = 913400
+	religion = zun_pagan
+	culture = afghan
+	father = 913501
+	mother = 913401
+	2.1.1 = {
+		birth = yes
+		add_spouse = 913602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913602 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 913600
+	religion = nestorian
+	culture = afghan
+	father = 913701
+	mother = 913601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913603 = {
+	name = "Jewish_3"
+	dynasty = 913600
+	religion = nestorian
+	culture = afghan
+	father = 913402
+	mother = 913602
+	3.1.1 = {
+		birth = yes
+		add_spouse = 923303
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923302 = {
+	name = "FDog_2"
+	female = yes
+	dynasty = 923300
+	religion = catholic
+	culture = french
+	father = 906901
+	mother = 923301
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923303 = {
+	name = "FDog_3"
+	female = yes
+	dynasty = 923300
+	religion = catholic
+	culture = french
+	father = 913302
+	mother = 923302
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923304 = {
+	name = "FDog_4"
+	dynasty = 923300
+	religion = catholic
+	culture = french
+	father = 913603
+	mother = 923303
+	4.1.1 = {
+		birth = yes
+		add_spouse = 922604
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

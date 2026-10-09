@@ -1,0 +1,904 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+Mode     : direct
+Started  : 2026-02-21 13:08:28
+Updated  : 2026-02-21 13:08:28
+Archived : 2026-09-30 23:27:52
+Messages : 2
+URL      : https://arena.ai/c/019c7fab-ec4b-7e77-a405-2ebab7c9b25b
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 13:08:28
+------------------------------------------------------------
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything else
+902500 = {
+	name = "Rudolf_0"
+	dynasty = 650
+	religion = catholic
+	culture = german
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902501 = {
+	name = "Rudolf_1"
+	dynasty = 650
+	religion = catholic
+	culture = german
+	father = 902500
+	diplomacy = 6
+	martial = 6
+	stewardship = 6
+	intrigue = 8
+	trait = slothful
+	trait = honest
+	trait = patient
+	trait = flamboyant_schemer
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = rudolph
+		}
+		add_spouse = 906801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902800 = {
+	name = "Otto_0"
+	dynasty = 669
+	religion = catholic
+	culture = german
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902801 = {
+	name = "Otto_1"
+	dynasty = 669
+	religion = catholic
+	culture = german
+	father = 902800
+	dna = rcrfdblvsvv
+	properties = aj000a00000000000000000000000000000000
+	diplomacy = 7
+	martial = 8
+	stewardship = 6
+	intrigue = 8
+	trait = greedy
+	trait = ambitious
+	trait = diligent
+	trait = envious
+	trait = skilled_tactician
+	trait = inspiring_leader
+	disallow_random_traits = yes
+	give_nickname = nick_the_great
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = otto
+		}
+		add_spouse = 918301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904900 = {
+	name = "Friedrich_0"
+	dynasty = 529
+	religion = catholic
+	culture = german
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904901 = {
+	name = "Friedrich_1"
+	dynasty = 529
+	religion = catholic
+	culture = german
+	father = 904900
+	dna = ikigifjeicn
+	properties = 0b00b00000
+	diplomacy = 7
+	martial = 7
+	stewardship = 4
+	intrigue = 7
+	trait = wroth
+	trait = proud
+	trait = diligent
+	trait = cynical
+	trait = grey_eminence
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = barbarossa
+		}
+		add_spouse = 923901
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905500 = {
+	name = "Baudouin_0"
+	dynasty = 724
+	religion = catholic
+	culture = dutch
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905501 = {
+	name = "Baudouin_1"
+	dynasty = 724
+	religion = catholic
+	culture = dutch
+	father = 905500
+	dna = izdlkpmiyat
+	properties = ej0000000000000000
+	diplomacy = 4
+	martial = 5
+	stewardship = 6
+	intrigue = 7
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = baldouin
+		}
+		add_spouse = 918201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906800 = {
+	name = "Duck_0"
+	female = yes
+	dynasty = 906800
+	religion = catholic
+	culture = duck_culture
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906801 = {
+	name = "Duck_1"
+	female = yes
+	dynasty = 906800
+	religion = catholic
+	culture = duck_culture
+	mother = 906800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = random_world_bloodline_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906802 = {
+	name = "Duck_2"
+	dynasty = 906800
+	religion = catholic
+	culture = duck_culture
+	father = 902501
+	mother = 906801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 923902
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918200 = {
+	name = "Byzantium_0"
+	female = yes
+	dynasty = 918200
+	religion = catholic
+	culture = german
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918201 = {
+	name = "Byzantium_1"
+	female = yes
+	dynasty = 918200
+	religion = catholic
+	culture = german
+	mother = 918200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = destroyer_of_byzantium_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918202 = {
+	name = "Byzantium_2"
+	dynasty = 918200
+	religion = catholic
+	culture = german
+	father = 905501
+	mother = 918201
+	2.1.1 = {
+		birth = yes
+		add_spouse = 918302
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918300 = {
+	name = "Northern_0"
+	female = yes
+	dynasty = 918300
+	religion = catholic
+	culture = german
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918301 = {
+	name = "Northern_1"
+	female = yes
+	dynasty = 918300
+	religion = catholic
+	culture = german
+	mother = 918300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = northern_crusade_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918302 = {
+	name = "Northern_2"
+	female = yes
+	dynasty = 918300
+	religion = catholic
+	culture = german
+	father = 902801
+	mother = 918301
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918303 = {
+	name = "Northern_3"
+	female = yes
+	dynasty = 918300
+	religion = catholic
+	culture = german
+	father = 918202
+	mother = 918302
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918304 = {
+	name = "Northern_4"
+	female = yes
+	dynasty = 918300
+	religion = catholic
+	culture = german
+	father = 923903
+	mother = 918303
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918305 = {
+	name = "Northern_5"
+	female = yes
+	dynasty = 918300
+	religion = catholic
+	culture = german
+	father = 918104
+	mother = 918304
+	5.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918306 = {
+	name = "Northern_6"
+	dynasty = 918300
+	religion = catholic
+	culture = german
+	father = 918505
+	mother = 918305
+	6.1.1 = {
+		birth = yes
+		add_spouse = 920806
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923900 = {
+	name = "FWarrior_0"
+	female = yes
+	dynasty = 923900
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923901 = {
+	name = "FWarrior_1"
+	female = yes
+	dynasty = 923900
+	religion = catholic
+	culture = french
+	mother = 923900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_warrior_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923902 = {
+	name = "FWarrior_2"
+	female = yes
+	dynasty = 923900
+	religion = catholic
+	culture = french
+	father = 904901
+	mother = 923901
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923903 = {
+	name = "FWarrior_3"
+	dynasty = 923900
+	religion = catholic
+	culture = french
+	father = 906802
+	mother = 923902
+	3.1.1 = {
+		birth = yes
+		add_spouse = 918303
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 13:08:28
+------------------------------------------------------------
+### List 1: IDs ending with 00
+
+```txt
+902500 = {
+	name = "Rudolf_0"
+	dynasty = 650
+	religion = catholic
+	culture = german
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902800 = {
+	name = "Otto_0"
+	dynasty = 669
+	religion = catholic
+	culture = german
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904900 = {
+	name = "Friedrich_0"
+	dynasty = 529
+	religion = catholic
+	culture = german
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905500 = {
+	name = "Baudouin_0"
+	dynasty = 724
+	religion = catholic
+	culture = dutch
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906800 = {
+	name = "Duck_0"
+	female = yes
+	dynasty = 906800
+	religion = catholic
+	culture = duck_culture
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918200 = {
+	name = "Byzantium_0"
+	female = yes
+	dynasty = 918200
+	religion = catholic
+	culture = german
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918300 = {
+	name = "Northern_0"
+	female = yes
+	dynasty = 918300
+	religion = catholic
+	culture = german
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923900 = {
+	name = "FWarrior_0"
+	female = yes
+	dynasty = 923900
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 2: IDs ending with 01
+
+```txt
+902501 = {
+	name = "Rudolf_1"
+	dynasty = 650
+	religion = catholic
+	culture = german
+	father = 902500
+	diplomacy = 6
+	martial = 6
+	stewardship = 6
+	intrigue = 8
+	trait = slothful
+	trait = honest
+	trait = patient
+	trait = flamboyant_schemer
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = rudolph
+		}
+		add_spouse = 906801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902801 = {
+	name = "Otto_1"
+	dynasty = 669
+	religion = catholic
+	culture = german
+	father = 902800
+	dna = rcrfdblvsvv
+	properties = aj000a00000000000000000000000000000000
+	diplomacy = 7
+	martial = 8
+	stewardship = 6
+	intrigue = 8
+	trait = greedy
+	trait = ambitious
+	trait = diligent
+	trait = envious
+	trait = skilled_tactician
+	trait = inspiring_leader
+	disallow_random_traits = yes
+	give_nickname = nick_the_great
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = otto
+		}
+		add_spouse = 918301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904901 = {
+	name = "Friedrich_1"
+	dynasty = 529
+	religion = catholic
+	culture = german
+	father = 904900
+	dna = ikigifjeicn
+	properties = 0b00b00000
+	diplomacy = 7
+	martial = 7
+	stewardship = 4
+	intrigue = 7
+	trait = wroth
+	trait = proud
+	trait = diligent
+	trait = cynical
+	trait = grey_eminence
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = barbarossa
+		}
+		add_spouse = 923901
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905501 = {
+	name = "Baudouin_1"
+	dynasty = 724
+	religion = catholic
+	culture = dutch
+	father = 905500
+	dna = izdlkpmiyat
+	properties = ej0000000000000000
+	diplomacy = 4
+	martial = 5
+	stewardship = 6
+	intrigue = 7
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = baldouin
+		}
+		add_spouse = 918201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906801 = {
+	name = "Duck_1"
+	female = yes
+	dynasty = 906800
+	religion = catholic
+	culture = duck_culture
+	mother = 906800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = random_world_bloodline_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918201 = {
+	name = "Byzantium_1"
+	female = yes
+	dynasty = 918200
+	religion = catholic
+	culture = german
+	mother = 918200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = destroyer_of_byzantium_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918301 = {
+	name = "Northern_1"
+	female = yes
+	dynasty = 918300
+	religion = catholic
+	culture = german
+	mother = 918300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = northern_crusade_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923901 = {
+	name = "FWarrior_1"
+	female = yes
+	dynasty = 923900
+	religion = catholic
+	culture = french
+	mother = 923900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_warrior_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 3: Everything else
+
+```txt
+906802 = {
+	name = "Duck_2"
+	dynasty = 906800
+	religion = catholic
+	culture = duck_culture
+	father = 902501
+	mother = 906801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 923902
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918202 = {
+	name = "Byzantium_2"
+	dynasty = 918200
+	religion = catholic
+	culture = german
+	father = 905501
+	mother = 918201
+	2.1.1 = {
+		birth = yes
+		add_spouse = 918302
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918302 = {
+	name = "Northern_2"
+	female = yes
+	dynasty = 918300
+	religion = catholic
+	culture = german
+	father = 902801
+	mother = 918301
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918303 = {
+	name = "Northern_3"
+	female = yes
+	dynasty = 918300
+	religion = catholic
+	culture = german
+	father = 918202
+	mother = 918302
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918304 = {
+	name = "Northern_4"
+	female = yes
+	dynasty = 918300
+	religion = catholic
+	culture = german
+	father = 923903
+	mother = 918303
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918305 = {
+	name = "Northern_5"
+	female = yes
+	dynasty = 918300
+	religion = catholic
+	culture = german
+	father = 918104
+	mother = 918304
+	5.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918306 = {
+	name = "Northern_6"
+	dynasty = 918300
+	religion = catholic
+	culture = german
+	father = 918505
+	mother = 918305
+	6.1.1 = {
+		birth = yes
+		add_spouse = 920806
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923902 = {
+	name = "FWarrior_2"
+	female = yes
+	dynasty = 923900
+	religion = catholic
+	culture = french
+	father = 904901
+	mother = 923901
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923903 = {
+	name = "FWarrior_3"
+	dynasty = 923900
+	religion = catholic
+	culture = french
+	father = 906802
+	mother = 923902
+	3.1.1 = {
+		birth = yes
+		add_spouse = 918303
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

@@ -1,0 +1,1085 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : just look at these traits. which are useless?
+
+brawny = {
+	martial = 2
+	diplomacy = 1
+	health = 1
+	c
+Mode     : direct
+Started  : 2026-01-06 10:54:28
+Updated  : 2026-01-06 10:58:22
+Archived : 2026-09-30 22:56:17
+Messages : 6
+URL      : https://arena.ai/c/019b924c-935c-78b4-a668-8a25bb459250
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-01-06 10:54:29
+------------------------------------------------------------
+just look at these traits. which are useless?
+
+brawny = {
+	martial = 2
+	diplomacy = 1
+	health = 1
+	combat_rating = 10
+	sex_appeal_opinion = 5
+	vassal_opinion = 5
+	tribal_opinion = 5
+}
+
+gladiator = {
+	martial = 5
+	intrigue = 2
+	stewardship = -2
+	learning = -4
+	combat_rating = 15
+	general_opinion = -5
+	health = 1
+}
+
+shieldmaiden = {
+	monthly_character_piety = 0.1
+	combat_rating = 10
+	pagan_group_opinion = 5
+	ai_zeal = 10
+}
+
+sturdy = {
+	health = 0.25
+	combat_rating = 2
+}
+
+varangian = {
+	martial = 2
+	diplomacy = 1
+	combat_rating = 10
+	same_opinion = 10
+}
+
+pirate = {
+	monthly_character_prestige = 0.3
+	martial = 1
+	combat_rating = 10
+	norse_pagan_opinion = 15
+	same_opinion = 5
+}
+
+viking = {
+	monthly_character_prestige = 0.3
+	martial = 1
+	combat_rating = 10
+	norse_pagan_opinion = 15
+	same_opinion = 5
+}
+
+crusader = {
+	martial = 2
+	combat_rating = 10
+	church_opinion = 15
+	ai_zeal = 10
+}
+
+crusader_king = {
+	command_modifier = {
+		religious_enemy = 0.3
+	}
+	martial = 3
+	global_levy_size = 0.2
+	combat_rating = 15
+	christian_opinion = 35
+
+	ai_zeal = 20
+}
+
+crusader_queen = {
+	command_modifier = {
+		religious_enemy = 0.3
+	}
+	martial = 3
+	global_levy_size = 0.2
+	combat_rating = 15
+	christian_opinion = 35
+
+	ai_zeal = 20
+}
+
+crowned_by_myself = {
+	monthly_character_prestige = 1.0
+	monthly_character_piety = -0.5
+	church_opinion = -25
+	vassal_opinion = 10
+}
+
+crowned_by_pope = {
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.5
+	church_opinion = 10
+	vassal_opinion = 5
+}
+
+elusive_shadow = {
+	martial = 2
+	intrigue = 9
+	diplomacy = 2
+	stewardship = -1
+	combat_rating = 16
+}
+
+grey_eminence = {
+	martial = -1
+	intrigue = 2
+	diplomacy = 9
+	learning = 2
+	fertility = 0.1
+}
+
+midas_touched = {
+	martial = 2
+	diplomacy = -1
+	stewardship = 9
+	learning = 2
+	fertility = 0.15
+}
+
+misguided_warrior = {
+	martial = 1
+	learning = -1
+	health = 0.5
+	combat_rating = 5
+}
+
+tough_soldier = {
+	martial = 3
+	learning = -1
+	health = 0.5
+	combat_rating = 10
+}
+
+skilled_tactician = {
+	martial = 6
+	intrigue = 1
+	stewardship = 1
+	learning = -1
+	health = 0.5
+	combat_rating = 15
+}
+
+brilliant_strategist = {
+	martial = 9
+	intrigue = 2
+	stewardship = 2
+	learning = -1
+	health = 0.5
+	combat_rating = 20
+}
+
+mastermind_theologian = {
+	intrigue = -1
+	diplomacy = 2
+	stewardship = 2
+	learning = 9
+	fertility = -0.05
+	ai_zeal = 30
+}
+
+bastard = {
+	diplomacy = -1
+	same_opinion = 5
+}
+
+born_in_the_purple = {
+	monthly_character_prestige = 0.5
+	vassal_opinion = 5
+}
+
+homosexual = {
+	sex_appeal_opinion = 30 # Only to those of the same sex
+	vassal_opinion = -5
+	fertility = -0.15
+}
+
+dwarf = {
+	martial = -1
+	combat_rating = -15
+	sex_appeal_opinion = -30
+	same_opinion = 5
+}
+
+attractive = {
+	diplomacy = 1
+	sex_appeal_opinion = 30
+}
+
+genius = {
+	martial = 5
+	intrigue = 5
+	diplomacy = 5
+	stewardship = 5
+	learning = 5
+	combat_rating = 10
+	vassal_opinion = 5
+	ai_rationality = 30
+}
+
+giant = {
+	fertility = -0.20
+	health = -0.5
+	combat_rating = 10
+	sex_appeal_opinion = -5
+	vassal_opinion = 5
+	tribal_opinion = 10
+}
+
+lefthanded = {
+	combat_rating = 15
+	christian_church_opinion = -10
+	muslim_opinion = -10
+	same_opinion = 5
+}
+
+quick = {
+	martial = 3
+	intrigue = 3
+	diplomacy = 3
+	stewardship = 3
+	learning = 3
+	combat_rating = 5
+	ai_rationality = 15
+}
+
+sayyid = {
+	muslim_opinion = 5
+}
+
+strong = {
+	martial = 2
+	diplomacy = 1
+	fertility = 0.1
+	health = 1
+	combat_rating = 10
+	sex_appeal_opinion = 10
+	vassal_opinion = 5
+	tribal_opinion = 10
+}
+
+administrator = {
+	command_modifier = {
+		speed = 0.1
+	}
+	stewardship = 3
+}
+
+architect = {
+	command_modifier = {
+		siege = 0.2
+	}
+	martial = 1
+	stewardship = 2
+	wonder_build_cost_modifier = -0.03
+	wonder_build_time_modifier = -0.05
+}
+
+celibate = {
+	monthly_character_piety = 1
+	fertility = -10.0
+	christian_church_opinion = 5
+	same_opinion = 10
+	opposite_opinion = -5
+	ai_zeal = 30
+}
+
+duelist = {
+	martial = 3
+	combat_rating = 30
+}
+
+game_master = {
+	command_modifier = {
+		narrow_flank = 0.3
+	}
+	martial = 1
+	diplomacy = 2
+}
+
+gardener = {
+	stewardship = 2
+	learning = 1
+}
+
+hedonist = {
+	intrigue = 1
+	diplomacy = 2
+	fertility = 0.2
+	christian_church_opinion = -5
+	same_opinion = 10
+	opposite_opinion = -5
+	ai_zeal = -30
+}
+
+hunter = {
+	command_modifier = {
+		pursue = 0.2
+	}
+	martial = 2
+	diplomacy = 1
+	combat_rating = 10
+}
+
+impaler = {
+	command_modifier = {
+		morale_offence = 0.1
+	}
+	intrigue = 2
+	learning = 1
+	combat_rating = 10
+	ai_honor = -15
+}
+
+mystic = {
+	stewardship = 1
+	learning = 2
+}
+
+master_schemer = {
+	intrigue = 3
+	same_opinion = -5
+}
+
+scholar = {
+	learning = 3
+}
+
+master_seducer/seductress = {
+	intrigue = 2
+	diplomacy = 1
+	sex_appeal_opinion = 50
+}
+
+socializer = {
+	diplomacy = 3
+	sex_appeal_opinion = 10
+}
+
+strategist = {
+	command_modifier = {
+		defence = 0.2
+	}
+	martial = 2
+	stewardship = 1
+}
+
+theologian = {
+	intrigue = 1
+	learning = 2
+}
+
+greedy = {
+	global_tax_modifier = 0.1
+	diplomacy = -1
+	ai_honor = -10
+	ai_ambition = 15
+	ai_greed = 100
+}
+
+lustful = {
+	monthly_character_piety = -0.25
+	intrigue = 1
+	fertility = 0.2
+	christian_church_opinion = -5
+	ai_greed = 20
+	ai_zeal = -10
+}
+
+proud = {
+	monthly_character_prestige = 0.5
+	ai_ambition = 10
+}
+
+wroth = {
+	martial = 3
+	intrigue = -1
+	diplomacy = -1
+	combat_rating = 3
+	ai_rationality = -10
+	ai_honor = -5
+}
+
+charitable = {
+	diplomacy = 3
+	combat_rating = -3
+	church_opinion = 5
+	same_opinion = 5
+	opposite_opinion = -5
+	ai_honor = 10
+	ai_ambition = -15
+	ai_greed = -100
+	ai_zeal = 10
+}
+
+chaste = {
+	monthly_character_piety = 0.5
+	learning = 1
+	fertility = -0.15
+	christian_church_opinion = 5
+	opposite_opinion = -5
+	ai_zeal = 10
+}
+
+diligent = {
+	martial = 1
+	intrigue = 1
+	diplomacy = 1
+	stewardship = 1
+	learning = 1
+	vassal_opinion = 5
+	same_opinion = 5
+	opposite_opinion = -5
+	ai_greed = -10
+	ai_zeal = 10
+}
+
+humble = {
+	monthly_character_piety = 1
+	same_opinion = 5
+	opposite_opinion = -5
+	ai_ambition = -10
+}
+
+kind = {
+	intrigue = -2
+	diplomacy = 2
+	combat_rating = -5
+	vassal_opinion = 5
+	same_opinion = 5
+	opposite_opinion = -5
+	ai_honor = 10
+}
+
+patient = {
+	intrigue = 1
+	diplomacy = 1
+	stewardship = 1
+	learning = 1
+	combat_rating = 5
+	opposite_opinion = -5
+	ai_rationality = 10
+	command_modifier = {
+		defence = 0.2
+	}
+}
+
+temperate = {
+	stewardship = 2
+	church_opinion = 5
+	same_opinion = 5
+	opposite_opinion = -5
+	ai_greed = -20
+	ai_zeal = 10
+}
+
+ambitious = {
+	martial = 2
+	intrigue = 2
+	diplomacy = 2
+	stewardship = 2
+	learning = 2
+	combat_rating = 3
+	same_opinion = -5
+	ambition_opinion = -25 # Against those they want something from
+	ai_ambition = 40
+	ai_zeal = 10
+}
+
+arbitrary = {
+	intrigue = 1
+	stewardship = -2
+	learning = -1
+	vassal_opinion = -5
+	ai_rationality = -20
+	ai_honor = -10
+	ai_zeal = -10
+}
+
+brave = {
+	command_modifier = {
+		morale_defence = 0.1
+	}
+	martial = 2
+	combat_rating = 10
+	vassal_opinion = 5
+	same_opinion = 5
+	opposite_opinion = -5
+}
+
+content = {
+	monthly_character_piety = 0.5
+	intrigue = -1
+	liege_opinion = 25
+	ai_ambition = -40
+	ai_zeal = -10
+}
+
+craven = {
+	command_modifier = {
+		morale_defence = -0.2
+	}
+	martial = -2
+	combat_rating = -10
+	vassal_opinion = -5
+}
+
+cruel = {
+	command_modifier = {
+		morale_offence = 0.1
+	}
+	intrigue = 1
+	diplomacy = -1
+	combat_rating = 3
+	vassal_opinion = -5
+	ai_honor = -5
+	ai_greed = 5
+}
+
+cynical = {
+	opposites = {
+		zealous
+	}
+	monthly_character_piety = -0.2
+	intrigue = 2
+	church_opinion = -5
+	same_opinion = 5
+	opposite_opinion = -5
+	ai_rationality = 10
+	ai_zeal = -100
+}
+
+deceitful = {
+	opposites = {
+		honest
+	}
+	intrigue = 3
+	diplomacy = -2
+	combat_rating = 3
+	opposite_opinion = -5
+	ai_honor = -25
+}
+
+erudite = {
+	learning = 2
+	combat_rating = -2
+	church_opinion = 5
+}
+
+gregarious = {
+	diplomacy = 2
+	sex_appeal_opinion = 5
+	vassal_opinion = 5
+}
+
+honest = {
+	opposites = {
+		deceitful
+	}
+	intrigue = -2
+	diplomacy = 3
+	combat_rating = -2
+	same_opinion = 5
+	opposite_opinion = -5
+	ai_honor = 25
+}
+
+just = {
+	opposites = {
+		arbitrary
+	}
+	stewardship = 2
+	learning = 1
+	vassal_opinion = 5
+	same_opinion = 5
+	opposite_opinion = -5
+	ai_rationality = 20
+	ai_honor = 10
+	ai_zeal = 10
+}
+
+paranoid = {
+	intrigue = 2
+	diplomacy = -1
+	ai_honor = -10
+}
+
+shrewd = {
+	martial = 2
+	intrigue = 2
+	diplomacy = 2
+	stewardship = 2
+	learning = 2
+	combat_rating = 3
+	ai_rationality = 15
+}
+
+shy = {
+	diplomacy = -2
+	combat_rating = -2
+}
+
+stubborn = {
+	diplomacy = -1
+	stewardship = 1
+	combat_rating = 3
+	vassal_opinion = -5
+	ai_ambition = 10
+	ai_zeal = 10
+}
+
+trusting = {
+	intrigue = -2
+	diplomacy = 1
+	combat_rating = -2
+	ai_honor = 10
+}
+
+zealous = {
+	opposites = {
+		cynical
+	}
+	monthly_character_piety = 1
+	martial = 2
+	church_opinion = 5
+	infidel_opinion = -25
+	opposite_opinion = -5
+	ai_rationality = -10
+	ai_zeal = 100
+}
+
+hajjaj = {
+	monthly_character_piety = 0.1
+	muslim_opinion = 5
+}
+
+indian_pilgrim = {
+	monthly_character_piety = 0.1
+	same_religion_opinion = 5
+}
+
+kow_tow_completed = {
+	monthly_character_prestige = -0.1
+	monthly_grace = 4
+}
+
+pilgrim = {
+	monthly_character_piety = 0.1
+	christian_opinion = 5
+}
+
+falconer = {
+	diplomacy = 1
+}
+
+physician = {
+	monthly_character_prestige = 0.25
+	diplomacy = 1
+	learning = 2
+	health = 0.5
+	general_opinion = 5
+}
+
+poet = {
+	diplomacy = 1
+}
+
+baptized_by_pope = {
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.1
+	christian_opinion = 5
+}
+
+bloodthirsty_gods = {
+	monthly_character_piety = 0.3
+	castle_opinion = -15
+	town_opinion = -15
+	tribal_opinion = 15
+	church_opinion = 15
+	same_opinion = 5
+	ai_rationality = -75
+	ai_zeal = 100
+}
+
+faqih = {
+	learning = 3
+	muslim_opinion = 5
+}
+
+heresiarch = {
+	combat_rating = 3
+	infidel_opinion = -15
+	same_religion_opinion = 25
+}
+
+mutazilite = {
+	learning = 5
+}
+
+saoshyant = {
+	combat_rating = 20
+	zoroastrian_opinion = 10
+}
+
+monk = {
+	monthly_character_piety = 0.3
+	christian_opinion = 5
+}
+
+nun = {
+	monthly_character_piety = 0.3
+	christian_opinion = 5
+}
+
+scarred = {
+	monthly_character_prestige = 0.1
+	opposite_opinion = 10
+}
+
+scarred_mid = {
+	combat_rating = 5
+	monthly_character_prestige = 0.15
+	sex_appeal_opinion = 5
+	tribal_opinion = 5
+}
+
+scarred_high = {
+	monthly_character_prestige = 0.2
+	combat_rating = 10
+	sex_appeal_opinion = 10
+	tribal_opinion = 10
+}
+
+adventurer = {
+	martial = 1
+	diplomacy = -1
+	combat_rating = 10
+	global_levy_size = 0.2
+	max_manpower_mult = 0.1
+	ai_ambition = 40
+}
+
+augustus = {
+	monthly_character_prestige = 0.5
+	vassal_opinion = 10
+}
+
+cannibal = {
+	martial = 3
+	general_opinion = -10
+	combat_rating = 10
+	same_opinion = 25
+	ai_rationality = -20
+	ai_honor = -10
+}
+
+immortal = {
+	immortal = yes
+	health = 10
+	taoist_opinion = 25
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-01-06 10:54:29
+------------------------------------------------------------
+Based strictly on the data provided, here are the traits that are "useless," categorized by whether they are simply weak or actively harmful.
+
+### 1. The "Waste of a Slot" Traits (Weakest Bonuses)
+These traits provide technically positive effects, but the numbers are so low compared to the others in the list that they are effectively useless.
+
+*   **Falconer**
+    *   **Stats:** `diplomacy = 1`
+    *   **Verdict:** This is the weakest positive trait on the list. It offers no health, no combat rating, and only a single stat point.
+*   **Poet**
+    *   **Stats:** `diplomacy = 1`
+    *   **Verdict:** Identical to Falconer. Compared to something like `Socializer` (+3 Diplo) or `Grey Eminence` (+9 Diplo), this does almost nothing.
+*   **Kow_tow_completed**
+    *   **Stats:** `monthly_character_prestige = -0.1`, `monthly_grace = 4`
+    *   **Verdict:** This is objectively useless if you are not utilizing the specific "China" mechanic (spending Grace). Without that context, this trait just slowly drains your Prestige for no stat gain.
+
+### 2. The "Actively Harmful" Traits (Net Negatives)
+These traits are "useless" because you would never want them; they make your character strictly worse than a character with no traits at all.
+
+*   **Shy**
+    *   **Stats:** `diplomacy = -2`, `combat_rating = -2`
+    *   **Verdict:** Pure negative. There is no redeeming "upside" opinion modifier or hidden stat boost listed here.
+*   **Craven**
+    *   **Stats:** `martial = -2`, `combat_rating = -10`, `morale_defence = -0.2`, `vassal_opinion = -5`
+    *   **Verdict:** Devastating for a ruler. The morale defense penalty causes armies to route instantly, and the vassal opinion hit causes instability.
+*   **Arbitrary**
+    *   **Stats:** `stewardship = -2`, `learning = -1`, `vassal_opinion = -5` (vs only `intrigue = 1`)
+    *   **Verdict:** You lose 3 total stat points and 5 vassal opinion in exchange for 1 point of Intrigue. A terrible trade.
+*   **Bastard**
+    *   **Stats:** `diplomacy = -1`, `same_opinion = 5`
+    *   **Verdict:** Unless you are surrounded exclusively by other bastards (for the +5 opinion), this is just a permanent -1 Diplomacy penalty.
+
+### 3. The "Trap" Trait
+*   **Crowned_by_myself**
+    *   **Stats:** `monthly_character_prestige = 1.0`, `church_opinion = -25`, `piety = -0.5`
+    *   **Verdict:** While +1 Prestige is nice, `church_opinion = -25` is a massive penalty that will likely lead to excommunication or revolts. The negatives significantly outweigh the prestige gain.
+
+------------------------------------------------------------
+Message  : 3
+Speaker  : User
+Time     : 2026-01-06 10:56:05
+------------------------------------------------------------
+which traits would you give to council, ruler, and wife
+
+------------------------------------------------------------
+Message  : 4
+Speaker  : AI A
+Time     : 2026-01-06 10:56:05
+------------------------------------------------------------
+Based on the raw data provided, here is the optimal distribution of traits for a Ruler, their Council, and their Wife (Spouse).
+
+### 1. The Ruler (The "God-Emperor" Build)
+**Goal:** Maximize total stats, Vassal Opinion (to prevent revolts), and Health (to ensure a long reign).
+
+*   **Immortal:** `Health = 10`. This is the single most powerful trait in the list. You effectively cannot die of old age or sickness.
+*   **Genius:** `+5 to All Stats`. The best overall stat booster.
+*   **Augustus:** `Vassal Opinion = 10`. Essential for keeping the realm stable.
+*   **Brilliant Strategist:** `Martial = 9`. Of all the education traits, this provides the highest combat rating (+20) and great martial for leading armies without the penalties of *Gladiator*.
+*   **Ambitious:** `+2 to All Stats`. Adds a massive +10 total attribute points.
+*   **Diligent:** `+1 to All Stats`. Adds another +5 total attribute points.
+*   **Crusader King:** `Martial = 3`, `Christian Opinion = 35`, `Global Levy Size = 0.2`. The levy size modifier and massive opinion boost make this incredible for military power.
+
+### 2. The Wife (The "Breeder & Stat-Booster")
+**Goal:** Maximize **Fertility** (for heirs), **Genetics** (to pass to heirs), and **Stewardship** (because you get 50% of your spouse's stats, and Stewardship is vital for Demesne limit).
+
+*   **Genius:** For the genetic chance to pass it on and the massive stat boost to the Ruler.
+*   **Strong:** `Fertility = 0.1`, `Health = 1`. Excellent genetic trait.
+*   **Midas Touched:** `Stewardship = 9`. This adds +4.5 Stewardship to the Ruler, likely allowing you to hold another castle personally.
+*   **Hedonist:** `Fertility = 0.2`. Ensures you get an heir quickly.
+*   **Lustful:** `Fertility = 0.2`. Combined with Hedonist, you will have a massive family.
+*   **Attractive:** `Sex_appeal_opinion = 30`. Keeps the ruler happy and is a good genetic trait to pass down.
+
+### 3. The Council (The Specialists)
+These characters only need to be good at **one thing**.
+
+#### **The Marshal (War)**
+*   **Brilliant Strategist:** `Martial = 9`, `Combat Rating = 20`.
+*   **Wroth:** `Martial = 3`.
+*   **Cruel:** `Morale_offence = 0.1`. Makes the army deal more damage to morale.
+*   **Duelist:** `Combat Rating = 30`. Ensures he wins duels and doesn't die in battle.
+
+#### **The Steward (Taxes & Building)**
+*   **Midas Touched:** `Stewardship = 9`.
+*   **Administrator:** `Stewardship = 3`, `Movement Speed = 0.1`.
+*   **Architect:** `Stewardship = 2`, `Build Cost -3%`. Saves you money on construction.
+*   **Greedy:** `Global_tax_modifier = 0.1`. Usually a "bad" personality trait, but on a Steward, it earns you 10% more tax money.
+
+#### **The Chancellor (Diplomacy)**
+*   **Grey Eminence:** `Diplomacy = 9`.
+*   **Socializer:** `Diplomacy = 3`.
+*   **Charitable:** `Diplomacy = 3`.
+*   **Honest:** `Diplomacy = 3`.
+*   **Gregarious:** `Diplomacy = 2`.
+    *   *Note:* A Chancellor with this combo has a Diplomacy score of 20+ from traits alone.
+
+#### **The Spymaster (Intrigue)**
+*   **Elusive Shadow:** `Intrigue = 9`.
+*   **Deceitful:** `Intrigue = 3`.
+*   **Master Schemer:** `Intrigue = 3`.
+*   **Impaler:** `Intrigue = 2`.
+*   **Paranoid:** `Intrigue = 2`.
+
+#### **The Court Chaplain (Learning/Religion)**
+*   **Mastermind Theologian:** `Learning = 9`.
+*   **Mutazilite:** `Learning = 5`. (This is the single highest non-education boost to Learning in your list).
+*   **Faqih:** `Learning = 3`.
+*   **Scholar:** `Learning = 3`.
+    *   *Note:* This combination provides +20 Learning just from traits.
+
+------------------------------------------------------------
+Message  : 5
+Speaker  : User
+Time     : 2026-01-06 10:58:22
+------------------------------------------------------------
+write all suitable taits, no limit
+
+------------------------------------------------------------
+Message  : 6
+Speaker  : AI A
+Time     : 2026-01-06 10:58:22
+------------------------------------------------------------
+Since you asked for **no limit**, we are going to stack every single compatible trait from your list to create the mathematical maximum for each role.
+
+I have resolved "Opposite" traits (e.g., you can't be Kind and Cruel) by picking the one that offers the superior bonus for that specific role.
+
+### 1. The Ruler (The "Immortal God-King")
+**Focus:** Maximize All Stats, Vassal Opinion, Health, and Army Command Modifiers.
+
+**Base & Genetics**
+*   **Immortal** (Health +10)
+*   **Genius** (+5 All Stats, +5 Vassal Op)
+*   **Strong** (+2 Mar, +1 Dip, +1 Health, +5 Vassal Op)
+*   **Quick** (+3 All Stats)
+*   **Shrewd** (+2 All Stats)
+*   **Brawny** (+2 Mar, +1 Dip, +1 Health, +5 Vassal Op)
+*   **Augustus** (+10 Vassal Op, +0.5 Prestige)
+*   **Born_in_the_purple** (+5 Vassal Op)
+
+**Education & Lifestyle**
+*   **Brilliant Strategist** (Martial +9, +20 Combat Rating, +0.5 Health)
+*   **Duelist** (+3 Martial, +30 Combat Rating)
+*   **Hunter** (+2 Mar, +1 Dip, +20% Pursuit speed)
+*   **Strategist** (+2 Mar, +1 Stew, +20% Defence)
+*   **Game Master** (+1 Mar, +2 Dip, +30% Narrow Flank - *Crucial for winning outnumbered battles*)
+*   **Administrator** (+3 Stew, +10% Movement Speed)
+*   **Architect** (+1 Mar, +2 Stew, -3% Build Cost - *Stacking modifiers*)
+*   **Socializer** (+3 Dip)
+*   **Crusader_King** (+3 Mar, +35 Christian Op, +20% Levies, +30% Dmg vs Religious Enemies)
+*   **Varangian** (+2 Mar, +1 Dip, +10 Same Op)
+
+**Personality (Optimized for Opinion & Stats)**
+*   **Ambitious** (+2 All Stats)
+*   **Diligent** (+1 All Stats, +5 Vassal Op)
+*   **Patient** (+1 All Stats, +20% Defence)
+*   **Brave** (+2 Mar, +10 Combat Rating, +10% Morale Defence)
+*   **Just** (+2 Stew, +1 Lrn, +5 Vassal Op)
+*   **Temperate** (+2 Stew)
+*   **Charitable** (+3 Dip)
+*   **Gregarious** (+2 Dip, +5 Vassal Op)
+*   **Kind** (+2 Dip, +5 Vassal Op)
+*   **Zealous** (+2 Mar, +1 Piety/mo - *Better than Cynical for war*)
+
+---
+
+### 2. The Wife (The "Genetic Bank")
+**Focus:** Stewardship (Add to demesne limit), Fertility, Genetics.
+*Note: Your spouse adds 50% of their stats to yours.*
+
+**Genetics & Health**
+*   **Genius** (+5 All Stats)
+*   **Strong** (+1 Health, +10% Fertility)
+*   **Quick** (+3 All Stats)
+*   **Attractive** (+1 Dip, +30 Sex Appeal)
+*   **Immortal** (Ensures you never lose her stats)
+
+**Stats & Fertility**
+*   **Midas Touched** (+9 Stewardship)
+*   **Grey Eminence** (+9 Diplomacy, +10% Fertility)
+*   **Hedonist** (+2 Dip, +20% Fertility)
+*   **Lustful** (+20% Fertility)
+*   **Gardener** (+2 Stew, +1 Lrn)
+*   **Ambitious** (+2 All Stats)
+*   **Diligent** (+1 All Stats)
+*   **Shrewd** (+2 All Stats)
+
+---
+
+### 3. The Marshal (War God)
+**Focus:** Martial Score, Combat Rating, Command Modifiers.
+*Unlike the Ruler, we don't care about Vassal Opinion, so we can use "mean" traits that give high Martial.*
+
+*   **Brilliant Strategist** (Martial +9)
+*   **Gladiator** (Martial +5 - *Best raw martial trait, ignore the negative opinion*)
+*   **Wroth** (Martial +3)
+*   **Cruel** (Morale Offence +10%)
+*   **Impaler** (Morale Offence +10%)
+*   **Brave** (Martial +2, Morale Defence +10%)
+*   **Genius** (Martial +5)
+*   **Quick** (Martial +3)
+*   **Crusader_King** (Martial +3, +30% Dmg vs Religious Enemies)
+*   **Duelist** (Martial +3)
+*   **Hunter** (Martial +2, +20% Pursuit)
+*   **Strategist** (Martial +2, +20% Defence)
+*   **Varangian** (Martial +2)
+*   **Brawny** (Martial +2)
+*   **Zealous** (Martial +2)
+*   **Cannibal** (Martial +3)
+
+---
+
+### 4. The Steward (The Money Maker)
+**Focus:** Stewardship Score, Tax Modifiers, Construction Cost.
+
+*   **Midas Touched** (Stewardship +9)
+*   **Administrator** (Stewardship +3)
+*   **Architect** (Stewardship +2, Build Cost -3%, Build Time -5%)
+*   **Greedy** (Tax Modifier +10% - *Essential for a Steward*)
+*   **Genius** (Stewardship +5)
+*   **Quick** (Stewardship +3)
+*   **Ambitious** (Stewardship +2)
+*   **Temperate** (Stewardship +2)
+*   **Just** (Stewardship +2)
+*   **Gardener** (Stewardship +2)
+*   **Diligent** (Stewardship +1)
+*   **Patient** (Stewardship +1)
+*   **Stubborn** (Stewardship +1)
+*   **Mystic** (Stewardship +1)
+
+---
+
+### 5. The Chancellor ( The Diplomat)
+**Focus:** Diplomacy Score.
+
+*   **Grey Eminence** (Diplomacy +9)
+*   **Genius** (Diplomacy +5)
+*   **Quick** (Diplomacy +3)
+*   **Socializer** (Diplomacy +3)
+*   **Charitable** (Diplomacy +3)
+*   **Honest** (Diplomacy +3)
+*   **Ambitious** (Diplomacy +2)
+*   **Gregarious** (Diplomacy +2)
+*   **Kind** (Diplomacy +2)
+*   **Game Master** (Diplomacy +2)
+*   **Hedonist** (Diplomacy +2)
+*   **Shrewd** (Diplomacy +2)
+*   **Trusting** (Diplomacy +1)
+*   **Attractive** (Diplomacy +1)
+*   **Poet** (Diplomacy +1)
+
+---
+
+### 6. The Spymaster (The Assassin)
+**Focus:** Intrigue Score.
+
+*   **Elusive Shadow** (Intrigue +9)
+*   **Genius** (Intrigue +5)
+*   **Quick** (Intrigue +3)
+*   **Deceitful** (Intrigue +3)
+*   **Master Schemer** (Intrigue +3)
+*   **Ambitious** (Intrigue +2)
+*   **Paranoid** (Intrigue +2)
+*   **Impaler** (Intrigue +2)
+*   **Cynical** (Intrigue +2)
+*   **Master Seducer/Seductress** (Intrigue +2)
+*   **Gladiator** (Intrigue +2)
+*   **Shrewd** (Intrigue +2)
+*   **Cruel** (Intrigue +1)
+*   **Lustful** (Intrigue +1)
+
+---
+
+### 7. The Court Chaplain (The Scholar)
+**Focus:** Learning Score.
+
+*   **Mastermind Theologian** (Learning +9)
+*   **Mutazilite** (Learning +5 - *Massive boost*)
+*   **Genius** (Learning +5)
+*   **Quick** (Learning +3)
+*   **Faqih** (Learning +3)
+*   **Scholar** (Learning +3)
+*   **Ambitious** (Learning +2)
+*   **Erudite** (Learning +2)
+*   **Mystic** (Learning +2)
+*   **Physician** (Learning +2)
+*   **Theologian** (Learning +2)
+*   **Shrewd** (Learning +2)
+*   **Chaste** (Learning +1)
+*   **Diligent** (Learning +1)
+*   **Just** (Learning +1)
+*   **Gardener** (Learning +1)

@@ -1,0 +1,327 @@
+{
+  "exportedAt": "2026-10-09T16:27:50.924Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019de494-3e97-7c57-a1b4-026e6ecc2008",
+  "archivedAt": "2026-09-30 20:26:29.763+00",
+  "evaluation": {
+    "id": "019de494-3e97-7c57-a1b4-026e6ecc2008",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "look at these traits. which 5 of them do you think could be the best/universal combination for any k",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019de494-6138-7908-8487-2ce46f158ae5"
+    ],
+    "archivedAt": "2026-09-30 20:26:29.763+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-05-01 17:27:27.719+00",
+    "updatedAt": "2026-05-01 17:27:30.189075+00",
+    "messages": [
+      {
+        "id": "019de494-6135-7237-9666-6319fb552c5e",
+        "evaluationSessionId": "019de494-3e97-7c57-a1b4-026e6ecc2008",
+        "evaluationId": "019de494-cc43-7697-a901-45e6fbc7e99f",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "look at these traits. which 5 of them do you think could be the best/universal combination for any kind of ruler?\n\nenvious = {\n\tintrigue = 2\n\tdiplomacy = -1\n\tcombat_rating = 3\n\tliege_opinion = -15\n}\n\ngreedy = {\n\tglobal_tax_modifier = 0.1\n\tdiplomacy = -1\n}\n\nlustful = {\n\tmonthly_character_piety = -0.25\n\tintrigue = 1\n\tfertility = 0.2\n}\n\nproud = {\n\tmonthly_character_prestige = 0.5\n}\n\nwroth = {\n\tmartial = 3\n\tintrigue = -1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncharitable = {\n\tdiplomacy = 3\n\tcombat_rating = -3\n}\n\nchaste = {\n\tmonthly_character_piety = 0.5\n\tlearning = 1\n\tfertility = -0.15\n}\n\ndiligent = {\n\tmartial = 1\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tvassal_opinion = 5\n}\n\nhumble = {\n\tmonthly_character_piety = 1.0\n}\n\nkind = {\n\tintrigue = -2\n\tdiplomacy = 2\n\tcombat_rating = -5\n}\n\npatient = {\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tcombat_rating = 5\n}\n\ntemperate = {\n\tstewardship = 2\n}\n\nambitious = {\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3\n}\n\narbitrary = {\n\tintrigue = 1\n\tstewardship = -2\n\tlearning = -1\n}\n\nbrave = {\n\tmartial = 2\n\tcombat_rating = 10\n}\n\ncontent = {\n\tmonthly_character_piety = 0.5\n\tintrigue = -1\n\tliege_opinion = 25\n}\n\ncruel = {\n\tintrigue = 1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncynical = {\n\tmonthly_character_piety = -0.2\n\tintrigue = 2\n}\n\ndeceitful = {\n\tintrigue = 3\n\tdiplomacy = -2\n\tcombat_rating = 3\n}\n\nerudite = {\n\tlearning = 2\n\tcombat_rating = -2\n}\n\ngregarious = {\n\tdiplomacy = 2\n\tsex_appeal_opinion = 5\n}\n\nhonest = {\n\tintrigue = -2\n\tdiplomacy = 3\n\tcombat_rating = -2\n}\n\njust = {\n\tstewardship = 2\n\tlearning = 1\n}\n\nparanoid = {\n\tintrigue = 2\n\tdiplomacy = -1\n}\n\nstubborn = {\n\tdiplomacy = -1\n\tstewardship = 1\n\tcombat_rating = 3\n}\n\nzealous = {\n\tmonthly_character_piety = 1\n\tmartial = 2\n\topinion_against_infidels = -25\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-05-01T17:27:30.173374+00:00",
+        "updatedAt": "2026-05-01T17:27:30.173374+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019de494-6138-7908-8487-2ce46f158ae5",
+        "evaluationSessionId": "019de494-3e97-7c57-a1b4-026e6ecc2008",
+        "evaluationId": "019de494-cc43-7697-a901-45e6fbc7e99f",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019de494-6135-7237-9666-6319fb552c5e"
+        ],
+        "content": "Based on the statistics provided, the best universal combination for a ruler focuses on maximizing state-wide bonuses (like taxes), flat attribute boosts, and vassal management.\n\nHere are the 5 best traits for a universal ruler:\n\n### 1. Ambitious\n*   **Stats:** +2 to Martial, Intrigue, Diplomacy, Stewardship, AND Learning. +3 Combat Rating.\n*   **Why it’s essential:** This is objectively the strongest trait on your list. A +2 bonus to every single primary attribute is an enormous boost to your character’s effectiveness in every facet of the game, from troop count to tax income and plot defense.\n\n### 2. Diligent\n*   **Stats:** +1 to all five attributes; +5 Vassal Opinion.\n*   **Why it’s essential:** Like Ambitious, it boosts every stat. However, the **+5 Vassal Opinion** is what makes it \"universal.\" Keeping your subordinates happy is the most effective way to prevent civil wars and ensure a high tax/levy flow.\n\n### 3. Patient\n*   **Stats:** +1 to Intrigue, Diplomacy, Stewardship, and Learning; +5 Combat Rating.\n*   **Why it’s essential:** It provides a broad stat boost with no negative trade-offs. The +5 Combat Rating is significant for personal survival in duels or leading armies, and the boost to Diplomacy and Stewardship helps with realm stability and wealth.\n\n### 4. Greedy\n*   **Stats:** +10% Global Tax Modifier; -1 Diplomacy.\n*   **Why it’s essential:** Money is power. A flat 10% increase to your entire realm's tax income outweighs the minor penalty of -1 Diplomacy. More gold allows you to hire mercenaries, build infrastructure, and send gifts to disgruntled vassals, more than compensating for the slight dip in social skills.\n\n### 5. Just\n*   **Stats:** +2 Stewardship; +1 Learning.\n*   **Why it’s essential:** Stewardship is arguably the most important stat for a ruler because it increases your personal demesne limit (how many lands you can hold directly). Holding more land yourself makes you more powerful than your vassals. Unlike \"Kind\" or \"Charitable,\" \"Just\" provides these benefits without penalizing your combat or intrigue capabilities.\n\n***\n\n### Summary of the \"Power Build\":\nIf you combine these five, your ruler gains:\n*   **Martial:** +3\n*   **Diplomacy:** +3\n*   **Stewardship:** +6\n*   **Intrigue:** +4\n*   **Learning:** +5\n*   **Global Tax:** +10%\n*   **Vassal Opinion:** +5\n*   **Combat Rating:** +8\n\nThis combination creates a ruler who is wealthy, highly intelligent, capable of holding a large amount of land personally, and respected enough by their vassals to keep the realm stable.",
+        "experimental_attachments": [],
+        "modelId": "019b24bb-5caf-71c3-b854-37d0c7086f21",
+        "createdAt": "2026-05-01T17:27:30.183892+00:00",
+        "updatedAt": "2026-05-01T17:27:40.711162+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 815,
+            "totalTokens": 1440,
+            "usageSource": "provider",
+            "outputTokens": 625,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 0
+          },
+          "p2lConfig": {
+            "eta": 0.1,
+            "beta": 2,
+            "type": "bt-regularized-latency-cost",
+            "alpha": 1,
+            "timing": {
+              "glm-5.1-text": {
+                "ttcs": 73430,
+                "ttft": 39731
+              },
+              "gemini-3-flash": {
+                "ttcs": 15084,
+                "ttft": 7545
+              },
+              "claude-opus-4-6": {
+                "ttcs": 42774,
+                "ttft": 1898
+              },
+              "claude-sonnet-4-6": {
+                "ttcs": 31669,
+                "ttft": 1436
+              },
+              "gpt-5.4-mini-high": {
+                "ttcs": 19306,
+                "ttft": 11878
+              },
+              "gpt-5.2-chat-latest": {
+                "ttcs": 10052,
+                "ttft": 1193
+              },
+              "gemini-3.1-pro-preview": {
+                "ttcs": 34683,
+                "ttft": 21625
+              },
+              "claude-opus-4-5-20251101": {
+                "ttcs": 28881,
+                "ttft": 1877
+              },
+              "claude-opus-4-6-thinking": {
+                "ttcs": 51977,
+                "ttft": 12435
+              },
+              "gpt-5.4-no-system-prompt": {
+                "ttcs": 22695,
+                "ttft": 972
+              },
+              "gpt-5.4-high-no-system-prompt": {
+                "ttcs": 48864,
+                "ttft": 26621
+              },
+              "grok-4.20-beta-0309-reasoning": {
+                "ttcs": 11810,
+                "ttft": 5521
+              },
+              "gemini-3-flash-thinking-minimal": {
+                "ttcs": 9531,
+                "ttft": 2085
+              },
+              "grok-4.20-multi-agent-beta-0309": {
+                "ttcs": 16888,
+                "ttft": 10265
+              },
+              "claude-opus-4-5-20251101-thinking-32k": {
+                "ttcs": 37086,
+                "ttft": 10652
+              }
+            },
+            "pricing": {
+              "glm-5.1-text": {
+                "inputPrice": 0.95,
+                "outputPrice": 0.010105
+              },
+              "gemini-3-flash": {
+                "inputPrice": 0.5,
+                "outputPrice": 0.005103
+              },
+              "claude-opus-4-6": {
+                "inputPrice": 5,
+                "outputPrice": 0.09263
+              },
+              "claude-sonnet-4-6": {
+                "inputPrice": 3,
+                "outputPrice": 0.064832
+              },
+              "gpt-5.4-mini-high": {
+                "inputPrice": 2.5,
+                "outputPrice": 0.052292
+              },
+              "gpt-5.2-chat-latest": {
+                "inputPrice": 1.75,
+                "outputPrice": 0.010976
+              },
+              "gemini-3.1-pro-preview": {
+                "inputPrice": 2,
+                "outputPrice": 0.021722
+              },
+              "claude-opus-4-5-20251101": {
+                "inputPrice": 5,
+                "outputPrice": 0.0618975
+              },
+              "claude-opus-4-6-thinking": {
+                "inputPrice": 5,
+                "outputPrice": 0.1199
+              },
+              "gpt-5.4-no-system-prompt": {
+                "inputPrice": 2.5,
+                "outputPrice": 0.029058
+              },
+              "gpt-5.4-high-no-system-prompt": {
+                "inputPrice": 2.5,
+                "outputPrice": 0.061404
+              },
+              "grok-4.20-beta-0309-reasoning": {
+                "inputPrice": 2,
+                "outputPrice": 0.006101
+              },
+              "gemini-3-flash-thinking-minimal": {
+                "inputPrice": 0.5,
+                "outputPrice": 0.003498
+              },
+              "grok-4.20-multi-agent-beta-0309": {
+                "inputPrice": 2,
+                "outputPrice": 0.040748
+              },
+              "claude-opus-4-5-20251101-thinking-32k": {
+                "inputPrice": 5,
+                "outputPrice": 0.13855
+              }
+            },
+            "threshold": 0.9
+          },
+          "p2lModelData": [
+            {
+              "name": "gemini-3-flash-thinking-minimal-fixed-20251224",
+              "penalty": -0.7067118259183709,
+              "winProb": 0.9026530111740032,
+              "normalizedTtg": 0.18216068108425482,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.052477913971458054,
+              "normalizedInputPrice": 0.1,
+              "normalizedOutputPrice": 0.025247203175748825,
+              "leaderboardCoefficient": 0.61328125
+            },
+            {
+              "name": "gemini-3-flash",
+              "penalty": -0.5787979583934598,
+              "winProb": 0.9239751042211034,
+              "normalizedTtg": 0.1844358547803112,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.18990209156577986,
+              "normalizedInputPrice": 0.1,
+              "normalizedOutputPrice": 0.03683146878383255,
+              "leaderboardCoefficient": 0.65625
+            },
+            {
+              "name": "gemini-3.1-pro-preview",
+              "penalty": 0.16230015608057868,
+              "winProb": 0.9707115040264728,
+              "normalizedTtg": 0.3194539583129465,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.5442853187687197,
+              "normalizedInputPrice": 0.4,
+              "normalizedOutputPrice": 0.15678094550703717,
+              "leaderboardCoefficient": 0.75
+            },
+            {
+              "name": "gpt-5.4-high-no-system-prompt",
+              "penalty": 0.7203224824075743,
+              "winProb": 0.9473144539443717,
+              "normalizedTtg": 0.5441579410901263,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.6700309581938537,
+              "normalizedInputPrice": 0.5,
+              "normalizedOutputPrice": 0.4431901840490797,
+              "leaderboardCoefficient": 0.703125
+            },
+            {
+              "name": "claude-opus-4-6-vertex",
+              "penalty": 0.8456270619309987,
+              "winProb": 0.9707115040264728,
+              "normalizedTtg": 1,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.04777126173516901,
+              "normalizedInputPrice": 1,
+              "normalizedOutputPrice": 0.6685673042223024,
+              "leaderboardCoefficient": 0.75
+            },
+            {
+              "name": "claude-opus-4-6-thinking",
+              "penalty": 1.275107815755728,
+              "winProb": 1,
+              "normalizedTtg": 0.9673647127899012,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.3129797890815736,
+              "normalizedInputPrice": 1,
+              "normalizedOutputPrice": 0.8653915553951642,
+              "leaderboardCoefficient": 0.80859375
+            },
+            {
+              "name": "claude-opus-4-5-20251101-thinking-32k",
+              "penalty": 1.4049118360491972,
+              "winProb": 0.9278599108574496,
+              "normalizedTtg": 0.6466875428124083,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.2681029926254059,
+              "normalizedInputPrice": 1,
+              "normalizedOutputPrice": 1,
+              "leaderboardCoefficient": 0.6640625
+            }
+          ],
+          "routedModelId": "019b5265-8405-799e-87af-199dc9f4ad4a",
+          "fromAutoRouter": true,
+          "routedModelName": "gemini-3-flash-thinking-minimal-fixed-20251224",
+          "optimizerVariant": "default",
+          "routedModelOrganization": "google"
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019de494-cc43-7697-a901-45e6fbc7e99f",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b24bb-5caf-71c3-b854-37d0c7086f21",
+        "organization": "boss-bandit",
+        "provider": "boss-bandit",
+        "publicName": "Max",
+        "name": "boss-bandit",
+        "displayName": "Max",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": {
+              "multipleImages": true
+            }
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true,
+            "image": {
+              "aspectRatios": [
+                "1:1"
+              ]
+            },
+            "search": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

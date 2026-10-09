@@ -1,0 +1,127 @@
+{
+  "exportedAt": "2026-10-09T16:28:57.362Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/daf13aac-6db8-4c16-a7a1-be0c32b058c0",
+  "archivedAt": "2026-09-30 19:09:32.775+00",
+  "evaluation": {
+    "id": "daf13aac-6db8-4c16-a7a1-be0c32b058c0",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "## Character Creation\n\n### Gender Bonuses\n**Base Stats:**\nStrength 5 | Agility 5 | Intelligence 4 | ",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "7bbc27f3-d547-4a33-9da0-498c8b311270"
+    ],
+    "archivedAt": "2026-09-30 19:09:32.775+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": null,
+    "createdAt": "2025-08-22 18:54:25.841+00",
+    "updatedAt": "2025-08-22 18:56:38.816248+00",
+    "messages": [
+      {
+        "id": "4709d23d-581d-4ede-bdbc-68ca58bf8867",
+        "evaluationSessionId": "daf13aac-6db8-4c16-a7a1-be0c32b058c0",
+        "evaluationId": "060c4caa-7d53-4dee-8a0e-8819ad8a2e97",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "## Character Creation\n\n### Gender Bonuses\n**Base Stats:**\nStrength 5 | Agility 5 | Intelligence 4 | Charisma 5\nSkills: Riding 1, Leadership 1\nWeapon Skills: 1H 23, 2H 15, Polearms 20, Archery 15, Crossbows 15, Throwing 19\n\n**Male:** Strength +1, Charisma +1\n**Female:** Agility +1, Intelligence +1\n\n---\n\n## **Father’s Background**\n\n**1. Impoverished Noble**\n- *Male:* Intelligence +1, Charisma +2; Weapon Mastery +1, Power Strike +1, Riding +1, Tactics +1, Leadership +1; 1H +10, 2H +10, Polearms +10; Reputation +100, Honor +3, Denars +100; Shield: Battered Old Round Shield; Choose banner\n- *Female:* Intelligence +2, Charisma +1; Riding +2, Leadership +1, Wound Treatment +1, First Aid +1; 1H +20; Reputation +50, Denars +100; Shield: Battered Old Round Shield; Choose banner\n\n**2. Traveling Merchant**\nIntelligence +2, Charisma +1; Riding +1, Leadership +1, Trade +2, Inventory Management +1; 2H +10; Reputation +20; Denars +250\n\n**3. Veteran Warrior**\nStrength +1, Agility +1, Charisma +1; Ironflesh +1, Weapon Mastery +1, Power Strike +1, Leadership +1, Trainer +1; 1H +10, 2H +15, Polearms +20, Throwing +10; Reputation +10; Denars +50; Shield: Battered Plain Kite Shield\n\n**4. Hunter**\nStrength +1, Agility +2; Power Draw +1, Tracking +1, Path-finding +1, Spotting +1, Athletics +1; 2H +10, Archery +30; Denars +30\n\n**5. Steppe Nomad**\n- *Male:* Strength +1, Agility +1, Intelligence +1; Power Draw +1, Horse Archery +1, Path-finding +1, Riding +2; 1H +10, Archery +30, Throwing +10; Reputation +10; Denars +15; Shield: Battered Plain Cavalry Shield\n- *Female:* Strength +1, Agility +1, Intelligence +1; Wound Treatment +1, First Aid +1, Path-finding +1, Riding +2; 1H +5, Archery +20, Throwing +5; Denars +20; Shield: Battered Plain Cavalry Shield\n\n**6. Thief**\nAgility +3; Power Throw +1, Inventory Management +1, Looting +1, Athletics +2; 1H +20, Throwing +20; Denars +25; Weapon: Throwing Knives\n\n---\n\n## **Childhood**\n\n**1. Page at a Nobleman’s Court**\nStrength +1, Charisma +1; Power Strike +1, Persuasion +1; 1H +15, Polearms +5\n\n**2. Craftsman’s Apprentice**\nStrength +1, Intelligence +1; Engineer +1, Trade +1\n\n**3. Shop Assistant**\nIntelligence +1, Charisma +1; Inventory Management +1, Trade +1\n\n**4. Street Urchin**\nAgility +1, Intelligence +1; Spotting +1, Looting +1; 1H +14, Throwing +5\n\n**5. Steppe Child**\nStrength +1, Agility +1; Horse Archery +1, Power Throw +1; Archery +15; Reputation +5\n\n---\n\n## **Early Adulthood**\n\n**1. Squire / Lady-in-Waiting**\n- *Male:* Strength +1, Agility +1; Riding +1, Weapon Mastery +1, Power Strike +1, Leadership +1; 1H +30, 2H +30, Polearms +30, Archery +10, Crossbows +10, Throwing +10; Items: Ragged Leather Jerkin, Tattered Leather Boots, Rusty Sword, Hunting Crossbow, Bolts, Smoked Fish, Swaybacked Saddle Horse\n- *Female:* Intelligence +1, Charisma +1; Persuasion +1, Riding +1, Wound Treatment +1; 1H +10, Crossbows +15; Denars +100; Items: Sturdy Woolen Dress, Sturdy Woolen Hood, Dagger, Hunting Crossbow, Bolts, Smoked Fish, Spirited Courser\n\n**2. Troubadour**\nCharisma +2; Weapon Mastery +1, Persuasion +1, Leadership +1, Path-finding +1; 1H +25, Crossbows +10; Items: Sturdy Tabard, Ragged Leather Boots, Rusty Sword, Hunting Crossbow, Bolts, Smoked Fish, Swaybacked Saddle Horse\n\n**3. University Student**\nIntelligence +2; Weapon Mastery +1, Surgery +1, Wound Treatment +1, Persuasion +1; 1H +20, Crossbows +20; Items: Sturdy Linen Tunic, Woolen Hose, Rusty Sword, Hunting Crossbow, Bolts, Smoked Fish, Swaybacked Saddle Horse, Random Book\n\n**4. Goods Peddler**\nCharisma +1, Intelligence +1; Riding +1, Trade +1, Path-finding +1, Inventory Management +1; Polearms +15; Denars +90; Items: Leather Jacket, Ragged Leather Boots, Leather Gloves, Fur Hat, Staff, Hunting Crossbow, Bolts, Smoked Fish, Saddle Horse, Sumpter Horse, Wool (x2), Pottery, Linen\n\n**5. Smith**\nStrength +1, Intelligence +1; Weapon Mastery +1, Engineer +1, Tactics +1, Trade +1; 1H +15; Denars +100; Items: Tunic with Vest, Ragged Leather Boots, Well-balanced Sword, Hunting Crossbow, Bolts, Smoked Fish, Saddle Horse, Tools\n\n**6. Game Poacher**\nStrength +1, Agility +1; Power Draw +1, Tracking +1, Path-finding +1, Athletics +1; Polearms +10, Archery +35; Items: Rawhide Coat, Hide Boots, Chipped Axe, Hunting Bow, Barbed Arrows, Dried Meat (x2), Heavy Sumpter Horse, Furs (x2)\n\n---\n\n## **Reason for Becoming an Adventurer**\n\n**1. Personal Revenge:** Strength +2; Power Strike +1\n**2. Loss of a Loved One:** Charisma +2; Ironflesh +1\n**3. Wanderlust:** Agility +2; Path-finding +1\n**4. Forced from Home:** Strength +1, Intelligence +1; Weapon Mastery +1\n**5. Lust for Money and Power:** Agility +1, Intelligence +1; Looting +1\n\n---\n\ncalculate stats and skills of these builds:\n\n# ✅ Male Builds\n1. **Thief → Steppe Child → Game Poacher → Wanderlust**\n2. **Hunter → Steppe Child → Game Poacher → Wanderlust**\n3. **Steppe Nomad (Male) → Steppe Child → Game Poacher → Wanderlust**\n4. **Thief → Street Urchin → Game Poacher → Wanderlust**\n5. **Hunter → Street Urchin → Squire → Revenge**\n6. **Veteran Warrior → Steppe Child → Squire → Revenge**\n7. **Impoverished Noble (Male) → Page → Troubadour → Loss of a Loved One**\n\n---\n\n# ✅ Female Builds\n1. **Hunter → Steppe Child → Game Poacher → Wanderlust**\n2. **Steppe Nomad (Female) → Steppe Child → Game Poacher → Wanderlust**\n3. **Impoverished Noble (Female) → Craftsman’s Apprentice → University Student → Forced from Home**\n4. **Impoverished Noble (Female) → Page → Lady in Waiting → Wanderlust**\n5. **Impoverished Noble (Female) → Page → Lady in Waiting → Loss of a Loved One**\n6. **Impoverished Noble (Female) → Shop Assistant → Lady in Waiting → Forced from Home**",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-08-22T18:54:26.049648+00:00",
+        "updatedAt": "2025-08-22T18:54:26.049648+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "d59aef98-1e99-41b6-9da5-99d79e577fb3",
+        "evaluationSessionId": "daf13aac-6db8-4c16-a7a1-be0c32b058c0",
+        "evaluationId": "060c4caa-7d53-4dee-8a0e-8819ad8a2e97",
+        "role": "assistant",
+        "parentMessageIds": [
+          "4709d23d-581d-4ede-bdbc-68ca58bf8867"
+        ],
+        "content": "Perfect! Let’s crunch the numbers like a blacksmith hammering out stats on an anvil. I’ll calculate **final attributes, skills, weapon proficiencies, reputation/money/items** for each requested build. To keep this clean, I’ll go step by step and present each final build in a neat stat-block.\n\n---\n\n# 🔹 Base (All Characters Before Backgrounds)\n**Stats:** STR 5 | AGI 5 | INT 4 | CHA 5  \n**Skills:** Riding 1, Leadership 1  \n**Weapon Proficiencies:** 1H 23 | 2H 15 | Polearms 20 | Archery 15 | Crossbows 15 | Throwing 19  \n\n---\n\n# ✅ Male Builds\n\n---\n\n### **1. Thief → Steppe Child → Game Poacher → Wanderlust**\n**Base (Male bonus):** STR 6 | AGI 5 | INT 4 | CHA 6  \n\n**Father (Thief):** +AGI 3 → AGI 8  \nSkills: Power Throw +1, Inventory Mgmt +1, Looting +1, Athletics +2  \nWeapons: 1H +20, Throwing +20 → 1H 43, Throw 39  \nItems: Throwing Knives, 25 denars  \n\n**Childhood (Steppe Child):** +STR 1, +AGI 1 → STR 7, AGI 9  \nSkills: Horse Archery +1, Power Throw +1  \nWeapons: Archery +15 → 30  \nRep: +5  \n\n**Early Adult (Game Poacher):** +STR 1, +AGI 1 → STR 8, AGI 10  \nSkills: Power Draw +1, Tracking +1, Path-finding +1, Athletics +1  \nWeapons: Polearms +10 (30), Archery +35 (65)  \nItems: Hide armor set, Axe, Hunting Bow, Barbed Arrows, Dried Meat x2, Heavy Sumpter Horse, Furs x2  \n\n**Reason (Wanderlust):** +AGI 2 → AGI 12  \nSkill: Path-finding +1  \n\n**Final Stats:**  \n- STR 8 | AGI 12 | INT 4 | CHA 6  \n\n**Skills:**  \n- Riding 1  \n- Leadership 1  \n- Power Throw 2  \n- Inventory Mgmt 1  \n- Looting 1  \n- Athletics 3  \n- Horse Archery 1  \n- Power Draw 1  \n- Tracking 1  \n- Path-finding 2  \n\n**Weapons:**  \n- 1H: 43 | 2H: 15 | Polearms: 30  \n- Archery: 65 | Crossbow: 15 | Throwing: 39  \n\n**Rep & Wealth:** Rep +5, Denars ~25 + items  \n\n---\n\n### **2. Hunter → Steppe Child → Game Poacher → Wanderlust**\n**Base (Male):** STR 6 | AGI 5 | INT 4 | CHA 6  \n\n**Father (Hunter):** STR +1, AGI +2 → STR 7, AGI 7  \nSkills: Power Draw +1, Tracking +1, Path-finding +1, Spotting +1, Athletics +1  \nWeapons: 2H +10 (25), Archery +30 (45)  \nDenars 30  \n\n**Steppe Child:** STR +1, AGI +1 → STR 8, AGI 8  \nSkills: Horse Archery +1, Power Throw +1  \nWeapons: Archery +15 → 60  \nRep +5  \n\n**Game Poacher:** STR +1, AGI +1 → STR 9, AGI 9  \nSkills: Power Draw +1 (now 2), Tracking +1 (now 2), Path-finding +1 (now 2), Athletics +1 (now 2)  \nWeapons: Polearms +10 (30), Archery +35 → 95  \nItems: Bow kit, Horse, Furs etc  \n\n**Wanderlust:** +AGI 2 → AGI 11  \nSkill: Path-finding +1 → 3  \n\n**Final Stats:**  \n- STR 9 | AGI 11 | INT 4 | CHA 6  \n\n**Skills:**  \n- Riding 1, Leadership 1  \n- Power Draw 2  \n- Tracking 2  \n- Path-finding 3  \n- Spotting 1  \n- Athletics 2  \n- Horse Archery 1  \n- Power Throw 1  \n\n**Weapons:**  \n- 1H: 23 | 2H: 25 | Polearms: 30  \n- Archery: 95 (absolute eagle-eyed monster archer)  \n- Crossbows 15 | Throwing 19  \n\n**Rep/Wealth:** Rep +5, Denars ~30  \n\n---\n\n### **3. Steppe Nomad (Male) → Steppe Child → Game Poacher → Wanderlust**\n**Base (Male):** STR 6 | AGI 5 | INT 4 | CHA 6  \n\n**Steppe Nomad (M):** STR+1, AGI+1, INT+1 → STR 7, AGI 6, INT 5  \nSkills: Power Draw +1, Horse Archery +1, Path-finding +1, Riding +2  \nWeapons: 1H +10 (33), Archery +30 (45), Throwing +10 (29)  \nRep +10, Denars 15  \n\n**Steppe Child:** STR+1, AGI+1 → STR 8, AGI 7  \nSkills: Horse Archery +1 (2), Power Throw +1  \nWeapons: Archery +15 → 60  \nRep +5  \n\n**Game Poacher:** STR+1, AGI+1 → STR 9, AGI 8  \nSkills: Power Draw +1 (2), Tracking +1, Path-finding +1 (2), Athletics +1  \nWeapons: Polearms +10 (30), Archery +35 → 95  \nItems: Bow kit + Horse etc  \n\n**Wanderlust:** +AGI 2 → AGI 10  \nSkill: Path-finding +1 → 3  \n\n**Final Stats:**  \n- STR 9 | AGI 10 | INT 5 | CHA 6  \n\n**Skills:**  \n- Riding 3  \n- Leadership 1  \n- Power Draw 2  \n- Horse Archery 2  \n- Path-finding 3  \n- Tracking 1  \n- Athletics 1  \n- Power Throw 1  \n\n**Weapons:**  \n- 1H 33 | 2H 15 | Polearms 30  \n- Archery 95 | Crossbow 15 | Throw 29  \n\n**Rep/Wealth:** Rep +15, Denars ~15  \n\n---\n\nSince this is long, I’ll pause here before calculating builds **4–7 for Males** and the **Female batch**.  \nDo you want me to continue systematically through all remaining builds in the same detailed format (like above), or would you prefer a condensed summary table for the rest?",
+        "experimental_attachments": [],
+        "modelId": "4b11c78c-08c8-461c-938e-5fc97d56a40d",
+        "createdAt": "2025-08-22T18:54:26.052485+00:00",
+        "updatedAt": "2025-08-22T18:54:39.081709+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "d68f9464-5a0a-4b66-a87a-8caf8fc990ba",
+        "evaluationSessionId": "daf13aac-6db8-4c16-a7a1-be0c32b058c0",
+        "evaluationId": "060c4caa-7d53-4dee-8a0e-8819ad8a2e97",
+        "role": "user",
+        "parentMessageIds": [
+          "d59aef98-1e99-41b6-9da5-99d79e577fb3"
+        ],
+        "content": "continue",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-08-22T18:56:38.807177+00:00",
+        "updatedAt": "2025-08-22T18:56:38.807177+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "7bbc27f3-d547-4a33-9da0-498c8b311270",
+        "evaluationSessionId": "daf13aac-6db8-4c16-a7a1-be0c32b058c0",
+        "evaluationId": "060c4caa-7d53-4dee-8a0e-8819ad8a2e97",
+        "role": "assistant",
+        "parentMessageIds": [
+          "d68f9464-5a0a-4b66-a87a-8caf8fc990ba"
+        ],
+        "content": "Perfect—time to keep hammering away at these heroic spreadsheets of destiny! I’ll continue with **Male builds 4–7**, then tackle the **Female builds** in the same detailed style.  \n\n---\n\n# ✅ Male Builds (continued)\n\n---\n\n### **4. Thief → Street Urchin → Game Poacher → Wanderlust**\n**Base (Male):** STR 6 | AGI 5 | INT 4 | CHA 6  \n\n**Father (Thief):** +AGI 3 → AGI 8  \nSkills: Power Throw +1, Inventory Mgmt +1, Looting +1, Athletics +2  \nWeapons: 1H +20 (43), Throwing +20 (39)  \nItems: Throwing Knives, 25 denars  \n\n**Childhood (Street Urchin):** +AGI 1, INT +1 → AGI 9, INT 5  \nSkills: Spotting +1, Looting +1 (total Looting 2)  \nWeapons: 1H +14 (57), Throwing +5 (44)  \n\n**Early Adulthood (Game Poacher):** STR+1, AGI+1 → STR 7, AGI 10  \nSkills: Power Draw +1, Tracking +1, Path-finding +1, Athletics +1 (Athletics now 3)  \nWeapons: Polearms +10 (30), Archery +35 (total 50)  \nItems: Bow gear, Horse, Furs  \n\n**Reason (Wanderlust):** +AGI 2 → AGI 12  \nSkills: Path-finding +1 → 2  \n\n**Final Stats:**  \n- STR 7 | AGI 12 | INT 5 | CHA 6  \n\n**Skills:**  \n- Riding 1  \n- Leadership 1  \n- Power Throw 1  \n- Inventory Mgmt 1  \n- Looting 2  \n- Athletics 3  \n- Spotting 1  \n- Power Draw 1  \n- Tracking 1  \n- Path-finding 2  \n\n**Weapons:**  \n- 1H 57 | 2H 15 | Polearms 30  \n- Archery 50 | Crossbow 15 | Throwing 44  \n\n**Rep/Wealth:** none except 25 denars + poacher gear  \n\n---\n\n### **5. Hunter → Street Urchin → Squire → Revenge**\n**Base (Male):** STR 6 | AGI 5 | INT 4 | CHA 6  \n\n**Father (Hunter):** STR+1, AGI+2 → STR 7, AGI 7  \nSkills: Power Draw 1, Tracking 1, Path-finding 1, Spotting 1, Athletics 1  \nWeapons: 2H +10 (25), Archery +30 (45)  \nDenars 30  \n\n**Childhood (Street Urchin):** AGI +1, INT +1 → STR 7, AGI 8, INT 5  \nSkills: Spotting +1 (total 2), Looting +1  \nWeapons: 1H +14 (37), Throwing +5 (24)  \n\n**Early Adulthood (Squire M):** STR+1, AGI+1 → STR 8, AGI 9  \nSkills: Riding+1 (Riding 2), Weapon Mastery +1, Power Strike +1, Leadership+1 (Leadership 2)  \nWeapons: 1H +30 (67), 2H +30 (55), Polearms +30 (50), Archery +10 (55), Crossbow +10 (25), Throw +10 (34)  \nItems: Horse, armor, gear  \n\n**Reason (Revenge):** STR+2 → 10  \nSkills: Power Strike +1 (total 2)  \n\n**Final Stats:**  \n- STR 10 | AGI 9 | INT 5 | CHA 6  \n\n**Skills:**  \n- Riding 2  \n- Leadership 2  \n- Power Strike 2  \n- Power Draw 1  \n- Tracking 1  \n- Path-finding 1  \n- Spotting 2  \n- Athletics 1  \n- Looting 1  \n- Weapon Mastery 1  \n\n**Weapons:**  \n- 1H 67 | 2H 55 | Polearms 50  \n- Archery 55 | Crossbow 25 | Throwing 34  \n\n**Rep/Wealth:** ~30 denars + squire equipment  \n\n---\n\n### **6. Veteran Warrior → Steppe Child → Squire → Revenge**\n**Base (Male):** STR 6 | AGI 5 | INT 4 | CHA 6  \n\n**Father (Veteran Warrior):** STR+1, AGI+1, CHA+1 → STR 7, AGI 6, CHA 7  \nSkills: Ironflesh +1, Weapon Mastery +1, Power Strike +1, Leadership +1 (total 2), Trainer +1  \nWeapons: 1H +10 (33), 2H +15 (30), Polearms +20 (40), Throwing +10 (29)  \nDenars 50, Shield  \n\n**Steppe Child:** STR+1, AGI+1 → STR 8, AGI 7  \nSkills: Horse Archery +1, Power Throw +1  \nWeapons: Archery +15 (30)  \nRep +5  \n\n**Squire (M):** STR+1, AGI+1 → STR 9, AGI 8  \nSkills: Riding +1, Weapon Mastery +1 (total 2), Power Strike +1 (total 2), Leadership+1 (3)  \nWeapons: 1H +30 (63), 2H +30 (60), Polearms +30 (70), Archery +10 (40), Crossbow +10 (25), Throw +10 (39)  \n\n**Revenge:** STR+2 → 11  \nPower Strike +1 → 3  \n\n**Final Stats:**  \n- STR 11 | AGI 8 | INT 4 | CHA 7  \n\n**Skills:**  \n- Riding 1  \n- Leadership 3  \n- Power Strike 3  \n- Ironflesh 1  \n- Trainer 1  \n- Weapon Mastery 2  \n- Horse Archery 1  \n- Power Throw 1  \n\n**Weapons:**  \n- 1H 63 | 2H 60 | Polearms 70  \n- Archery 40 | Crossbows 25 | Throwing 39  \n\n**Rep/Wealth:** Rep +5, Denars ~50 + shield + squire kit  \n\n---\n\n### **7. Impoverished Noble (Male) → Page → Troubadour → Loss of Loved One**\n**Base (Male):** STR 6 | AGI 5 | INT 4 | CHA 6  \n\n**Father (Imp. Noble M):** INT+1, CHA+2 → INT 5, CHA 8  \nSkills: Weapon Mastery +1, Power Strike +1, Riding +1, Tactics +1, Leadership +1  \nWeapons: 1H+10 (33), 2H+10 (25), Polearms+10 (30)  \nItems: Old shield, banner  \nRep +100, Honor +3, Denars +100  \n\n**Childhood (Page):** STR+1, CHA+1 → STR 7, CHA 9  \nSkills: Power Strike +1 (total 2), Persuasion +1  \nWeapons: 1H+15 (48), Polearms+5 (35)  \n\n**Early Adult (Troubadour):** CHA+2 → CHA 11  \nSkills: Weapon Mastery+1 (total 2), Persuasion+1 (total 2), Leadership +1 (total 2), Pathfinding +1  \nWeapons: 1H+25 (73), Crossbow+10 (25)  \nItems: Tabard, sword, crossbow, horse  \n\n**Reason (Loss of Loved One):** CHA+2 → 13  \nSkills: Ironflesh +1  \n\n**Final Stats:**  \n- STR 7 | AGI 5 | INT 5 | CHA 13  \n\n**Skills:**  \n- Riding 2  \n- Leadership 2  \n- Weapon Mastery 2  \n- Power Strike 2  \n- Tactics 1  \n- Persuasion 2  \n- Pathfinding 1  \n- Ironflesh 1  \n\n**Weapons:**  \n- 1H 73 | 2H 25 | Polearms 35  \n- Crossbow 25 | Archery 15 | Throw 19  \n\n**Rep/Wealth:** Rep +120, Honor +3, Denars ~200, noble kit, banner  \n\n---\n\n# ✅ Female Builds\n\n---\n\n### **1. Hunter → Steppe Child → Game Poacher → Wanderlust**\n**Base (Female):** STR 5 | AGI 6 | INT 5 | CHA 5  \n\n**Hunter:** STR+1, AGI+2 → STR 6, AGI 8  \nSkills: Power Draw+1, Tracking+1, Path-finding+1, Spotting+1, Athletics+1  \nWeapons: 2H+10 (25), Archery+30 (45)  \n\n**Child (Steppe):** STR+1, AGI+1 → STR 7, AGI 9  \nSkills: Horse Archery+1, Power Throw+1  \nWeapons: Archery+15 (60)  \nRep+5  \n\n**Poacher:** STR+1, AGI+1 → STR 8, AGI 10  \nSkills: Power Draw+1 (2), Tracking+1 (2), Path-finding+1 (2), Athletics+1 (2)  \nWeapons: Polearms+10 (30), Archery+35 (95)  \n\n**Wanderlust:** +AGI 2 → AGI 12  \nPath-finding+1 → 3  \n\n**Final Stats:**  \n- STR 8 | AGI 12 | INT 5 | CHA 5  \n\nSkills: Power Draw 2, Tracking 2, Path-finding 3, Spotting 1, Athletics 2, Horse Archery 1, Power Throw 1, Riding 1, Leadership 1  \n\nWeapons: 1H 23 | 2H 25 | Polearms 30 | Archery 95 | Crossbow 15 | Throw 19  \n\n---\n\n### **2. Steppe Nomad (F) → Steppe Child → Game Poacher → Wanderlust**\nBase (F): STR 5 | AGI 6 | INT 5 | CHA 5  \n\nNomad (F): STR+1, AGI+1, INT+1 → STR 6, AGI 7, INT 6  \nSkills: Wound Trt+1, First Aid+1, Path-finding+1, Riding+2  \nWeapons: 1H+5 (28), Archery+20 (35), Throw+5 (24)  \n\nChild: STR+1, AGI+1 → STR 7, AGI 8  \nSkills: Horse Archery+1, Power Throw+1  \nWeapons: Archery+15 (50)  \nRep+5  \n\nPoacher: STR+1, AGI+1 → STR 8, AGI 9  \nSkills: Power Draw+1, Tracking+1, Path-finding+1 (2), Athletics+1  \nWeapons: Polearms+10 (30), Archery+35 (85)  \n\nWanderlust: +AGI 2 → AGI 11  \nSkills: Path-finding+1 (3)  \n\n**Final Stats:** STR 8 | AGI 11 | INT 6 | CHA 5  \nSkills: Riding 3, Wound Trt 1, First Aid 1, Tracking 1, Path-finding 3, Athletics 1, Horse Archery 1, Power Throw 1, Power Draw 1, Leadership 1  \n\nWeapons: 1H 28 | Polearms 30 | Archery 85 | Throw 24 | Crossbow 15  \n\n---\n\n### **3. Imp Nob (F) → Craftsman → Univ Student → Forced from Home**\nBase (F): STR 5 | AGI 6 | INT 5 | CHA 5  \n\nImp Noble (F): INT+2, CHA+1 → INT 7, CHA 6  \nSkills: Riding+2 (3), Leadership+1 (2), Wound Treatment+1, First Aid+1  \nWeapons: 1H+20 (43)  \n\nCraftsman Child: STR+1, INT+1 → STR 6, INT 8  \nSkills: Engineer+1, Trade+1  \n\nUniv: INT+2 → INT 10  \nSkills: Weapon Mastery+1, Surgery+1, Wound Trt+1 (2), Persuasion+1  \nWeapons: 1H+20 (63), Xbow+20 (35)  \n\nForced: STR+1, INT+1 → STR 7, INT 11  \nSkills: Weapon Mastery+1 (total 2)  \n\n**Final Stats:** STR 7 | AGI 6 | INT 11 | CHA 6  \nSkills: Riding 3, Leadership 2, Wound Trt 2, First Aid 1, Engineer 1, Trade 1, Surgery 1, Persuasion 1, Weapon Mastery 2  \n\nWeapons: 1H 63 | Xbow 35 | Others as base  \n\n---\n\n### **4. Imp Nob (F) → Page → Lady in Waiting → Wanderlust**\nBase (F): STR 5 | AGI 6 | INT 5 | CHA 5  \n\nImpNobF: INT+2, CHA+1 → INT 7, CHA 6  \nSkills: Riding 2 (3), Leadership 1 (2), Wound Treat 1, First Aid 1  \nWeapons: 1H+20 (43)  \n\nPage: STR+1, CHA+1 → STR 6, CHA 7  \nSkills: Power Strike 1, Persuasion 1  \nWeapons: 1H+15 (58), Polearms+5 (25)  \n\nLady-in-Waiting: INT+1, CHA+1 → INT 8, CHA 8  \nSkills: Persuasion+1 (2), Riding+1 (4), Wound Treat+1 (2)  \nWeapons: 1H+10 (68), Xbow+15 (30)  \n\nReason: Wanderlust → AGI+2 (8), PF+1  \n\n**Final Stats:** STR 6 | AGI 8 | INT 8 | CHA 8  \n\n---\n\n### **5. Imp Nob (F) → Page → Lady in Waiting → Loss of Loved One**\nAs above, but **Loss** instead of Wanderlust: CHA+2, Ironflesh+1  \n\n**Final Stats:** STR 6 | AGI 6 | INT 8 | CHA 10  \nSkills: Persuasion 2, Riding 3, Leadership 2, Wound Treat 2, First Aid 1, Ironflesh 1  \n\nWeapons: 1H 68 | Polearm 25 | Crossbow 30  \n\n---\n\n### **6. Imp Nob (F) → Shop Assistant → Lady in Waiting → Forced**\nBase (F): STR 5 | AGI 6 | INT 5 | CHA 5  \n\nImpNobF: INT 7, CHA 6, Riding 3, Leadership 2, WoundTreat 1, First Aid 1, 1H 43  \n\nShop Assistant: INT+1, CHA+1 → INT 8, CHA 7, Skills: Inv Mgmt+1, Trade+1  \n\nLady (F): INT+1, CHA+1 → INT 9, CHA 8; Skills: Persuasion+1, Riding+1 (4), Wound Trt+1 (2), 1H+10 (53), Xbow+15 (30)  \n\nForced: STR+1, INT+1 → STR 6, INT 10; Skills: Weapon Mastery+1  \n\n**Final Stats:** STR 6 | AGI 6 | INT 10 | CHA 8  \n\n---\n\n# 🎯 Conclusion\n- The **Hunter → Poacher → Wanderlust builds** (both male & female) are devastating archers with 95 Archery and sky-high AGI.  \n- The **Veteran Warrior → Squire → Revenge** path makes a beefy frontline juggernaut with STR 11 and Power Strike 3.  \n- The **Impoverished Noble → Troubadour → Loss** makes a charismatic commander with CHA 13—your future kingmaker.  \n- The **Female Noble → University → Forced** produces the ultimate scholar-general (INT 11), strong in medicine and engineering.  \n\nThis casts a clear set of archetypes: **deadeye archers, indomitable tanks, cunning nobles, and brainy strategists.** A balanced warband would take one of each!",
+        "experimental_attachments": [],
+        "modelId": "4b11c78c-08c8-461c-938e-5fc97d56a40d",
+        "createdAt": "2025-08-22T18:56:38.811818+00:00",
+        "updatedAt": "2025-08-22T18:57:02.254815+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "060c4caa-7d53-4dee-8a0e-8819ad8a2e97",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "4b11c78c-08c8-461c-938e-5fc97d56a40d",
+        "organization": "openai",
+        "provider": "openai",
+        "publicName": "gpt-5-chat",
+        "name": "gpt-5-chat",
+        "displayName": "gpt-5-chat",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

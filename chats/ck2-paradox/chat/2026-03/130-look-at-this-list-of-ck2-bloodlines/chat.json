@@ -1,0 +1,133 @@
+{
+  "exportedAt": "2026-10-09T16:28:01.208Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019d33a8-22cf-74b0-980c-5f4d7eae68ab",
+  "archivedAt": "2026-09-30 20:26:40.836+00",
+  "evaluation": {
+    "id": "019d33a8-22cf-74b0-980c-5f4d7eae68ab",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "look at this list of CK2 bloodlines\nBritish Isles:\nCaradog Catuvellauni (male)\nGwrtheyrn Gwerthrynio",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019d33d2-ca2f-7015-88b0-dcb915a5419b"
+    ],
+    "archivedAt": "2026-09-30 20:26:40.836+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-03-28 08:56:23.869+00",
+    "updatedAt": "2026-03-28 09:42:33.157189+00",
+    "messages": [
+      {
+        "id": "019d33a8-876b-75a7-b24c-dbb8f5b38466",
+        "evaluationSessionId": "019d33a8-22cf-74b0-980c-5f4d7eae68ab",
+        "evaluationId": "019d33a8-a864-7d21-a848-d186ca21e558",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "look at this list of CK2 bloodlines\nBritish Isles:\nCaradog Catuvellauni (male)\nGwrtheyrn Gwerthrynion (male)\nNiall Ua Neill Noigiallaich (male)\nAthelstan of Wessex (male)\nBrian Ua Briain (male)\nWilliam de Normandie (male)\nRichard Plantagenet (male)\nWilliam Wallace (male)\nAncestral Venerated Tanistry Bloodline (female)\nGrand Crusader Bloodline (female)\nBoudica Bloodline (female)\nBlessed Child Bloodline (female)\nProtector Bloodline (female)\nBenefactor Bloodline (female)\nFamily Bloodline (female)\nLegendary Leader Bloodline (female)\n\nScandinavia:\nRagnarr af Munso (male)\nHaraldr Yngling (male)\nBear Bloodline (male)\nNorse \"Defender of Faith\" Bloodline (female)\nNorse \"Culture\" Bloodline (female)\nNorse \"Inquisition\" Bloodline (male)\nNorse \"Jewish\" Bloodline (female)\nNorse \"Theologic\" Bloodline (male)\nAncestral Venerated Bastard Bloodline (female)\nAncestral Venerated Raiding Bloodline (female)\nSea King Bloodline (male)\nSea Queen Bloodline (female)\nNorse Peaceful Bloodline (female)\nNorse Aggressive Bloodline (male)\nLegendary Dog Bloodline (male)\nLegendary Bard Bloodline (female)\n\nFrance:\nMerovech de Merohingi (male)\nCharles Martel (male)\nAlienor de Poitou (female)\nPhilippe Capet (male)\nCatholic \"Defender of Faith\" Bloodline (female)\nCatholic \"Monastic\" Bloodline (male)\nCatholic \"Culture\" Bloodline (female)\nCatholic \"Inquisition\" Bloodline (male)\nCatholic \"Jewish\" Bloodline (female)\nCatholic \"Theologic\" Bloodline (male)\nCatholic \"Wicked\" Bloodline (female)\nLord of Outremer Bloodline (female)\nCatholic Peaceful Bloodline (female)\nCatholic Aggressive Bloodline (male)\nLegendary Bard Bloodline (male)\nLegendary Captor Bloodline (female)\n\nIberian Peninsula:\nYusuf Almoravid (male)\nRodrigo de Vivar (male)\nAlfonso d'Ivrea (male)\nGartzia de Navarra (male)\nAfonso de Bourgogne (male)\nAbu Ya'qub Almohad (male)\nMuhammad Nasrid (male)\nJaume de Barcelona (male)\nDuelist Bloodline (female)\nCrusader Commander Bloodline (female)\nReconquista 1 Bloodline (female)\nReconquista 2 Bloodline (female)\nThe Little Warrior Philosopher (female)\nThe Perfect Knight (female)\nThe Conqueror (female)\nThe Warrior Philosopher (female)\n\nHoly Roman Empire:\nRudolf Welf (male)\nOtto Liudolfinger (male)\nFriedrich von Hohenstaufen (male)\nBaudouin Van Vlaanderen (male)\nDuck Bloodline (female)\nDestroyer of Byzantium Bloodline (female)\nNorthern Crusader Bloodline (female)\nLegendary Warrior Bloodline (female)\n\nItaly:\nMatilde de Canossa (female)\nBohemond de Hauteville (male)\nRoger de Hauteville (male)\nEnrico Dandolo (male)\nCrusade Lord Bloodline (female)\nCrusader Kid Bloodline (female)\nVatican 1 Bloodline (female)\nVatican 2 Bloodline (male)\n\nRomuva:\nRomuva \"Defender of Faith\" Bloodline (female)\nRomuva \"Culture\" Bloodline (female)\nRomuva \"Inquisition\" Bloodline (male)\nRomuva \"Jewish\" Bloodline (female)\nRomuva \"Theologic\" Bloodline (male)\nAncestral Venerated Dueling Bloodline (female)\nLegendary Captor Bloodline (male)\nLegendary Raider Bloodline (male)\n\nSuomenusko:\nHorse Bloodline (male)\nSuomenusko \"Defender of Faith\" Bloodline (female)\nSuomenusko \"Culture\" Bloodline (female)\nSuomenusko \"Inquisition\" Bloodline (male)\nSuomenusko \"Jewish\" Bloodline (female)\nSuomenusko \"Theologic\" Bloodline (male)\nChild of Destiny Bloodline (male)\nLegendary Raider Bloodline (female)\n\nSlavic Union:\nRurik Rurikid (male)\nArpad Arpad (male)\nDyre Oskyldr (male)\nBoleslav Premyslid (male)\nBoleslaw Piast (male)\nDmitar-Zvonimir Trpimirovic (male)\nAlexandr Nevsky (male)\nSlavic \"Defender of Faith\" Bloodline (female)\nSlavic \"Culture\" Bloodline (female)\nSlavic \"Inquisition\" Bloodline (female)\nSlavic \"Jewish\" Bloodline (female)\nSlavic \"Theologic\" Bloodline (female)\nTeuta Bloodline (female)\nSlavic Union 1 Bloodline (male)\nSlavic Union 2 Bloodline (female)\nLegendary Survivor Bloodline (female)\n\nByzantium:\nBasileios I Makedon (male)\nAlexios Komnenos (male)\nOrthodox \"Defender of Faith\" Bloodline (female)\nOrthodox \"Monastic\" Bloodline (female)\nOrthodox \"Culture\" Bloodline (female)\nOrthodox \"Inquisition\" Bloodline (male)\nOrthodox \"Jewish\" Bloodline (female)\nOrthodox \"Theologic\" Bloodline (male)\n\nHellenic:\nHellenic \"Defender of Faith\" Bloodline (female)\nHellenic \"Monastic\" Bloodline (male)\nHellenic \"Culture\" Bloodline (female)\nHellenic \"Inquisition\" Bloodline (male)\nHellenic \"Jewish\" Bloodline (female)\nHellenic \"Theologic\" Bloodline (male)\nRoman Imperial Bloodline 1 (male)\nRoman Imperial Bloodline 2 (female)\n\nArabic:\nSa'id Jannabid (male)\nAbdullah Fatimid (male)\nArwa Sulayhid (female)\nSaladin Ayyubid (male)\nBaibars Bunduqdarid (male)\nCat Bloodline (female)\nThe Architect Bloodline (male)\nThe Castellan Bloodline (male)\nThe Carpenter Bloodline (male)\nThe Builder Bloodline (female)\nPeace Architect Bloodline (female)\nPeace Castellan Bloodline (female)\nPeace Monumental Bloodline (female)\nPhilosopher Bloodline (female)\nIslamic Peaceful Bloodline (female)\nIslamic Aggressive Bloodline (male)\n\nJews:\nMikael Solomonid (male)\nIsrael Restorer 1 Bloodline (male)\nIsrael Restorer 2 Bloodline (female)\nChild of Destiny Bloodline (female)\nHappy Child (female)\nMacabre Banquet (male)\nSilent Killer (female)\nThe Butcher (male)\nThe Dragon King (male)\nMurder/War (male)\nMurder/Peace Bloodline (female)\nMurder/Builder Bloodline (female)\nRuthlessness Bloodline (female)\nJewish Peaceful Bloodline (female)\nJewish Aggressive Bloodline (male)\nLegendary Leader Bloodline (male)\n\nCoptic:\nCoptic \"Defender of Faith\" Bloodline (female)\nCoptic \"Monastic\" Bloodline (female)\nCoptic \"Culture\" Bloodline (female)\nCoptic \"Inquisition\" Bloodline (male)\nCoptic \"Jewish\" Bloodline (female)\nCoptic \"Theologic\" Bloodline (male)\nLegendary Survivor Bloodline (male)\nLegendary Warrior Bloodline (male)\n\nCustom:\nAncestral Venerated Heroic Bloodline (female)\nPlaceholder Bloodline 1 (male)\nPlaceholder Bloodline 2 (male)\nPlaceholder Bloodline 3 (female)\nPlaceholder Bloodline 4 (female)\nPlaceholder Bloodline 5 (male)\nPlaceholder Bloodline 6 (female)\nPlaceholder Bloodline 7 (male)\n\nAfrica:\nMagajiva Daura (female)\nMusa Keita (male)\nElephant Bloodline (male)\nAfrican \"Defender of Faith\" Bloodline (female)\nAfrican \"Culture\" Bloodline (female)\nAfrican \"Inquisition\" Bloodline (male)\nAfrican \"Jewish\" Bloodline (female)\nAfrican \"Theologic\" Bloodline (male)\n\nAztec:\nAztec \"Defender of Faith\" Bloodline (male)\nAztec \"Culture\" Bloodline (female)\nAztec \"Inquisition\" Bloodline (male)\nAztec \"Jewish\" Bloodline (female)\nAztec \"Theologic\" Bloodline (male)\nBloodthirsty 1 Bloodline (male)\nBloodthirsty 2 Bloodline (female)\nLegendary Eagle Hunter Bloodline (female)\n\nCentral Asia:\nMuhan Ashina (male)\nKubrat Dulo (male)\nSabuktigin Ghaznavid (male)\nSeljuk Seljuk (male)\nTemujin Borjigin (male)\nOsman Ottoman (male)\nTimur Timurid (male)\nTengri \"Defender of Faith\" Bloodline (female)\nTengri \"Culture\" Bloodline (female)\nTengri \"Inquisition\" Bloodline (female)\nTengri \"Jewish\" Bloodline (female)\nTengri \"Theologic\" Bloodline (female)\nAncestral Venerated Sky Burial Bloodline (female)\nAncestral Venerated Mercenary Bloodline (female)\nChinese Imperial Bloodline (female)\nLegendary Eagle Bloodline (male)\n\nPersia:\nErdewan Karen-Pahlav (male)\nSasan Sassanid (male)\nMirian Khosroviani (male)\nBagrat Bagrationi (male)\nBahram Mihran (male)\nMardavij Ziyarid (male)\nHedgehog Bloodline (female)\nSaoshyant 1 Bloodline (male)\nSaoshyant 2 Bloodline (female)\nPhalaris Bloodline (female)\nBenevolence Bloodline (female)\nZoroastrian Peaceful Bloodline (female)\nZoroastrian Aggressive Bloodline (male)\nAlexander Bloodline (female)\nLegendary Soldier Bloodline (female)\nLegendary Commander Bloodline (female)\n\nNestorian:\nNestorian \"Defender of Faith\" Bloodline (female)\nNestorian \"Culture\" Bloodline (female)\nNestorian \"Monastic\" Bloodline (female)\nNestorian \"Inquisition\" Bloodline (male)\nNestorian \"Jewish\" Bloodline (female)\nNestorian \"Theologic\" Bloodline (male)\nLegendary Soldier Bloodline (male)\nLegendary Commander Bloodline (male)\n\nZun:\nDog Bloodline (male)\nZun \"Defender of Faith\" Bloodline (female)\nZun \"Culture\" Bloodline (female)\nZun \"Inquisition\" Bloodline (male)\nZun \"Jewish\" Bloodline (female)\nZun \"Theologic\" Bloodline (male)\nDuelist Bloodline (male)\nLegendary Dog Hunter Bloodline (female)\n\nTibet:\nSongtsen Gampo (male)\nRed Panda Bloodline (female)\nBon \"Defender of Faith\" Bloodline (male)\nBon \"Culture\" Bloodline (female)\nBon \"Inquisition\" Bloodline (male)\nBon \"Jewish\" Bloodline (female)\nBon \"Theologic\" Bloodline (male)\nImmortal Bloodline (female)\n\nIndia:\nGopala Pala (male)\nIrâcêntira Chola (male)\nTughluq Tughluq (male)\nChakravartin 1 Bloodline (male)\nChakravartin 2 Bloodline (female)\nHindu Peaceful Bloodline (female)\nHindu Aggressive Bloodline (female)\nAshoka Bloodline (female)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-28T08:56:24.437086+00:00",
+        "updatedAt": "2026-03-28T08:56:24.437086+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d33a8-8771-73fe-a57d-a78220159105",
+        "evaluationSessionId": "019d33a8-22cf-74b0-980c-5f4d7eae68ab",
+        "evaluationId": "019d33a8-a864-7d21-a848-d186ca21e558",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d33a8-876b-75a7-b24c-dbb8f5b38466"
+        ],
+        "content": "I have taken a look at your list of Crusader Kings II (CK2) bloodlines! This is a massive and very comprehensive catalog, mostly drawing from the mechanics introduced in the **Holy Fury** DLC. \n\nLooking at how this is structured and the specific gender tags `(male)` and `(female)` assigned to each, it looks like either a data-dump from the game files, a list from a specific massive overhaul mod, or a record of a very long and wild specific playthrough.\n\nHere are a few interesting patterns and observations about your list:\n\n### 1. The Mix of Historical and Forged Bloodlines\nYou have a great categorization here that perfectly captures the two main types of CK2 bloodlines:\n*   **Historical Founders:** Characters who start the game with a bloodline or get one through a specific historical event. You have the famous men (Ragnarr af Munso, Temujin Borjigin, William de Normandie, Saladin) and the famous historical women (Matilde de Canossa, Magajiva Daura, Alienor de Poitou, Boudica).\n*   **Dynamic/Forged Bloodlines:** These are the ones players earn through gameplay, such as the *Child of Destiny*, *Alexander Bloodline*, *Immortal Bloodline*, and the various *Builder/Murder/Peace* bloodlines from the \"Forge a Bloodline\" ambition.\n\n### 2. The Animal Kingdom is Represented\nCK2 is famous for its absurd hidden events, and they are well-represented here! You've listed:\n*   **Bear Bloodline** (Scandinavia)\n*   **Duck Bloodline** (Holy Roman Empire)\n*   **Cat Bloodline** (Arabic)\n*   **Elephant Bloodline** (Africa)\n*   **Hedgehog Bloodline** (Persia)\n*   **Red Panda Bloodline** (Tibet)\n*   **Dog Bloodline** (Zun)\n\n### 3. The \"Forge a Bloodline\" Variations\nUnder almost every religious/cultural category, you have variations like:\n*   `[Religion] \"Defender of Faith\" Bloodline`\n*   `[Religion] \"Culture\" Bloodline`\n*   `[Religion] \"Theologic\" Bloodline`\n*   `[Religion] \"Jewish\" Bloodline`\n\nIn the game files, these correspond to the specific variations of the \"Forge a Bloodline\" ambition. For example, if a character with a specific religion or sympathy (like Sympathy for Judaism) completes the ambition by building temples or fighting holy wars, the game generates a dynamically named bloodline fitting these exact categories. \n\n### 4. Bloodline Transmission (Male vs. Female)\nThe fact that you have specifically tagged `(male)` and `(female)` is very important for CK2 gameplay. \n*   **Male-founded bloodlines** usually only pass down through patrilineal (standard) marriages. \n*   **Female-founded bloodlines** usually only pass down through matrilineal marriages. \n*   If a player wants to \"stack\" all these bloodlines into one super-character (the famous CK2 eugenics program), knowing the gender of the founder and the transmission rules is the most important part of the puzzle.\n\n***\n\n**How can I help you with this list?**\nSince you just asked me to look at it, I'm not sure what your goal is! Let me know if you want to:\n1.  **Know how to unlock specific ones:** (e.g., \"How do I get the Duck bloodline?\" or \"How do I trigger Child of Destiny?\")\n2.  **Modding:** Are you trying to write a custom mod to add these to a character, and need help with the event IDs or code?\n3.  **Bloodline Stacking Strategy:** Do you want advice on how to breed multiple of these bloodlines into a single heir?\n4.  **Formatting:** Do you need this list alphabetized, converted into a spreadsheet (CSV format), or sorted purely by gender?",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-03-28T08:56:24.441496+00:00",
+        "updatedAt": "2026-03-28T08:57:00.763885+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d33d2-ca2c-7f78-8e02-9bf7d48bae46",
+        "evaluationSessionId": "019d33a8-22cf-74b0-980c-5f4d7eae68ab",
+        "evaluationId": "019d33a8-a864-7d21-a848-d186ca21e558",
+        "role": "user",
+        "parentMessageIds": [
+          "019d33a8-8771-73fe-a57d-a78220159105"
+        ],
+        "content": "initially it was just a list. here i tried to group them geografically (is if they historically could meet each other). but im not sure with these legendary, animal, not-religiously-stated bloodlines",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-28T09:42:33.147776+00:00",
+        "updatedAt": "2026-03-28T09:42:33.147776+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d33d2-ca2f-7015-88b0-dcb915a5419b",
+        "evaluationSessionId": "019d33a8-22cf-74b0-980c-5f4d7eae68ab",
+        "evaluationId": "019d33a8-a864-7d21-a848-d186ca21e558",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d33d2-ca2c-7f78-8e02-9bf7d48bae46"
+        ],
+        "content": "Ah, that makes perfect sense! If you were trying to group them geographically, that completely explains why you felt unsure about the legendary, animal, and generic \"forged\" bloodlines. \n\nYou ran into this problem because **CK2 has two completely different types of bloodlines:**\n1.  **Historical Bloodlines:** These are hard-coded to specific historical figures (like Rurik, Saladin, or Charlemagne). Your geographic grouping for these is actually *excellent* and very accurate.\n2.  **Dynamic Bloodlines:** These are generated by the game engine through events, ambitions, or absurd game rules. **They have no fixed geography.** A character in India can get the exact same \"Silent Killer\" or \"Immortal\" bloodline as a character in France.\n\nBy forcing the dynamic bloodlines into geographic regions (like putting the Duck bloodline in the HRE, or the Cat bloodline in Arabia), it makes the list feel a bit random. \n\nHere is how you should regroup those \"unsure\" bloodlines to make your list perfectly clean and logical. Remove these from the geographic regions, and put them into these new global categories:\n\n### 1. The Animal Bloodlines (The Absurdities)\n*These only appear if you turn on \"Animal Kingdoms\" in the game rules, or through very rare supernatural events. They can spawn anywhere on the map.*\n*   Bear Bloodline\n*   Duck Bloodline\n*   Cat Bloodline\n*   Dog Bloodline\n*   Elephant Bloodline\n*   Red Panda Bloodline\n*   Hedgehog Bloodline\n\n### 2. \"Forge a Bloodline\" Ambitions (Dynamic)\n*Any character with 5,000 Prestige can take the \"Forge a Bloodline\" ambition. Depending on what they do over the next few years, they get one of these. They belong in a \"Global/Player-Created\" category.*\n*   **The Murder/Cruelty Paths:** Macabre Banquet, Silent Killer, The Butcher, The Dragon King, Murder/War, Murder/Peace, Murder/Builder, Ruthlessness, Phalaris Bloodline *(gained by using the Brazen Bull artifact)*.\n*   **The Builder Paths:** The Architect, The Castellan, The Carpenter, The Builder.\n*   **The Peace Paths:** Peace Architect, Peace Castellan, Peace Monumental, Philosopher, Benevolence.\n*   **The War/Combat Paths:** Duelist, The Conqueror, The Perfect Knight, The Warrior Philosopher, The Little Warrior Philosopher.\n*   **The Family Path:** Family Bloodline, Happy Child.\n\n### 3. Warrior Lodge / Legendary Gatherings\n*If a character joins a Pagan Warrior Lodge (like the Wolf Warriors or the Champions of Perun) and fills up the legendary bar, they go on a journey. If they survive, they found one of these. They are tied to Pagan religions, not regions.*\n*   Legendary Leader Bloodline\n*   Legendary Warrior Bloodline\n*   Legendary Captor Bloodline\n*   Legendary Survivor Bloodline\n*   Legendary Raider Bloodline\n*   Legendary Bard Bloodline\n*   Legendary Dog Hunter Bloodline\n*   Legendary Eagle Hunter Bloodline\n*   Legendary Soldier / Commander Bloodlines\n\n### 4. Global Supernatural & Event Bloodlines\n*These are triggered by incredibly rare random events that can happen to literally anyone on the map.*\n*   **Child of Destiny Bloodline:** (A baby is born with insane stats and conquers a random kingdom).\n*   **Immortal Bloodline:** (Character completes the incredibly difficult immortality event chain).\n*   **Alexander Bloodline:** (A powerful emperor finds the tomb of Alexander the Great and claims descent).\n*   **Blessed Child Bloodline:** (Religious event).\n\n### 5. Formable Titles & Decisions\n*These require you to conquer specific regions or meet specific goals, but anyone from any region can theoretically do it.*\n*   **Crusader/Vatican Bloodlines:** Grand Crusader, Benefactor, Crusader Commander, Crusader Kid, Vatican 1 & 2.\n*   **Imperial Resurgence:** Roman Imperial 1 & 2, Chinese Imperial, Destroyer of Byzantium.\n*   **Religious/Cultural Champions:** Israel Restorer 1 & 2, Saoshyant (Zoroastrian), Chakravartin (Indian), Slavic Union 1 & 2, Outremer Bloodline (Catholic in Middle East), Reconquista (Iberia).\n\n### A Note on the \"Religion\" Bloodlines\nYou listed things like `Orthodox \"Jewish\" Bloodline` or `Norse \"Defender of Faith\" Bloodline`. \nIn the game, if a character completes the \"Forge a Bloodline\" ambition by winning 15 holy wars or building 10 temples, the game slaps their religion on the front of the bloodline. So, \"Norse Jewish\" isn't a historical group of Jewish Vikings—it just means a Norse character who secretly had sympathy for the Jewish religion forged a bloodline! You can safely group all of these under **\"Religious Forged Bloodlines\"** rather than typing them all out for every single region.\n\n### Summary\nIf you pull all those animals, legendary warriors, and custom-forged bloodlines out of your geographic lists and put them in these global categories, your geographic list will be **100% historically accurate** to the actual historical figures that existed in the British Isles, France, Scandinavia, etc.!",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-03-28T09:42:33.153754+00:00",
+        "updatedAt": "2026-03-28T09:43:15.213792+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019d33a8-a864-7d21-a848-d186ca21e558",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3.1-pro-preview",
+        "name": "gemini-3.1-pro-preview",
+        "displayName": "gemini-3.1-pro-preview",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

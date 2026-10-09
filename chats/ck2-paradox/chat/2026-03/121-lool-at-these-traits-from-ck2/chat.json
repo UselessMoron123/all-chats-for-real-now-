@@ -1,0 +1,247 @@
+{
+  "exportedAt": "2026-10-09T16:28:03.325Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019d1008-3095-780f-917d-07218a72fba7",
+  "archivedAt": "2026-09-30 20:22:48.332+00",
+  "evaluation": {
+    "id": "019d1008-3095-780f-917d-07218a72fba7",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "lool at these traits from ck2\n\nbrawny = {\n\tmartial = 2\n\tdiplomacy = 1\n\thealth = 1\n\tcombat_rating = 1",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019d101b-78aa-7144-b5ca-cac16d6504fa"
+    ],
+    "archivedAt": "2026-09-30 20:22:48.332+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-03-21 11:49:18.798+00",
+    "updatedAt": "2026-03-21 12:09:27.783383+00",
+    "messages": [
+      {
+        "id": "019d1009-084b-7d5e-ac23-5c1043be0022",
+        "evaluationSessionId": "019d1008-3095-780f-917d-07218a72fba7",
+        "evaluationId": "019d103a-7365-7cf2-8ac7-d8c6a00280f4",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "lool at these traits from ck2\n\nbrawny = {\n\tmartial = 2\n\tdiplomacy = 1\n\thealth = 1\n\tcombat_rating = 10\n\tsex_appeal_opinion = 5\n\tvassal_opinion = 5\n\ttribal_opinion = 5\n}\n\nshieldmaiden = {\n\tmonthly_character_piety = 0.1\n\tcombat_rating = 10\n\tpagan_group_opinion = 5\n}\n\nvarangian = {\n\tmartial = 2\n\tdiplomacy = 1\n\tcombat_rating = 10\n}\n\npirate = {\n\tmonthly_character_prestige = 0.3\n\tmartial = 1\n\tcombat_rating = 10\n}\n\nravager = {\n\tmonthly_character_prestige = 0.4\n\tmartial = 2\n\tcombat_rating = 20\n}\n\nsea_king = {\n\tmonthly_character_prestige = 0.5\n\tmartial = 3\n\tcombat_rating = 20\n}\n\nsea_queen = {\n\tmonthly_character_prestige = 0.5\n\tmartial = 3\n\tcombat_rating = 20\n}\n\nviking = {\n\tmonthly_character_prestige = 0.3\n\tmartial = 1\n\tcombat_rating = 10\n}\n\ncrusader = {\n\tmartial = 2\n\tcombat_rating = 10\n}\n\ncrusader_king = {\n\tmartial = 3\n\tglobal_levy_size = 0.2\n\tcombat_rating = 15\n\tsame_religion_opinion = 35\n\t\treligious_enemy = 0.3\n}\n\ncrusader_queen = {\n\tmartial = 3\n\tglobal_levy_size = 0.2\n\tcombat_rating = 15\n\tsame_religion_opinion = 35\n\t\treligious_enemy = 0.3\n}\n\nelusive_shadow = {\n\tmartial = 2\n\tintrigue = 9\n\tdiplomacy = 2\n\tstewardship = -1\n\tcombat_rating = 16\n}\n\ngrey_eminence = {\n\tmartial = -1\n\tintrigue = 2\n\tdiplomacy = 9\n\tlearning = 2\n\tfertility = 0.1\n}\n\nmidas_touched = {\n\teducation = yes\n\tattribute = stewardship\n\n\tmartial = 2\n\tdiplomacy = -1\n\tstewardship = 9\n\tlearning = 2\n\tfertility = 0.15\n}\n\nmisguided_warrior = {\n\tmartial = 1\n\tlearning = -1\n\thealth = 0.5\n\tcombat_rating = 5\n}\n\nbrilliant_strategist = {\n\tmartial = 9\n\tintrigue = 2\n\tstewardship = 2\n\tlearning = -1\n\thealth = 0.5\n\tcombat_rating = 20\n}\n\nmastermind_theologian = {\n\tintrigue = -1\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 9\n\tfertility = -0.05\n}\n\nattractive = {\n\tdiplomacy = 1\n\tsex_appeal_opinion = 30\n}\n\ngenius = {\n\tmartial = 5\n\tintrigue = 5\n\tdiplomacy = 5\n\tstewardship = 5\n\tlearning = 5\n\tcombat_rating = 10\n\tvassal_opinion = 5\n}\n\ngiant = {\n\tfertility = -0.20\n\thealth = -0.5\n\tcombat_rating = 10\n\tsex_appeal_opinion = -5\n\tvassal_opinion = 5\n\ttribal_opinion = 10\n}\n\nlefthanded = {\n\tcombat_rating = 15\n\tchristian_church_opinion = -10\n\tmuslim_opinion = -10\n\tsame_opinion = 5\n}\n\nquick = {\n\tmartial = 3\n\tintrigue = 3\n\tdiplomacy = 3\n\tstewardship = 3\n\tlearning = 3\n\tcombat_rating = 5\n}\n\nsaoshyant_descendant = {\n\tzoroastrian_opinion = 5\n}\n\nsayyid = {\n\tmuslim_opinion = 5\n}\n\nstrong = {\n\tmartial = 2\n\tdiplomacy = 1\n\tfertility = 0.1\n\thealth = 1\n\tcombat_rating = 10\n\tsex_appeal_opinion = 10\n\tvassal_opinion = 5\n\ttribal_opinion = 10\n}\n\nadministrator = {\n\tstewardship = 3\n}\n\narchitect = {\n\tmartial = 1\n\tstewardship = 2\n}\n\ncelibate = {\n\tmonthly_character_piety = 1\n\tfertility = -10.0\n}\n\nduelist = {\n\tmartial = 3\n\tcombat_rating = 30\n}\n\ngame_master = {\n\tmartial = 1\n\tdiplomacy = 2\n}\n\ngardener = {\n\tstewardship = 2\n\tlearning = 1\n}\n\nhedonist = {\n\tintrigue = 1\n\tdiplomacy = 2\n\tfertility = 0.2\n}\n\nhunter = {\n\tmartial = 2\n\tdiplomacy = 1\n\tcombat_rating = 10\n}\n\nimpaler = {\n\tintrigue = 2\n\tlearning = 1\n\tcombat_rating = 10\n}\n\nmystic = {\n\tstewardship = 1\n\tlearning = 2\n}\n\nmaster_schemer = {\n\tintrigue = 3\n}\n\nscholar = {\n\tlearning = 3\n}\n\nmaster_seducer = {\n\tintrigue = 2\n\tdiplomacy = 1\n\tsex_appeal_opinion = 50\n}\n\nmaster_seductress = {\n\tintrigue = 2\n\tdiplomacy = 1\n\tsex_appeal_opinion = 50\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-21T11:49:19.365348+00:00",
+        "updatedAt": "2026-03-21T11:49:19.365348+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1009-084c-7d96-8fcd-2f229cd810cc",
+        "evaluationSessionId": "019d1008-3095-780f-917d-07218a72fba7",
+        "evaluationId": "019d103a-7365-7cf2-8ac7-d8c6a00280f4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d1009-084b-7d5e-ac23-5c1043be0022"
+        ],
+        "content": "This is a great collection of traits from the code files of *Crusader Kings II*. Looking at the raw numbers gives a really clear picture of the game's \"meta\"—which traits are objectively best for specific playstyles.\n\nHere is a breakdown of the most interesting stats, comparisons, and hidden gems found in this list:\n\n### 1. The \"Combat God\" Builders\nIf you are trying to build a character to win every duel and lead armies, these numbers highlight exactly what you need.\n\n*   **Duelist is King:** With a `combat_rating = 30`, the **Duelist** trait is the single highest combat modifier in this list.\n*   **The Viking Progression:** You can see the clear power creep in the Raider traits:\n    *   **Viking:** +10 Combat Rating\n    *   **Ravager:** +20 Combat Rating\n    *   **Sea King/Queen:** +20 Combat Rating (+3 Martial)\n*   **Left-Handed is Underrated:** For a simple congenital trait, **Lefthanded** gives `combat_rating = 15`. That is higher than **Genius**, **Strong**, or a standard **Viking**. The downside is the -10 opinion from Christian/Muslim distincts (historically viewed as sinister), but for a duelist, it's top-tier.\n*   **Elusive Shadow (Surprise!):** While `Brilliant Strategist` gives +20 combat rating, the Intrigue education `Elusive Shadow` gives +16. This makes Master Spies surprisingly dangerous in personal combat.\n\n### 2. The \"Crusader King\" Power Spike\nThe difference between a standard **Crusader** and a **Crusader King/Queen** (obtained by winning a Crusade for a Kingdom) is massive:\n\n*   **Crusader:** +2 Martial, +10 Combat.\n*   **Crusader King:** +3 Martial, +15 Combat, **+35 Same Religion Opinion**, and most importantly, `global_levy_size = 0.2`.\n    *   *Analysis:* That **20% boost to global levy size** is a game-changer. It is one of the strongest military modifiers in the entire game, usually only found on top-tier artifacts.\n\n### 3. Genetics: Genius vs. Strong vs. Brawny\nThe debate between these traits is settled by the raw numbers:\n\n*   **Genius:** The ultimate stat stick. +5 to **every** attribute. It is mathematically the best trait for ruling.\n*   **Strong:** +2 Martial, +1 Health, +10 Sex Appeal.\n*   **Brawny:** +2 Martial, +1 Health, +5 Sex Appeal.\n    *   *Comparison:* **Brawny** is essentially the \"diet\" version of **Strong**. It offers the exact same Health and Martial benefits (which are the most important parts), but **Strong** grants slightly higher opinion modifiers (+10 Tribal/Sex Appeal vs +5). If you can't get the genetics for Strong, hunting for Brawny is a perfect substitute for survival.\n\n### 4. The Seduction Meta\nIf you look at the opinion modifiers, you can see why the Seduction focus is so powerful for stabilizing a realm:\n\n*   **Master Seducer:** +50 Sex Appeal.\n*   **Attractive:** +30 Sex Appeal.\n*   **Strong:** +10 Sex Appeal.\n*   **Brawny:** +5 Sex Appeal.\n\nIf a character stacks **Master Seducer** + **Attractive**, they have a baseline **+80 Opinion** with the attracted gender. This essentially makes you immune to factions and plots from half your vassals.\n\n### 5. Education Tier Gaps\nThe file shows the massive gap between a Level 1 and Level 4 education:\n\n*   **Misguided Warrior (Lvl 1):** +1 Martial, -1 Learning, +5 Combat Rating.\n*   **Brilliant Strategist (Lvl 4):** +9 Martial, +2 Intrigue/Stewardship, +20 Combat Rating.\n\nThe jump from +1 to +9 in the primary stat explains why tutoring your heir correctly is the most critical mechanic in the game.\n\n### Summary: The Ultimate Character\nBased *only* on the traits in this specific list, the most overpowered character possible would look like this:\n\n*   **Education:** Brilliant Strategist (+9 Martial, +20 Combat)\n*   **Congenital:** Genius (+5 All Stats) + Strong (+2 Martial, +1 Health) + Left-handed (+15 Combat)\n*   **Lifestyle:** Duelist (+30 Combat)\n*   **Earned:** Sea King (+3 Martial, +20 Combat) + Crusader King (+20% Levies, +3 Martial)\n\n**Total Martial Bonus:** +24 (before base stats)\n**Total Combat Rating Bonus:** +110 (You would almost never lose a duel).",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-03-21T11:49:19.369601+00:00",
+        "updatedAt": "2026-03-21T11:49:48.404933+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d100b-30ca-73f0-906b-998381d6c0e0",
+        "evaluationSessionId": "019d1008-3095-780f-917d-07218a72fba7",
+        "evaluationId": "019d103a-7365-7cf2-8ac7-d8c6a00280f4",
+        "role": "user",
+        "parentMessageIds": [
+          "019d1009-084c-7d96-8fcd-2f229cd810cc"
+        ],
+        "content": "socializer = {\n\tdiplomacy = 3\n\tsex_appeal_opinion = 10\n}\n\nstrategist = {\n\tmartial = 2\n\tstewardship = 1\n}\n\ntheologian = {\n\tintrigue = 1\n\tlearning = 2\n}\n\nenvious = {\n\tintrigue = 2\n\tdiplomacy = -1\n\tcombat_rating = 3\n\tliege_opinion = -15\n}\n\ngreedy = {\n\tglobal_tax_modifier = 0.1\n\tdiplomacy = -1\n}\n\nlustful = {\n\tmonthly_character_piety = -0.25\n\tintrigue = 1\n\tfertility = 0.2\n}\n\nproud = {\n\tmonthly_character_prestige = 0.5\n}\n\nwroth = {\n\tmartial = 3\n\tintrigue = -1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncharitable = {\n\tdiplomacy = 3\n\tcombat_rating = -3\n}\n\nchaste = {\n\tmonthly_character_piety = 0.5\n\tlearning = 1\n\tfertility = -0.15\n}\n\ndiligent = {\n\tmartial = 1\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tvassal_opinion = 5\n}\n\nhumble = {\n\tmonthly_character_piety = 1\n}\n\nkind = {\n\tintrigue = -2\n\tdiplomacy = 2\n\tcombat_rating = -5\n}\n\npatient = {\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tcombat_rating = 5\n}\n\ntemperate = {\n\tstewardship = 2\n}\n\nambitious = {\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3\n}\n\narbitrary = {\n\tintrigue = 1\n\tstewardship = -2\n\tlearning = -1\n}\n\nbrave = {\n\tmartial = 2\n\tcombat_rating = 10\n}\n\ncontent = {\n\tmonthly_character_piety = 0.5\n\tintrigue = -1\n\tliege_opinion = 25\n}\n\ncruel = {\n\tintrigue = 1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncynical = {\n\tmonthly_character_piety = -0.2\n\tintrigue = 2\n}\n\ndeceitful = {\n\tintrigue = 3\n\tdiplomacy = -2\n\tcombat_rating = 3\n}\n\nerudite = {\n\tlearning = 2\n\tcombat_rating = -2\n}\n\ngregarious = {\n\tdiplomacy = 2\n\tsex_appeal_opinion = 5\n}\n\nhonest = {\n\tintrigue = -2\n\tdiplomacy = 3\n\tcombat_rating = -2\n}\n\njust = {\n\tstewardship = 2\n\tlearning = 1\n}\n\nparanoid = {\n\tintrigue = 2\n\tdiplomacy = -1\n}\n\nshrewd = {\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3\n}\n\nstubborn = {\n\tdiplomacy = -1\n\tstewardship = 1\n\tcombat_rating = 3\n}\n\nzealous = {\n\tmonthly_character_piety = 1\n\tmartial = 2\n\topinion_against_infidels = -25\n}\n\nadventurer = {\n\tmartial = 1\n\tdiplomacy = -1\n\tcombat_rating = 10\n\tglobal_levy_size = 0.2\n\tmax_manpower_mult = 0.1\n}\n\naugustus = {\n\tmonthly_character_prestige = 0.5\n\tvassal_opinion = 10\n}\n\nimmortal = {\n\timmortal = yes\n\thealth = 10\n\ttaoist_opinion = 25\n}\n\nbastard = {\n\tdiplomacy = -1\n}\n\nborn_in_the_purple = {\n\tmonthly_character_prestige = 0.5\n\tvassal_opinion = 5\n}\n\nhomosexual = {\n\tsex_appeal_opinion = 30 # Only to those of the same sex\n\tfertility = -0.15\n\t+ Homosexual wife can't cheat with men\n}\n\nheresiarch = {\n\tcombat_rating = 3\n\tinfidel_opinion = -15\n\tsame_religion_opinion = 25\n}\n\nmutazilite = {\n\tlearning = 5\n}\n\nsaoshyant = {\n\tcombat_rating = 20\n\tzoroastrian_opinion = 10\n}\n\nfalconer = {\n\tdiplomacy = 1\n}\n\nphysician = {\n\tmonthly_character_prestige = 0.25\n\tdiplomacy = 1\n\tlearning = 2\n\thealth = 0.5\n\tgeneral_opinion = 5\n}\n\npoet = {\n\tdiplomacy = 1\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-21T11:51:40.953574+00:00",
+        "updatedAt": "2026-03-21T11:51:40.953574+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d100b-30cd-76f9-b4c7-e0a1e8e6b4cc",
+        "evaluationSessionId": "019d1008-3095-780f-917d-07218a72fba7",
+        "evaluationId": "019d103a-7365-7cf2-8ac7-d8c6a00280f4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d100b-30ca-73f0-906b-998381d6c0e0"
+        ],
+        "content": "This second batch of traits focuses heavily on **Personality**, **Lifestyles**, and **Special Statuses**. While the previous list was about raw power and combat, this list defines how you rule your realm, manage your economy, and survive plots.\n\nHere is the breakdown of the most impactful stats in this file:\n\n### 1. The \"Stat Stick\" Trinity\nThere are three personality/status traits here that provide boosts to **every single attribute**. Stacking these is the ultimate goal of any education process.\n\n*   **Ambitious:** `+2 to All Stats`, `+3 Combat`.\n    *   *The Catch:* While this makes *your* character powerful, it is the most dangerous trait a Vassal can have. An ambitious vassal will almost always desire your titles.\n*   **Shrewd:** `+2 to All Stats`, `+3 Combat`.\n    *   *The Gem:* This is functionally identical to **Ambitious** but without the negative opinion penalties from lieges. It is the \"earned\" version of Genius (often gained via the \"Rowdy\" childhood focus).\n*   **Diligent:** `+1 to All Stats`.\n    *   *Economy King:* While the stats are lower than Ambitious, `Diligent` is often considered better because it unlocks specific \"Work Hard\" options in events that grant extra money or success chances.\n\n**The God-Roll:** If a character is **Genius** (+5), **Ambitious** (+2), **Shrewd** (+2), and **Diligent** (+1), they have a **base +10 to every stat** before education is even applied.\n\n### 2. The Hidden \"Levy\" Multiplier\nJust like *Crusader King* in the previous list, there is a hidden military powerhouse in this file:\n\n*   **Adventurer:** `global_levy_size = 0.2` (and `+10 Combat`).\n    *   *Analysis:* This trait is usually reserved for landless threats attacking you, but if you play a Nomad or start as a specific historical character with this trait, you get a massive **20% bonus to total troop count**. It is one of the strongest military traits in the game.\n\n### 3. Money vs. Stability (The Greedy Trade-off)\n*   **Greedy:** `global_tax_modifier = 0.1` (10% Tax Boost).\n    *   Most traits just give flat Stewardship skill. **Greedy** gives a percentage multiplier. In a large empire, a 10% total tax boost is worth way more than the +2 Stewardship you get from **Temperate**. However, the `-1 Diplomacy` hurts vassal opinions, meaning they might pay you less tax due to disliking you.\n\n### 4. The \"Learning\" Bomb\n*   **Mutazilite:** `Learning = 5`.\n    *   This is a specific trait for Muslim characters who embrace the Mu'tazila school of thought. +5 Learning is massive—it is equivalent to the Learning bonus of a **Genius**. This makes the Mu'tazilite path the absolute meta for rushing Technology early in the game.\n\n### 5. Combat Surprises\nWhile *Duelist* was the king in the previous list, there are some personality traits that make you surprisingly dangerous in personal combat:\n\n*   **Wroth:** `+3 Martial`, `+3 Combat Rating`.\n    *   Usually, anger is seen as bad in strategy games, but in CK2, being angry makes you a better commander than being **Patient** (which gives no Martial).\n*   **Brave:** `+2 Martial`, `+10 Combat Rating`.\n    *   This is essential. The +10 combat rating often offsets the penalty for having lower stats.\n*   **Saoshyant:** `+20 Combat Rating`.\n    *   The Zoroastrian \"Savior\" trait. This puts you on par with a **Sea King** or **Berserker** in terms of pure dueling ability.\n\n### 6. The Best \"Vassal\" Trait\nIf you are playing as a King and looking for people to give land to, you want to see this trait:\n\n*   **Content:** `Liege Opinion +25`.\n    *   It gives `-1 Intrigue` (so they won't plot against you) and a massive opinion boost. A realm full of Content vassals is a stable realm. Conversely, **Ambitious** or **Envious** (`Liege Opinion -15`) vassals should be revoked immediately.\n\n### 7. Intrigue: The Spymaster's Setup\nIf you want to murder someone, specific personality traits drastically change your odds:\n\n*   **Deceitful:** `Intrigue +3`.\n    *   This is the highest single-stat boost for Intrigue among standard personality traits.\n*   **Kind:** `Intrigue -2`.\n    *   Never make a \"Kind\" character your Spymaster. They are mathematically incompetent at it.\n*   **Honest:** `Intrigue -2`.\n    *   Honest characters are terrible plotters.\n\n### Summary: The Perfect Administrator\nBased on this file, the perfect character for managing a peaceful, wealthy realm would have:\n\n*   **Diligent** (+1 All)\n*   **Shrewd** (+2 All)\n*   **Greedy** (+10% Tax)\n*   **Temperate** (+2 Stewardship)\n*   **Just** (+2 Stewardship)\n*   **Augustus** (+10 Vassal Opinion - *if restoring Rome*)\n\nThis combination maximizes tax income and demesne limit while maintaining high vassal opinion.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-03-21T11:51:40.95976+00:00",
+        "updatedAt": "2026-03-21T11:52:13.38233+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1011-4808-71b6-a9a1-b93426a819e0",
+        "evaluationSessionId": "019d1008-3095-780f-917d-07218a72fba7",
+        "evaluationId": "019d103a-7365-7cf2-8ac7-d8c6a00280f4",
+        "role": "user",
+        "parentMessageIds": [
+          "019d100b-30cd-76f9-b4c7-e0a1e8e6b4cc"
+        ],
+        "content": "make the uiversal \"base\". from which i can build councillors, commanders, ruler, or wife",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-21T11:58:22.442767+00:00",
+        "updatedAt": "2026-03-21T11:58:22.442767+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1011-480c-7abe-be85-34e28bf6e20b",
+        "evaluationSessionId": "019d1008-3095-780f-917d-07218a72fba7",
+        "evaluationId": "019d103a-7365-7cf2-8ac7-d8c6a00280f4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d1011-4808-71b6-a9a1-b93426a819e0"
+        ],
+        "content": "Here is the **Universal Base**.\n\nThis combination creates a character with the highest possible \"base stats\" and health, without specializing them into a specific role yet. These are the traits that are universally good for **any** character, whether they are a king, a general, or a wife.\n\n### The Universal Base (The \"Perfect Human\")\n*Start every character with this stack:*\n\n```pdx\nuniversal_base = {\n    # GENETICS (The Holy Trinity)\n    genius              # +5 All Stats, +5 Vassal Opinion, +10 Combat\n    strong              # +2 Martial, +1 Health, +10 Sex Appeal, +10 Tribal Opinion\n    attractive          # +1 Diplomacy, +30 Sex Appeal (Makes everyone like them)\n\n    # LIFESTYLE / PERSONALITY (The Stat Multipliers)\n    shrewd              # +2 All Stats (The \"earned\" version of Genius)\n    diligent            # +1 All Stats (Unlocks better event outcomes)\n    patient             # +1 Dip, +1 Int, +1 Stew, +1 Learn (Defense bonus)\n    gregarious          # +2 Dip, +5 Sex Appeal (General likability)\n}\n```\n\n**Base Stats (Before Education):**\n*   **Martial:** +15 (Includes combat rating bonuses)\n*   **Diplomacy:** +12\n*   **Intrigue:** +9\n*   **Stewardship:** +9\n*   **Learning:** +9\n*   **Health:** +1\n*   **Sex Appeal:** +45 (Immune to plots from opposite sex)\n\n---\n\n### Phase 2: The Specializations\n*Add these specific blocks on top of the \"Universal Base\" to build your perfect unit.*\n\n#### 1. The Ruler (The \"God-King\")\n*Focus: Vassal management, tax, and avoiding assassination.*\nAdd:\n*   `ambitious` (+2 All Stats, but makes vassals hate you—good for **you**, bad for *them*)\n*   `just` (+2 Stewardship, boosts vassal opinion)\n*   `temperate` (+2 Stewardship, health boost)\n*   **Education:** `grey_eminence` (Diplomacy) OR `midas_touched` (Stewardship)\n\n#### 2. The Commander (The \"War Machine\")\n*Focus: Killing enemies in duels and leading flanks.*\nAdd:\n*   `brave` (+2 Martial, +10 Combat)\n*   `wroth` (+3 Martial, +3 Combat)\n*   `duelist` (+30 Combat - Critical!)\n*   `crusader_king` (+3 Martial, +15 Combat, +20% Levies)\n*   **Education:** `brilliant_strategist` (+9 Martial, +20 Combat)\n\n#### 3. The Councillor: Steward (The \"Bank\")\n*Focus: Squeezing every coin out of the realm.*\nAdd:\n*   `greedy` (+10% Tax Modifier)\n*   `temperate` (+2 Stewardship)\n*   `administrator` (+3 Stewardship)\n*   `architect` (+2 Stewardship - build cheaper)\n*   **Education:** `midas_touched` (+9 Stewardship)\n\n#### 4. The Councillor: Spymaster (The \"Knife\")\n*Focus: Plot power and not getting caught.*\nAdd:\n*   `deceitful` (+3 Intrigue)\n*   `paranoid` (+2 Intrigue - helps detect plots against you)\n*   `impale` (+2 Intrigue, +10 Combat)\n*   `master_schemer` (+3 Intrigue)\n*   **Education:** `elusive_shadow` (+9 Intrigue)\n\n#### 5. The Perfect Wife/Husband (The \"Breeder\")\n*Focus: Making babies and boosting your stats.*\nAdd:\n*   `lustful` (+20% Fertility)\n*   `hedonist` (+20% Fertility)\n*   `midas_touched` (Stewardship is the best stat for a spouse to boost your demesne limit)\n*   **Avoid:** `chaste`, `celibate`, or `great_pox`.\n\n---\n\n### The \"Do Not Use\" List\n*When building your base, NEVER add these to the Universal Template:*\n\n1.  **Ambitious:** Only put this on **YOUR** character. If you put this on a Commander or Councillor, they will try to kill you to take your titles (-15 Liege Opinion).\n2.  **Envious:** Lowers diplomacy and makes them hate you.\n3.  **Craven:** It ruins the `Strong` and `Genius` combat bonuses.\n4.  **Arbitrary:** It halves the effectiveness of the Stewardship traits.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-03-21T11:58:22.450414+00:00",
+        "updatedAt": "2026-03-21T11:58:49.110399+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1019-f7c5-7cba-97ea-c011d5b7af66",
+        "evaluationSessionId": "019d1008-3095-780f-917d-07218a72fba7",
+        "evaluationId": "019d103a-7365-7cf2-8ac7-d8c6a00280f4",
+        "role": "user",
+        "parentMessageIds": [
+          "019d1011-480c-7abe-be85-34e28bf6e20b"
+        ],
+        "content": "ambitious is okay. expand these specialisations",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-21T12:07:48.044566+00:00",
+        "updatedAt": "2026-03-21T12:07:48.044566+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d1019-f7c9-79b5-8ad8-9cde01a030a9",
+        "evaluationSessionId": "019d1008-3095-780f-917d-07218a72fba7",
+        "evaluationId": "019d103a-7365-7cf2-8ac7-d8c6a00280f4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d1019-f7c5-7cba-97ea-c011d5b7af66"
+        ],
+        "content": "Since you are okay with **Ambitious** (high risk, high reward), we can unlock the true potential of these builds. Ambitious gives `+2 All Stats` and `+3 Combat`, making it arguably the best trait in the game if you can handle the opinion penalties from vassals who also have it.\n\nHere is the **Universal Base** followed by the expanded, min-maxed specializations based on the game files you provided.\n\n### The Universal Base\n*Copy-paste this to every character first. This provides the raw genetic and personality foundation.*\n\n```pdx\n# THE UNIVERSAL BASE\ngenius              # +5 All Stats\nstrong              # +2 Martial, +1 Health\nambitious           # +2 All Stats (Accepted Risk)\nshrewd              # +2 All Stats\ndiligent            # +1 All Stats\npatient             # +1 Dip/Int/Stew/Learn\ngregarious          # +2 Diplomacy, +5 Sex Appeal\nattractive          # +1 Diplomacy, +30 Sex Appeal\n```\n**Total Base Bonus:** +13 to most stats, +17 Diplomacy, +13 Martial.\n\n---\n\n### Specialization 1: The God-Emperor (Ruler)\n*Goal: Maximum Demesne (Stewardship), Maximum Vassal Opinion, and Huge Levies.*\n\nThis build utilizes the **Crusader King** trait not for fighting, but for the global levy modifier, and **Augustus** for stability.\n\n*   **Education:** `midas_touched` (+9 Stewardship) — *Maximize your Demesne limit.*\n*   **Traits to Add:**\n    *   `crusader_king` — **Key Trait.** Adds `global_levy_size = 0.2`. That is 20% more troops from your entire realm.\n    *   `augustus` — +0.5 Prestige/mo, +10 Vassal Opinion.\n    *   `born_in_the_purple` — +0.5 Prestige/mo, +5 Vassal Opinion.\n    *   `administrator` — +3 Stewardship.\n    *   `architect` — +2 Stewardship (Cheaper buildings).\n    *   `just` — +2 Stewardship (Boosts vassal opinion further).\n    *   `socializer` — +3 Diplomacy (Offsets the low Diplo of Stewardship education).\n\n**Result:** A ruler who can hold 10-14 counties personally, with vassals who love him, and 20% larger armies than anyone else.\n\n---\n\n### Specialization 2: The War Machine (Commander/Marshal)\n*Goal: Win every duel, never die in battle, lead the center flank.*\n\nWe stack **Combat Rating** modifiers here. With the base traits, this character is already strong, but these additions make them a demigod.\n\n*   **Education:** `brilliant_strategist` (+9 Martial, +20 Combat Rating).\n*   **Traits to Add:**\n    *   `duelist` — **Key Trait.** +30 Combat Rating.\n    *   `sea_king` — +3 Martial, +20 Combat Rating (Superior to Viking/Ravager).\n    *   `lefthanded` — +15 Combat Rating (The hidden gem of combat traits).\n    *   `wroth` — +3 Martial, +3 Combat Rating.\n    *   `brave` — +2 Martial, +10 Combat Rating.\n    *   `hunter` — +2 Martial, +10 Combat Rating.\n    *   `crusader` — +2 Martial, +10 Combat Rating (Stackable with Sea King if modding/customizing).\n\n**Result:**\n*   **Martial:** ~35+\n*   **Combat Rating:** ~150+\n*   **Function:** You can put this character in a duel against a Bear and they will win.\n\n---\n\n### Specialization 3: The Shadow (Spymaster)\n*Goal: 100% Plot Power, Assassinations, and Kidnapping.*\n\n*   **Education:** `elusive_shadow` (+9 Intrigue, +2 Martial, +16 Combat).\n*   **Traits to Add:**\n    *   `deceitful` — +3 Intrigue (The highest single personality boost).\n    *   `master_schemer` — +3 Intrigue.\n    *   `impaler` — +2 Intrigue, +10 Combat (Makes them scary).\n    *   `paranoid` — +2 Intrigue (Crucial for a Spymaster to avoid being counter-assassinated).\n    *   `cynical` — +2 Intrigue.\n    *   `lustful` — +1 Intrigue (Also helps with Seduction plots).\n\n**Result:** Intrigue score of 30+. Plot power will rarely be below 150%.\n\n---\n\n### Specialization 4: The Tech-Rusher (Chaplain/Physician)\n*Goal: Generate Tech Points and cure diseases.*\n\n*   **Education:** `mastermind_theologian` (+9 Learning).\n*   **Traits to Add:**\n    *   `mutazilite` — **Key Trait.** +5 Learning. This is massive.\n    *   `scholar` — +3 Learning.\n    *   `erudite` — +2 Learning.\n    *   `mystic` — +2 Learning.\n    *   `physician` — +2 Learning (Allows them to heal you).\n    *   `gardener` — +1 Learning, +2 Stewardship.\n\n**Result:** Learning score of 35+. Technology in your capital will skyrocket.\n\n---\n\n### Specialization 5: The \"Battery\" (Wife/Consort)\n*Goal: Massive stats to add to the Ruler (Spouse Bonus) and high Fertility.*\n\nIn CK2, your spouse adds 50% of their stats to yours. Therefore, a \"Generalist\" spouse is often better than a specialist.\n\n*   **Education:** `grey_eminence` (Diplomacy) OR `midas_touched` (Stewardship).\n    *   *Reasoning:* You usually need help with Demesne limit (Stewardship) or Vassal Opinion (Diplomacy).\n*   **Traits to Add:**\n    *   `lustful` — +20% Fertility (Essential for heirs).\n    *   `hedonist` — +20% Fertility.\n    *   `master_seductress` — +50 Sex Appeal (Ensures she likes you, provided you aren't Chaste).\n    *   `midas_touched` — If you want money/demesne.\n    *   `grey_eminence` — If you want everyone to like you.\n\n**Optimization Note:** If you combine the **Universal Base** with **Lustful** and **Hedonist**, your wife will have roughly +40% Fertility and add +6 to +8 to *all* of your stats.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-03-21T12:07:48.048048+00:00",
+        "updatedAt": "2026-03-21T12:08:23.29271+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d101b-78a3-7dac-8e6c-4c97d082948d",
+        "evaluationSessionId": "019d1008-3095-780f-917d-07218a72fba7",
+        "evaluationId": "019d103a-7365-7cf2-8ac7-d8c6a00280f4",
+        "role": "user",
+        "parentMessageIds": [
+          "019d1019-f7c9-79b5-8ad8-9cde01a030a9"
+        ],
+        "content": "aggressive_leader = {\n\tpursue = 0.25\n\tdamage = 0.1\n\tdefence = -0.1\n}\n\ncavalry_leader = {\n\tcavalry = 0.2\n}\n\ndefensive_leader = {\n\tdefence = 0.25\n\tdamage = -0.1\n}\n\ndesert_expert = {\n\tterrain = desert\n}\n\ndirect_leader = {\n\tcenter = 0.2\n}\n\nflanker = {\n\tflank = 0.2\n}\n\nflat_terrain_expert = {\n\tterrain = plains\n\tterrain = farmlands\n\tterrain = steppe\n}\n\nheavy_infantry_leader = {\n\theavy_infantry = 0.2\n}\n\nholy_warrior = {\n\treligious_enemy = 0.3\n}\n\ninspiring_leader = {\n\tmorale_offence = 0.15\n\tmorale_defence = 0.15\n}\n\njungle_expert = {\n\tterrain = jungle\n}\n\nlevy_coordinator = {\n\tflank = 0.2\n\tspeed = 0.3\n\tretreat = 0.2\n}\n\nlight_foot_leader = {\n\tlight_infantry = 0.2\n}\n\nlogistics_expert = {\n\tattrition = -0.5\n\tdays_of_supply = 30\n\tcenter = 0.2\n}\n\nmaster_of_flame = {\n\tdamage = 0.2\n\tmorale_offence = 0.2\n}\n\nmountain_expert = {\n\tterrain = mountain\n}\n\nbattlefield_terrain_master = {\n\tnarrow_flank = 0.5\n}\n\norganizer = {\n\tspeed = 0.2\n\tretreat = 0.1\n}\n\nrough_terrain_expert = {\n\tterrain = forest\n\tterrain = hills\n}\n\nsapper = {\n\tterrain = forest\n\tterrain = hills\n\tsiege = 0.5\n}\n\nsiege_leader = {\n\tsiege = 0.4\n}\n\nunyielding_leader = {\n\tmorale_defence = 0.2\n\tdefence = 0.1\n}\n\nwar_elephant_leader = {\n\twar_elephants = 0.2\n\tmorale_offence = 0.2\n}\n\nwinter_soldier = {\n\twinter_supply = 4\n\twinter_combat = 0.5\n}\n\nbaltic_leader = {\n\tterrain = forest\n\tdefence = 0.15\n\tflank = 0.3\n}\n\nbon_leader = {\n\tterrain = mountain\n\tterrain = hills\n\tspeed = 0.1\n\tlight_infantry = 0.2\n}\n\nfinnish_leader = {\n\tterrain = arctic\n\twinter_combat = 0.25\n\twinter_supply = 3\n\tdefence = 0.1\n}\n\nhellenic_leader = {\n\tspeed = 0.1\n\tmorale_defence = 0.2\n\tmorale_offence = 0.3\n}\n\nnorse_leader = {\n\theavy_infantry = 0.25\n\t+ Bonus to capturing commanders\n}\n\nslavic_leader = {\n\tterrain = plains\n\tmorale_defence = 0.2\n\tmorale_offence = 0.2\n}\n\ntengri_leader = {\n\tterrain = steppe\n\tterrain = plains\n\tterrain = farmlands\n\tlight_cavalry = 0.2\n\tknights = 0.1\n}\n\nwest_african_leader = {\n\tterrain = desert\n\tlight_infantry = 0.2\n\tlight_cavalry = 0.2\n}\n\nzun_leader = {\n\tterrain = desert\n\tterrain = mountain\n\tsiege = 0.2\n\tspeed = 0.1\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-21T12:09:27.773089+00:00",
+        "updatedAt": "2026-03-21T12:09:27.773089+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d101b-78aa-7144-b5ca-cac16d6504fa",
+        "evaluationSessionId": "019d1008-3095-780f-917d-07218a72fba7",
+        "evaluationId": "019d103a-7365-7cf2-8ac7-d8c6a00280f4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d101b-78a3-7dac-8e6c-4c97d082948d"
+        ],
+        "content": "This file contains the **Commander Traits**. These determine how effectively your armies fight in the battle phases (Skirmish, Melee, Pursuit).\n\nCombining these with your **Universal Base** allows us to create specific \"Classes\" of commanders. In CK2, the \"Meta\" strategy is generally: **Hold the Center, Crush the Flanks.**\n\nHere are the optimized Commander builds based on these files.\n\n---\n\n### 1. The \"Anvil\" (Center Commander)\n*Role: Stand in the middle, refuse to die, and hold high morale while the flanks do the work.*\n*   **Base:** Universal Base + `brave` + `patient`\n*   **Education:** `brilliant_strategist`\n*   **Commander Traits:**\n    *   `unyielding_leader` — +20% Morale Defense, +10% Defense. (The best defensive trait).\n    *   `direct_leader` — +20% Damage in the Center.\n    *   `inspiring_leader` — +15% Morale (Prevents your center from breaking).\n    *   `mountain_expert` — (If defending in mountains, this makes you unkillable).\n\n**Why it works:** Your center flank will have massive defense. The enemy will waste their skirmish phase trying to break you, while your other commanders flank them.\n\n---\n\n### 2. The \"Hammer\" (Flank Commander - Shock)\n*Role: Deal maximum damage in the Skirmish/Melee phase to rout the enemy wing quickly.*\n*   **Base:** Universal Base + `wroth` + `aggressive_leader`\n*   **Education:** `brilliant_strategist`\n*   **Commander Traits:**\n    *   `flanker` — +20% Flank Damage.\n    *   `aggressive_leader` — +10% Damage, +25% Pursuit (Kill them when they run).\n    *   `master_of_flame` — +20% Damage, +20% Morale Offense. (Rare Chinese trait, arguably the strongest offensive modifier in the file).\n    *   `heavy_infantry_leader` OR `cavalry_leader` — Depends on your cultural retinue.\n\n**Why it works:** `Aggressive` + `Master of Flame` provides a massive damage multiplier. If you put this guy on the right flank, he will crush the opposing left flank and then turn to help the center.\n\n---\n\n### 3. The \"Siege Engine\" (Utility)\n*Role: Do not fight battles. Sit on castles and melt the walls.*\n*   **Base:** Universal Base + `architect` (from previous list) + `patient`\n*   **Education:** `brilliant_strategist` (for the Martial score)\n*   **Commander Traits:**\n    *   `siege_leader` — +40% Siege Speed. (Mandatory).\n    *   `sapper` — +50% Siege Speed in Hills/Forests.\n    *   `zun_leader` — +20% Siege Speed (A rare religious trait, but stackable).\n    *   `organizer` — To move between castles 20% faster.\n\n**Total Bonus:** You can reach +100% Siege Speed. Sieges that take 12 months will take 6.\n\n---\n\n### 4. The \"Spartan\" (The 300 Strategy)\n*Role: Defeating an army 10x your size using terrain.*\n*   **Base:** Universal Base + `stubborn`\n*   **Commander Traits:**\n    *   `battlefield_terrain_master` — **CRITICAL TRAIT.**\n        *   *Analysis:* This trait increases the chance of finding a **\"Narrow Flank\"**. This mechanic prevents the enemy from using their numbers advantage. If you have 5k men vs 20k men, but you roll a Narrow Flank, only 5k of their men can fight you at a time.\n    *   `unyielding_leader` — Defense boost.\n    *   `defensive_leader` — +25% Defense.\n\n---\n\n### 5. The \"Viking God\" (Heavy Infantry Specialist)\n*Role: The ultimate build for Norse/Germanic rulers.*\n*   **Base:** Universal Base + `berserker` (if available)\n*   **Commander Traits:**\n    *   `norse_leader` — +25% Heavy Infantry Damage (The highest single unit boost).\n    *   `aggressive_leader` — +10% Damage.\n    *   `holy_warrior` — +30% Damage vs Religious Enemies.\n    *   `winter_soldier` — Negates the penalties of fighting in the north.\n\n**Synergy:** If you play Norse, your retinue is Housecarls (Heavy Infantry). This build gives them roughly +65% Damage before Martial stats are even calculated.\n\n---\n\n### 6. The \"Khan\" (Cavalry Specialist)\n*Role: The ultimate build for Nomads/Altaic rulers.*\n*   **Base:** Universal Base\n*   **Commander Traits:**\n    *   `tengri_leader` — +20% Light Cavalry, +10% Knights.\n    *   `cavalry_leader` — +20% Cavalry.\n    *   `flat_terrain_expert` — Bonus in Steppe/Plains/Farmlands.\n    *   `flanker` — +20% Flank effectiveness.\n\n**Synergy:** Nomads fight almost exclusively on flat terrain with cavalry. This stack optimizes that exact scenario.\n\n---\n\n### 7. The \"Logistics\" General (The Mover)\n*Role: Moving huge stacks of troops without them dying of starvation.*\n*   **Base:** Universal Base + `administrator`\n*   **Commander Traits:**\n    *   `organizer` — +20% Movement Speed.\n    *   `logistics_expert` — **-50% Attrition**, +30 Days Supply.\n    *   `winter_soldier` — +4 Winter Supply.\n\n**Use Case:** When you are invading Russia or the desert and the supply limit is low. Assign this leader to the army *while moving*, then switch to a Combat General (`The Hammer`) the day before the battle starts.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-03-21T12:09:27.779799+00:00",
+        "updatedAt": "2026-03-21T12:10:02.380323+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019d103a-7365-7cf2-8ac7-d8c6a00280f4",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

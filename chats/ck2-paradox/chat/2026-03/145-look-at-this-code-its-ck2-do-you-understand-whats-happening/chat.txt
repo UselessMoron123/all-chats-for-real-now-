@@ -1,0 +1,3040 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : look at this code. it's ck2. do you understand what's happening here?
+
+900400 = {
+	name = "Mirian_0"
+Mode     : direct-battle
+Started  : 2026-03-31 16:54:26
+Updated  : 2026-04-01 19:55:41
+Archived : 2026-09-30 23:14:59
+Messages : 18
+URL      : https://arena.ai/c/019d4429-5c5b-7fa6-ad66-6d90add81b19
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-03-31 16:54:28
+------------------------------------------------------------
+look at this code. it's ck2. do you understand what's happening here?
+
+900400 = {
+	name = "Mirian_0"
+	dynasty = 100680
+	religion = miaphysite
+	culture = georgian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900401 = {
+	name = "Mirian_1"
+	dynasty = 100680
+	religion = miaphysite
+	culture = georgian
+	father = 900400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = parthian
+		}
+		add_spouse = 924501
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924500 = {
+	name = "FCommander_0"
+	female = yes
+	dynasty = 924500
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924501 = {
+	name = "FCommander_1"
+	female = yes
+	dynasty = 924500
+	religion = catholic
+	culture = french
+	mother = 924500
+	1.5.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900491 = {
+	name = "Mirian_91"
+	dynasty = 100680
+	religion = zoroastrian
+	culture = georgian
+	father = 900401
+	2.1.1 = {
+		birth = yes
+		add_spouse = 924591
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924591 = {
+	name = "FCommander_91"
+	female = yes
+	dynasty = 924500
+	religion = catholic
+	culture = french
+	mother = 924500
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900492 = {
+	name = "Mirian_2"
+	female = yes
+	dynasty = 924500
+	religion = zoroastrian
+	culture = georgian
+	father = 900491
+	mother = 924591
+	264.1.1 = {
+		birth = yes
+		add_spouse = 159603
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900493 = {
+	name = "Mirian_93"
+	dynasty = 924500
+	religion = zoroastrian
+	culture = georgian
+	father = 159603
+	mother = 900492
+	265.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+159603 = {
+	name = "Khosro"
+	dynasty = 100680
+	religion = zoroastrian
+	culture = georgian
+	father = 900400
+	235.11.1 = {
+		birth = yes
+	}
+	301.1.1 = {
+		death = yes
+	}
+}
+
+159604 = {
+	name = "Mirian"
+	dynasty = 100680
+	religion = miaphysite
+	culture = georgian
+	father = 159603
+	mother = 900492
+	265.11.1 = {
+		birth = yes
+	}
+	285.11.1 = {
+		add_spouse = 159598
+	}
+	361.1.1 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-03-31 16:54:28
+------------------------------------------------------------
+Yes. This is a Crusader Kings II character history snippet, and I understand what it’s doing.
+
+At a high level, it defines several characters, their parents, religion/culture/dynasty, birth/death dates, marriages, and one bloodline. It’s building a family tree across a few generations.
+
+## How CK2 reads this
+Each block like:
+
+```txt
+900400 = { ... }
+```
+
+is a character with ID `900400`.
+
+Inside each block:
+- `name` = displayed first name
+- `female = yes` = female character
+- `dynasty` = dynasty ID
+- `religion`, `culture` = self-explanatory
+- `father`, `mother` = parent character IDs
+- dated sections like `1.5.1 = { birth = yes }` are historical events
+- `add_spouse = X` creates a marriage on that date
+- `create_bloodline = { type = parthian }` gives that character a bloodline
+
+---
+
+## What this specific family tree is doing
+
+### 1. Founder generation
+### `900400` — Mirian_0
+```txt
+900400 = {
+	name = "Mirian_0"
+	dynasty = 100680
+	religion = miaphysite
+	culture = georgian
+	1.1.1 = { birth = yes }
+	1336.12.31 = { death = yes }
+}
+```
+
+- Male, dynasty `100680`
+- Georgian, Miaphysite
+- Born 1.1.1
+- Dies 1336.12.31
+
+This is basically an ancient root character kept alive in the database until the end date so genealogy remains valid.
+
+---
+
+### 2. His son
+### `900401` — Mirian_1
+```txt
+father = 900400
+1.5.1 = {
+	birth = yes
+	create_bloodline = { type = parthian }
+	add_spouse = 924501
+}
+```
+
+- Son of `900400`
+- Born `1.5.1`
+- Gets a `parthian` bloodline at birth
+- Marries `924501` on birth date
+
+That marriage-at-birth is unusual from a realism standpoint, but in CK2 modding it’s often done just to force a genealogical connection without caring about normal marriage timing.
+
+---
+
+### 3. French female line
+### `924500` — FCommander_0
+- Female founder of dynasty `924500`
+- Catholic, French
+- Born 1.1.1
+
+### `924501` — FCommander_1
+```txt
+female = yes
+dynasty = 924500
+mother = 924500
+1.5.1 = { birth = yes }
+```
+
+- Daughter of `924500`
+- No father specified
+- Catholic, French
+- Married to `900401`
+
+So this introduces another dynasty into the tree.
+
+---
+
+### 4. Next generation
+### `900491` — Mirian_91
+```txt
+dynasty = 100680
+religion = zoroastrian
+father = 900401
+2.1.1 = {
+	birth = yes
+	add_spouse = 924591
+}
+```
+
+- Son of `900401`
+- Dynasty `100680`
+- Georgian
+- Religion is now **Zoroastrian**, so there’s a religious shift in the line
+- Born `2.1.1`
+- Married at birth to `924591`
+
+Again, marriage at birth is probably just mechanical setup.
+
+---
+
+### `924591` — FCommander_91
+```txt
+female = yes
+dynasty = 924500
+mother = 924500
+2.1.1 = { birth = yes }
+```
+
+- Female of dynasty `924500`
+- Daughter of `924500`
+- Wife of `900491`
+
+Notably, she is **not** a daughter of `924501`; she is another daughter of `924500`. So `924501` and `924591` are sisters or half-sisters.
+
+---
+
+### 5. Their daughter
+### `900492` — Mirian_2
+```txt
+female = yes
+dynasty = 924500
+religion = zoroastrian
+culture = georgian
+father = 900491
+mother = 924591
+264.1.1 = {
+	birth = yes
+	add_spouse = 159603
+}
+```
+
+- Daughter of `900491` and `924591`
+- Female
+- Religion zoroastrian, culture georgian
+- **Dynasty = 924500**
+
+This is one of the most important oddities here.
+
+Normally in CK2, a child’s dynasty is whatever you explicitly set in history. The game won’t “infer” it from the father. So this daughter is deliberately assigned to the **mother’s dynasty** (`924500`) instead of the father’s (`100680`).
+
+That means this is likely intentional matrilineal-style dynasty transfer, or at least a modding trick to route ancestry/dynasty in a specific way.
+
+She marries `159603`.
+
+---
+
+### 6. Her son
+### `900493` — Mirian_93
+```txt
+dynasty = 924500
+father = 159603
+mother = 900492
+265.1.1 = { birth = yes }
+```
+
+- Son of `159603` and `900492`
+- Also dynasty `924500`
+
+Again, even though the father is dynasty `100680`, the child is explicitly put into dynasty `924500`.
+
+So this branch is continuing under the female-line dynasty.
+
+---
+
+## The separate male ancestor branch
+### `159603` — Khosro
+```txt
+159603 = {
+	name = "Khosro"
+	dynasty = 100680
+	religion = zoroastrian
+	culture = georgian
+	father = 900400
+	235.11.1 = { birth = yes }
+	301.1.1 = { death = yes }
+}
+```
+
+- Another son of `900400`
+- So `159603` is brother or half-brother to `900401`
+- Born much later, in 235
+- Zoroastrian Georgian
+- Dies in 301
+
+He marries `900492` in her history block, on `264.1.1`.
+
+So this is a marriage between:
+- `900492`, descendant of `900401`
+- `159603`, another son of `900400`
+
+That means `900492` is marrying a collateral ancestor branch from the same original house.
+
+More specifically:
+- `900401` is son of `900400`
+- `900491` is son of `900401`
+- `900492` is daughter of `900491`
+
+So `900492` is great-granddaughter of `900400`
+while `159603` is son of `900400`
+
+That makes `159603` effectively her great-great-uncle / grand-uncle type relation depending on exact count. Very close kin.
+
+This may be intentional for bloodline preservation or to create a specific historical ancestry outcome.
+
+---
+
+## Final important character
+### `159604` — Mirian
+```txt
+159604 = {
+	name = "Mirian"
+	dynasty = 100680
+	religion = miaphysite
+	culture = georgian
+	father = 159603
+	mother = 900492
+	265.11.1 = { birth = yes }
+	285.11.1 = { add_spouse = 159598 }
+	361.1.1 = { death = yes }
+}
+```
+
+- Child of `159603` and `900492`
+- Born in 265
+- Dynasty explicitly set back to `100680`
+- Miaphysite, Georgian
+- Marries `159598` in 285
+- Dies in 361
+
+So this character is likely the real target of the setup: a historical or semi-historical **Mirian** whose ancestry is being engineered.
+
+Notable points:
+- Father is Zoroastrian
+- Mother is Zoroastrian
+- But this character is set to **Miaphysite**
+- So there’s another religious shift here, likely to model conversion or desired historical setup
+
+---
+
+# In plain English: what’s going on?
+
+This code is constructing a custom ancestry for `159604` by:
+
+1. Creating an ancient Georgian dynasty founder (`900400`)
+2. Giving one branch a **Parthian bloodline** via `900401`
+3. Introducing a French/Catholic female dynasty (`924500`)
+4. Forcing descendants in one branch to belong to that female dynasty (`924500`)
+5. Marrying that branch back into the original Georgian dynasty via `159603`
+6. Producing `159604`, a Georgian Miaphysite dynast of `100680`
+
+So it looks like a modded genealogy designed to:
+- attach bloodline inheritance,
+- manipulate dynasty membership,
+- preserve certain parentage,
+- and produce a final historical character with a specific pedigree.
+
+---
+
+## Things that stand out as unusual
+
+### 1. Marriages at birth
+Several characters marry on their birth date:
+```txt
+add_spouse = ...
+```
+inside the `birth` dated block.
+
+This is not normal historically, but CK2 history files often do this as a shortcut.
+
+### 2. Explicit dynasty overrides
+`900492` and `900493` are children of dynasty `100680` fathers, but are assigned dynasty `924500`.
+
+That is valid in history files, but it’s clearly deliberate.
+
+### 3. Very long lifespans
+Some characters live from year 1 to 1336.12.31.
+
+That’s a common mod trick for “dummy genealogy holders” so family links always exist in all bookmarks.
+
+### 4. Close-kin marriage
+`900492` marries `159603`, who descends from the same founder very closely.
+
+Could be intentional for ancestry shaping.
+
+### 5. Mixed religion setup
+There are transitions:
+- Miaphysite → Zoroastrian in one branch
+- then back to Miaphysite for `159604`
+
+This may be for historical flavor or to ensure the final character has the desired religion regardless of parents.
+
+---
+
+## Possible intent
+My guess is this is meant to make `159604` inherit or be connected to:
+- the dynasty `100680`
+- ancestry through `900401`
+- the `parthian` bloodline created on `900401`
+- and possibly some maternal/dynastic structure from `924500`
+
+Depending on CK2 bloodline inheritance rules and how the mod handles them, this family tree may be carefully engineered so the final character gets access to the bloodline through a valid ancestral chain.
+
+---
+
+## One potential issue
+If your goal is bloodline inheritance specifically, the exact inheritance depends on:
+- whether the bloodline is patrilineal, matrilineal, or both
+- what modded bloodline rules are in effect
+- whether the family path you created actually transmits it to `159604`
+
+Since `900401` has the bloodline, the path is:
+
+`900401`  
+→ `900491`  
+→ `900492`  
+→ `159604`
+
+So yes, genealogically `159604` descends from `900401`.
+
+Whether the game recognizes bloodline inheritance exactly as you intend depends on bloodline transmission rules, but the ancestry chain exists.
+
+---
+
+If you want, I can also:
+1. draw the family tree plainly,
+2. explain what `159604` will inherit in CK2 terms,
+3. or point out possible bugs/problems in this setup.
+
+------------------------------------------------------------
+Message  : 3
+Speaker  : User
+Time     : 2026-03-31 17:00:05
+------------------------------------------------------------
+i need help making others history to look like this. and also replacing the temporal chars with more specific ones. firstly look at code i'll give and say what will you need (i probably have the portions of code needed)
+
+------------------------------------------------------------
+Message  : 4
+Speaker  : AI A
+Time     : 2026-03-31 17:00:05
+------------------------------------------------------------
+Yes — send the code.
+
+What I’ll need, ideally:
+
+1. The target character history blocks you want rewritten.
+2. The specific “temporal”/placeholder characters you want replaced.
+3. The intended final genealogy:
+   - who should be father/mother of whom
+   - who should marry whom
+   - which dynasty each child should belong to
+4. Any bloodlines/traits/titles/religions/cultures that must be preserved.
+5. The date range/bookmark you care about.
+6. If relevant, the existing characters’ IDs for the real historical people you want to use.
+7. Any constraints:
+   - must keep checksum-safe vanilla structure?
+   - okay to add new characters?
+   - okay to change birth/death dates?
+   - okay to use “married at birth” genealogy tricks?
+
+If you have only partial code, that’s fine. The most useful things to paste first are:
+
+- the current history block(s),
+- the replacement characters’ history block(s),
+- and a short note like:
+  “I want character X to descend from Y through Z, while keeping dynasty A and religion B.”
+
+Once you paste it, I can tell you exactly what pieces are missing.
+
+------------------------------------------------------------
+Message  : 5
+Speaker  : User
+Time     : 2026-03-31 17:05:57
+------------------------------------------------------------
+so, say what you plan to do first with that
+900500 = {
+	name = "Bagrat_0"
+	dynasty = 507
+	religion = zoroastrian
+	culture = armenian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900501 = {
+	name = "Bagrat_1"
+	dynasty = 507
+	religion = zoroastrian
+	culture = armenian
+	father = 900500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = bagratid
+		}
+		add_spouse = 921001
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921000 = {
+	name = "Benevolent_0"
+	female = yes
+	dynasty = 921000
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921001 = {
+	name = "Benevolent_1"
+	female = yes
+	dynasty = 921000
+	religion = norse_pagan
+	culture = egyptian
+	mother = 921000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_benevolent_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900502 = {
+	name = "Bagrat_2"
+	female = yes
+	dynasty = 900000
+	religion = pagan
+	culture = welsh
+	father = 900501
+	mother = 900005
+	279.1.1 = {
+		birth = yes
+		add_spouse = 159920
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900503 = {
+	name = "Bagrat_3"
+	dynasty = 900000
+	religion = pagan
+	culture = welsh
+	father = 159920
+	mother = 900502
+	280.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+159920 = {
+	name = "Smbat"
+	dynasty = 507
+	religion = zoroastrian
+	culture = armenian
+	father = 900500
+	260.1.1 = {
+		birth = yes
+	}
+	320.1.1 = {
+		death = yes
+	}
+}
+
+159921 = {
+	name = "Bagrat"
+	dynasty = 507
+	religion = zoroastrian
+	culture = armenian
+	father = 159920
+	mother = 900502
+	280.1.1 = {
+		birth = yes
+	}
+	343.1.1 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 6
+Speaker  : AI A
+Time     : 2026-03-31 17:05:58
+------------------------------------------------------------
+First, I’d treat this exactly like the Mirian example: identify the scaffold, identify the real endpoint, then replace the placeholder bridge characters carefully without breaking bloodline transmission or parent links.
+
+## What I see this is doing
+This creates a setup so `159921` (Bagrat) is descended from:
+
+- `900501`, who has `bagratid` bloodline
+- and from `921001`, who has `event_benevolent_bloodline`
+
+through the line:
+
+- `900500` → `900501`
+- `900501` + `900005` → `900502`
+- `900502` + `159920` → `159921`
+
+with `159920` also being another son of `900500`, so same “branch loops back into founder line” structure as your Mirian sample.
+
+There is one immediate thing to flag:
+```txt
+mother = 900005
+```
+for `900502`, but `900005` is not in what you pasted. So that’s one of the pieces I’d need.
+
+---
+
+# What I would do first
+
+## 1. Map the function of every character
+Before changing anything, I’d sort these into roles:
+
+### Core / likely real target
+- `159920` = Smbat
+- `159921` = Bagrat
+
+### Placeholder lineage scaffold
+- `900500` = founder placeholder
+- `900501` = bloodline holder placeholder
+- `900502` = bridge child
+- `900503` = probably nonessential extra child / proof of marriage branch
+- `921000`, `921001` = placeholder maternal bloodline line
+- `900005` = missing mother / probably another placeholder
+
+So my first job would be to determine which of these are:
+- meant to stay,
+- meant to be replaced by real historical characters,
+- or can be deleted once real people are inserted.
+
+---
+
+## 2. Identify the actual objective
+I’d ask: what exactly must remain true after replacement?
+
+From this code, likely required outcomes are:
+
+- `159921` must remain dynasty `507`
+- `159921` must still descend from `900501` or its replacement, so the `bagratid` bloodline can transmit
+- `159921` may also be intended to descend from `921001` or replacement, so the benevolent bloodline can transmit
+- `159920` probably needs to stay father of `159921`
+- `900502` is the key bridge mother joining the bloodline branch to Smbat’s branch
+
+So the first thing I’d plan to preserve is **the transmission path**, not the names.
+
+---
+
+## 3. Check missing dependencies
+Before rewriting, I’d need to inspect anything referenced but not shown:
+
+- `900005` — because she is mother of `900502`
+- possibly `159920` and `159921` full vanilla or mod history if this is only partial
+- any bloodline definitions if inheritance behavior matters
+- any spouse block for `159920` elsewhere, to avoid duplicate/conflicting marriages
+
+This is the first practical thing I’d ask you for.
+
+---
+
+## 4. Build the family tree plainly
+I would rewrite the snippet into a simple tree so we can see where replacements go:
+
+- `900500` Bagrat_0
+  - `900501` Bagrat_1, bloodline: `bagratid`, spouse `921001`
+    - `900502` Bagrat_2, mother `900005`, spouse `159920`
+      - `900503` Bagrat_3
+      - `159921` Bagrat
+  - `159920` Smbat
+
+This immediately reveals something important:
+
+`921001` is spouse of `900501`, but `900502` is **not** their child, because `900502`’s mother is `900005`, not `921001`.
+
+That means the benevolent bloodline from `921001` is **not** in `900502`’s ancestry path as shown here.
+
+So if your intention is for `159921` to inherit both bloodlines, this current code may not actually do that.
+
+That would be one of the first things I’d verify.
+
+---
+
+## 5. Verify whether the current structure is logically correct
+This is the first actual analysis I’d do on your code, because there may be hidden mistakes before we replace placeholders.
+
+### Important issue:
+`900501` marries `921001`, but `900502` is child of `900501` and `900005`.
+
+So:
+- `bagratid` bloodline path exists: `900501` → `900502` → `159921`
+- `event_benevolent_bloodline` path does **not** exist through `921001`, unless another relationship elsewhere connects `900005` to that line
+
+So I would first ask whether:
+- `900005` is supposed to be `921001`,
+- or `900005` is a daughter/descendant of `921001`,
+- or the benevolent bloodline is not actually meant to reach `159921`
+
+This matters a lot before rewriting.
+
+---
+
+# My exact plan, in order
+
+## Step 1: collect all referenced blocks
+I’d ask for:
+- `900005`
+- any other `90050x` or `92100x` tied to this chain
+- full `159920` / `159921` if not complete
+- any real characters you want to substitute in
+
+## Step 2: determine intended final chain
+I’d ask you to say which of these should become real people:
+- `900500`
+- `900501`
+- `921000`
+- `921001`
+- `900502`
+- `900503`
+- `900005`
+
+Because sometimes only the bridge mother needs replacing; sometimes the whole scaffold gets historical names/IDs.
+
+## Step 3: preserve inheritance-critical links
+I’d keep track of:
+- who must be ancestor of `159921`
+- which bloodline holders must be in direct ancestry
+- whether dynasty should stay paternal or be manually overridden
+- whether religion/culture should be historical or mechanically useful
+
+## Step 4: replace placeholders with real characters
+Then I’d convert each placeholder into one of:
+- an existing real vanilla character ID
+- a new specific historical custom character
+- or remove it entirely and connect the genealogy directly
+
+## Step 5: test for logical consistency
+I’d check:
+- parent dates make sense
+- no one gives birth before age ~12 unless you intentionally don’t care
+- marriages exist where useful
+- no duplicate impossible spouse conflicts
+- bloodline transmission path actually works
+
+## Step 6: produce final CK2-ready blocks
+Then I’d give you either:
+- a corrected version of this snippet,
+- or a diff showing exactly what to replace
+
+---
+
+# The first thing I would specifically say from this snippet alone
+
+I would not start replacing names yet.
+
+First I would resolve this question:
+
+### What is `900005`?
+Because right now it is the key mother link for `900502`, and therefore for `159921`.
+
+Without knowing `900005`, I cannot tell whether:
+- the code is already incomplete,
+- the benevolent bloodline path is broken,
+- or `900005` is the real intended replacement target.
+
+---
+
+# So, what I need next
+Paste these if you have them:
+
+1. `900005`
+2. Any other related Bagrat/Benevolent scaffold characters
+3. The real historical characters you want these placeholders replaced with
+4. Your intended outcome in one sentence, like:
+   - “I want 159921 to descend from X and Y and inherit both bloodlines”
+   - or “I only care about replacing placeholders with historical parents”
+
+If you want, send the next chunk and I’ll tell you exactly:
+- what each character is doing,
+- which ones are safe to replace,
+- and which ones are structurally essential.
+
+------------------------------------------------------------
+Message  : 7
+Speaker  : User
+Time     : 2026-03-31 17:39:00
+------------------------------------------------------------
+that's what i did for example (but there's actually mistake - name and id should follow dynasty's founder)
+(historical dynasties are taken from game, custom are made by me and are very similar to id for easiness)
+(and see how i skipped form _01 to _91 that's because this is a "branch" from the main project)
+900591 = {
+	name = "Bagrat_91"
+	dynasty = 507
+	religion = zoroastrian
+	culture = armenian
+	father = 900501
+	2.1.1 = {
+		birth = yes
+		add_spouse = 921091
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921091 = {
+	name = "Benevolent_91"
+	female = yes
+	dynasty = 921000
+	religion = norse_pagan
+	culture = egyptian
+	mother = 921000
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900592 = {
+	name = "Bagrat_92"
+	female = yes
+	dynasty = 921000
+	religion = zoroastrian
+	culture = armenian
+	father = 900591
+	mother = 921091
+	279.1.1 = {
+		birth = yes
+		add_spouse = 159920
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900593 = {
+	name = "Bagrat_93"
+	dynasty = 921000
+	religion = pagan
+	culture = welsh
+	father = 159920
+	mother = 900502
+	280.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+159920 = {
+	name = "Smbat"
+	dynasty = 507
+	religion = zoroastrian
+	culture = armenian
+	father = 900500
+	260.1.1 = {
+		birth = yes
+	}
+	320.1.1 = {
+		death = yes
+	}
+}
+
+159921 = {
+	name = "Bagrat"
+	dynasty = 507
+	religion = zoroastrian
+	culture = armenian
+	father = 159920
+	mother = 900502
+	280.1.1 = {
+		birth = yes
+	}
+	343.1.1 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 8
+Speaker  : AI A
+Time     : 2026-03-31 17:39:00
+------------------------------------------------------------
+Yes, I see what you’re doing now.
+
+You corrected the structure to match the Mirian pattern more closely by creating a branch from `900501`:
+
+- `900501` = bloodline founder branch
+- `900591` = descendant of `900501`
+- `921091` = descendant of `921000`
+- `900592` = child of those two, and the bridge mother
+- `159920` = separate son of `900500`
+- `159921` = child of `159920` + bridge mother
+
+So the intended ancestry path is now:
+
+- `900501` → `900591` → `900592` → `159921`
+- and also `921000` → `921091` → `900592` → `159921`
+
+That makes sense.
+
+---
+
+## But there are still mistakes in this pasted version
+
+You already said there’s a mistake, and I can see a couple.
+
+### 1. `900593` and `159921` still point to `900502`, not `900592`
+These should almost certainly be:
+
+```txt
+mother = 900592
+```
+
+instead of:
+
+```txt
+mother = 900502
+```
+
+because `900502` is the old bridge woman from the earlier version.
+
+So these two are currently wrong:
+
+```txt
+900593
+159921
+```
+
+---
+
+### 2. `900593` is inconsistent in identity
+```txt
+900593 = {
+	name = "Bagrat_93"
+	dynasty = 921000
+	religion = pagan
+	culture = welsh
+	father = 159920
+	mother = 900502
+```
+
+This looks like leftover data from the old placeholder block rather than a cleaned-up descendant of the new branch.
+
+If `900593` is meant to be sibling/proof child of `159921`, then probably:
+- mother should be `900592`
+- religion/culture should probably match the branch you actually want, unless intentionally different
+- and if this is just a utility child, it may not be needed at all
+
+---
+
+# What I understand your method to be
+
+You are building genealogical scaffolding in branches, where:
+
+- `_0` = dynasty founder placeholder/root
+- `_1` = early bloodline carrier
+- `_91`, `_92`, `_93` = branch-local placeholders for a specific lineage path
+- a historical character like `159920` is attached into that scaffold
+- then the final historical target like `159921` inherits the ancestry/bloodline structure
+
+And:
+- historical dynasties use vanilla IDs
+- custom dynasties use custom IDs similar to their character IDs
+- branch numbering is used to keep separate projects or sub-lines organized
+
+That all makes sense.
+
+---
+
+# What I would do first with this approach
+
+Given this method, my first task would be:
+
+## 1. Normalize the branch into a clean pattern
+Before replacing placeholders with specific people, I’d make sure the branch is internally correct.
+
+For this branch, I’d first fix:
+- all `mother`/`father` links
+- all references to old placeholder IDs
+- all dynasty-founder naming/ID mismatches
+- all leftover religion/culture values from the old temporary version
+
+Because if we replace placeholders before cleaning the branch logic, it becomes much easier to lose the inheritance path.
+
+---
+
+## 2. Identify “structural” vs “cosmetic” placeholders
+In your system, some placeholders are structurally important and some are just labels.
+
+For example in this branch:
+
+### Structural
+- `900500` founder root
+- `900501` bloodline founder
+- `900591` branch transmitter
+- `921091` maternal branch transmitter
+- `900592` bridge mother
+- `159920` historical father
+- `159921` final target
+
+### Cosmetic / possibly optional
+- `900593`, depending on whether you actually need that child
+- names like `"Bagrat_91"` if they’ll be replaced later
+
+So first I’d decide which of these must remain as separate characters and which can be swapped out for real historical ones.
+
+---
+
+## 3. Trace inheritance path explicitly
+Before editing, I’d check whether your intended bloodlines are actually flowing.
+
+If bloodlines matter, the key lineage now is:
+
+### Bagratid line:
+`900501`  
+→ `900591`  
+→ `900592`  
+→ `159921`
+
+### Benevolent line:
+`921001` has the bloodline in your earlier code, but in this new branch you used `921091`, who is child of `921000`.
+
+So I need to know:
+
+- does `921091` also need the benevolent bloodline?
+- or should `921091` be daughter/descendant of `921001` instead?
+
+Because right now in the code you pasted, `921091` does **not** have `create_bloodline`, and she is only child of `921000`, not `921001`.
+
+So unless the bloodline is on `921000` elsewhere, or `921091` is connected to `921001`, the benevolent bloodline path may be broken again.
+
+That is one of the very first things I’d want to verify.
+
+---
+
+# So my actual first moves would be:
+
+## First move A: fix broken references
+I would immediately mark these corrections:
+
+### `900593`
+Change:
+```txt
+mother = 900502
+```
+to:
+```txt
+mother = 900592
+```
+
+### `159921`
+Change:
+```txt
+mother = 900502
+```
+to:
+```txt
+mother = 900592
+```
+
+---
+
+## First move B: verify maternal bloodline source
+I would ask:
+
+- Is `921001` the actual benevolent bloodline holder?
+- If yes, should `921091` be her daughter instead of daughter of `921000`?
+- Or should `921091` herself get:
+```txt
+create_bloodline = {
+	type = event_benevolent_bloodline
+}
+```
+?
+- Or is the bloodline actually attached to `921000` in code you haven’t shown?
+
+Because this determines whether the branch works mechanically.
+
+---
+
+## First move C: rename/re-ID according to founder rule
+Since you said the name and ID should follow the dynasty founder, I’d next want to know:
+
+- who is the actual founder for dynasty `507` in this branch?
+- who is the actual founder for custom dynasty `921000`?
+- do you want placeholders renamed to real historical names now, or only once structure is finalized?
+
+Because if you have a naming convention, I’d follow it consistently before making new branches.
+
+---
+
+# What I would need from you next
+To proceed cleanly, I’d want:
+
+1. The corrected intended version of this branch:
+   - should `159921`’s mother be `900592`? I assume yes
+2. The block for `921000` / `921001` again if benevolent bloodline matters
+3. Clarification on where the benevolent bloodline is supposed to pass from
+4. Whether `900593` is important or just a spare child
+5. The real specific characters you want used instead of:
+   - `900591`
+   - `921091`
+   - `900592`
+
+---
+
+# In short: what I plan to do first
+If you give me the next code chunk, I will first:
+
+1. **clean the branch references**
+2. **verify bloodline transmission paths**
+3. **separate required scaffold characters from replaceable placeholders**
+4. **then map placeholders to specific historical characters**
+
+If you want, send the next relevant blocks and I’ll tell you:
+- exactly which IDs are currently wrong,
+- which characters should be replaced first,
+- and how I’d rewrite the branch in your own numbering style.
+
+------------------------------------------------------------
+Message  : 9
+Speaker  : User
+Time     : 2026-03-31 17:50:06
+------------------------------------------------------------
+here's fixed version. only historical bloodline matters. benevolent being descendant from bloodlineless ancestor to not add blood to bagrat's kids. 900500 - is the bloodless ancestor (custom). i'm making two branches from him - one with blood, one without (smbat was historical original. and his son originally was with blood. by doing this whole thing i'm giving him blood)
+
+900591 = {
+	name = "Bagrat_91"
+	dynasty = 507
+	religion = zoroastrian
+	culture = armenian
+	father = 900501
+	2.1.1 = {
+		birth = yes
+		add_spouse = 921091
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921091 = {
+	name = "Benevolent_91"
+	female = yes
+	dynasty = 921000
+	religion = norse_pagan
+	culture = egyptian
+	mother = 921000
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921092 = {
+	name = "Benevolent_92"
+	female = yes
+	dynasty = 921000
+	religion = zoroastrian
+	culture = armenian
+	father = 900591
+	mother = 921091
+	279.1.1 = {
+		birth = yes
+		add_spouse = 159920
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921093 = {
+	name = "Benevolent_93"
+	dynasty = 921000
+	religion = pagan
+	culture = welsh
+	father = 159920
+	mother = 921092
+	280.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+159920 = {
+	name = "Smbat"
+	dynasty = 507
+	religion = zoroastrian
+	culture = armenian
+	father = 900500
+	260.1.1 = {
+		birth = yes
+	}
+	320.1.1 = {
+		death = yes
+	}
+}
+
+159921 = {
+	name = "Bagrat"
+	dynasty = 507
+	religion = zoroastrian
+	culture = armenian
+	father = 159920
+	mother = 921092
+	280.1.1 = {
+		birth = yes
+	}
+	343.1.1 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 10
+Speaker  : AI A
+Time     : 2026-03-31 17:50:06
+------------------------------------------------------------
+Yes, now I understand the intended structure much better.
+
+## What you’re doing
+You have a **bloodless custom ancestor** `900500`, and from him you create:
+
+- a **blooded branch**:
+  - `900500` → `900501` (gets the Bagratid bloodline) → `900591` → `921092`
+- a **bloodless historical branch**:
+  - `900500` → `159920` (Smbat)
+
+Then you marry the two branches:
+- `921092` + `159920`
+
+and produce:
+- `159921` Bagrat
+
+So this gives historical `Bagrat` descent from the bloodline holder, while making `Smbat` himself remain on the bloodless branch.
+
+That is a clean and sensible method.
+
+---
+
+# What I would do first with future cases
+Now that I understand your system, my first step with any new code will be:
+
+## 1. Identify the target historical character
+Find who you want to “gain blood” without changing the historical father.
+
+In this example:
+- target = `159921` Bagrat
+
+## 2. Identify the historical parent who must remain bloodless
+Here:
+- `159920` Smbat stays bloodless
+- but he is linked to the same custom founder `900500`
+
+## 3. Build or inspect the blooded side branch
+That means I’ll look for:
+- founder ancestor
+- bloodline holder
+- one or more intermediate descendants
+- final bridge spouse who becomes mother (or father) of the target
+
+Here:
+- `900500` founder
+- `900501` bloodline holder
+- `900591` branch continuation
+- `921092` bridge mother
+
+## 4. Check whether the target descends from the bloodline holder
+For your structure, the key path is:
+
+`900501`  
+→ `900591`  
+→ `921092`  
+→ `159921`
+
+That means yes, `159921` gets the historical bloodline by ancestry.
+
+## 5. Make sure the non-historical bloodline branch stays bloodless
+You clarified that the Benevolent side is intentionally bloodless, so I would not try to attach or pass any custom/event bloodline there.
+
+That means `921091` / `921092` are just structural maternal bridge characters, not bloodline carriers in their own right.
+
+---
+
+# What matters in this corrected version
+
+## This is now the real logic
+### Bloodless founder:
+```txt
+900500
+```
+
+### Blooded branch:
+```txt
+900500 -> 900501 (bloodline) -> 900591 -> 921092
+```
+
+### Bloodless historical branch:
+```txt
+900500 -> 159920
+```
+
+### Merge point:
+```txt
+159920 + 921092 -> 159921
+```
+
+So Bagrat gets the bloodline from his mother’s ancestry, while still being son of historical Smbat.
+
+That matches your stated goal.
+
+---
+
+# A couple of observations
+
+## 1. `921092` is intentionally in dynasty `921000`
+That’s fine and useful.
+
+Even though her father is dynasty `507`, you are explicitly making her dynasty `921000` so she is clearly “the bridge branch” and doesn’t affect the target’s dynasty, since `159921` is manually set to `507`.
+
+That’s valid.
+
+---
+
+## 2. `921093` is probably optional
+```txt
+921093 = {
+	name = "Benevolent_93"
+	dynasty = 921000
+	religion = pagan
+	culture = welsh
+	father = 159920
+	mother = 921092
+```
+
+This looks like a spare sibling / proof child / branch artifact.
+
+It does not affect `159921`’s bloodline setup.
+
+So unless you need:
+- another descendant for later use,
+- or proof of the marriage existing in genealogy,
+- or a dynasty continuation of `921000`,
+
+you may not need this character at all.
+
+Not saying remove it automatically — just that it is not structurally necessary for giving `159921` the bloodline.
+
+---
+
+## 3. Dates are consistent enough for CK2 scaffolding
+- `900591` born 2
+- `921092` born 279
+- `159920` born 260
+- `159921` born 280
+
+This is obviously not biological realism for some placeholders, but it’s normal for your kind of ancestry scaffolding and works mechanically.
+
+---
+
+# So what I will need when you send the next case
+Now I know exactly how to read your setup. For each new dynasty/character, I’ll want:
+
+1. **The historical target**
+   - who should end up with bloodline they did not originally have
+
+2. **The historical parent that must remain**
+   - usually father, like Smbat here
+
+3. **The bloodline holder**
+   - the ancestor who creates/holds the historical bloodline
+
+4. **The founder/root**
+   - the bloodless common ancestor if you are splitting branches from one root
+
+5. **Any placeholder bridge branch you already made**
+   - or, if not made yet, I can help design it
+
+6. **Whether the branch should be male-side or female-side**
+   - in this example, female bridge mother
+
+---
+
+# What I’ll do first when you give me another code chunk
+My workflow will be:
+
+## A. Find the current historical line
+Who is father/mother/child already.
+
+## B. Find the bloodline source
+Which ancestor must connect to the target.
+
+## C. Design a two-branch split if needed
+- branch 1 = blooded
+- branch 2 = historical parent line
+
+## D. Choose the bridge character
+Usually a mother from the blooded branch married to the historical father.
+
+## E. Produce CK2 blocks in your style
+Using your numbering logic:
+- `_0`, `_1` for core line
+- `_91`, `_92`, `_93` for branch
+- custom dynasties with similar IDs when needed
+
+---
+
+# One thing I’d like you to clarify going forward
+You said:
+
+> name and id should follow dynasty's founder
+
+So for future work I’ll need to know whether you want me to preserve this exact naming convention, e.g.:
+
+- `Bagrat_91`
+- `Benevolent_92`
+
+or whether, when replacing temporary chars with specific ones, you want me to rename them to actual historical people.
+
+Because those are two different tasks:
+
+1. **structural cleanup**
+2. **historical replacement**
+
+---
+
+# Short answer: what I plan to do first
+With code like this, first I will:
+
+- identify founder, blooded branch, bloodless branch, and target
+- verify the target descends from the bloodline holder
+- check whether the bridge parent is placed correctly
+- then ask only for the missing historical blocks needed to replace the temporary branch characters with real ones
+
+So yes — your corrected version now makes sense, and I can work with this method.
+
+Send the next dynasty/code and I’ll tell you exactly:
+- which character is the founder,
+- which branch is blooded,
+- who the bridge should be,
+- and what code pieces I still need.
+
+------------------------------------------------------------
+Message  : 11
+Speaker  : User
+Time     : 2026-03-31 17:58:13
+------------------------------------------------------------
+921093 IS needed. bloodline doesn't go to bagrat if there's no brother of different dynasty. you'll see it occasionally in future
+
+------------------------------------------------------------
+Message  : 12
+Speaker  : AI A
+Time     : 2026-03-31 17:58:13
+------------------------------------------------------------
+Got it. That is very important.
+
+So I’ll treat characters like `921093` as **mechanically required transmission anchors**, not optional filler.
+
+## So my updated understanding is:
+In your setup, sometimes the bloodline/inheritance behavior only works correctly if there is:
+
+- the target child, and
+- a sibling of another dynasty / branch outcome
+
+even if that sibling is not historically important.
+
+So `921093` is a **necessary support character** for CK2 bloodline handling in your construction.
+
+I won’t suggest removing those in future.
+
+---
+
+## What I’ll assume from now on
+When I see a pattern like:
+
+- bridge mother from off-dynasty branch
+- historical father from target dynasty
+- target child in target dynasty
+- sibling in maternal/off-dynasty branch
+
+I’ll assume the sibling may be required for:
+- bloodline propagation behavior,
+- dynasty branch validation,
+- or whatever edge case you’re exploiting in CK2’s inheritance logic.
+
+So I’ll preserve those “support siblings” unless you specifically say they can go.
+
+---
+
+## Revised reading of this branch
+Now I read this as:
+
+- `159921` = intended historical recipient of bloodline
+- `921093` = required sibling/support character to make inheritance behave
+- `921092` = bridge mother
+- `159920` = historical father
+- `900591` = bloodline-carrying branch continuation
+- `900501` = bloodline source
+- `900500` = bloodless common ancestor
+
+That’s now the full mechanical structure, not just a family tree.
+
+---
+
+## What I’ll do first on future examples
+When you send more code, I’ll check for four things:
+
+1. **bloodless common ancestor**
+2. **blooded branch**
+3. **historical branch**
+4. **required support child/sibling like `921093`**
+
+So I won’t only ask “who is the target?” but also:
+- is there a required non-target sibling?
+- should that sibling stay in a different dynasty?
+- is it needed specifically for bloodline transmission?
+
+---
+
+## What I’ll need from future snippets
+If possible, for each case tell me:
+
+- who is supposed to gain the bloodline
+- which sibling/support child is mechanically required
+- whether that support child must be:
+  - same parents
+  - different dynasty
+  - same birth date or close date
+  - male/female specifically
+
+That will keep me from accidentally “cleaning up” something that actually makes the setup work.
+
+Send the next code whenever you want.
+
+------------------------------------------------------------
+Message  : 13
+Speaker  : User
+Time     : 2026-03-31 18:06:28
+------------------------------------------------------------
+900600 = {
+	name = "Gwrtheyrn_0"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900601 = {
+	name = "Gwrtheyrn_1"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	father = 900600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = vortigern
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919600 = {
+	name = "Protector_0"
+	female = yes
+	dynasty = 919600
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919601 = {
+	name = "Protector_1"
+	female = yes
+	dynasty = 919600
+	religion = norse_pagan
+	culture = egyptian
+	mother = 919600
+	1.5.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900602 = {
+	name = "Gwrtheyrn_2"
+	dynasty = 900000
+	religion = pagan
+	culture = welsh
+	father = 900601
+	mother = 900006
+	20.1.1 = {
+		birth = yes
+		add_spouse = 900603
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900603 = {
+	name = "Gwrtheyrn_1"
+	female = yes
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	father = 900600
+	1.5.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900604 = {
+	name = "Gwrtheyrn_2"
+	female = yes
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	father = 900602
+	mother = 900603
+	305.1.1 = {
+		birth = yes
+		add_spouse = 159945
+	}
+	351.1.1 = {
+		death = yes
+	}
+}
+
+159056 = {
+	name = "Gwrtheyrn"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	father = 159945
+	mother = 900604
+	350.1.1 = {
+		birth = yes
+	}
+	375.1.1 = {
+		add_spouse = 159810
+	}
+	441.1.1 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 14
+Speaker  : AI A
+Time     : 2026-03-31 18:06:28
+------------------------------------------------------------
+Yes, I can see the structure immediately. This is another **two-branch bloodline inheritance setup**, but with a twist: the bloodline holder is in a **female line** (`900601` is male, but the bloodline is passed to a daughter, `900603`, who then passes it to her daughter, `900604`).
+
+Here’s the breakdown of what’s happening and what I would do first.
+
+---
+
+## 1. The Family Tree (as it stands)
+
+**Founder (Bloodless):**
+- `900600` Gwrtheyrn_0 (Catholic, Welsh)
+
+**Bloodline Holder (Male):**
+- `900601` Gwrtheyrn_1 (Son of `900600`, creates `vortigern` bloodline)
+
+**Maternal Bloodline Source (Female, Norse Pagan):**
+- `919600` Protector_0
+- `919601` Protector_1 (Daughter of `919600`)
+
+**The Critical Bridge (Female, Bloodline Carrier):**
+- `900603` Gwrtheyrn_1 (Daughter of `900600`, **not** of `900601`)
+
+Wait — this is a problem.
+
+`900603` is defined as:
+```txt
+father = 900600
+```
+But `900601` is the bloodline holder, and `900603` is the one who marries into the other branch.
+
+This means `900603` does **not** have the bloodline, because she is not descended from `900601`.
+
+Unless the bloodline is `patrilineal`, `900603` cannot inherit it from `900601` because they are siblings (same father, different mother?), but `900601` is defined with `father = 900600` and `900603` also has `father = 900600`.
+
+So they are siblings. If the bloodline is patrilineal, `900603` cannot inherit it. If it’s matrilineal, she also cannot because her mother is not `900601`.
+
+**This suggests a mistake in the code.**
+
+Let me re-read carefully.
+
+- `900601` is the bloodline holder, son of `900600`.
+- `900603` is also a daughter of `900600`, so she is `900601`'s sister.
+
+If the bloodline is created on `900601`, it is attached to him. His sister `900603` does not automatically get it.
+
+For `900603` to have the bloodline, she would need to be:
+1. A daughter of `900601` (not `900600`), or
+2. The bloodline would need to be created on a character that is an ancestor of both `900601` and `900603`, or
+3. The bloodline would need to be transferred to `900603` via some other modded mechanic.
+
+Given the pattern from the previous example, I suspect `900603` **should** be a daughter of `900601`, not `900600`.
+
+But let's look at the rest.
+
+**The Other Branch (Bloodless Historical):**
+- `900602` Gwrtheyrn_2 (Male, pagan, welsh)
+  - Father: `900601` (the bloodline holder)
+  - Mother: `900006` (not shown, but likely a placeholder)
+
+**The Marriage:**
+- `900602` marries `900603` (his aunt? sister? This is getting messy).
+
+Wait, let's map this correctly:
+
+- `900600` is the root.
+- `900601` is son of `900600` (bloodline holder).
+- `900603` is also a child of `900600` (sister of `900601`).
+- `900602` is son of `900601` (bloodline holder's son).
+- `900602` marries `900603` (his aunt).
+
+This is **not** the two-branch structure from the previous example. This is a circular/looping structure.
+
+Let me re-read the previous example to see the pattern:
+
+**Previous Example (Bagrat):**
+- `900500` (bloodless founder)
+  - `900501` (blooded branch)
+    - `900591`
+    - `921092` (bridge mother)
+  - `159920` (bloodless historical branch)
+- `159920` + `921092` = `159921` (target)
+
+So the pattern is:
+1. Founder (`900500`) splits into two branches.
+2. One branch gets the bloodline (`900501`).
+3. The other branch is the historical father (`159920`).
+4. A daughter from the blooded branch (`921092`) marries the historical father (`159920`).
+5. Their child (`159921`) gets the bloodline.
+
+**Now, in this Gwrtheyrn example, the pattern is different:**
+
+The bloodline holder (`900601`) is the **father** of the historical father (`900602`).
+
+This means the historical father (`900602`) is **already** a descendant of the bloodline holder.
+
+So why do we need the complex marriage?
+
+Let's look at `900604` and `159056`.
+
+- `900604` is daughter of `900602` and `900603`.
+- `159056` is son of `900604` and `159945`.
+
+So `159056` is the target.
+
+His ancestry:
+- `159056` -> `900604` -> `900602` -> `900601` -> `900600`
+
+So `159056` **is** a descendant of the bloodline holder `900601`.
+
+So why is this setup so complex?
+
+Ah, I see. The bloodline holder `900601` is **not** the direct father of the target. The target's direct father is `159945` (not shown in this snippet).
+
+And the target's mother is `900604`.
+
+So the target `159056` is **not** in the direct patrilineal line of the bloodline holder.
+
+This is a **matrilineal** bloodline inheritance setup.
+
+The bloodline is passed from `900601` -> `900602` -> `900604` -> `159056`.
+
+But wait, `900601` is male. If the bloodline is patrilineal, it would go to his son `900602`, but then `900602`'s daughter `900604` would not get it if it's patrilineal.
+
+Unless the bloodline is **matrilineal** or **both**.
+
+But the code says `create_bloodline = { type = vortigern }` on `900601`.
+
+We need to know the bloodline type's inheritance rules.
+
+However, the setup suggests that the bloodline is intended to be passed through `900604` to `159056`.
+
+So the key is `900604`.
+
+Who is `900604`?
+- Daughter of `900602` (bloodline holder's son) and `900603` (sister of bloodline holder).
+
+So `900604` is the niece of the bloodline holder.
+
+If the bloodline is **patrilineal**, `900604` would not get it.
+
+If the bloodline is **matrilineal**, `900604` would get it from her father `900602`.
+
+But `900602` is male, so if the bloodline is matrilineal, he wouldn't have passed it to his daughter.
+
+This is confusing.
+
+Let me assume the bloodline is **dynastic** or **both**.
+
+The key is that `900604` is the one who marries `159945` and produces `159056`.
+
+So the bloodline must be on `900604` or her ancestry.
+
+Given the complexity, I think the code might have a mistake.
+
+**Let me propose a correction based on the previous pattern:**
+
+In the previous example, the bridge mother was from the blooded branch, and the historical father was from the bloodless branch.
+
+Here, it seems like the roles are mixed.
+
+Let me try to map it to the previous pattern:
+
+**Founder:** `900600`
+
+**Blooded Branch:**
+- `900601` (bloodline holder)
+  - `900602` (son, but this is the historical father? No, `900602` is pagan, not the target's father)
+
+**Bloodless Branch:**
+- `900603` (sister of bloodline holder, but she is from the same founder, so not bloodless? She doesn't have the bloodline)
+
+Wait, `900603` is defined as:
+```txt
+dynasty = 1029003
+religion = catholic
+culture = welsh
+father = 900600
+```
+So she is from the same dynasty and founder, but she doesn't have the bloodline because she is not descended from `900601`.
+
+So she is "bloodless" in terms of the `vortigern` bloodline.
+
+Then `900602` (son of `900601`) marries `900603` (sister of `900601`).
+
+This is **not** a two-branch split from the founder. This is a marriage between an uncle/aunt and a niece/nephew.
+
+This is different from the Bagrat example.
+
+**Let me look at the target:**
+
+`159056` is the son of `900604` and `159945`.
+
+`900604` is the daughter of `900602` and `900603`.
+
+So `159056`'s mother is `900604`, and his father is `159945`.
+
+`159945` is not in this snippet. He is likely the historical father from another branch.
+
+So the pattern is:
+
+1. Founder `900600` has two children: `900601` (bloodline holder) and `900603` (bloodless).
+2. `900601` has a son `900602`.
+3. `900602` marries `900603` (his aunt).
+4. They have a daughter `900604`.
+5. `900604` marries `159945` (historical father from another line).
+6. They have `159056` (target).
+
+This is a way to get the bloodline into `900604` and then to `159056`.
+
+But it's not the same as the Bagrat example.
+
+**What I would do first:**
+
+1. **Identify the target:** `159056`
+2. **Identify the bloodline source:** `900601`
+3. **Identify the bridge to the target:** `900604`
+4. **Check the ancestry of `900604`:**
+   - Father: `900602` (son of bloodline holder)
+   - Mother: `900603` (sister of bloodline holder)
+5. **Verify the bloodline transmission:**
+   - If bloodline is patrilineal, `900602` has it, but `900604` (daughter) does not.
+   - If bloodline is matrilineal, `900602` (male) does not have it, so he cannot pass it to `900604`.
+   - If bloodline is both, then `900604` would get it from her father `900602`.
+
+Given the setup, I assume the bloodline is **both** or **dynastic**.
+
+**But there's a problem:** `900603` is the mother of `900604`, and she is from the same dynasty (`1029003`) but not a descendant of the bloodline holder.
+
+This might be intentional to keep the dynasty pure, but it's unusual.
+
+**Now, what I would do to fix or understand this:**
+
+1. **Check if `900603` should be a descendant of `900601`.** If so, her father should be `900601`, not `900600`.
+2. **Check if `900602` should be the historical father.** But `900602` is pagan, and the target's father is `159945` (not shown).
+3. **Check the bloodline type.** The `vortigern` bloodline might have specific inheritance rules.
+
+**Given the complexity, I think the code might be incomplete or incorrect.**
+
+**What I need from you:**
+
+1. **The block for `900006`** (mother of `900602`).
+2. **The block for `159945`** (father of `159056`).
+3. **Clarification on the bloodline inheritance rules** for `vortigern`.
+4. **Confirmation on whether `900603` should be a daughter of `900601`** (to make her a bloodline carrier).
+
+**If I were to rewrite this to match the previous pattern (Bagrat example), I would do this:**
+
+**Founder:** `900600` (bloodless)
+
+**Blooded Branch:**
+- `900601` (bloodline holder)
+  - `900691` (bridge daughter, bloodline carrier)
+
+**Bloodless Branch:**
+- `159945` (historical father, not shown in snippet)
+
+**Marriage:**
+- `900691` + `159945` = `159056`
+
+But this is not what the code shows.
+
+**So, to answer your question: "what will you need"**
+
+I need:
+1. `900006` (mother of `900602`)
+2. `159945` (father of `159056`)
+3. Clarification on the bloodline inheritance for `vortigern`
+4. Confirmation on the intended structure (is `900603` supposed to be a bloodline carrier?)
+
+Once I have that, I can tell you exactly how to rewrite this to make it work like the Bagrat example.
+
+---
+
+## 2. What I would do first (step-by-step)
+
+### Step 1: Identify the target and bloodline source
+- Target: `159056`
+- Bloodline source: `900601`
+
+### Step 2: Map the current ancestry
+- `159056` -> `900604` -> `900602` -> `900601` -> `900600`
+
+### Step 3: Check bloodline transmission
+- If bloodline is patrilineal, `900601` passes to `900602` (son), but `900604` (daughter) does not get it.
+- If bloodline is matrilineal, `900601` (male) does not have it, so cannot pass it.
+- If bloodline is both, `900604` gets it from `900602`.
+
+### Step 4: Identify the missing pieces
+- `900006` (mother of `900602`)
+- `159945` (father of `159056`)
+
+### Step 5: Propose a correction
+If the bloodline is patrilineal and you want `159056` to have it, then `159056` must be in the patrilineal line.
+
+But `159056`'s father is `159945`, not `900602`.
+
+So the only way is if the bloodline is matrilineal or both, and `900604` has it.
+
+But `900604`'s father is `900602`, who has the bloodline (if patrilineal).
+
+So if the bloodline is both, it works.
+
+**But the code has `900603` as the mother of `900604`, and `900603` does not have the bloodline.**
+
+This is okay if the bloodline comes from the father (`900602`).
+
+**So the setup might be correct if the bloodline is both.**
+
+**However, the marriage between `900602` and `900603` is between uncle and niece, which is unusual but possible in CK2.**
+
+**What I would do next:**
+
+1. **Get the missing blocks** (`900006`, `159945`).
+2. **Check the bloodline type** to see if it can be passed from father to daughter.
+3. **If the bloodline is patrilineal only**, then this setup won't work, and we need to change it.
+4. **If the bloodline is both or matrilineal**, then the setup might be correct.
+
+**Given the previous example, I think the bloodline is intended to be passed to the target through the mother (`900604`).**
+
+**So, to match the previous pattern, I would rewrite it as:**
+
+```txt
+900600 = {
+	name = "Gwrtheyrn_0"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	1.1.1 = { birth = yes }
+	1336.12.31 = { death = yes }
+}
+
+900601 = {
+	name = "Gwrtheyrn_1"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	father = 900600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = { type = vortigern }
+	}
+	1336.12.31 = { death = yes }
+}
+
+900691 = {
+	name = "Gwrtheyrn_91"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	father = 900601
+	2.1.1 = {
+		birth = yes
+		add_spouse = 159945
+	}
+	1336.12.31 = { death = yes }
+}
+
+159056 = {
+	name = "Gwrtheyrn"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	father = 159945
+	mother = 900691
+	350.1.1 = { birth = yes }
+	375.1.1 = { add_spouse = 159810 }
+	441.1.1 = { death = yes }
+}
+```
+
+But this is a simplified version that doesn't include the `919600` and `919601` line.
+
+**So, to include the `919600` line, I would need to know how it fits in.**
+
+**Given the code, `919600` and `919601` are not connected to the main tree.**
+
+**So, what I need from you:**
+
+1. **How does the `919600` line connect to the main tree?**
+2. **Is `900603` supposed to be a daughter of `900601`?**
+3. **What is the role of `919601`?**
+
+**Once I have that, I can give you the exact code.**
+
+---
+
+## 3. Summary of what I would do first
+
+1. **Get the missing blocks** (`900006`, `159945`).
+2. **Clarify the bloodline inheritance** for `vortigern`.
+3. **Clarify the role of `919600` and `919601`**.
+4. **Check if `900603` should be a daughter of `900601`**.
+5. **Rewrite the code** to match the previous pattern (if needed).
+
+**If you provide the missing blocks and clarifications, I can give you the exact code.**
+
+---
+
+## 4. What I would do first (immediate action)
+
+**Immediate action:** I would ask you for:
+- `900006`
+- `159945`
+- Clarification on `919600` and `919601`
+- Confirmation on whether `900603` should be a daughter of `900601`
+
+**Then, I would rewrite the code** to ensure the bloodline passes correctly to `159056`.
+
+---
+
+**So, to answer your original question: "look at this code. do you understand what's happening here?"**
+
+**Yes, I understand the intent, but the code has some unusual structures and missing pieces.**
+
+**I would need the missing blocks and clarifications to give you the exact corrected code.**
+
+**But based on the previous example, I can already see that the structure is different and might need adjustment.**
+
+**Let me know the missing pieces, and I'll help you fix it.**</think>Yes, I understand what’s happening here.
+
+This is the **Vortigern** version of the same scaffolding pattern, but with a few twists that make it more complex than the Bagrat example.
+
+---
+
+## What this code is doing
+
+### 1. Founder (bloodless)
+`900600` = Gwrtheyrn_0, founder of dynasty `1029003`, Catholic, Welsh.
+
+### 2. Bloodline holder (male)
+`900601` = Gwrtheyrn_1, son of `900600`, creates the `vortigern` bloodline.
+
+### 3. Maternal bloodline source (Norse/Egyptian)
+`919600` and `919601` are a separate female line, but **they are not connected to the main tree in this snippet**. They appear to be a placeholder or unused branch in this specific code.
+
+### 4. The complex bridge
+- `900602` = son of `900601` (bloodline holder) and `900006` (not shown).
+- `900603` = daughter of `900600` (same as `900601`), so she is the **sister** of the bloodline holder.
+- `900602` marries `900603` (his aunt).
+
+This is **not** the two-branch pattern from the Bagrat example. This is a **loopback marriage** within the same generation.
+
+### 5. The target
+- `900604` = daughter of `900602` and `900603`.
+- `159056` = son of `900604` and `159945` (not shown).
+
+So `159056` is the target who should get the `vortigern` bloodline.
+
+---
+
+## The ancestry path
+```
+900600
+├── 900601 (bloodline holder)
+│   └── 900602
+│       └── 900604
+│           └── 159056 (target)
+└── 900603 (sister, bloodless)
+    └── 900604
+        └── 159056
+```
+
+So `159056` descends from the bloodline holder through his mother `900604`.
+
+---
+
+## Why this is different from the Bagrat example
+
+In the Bagrat example:
+- The blooded branch and bloodless branch were **separate lines** from the founder.
+- The bridge was a daughter from the blooded branch marrying the historical father from the bloodless branch.
+
+In this Vortigern example:
+- The bloodline holder and his sister are **children of the same founder**.
+- The bloodline holder’s son marries his own aunt.
+- The target is the grandson of the bloodline holder through a daughter.
+
+This is a **more compact** way to get the bloodline to the target, but it uses a marriage that is closer kin than in the Bagrat example.
+
+---
+
+## What I would do first with this code
+
+### 1. Identify the missing pieces
+- `900006` (mother of `900602`)
+- `159945` (father of `159056`)
+
+I need these to complete the tree.
+
+### 2. Verify the bloodline transmission
+The bloodline is created on `900601`. For `159056` to get it, the bloodline must be passable through:
+- patrilineal line: `900601` → `900602` → but `900604` is female, so if patrilineal only, she doesn’t get it.
+- matrilineal line: `900601` is male, so he can’t pass matrilineally.
+- both: `900602` gets it patrilineally, then passes it to `900604` (if bloodline is both).
+
+So I need to know if `vortigern` is patrilineal, matrilineal, or both.
+
+### 3. Check the role of `919600` and `919601`
+In this snippet, they are not connected to the main tree. Are they:
+- unused placeholders?
+- meant to be the mother of `900602` (i.e., `900006` = `919601`)?
+- part of a separate branch?
+
+### 4. Decide if the structure is correct
+If the goal is to give `159056` the bloodline, and the bloodline is **both** or **dynastic**, then this structure works.
+
+But if the bloodline is **patrilineal only**, then `900604` (female) would not get it, and `159056` would not inherit it.
+
+So I need to know the bloodline type.
+
+---
+
+## What I need from you
+
+To give you the exact corrected code, I need:
+
+1. **`900006`** (mother of `900602`)
+2. **`159945`** (father of `159056`)
+3. **Clarification on `919600` and `919601`** – are they connected, or can they be removed?
+4. **Bloodline inheritance rules for `vortigern`** – is it patrilineal, matrilineal, or both?
+
+---
+
+## What I would do first (immediate action)
+
+1. **Ask for the missing blocks** (`900006`, `159945`).
+2. **Ask about the `919600` line** – is it needed?
+3. **Check the bloodline type** – this is critical.
+4. **If the bloodline is patrilineal only**, I would suggest changing `900604` to male, or changing the bloodline inheritance.
+5. **If the bloodline is both**, the current structure might work, but I would still simplify it to match the Bagrat pattern for clarity.
+
+---
+
+## Simplified version (if `919600` line is not needed)
+
+If the `919600` line is not needed, I would rewrite it like this (matching the Bagrat pattern):
+
+```txt
+900600 = {
+	name = "Gwrtheyrn_0"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	1.1.1 = { birth = yes }
+	1336.12.31 = { death = yes }
+}
+
+900601 = {
+	name = "Gwrtheyrn_1"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	father = 900600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = { type = vortigern }
+	}
+	1336.12.31 = { death = yes }
+}
+
+900691 = {
+	name = "Gwrtheyrn_91"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	father = 900601
+	2.1.1 = {
+		birth = yes
+		add_spouse = 159945
+	}
+	1336.12.31 = { death = yes }
+}
+
+159056 = {
+	name = "Gwrtheyrn"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	father = 159945
+	mother = 900691
+	350.1.1 = { birth = yes }
+	375.1.1 = { add_spouse = 159810 }
+	441.1.1 = { death = yes }
+}
+```
+
+This is cleaner and matches the Bagrat pattern.
+
+But if you need the `919600` line or the loopback marriage, I need the missing pieces.
+
+---
+
+## Summary
+
+**Yes, I understand the code.** It’s a more complex version of the scaffolding pattern, using a loopback marriage to get the bloodline to the target.
+
+**What I would do first:** Ask for the missing blocks and clarifications, then rewrite it to ensure the bloodline passes correctly.
+
+**What I need from you:**
+1. `900006`
+2. `159945`
+3. Clarification on `919600`/`919601`
+4. Bloodline inheritance rules for `vortigern`
+
+Once you provide these, I can give you the exact corrected code.
+
+------------------------------------------------------------
+Message  : 15
+Speaker  : AI A
+Time     : 2026-03-31 18:06:44
+------------------------------------------------------------
+Yes. I can already see the same general scaffold, and I can also see what I’d need before rewriting it into your “fixed branch” style.
+
+## First, what this current code is doing
+It looks like an older/incomplete setup intended to make `159056` descend from the `vortigern` bloodline.
+
+### Current intended path seems to be:
+- `900600` = bloodless ancestor
+- `900601` = bloodline holder (`vortigern`)
+- `900602` = descendant of `900601`
+- `900604` = child of `900602` and `900603`
+- `159056` = child of `159945` and `900604`
+
+So the bloodline route is:
+
+`900601`  
+→ `900602`  
+→ `900604`  
+→ `159056`
+
+That part is readable.
+
+---
+
+# Immediate problems I see
+Before doing anything else, I’d flag these:
+
+## 1. `900006` is missing
+```txt
+mother = 900006
+```
+for `900602`
+
+So I need that block, or at least to know what `900006` is supposed to be.
+
+---
+
+## 2. `159945` is missing
+`900604` marries `159945`, and `159056` is fathered by `159945`.
+
+So I need `159945`’s block or at minimum confirmation of who he is.
+
+---
+
+## 3. There is no support sibling yet
+Based on what you told me, if this is going to work in the same way as the Bagrat setup, then this older snippet is probably missing the required sibling/support child of a different dynasty.
+
+Right now it has only the target:
+- `159056`
+
+but no obvious “needed brother of different dynasty” equivalent like `921093`.
+
+So I would expect this to need expansion.
+
+---
+
+## 4. `900603` is suspiciously just a female duplicate of the founder branch
+```txt
+900603 = {
+	name = "Gwrtheyrn_1"
+	female = yes
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	father = 900600
+	1.5.1 = { birth = yes }
+}
+```
+
+This looks like a temporary same-house female sibling/daughter of `900600`, used as spouse of `900602`.
+
+That means:
+- `900602` is child of `900601`
+- `900603` is also child of `900600`
+
+So `900604` is the child of people from the same founder line, which is consistent with your earlier “loop back to founder branch” approach.
+
+But it’s still not in your newer split-branch style with an explicit support sibling.
+
+---
+
+# What I think this will need
+If we’re converting this into the method you used for Bagrat, then I expect the rewrite to become something like:
+
+## Bloodless founder:
+- `900600`
+
+## Blooded branch:
+- `900600` → `900601` (gets `vortigern` bloodline) → branch descendant(s) → bridge mother
+
+## Bloodless/historical branch:
+- likely `900600` → `159945` or another historical ancestor line
+
+## Merge:
+- bridge mother + `159945` → `159056`
+
+## Plus support sibling:
+- another child of the same parents as `159056`, but in the alternate dynasty branch, because you said that is occasionally required
+
+That is what I’d expect the final structure to look like.
+
+---
+
+# So what I would need from you first
+To rewrite this properly, I’d need these pieces:
+
+## 1. `159945`
+This is the biggest one.
+I need the history block for `159945`, because he is the father of `159056` and probably the historical branch anchor.
+
+## 2. `900006`
+Because `900602` currently depends on it, and I need to know whether:
+- it’s an old temporary placeholder,
+- it should be replaced by a branch mother like your `919691` equivalent,
+- or it can be discarded entirely in the rewrite.
+
+## 3. Whether `159056` is the actual target
+I assume yes:
+- you want historical `159056` to gain descent from `vortigern`
+
+But I want confirmation.
+
+## 4. Whether there is already a support sibling in vanilla or your files
+Since you said it is needed “occasionally,” I want to know:
+- does this case need one too?
+- if yes, do you already have that child in another file/chunk, or should we create it?
+
+## 5. Whether `900603` is meant to stay or be replaced
+Right now she is:
+- female
+- dynasty `1029003`
+- father `900600`
+
+So she may be an old temporary “same founder loop” spouse.
+I need to know whether she is:
+- to be replaced by a more specific historical person,
+- or completely superseded by your newer branch method.
+
+---
+
+# What I would do first with this code
+If you asked me to work this case, my first concrete step would be:
+
+## Step 1: identify the historical father branch
+I would inspect `159945` first.
+
+Because in your newer method, the core question is:
+- who is the historical parent that must remain?
+- do we split from a bloodless common ancestor to that person?
+
+Without `159945`, I can’t know what the non-blood branch should look like.
+
+---
+
+## Step 2: determine whether `900602` is the old “bridge branch” equivalent
+I would check whether:
+- `900602` should survive as a blooded descendant,
+- or whether we should replace it with a `_91` branch character like in your newer setup.
+
+At first glance, I suspect this older block is still in the **pre-branch-cleanup** form and should be remade.
+
+---
+
+## Step 3: rebuild into your newer pattern
+If this follows the Bagrat logic, I would probably restructure it into something more like:
+
+- founder `_0`
+- bloodline holder `_1`
+- branch continuation `_91`
+- branch spouse `_91`
+- bridge mother `_92`
+- support sibling `_93`
+- historical father
+- target child
+
+Not necessarily those exact IDs, but that shape.
+
+---
+
+# Tentative interpretation of intended result
+I think the likely intended final logic is:
+
+- `900600` = custom bloodless ancestor
+- one child branch gets `vortigern` bloodline
+- another branch leads to the historical father
+- those branches are merged so `159056` gains the bloodline
+- and perhaps a sibling/support child is needed for transmission mechanics
+
+That would match your established method almost exactly.
+
+---
+
+# So the next code I need from you
+Please send whichever of these you have:
+
+1. `159945`
+2. `900006`
+3. any existing sibling/support child for `159056`
+4. any rewritten/fixed version if you already started one
+
+Then I can tell you very specifically:
+- which characters to keep,
+- which to replace,
+- what branch structure to use,
+- and how I’d rewrite this into your Bagrat-style system.
+
+------------------------------------------------------------
+Message  : 16
+Speaker  : AI B
+Time     : 2026-03-31 18:06:28
+------------------------------------------------------------
+I see the structure. Let me break it down.
+
+---
+
+## Current structure
+
+### Bloodless founder
+```
+900600 = Gwrtheyrn_0, dynasty 1029003
+```
+
+### Blooded branch
+```
+900600 → 900601 (vortigern bloodline) → 900602 → 900604
+```
+
+### Bridge marriage
+```
+900604 + 159945 → 159056
+```
+
+### Target
+```
+159056 = Gwrtheyrn (historical)
+```
+
+---
+
+## What I notice
+
+### 1. Missing character: `900006`
+`900602` has:
+```txt
+mother = 900006
+```
+This character is not in the snippet.
+
+### 2. Missing character: `159945`
+`900604` marries `159945`, and `159056` has `father = 159945`.
+This character is not in the snippet.
+
+### 3. `919600` / `919601` (Protector line) are defined but unused
+No one in this snippet has them as parent or spouse.
+
+So either:
+- they are meant to connect somewhere but currently don't,
+- or they belong to a different branch you haven't shown yet.
+
+### 4. Duplicate names
+Both `900601` and `900603` are named `"Gwrtheyrn_1"`.
+Both `900602` and `900604` are named `"Gwrtheyrn_2"`.
+
+This may be intentional placeholder naming, but worth flagging.
+
+### 5. `900603` is a parallel branch for intermarriage
+```txt
+900603 = {
+	father = 900600
+	...
+	add_spouse = 900602
+}
+```
+So `900602` and `900603` are:
+- both children of `900600`
+- married to each other
+
+This is close-kin intermarriage to keep the lineage tight. That's valid.
+
+### 6. No required support sibling yet
+Unlike the Bagrat example, I don't see the "different dynasty sibling" needed for bloodline transmission.
+
+So either:
+- it is needed and missing,
+- or this structure doesn't require it for some reason.
+
+---
+
+## What I need to proceed
+
+### 1. `900006`
+Mother of `900602`.
+
+### 2. `159945`
+Father of `159056`, husband of `900604`.
+This is the historical bloodless father like Smbat was for Bagrat.
+
+### 3. Clarification on Protector line
+Is `919600`/`919601` supposed to connect here?
+Or is it for a different branch?
+
+### 4. Is a support sibling needed?
+Should there be a child of `159945` + `900604` in dynasty `919600` or another off-dynasty, like `921093` was needed for Bagrat?
+
+---
+
+## Assuming this follows the same pattern
+If I assume the structure should match the Bagrat example, then:
+
+- `159945` = historical bloodless father (like `159920` Smbat)
+- `900604` = bridge mother from blooded branch (like `921092`)
+- `159056` = target who gains bloodline (like `159921` Bagrat)
+- missing = support sibling in different dynasty (like `921093`)
+
+So I would expect something like:
+
+```txt
+919692 = {
+	name = "Protector_92"
+	dynasty = 919600
+	religion = catholic
+	culture = welsh
+	father = 159945
+	mother = 900604
+	350.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+But I don't want to assume — tell me if that's needed.
+
+---
+
+## Short summary: what I need
+
+| ID | What |
+|----|------|
+| `900006` | mother of `900602` |
+| `159945` | father of `159056` |
+| confirm | is Protector line (`919600`/`919601`) used here? |
+| confirm | is a support sibling needed for bloodline transmission? |
+
+Send those and I can produce corrected/complete code.
+
+------------------------------------------------------------
+Message  : 17
+Speaker  : User
+Time     : 2026-04-01 19:55:41
+------------------------------------------------------------
+here
+900691 = {
+	name = "Gwrtheyrn_91"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	father = 900601
+	2.1.1 = {
+		birth = yes
+		add_spouse = 919691
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919691 = {
+	name = "Protector_91"
+	female = yes
+	dynasty = 919600
+	religion = norse_pagan
+	culture = egyptian
+	mother = 919600
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919692 = {
+	name = "Protector_92"
+	dynasty = 919600
+	religion = pagan
+	culture = welsh
+	father = 900691
+	mother = 919691
+	3.1.1 = {
+		birth = yes
+		add_spouse = 900692
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900692 = {
+	name = "Gwrtheyrn_92"
+	female = yes
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	father = 900600
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900693 = {
+	name = "Gwrtheyrn_93"
+	female = yes
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	father = 919692
+	mother = 900692
+	305.1.1 = {
+		birth = yes
+		add_spouse = 159945
+	}
+	351.1.1 = {
+		death = yes
+	}
+}
+
+159056 = {
+	name = "Gwrtheyrn"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	father = 159945
+	mother = 900693
+	350.1.1 = {
+		birth = yes
+	}
+	375.1.1 = {
+		add_spouse = 159810
+	}
+	441.1.1 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 18
+Speaker  : AI A
+Time     : 2026-04-01 19:55:41
+------------------------------------------------------------
+Yes — now I understand this one too.
+
+This is the same general system, but with a slightly different merge shape than the Bagrat example.
+
+## What this branch is doing
+You have:
+
+### Bloodless founder
+- `900600`
+
+### Blooded branch
+- `900600` → `900601` (`vortigern` bloodline)
+- `900601` → `900691`
+- `900691` + `919691` → `919692`
+
+### Loop back into founder dynasty
+- `900600` → `900692`
+
+### Merge of blooded branch with founder-side daughter
+- `919692` + `900692` → `900693`
+
+### Final historical merge
+- `900693` + `159945` → `159056`
+
+So the bloodline path to historical `159056` is:
+
+`900601`  
+→ `900691`  
+→ `919692`  
+→ `900693`  
+→ `159056`
+
+That makes sense.
+
+---
+
+# Important difference from the Bagrat case
+In the Bagrat branch, the bridge parent was directly the spouse of the historical father.
+
+Here, the blooded branch first produces:
+
+- `919692` (off-dynasty descendant of blooded line)
+
+who then marries:
+
+- `900692` (same-founder dynasty line)
+
+to produce:
+
+- `900693` (back in target dynasty)
+
+and *then* `900693` marries historical `159945`.
+
+So this branch has an extra “re-dynastization” step before the historical target is born.
+
+That’s useful to know, because it means your patterns can vary:
+
+## Pattern A: direct bridge into historical father
+Like Bagrat.
+
+## Pattern B: blooded branch → restore target dynasty → then marry historical father
+Like this Gwrtheyrn setup.
+
+I’ll keep that distinction in mind for future examples.
+
+---
+
+# What I think you are achieving here
+You’re making `159056`:
+
+- dynasty `1029003`
+- child of historical father `159945`
+- descendant of the `vortigern` bloodline holder `900601`
+
+without necessarily forcing the immediate bridge parent to remain in the off-dynasty branch.
+
+Instead, you return to target dynasty at `900693` before the final historical birth.
+
+That is a perfectly coherent scaffold.
+
+---
+
+# What I’d want next for this case
+To fully understand or help replace temporaries with specific people, I would still need:
+
+## 1. `159945`
+Because he is the historical father and final merge point.
+
+Without his block, I know the branch logic, but not the full historical context.
+
+## 2. Whether there is a required support sibling in this case
+You told me `921093` was required in the Bagrat case.
+
+In this Gwrtheyrn case, I don’t yet see the equivalent support child.
+
+So either:
+- this pattern doesn’t need one,
+- or you haven’t pasted it yet,
+- or the `919692` / `900693` structure is serving the necessary function differently.
+
+I’d want to know which.
+
+---
+
+# How I would analyze future examples now
+I now see at least two valid branch templates in your project.
+
+## Template 1: direct maternal bridge
+- blooded branch creates off-dynasty mother
+- historical father marries her
+- target child is born
+- support sibling may be required
+
+Example: Bagrat
+
+## Template 2: blooded branch loops back into target dynasty first
+- blooded branch creates off-dynasty descendant
+- that descendant marries a founder-side target-dynasty spouse
+- their child is back in target dynasty
+- that child marries historical father
+- target born
+
+Example: Gwrtheyrn
+
+That means when you send a new code chunk, one of the first things I’ll do is identify **which template it belongs to**.
+
+---
+
+# Things I’d check before rewriting this one
+If I were actively editing this branch, my checklist would be:
+
+## 1. Confirm bloodline route
+`900601` → `900691` → `919692` → `900693` → `159056`
+
+## 2. Confirm target-dynasty restoration
+- `919692` = off-dynasty `919600`
+- `900692` = target-dynasty `1029003`
+- `900693` = target-dynasty `1029003`
+
+So yes, the branch is restored to the historical dynasty before `159056`.
+
+## 3. Confirm no missing old references
+In this pasted fixed version, I don’t see the old broken `900006`-type issue anymore, so this looks cleaner.
+
+## 4. Confirm whether `900692` is meant as temporary or specific
+Right now she is still a very abstract founder-side daughter:
+- child of `900600`
+- no mother
+- born in year 3
+
+So if your next task is replacing temporary characters with more specific ones, `900692` is one of the likely candidates.
+
+---
+
+# What I need if you want me to help replace temporaries
+For this branch, I’d need to know which of these are meant to stay generic and which should become specific historical persons:
+
+- `900691`
+- `919691`
+- `919692`
+- `900692`
+- `900693`
+
+And especially:
+- is `900692` supposed to become a real founder-line woman?
+- is `900693` supposed to become a known historical mother?
+- or are these intentionally synthetic bridge characters that should remain custom?
+
+Because replacing all temporary characters is not always desirable if some of them are purely mechanical scaffolding.
+
+---
+
+# Short answer: what I would do first with this
+Now that you’ve shown the fixed version, the first thing I’d do is:
+
+1. classify this as **Template 2** (blooded branch returns to target dynasty before final historical birth),
+2. identify which bridge characters are mechanical only,
+3. ask for the historical father `159945`,
+4. and then ask which temporary characters you want replaced by specific ones versus left as structural scaffolds.
+
+So yes, I understand this one.
+
+If you want, next send:
+- `159945`,
+- and tell me which of `900691/919691/919692/900692/900693` you want made more specific,
+and I can tell you exactly how I’d approach the rewrite.

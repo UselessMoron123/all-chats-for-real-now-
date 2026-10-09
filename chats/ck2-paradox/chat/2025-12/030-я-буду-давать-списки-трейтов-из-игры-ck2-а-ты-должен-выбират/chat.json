@@ -1,0 +1,755 @@
+{
+  "exportedAt": "2026-10-09T16:28:35.702Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019b749b-c9cb-7742-b553-7fd37b4d896e",
+  "archivedAt": "2026-09-30 19:26:09.689+00",
+  "evaluation": {
+    "id": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "я буду давать списки трейтов из игры CK2, а ты должен выбирать только те которые влияют на характери",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019b74d4-1859-7990-8e72-e6342ba4a34c"
+    ],
+    "archivedAt": "2026-09-30 19:26:09.689+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2025-12-31 13:33:38.665+00",
+    "updatedAt": "2025-12-31 14:33:22.997404+00",
+    "messages": [
+      {
+        "id": "019b749d-6a58-70da-8884-fe965bd60f6f",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "я буду давать списки трейтов из игры CK2, а ты должен выбирать только те которые влияют на характеристики советников (дипломатия, война, управление, интрига, учёность)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T13:33:39.912854+00:00",
+        "updatedAt": "2025-12-31T13:33:39.912854+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b749d-6a59-7373-9729-2444c531a3e6",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b749d-6a58-70da-8884-fe965bd60f6f"
+        ],
+        "content": "Хорошо, я готов.\n\nПрисылайте списки. Я буду фильтровать их и оставлять только те, которые дают **плюс** или **минус** к основным атрибутам, важным для советников:\n\n1.  **Дипломатия** (Diplomacy)\n2.  **Военный навык** (Martial)\n3.  **Управление** (Stewardship)\n4.  **Интрига** (Intrigue)\n5.  **Образованность** (Learning)\n\nТрейты, которые влияют *только* на мнение (opinion), личный боевой навык (combat skill) или здоровье/плодовитость, я буду пропускать, если они не меняют основные цифры характеристик.\n\nЖду ваш первый список.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T13:33:39.921078+00:00",
+        "updatedAt": "2025-12-31T13:33:54.271443+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b749e-3d4f-71c7-967f-579b756109c0",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "user",
+        "parentMessageIds": [
+          "019b749d-6a59-7373-9729-2444c531a3e6"
+        ],
+        "content": "########################\n# COMBAT TRAITS\n########################\n\nberserker = {\n\tpotential = {\n\t\treligion_openly_norse_or_reformed_trigger = yes\n\t}\n\n\tmartial = 4\n\tdiplomacy = -2\n\tcombat_rating = 25 # old value: 3\n\n\tsame_opinion = 10\n\n\tai_rationality = -5\n\n\tmale_compliment = COMPL_BERSERKER\n\tfemale_compliment = COMPL_BERSERKER\n\tmale_insult = INSULT_LUNATIC\n\tfemale_insult = INSULT_LUNATIC\n\tchild_insult = INSULT_TROLL\n\tmale_insult_adj = INSULT_CRAZED\n\tfemale_insult_adj = INSULT_CRAZED\n\tchild_insult_adj = INSULT_CRAZY\n}\n\nbrawny = {\n\topposites = {\n\t\tfrail\n\t\tsturdy\n\t}\n\n\tmartial = 2\n\tdiplomacy = 1\n\n\thealth = 1\n\n\tcombat_rating = 10 # old value: 1\n\n\tsex_appeal_opinion = 5\n\tvassal_opinion = 5\n\ttribal_opinion = 5\n\n\tmale_compliment_adj = COMPL_STRONG\n}\n\nfrail = {\n\topposites = {\n\t\tbrawny\n\t\tsturdy\n\t}\n\n\tmartial = -1\n\tcombat_rating = -10 # old value: -1\n\n\thealth = -0.5\n\n\tsex_appeal_opinion = -5\n\tvassal_opinion = -5\n\ttribal_opinion = -5\n\n\tmale_insult = INSULT_WEAKLING\n}\n\ngladiator = {\n\tmartial = 5\n\tintrigue = 2\n\tstewardship = -2\n\tlearning = -4\n\tcombat_rating = 15\n\n\tgeneral_opinion = -5\n\thealth = 1\n\tsame_opinion = 15\n\n\tleadership_traits = 1\n}\n\nshieldmaiden = {\n\tcustomizer = no\n\n\tmonthly_character_piety = 0.1\n\n\tcombat_rating = 10 # new value!\n\n\tpagan_group_opinion = 5\n\tsame_opinion_if_same_religion = 15\n\n\tai_zeal = 10\n\n\tfemale_compliment = COMPL_VALKYRIE\n\tfemale_compliment_adj = COMPL_VIKING_adj\n}\n\nsturdy = {\n\topposites = {\n\t\tfrail\n\t\tbrawny\n\t}\n\n\thealth = 0.25\n\n\tcombat_rating = 2\n\n}\n\nvarangian = {\n\tcustomizer = no\n\n\tmartial = 2\n\tdiplomacy = 1\n\tcombat_rating = 10 # old value: 2\n\n\tsame_opinion = 10\n}\n\n# Sea Raiders\npirate = {\n\t# religious = yes\n\n\topposites = {\n\t\tviking\n\t\travager\n\t\tsea_king\n\t\tsea_queen\n\t}\n\n\tpotential = {\n\t\tOR = {\n\t\t\treligion_openly_norse_or_reformed_trigger = yes\n\t\t\thas_character_flag = acquired_pirate_trait_by_bloodline\n\n\t\t\tAND = {\n\t\t\t\thas_religion_feature = religion_adventuring\n\t\t\t\thas_religion_feature = religion_seafaring\n\t\t\t}\n\t\t}\n\t}\n\n\tmonthly_character_prestige = 0.3\n\n\tmartial = 1\n\tcombat_rating = 10 # old value: 1\n\n\tnorse_pagan_opinion = 15\n\tnorse_pagan_reformed_opinion = 15\n\tsame_opinion = 5\n\n\tmale_insult = COMPL_PIRATE\n\tfemale_insult = COMPL_PIRATE\n}\n\nravager = {\n\t# religious = yes\n\n\topposites = {\n\t\tpirate\n\t\tviking\n\t\tsea_king\n\t\tsea_queen\n\t}\n\n\tpotential = {\n\t\tOR = {\n\t\t\treligion_openly_norse_or_reformed_trigger = yes\n\n\t\t\tany_owned_bloodline = {\n\t\t\t\thas_bloodline_flag = bloodline_viking\n\t\t\t\tbloodline_is_active_for = PREV\n\t\t\t}\n\n\t\t\tAND = {\n\t\t\t\thas_religion_feature = religion_adventuring\n\t\t\t\thas_religion_feature = religion_seafaring\n\t\t\t}\n\t\t}\n\t}\n\n\tmonthly_character_prestige = 0.4\n\n\tmartial = 2\n\tcombat_rating = 20 # old value: 2\n\n\tnorse_pagan_opinion = 20\n\tnorse_pagan_reformed_opinion = 20\n\tsame_opinion = 5\n\n\tmale_insult = COMPL_PIRATE\n\tfemale_insult = COMPL_PIRATE\n\tmale_compliment = COMPL_VIKING\n\tmale_compliment_adj = COMPL_VIKING_adj\n\tfemale_compliment = COMPL_VALKYRIE\n\tfemale_compliment_adj = COMPL_VIKING_adj\n}\n\nsea_king = {\n\t# religious = yes\n\n\topposites = {\n\t\tpirate\n\t\tviking\n\t\travager\n\t\tsea_queen\n\t}\n\n\tpotential = {\n\t\tOR = {\n\t\t\treligion_openly_norse_or_reformed_trigger = yes\n\n\t\t\tany_owned_bloodline = {\n\t\t\t\thas_bloodline_flag = bloodline_viking\n\t\t\t\tbloodline_is_active_for = PREV\n\t\t\t}\n\n\t\t\tAND = {\n\t\t\t\thas_religion_feature = religion_adventuring\n\t\t\t\thas_religion_feature = religion_seafaring\n\t\t\t}\n\t\t}\n\t}\n\n\tmonthly_character_prestige = 0.5\n\n\tmartial = 3\n\tcombat_rating = 20 # old value: 2\n\n\tnorse_pagan_opinion = 25\n\tnorse_pagan_reformed_opinion = 25\n\n\tmale_insult = COMPL_PIRATE\n\tfemale_insult = COMPL_PIRATE\n\tmale_compliment = COMPL_VIKING\n\tmale_compliment_adj = COMPL_VIKING_adj\n\tfemale_compliment = COMPL_VALKYRIE\n\tfemale_compliment_adj = COMPL_VIKING_adj\n}\n\nsea_queen = {\n\t# religious = yes\n\tcustomizer = no\n\n\topposites = {\n\t\tpirate\n\t\tviking\n\t\travager\n\t\tsea_king\n\t}\n\n\tpotential = {\n\t\tOR = {\n\t\t\treligion_openly_norse_or_reformed_trigger = yes\n\n\t\t\tany_owned_bloodline = {\n\t\t\t\thas_bloodline_flag = bloodline_viking\n\t\t\t\tbloodline_is_active_for = PREV\n\t\t\t}\n\n\t\t\tAND = {\n\t\t\t\thas_religion_feature = religion_adventuring\n\t\t\t\thas_religion_feature = religion_seafaring\n\t\t\t}\n\t\t}\n\t}\n\n\tmonthly_character_prestige = 0.5\n\n\tmartial = 3\n\tcombat_rating = 20 # old value: 2\n\n\tnorse_pagan_opinion = 25\n\tnorse_pagan_reformed_opinion = 25\n\n\tmale_insult = COMPL_PIRATE\n\tfemale_insult = COMPL_PIRATE\n\tmale_compliment = COMPL_VIKING\n\tmale_compliment_adj = COMPL_VIKING_adj\n\tfemale_compliment = COMPL_VALKYRIE\n\tfemale_compliment_adj = COMPL_VIKING_adj\n}\n\nviking = {\n\t# religious = yes\n\n\topposites = {\n\t\tpirate\n\t\travager\n\t\tsea_king\n\t\tsea_queen\n\t}\n\n\tpotential = {\n\t\tOR = {\n\t\t\treligion_openly_norse_or_reformed_trigger = yes\n\n\t\t\tany_owned_bloodline = {\n\t\t\t\thas_bloodline_flag = bloodline_viking\n\t\t\t\tbloodline_is_active_for = PREV\n\t\t\t}\n\t\t}\n\t}\n\n\tmonthly_character_prestige = 0.3\n\n\tmartial = 1\n\tcombat_rating = 10 # old value: 1\n\n\tnorse_pagan_opinion = 15\n\tnorse_pagan_reformed_opinion = 15\n\tsame_opinion = 5\n\n\tmale_insult = COMPL_PIRATE\n\tfemale_insult = COMPL_PIRATE\n\tmale_compliment = COMPL_VIKING\n\tmale_compliment_adj = COMPL_VIKING_adj\n\tfemale_compliment = COMPL_VALKYRIE\n\tfemale_compliment_adj = COMPL_VIKING_adj\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T13:34:33.453241+00:00",
+        "updatedAt": "2025-12-31T13:34:33.453241+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b749e-3d53-738d-8358-60e51ac74c65",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b749e-3d4f-71c7-967f-579b756109c0"
+        ],
+        "content": "Вот список трейтов из вашего файла, которые влияют на характеристики советников (Дипломатия, Военный навык, Управление, Интрига, Образованность):\n\n**berserker**\n*   martial = 4\n*   diplomacy = -2\n\n**brawny**\n*   martial = 2\n*   diplomacy = 1\n\n**frail**\n*   martial = -1\n\n**gladiator**\n*   martial = 5\n*   intrigue = 2\n*   stewardship = -2\n*   learning = -4\n\n**varangian**\n*   martial = 2\n*   diplomacy = 1\n\n**pirate**\n*   martial = 1\n\n**ravager**\n*   martial = 2\n\n**sea_king**\n*   martial = 3\n\n**sea_queen**\n*   martial = 3\n\n**viking**\n*   martial = 1\n\n***\n\n*Примечание: Трейты **shieldmaiden** и **sturdy** были исключены, так как они влияют только на здоровье, боевой рейтинг (combat_rating) или мнение, но не меняют основные характеристики.*",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T13:34:33.456612+00:00",
+        "updatedAt": "2025-12-31T13:34:47.516622+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b749f-da30-7c3a-9398-88e24c0b17ef",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "user",
+        "parentMessageIds": [
+          "019b749e-3d53-738d-8358-60e51ac74c65"
+        ],
+        "content": "crusader = {\n\n\tmartial = 2\n\tcombat_rating = 10 # old value: 1\n\n\tchurch_opinion = 15\n\tsame_opinion_if_same_religion = 15\n\n\tai_zeal = 10\n}\n\ncrusader_king = {\n\n\tcommand_modifier = {\n\t\treligious_enemy = 0.3\n\t}\n\n\tmartial = 3\n\tglobal_levy_size = 0.2\n\tcombat_rating = 15\n\n\tsame_religion_opinion = 35\n\n\tai_zeal = 20\n}\n\ncrusader_queen = {\n\n\tcommand_modifier = {\n\t\treligious_enemy = 0.3\n\t}\n\n\tmartial = 3\n\tglobal_levy_size = 0.2\n\tcombat_rating = 15\n\n\tsame_religion_opinion = 35\n\n\tai_zeal = 20\n}\n\n# INTRIGUE OUTCOMES\namateurish_plotter = {\n\teducation = yes\n\tattribute = intrigue\n\n\tintrigue = 1\n\tstewardship = -1\n\tcombat_rating = 4\n\n\tmale_insult_adj = INSULT_SCHEMING\n\tfemale_insult_adj = INSULT_SCHEMING\n\tchild_insult_adj = INSULT_STUPID\n}\n\nflamboyant_schemer = {\n\teducation = yes\n\tattribute = intrigue\n\n\tintrigue = 3\n\tstewardship = -1\n\tcombat_rating = 8\n\n\tmale_insult_adj = INSULT_SCHEMING\n\tfemale_insult_adj = INSULT_SCHEMING\n\tchild_insult_adj = INSULT_STUPID\n}\n\nintricate_webweaver = {\n\teducation = yes\n\tattribute = intrigue\n\n\tmartial = 1\n\tintrigue = 6\n\tdiplomacy = 1\n\tstewardship = -1\n\tcombat_rating = 12\n\n\tmale_compliment_adj = COMPL_CLEVER\n\tfemale_compliment_adj = COMPL_CLEVER\n\tmale_insult_adj = INSULT_SCHEMING\n\tfemale_insult_adj = INSULT_SCHEMING\n\tchild_insult_adj = INSULT_STUPID\n}\n\nelusive_shadow = {\n\teducation = yes\n\tattribute = intrigue\n\n\tmartial = 2\n\tintrigue = 9\n\tdiplomacy = 2\n\tstewardship = -1\n\tcombat_rating = 16 # new value!\n\n\tmale_compliment_adj = COMPL_CLEVER\n\tfemale_compliment_adj = COMPL_CLEVER\n\tmale_insult_adj = INSULT_SCHEMING\n\tfemale_insult_adj = INSULT_SCHEMING\n\tchild_insult_adj = INSULT_STUPID\n}\n\n# DIPLOMACY OUTCOMES\nnaive_appeaser = {\n\teducation = yes\n\tattribute = diplomacy\n\n\tmartial = -1\n\tdiplomacy = 1\n\n\tmale_insult_adj = INSULT_TWOFACED\n\tfemale_insult_adj = INSULT_TWOFACED\n\tchild_insult_adj = INSULT_STUPID\n}\n\nunderhanded_rogue = {\n\teducation = yes\n\tattribute = diplomacy\n\n\tmartial = -1\n\tdiplomacy = 3\n\tfertility = 0.05\n\n\tmale_insult_adj = INSULT_TWOFACED\n\tfemale_insult_adj = INSULT_TWOFACED\n\tchild_insult_adj = INSULT_STUPID\n}\n\ncharismatic_negotiator = {\n\teducation = yes\n\tattribute = diplomacy\n\n\tmartial = -1\n\tintrigue = 1\n\tdiplomacy = 6\n\tlearning = 1\n\tfertility = 0.05\n\n\tmale_compliment_adj = COMPL_ELOQUENT\n\tfemale_compliment_adj = COMPL_ELOQUENT\n\tchild_compliment_adj = COMPL_NICE\n\tmale_insult_adj = INSULT_TWOFACED\n\tfemale_insult_adj = INSULT_TWOFACED\n\tchild_insult_adj = INSULT_STUPID\n}\n\ngrey_eminence = {\n\teducation = yes\n\tattribute = diplomacy\n\n\tmartial = -1\n\tintrigue = 2\n\tdiplomacy = 9\n\tlearning = 2\n\tfertility = 0.1\n\n\tmale_compliment_adj = COMPL_ELOQUENT\n\tfemale_compliment_adj = COMPL_ELOQUENT\n\tchild_compliment_adj = COMPL_NICE\n\tmale_insult_adj = INSULT_TWOFACED\n\tfemale_insult_adj = INSULT_TWOFACED\n\tchild_insult_adj = INSULT_STUPID\n}\n\n# STEWARDSHIP OUTCOMES\nindulgent_wastrel = {\n\teducation = yes\n\tattribute = stewardship\n\n\tdiplomacy = -1\n\tstewardship = 1\n\n\tmale_insult_adj = INSULT_MISERLY\n\tfemale_insult_adj = INSULT_MISERLY\n\tchild_insult_adj = INSULT_STUPID\n}\n\nthrifty_clerk = {\n\teducation = yes\n\tattribute = stewardship\n\n\tdiplomacy = -1\n\tstewardship = 3\n\tfertility = 0.05\n\n\tmale_insult_adj = INSULT_MISERLY\n\tfemale_insult_adj = INSULT_MISERLY\n\tchild_insult_adj = INSULT_STUPID\n}\n\nfortune_builder = {\n\teducation = yes\n\tattribute = stewardship\n\n\tmartial = 1\n\tdiplomacy = -1\n\tstewardship = 6\n\tlearning = 1\n\tfertility = 0.1\n\n\tmale_compliment_adj = COMPL_THRIFTY\n\tfemale_compliment_adj = COMPL_THRIFTY\n\tchild_compliment_adj = COMPL_CLEVER\n\tmale_insult_adj = INSULT_MISERLY\n\tfemale_insult_adj = INSULT_MISERLY\n\tchild_insult_adj = INSULT_STUPID\n}\n\nmidas_touched = {\n\teducation = yes\n\tattribute = stewardship\n\n\tmartial = 2\n\tdiplomacy = -1\n\tstewardship = 9\n\tlearning = 2\n\tfertility = 0.15\n\n\tmale_compliment_adj = COMPL_THRIFTY\n\tfemale_compliment_adj = COMPL_THRIFTY\n\tchild_compliment_adj = COMPL_CLEVER\n\tmale_insult_adj = INSULT_MISERLY\n\tfemale_insult_adj = INSULT_MISERLY\n\tchild_insult_adj = INSULT_STUPID\n}\n\n# MARTIAL OUTCOMES\nmisguided_warrior = {\n\teducation = yes\n\tattribute = martial\n\n\tmartial = 1\n\tlearning = -1\n\n\thealth = 0.5\n\n\tcombat_rating = 5 # old value: 1\n}\n\ntough_soldier = {\n\teducation = yes\n\tattribute = martial\n\n\tmartial = 3\n\tlearning = -1\n\n\thealth = 0.5\n\n\tcombat_rating = 10 # old value: 1\n}\n\nskilled_tactician = {\n\teducation = yes\n\tattribute = martial\n\n\tmartial = 6\n\tintrigue = 1\n\tstewardship = 1\n\tlearning = -1\n\n\thealth = 0.5\n\n\tcombat_rating = 15 # old value: 1\n}\n\nbrilliant_strategist = {\n\teducation = yes\n\tattribute = martial\n\n\tmartial = 9\n\tintrigue = 2\n\tstewardship = 2\n\tlearning = -1\n\n\thealth = 0.5\n\n\tcombat_rating = 20 # old value: 1\n\n\tleadership_traits = 1\n}\n\n# ECCLESIASTICAL OUTCOMES\ndetached_priest = {\n\teducation = yes\n\tattribute = learning\n\n\tintrigue = -1\n\tlearning = 1\n\n\tmale_insult_adj = INSULT_DRIVELING\n\tfemale_insult_adj = INSULT_DRIVELING\n\tchild_insult_adj = INSULT_STUPID\n}\n\ndutiful_cleric = {\n\teducation = yes\n\tattribute = learning\n\n\tintrigue = -1\n\tlearning = 3\n\n\tai_zeal = 10\n\n\tmale_insult_adj = INSULT_DRIVELING\n\tfemale_insult_adj = INSULT_DRIVELING\n\tchild_insult_adj = INSULT_STUPID\n}\n\nscholarly_theologian = {\n\teducation = yes\n\tattribute = learning\n\n\tintrigue = -1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 6\n\n\tfertility = -0.05\n\n\tai_zeal = 20\n\n\tmale_compliment_adj = COMPL_LEARNED\n\tfemale_compliment_adj = COMPL_LEARNED\n\tchild_compliment_adj = COMPL_CLEVER\n\tmale_insult_adj = INSULT_DRIVELING\n\tfemale_insult_adj = INSULT_DRIVELING\n\tchild_insult_adj = INSULT_STUPID\n}\n\nmastermind_theologian = {\n\teducation = yes\n\tattribute = learning\n\n\tintrigue = -1\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 9\n\n\tfertility = -0.05\n\n\tai_zeal = 30\n\n\tmale_compliment_adj = COMPL_LEARNED\n\tfemale_compliment_adj = COMPL_LEARNED\n\tchild_compliment_adj = COMPL_CLEVER\n\tmale_insult_adj = INSULT_DRIVELING\n\tfemale_insult_adj = INSULT_DRIVELING\n\tchild_insult_adj = INSULT_STUPID\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T13:36:19.413515+00:00",
+        "updatedAt": "2025-12-31T13:36:19.413515+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b749f-da34-7679-b21c-dc450c72b561",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b749f-da30-7c3a-9398-88e24c0b17ef"
+        ],
+        "content": "В этом списке **все** трейты влияют на характеристики советников. Это в основном образовательные трейты (Education Traits) и трейты крестоносцев.\n\nВот полный список с их влиянием:\n\n### Трейты Крестоносцев\n**crusader**\n*   martial = 2\n\n**crusader_king** / **crusader_queen**\n*   martial = 3\n\n### Образование: Интрига\n**amateurish_plotter**\n*   intrigue = 1\n*   stewardship = -1\n\n**flamboyant_schemer**\n*   intrigue = 3\n*   stewardship = -1\n\n**intricate_webweaver**\n*   intrigue = 6\n*   martial = 1\n*   diplomacy = 1\n*   stewardship = -1\n\n**elusive_shadow**\n*   intrigue = 9\n*   martial = 2\n*   diplomacy = 2\n*   stewardship = -1\n\n### Образование: Дипломатия\n**naive_appeaser**\n*   diplomacy = 1\n*   martial = -1\n\n**underhanded_rogue**\n*   diplomacy = 3\n*   martial = -1\n\n**charismatic_negotiator**\n*   diplomacy = 6\n*   martial = -1\n*   intrigue = 1\n*   learning = 1\n\n**grey_eminence**\n*   diplomacy = 9\n*   martial = -1\n*   intrigue = 2\n*   learning = 2\n\n### Образование: Управление\n**indulgent_wastrel**\n*   stewardship = 1\n*   diplomacy = -1\n\n**thrifty_clerk**\n*   stewardship = 3\n*   diplomacy = -1\n\n**fortune_builder**\n*   stewardship = 6\n*   martial = 1\n*   diplomacy = -1\n*   learning = 1\n\n**midas_touched**\n*   stewardship = 9\n*   martial = 2\n*   diplomacy = -1\n*   learning = 2\n\n### Образование: Военное дело\n**misguided_warrior**\n*   martial = 1\n*   learning = -1\n\n**tough_soldier**\n*   martial = 3\n*   learning = -1\n\n**skilled_tactician**\n*   martial = 6\n*   intrigue = 1\n*   stewardship = 1\n*   learning = -1\n\n**brilliant_strategist**\n*   martial = 9\n*   intrigue = 2\n*   stewardship = 2\n*   learning = -1\n\n### Образование: Учёность (Церковное)\n**detached_priest**\n*   learning = 1\n*   intrigue = -1\n\n**dutiful_cleric**\n*   learning = 3\n*   intrigue = -1\n\n**scholarly_theologian**\n*   learning = 6\n*   diplomacy = 1\n*   stewardship = 1\n*   intrigue = -1\n\n**mastermind_theologian**\n*   learning = 9\n*   diplomacy = 2\n*   stewardship = 2\n*   intrigue = -1",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T13:36:19.418453+00:00",
+        "updatedAt": "2025-12-31T13:36:45.079443+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74a2-ed01-7d37-af8e-78066f19229a",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "user",
+        "parentMessageIds": [
+          "019b749f-da34-7679-b21c-dc450c72b561"
+        ],
+        "content": "one_eyed = {\n\tlearning = 1\n\tcombat_rating = -10\n\tsex_appeal_opinion = -5\n\tpagan_group_opinion = 10\n\tsame_opinion = 5\n}\n\n\nattractive = {\n\tbirth = 100\n\tinherit_chance = 15\n\n\topposites = {\n\t\tugly\n\t}\n\n\tdiplomacy = 1\n\n\tsex_appeal_opinion = 30\n\n\tfemale_compliment = COMPL_BEAUTY\n\tfemale_compliment_adj = COMPL_FAIR\n\tmale_compliment = COMPL_CHARMER\n\tmale_compliment_adj = COMPL_HANDSOME\n\tchild_compliment_adj = COMPL_PRETTY\n}\n\ngenius = {\n\tbirth = 50\n\tinherit_chance = 15\n\n\topposites = {\n\t\timbecile\n\t\tslow\n\t\tquick\n\t}\n\n\tmartial = 5\n\tintrigue = 5\n\tdiplomacy = 5\n\tstewardship = 5\n\tlearning = 5\n\n\tcombat_rating = 10 # old value: 1\n\n\tvassal_opinion = 5\n\n\tai_rationality = 30\n\n\tmale_compliment = COMPL_GENIUS\n\tmale_compliment_adj = COMPL_BRILLIANT\n\tfemale_compliment = COMPL_GENIUS\n\tfemale_compliment_adj = COMPL_BRILLIANT\n\tchild_compliment = COMPL_SMARTY\n\tchild_compliment_adj = COMPL_CLEVER\n}\n\nquick = {\n\tbirth = 100\n\tinherit_chance = 15\n\n\topposites = {\n\t\timbecile\n\t\tslow\n\t\tgenius\n\t}\n\n\tmartial = 3\n\tintrigue = 3\n\tdiplomacy = 3\n\tstewardship = 3\n\tlearning = 3\n\n\tcombat_rating = 5 # new value!\n\n\tai_rationality = 15\n}\n\nsaoshyant_descendant = { # Passed on from Saoshyant by Event\n\tagnatic = yes\n\tenatic = yes\n\tcustomizer = no\n\n\tzoroastrian_opinion = 5\n}\n\nsayyid = { # Muslim agnatically descended from Muhammed\n\tagnatic = yes # Always inherited from fathers\n\n\topposites = {\n\t\tmirza\n\t}\n\n\tmuslim_opinion = 5\n\n\tmale_compliment = COMPL_SAYYID\n\tfemale_compliment = COMPL_SAYYIDA\n}\n\nstrong = {\n\tbirth = 100\n\tinherit_chance = 15\n\n\topposites = {\n\t\tweak\n\t}\n\n\tmartial = 2\n\tdiplomacy = 1\n\n\tfertility = 0.1\n\thealth = 1\n\n\tcombat_rating = 10 # old value: 1\n\n\tsex_appeal_opinion = 10\n\tvassal_opinion = 5\n\ttribal_opinion = 10\n\n\tmale_compliment_adj = COMPL_STRONG\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T13:39:40.638494+00:00",
+        "updatedAt": "2025-12-31T13:39:40.638494+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74a2-ed09-784f-b57e-0cbc6e5d6618",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74a2-ed01-7d37-af8e-78066f19229a"
+        ],
+        "content": "Вот список трейтов из этого блока, которые влияют на основные характеристики:\n\n**one_eyed**\n*   learning = 1\n\n**attractive**\n*   diplomacy = 1\n\n**genius**\n*   martial = 5\n*   intrigue = 5\n*   diplomacy = 5\n*   stewardship = 5\n*   learning = 5\n\n**quick**\n*   martial = 3\n*   intrigue = 3\n*   diplomacy = 3\n*   stewardship = 3\n*   learning = 3\n\n**strong**\n*   martial = 2\n*   diplomacy = 1\n\n***\n\n*Примечание: Трейты **saoshyant_descendant** и **sayyid** были исключены, так как они влияют только на мнение (opinion), но не дают бонусов к характеристикам.*",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T13:39:40.642314+00:00",
+        "updatedAt": "2025-12-31T13:39:51.841776+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74a3-be99-7ba4-a9f8-3a5417932a87",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "user",
+        "parentMessageIds": [
+          "019b74a2-ed09-784f-b57e-0cbc6e5d6618"
+        ],
+        "content": "идеи почему one_eyed даёт learning?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T13:40:33.861725+00:00",
+        "updatedAt": "2025-12-31T13:40:33.861725+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74a3-be9d-7cbb-86e0-8394fc9eebf9",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74a3-be99-7ba4-a9f8-3a5417932a87"
+        ],
+        "content": "Скорее всего, это **отсылка к скандинавской мифологии**, а именно к верховному богу **Одину**.\n\nВот основные причины:\n\n1.  **Жертва Одина:** Согласно мифам, Один отдал свой глаз великану Мимиру, чтобы испить из Источника мудрости (Mímisbrunnr). Таким образом, он пожертвовал физическим зрением ради получения высшего знания и мудрости. В контексте игры это идеально переводится как обмен глаза на характеристику *Learning* (Ученость).\n2.  **Архетип «Мудрого воина»:** В культуре часто встречается образ ветерана, который потерял глаз или получил увечья, но благодаря этому приобрел жизненный опыт и стал рассудительнее. Потеряв часть физических возможностей, персонаж вынужден больше полагаться на свой ум.\n3.  **Игровой баланс (Flavor):** Трейт дает значительные штрафы к личному боевому навыку (`combat_rating = -10`) и привлекательности. Небольшой бонус к учености (+1) служит своего рода «утешительным призом» и добавляет глубины ролевому отыгрышу, показывая, что увечье закалило характер или заставило персонажа больше читать/думать, чем махать мечом.\n\nТак что, по сути, это пасхалка от разработчиков (Paradox Interactive), которые очень любят историю и мифы викингов.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T13:40:33.865438+00:00",
+        "updatedAt": "2025-12-31T13:40:50.051075+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74a4-abfe-7ff3-9aae-5aa5c233ab8c",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "user",
+        "parentMessageIds": [
+          "019b74a3-be9d-7cbb-86e0-8394fc9eebf9"
+        ],
+        "content": "продолжим\n\nadministrator = {\n\tlifestyle = yes\n\n\tcommand_modifier = {\n\t\tspeed = 0.1\n\t}\n\n\tstewardship = 3\n\n\truler_designer_cost = 10\n}\n\narchitect = {\n\tlifestyle = yes\n\n\tcommand_modifier = {\n\t\tsiege = 0.2\n\t}\n\n\tmartial = 1\n\tstewardship = 2\n\n\twonder_build_cost_modifier = -0.03\n\twonder_build_time_modifier = -0.05\n\n\tsame_opinion = 10\n\n\truler_designer_cost = 10\n\n\tmale_compliment = COMPL_ARCHITECT\n\tfemale_compliment = COMPL_ARCHITECT\n}\n\ncelibate = {\n\tlifestyle = yes\n\n\topposites = {\n\t\thedonist\n\t\tmaster_seducer\n\t\tmaster_seductress\n\t}\n\n\tmonthly_character_piety = 1\n\n\tfertility = -10.0\n\n\tchristian_church_opinion = 5\n\tsame_opinion = 10\n\topposite_opinion = -5\n\n\tai_zeal = 30\n\n\tmale_compliment_adj = COMPL_VIRTUOUS\n\tfemale_compliment_adj = COMPL_VIRTUOUS\n\tchild_compliment_adj = COMPL_NICE\n\tmale_insult_adj = INSULT_UNMANLY\n\tfemale_insult_adj = INSULT_FRIGID\n\tchild_insult_adj = INSULT_STUPID\n}\n\nduelist = {\n\tlifestyle = yes\n\n\tmartial = 3\n\tcombat_rating = 30 # old value: 5\n\n\tsame_opinion = 10\n\n\truler_designer_cost = 10\n\n\tmale_compliment = COMPL_BLADEMASTER\n\tfemale_compliment = COMPL_CHAMPION\n}\n\ngame_master = {\n\tlifestyle = yes\n\n\tcommand_modifier = {\n\t\tnarrow_flank = 0.3\n\t}\n\n\tmartial = 1\n\tdiplomacy = 2\n\n\tsame_opinion = 10\n\n\truler_designer_cost = 10\n}\n\ngardener = {\n\tlifestyle = yes\n\n\tstewardship = 2\n\tlearning = 1\n\n\tsame_opinion = 10\n\n\truler_designer_cost = 10\n\n\tmale_insult = INSULT_TREEHUGGER\n\tfemale_insult = INSULT_TREEHUGGER\n}\n\nhedonist = {\n\tlifestyle = yes\n\n\topposites = {\n\t\tcelibate\n\t}\n\n\tintrigue = 1\n\tdiplomacy = 2\n\n\tfertility = 0.2\n\n\tchristian_church_opinion = -5\n\tsame_opinion = 10\n\topposite_opinion = -5\n\n\tai_zeal = -30\n\n\truler_designer_cost = 10\n\n\tmale_insult = INSULT_DEBAUCHER\n\tfemale_insult = INSULT_DEBAUCHER\n\tchild_insult = INSULT_HAYBRAIN\n\tmale_insult_adj = INSULT_PERVERTED\n\tfemale_insult_adj = INSULT_DEGENERATE\n\tchild_insult_adj = INSULT_CRAZY\n}\n\nhunter = {\n\tlifestyle = yes\n\n\tpotential = {\n\t\tNOT = { religion = jain }\n\t}\n\n\tcommand_modifier = {\n\t\tpursue = 0.2\n\t}\n\n\tmartial = 2\n\tdiplomacy = 1\n\n\tcombat_rating = 10 # new value!\n\n\tsame_opinion = 10\n\n\truler_designer_cost = 10\n\n\tmale_compliment = COMPL_HUNTMASTER\n}\n\nimpaler = {\n\tlifestyle = yes\n\n\tpotential = {\n\t\tNOT = { religion = jain }\n\t}\n\n\tcommand_modifier = {\n\t\tmorale_offence = 0.1\n\t}\n\n\tintrigue = 2\n\tlearning = 1\n\n\tcombat_rating = 10 # new value!\n\n\tsame_opinion = 10\n\n\tai_honor = -15\n\n\tmale_insult = INSULT_TORTURER\n\tfemale_insult = INSULT_TORTURER\n\tmale_insult_adj = INSULT_EVIL\n\tfemale_insult_adj = INSULT_EVIL\n\tchild_insult_adj = INSULT_WICKED\n\n\truler_designer_cost = 10\n}\n\nmystic = {\n\tlifestyle = yes\n\n\tstewardship = 1\n\tlearning = 2\n\n\tsame_opinion = 10\n\n\truler_designer_cost = 10\n\n\tmale_compliment = COMPL_MYSTIC\n\tfemale_compliment = COMPL_MYSTIC\n\tchild_compliment = COMPL_SMARTY\n\tmale_compliment_adj = COMPL_LEARNED\n\tfemale_compliment_adj = COMPL_LEARNED\n\tchild_compliment_adj = COMPL_CLEVER\n\tmale_insult = INSULT_OCCULTIST\n\tfemale_insult = INSULT_OCCULTIST\n\tchild_insult = INSULT_DEVIL\n\tmale_insult_adj = INSULT_GODLESS\n\tfemale_insult_adj = INSULT_GODLESS\n\tchild_insult_adj = INSULT_WEIRD\n}\n\nmaster_schemer = {\n\tlifestyle = yes\n\n\tintrigue = 3\n\n\tsame_opinion = -5\n\n\truler_designer_cost = 10\n\n\tmale_insult = INSULT_INSTIGATOR\n\tfemale_insult = INSULT_INSTIGATOR\n\tchild_insult = INSULT_SNEAK\n\tmale_insult_adj = INSULT_SCHEMING\n\tfemale_insult_adj = INSULT_SCHEMING\n\tchild_insult_adj = INSULT_STUPID\n}\n\nscholar = {\n\tlifestyle = yes\n\n\topposites = {\n\t\tfaqih\n\t}\n\n\tpotential = {\n\t\tNOT = { religion_group = muslim }\n\t}\n\n\tlearning = 3\n\n\tsame_opinion = 10\n\n\truler_designer_cost = 10\n\n\tmale_compliment = COMPL_SCHOLAR\n\tfemale_compliment = COMPL_SCHOLAR\n\tchild_compliment = COMPL_SMARTY\n\tmale_compliment_adj = COMPL_LEARNED\n\tfemale_compliment_adj = COMPL_LEARNED\n\tchild_compliment_adj = COMPL_CLEVER\n\tmale_insult = INSULT_BOOKWORM\n\tfemale_insult = INSULT_BOOKWORM\n\tchild_insult = INSULT_BORE\n\tmale_insult_adj = INSULT_SQUINTEYED\n\tfemale_insult_adj = INSULT_SQUINTEYED\n}\n\nmaster_seducer = {\n\tlifestyle = yes\n\n\topposites = {\n\t\tcelibate\n\t\tmaster_seductress\n\t}\n\n\tpotential = {\n\t\tis_female = no\n\t}\n\n\tintrigue = 2\n\tdiplomacy = 1\n\n\tsex_appeal_opinion = 50\n\n\tmale_insult = INSULT_WHOREMONGER\n\tmale_insult_adj = INSULT_WHORING\n\tmale_compliment = COMPL_SEDUCER\n\tmale_compliment_adj = COMPL_CHARMING\n\n\truler_designer_cost = 12\n}\n\nmaster_seductress = {\n\tlifestyle = yes\n\n\topposites = {\n\t\tcelibate\n\t\tmaster_seducer\n\t}\n\n\tpotential = {\n\t\tis_female = yes\n\t}\n\n\tintrigue = 2\n\tdiplomacy = 1\n\n\tsex_appeal_opinion = 50\n\n\tfemale_insult = INSULT_TEMPTRESS\n\tfemale_insult_adj = INSULT_DEBASED\n\tfemale_compliment = COMPL_ENCHANTRESS\n\tfemale_compliment_adj = COMPL_RAVISHING\n\n\truler_designer_cost = 12\n}\n\nsocializer = {\n\tlifestyle = yes\n\n\tdiplomacy = 3\n\n\tsex_appeal_opinion = 10\n\tsame_opinion = 10\n\n\truler_designer_cost = 12\n\n\tmale_insult = INSULT_BLABBERER\n\tfemale_insult = INSULT_BLABBERER\n\tmale_insult_adj = INSULT_SCHEMING\n\tfemale_insult_adj = INSULT_SCHEMING\n\tchild_insult_adj = INSULT_SILLY\n}\n\nstrategist = {\n\tlifestyle = yes\n\n\tcommand_modifier = {\n\t\tdefence = 0.2\n\t}\n\n\tmartial = 2\n\tstewardship = 1\n\n\tsame_opinion = 10\n\n\truler_designer_cost = 12\n}\n\ntheologian = {\n\tlifestyle = yes\n\n\tintrigue = 1\n\tlearning = 2\n\n\truler_designer_cost = 10\n\n\tmale_insult = INSULT_BOOKWORM\n\tfemale_insult = INSULT_BOOKWORM\n\tmale_insult_adj = INSULT_SQUINTEYED\n\tfemale_insult_adj = INSULT_SQUINTEYED\n\tmale_compliment = COMPL_SCHOLAR\n\tfemale_compliment = COMPL_SCHOLAR\n\tmale_compliment_adj = COMPL_LEARNED\n\tfemale_compliment_adj = COMPL_LEARNED\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T13:41:35.186678+00:00",
+        "updatedAt": "2025-12-31T13:41:35.186678+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74a4-ac04-798c-946f-f96066880bac",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74a4-abfe-7ff3-9aae-5aa5c233ab8c"
+        ],
+        "content": "Вот список трейтов из категории «Образ жизни» (Lifestyle Traits), которые влияют на характеристики советников:\n\n**administrator**\n*   stewardship = 3\n\n**architect**\n*   stewardship = 2\n*   martial = 1\n\n**duelist**\n*   martial = 3\n\n**game_master**\n*   diplomacy = 2\n*   martial = 1\n\n**gardener**\n*   stewardship = 2\n*   learning = 1\n\n**hedonist**\n*   diplomacy = 2\n*   intrigue = 1\n\n**hunter**\n*   martial = 2\n*   diplomacy = 1\n\n**impaler**\n*   intrigue = 2\n*   learning = 1\n\n**mystic**\n*   learning = 2\n*   stewardship = 1\n\n**master_schemer**\n*   intrigue = 3\n\n**scholar**\n*   learning = 3\n\n**master_seducer** / **master_seductress**\n*   intrigue = 2\n*   diplomacy = 1\n\n**socializer**\n*   diplomacy = 3\n\n**strategist**\n*   martial = 2\n*   stewardship = 1\n\n**theologian**\n*   learning = 2\n*   intrigue = 1\n\n***\n\n*Примечание: Трейт **celibate** был исключен, так как он влияет на благочестие (piety), плодовитость (fertility) и мнение, но не изменяет характеристики дипломатии, войны, управления, интриги или учёности.*",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T13:41:35.19024+00:00",
+        "updatedAt": "2025-12-31T13:41:46.850608+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74a8-41a8-72c0-91eb-464eb2db62ed",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "user",
+        "parentMessageIds": [
+          "019b74a4-ac04-798c-946f-f96066880bac"
+        ],
+        "content": "greedy = {\n\tglobal_tax_modifier = 0.1\n\n\tdiplomacy = -1\n}\n\nlustful = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\tchaste\n\t}\n\n\tmonthly_character_piety = -0.25\n\n\tintrigue = 1\n\n\tfertility = 0.2\n\n\tchristian_church_opinion = -5\n}\n\nproud = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\thumble\n\t}\n\n\tmonthly_character_prestige = 0.5\n\n\tai_ambition = 10\n}\n\nslothful = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\tdiligent\n\t}\n\n\tmartial = -1\n\tintrigue = -1\n\tdiplomacy = -1\n\tstewardship = -1\n\tlearning = -1\n\tcombat_rating = -5 # new value!\n\n\tvassal_opinion = -5\n\n\tai_ambition = -10\n\tai_greed = 10\n\tai_zeal = -10\n}\n\nwroth = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\tpatient\n\t}\n\n\tmartial = 3\n\tintrigue = -1\n\tdiplomacy = -1\n\tcombat_rating = 3 # new value!\n\n\tai_rationality = -10\n\tai_honor = -5\n}\n\n# THE SEVEN VIRTUES\ncharitable = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tgreedy\n\t}\n\n\tdiplomacy = 3\n\tcombat_rating = -3 # new value!\n\n\tchurch_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_honor = 10\n\tai_ambition = -15\n\tai_greed = -100\n\tai_zeal = 10\n}\n\nchaste = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tlustful\n\t}\n\n\tpotential = {\n\t\tNOT = { religion_group = muslim }\n\t}\n\n\tmonthly_character_piety = 0.5\n\n\tlearning = 1\n\n\tfertility = -0.15\n\n\tchristian_church_opinion = 5\n\topposite_opinion = -5\n\n\tai_zeal = 10\n}\n\ndiligent = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tslothful\n\t}\n\n\tmartial = 1\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\n\tvassal_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_greed = -10\n\tai_zeal = 10\n}\n\nhumble = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tproud\n\t}\n\n\tmonthly_character_piety = 1\n\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_ambition = -10\n}\n\nkind = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tenvious\n\t\tcruel\n\t}\n\n\tintrigue = -2\n\tdiplomacy = 2\n\tcombat_rating = -5 # new value!\n\n\tvassal_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_honor = 10\n}\n\npatient = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\twroth\n\t}\n\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tcombat_rating = 5 # new value!\n\n\topposite_opinion = -5\n\n\tai_rationality = 10\n\n\tcommand_modifier = {\n\t\tdefence = 0.2\n\t}\n}\n\ntemperate = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tgluttonous\n\t}\n\n\tstewardship = 2\n\n\tchurch_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_greed = -20\n\tai_zeal = 10\n}\n\n# OTHER\nambitious = {\n\tpersonality = yes\n\n\topposites = {\n\t\tcontent\n\t}\n\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3 # new value!\n\n\tsame_opinion = -5\n\tambition_opinion = -25 # Against those they want something from\n\n\tai_ambition = 40\n\tai_zeal = 10\n}\n\narbitrary = {\n\tpersonality = yes\n\n\topposites = {\n\t\tjust\n\t}\n\n\tintrigue = 1\n\tstewardship = -2\n\tlearning = -1\n\n\tvassal_opinion = -5\n\n\tai_rationality = -20\n\tai_honor = -10\n\tai_zeal = -10\n}\n\nbrave = {\n\tpersonality = yes\n\n\topposites = {\n\t\tcraven\n\t}\n\n\tcommand_modifier = {\n\t\tmorale_defence = 0.1\n\t}\n\n\tmartial = 2\n\tcombat_rating = 10 # old value: 1\n\n\tvassal_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n}\n\ncontent = {\n\tpersonality = yes\n\n\topposites = {\n\t\tambitious\n\t}\n\n\tmonthly_character_piety = 0.5\n\n\tintrigue = -1\n\n\tliege_opinion = 25\n\n\tai_ambition = -40\n\tai_zeal = -10\n}\n\ncraven = {\n\tpersonality = yes\n\n\topposites = {\n\t\tbrave\n\t}\n\n\tcommand_modifier = {\n\t\tmorale_defence = -0.2\n\t}\n\n\tmartial = -2\n\tcombat_rating = -10 # old value: -1\n\n\tvassal_opinion = -5\n}\n\ncruel = {\n\tpersonality = yes\n\n\topposites = {\n\t\tkind\n\t}\n\n\tcommand_modifier = {\n\t\tmorale_offence = 0.1\n\t}\n\n\tintrigue = 1\n\tdiplomacy = -1\n\tcombat_rating = 3 # new value!\n\n\tvassal_opinion = -5\n\n\tai_honor = -5\n\tai_greed = 5\n}\n\ncynical = {\n\tpersonality = yes\n\n\topposites = {\n\t\tzealous\n\t}\n\n\tmonthly_character_piety = -0.2\n\n\tintrigue = 2\n\n\tchurch_opinion = -5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_rationality = 10\n\tai_zeal = -100\n}\n\ndeceitful = {\n\tpersonality = yes\n\n\topposites = {\n\t\thonest\n\t}\n\n\tintrigue = 3\n\tdiplomacy = -2\n\tcombat_rating = 3 # new value!\n\n\topposite_opinion = -5\n\n\tai_honor = -25\n}\n\ndull = {\n\topposites = {\n\t\tshrewd\n\t}\n\n\tmartial = -2\n\tintrigue = -2\n\tdiplomacy = -2\n\tstewardship = -2\n\tlearning = -2\n\tcombat_rating = -3 # new value!\n\n\tai_rationality = -15\n}\n\nerudite = {\n\tpersonality = yes\n\n\tlearning = 2\n\tcombat_rating = -2 # new value!\n\n\tchurch_opinion = 5\n}\n\ngregarious = {\n\tpersonality = yes\n\n\topposites = {\n\t\tshy\n\t}\n\n\tdiplomacy = 2\n\n\tsex_appeal_opinion = 5\n\tvassal_opinion = 5\n\tsame_opinion = 5\n}\n\ngroomed = {\n\topposites = {\n\t\tuncouth\n\t}\n\n\tsex_appeal_opinion = 15\n\topposite_opinion = -5\n}\n\nhonest = {\n\tpersonality = yes\n\n\topposites = {\n\t\tdeceitful\n\t}\n\n\tintrigue = -2\n\tdiplomacy = 3\n\tcombat_rating = -2 # new value!\n\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_honor = 25\n}\n\njust = {\n\tpersonality = yes\n\n\topposites = {\n\t\tarbitrary\n\t}\n\n\tstewardship = 2\n\tlearning = 1\n\n\tvassal_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_rationality = 20\n\tai_honor = 10\n\tai_zeal = 10\n}\n\nparanoid = {\n\tpersonality = yes\n\n\topposites = {\n\t\ttrusting\n\t}\n\n\tintrigue = 2\n\tdiplomacy = -1\n\n\tai_honor = -10\n}\n\nshrewd = {\n\topposites = {\n\t\tdull\n\t}\n\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3 # new value!\n\n\tai_rationality = 15\n}\n\nshy = {\n\tpersonality = yes\n\n\topposites = {\n\t\tgregarious\n\t}\n\n\tdiplomacy = -2\n\tcombat_rating = -2 # new value!\n}\n\nstubborn = {\n\tpersonality = yes\n\n\tdiplomacy = -1\n\tstewardship = 1\n\tcombat_rating = 3 # new value!\n\n\tvassal_opinion = -5\n\n\tai_ambition = 10\n\tai_zeal = 10\n}\n\ntrusting = {\n\tpersonality = yes\n\n\topposites = {\n\t\tparanoid\n\t}\n\n\tintrigue = -2\n\tdiplomacy = 1\n\tcombat_rating = -2 # new value!\n\n\tai_honor = 10\n}\n\nuncouth = {\n\topposites = {\n\t\tgroomed\n\t}\n\n\tsex_appeal_opinion = -10\n\topposite_opinion = -5\n}\n\nzealous = {\n\tpersonality = yes\n\n\topposites = {\n\t\tcynical\n\t\tsympathy_christendom\n\t\tsympathy_islam\n\t\tsympathy_pagans\n\t\tsympathy_zoroastrianism\n\t\tsympathy_judaism\n\t\tsympathy_indian\n\t}\n\n\tmonthly_character_piety = 1\n\n\tmartial = 2\n\n\tchurch_opinion = 5\n\tinfidel_opinion = -25\n\topposite_opinion = -5\n\tsame_opinion_if_same_religion = 15\n\n\tai_rationality = -10\n\tai_zeal = 100\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T13:45:30.765318+00:00",
+        "updatedAt": "2025-12-31T13:45:30.765318+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74a8-41ad-7db9-8658-2957fd6496d1",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74a8-41a8-72c0-91eb-464eb2db62ed"
+        ],
+        "content": "Вот список черт характера (Traits) из вашего списка, которые влияют на основные характеристики советников:\n\n### Семь смертных грехов (Seven Sins)\n**greedy**\n*   diplomacy = -1\n\n**lustful**\n*   intrigue = 1\n\n**slothful**\n*   martial = -1\n*   intrigue = -1\n*   diplomacy = -1\n*   stewardship = -1\n*   learning = -1\n\n**wroth**\n*   martial = 3\n*   intrigue = -1\n*   diplomacy = -1\n\n### Семь добродетелей (Seven Virtues)\n**charitable**\n*   diplomacy = 3\n\n**chaste**\n*   learning = 1\n\n**diligent**\n*   martial = 1\n*   intrigue = 1\n*   diplomacy = 1\n*   stewardship = 1\n*   learning = 1\n\n**kind**\n*   intrigue = -2\n*   diplomacy = 2\n\n**patient**\n*   intrigue = 1\n*   diplomacy = 1\n*   stewardship = 1\n*   learning = 1\n\n**temperate**\n*   stewardship = 2\n\n### Другие личные качества (Personality/Other)\n**ambitious**\n*   martial = 2\n*   intrigue = 2\n*   diplomacy = 2\n*   stewardship = 2\n*   learning = 2\n\n**arbitrary**\n*   intrigue = 1\n*   stewardship = -2\n*   learning = -1\n\n**brave**\n*   martial = 2\n\n**content**\n*   intrigue = -1\n\n**craven**\n*   martial = -2\n\n**cruel**\n*   intrigue = 1\n*   diplomacy = -1\n\n**cynical**\n*   intrigue = 2\n\n**deceitful**\n*   intrigue = 3\n*   diplomacy = -2\n\n**dull**\n*   martial = -2\n*   intrigue = -2\n*   diplomacy = -2\n*   stewardship = -2\n*   learning = -2\n\n**erudite**\n*   learning = 2\n\n**gregarious**\n*   diplomacy = 2\n\n**honest**\n*   diplomacy = 3\n*   intrigue = -2\n\n**just**\n*   stewardship = 2\n*   learning = 1\n\n**paranoid**\n*   intrigue = 2\n*   diplomacy = -1\n\n**shrewd**\n*   martial = 2\n*   intrigue = 2\n*   diplomacy = 2\n*   stewardship = 2\n*   learning = 2\n\n**shy**\n*   diplomacy = -2\n\n**stubborn**\n*   stewardship = 1\n*   diplomacy = -1\n\n**trusting**\n*   diplomacy = 1\n*   intrigue = -2\n\n**zealous**\n*   martial = 2\n\n***\n\n*Примечание: Трейты **proud**, **humble**, **groomed** и **uncouth** были исключены, так как они влияют только на престиж, благочестие, мнение или привлекательность, но не меняют основные характеристики.*",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T13:45:30.775083+00:00",
+        "updatedAt": "2025-12-31T13:45:49.30339+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74ad-5377-7940-95e4-9701d613de08",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "user",
+        "parentMessageIds": [
+          "019b74a8-41ad-7db9-8658-2957fd6496d1"
+        ],
+        "content": "falconer = { # Way of Life DLC: No longer a lifestyle trait\n\tpotential = {\n\t\tNOT = { religion = jain }\n\t}\n\n\tdiplomacy = 1\n\n\tsame_opinion = 10\n\n\truler_designer_cost = 4\n}\n\nphysician = {\n\tcustomizer = no\n\trandom = no\n\n\tmonthly_character_prestige = 0.25\n\n\tdiplomacy = 1\n\tlearning = 2\n\n\thealth = 0.5\n\n\tgeneral_opinion = 5\n}\n\npoet = { # Way of Life DLC: No longer a lifestyle trait\n\tdiplomacy = 1\n\n\tsame_opinion = 10\n\n\truler_designer_cost = 4\n\n\tmale_compliment = COMPL_POET\n\tfemale_compliment = COMPL_POET\n}\n\nbeatified = {\n\treligious = yes\n\tcustomizer = no\n\trandom = no\n\n\tchurch_opinion = 25\n}\n\nblessed_ancestor = {\n\treligious = yes\n\tcustomizer = no\n\trandom = no\n\n\tpagan_group_opinion = 50\n}\n\nbloodthirsty_gods_3 = {\n\tmonthly_character_piety = 0.3\n\n\tcastle_opinion = -15\n\ttown_opinion = -15\n\ttribal_opinion = 15\n\tchurch_opinion = 15\n\n\tsame_opinion = 5\n\topposite_opinion = 15\n\n\tai_rationality = -75\n\tai_zeal = 100\n}\n\nfaqih = { # Muslim who is schooled in Islamic jurisprudence\n\treligious = yes\n\n\topposites = {\n\t\tscholar\n\t}\n\n\tpotential = {\n\t\treligion_group = muslim\n\t}\n\n\tlearning = 3\n\n\tmuslim_opinion = 5\n}\n\nhafiz = { # Muslim who has completely memorized the Qur'an\n\treligious = yes\n\n\tpotential = {\n\t\treligion_group = muslim\n\t}\n\n\tmuslim_opinion = 5\n\n\tmale_compliment = COMPL_HAFIZ\n\tfemale_compliment = COMPL_HAFIZ\n}\n\nheresiarch = {\n\trebel_inherited = yes\n\treligious = yes\n\tcustomizer = no\n\n\tcombat_rating = 3 # new value!\n\n\tinfidel_opinion = -15\n\tsame_religion_opinion = 25\n}\n\nmutazilite = {\n\treligious = yes # Lost immediately on religion change\n\tcustomizer = no\n\trandom = no\n\n\topposites = {\n\t\tashari\n\t}\n\n\tlearning = 5\n\n\topposite_opinion = -30\n}\n\nsaint = {\n\treligious = yes\n\tcustomizer = no\n\trandom = no\n\n\tchurch_opinion = 100\n}\n\nsaoshyant = {\n\treligious = yes\n\tcustomizer = no\n\n\tcombat_rating = 20 # old value: 5\n\n\tzoroastrian_opinion = 10\n\n\tmale_compliment = COMPL_SAOSHYANT\n\tfemale_compliment = COMPL_SAOSHYANT\n}\n\n# Pagan Branches\npagan_branch_1 = {\n\treligious = yes\n\trandom = no\n\n\topposites = {\n\t\tpagan_branch_2\n\t\tpagan_branch_3\n\t\tpagan_branch_4\n\t}\n\n\tpotential = { has_religion_feature = religion_no_leader }\n\n\treligious_branch = pagan_reformation\n\n\tchristian_opinion = 10\n\tmuslim_opinion = 10\n\tindian_group_opinion = 10\n\tjewish_group_opinion = 10\n\tzoroastrian_group_opinion = 10\n\tsame_opinion_if_same_religion = 5\n\topposite_opinion = -5\n\n\tai_zeal = -30\n\n\truler_designer_cost = 0\n}\n\npagan_branch_2 = {\n\treligious = yes\n\trandom = no\n\n\topposites = {\n\t\tpagan_branch_1\n\t\tpagan_branch_3\n\t\tpagan_branch_4\n\t}\n\n\tpotential = { has_religion_feature = religion_no_leader }\n\n\treligious_branch = pagan_reformation\n\n\tmonthly_character_piety = 0.25\n\n\tchurch_opinion = 10\n\topposite_opinion = -5\n\n\tai_zeal = 30\n\n\truler_designer_cost = 0\n}\n\npagan_branch_3 = {\n\treligious = yes\n\trandom = no\n\n\topposites = {\n\t\tpagan_branch_2\n\t\tpagan_branch_1\n\t\tpagan_branch_4\n\t}\n\n\tpotential = { has_religion_feature = religion_no_leader }\n\n\treligious_branch = pagan_reformation\n\n\tmonthly_character_prestige = 0.3\n\tcombat_rating = 10\n\topposite_opinion = -5\n\n\tai_ambition = 20\n\n\truler_designer_cost = 0\n}\n\npagan_branch_4 = {\n\treligious = yes\n\trandom = no\n\n\topposites = {\n\t\tpagan_branch_2\n\t\tpagan_branch_3\n\t\tpagan_branch_1\n\t}\n\n\tpotential = { has_religion_feature = religion_no_leader }\n\n\treligious_branch = pagan_reformation\n\n\tfertility = 0.1\n\tdynasty_opinion = 10\n\topposite_opinion = -5\n\n\tai_honor = 10\n\n\truler_designer_cost = 0\n}\n\nscarred = {\n\tmonthly_character_prestige = 0.1\n\topposite_opinion = 10\n}\n\nscarred_mid = {\n\tcombat_rating = 5\n\n\tmonthly_character_prestige = 0.15\n\n\tsex_appeal_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = 5\n\ttribal_opinion = 5\n}\n\nscarred_high = {\n\tmonthly_character_prestige = 0.2\n\n\tcombat_rating = 10\n\n\tsex_appeal_opinion = 10\n\tsame_opinion = 10\n\topposite_opinion = 5\n\ttribal_opinion = 10\n}\nadventurer = {\n\tcustomizer = no\n\trandom = no\n\n\tmartial = 1\n\tdiplomacy = -1\n\tcombat_rating = 10 # old value: 1\n\tglobal_levy_size = 0.2\n\tmax_manpower_mult = 0.1\n\n\tsame_opinion = 10\n\n\tai_ambition = 40\n}\n\naugustus = {\n\tcustomizer = no\n\n\tmonthly_character_prestige = 0.5\n\tvassal_opinion = 10\n}\n\ncannibal = {\n\tmartial = 3\n\tgeneral_opinion = -10\n\tcombat_rating = 10 # old value: 1\n\n\tsame_opinion = 25\n\n\tai_rationality = -20\n\tai_honor = -10\n}\n\nimmortal = {\n\tcustomizer = no\n\trandom = no\n\n\timmortal = yes\n\thealth = 10\n\ttaoist_opinion = 25\n}\n\nfat = {\n\tcustomizer = no\n\trandom = no\n\n\topposites = {\n\t\tmalnourished\n\t}\n\n\tcombat_rating = -10\n\ttribal_opinion = -5\n\n\tai_zeal = -20\n\n}\n\nmalnourished = {\n\tcustomizer = no\n\trandom = no\n\n\topposites = {\n\t\tfat\n\t}\n\n\tfertility = -0.05\n\tcombat_rating = -10\n\n\tai_zeal = -20\n}\n\npeasant_leader = {\n\trebel_inherited = yes\n\tcustomizer = no\n\n\tdiplomacy = -5\n\tcombat_rating = 3 # new value!\n\n\tvassal_opinion = -10\n\tsame_opinion = 25\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T13:51:03.26428+00:00",
+        "updatedAt": "2025-12-31T13:51:03.26428+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74ad-5380-7eaf-9c79-67861ee43005",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74ad-5377-7940-95e4-9701d613de08"
+        ],
+        "content": "Вот список трейтов из этой партии, которые влияют на характеристики советников:\n\n**falconer**\n*   diplomacy = 1\n\n**physician**\n*   learning = 2\n*   diplomacy = 1\n\n**poet**\n*   diplomacy = 1\n\n**faqih**\n*   learning = 3\n\n**mutazilite**\n*   learning = 5\n\n**adventurer**\n*   martial = 1\n*   diplomacy = -1\n\n**cannibal**\n*   martial = 3\n\n**peasant_leader**\n*   diplomacy = -5\n\n***\n\n*Примечание: Множество специальных трейтов, таких как **augustus**, **saint**, **saoshyant**, **immortal**, а также различные степени шрамов (**scarred**), были исключены, так как они влияют на престиж, мнение или боевой рейтинг, но не меняют основные атрибуты.*",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T13:51:03.268402+00:00",
+        "updatedAt": "2025-12-31T13:51:16.153381+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74ae-64cd-72be-a710-7f9ab483946a",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "user",
+        "parentMessageIds": [
+          "019b74ad-5380-7eaf-9c79-67861ee43005"
+        ],
+        "content": "теперь выпиши все трейты которые пригодились бы для дипломата",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T13:52:12.160196+00:00",
+        "updatedAt": "2025-12-31T13:52:12.160196+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74ae-64d5-7c1b-bc2b-196b69e94936",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74ae-64cd-72be-a710-7f9ab483946a"
+        ],
+        "content": "Вот список всех трейтов из предоставленных вами файлов, которые дают **бонус к Дипломатии**.\n\nЯ отсортировал их по категориям и силе эффекта, чтобы вам было проще выбирать идеального канцлера.\n\n### 🎓 Образование (Education)\nСамые сильные трейты находятся здесь.\n\n*   **grey_eminence** (Серый кардинал): **+9**\n*   **charismatic_negotiator** (Харизматичный переговорщик): **+6**\n*   **underhanded_rogue** (Теневой интриган): **+3**\n*   **elusive_shadow** (Неуловимая тень — *ветка Интриги*): **+2**\n*   **mastermind_theologian** (Вдохновенный богослов — *ветка Учености*): **+2**\n*   **naive_appeaser** (Наивный соглашатель): **+1**\n*   **intricate_webweaver** (Искусный плетельщик паутины — *ветка Интриги*): **+1**\n*   **scholarly_theologian** (Начитанный богослов — *ветка Учености*): **+1**\n\n### 🧬 Врожденные и генетические (Congenital)\n*   **genius** (Гениальность): **+5**\n*   **quick** (Смышленость): **+3**\n*   **attractive** (Привлекательность): **+1**\n*   **strong** (Сила): **+1**\n\n### 🎭 Личность (Personality)\nЭти черты часто комбинируются друг с другом.\n\n*   **charitable** (Щедрость): **+3**\n*   **honest** (Честность): **+3**\n*   **ambitious** (Амбициозность): **+2**\n*   **gregarious** (Общительность): **+2**\n*   **kind** (Доброта): **+2**\n*   **shrewd** (Проницательность): **+2**\n*   **diligent** (Усердие): **+1**\n*   **patient** (Терпение): **+1**\n*   **trusting** (Доверчивость): **+1**\n\n### 🍷 Образ жизни и прочее (Lifestyle & Other)\n*   **socializer** (Душа компании): **+3**\n*   **game_master** (Игрок): **+2**\n*   **hedonist** (Гедонист): **+2**\n*   **brawny** (Мускулистость): **+1**\n*   **falconer** (Сокольничий): **+1**\n*   **hunter** (Охотник): **+1**\n*   **master_seducer / master_seductress** (Соблазнитель): **+1**\n*   **physician** (Врач): **+1**\n*   **poet** (Поэт): **+1**\n*   **varangian** (Варяг): **+1**\n\n---\n\n**Идеальный дипломат (теоретический максимум из списка):**\n*Grey Eminence (+9) + Genius (+5) + Socializer (+3) + Charitable (+3) + Honest (+3) = **+23 к дипломатии** (не считая базовых статов).*",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T13:52:12.164379+00:00",
+        "updatedAt": "2025-12-31T13:52:33.771388+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74af-bb91-7c5a-8411-ad0cc1c0b2e7",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "user",
+        "parentMessageIds": [
+          "019b74ae-64d5-7c1b-bc2b-196b69e94936"
+        ],
+        "content": "для маршала",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T13:53:40.148085+00:00",
+        "updatedAt": "2025-12-31T13:53:40.148085+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74af-bb97-79d7-bb71-53bc064f5596",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74af-bb91-7c5a-8411-ad0cc1c0b2e7"
+        ],
+        "content": "Вот список всех трейтов из ваших файлов, которые дают **бонус к Военному навыку**.\n\nЭто лучшие кандидаты на должность Маршала или командира армии.\n\n### ⚔️ Образование (Education)\n*   **brilliant_strategist** (Блестящий стратег): **+9**\n*   **skilled_tactician** (Искусный тактик): **+6**\n*   **tough_soldier** (Закаленный вояка): **+3**\n*   **misguided_warrior** (Заблудший вояка): **+1**\n\n*(Примечание: Образование из других сфер, дающее военный бонус: **midas_touched** (+2), **elusive_shadow** (+2)).*\n\n### 🦁 Боевые и Специальные (Combat & Special)\nВ этой категории находятся самые агрессивные бонусы.\n\n*   **gladiator** (Гладиатор): **+5**\n*   **berserker** (Берсерк): **+4**\n*   **sea_king / sea_queen** (Морской король / королева): **+3**\n*   **crusader_king / crusader_queen** (Король-крестоносец): **+3**\n*   **cannibal** (Каннибал): **+3**\n*   **crusader** (Крестоносец): **+2**\n*   **ravager** (Опустошитель): **+2**\n*   **varangian** (Варяг): **+2**\n*   **adventurer** (Авантюрист): **+1**\n*   **pirate** (Пират): **+1**\n*   **viking** (Викинг): **+1**\n\n### 🧬 Врожденные и физические (Congenital & Physical)\n*   **genius** (Гениальность): **+5**\n*   **quick** (Смышленость): **+3**\n*   **brawny** (Мускулистость): **+2**\n*   **strong** (Сила): **+2**\n\n### 🔥 Личность (Personality)\n*   **wroth** (Гнев): **+3**\n*   **ambitious** (Амбициозность): **+2**\n*   **brave** (Храбрость): **+2**\n*   **shrewd** (Проницательность): **+2**\n*   **zealous** (Ревностность): **+2**\n*   **diligent** (Усердие): **+1**\n\n### 🛡️ Образ жизни (Lifestyle)\n*   **duelist** (Дуэлянт): **+3**\n*   **hunter** (Охотник): **+2**\n*   **strategist** (Стратег): **+2**\n*   **architect** (Архитектор): **+1**\n*   **game_master** (Игрок): **+1**\n\n---\n\n**Идеальная машина для войны (теоретический максимум):**\n*Brilliant Strategist (+9) + Genius (+5) + Gladiator (+5) + Berserker (+4) + Wroth (+3) + Duelist (+3) = **+29 к военному навыку**.*",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T13:53:40.152731+00:00",
+        "updatedAt": "2025-12-31T13:54:00.858467+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74b0-6ec5-7bdc-8899-27b59e2658f3",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "user",
+        "parentMessageIds": [
+          "019b74af-bb97-79d7-bb71-53bc064f5596"
+        ],
+        "content": "управленец",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T13:54:25.29283+00:00",
+        "updatedAt": "2025-12-31T13:54:25.29283+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74b0-6eca-78fa-af31-d0adcb3d2aa1",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74b0-6ec5-7bdc-8899-27b59e2658f3"
+        ],
+        "content": "Вот список всех трейтов из ваших файлов, которые дают **бонус к Управлению**.\n\nЭтот советник критически важен для размера домена и сбора налогов.\n\n### 💰 Образование (Education)\n*   **midas_touched** (Мидас): **+9**\n*   **fortune_builder** (Творец судьбы): **+6**\n*   **thrifty_clerk** (Бережливый клерк): **+3**\n*   **brilliant_strategist** (Блестящий стратег — *ветка Войны*): **+2**\n*   **mastermind_theologian** (Вдохновенный богослов — *ветка Учености*): **+2**\n*   **indulgent_wastrel** (Расточитель): **+1**\n*   **skilled_tactician** (Искусный тактик — *ветка Войны*): **+1**\n*   **scholarly_theologian** (Начитанный богослов — *ветка Учености*): **+1**\n\n### 🧬 Врожденные (Congenital)\n*   **genius** (Гениальность): **+5**\n*   **quick** (Смышленость): **+3**\n\n### 🏗️ Образ жизни (Lifestyle)\n*   **administrator** (Администратор): **+3**\n*   **architect** (Архитектор): **+2**\n*   **gardener** (Садовник): **+2**\n*   **mystic** (Мистик): **+1**\n*   **strategist** (Стратег): **+1**\n\n### ⚖️ Личность (Personality)\n*   **ambitious** (Амбициозность): **+2**\n*   **just** (Справедливость): **+2**\n*   **shrewd** (Проницательность): **+2**\n*   **temperate** (Умеренность): **+2**\n*   **diligent** (Усердие): **+1**\n*   **patient** (Терпение): **+1**\n*   **stubborn** (Упрямство): **+1**\n\n---\n\n**Идеальный казначей (теоретический максимум):**\n*Midas Touched (+9) + Genius (+5) + Administrator (+3) + Temperate (+2) + Just (+2) + Ambitious (+2) = **+23 к управлению**.*",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T13:54:25.298667+00:00",
+        "updatedAt": "2025-12-31T13:54:42.386818+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74b1-13b4-73c2-87fa-0c008799643e",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "user",
+        "parentMessageIds": [
+          "019b74b0-6eca-78fa-af31-d0adcb3d2aa1"
+        ],
+        "content": "шпион",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T13:55:08.315758+00:00",
+        "updatedAt": "2025-12-31T13:55:08.315758+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74b1-13b9-750d-b12b-dd7e8420a8bd",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74b1-13b4-73c2-87fa-0c008799643e"
+        ],
+        "content": "Вот список всех трейтов из ваших файлов, которые дают **бонус к Интриге**.\n\nТакой персонаж идеально подойдет на роль Тайного советника (Spymaster).\n\n### 🗡️ Образование (Education)\n*   **elusive_shadow** (Неуловимая тень): **+9**\n*   **intricate_webweaver** (Искусный плетельщик паутины): **+6**\n*   **flamboyant_schemer** (Светский интриган): **+3**\n*   **brilliant_strategist** (Блестящий стратег — *ветка Войны*): **+2**\n*   **grey_eminence** (Серый кардинал — *ветка Дипломатии*): **+2**\n*   **amateurish_plotter** (Начинающий интриган): **+1**\n*   **charismatic_negotiator** (Харизматичный переговорщик — *ветка Дипломатии*): **+1**\n*   **skilled_tactician** (Искусный тактик — *ветка Войны*): **+1**\n\n### 🧬 Врожденные (Congenital)\n*   **genius** (Гениальность): **+5**\n*   **quick** (Смышленость): **+3**\n\n### 🐍 Личность (Personality)\nЗдесь важны недобродетельные качества.\n\n*   **deceitful** (Коварство): **+3**\n*   **ambitious** (Амбициозность): **+2**\n*   **cynical** (Цинизм): **+2**\n*   **paranoid** (Паранойя): **+2**\n*   **shrewd** (Проницательность): **+2**\n*   **arbitrary** (Произвол): **+1**\n*   **cruel** (Жестокость): **+1**\n*   **diligent** (Усердие): **+1**\n*   **lustful** (Похоть): **+1**\n*   **patient** (Терпение): **+1**\n\n### ☠️ Образ жизни и Особые (Lifestyle & Special)\n*   **master_schemer** (Искусный интриган): **+3**\n*   **gladiator** (Гладиатор): **+2**\n*   **impaler** (Колосажатель): **+2**\n*   **master_seducer / master_seductress** (Соблазнитель): **+2**\n*   **hedonist** (Гедонист): **+1**\n*   **theologian** (Теолог): **+1**\n\n---\n\n**Идеальный шпион (теоретический максимум):**\n*Elusive Shadow (+9) + Genius (+5) + Master Schemer (+3) + Deceitful (+3) + Ambitious (+2) + Paranoid (+2) = **+24 к интриге**.*",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T13:55:08.320385+00:00",
+        "updatedAt": "2025-12-31T13:55:25.261148+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74b1-b585-7da3-8db2-d484c179dee2",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "user",
+        "parentMessageIds": [
+          "019b74b1-13b9-750d-b12b-dd7e8420a8bd"
+        ],
+        "content": "церковник-врач",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T13:55:49.825586+00:00",
+        "updatedAt": "2025-12-31T13:55:49.825586+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74b1-b58c-7213-a2e6-8ac726129a0c",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74b1-b585-7da3-8db2-d484c179dee2"
+        ],
+        "content": "Вот список всех трейтов из ваших файлов, которые дают **бонус к Учёности (Learning)**.\n\nЭтот атрибут ключевой как для **Придворного капеллана** (обращение провинций, исследование технологий), так и для **Придворного врача** (успешность лечения напрямую зависит от навыка учёности).\n\n### 📖 Образование (Education)\n*   **mastermind_theologian** (Вдохновенный богослов): **+9**\n*   **scholarly_theologian** (Начитанный богослов): **+6**\n*   **dutiful_cleric** (Добродетельный служитель): **+3**\n*   **detached_priest** (Отрешенный священник): **+1**\n\n*(Примечание: Образование из других сфер с бонусом к учености: **grey_eminence** (+2), **midas_touched** (+2), **charismatic_negotiator** (+1), **fortune_builder** (+1)).*\n\n### ☪️ Религиозные и Особые (Religious & Special)\n*   **mutazilite** (Мутазилит — *ислам*): **+5**\n*   **faqih** (Факих — *исламский правовед*): **+3**\n\n### 🧠 Врожденные и физические (Congenital & Physical)\n*   **genius** (Гениальность): **+5**\n*   **quick** (Смышленость): **+3**\n*   **one_eyed** (Одноглазый): **+1**\n\n### 🧪 Образ жизни и Профессия (Lifestyle & Profession)\n*   **scholar** (Схоласт): **+3**\n*   **physician** (Врач): **+2** *(Самый важный трейт для лекаря, дает бонусы к лечению помимо статов)*\n*   **mystic** (Мистик): **+2**\n*   **theologian** (Теолог): **+2**\n*   **gardener** (Садовник): **+1**\n*   **impaler** (Колосажатель): **+1** *(Для \"специфической\" медицины)*\n\n### 🧘 Личность (Personality)\n*   **ambitious** (Амбициозность): **+2**\n*   **erudite** (Начитанность): **+2**\n*   **shrewd** (Проницательность): **+2**\n*   **chaste** (Целомудрие): **+1**\n*   **diligent** (Усердие): **+1**\n*   **just** (Справедливость): **+1**\n*   **patient** (Терпение): **+1**\n\n---\n\n**Идеальный Врач-Мудрец (теоретический максимум):**\n*Mastermind Theologian (+9) + Genius (+5) + Mutazilite (+5) + Scholar (+3) + Erudite (+2) + Physician (+2) = **+26 к учёности**.*",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T13:55:49.832543+00:00",
+        "updatedAt": "2025-12-31T13:56:09.62386+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74b9-14b1-7e76-9321-b2d8f16ff1ee",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "user",
+        "parentMessageIds": [
+          "019b74b1-b58c-7213-a2e6-8ac726129a0c"
+        ],
+        "content": "в игре есть лимит для трейтов с припиской \"personality = yes\". 5 штук. если меньше то игра рандомно добавит какой-то трейт, если больше - заберёт. поэтому логично выбрать 5 более подходящих",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T14:03:52.683256+00:00",
+        "updatedAt": "2025-12-31T14:03:52.683256+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74b9-14b9-7a53-b78a-73f408b554c8",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74b9-14b1-7e76-9321-b2d8f16ff1ee"
+        ],
+        "content": "Это отличное замечание. Механика «мягкого лимита» в 5-7 черт характера (Personality Traits) действительно заставляет выбирать только самое лучшее, чтобы случайные ивенты не заменяли полезные черты на бесполезные или вредные.\n\nЯ отфильтровал только те трейты, у которых в вашем коде стоит `personality = yes`, и собрал **идеальные \"пятёрки\"** для каждого советника.\n\n### 🍷 Дипломат (Канцлер)\nЗдесь мы собираем максимум **Дипломатии**.\n\n1.  **charitable** (+3) — *Щедрый*\n2.  **honest** (+3) — *Честный*\n3.  **ambitious** (+2) — *Амбициозный* (также дает +2 ко всем остальным статам)\n4.  **gregarious** (+2) — *Общительный*\n5.  **kind** (+2) — *Добрый*\n\n**Итого от личности:** **+12 к Дипломатии**.\n*(Запасные варианты: diligent (+1), patient (+1), trusting (+1)).*\n\n---\n\n### ⚔️ Маршал (Полководец)\nЗдесь нам важен **Военный навык**, но выбор именно «личностных» черт для войны невелик, поэтому берем всё, что есть.\n\n1.  **wroth** (+3) — *Гневный* (Единственный личностный трейт с +3 к войне)\n2.  **ambitious** (+2) — *Амбициозный*\n3.  **brave** (+2) — *Храбрый* (Также дает бонус к морали войск)\n4.  **zealous** (+2) — *Ревностный* (Бонус, если враги — иноверцы)\n5.  **diligent** (+1) — *Усердный*\n\n**Итого от личности:** **+10 к Военному навыку**.\n\n---\n\n### 💰 Управленец (Казначей)\nМаксимизируем **Управление**.\n\n1.  **ambitious** (+2) — *Амбициозный*\n2.  **just** (+2) — *Справедливый*\n3.  **temperate** (+2) — *Умеренный*\n4.  **diligent** (+1) — *Усердный*\n5.  **patient** (+1) — *Терпеливый*\n\n**Итого от личности:** **+8 к Управлению**.\n*(Запасной вариант: stubborn (+1), но он снижает дипломатию).*\n\n---\n\n### 🕵️ Шпион (Тайный советник)\nСобираем **Интригу**. Тут нужны порочные черты.\n\n1.  **deceitful** (+3) — *Коварный*\n2.  **ambitious** (+2) — *Амбициозный*\n3.  **cynical** (+2) — *Циничный*\n4.  **paranoid** (+2) — *Параноик*\n5.  **diligent** (+1) — *Усердный* (Или **lustful** (+1) / **cruel** (+1) / **arbitrary** (+1))\n\n**Итого от личности:** **+10 к Интриге**.\n*Примечание: `ambitious` и `paranoid` в сумме с высоким навыком делают шпиона опасным для сюзерена, но зато эффективным.*\n\n---\n\n### 📜 Церковник / Врач\nСобираем **Учёность**.\n\n1.  **ambitious** (+2) — *Амбициозный*\n2.  **erudite** (+2) — *Начитанный*\n3.  **chaste** (+1) — *Целомудренный*\n4.  **diligent** (+1) — *Усердный*\n5.  **patient** (+1) — *Терпеливый* (Или **just** (+1))\n\n**Итого от личности:** **+7 к Учёности**.\n\n---\n\n**Почему `ambitious` и `diligent` есть почти везде?**\n*   **Ambitious** дает +2 ко всем характеристикам. Это лучший личностный трейт в игре по статам.\n*   **Diligent** дает +1 ко всем характеристикам. Это идеальный «заполнитель» пятого слота, если профильных трейтов не хватает.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T14:03:52.687966+00:00",
+        "updatedAt": "2025-12-31T14:04:26.800504+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74bc-e005-70be-9fc5-03489690b07b",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "user",
+        "parentMessageIds": [
+          "019b74b9-14b9-7a53-b78a-73f408b554c8"
+        ],
+        "content": "вот картинка, вдруг даст какие-то идеи",
+        "experimental_attachments": [
+          {
+            "name": "0995c648-8914-4762-b5b9-0eb0d213652d/1767190074679-Council.png",
+            "contentType": "image/png",
+            "url": "https://messages-prod.27c852f3500f38c1e7786e2c9ff9e48f.r2.cloudflarestorage.com/0995c648-8914-4762-b5b9-0eb0d213652d/1767190074679-Council.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=b33de61d4f22a31b59b25364ab5037c5%2F20261009%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261009T162827Z&X-Amz-Expires=3600&X-Amz-Signature=5d0f40477493841ddef00852f5259ab799af8600075887efbb189a85c3261f4f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+          }
+        ],
+        "modelId": null,
+        "createdAt": "2025-12-31T14:08:01.391825+00:00",
+        "updatedAt": "2025-12-31T14:08:01.391825+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74bc-e00a-7bb8-89bb-4fe814366587",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74bc-e005-70be-9fc5-03489690b07b"
+        ],
+        "content": "Эта картинка — **золотая жила** для минмаксинга (оптимизации) игры. Она меняет приоритеты: теперь мы смотрим не только на цифры характеристик, но и на **скрытые события (ивенты)**, которые эти трейты запускают.\n\nВот главные выводы и обновленные сборки «Идеальных советников» на основе этой таблицы:\n\n### 🏆 Главный вывод: DILIGENT (Усердный) — это \"Бог-Трейт\"\nСудя по таблице, трейт `diligent` (Усердный) является лучшим трейтом для советника в игре.\n*   **Дипломат:** Улучшает отношения с вассалами и помогает вам выучить язык (DLC).\n*   **Маршал:** Генерирует **военные очки технологий** (это очень важно!).\n*   **Управленец:** Удаляет гильдии воров и ловит других ворующих советников.\n*   **Шпион:** Запускает меры предосторожности (защищает вас от убийств).\n\n---\n\n### Обновленные рекомендации (с учетом событий)\n\nТеперь пересмотрим наши \"пятёрки\" личностных трейтов, учитывая бонусы от ивентов.\n\n#### 1. Канцлер (Дипломат)\n*Цель:* Не просто дипломатия, а улучшение отношений и изучение языков.\n*   **diligent** (+1) — **Обязательно.** Дает ивенты на улучшение отношений и языки.\n*   **gregarious** (+2) — Также помогает с изучением языков.\n*   **charitable** (+3) — Высокий стат.\n*   **honest** (+3) — Высокий стат.\n*   **ambitious** (+2) — Высокий стат.\n\n#### 2. Маршал (Военный)\n*Цель:* Очки технологий и отсутствие коррупции.\n*   **diligent** (+1) — **Обязательно.** Дает 50 очков военных технологий (экономит годы).\n*   **just** (Справедливый) — В картинке сказано (внизу), что Маршалы с трейтами **Arbitrary** (Произвольный), **Greedy** (Жадный) или **Deceitful** (Коварный) могут вызвать ивент \"Злоупотребление полномочиями\" (Abuse of Office), дающий риск восстания. **Just**, **Honest** или **Kind** предотвращают это.\n*   **brave** (+2) — Бонус к морали.\n*   **ambitious** (+2) — Статы.\n*   **zealous** (+2) — Статы.\n*(Выкинули Wroth, так как тюрьма — это весело, но риск восстания от плохого управления провинцией того не стоит).*\n\n#### 3. Управленец (Казначей) — Самые важные изменения!\n*Цель:* Деньги, снижение риска восстания, защита от болезней.\n*   **ambitious** (+2) — **Критически важно.** Таблица говорит: если навык 15+ и есть `ambitious`, срабатывает ивент на **+300 золота**. Это огромная сумма.\n*   **just** (+2) — **Критически важно.** Ивент \"Justice Prevails\" снижает риск восстания в провинции.\n*   **diligent** (+1) — Убирает гильдии воров (которые режут налоги).\n*   **charitable** (Щедрый) — Если в провинции эпидемия, этот трейт (или Kind) значительно снижает риск заражения и опустошения.\n*   **temperate** (+2) — Просто хороший стат к управлению.\n\n#### 4. Тайный советник (Шпион)\n*Цель:* Не умереть от его рук.\n*   **diligent** (+1) — Меры безопасности.\n*   **content** (Довольный) — **Внимание!** Таблица предупреждает: `Deceitful` (Коварный) увеличивает силу заговоров советника против ВАС. А `Ambitious` (Амбициозный) заставляет его хотеть ваше место.\n    *   *Идея:* Для шпиона лучше взять **Content** (-1 к интриге, но он не убьет вас) вместо **Ambitious**.\n*   **paranoid** (+2) — Хорошо для защиты (раскрывает заговоры).\n*   **cynical** (+2) — Хороший стат.\n*   **just** (Справедливый) — Чтобы он не воровал деньги (внизу таблицы про \"Abuse of Office\").\n\n#### 5. Капеллан (Церковник)\n*   **zealous** (+2) — Таблица говорит: Если у вас есть 250 золота, ревностный капеллан предложит построить храм со скидкой (он заплатит часть сам).\n*   **diligent** (+1) — Всегда полезно.\n*   **erudite** (+2) — Стат.\n*   **chaste** (+1) — Стат.\n*   **ambitious** (+2) — Стат.\n\n---\n\n### Итоговый \"Dream Team\" с учетом картинки\n\nЕсли вы делаете кастомных персонажей или ищете идеальных кандидатов через поиск, вот золотой стандарт (5 traits limit):\n\n| Роль | Трейты (Personality) | Почему? |\n| :--- | :--- | :--- |\n| **Дипломат** | `diligent`, `gregarious`, `charitable`, `honest`, `ambitious` | Ивенты на языки, улучшение отношений, высокие статы. |\n| **Маршал** | `diligent`, `just`, `brave`, `ambitious`, `zealous` | **Технологии!** Нет коррупции в провинциях. |\n| **Управленец** | `ambitious`, `just`, `diligent`, `charitable`, `temperate` | **+300 золота**, нет восстаний, нет воров, защита от чумы. |\n| **Шпион** | `diligent`, `content`, `paranoid`, `cynical`, `just` | Защита сюзерена, лояльность (не убьет вас), честность. |\n| **Капеллан** | `zealous`, `diligent`, `erudite`, `chaste`, `ambitious` | Дешевая постройка храмов, высокие статы. |\n\n**И не забывайте про \"Smart\" трейты:**\nВ шапке таблицы сказано, что трейты **Genius (Гений)**, **Quick (Смышленый)** или **Shrewd (Проницательный)** в сочетании с навыком 12+ запускают ивент *\"Capital prospers\"* (Процветание столицы). Это делает `Genius` абсолютно обязательным для любого советника, если есть возможность.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T14:08:01.395111+00:00",
+        "updatedAt": "2025-12-31T14:08:38.859388+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74c0-d2c8-7bb2-934c-1d1d3c5751a7",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b74c0-a1f6-7de1-89fc-721672373baf",
+        "role": "user",
+        "parentMessageIds": [
+          "019b74bc-e00a-7bb8-89bb-4fe814366587"
+        ],
+        "content": "посмотри что у меня уже есть. проанализируй\n666002 = {\n\tname = \"Diplo\"\n\tdiplomacy = 1\n\tmartial = 5\n\tstewardship = 4\t\n\tintrigue = 3\n\tlearning = 2\n\treligion = sunni\n\tculture = egyptian\n\tadd_trait = grey_eminence\n\tadd_trait = genius\n\tadd_trait = socializer\n\tadd_trait = game_master\n\tadd_trait = charitable\n\tadd_trait = diligent\n\tadd_trait = ambitious\n\tadd_trait = gregarious\n\tadd_trait = just\n\tdisallow_random_traits = yes\n\t753.1.1 = {\n\t\tbirth = yes\n\t\temployer = 210025\n\t}\n\t770.1.1 = {\n\t\tdeath = yes\n\t}\n}\n\n666003 = {\n\tname = \"Marti\"\n\tdiplomacy = 2\n\tmartial = 1\n\tstewardship = 3\n\tintrigue = 4\n\tlearning = 5\n\treligion = sunni\n\tculture = egyptian\n\tadd_trait = brilliant_strategist\n\tadd_trait = genius\n\tadd_trait = strong\n\tadd_trait = pirate\n\tadd_trait = duelist\n\tadd_trait = hunter\n\tadd_trait = charitable\n\tadd_trait = diligent\n\tadd_trait = ambitious\n\tadd_trait = brave\n\tadd_trait = just\n\tdisallow_random_traits = yes\n\t753.1.1 = {\n\t\tbirth = yes\n\t\temployer = 210025\n\t}\n\t770.1.1 = {\n\t\tdeath = yes\n\t}\n}\n\n666004 = {\n\tname = \"Stew\"\n\tdiplomacy = 5\n\tmartial = 4\n\tstewardship = 1\n\tintrigue = 3\n\tlearning = 2\n\treligion = sunni\n\tculture = egyptian\n\tadd_trait = midas_touched\n\tadd_trait = genius\n\tadd_trait = shrewd\n\tadd_trait = administrator\n\tadd_trait = gardener\n\tadd_trait = diligent\n\tadd_trait = patient\n\tadd_trait = ambitious\n\tadd_trait = cruel\n\tadd_trait = just\n\tdisallow_random_traits = yes\n\t753.1.1 = {\n\t\tbirth = yes\n\t\temployer = 210025\n\t}\n\t770.1.1 = {\n\t\tdeath = yes\n\t}\n}\n\n666005 = {\n\tname = \"Intri\"\n\tdiplomacy = 2\n\tmartial = 3\n\tstewardship = 5\n\tintrigue = 1\n\tlearning = 4\n\treligion = sunni\n\tculture = egyptian\n\tadd_trait = elusive_shadow\n\tadd_trait = genius\n\tadd_trait = master_schemer\n\tadd_trait = impaler\n\tadd_trait = charitable\n\tadd_trait = diligent\n\tadd_trait = ambitious\n\tadd_trait = deceitful\n\tadd_trait = paranoid\n\tdisallow_random_traits = yes\n\t753.1.1 = {\n\t\tbirth = yes\n\t\temployer = 210025\n\t}\n\t770.1.1 = {\n\t\tdeath = yes\n\t}\n}\n\n666006 = {\n\tname = \"Learn\"\n\tdiplomacy = 3\n\tmartial = 5\n\tstewardship = 2\n\tintrigue = 4\n\tlearning = 1\n\treligion = sunni\n\tculture = egyptian\n\tadd_trait = mastermind_theologian\n\tadd_trait = genius\n\tadd_trait = physician\n\tadd_trait = scholar\n\tadd_trait = chaste\n\tadd_trait = diligent\n\tadd_trait = patient\n\tadd_trait = ambitious\n\tadd_trait = erudite\n\tadd_trait = just\n\tdisallow_random_traits = yes\n\t753.1.1 = {\n\t\tbirth = yes\n\t\temployer = 210025\n\t}\n\t770.1.1 = {\n\t\tdeath = yes\n\t}\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T14:12:20.444503+00:00",
+        "updatedAt": "2025-12-31T14:12:20.444503+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74c0-d2cd-75fe-b14d-4d14db455e06",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b74c0-a1f6-7de1-89fc-721672373baf",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74c0-d2c8-7bb2-934c-1d1d3c5751a7"
+        ],
+        "content": "Это отличная заготовка! Ты собрал мощные комбо, но в коде есть **одна критическая ошибка** и **несколько логических конфликтов**, из-за которых игра может удалить трейты или работать неправильно.\n\nДавай разберем по порядку.\n\n### 🚨 Главная ошибка: Базовые характеристики\nТы выставил **1** для основного навыка и **4-5** для второстепенных.\n*   Например, у дипломата: `diplomacy = 1`, `martial = 5`.\n*   В файлах истории CK2 эти цифры — это **база** (без трейтов).\n*   **Результат:** Твой дипломат будет гением, но с врожденной \"тупостью\" в дипломатии. Его итоговый навык будет ниже, чем мог бы быть.\n*   **Как исправить:** Поставь основной навык на **10** (или хотя бы 8), а остальные на 5.\n\n### ⚔️ Конфликты трейтов (Важно!)\nИгра проверяет блок `opposites = { ... }`. Если у персонажа есть два противоположных трейта, при старте она **случайно удалит один из них**.\n\n1.  **Stew (Управленец):** У тебя стоят **`cruel`** и **`just`**.\n    *   Это противоположности. Игра удалит либо Справедливого, либо Жестокого.\n    *   *Решение:* Убери `cruel`. Для управленца `just` важнее (снижает риск восстаний), а `cruel` увеличивает налоги, но бесит всех.\n2.  **Stew (Управленец):** У тебя стоят **`genius`** и **`shrewd`**.\n    *   Обычно они не стакаются. `Shrewd` (Проницательный) — это \"приобретенный ум\", а `Genius` — врожденный. Технически они могут сосуществовать, но это выглядит странно и занимает слот. Гения достаточно.\n\n### 🕵️ Опасность для жизни (Интриган)\nТвой **Intri** имеет набор: `Elusive Shadow` + `Ambitious` + `Deceitful` + `Paranoid`.\n*   Это **машина для убийства сюзерена**.\n*   `Ambitious` (хочет твое место) + `Deceitful` (склонен к предательству) + Высокая интрига = он убьет тебя при первом же минусе в отношениях.\n*   *Решение:* Если ты хочешь жить спокойно, замени `Ambitious` на **`Content`** (Довольный). Интрига упадет на 3 пункта, но он никогда не вступит в заговор против тебя. Или хотя бы убери `Ambitious`.\n\n### 🏥 Анализ по ролям (с учетом таблицы событий)\n\n#### 1. Diplo (Канцлер)\n*   *Трейты:* Отличные. `Socializer` + `Diligent` + `Gregarious` — идеально для ивентов.\n*   *Совет:* Можно заменить `Just` (+2 stewardship) на `Honest` (+3 diplomacy), если нужен чистый стат. Но `Just` тоже хорош.\n\n#### 2. Marti (Маршал)\n*   *Трейты:* `Pirate` — рискованно (может требовать DLC/религии), но весело.\n*   *Совет:* Набор хороший. `Diligent` + `Just` защитят от коррупции.\n\n#### 3. Stew (Управленец)\n*   *Проблема:* Конфликт `Cruel`/`Just`.\n*   *Совет:* Убери `Cruel`. Добавь **`Charitable`** (Щедрый) или `Kind`. Почему? Согласно таблице, управленец с `Charitable`/`Kind` защищает провинцию от эпидемий (Disease mitigation). Это супер-важно для столицы.\n\n#### 4. Intri (Шпион)\n*   *Проблема:* Слишком опасен. И странный выбор `Charitable` (Щедрый) для шпиона (хотя механике не мешает).\n*   *Совет:* Убери `Charitable`, поставь **`Just`**. Шпион с трейтом `Just` не будет воровать деньги (ивент \"Abuse of Office\").\n\n#### 5. Learn (Церковник)\n*   *Проблема:* Нет трейта **`Zealous`**.\n*   *Совет:* Обязательно добавь `Zealous` (Ревностный). Это даст +2 к военке и, главное, ивент на дешевую постройку храмов. Можно убрать `Patience` или `Chaste`, если упираешься в лимит.\n\n---\n\n### Исправленный код (Ready to use)\n\nЯ исправил статы (перевернул их), убрал конфликты и оптимизировал под ивенты.\n\n```paradox\n666002 = {\n\tname = \"Diplo\"\n\t# Исправлены статы: Дипломатия теперь база 10\n\tdiplomacy = 10\n\tmartial = 3\n\tstewardship = 3\t\n\tintrigue = 3\n\tlearning = 3\n\treligion = sunni\n\tculture = egyptian\n\tadd_trait = grey_eminence\n\tadd_trait = genius\n\tadd_trait = socializer\n\tadd_trait = game_master\n\t# Personality (Max Diplo & Events)\n\tadd_trait = charitable\n\tadd_trait = diligent    # Языки + Отношения\n\tadd_trait = ambitious\n\tadd_trait = gregarious  # Языки\n\tadd_trait = honest      # +3 Diplo (лучше чем Just для статов)\n\tdisallow_random_traits = yes\n\t753.1.1 = { birth = yes employer = 210025 }\n\t770.1.1 = { death = yes }\n}\n\n666003 = {\n\tname = \"Marti\"\n\t# Исправлены статы: Военка 10\n\tdiplomacy = 3\n\tmartial = 10\n\tstewardship = 3\n\tintrigue = 3\n\tlearning = 3\n\treligion = sunni\n\tculture = egyptian\n\tadd_trait = brilliant_strategist\n\tadd_trait = genius\n\tadd_trait = strong\n\tadd_trait = duelist\n\tadd_trait = hunter\n\t# Pirate может слететь, если нет религии/культуры, но оставим\n\tadd_trait = pirate \n\t# Personality (Tech & No Corruption)\n\tadd_trait = brave\n\tadd_trait = diligent    # Воентех!\n\tadd_trait = ambitious\n\tadd_trait = zealous     # +2 Martial\n\tadd_trait = just        # Защита от Abuse of Office\n\tdisallow_random_traits = yes\n\t753.1.1 = { birth = yes employer = 210025 }\n\t770.1.1 = { death = yes }\n}\n\n666004 = {\n\tname = \"Stew\"\n\t# Исправлены статы: Управление 10\n\tdiplomacy = 3\n\tmartial = 3\n\tstewardship = 10\n\tintrigue = 3\n\tlearning = 3\n\treligion = sunni\n\tculture = egyptian\n\tadd_trait = midas_touched\n\tadd_trait = genius\n\t# Убран Shrewd (конфликт с Genius не нужен)\n\tadd_trait = administrator\n\tadd_trait = gardener\n\t# Personality (Money & Stability)\n\tadd_trait = diligent    # Ловит воров\n\tadd_trait = ambitious   # Ивент на +300 золота\n\tadd_trait = just        # Снижает риск восстаний (убран Cruel из-за конфликта)\n\tadd_trait = charitable  # Защита от эпидемий!\n\tadd_trait = temperate   # +2 Stewardship\n\tdisallow_random_traits = yes\n\t753.1.1 = { birth = yes employer = 210025 }\n\t770.1.1 = { death = yes }\n}\n\n666005 = {\n\tname = \"Intri\"\n\t# Исправлены статы: Интрига 10\n\tdiplomacy = 3\n\tmartial = 3\n\tstewardship = 3\n\tintrigue = 10\n\tlearning = 3\n\treligion = sunni\n\tculture = egyptian\n\tadd_trait = elusive_shadow\n\tadd_trait = genius\n\tadd_trait = master_schemer\n\tadd_trait = impaler\n\t# Personality (Safety & Loyalty)\n\tadd_trait = diligent    # Безопасность\n\tadd_trait = paranoid    # Раскрытие заговоров\n\tadd_trait = cynical     # +2 Intrigue\n\tadd_trait = deceitful   # +3 Intrigue\n\t# Content вместо Ambitious. \n\t# Если оставишь Ambitious + Deceitful + Impaler - он тебя убьет.\n\tadd_trait = content     \n\tdisallow_random_traits = yes\n\t753.1.1 = { birth = yes employer = 210025 }\n\t770.1.1 = { death = yes }\n}\n\n666006 = {\n\tname = \"Learn\"\n\t# Исправлены статы: Ученость 10\n\tdiplomacy = 3\n\tmartial = 3\n\tstewardship = 3\n\tintrigue = 3\n\tlearning = 10\n\treligion = sunni\n\tculture = egyptian\n\tadd_trait = mastermind_theologian\n\tadd_trait = genius\n\tadd_trait = physician   # Лучший трейт врача\n\tadd_trait = scholar\n\tadd_trait = mystic      # Хорошо для врача\n\t# Personality (Temples & Piety)\n\tadd_trait = diligent\n\tadd_trait = ambitious\n\tadd_trait = erudite\n\tadd_trait = zealous     # Важно! Строительство храмов +2 Martial\n\tadd_trait = chaste\n\tdisallow_random_traits = yes\n\t753.1.1 = { birth = yes employer = 210025 }\n\t770.1.1 = { death = yes }\n}\n```",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T14:12:20.447821+00:00",
+        "updatedAt": "2025-12-31T14:13:13.245125+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74c7-cb37-7340-b2ab-57e783ecb28b",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b74c0-a1f6-7de1-89fc-721672373baf",
+        "role": "user",
+        "parentMessageIds": [
+          "019b74c0-d2cd-75fe-b14d-4d14db455e06"
+        ],
+        "content": "нет, оставь базовые характеристики как было. взамен за минмакси советников, но чтобы они имели одинаковое количество очков в главном атрибуте",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T14:19:58.00849+00:00",
+        "updatedAt": "2025-12-31T14:19:58.00849+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74c7-cb3b-7655-a1e1-2347efb516de",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b74c0-a1f6-7de1-89fc-721672373baf",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74c7-cb37-7340-b2ab-57e783ecb28b"
+        ],
+        "content": "Хорошо, задача понятна. Оставляем твои «странные» базовые характеристики (1 в основном навыке), но подгоняем трейты так, чтобы у **всех советников было ровно 30 очков** в их профильном навыке (или максимально близко к этому числу, чтобы был баланс).\n\nДля этого мне пришлось добавить некоторым персонажам специфические трейты (например, **Архитектор** управленцу или **Мутазилит** ученому), чтобы математика сошлась.\n\nВот твой идеально сбалансированный отряд.\n\n### 📊 Математика баланса (Цель: 30)\n*   **Дипломат:** 1 (база) + 9 (образование) + 5 (гений) + 5 (образ жизни) + 10 (личность) = **30**\n*   **Маршал:** 1 (база) + 9 (образование) + 5 (гений) + 5 (образ жизни) + 10 (личность) = **30**\n*   **Управленец:** 1 (база) + 9 (образование) + 5 (гений) + 7 (образ жизни) + 8 (личность) = **30**\n*   **Шпион:** 1 (база) + 9 (образование) + 5 (гений) + 5 (образ жизни) + 10 (личность) = **30**\n*   **Ученый:** 1 (база) + 9 (образование) + 5 (гений) + 10 (образ жизни/религия) + 5 (личность) = **30**\n\n---\n\n### Код персонажей\n\n```paradox\n666002 = {\n\tname = \"Diplo\"\n\tdiplomacy = 1 # База\n\tmartial = 5\n\tstewardship = 4\t\n\tintrigue = 3\n\tlearning = 2\n\treligion = sunni\n\tculture = egyptian\n\t# --- 30 DIPLOMACY ---\n\tadd_trait = grey_eminence         # +9\n\tadd_trait = genius                # +5\n\t# Lifestyle (+5)\n\tadd_trait = socializer            # +3\n\tadd_trait = game_master           # +2\n\t# Personality (+10)\n\tadd_trait = charitable            # +3 (Бонус: защита от болезней)\n\tadd_trait = honest                # +3 (Бонус: нет коррупции)\n\tadd_trait = ambitious             # +2\n\tadd_trait = gregarious            # +2 (Бонус: языки)\n\tadd_trait = diligent              # +0 к дипломатии? НЕТ! В твоем списке diligent +1 ко всему.\n\t# Стоп. Diligent +1, Ambitious +2, Gregarious +2, Honest +3, Charitable +3 = 11.\n\t# Перебор на 1 очко (будет 31).\n\t# Заменим Honest (+3) на Kind (+2).\n\t# Итого: Charitable(3)+Kind(2)+Ambitious(2)+Gregarious(2)+Diligent(1) = 10.\n\t# Плюс Diligent обязателен для ивентов.\n\t\n\t# Обновленный список личностей для ровно 30:\n\tadd_trait = charitable            # +3\n\tadd_trait = kind                  # +2\n\tadd_trait = ambitious             # +2\n\tadd_trait = gregarious            # +2\n\tadd_trait = diligent              # +1\n\t\n\tdisallow_random_traits = yes\n\t753.1.1 = { birth = yes employer = 210025 }\n\t770.1.1 = { death = yes }\n}\n\n666003 = {\n\tname = \"Marti\"\n\tdiplomacy = 2\n\tmartial = 1 # База\n\tstewardship = 3\n\tintrigue = 4\n\tlearning = 5\n\treligion = sunni\n\tculture = egyptian\n\t# --- 30 MARTIAL ---\n\tadd_trait = brilliant_strategist  # +9\n\tadd_trait = genius                # +5\n\t# Lifestyle (+5)\n\tadd_trait = duelist               # +3\n\tadd_trait = hunter                # +2\n\t# Personality (+10)\n\tadd_trait = wroth                 # +3\n\tadd_trait = brave                 # +2\n\tadd_trait = ambitious             # +2\n\tadd_trait = zealous               # +2\n\tadd_trait = diligent              # +1 (Обязателен для военных техов)\n\t\n\tdisallow_random_traits = yes\n\t753.1.1 = { birth = yes employer = 210025 }\n\t770.1.1 = { death = yes }\n}\n\n666004 = {\n\tname = \"Stew\"\n\tdiplomacy = 5\n\tmartial = 4\n\tstewardship = 1 # База\n\tintrigue = 3\n\tlearning = 2\n\treligion = sunni\n\tculture = egyptian\n\t# --- 30 STEWARDSHIP ---\n\tadd_trait = midas_touched         # +9\n\tadd_trait = genius                # +5\n\t# Lifestyle (+7)\n\tadd_trait = administrator         # +3\n\tadd_trait = gardener              # +2\n\tadd_trait = architect             # +2 (Добавил чтобы добить до 30)\n\t# Personality (+8)\n\tadd_trait = ambitious             # +2 (Ивент на +300 золота)\n\tadd_trait = just                  # +2 (Снижение восстаний)\n\tadd_trait = temperate             # +2\n\tadd_trait = diligent              # +1 (Ловит воров)\n\tadd_trait = patient               # +1\n\t\n\tdisallow_random_traits = yes\n\t753.1.1 = { birth = yes employer = 210025 }\n\t770.1.1 = { death = yes }\n}\n\n666005 = {\n\tname = \"Intri\"\n\tdiplomacy = 2\n\tmartial = 3\n\tstewardship = 5\n\tintrigue = 1 # База\n\tlearning = 4\n\treligion = sunni\n\tculture = egyptian\n\t# --- 30 INTRIGUE ---\n\tadd_trait = elusive_shadow        # +9\n\tadd_trait = genius                # +5\n\t# Lifestyle (+5)\n\tadd_trait = master_schemer        # +3\n\tadd_trait = impaler               # +2\n\t# Personality (+10)\n\tadd_trait = deceitful             # +3\n\tadd_trait = cynical               # +2\n\tadd_trait = paranoid              # +2 (Защита)\n\tadd_trait = ambitious             # +2 (Внимание: опасен для сюзерена, но нужен для статов)\n\tadd_trait = diligent              # +1 (Безопасность)\n\t\n\tdisallow_random_traits = yes\n\t753.1.1 = { birth = yes employer = 210025 }\n\t770.1.1 = { death = yes }\n}\n\n666006 = {\n\tname = \"Learn\"\n\tdiplomacy = 3\n\tmartial = 5\n\tstewardship = 2\n\tintrigue = 4\n\tlearning = 1 # База\n\treligion = sunni\n\tculture = egyptian\n\t# --- 30 LEARNING ---\n\tadd_trait = mastermind_theologian # +9\n\tadd_trait = genius                # +5\n\t# Special / Lifestyle (+10)\n\tadd_trait = mutazilite            # +5 (Доступен, так как он Суннит. Мощный буст)\n\tadd_trait = scholar               # +3\n\tadd_trait = physician             # +2 (Важно для лечения)\n\t# Personality (+5)\n\tadd_trait = ambitious             # +2\n\t# Erudite (+2) удалил, чтобы влезть в 5 трейтов, иначе перебор. \n\t# Заменил на комбинацию полезных для ивентов:\n\tadd_trait = zealous               # +0 Learn (но +2 War и строит храмы)\n\tadd_trait = diligent              # +1\n\tadd_trait = chaste                # +1\n\tadd_trait = just                  # +1\n\t# Итого личности: 2+0+1+1+1 = 5.\n\t# Сумма: 1+9+5+5+3+2+5 = 30.\n\t\n\tdisallow_random_traits = yes\n\t753.1.1 = { birth = yes employer = 210025 }\n\t770.1.1 = { death = yes }\n}\n```\n\n### Что я изменил:\n1.  **Diplo:** Заменил `Honest` (+3) на `Kind` (+2), чтобы сумма вышла ровно 30.\n2.  **Stew:** Добавил трейт `architect` (+2), иначе не хватало очков до 30.\n3.  **Learn:** Добавил `mutazilite` (+5). Без него догнать остальных советников с базой 1 практически невозможно, не забивая слоты мусором.\n4.  **Intri:** Пришлось оставить опасную связку `Ambitious` + `Deceitful`, чтобы получить цифру 30. **Будь осторожен:** он попытается тебя убить. Если хочешь безопасности, замени `Ambitious` на `Content`, но тогда у него будет 27 интриги.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T14:19:58.013128+00:00",
+        "updatedAt": "2025-12-31T14:22:08.159535+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "nRetries": 1
+        }
+      },
+      {
+        "id": "019b74d4-184f-7450-a907-785989f4176c",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b74c0-a1f6-7de1-89fc-721672373baf",
+        "role": "user",
+        "parentMessageIds": [
+          "019b74c7-cb3b-7655-a1e1-2347efb516de"
+        ],
+        "content": "сделай результат в чистом виде. после напиши финальные статы",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T14:33:22.988388+00:00",
+        "updatedAt": "2025-12-31T14:33:22.988388+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74d4-1859-7990-8e72-e6342ba4a34c",
+        "evaluationSessionId": "019b749b-c9cb-7742-b553-7fd37b4d896e",
+        "evaluationId": "019b74c0-a1f6-7de1-89fc-721672373baf",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74d4-184f-7450-a907-785989f4176c"
+        ],
+        "content": "Вот чистый код для вставки в файл истории и финальная сводка характеристик.\n\nВсе персонажи имеют ровно **30** очков в своём главном навыке (с учетом базовой единицы). У каждого ровно **5** личностных черт, подобранных для активации лучших событий (ивентов).\n\n```paradox\n666002 = {\n\tname = \"Diplo\"\n\tdiplomacy = 1\n\tmartial = 5\n\tstewardship = 4\t\n\tintrigue = 3\n\tlearning = 2\n\treligion = sunni\n\tculture = egyptian\n\tadd_trait = grey_eminence\n\tadd_trait = genius\n\tadd_trait = socializer\n\tadd_trait = game_master\n\tadd_trait = charitable\n\tadd_trait = kind\n\tadd_trait = ambitious\n\tadd_trait = gregarious\n\tadd_trait = diligent\n\tdisallow_random_traits = yes\n\t753.1.1 = { birth = yes employer = 210025 }\n\t770.1.1 = { death = yes }\n}\n\n666003 = {\n\tname = \"Marti\"\n\tdiplomacy = 2\n\tmartial = 1\n\tstewardship = 3\n\tintrigue = 4\n\tlearning = 5\n\treligion = sunni\n\tculture = egyptian\n\tadd_trait = brilliant_strategist\n\tadd_trait = genius\n\tadd_trait = duelist\n\tadd_trait = hunter\n\tadd_trait = wroth\n\tadd_trait = brave\n\tadd_trait = ambitious\n\tadd_trait = zealous\n\tadd_trait = diligent\n\tdisallow_random_traits = yes\n\t753.1.1 = { birth = yes employer = 210025 }\n\t770.1.1 = { death = yes }\n}\n\n666004 = {\n\tname = \"Stew\"\n\tdiplomacy = 5\n\tmartial = 4\n\tstewardship = 1\n\tintrigue = 3\n\tlearning = 2\n\treligion = sunni\n\tculture = egyptian\n\tadd_trait = midas_touched\n\tadd_trait = genius\n\tadd_trait = administrator\n\tadd_trait = gardener\n\tadd_trait = architect\n\tadd_trait = ambitious\n\tadd_trait = just\n\tadd_trait = temperate\n\tadd_trait = diligent\n\tadd_trait = patient\n\tdisallow_random_traits = yes\n\t753.1.1 = { birth = yes employer = 210025 }\n\t770.1.1 = { death = yes }\n}\n\n666005 = {\n\tname = \"Intri\"\n\tdiplomacy = 2\n\tmartial = 3\n\tstewardship = 5\n\tintrigue = 1\n\tlearning = 4\n\treligion = sunni\n\tculture = egyptian\n\tadd_trait = elusive_shadow\n\tadd_trait = genius\n\tadd_trait = master_schemer\n\tadd_trait = impaler\n\tadd_trait = deceitful\n\tadd_trait = cynical\n\tadd_trait = paranoid\n\tadd_trait = ambitious\n\tadd_trait = diligent\n\tdisallow_random_traits = yes\n\t753.1.1 = { birth = yes employer = 210025 }\n\t770.1.1 = { death = yes }\n}\n\n666006 = {\n\tname = \"Learn\"\n\tdiplomacy = 3\n\tmartial = 5\n\tstewardship = 2\n\tintrigue = 4\n\tlearning = 1\n\treligion = sunni\n\tculture = egyptian\n\tadd_trait = mastermind_theologian\n\tadd_trait = genius\n\tadd_trait = mutazilite\n\tadd_trait = scholar\n\tadd_trait = physician\n\tadd_trait = ambitious\n\tadd_trait = diligent\n\tadd_trait = chaste\n\tadd_trait = just\n\tadd_trait = zealous\n\tdisallow_random_traits = yes\n\t753.1.1 = { birth = yes employer = 210025 }\n\t770.1.1 = { death = yes }\n}\n```\n\n---\n\n### Финальные характеристики (Главный атрибут)\n\n**👑 Канцлер (Diplo)** — **30 Дипломатии**\n*   **Ивенты:** Улучшает отношения, учит языки, нет коррупции.\n*   *Математика:* 1 (база) + 9 (образование) + 5 (гений) + 3 (socializer) + 2 (game master) + 3 (charitable) + 2 (kind) + 2 (ambitious) + 2 (gregarious) + 1 (diligent) = **30**.\n\n**⚔️ Маршал (Marti)** — **30 Военного навыка**\n*   **Ивенты:** Генерирует военные очки (diligent), строит храмы дешевле (zealous), защита от коррупции.\n*   *Математика:* 1 (база) + 9 (образование) + 5 (гений) + 3 (duelist) + 2 (hunter) + 3 (wroth) + 2 (brave) + 2 (ambitious) + 2 (zealous) + 1 (diligent) = **30**.\n\n**💰 Управленец (Stew)** — **30 Управления**\n*   **Ивенты:** +300 золота (ambitious), снижение восстаний (just), ловит воров (diligent).\n*   *Математика:* 1 (база) + 9 (образование) + 5 (гений) + 3 (administrator) + 2 (gardener) + 2 (architect) + 2 (ambitious) + 2 (just) + 2 (temperate) + 1 (diligent) + 1 (patient) = **30**.\n\n**🕵️ Шпион (Intri)** — **30 Интриги**\n*   **Ивенты:** Меры безопасности (diligent), раскрытие заговоров (paranoid).\n*   *Предупреждение:* Из-за трейта `Ambitious` у него будет желание получить титул или ваше место, но без этого трейта было бы 28 очков, а не 30.\n*   *Математика:* 1 (база) + 9 (образование) + 5 (гений) + 3 (master schemer) + 2 (impaler) + 3 (deceitful) + 2 (cynical) + 2 (paranoid) + 2 (ambitious) + 1 (diligent) = **30**.\n\n**📖 Церковник / Врач (Learn)** — **30 Учёности**\n*   **Ивенты:** Дешевые храмы (zealous), успешное лечение (physician + genius), технологии (diligent).\n*   *Математика:* 1 (база) + 9 (образование) + 5 (гений) + 5 (mutazilite) + 3 (scholar) + 2 (physician) + 2 (ambitious) + 1 (diligent) + 1 (chaste) + 1 (just) + 0 (zealous) = **30**.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T14:33:22.993488+00:00",
+        "updatedAt": "2025-12-31T14:34:01.650411+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019b749d-35e9-77f6-bab3-6a2d47da84ab",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      },
+      {
+        "id": "019b74c0-a1f6-7de1-89fc-721672373baf",
+        "modality": "chat",
+        "arenaId": "df16ee91-d668-4f41-81bb-22a90b1e7bbe",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

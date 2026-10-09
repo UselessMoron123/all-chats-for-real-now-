@@ -1,0 +1,353 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the globe. Th
+Mode     : direct
+Started  : 2026-02-08 18:17:08
+Updated  : 2026-02-08 18:31:27
+Archived : 2026-09-30 23:30:34
+Messages : 8
+URL      : https://arena.ai/c/019c3dcc-11d3-7739-841e-db79ba4bf808
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-08 18:17:08
+------------------------------------------------------------
+Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the globe. They don't seek conquest -  they carved their own domain once and then saw no need to expand any further. They send their people researching geneology, myths, legends, beliefs, to find individuals tracing their lineage back to famous figures or prestigious dynasties of the past. They marry members of prosperous families, and snatch brides and grooms from dynasties that are fading to obscurity, often last members. They could offer money and give better promises. They don't care about person's position in succession line as long as he's "worthy". They could even invite people seemingly not descending from any famous house (what will be proven wrong then after countless researches of genealogy and old papers). And in the end, even making marriages with someone seemingly insignificant, they still look like they are the winners.
+
+(this whole thing is about CK2 player hunting for bloodlines to merge into their dynasty. for a player, using in-game ledgers, it's easy to track bloodlines passing, and see if the person is really carrying a bloodline or not. player chose the most optimal location, setting nice borders in early stages, and now is playing tall)
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-08 18:17:08
+------------------------------------------------------------
+ We, the nations of the earth, have always understood the Great Game. It is played with iron, with mud, with the shifting of borders on parchment maps. We fight for a river crossing in the Rhine; we bleed for a hill in Anatolia; we scheme for a claim on a neighboring duchy.
+
+But *they*… they are playing a game we cannot comprehend.
+
+They sit within their borders—borders they carved out two centuries ago with sudden, terrifying efficiency, and then, just as suddenly, calcified. They stopped marching. They built tall walls, taller towers, and filled their coffers with gold. We sighed in relief. We called them isolationists. We thought them stagnant.
+
+We were wrong. While we fought for land, they were hunting for *blood*.
+
+It began with the emissaries. They did not send spies to count our levies or sabotage our walls. They sent scribes. Armies of them. These pale-faced scholars infiltrated our libraries, bribed our archivists, and spent months staring at dust-crumbled family trees. They seemed obsessed with the dead—with kings long buried, with saints half-remembered, with tyrants whose empires had turned to ash.
+
+Then came the proposals.
+
+At first, we laughed. They would send a caravan laden with exotic spices and chests of silver to the court of a failing Count, asking for the hand of his fourth daughter. Not the heir. Not the spare. The fourth daughter, a woman with no prospects, no land, and a lisp. Why? We whispered. What political alliance does this gain them?
+
+But the Dynasty did not care for the land she would not inherit. They cared that her great-great-grandmother was a Saint who healed the sick, and they believed that holiness lingered in the blood like a dormant fire.
+
+They became the vultures of lineage. When the great House of Karling finally collapsed under the weight of its own decadence, and its last scion was a poverty-stricken courtier hiding in a minor barony, the Dynasty was there. They swept him up, dressed him in silk, and married him to one of their own princesses. To us, he was a broken man. To them, he was a carrier of the Imperial Blood of Charlemagne. They collected him like a rare artifact.
+
+They grew bolder. Their ships sailed to the edges of the known world—to the courts of the Horse Lords in the steppes, to the sands of the Maghreb, to the mists of Ireland.
+
+They sought the blood of the Dragon, the blood of the Wolf, the blood of the Conqueror. They did not care about religion or culture. They would marry a heathen if he carried the genes of a legendary warrior. They would betroth their heir to a blind girl if her grandfather was Alexander the Great’s supposed descendant.
+
+Most baffling were the peasants.
+
+There was an incident in a tavern in Lombardy. A serving girl, a nobody, was approached by the Dynasty’s agents. We mocked them. "Finally," the courts of Europe jested, "they have lost their minds. They sully their line with lowborn filth."
+
+Then, the Dynasty released the papers. Documents we had lost, or forgotten, or were too foolish to cross-reference. They proved, with terrifying academic precision, that this serving girl was the last illegitimate grandchild of a legendary hero thought to be extinct. They didn’t marry a peasant; they salvaged a bloodline we had thrown in the garbage.
+
+They see things we do not. It is as if they possess a ledger of the world that lists the secrets of every living soul. They look at a person and see not a face, but a web of ancestors. They ignore the crown on a man's head and look instead at the invisible spiraling chains within his veins.
+
+And now, generations later, we look at their court in horror and awe.
+
+They have not expanded their borders by a single inch, yet they tower over us. Their King stands before the world, and we feel... small.
+
+He speaks, and we hear the charisma of the Great Conquerors. He fights, and he moves with the supernatural vigor of the old Duelist Kings. He rules with the wisdom of the Philosopher-Emperors. His family is beautiful, genius, strong—a curated breed of supermen.
+
+We gaze at our own heirs—inbred, club-footed, squabbling over petty titles—and then we look at them. They stand in their impregnable fortress, surrounded by the banners of forty extinct legendary houses that now live on solely within their pulse.
+
+They did not want our land. They wanted our history. And looking at the golden, god-like figures they have bred, smiling down at us with the weight of a thousand myths behind their eyes... it is hard to deny that they have won.
+
+------------------------------------------------------------
+Message  : 3
+Speaker  : User
+Time     : 2026-02-08 18:23:48
+------------------------------------------------------------
+what bloodlines could be collected by this dynasty (also, how could it be named?)? from 0 year to 1400
+
+------------------------------------------------------------
+Message  : 4
+Speaker  : AI A
+Time     : 2026-02-08 18:23:48
+------------------------------------------------------------
+Here are the names the world might whisper when speaking of this strange, quiet empire, and the specific "trophies" they have spent centuries hunting.
+
+### The Name of the Dynasty
+
+Since this dynasty plays "Tall" (isolationist, wealthy, focused on internal perfection), their name should evoke preservation, alchemy, or an origin point.
+
+1.  **House Custos:** (Latin for *Guardian* or *Keeper*). To the world, they are the keepers of the human record.
+2.  **The Aethelgard:** (Old English roots, roughly *Noble Enclosure*). Sounds ancient, sturdy, and defensive.
+3.  **House Argenti:** (The *Silver* Ones). A nod to the immense wealth they use to buy these impoverished heirs, and the "silver spoon" nature of their breeding program.
+4.  **The Sangreal:** (A play on *San Greal* / Holy Grail / Royal Blood). They believe themselves to be the vessel of true kingship.
+5.  **House Ouroboros:** The serpent eating its own tail. Symbolizing the circular nature of history and their obsession with keeping the "divine spark" within their own loop.
+
+***
+
+### The Collection: A Ledger of Blood (0 AD – 1400 AD)
+
+The spies of the world have pieced together a partial list of the lineages this Dynasty has absorbed. It is a terrifying catalogue of human history.
+
+#### I. The Ancients & The Mythic (The "Impossible" Finds)
+These are the bloodlines that required the Dynasty’s scholars to dig through crumbling scrolls in forgotten desert ruins.
+
+*   **The Blood of Alexander (The Heir to the Great):**
+    *   *The Catch:* The crown jewel. The Dynasty likely spent decades and thousands of gold coins tracing a lineage from Macedonia to a forgotten shepherd in Bactria to prove a connection to the Great Conqueror.
+    *   *The Result:* Their commanders are brilliant strategists who can invade entire kingdoms using specialized "Invasion" tactics. They are ambitious, brave, and terrifyingly charismatic.
+*   **The Solomonic Blood (The Queen of Sheba & King Solomon):**
+    *   *The Catch:* Found deep within the Highlands of Abyssinia (Ethiopia). They married into the House of Solomon to claim descent from Biblical wisdom.
+    *   *The Result:* An air of divine right and administrative genius. Their vassals rarely revolt.
+*   **The Sassanid Legacy:**
+    *   *The Catch:* The last remnants of the great Persian Empire, destroyed by the Caliphate. The Dynasty found the last Zoroastrian refugees hiding in the mountains of Tabaristan.
+    *   *The Result:* A profound connection to the East and the wisdom of the Shaoshyant.
+*   **The Merovingian (The Long-Haired Kings):**
+    *   *The Catch:* The dynasty before the Karlings. Usually found rotting in a monastery, forcibly tonsured (monk-haired) to prevent them from ruling. The Dynasty rescued the last "Theoderic" from his cell.
+    *   *The Result:* The legitimacy to rule the Franks—and a distinct, rebellious streak.
+
+#### II. The Great Conquerors (The Men Who Changed Maps)
+The Dynasty does not conquer land, but they breed the *capacity* to do so into their children.
+
+*   **The Karling Blood (Charlemagne):**
+    *   *The Catch:* Once the rulers of all Europe, eventually shattered into a hundred squabbling counts. The Dynasty picked up a minor Karling courtier when the family hit rock bottom.
+    *   *The Result:* Immense prestige among Christians and a natural aptitude for knightly combat.
+*   **The Blood of Genghis Khan (The Borjigin):**
+    *   *The Catch:* A terrifying addition. They sent brides to the Horse Lords of the Steppe, enduring harsh winters to secure a marriage with a child of the Great Khan.
+    *   *The Result:* Their cavalry is unstoppable. Their children are relentless.
+*   **The Blood of Attila (The Scourge of God):**
+    *   *The Catch:* A legendary lineage often found dormant in the Dulo clan of the Bulgarians or Avars.
+    *   *The Result:* A raw, primal intimidation factor. When a member of the Dynasty frowns, their enemies flinch.
+*   **The Blood of Timur (The Lame):**
+    *   *The Catch:* Late game (1300s). A fusion of Mongol ferocity and Persian culture.
+    *   *The Result:* Absolute administrative terror and military efficiency.
+
+#### III. The Heroes of the North & West
+While the south offered history, the north offered vitality and strength.
+
+*   **The Blood of Ragnar Lodbrok:**
+    *   *The Catch:* Snatched from the warring sons of Ragnar in Scandinavia.
+    *   *The Result:* A natural affinity for the sea, personal combat prowess, and the respect of all Germanic peoples. They are natural "Sea Kings."
+*   **The Blood of Brian Boru:**
+    *   *The Catch:* The High King of Ireland who broke the Vikings.
+    *   *The Result:* A lineage of stubborn resilience and unity.
+*   **The Blood of William the Conqueror:**
+    *   *The Catch:* The Norman bastard who took England.
+    *   *The Result:* A bloodline that demands subjugation of others.
+
+#### IV. The Holy & The Sanctified
+To ensure their rule is unquestioned by the clergy, they collected holiness itself.
+
+*   **The Sayyid / Mirza:**
+    *   *The Catch:* Direct descent from the Prophet Muhammad. Usually restricted to Islamic dynasties, but this Dynasty found a way—perhaps a conversion, a marriage, and a re-conversion—to weave this prestigious line into their tapestry.
+    *   *The Result:* Commanding respect from the entire Islamic world, regardless of the Dynasty's actual faith.
+*   **Saintly Bloodlines (Various):**
+    *   *The Catch:* Every time a Pope canonized a great King or Queen for their piety, the Dynasty was there to marry the Saint's grandchild.
+    *   *The Result:* The Dynasty acts as a living reliquary. To harm them is considered a sin by the faithful.
+
+#### V. The "Constructed" Bloodlines
+Finally, there are the bloodlines the Dynasty created themselves in the early years before they stopped expanding.
+
+*   **The Architect Bloodline:** From that one ancestor who built ten great cathedrals and fortresses. (Cheaper building costs).
+*   **The Perfect Knight Bloodline:** From an ancestor who won 50 duels in a row. (Personal Combat Skill).
+*   **The Benevolent Ruler:** From an ancestor who reigned for 60 years of peace. (Vassal opinion).
+
+### The Final Result
+
+By 1400 AD, a child born to this Dynasty is a genetic anomaly.
+
+They have the eyes of **Alexander**, the tactical mind of **Genghis Khan**, the holy legitimacy of **Charlemagne** and the **Prophet**, the sailing instinct of **Ragnar**, and the administrative genius of **Solomon**.
+
+They are not just a family anymore. They are a museum of human greatness, walking around in human skin.
+
+------------------------------------------------------------
+Message  : 5
+Speaker  : User
+Time     : 2026-02-08 18:28:11
+------------------------------------------------------------
+more
+
+------------------------------------------------------------
+Message  : 6
+Speaker  : AI A
+Time     : 2026-02-08 18:28:11
+------------------------------------------------------------
+The world watches in confusion as their emissaries arrive not only at the palaces of Emperors but at the tents of exiled warlords and the hidden mountain fortresses of assassins. The Dynasty's ledger grows heavier. They are completing the human puzzle.
+
+Here are further acquisitions—the specific, potent strains of history they have woven into their tapestry between 0 and 1400 AD.
+
+### VI. The Masters of the Sword (The Duelist & Commander Lines)
+The Dynasty does not fight wars of expansion, but they ensure that if anyone attacks them, the defense is led by the genetic heirs of the greatest generals to ever live.
+
+*   **The Blood of El Cid (Rodrigo de Vivar):**
+    *   *The Catch:* Found in Valencia or among the lesser nobility of Navarre after the great hero passed.
+    *   *The Result:* The "Campeador" spark. Their commanders possess an uncanny ability to lead armies of diverse faiths and cultures without morale penalties. They are masters of the counter-attack.
+*   **The Blood of Basil (The Macedonian):**
+    *   *The Catch:* The founder of the Byzantine golden age, who rose from a peasant wrestler to Emperor.
+    *   *The Result:* Tremendous physical strength and a "rags-to-riches" ambition that ensures the Dynasty never grows complacent with their wealth.
+*   **The Blood of Niall of the Nine Hostages:**
+    *   *The Catch:* An ancient Irish lineage (Uí Néill) found in almost every petty king in the Emerald Isle. The Dynasty filtered through them to find the "purest" strain.
+    *   *The Result:* The Tanist’s Right. A clan-like loyalty and a terrifying proficiency in light infantry tactics (ambushes and terrain warfare).
+
+### VII. The Eastern Sun (The Indo-Persian & Steppe Expansion)
+To the shock of the European courts, the Dynasty sent ships around Africa and caravans through the Silk Road. They realized the world was bigger than Christendom.
+
+*   **The Blood of Sabuktigin (The Ghaznavids):**
+    *   *The Catch:* The great Turkish conquerors of India/Persia.
+    *   *The Result:* A legacy of plunder and rapid cavalry movement. The Dynasty uses this to conduct lightning raids to sack enemy treasuries without taking land.
+*   **The Blood of Ashoka / The Gupta (The Indian Chakravartin):**
+    *   *The Catch:* Traced through the intricacies of the Caste system and the ancient records of the Brahmins to the Mauryan or Gupta emperors.
+    *   *The Result:* The claim of the "Universal Ruler." It brings a massive tolerance for different cultures and religions, allowing the Dynasty to rule a cosmopolitan court without internal strife.
+*   **The Blood of Seljuk:**
+    *   *The Catch:* The Eagle of the Turks.
+    *   *The Result:* A unique combat tactic (the feigned retreat). Even when the Dynasty loses a battle, they inflict more casualties than they take.
+
+### VIII. The Crusader & Jihadi Lines (The Zealots)
+Whether or not the Dynasty believes in God is irrelevant; they collect the blood of those who fought hardest for Him.
+
+*   **The Blood of Saladin (Salah ad-Din):**
+    *   *The Catch:* The Ayyubid line. Respected even by their enemies for their chivalry.
+    *   *The Result:* A unique trait of "Honorable Warrior." Enemies are less likely to join coalitions against them because they respect the Dynasty's integrity on the battlefield.
+*   **The Blood of Baldwin (The Leper King):**
+    *   *The Catch:* A difficult find, often traced through siblings or cousins in Jerusalem.
+    *   *The Result:* A stoic endurance against pain and disease.
+*   **The Teutonic Legacy (The Northern Crusaders):**
+    *   *The Catch:* Sometimes, a Grandmaster of a Holy Order would have a family line before taking vows. The Dynasty finds it.
+    *   *The Result:* Extreme effectiveness fighting against religious enemies.
+
+### IX. The Darker Arts (Intrigue and Villainy)
+Not all ancestors were heroes. Some were monsters. The Dynasty needed the monsters, too. To protect their paradise, they needed the capacity for cruelty.
+
+*   **The Blood of the Old Man of the Mountain (The Hashashin):**
+    *   *The Catch:* A secret lineage connected to the Grand Masters of the Assassins in Alamut.
+    *   *The Result:* High intrigue. The ability to make enemies disappear quietly. Their children are born knowing how to mix poison.
+*   **The "Impaler" Blood (Dracul/Basarab):**
+    *   *The Catch:* Found in Wallachia. A lineage of brutal justice.
+    *   *The Result:* A terrifying "Dread" mechanic. The Dynasty does not need to station police; the mere rumor of their anger keeps the peasantry in line.
+*   **The Witch-King’s Line (Legendary Pagan Heroes):**
+    *   *The Catch:* Remnants of the old Slavic or Romuva high priests who resisted conversion the longest.
+    *   *The Result:* Resistance to conversion and a deep knowledge of herbalism and "mystic" healing.
+
+### X. The "Player-Made" Historical Events
+In the game of history (and CK2), certain great events create new bloodlines. The Dynasty was there to harvest them.
+
+*   **The Parsa Line (The Saoshyant):**
+    *   *The Context:* If a Zoroastrian ruler ever succeeds in restoring the Persian Empire, they become the Saoshyant (the Savior). If this happened, the Dynasty immediately married the Savior’s daughter.
+    *   *The Benefit:* Absolute religious obedience from Zoroastrian subjects and the ability to marry close kin without (as many) defects—crucial for their breeding program.
+*   **The Outremer Blood:**
+    *   *The Context:* If a Crusader state successfully conquered the entire Near East.
+    *   *The Benefit:* The fusion of Frankish heavy cavalry and Desert survival tactics.
+
+***
+
+### The "Perfect" Specimen (circa 1400 AD)
+
+If you were to look at the heir to **House Custos** in the year 1400, you would see a contradiction in flesh.
+
+*   He wears the silk of **China** (Dragon blood).
+*   He wields the heavy sword of the **Franks** (Karling blood).
+*   He rides with the speed of a **Mongol** (Genghis blood).
+*   He speaks with the silver tongue of a **Greek** (Byzantine blood).
+*   He plots with the shadow-mind of a **Persian Assassin**.
+*   He rules with the iron fist of a **Norman**.
+
+The world looks at their borders, terrified to cross them. They realize that to fight the Dynasty is not to fight a nation; it is to fight the accumulated competence of the last 1,400 years of human warfare and governance, distilled into a single family tree.
+
+They have won the game of genetics. Now, they just sit on their throne and watch the rest of the world decay.
+
+------------------------------------------------------------
+Message  : 7
+Speaker  : User
+Time     : 2026-02-08 18:31:27
+------------------------------------------------------------
+more. back in past
+
+------------------------------------------------------------
+Message  : 8
+Speaker  : AI A
+Time     : 2026-02-08 18:31:27
+------------------------------------------------------------
+The Dynasty’s hunger grew backwards in time. When the records of the Middle Ages ran dry, they turned to the Dark Ages. When those crumbled, they hired linguists to decipher Latin inscriptions, Greek scrolls, and eventually, the cuneiform clay tablets of the Bronze Age.
+
+They sought the "Primordial Blood"—the genetic echoes of the men and women who built the foundations of civilization itself. These are the lineages claimed from the mists of antiquity (4000 BC – 0 AD), acquired through archaeological obsession and esoteric rituals.
+
+### XI. The Imperial Romans (The Blood of the Eagle)
+The Dynasty realized that every King in Europe claimed to be a "Caesar," but none had the blood to prove it. They went to the source.
+
+*   **The Gens Julia (Blood of Julius Caesar & Augustus):**
+    *   *The Catch:* Hidden within the oldest patrician families of Rome, diluted over a millennium. The Dynasty’s genealogists spent fifty years constructing a tree that connected a minor Italian Duke back to the sister of Julius Caesar.
+    *   *The Result:* **"Imperial Competence."** A massive bonus to vassal limit. They can hold together an empire that should fundamentally collapse. They possess a natural gravitas that makes Senators and Councilors fall in line.
+*   **The Blood of Spartacus (The Breaker of Chains):**
+    *   *The Catch:* A rumor chased through the mountains of Thrace. A lineage of rebels who never bowed to Rome.
+    *   *The Result:* **"Liberator."** When the Dynasty raises levies, the common folk flock to them not out of duty, but out of love. They fight with the fury of the oppressed.
+
+### XII. The Hellenic Heroes (The Age of Myth)
+Before history was written, it was sung. The Dynasty sought the blood of the men whom the Greeks called Demigods.
+
+*   **The Agiad Line (Blood of Leonidas of Sparta):**
+    *   *The Catch:* Found among the Maniot people of the Peloponnese, a rugged clan who claimed descent from the 300.
+    *   *The Result:* **"The Spartan Constitution."** A unique training regimen for their children. Physical weakness is culled. Pain is ignored. Their personal combat skill is virtually capped at maximum.
+*   **The Argead Line (Blood of Heracles):**
+    *   *The Catch:* The official lineage of the Kings of Macedon (Alexander’s ancestors) claimed descent from Heracles. The Dynasty found the threads of this bloodline in the remote valleys of Northern Greece.
+    *   *The Result:* **"Titanic Strength."** A genetic tendency toward immense physical size and muscle density. Even the scholars of the family are built like warriors.
+
+### XIII. The Pharaohs & The Nile (The Living Gods)
+To the Egyptians, the Pharaoh was not a man, but a vessel for the divine. The Dynasty wanted that divinity.
+
+*   **The Blood of the Ptolemies:**
+    *   *The Catch:* The Greek rulers of Egypt who adopted Egyptian customs. Known for... keeping the bloodline *extremely* pure (inbreeding).
+    *   *The Result:* **"Divine Marriage."** The Dynasty gained the ability to marry close kin to preserve traits without the usual chaotic genetic defects (or rather, they manage the madness better than others).
+*   **The Ramesside Blood (Ramesses the Great):**
+    *   *The Catch:* Traced through Coptic records and ancient oral traditions of the desert tribes to the 19th Dynasty of Egypt.
+    *   *The Result:* **"The Builder."** A compulsion to build monuments that last forever. Their forts have higher defense; their hospitals last centuries.
+
+### XIV. The Cradle of Civilization (Mesopotamia & Persia)
+The Dynasty looked East, to where the first laws were written and the first cities built.
+
+*   **The Blood of Cyrus the Great (The Achaemenids):**
+    *   *The Catch:* The King of Kings. The Dynasty found this bloodline among the satraps of the fallen Persian Empire.
+    *   *The Result:* **"The King of Kings."** A tolerance trait. They can rule over subjects of completely different cultures without friction.
+*   **The Blood of Hammurabi:**
+    *   *The Catch:* The Lawgiver of Babylon. Found deep in the lineage of Iraqi scholars.
+    *   *The Result:* **"The Code."** A massive boost to stewardship and legalism. The Dynasty’s laws are seen as absolute and just.
+
+### XV. The Scriptural & The Mystical (The Biblical Lines)
+Here, the Dynasty blurred the line between history and faith. They sought the blood of the Patriarchs.
+
+*   **The Davidic Line (House of David):**
+    *   *The Catch:* The Exilarchs (leaders of the Jewish diaspora) in Babylon or Spain often maintained detailed genealogies tracing back to King David. The Dynasty offered sanctuary and vast sums for a marriage into this line.
+    *   *The Result:* **"The Psalmist."** High learning and prestige. Jewish vassals and courtiers are fiercely loyal.
+*   **The Blood of Nimrod (The Great Hunter):**
+    *   *The Catch:* A legendary figure mentioned in Genesis. A primal, pre-flood lineage of hunters and kings.
+    *   *The Result:* **"Master of the Hunt."** A supernatural ability to track and kill. Useful for hunting beasts, but even more useful for hunting men.
+
+### XVI. The Far East (The Dragon Throne)
+While Europe was still tribal, the East had Empires.
+
+*   **The Blood of the Han (Liu Bang):**
+    *   *The Catch:* The Golden Age of China. The Dynasty intercepted a fleeing convoy of Silk Road merchants protecting a scion of the fallen Han.
+    *   *The Result:* **"Mandate of Heaven."** A profound stability mechanic. As long as the ruler is virtuous, the realm prospers effortlessly.
+*   **The Blood of Sun Tzu:**
+    *   *The Catch:* The author of *The Art of War*.
+    *   *The Result:* **"The Strategist."** They know the battle is won before it is fought. They gain access to unique tactics that confuse enemy AI.
+
+***
+
+### The "Chronicle of Origin" (The Dynasty's Secret Book)
+
+By having these ancient bloodlines, the Dynasty has effectively written themselves into the mythology of every culture on earth.
+
+*   When they speak to **Greeks**, they are the children of **Heracles**.
+*   When they speak to **Persians**, they are the heirs of **Cyrus**.
+*   When they speak to **Christians** or **Jews**, they have the blood of **David**.
+*   When they speak to **Romans**, they are the **Caesars**.
+
+They are no longer just a family. They are the **Avatar of History**.
+
+A visitor to their court in 1400 AD might notice something unsettling about the portraits on the wall. The faces change, but the eyes... the eyes look like they have seen the Pyramids being built, the Temple burning, and the Colosseum roaring.
+
+The Dynasty hasn't just played "Tall" with land. They have played "Tall" with *Time*.

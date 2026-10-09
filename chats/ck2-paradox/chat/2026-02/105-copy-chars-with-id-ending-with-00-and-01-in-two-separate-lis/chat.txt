@@ -1,0 +1,761 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+Mode     : direct
+Started  : 2026-02-21 15:43:54
+Updated  : 2026-02-21 15:43:54
+Archived : 2026-09-30 23:27:35
+Messages : 2
+URL      : https://arena.ai/c/019c803a-1c08-765b-97f6-074abab7b5d3
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 15:43:54
+------------------------------------------------------------
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything else
+909200 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 909200
+	religion = nestorian
+	culture = berber
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909201 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 909200
+	religion = nestorian
+	culture = berber
+	mother = 909200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_nestorian_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909202 = {
+	name = "Defender_2"
+	female = yes
+	dynasty = 909200
+	religion = nestorian
+	culture = berber
+	father = 924401
+	mother = 909201
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909203 = {
+	name = "Defender_3"
+	female = yes
+	dynasty = 909200
+	religion = nestorian
+	culture = berber
+	father = 909302
+	mother = 909202
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909204 = {
+	name = "Defender_4"
+	dynasty = 909200
+	religion = nestorian
+	culture = berber
+	father = 909603
+	mother = 909203
+	4.1.1 = {
+		birth = yes
+		add_spouse = 922504
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909300 = {
+	name = "Monastic_0"
+	female = yes
+	dynasty = 909300
+	religion = nestorian
+	culture = berber
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909301 = {
+	name = "Monastic_1"
+	female = yes
+	dynasty = 909300
+	religion = nestorian
+	culture = berber
+	mother = 909300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_nestorian_02
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909302 = {
+	name = "Monastic_2"
+	dynasty = 909300
+	religion = nestorian
+	culture = berber
+	father = 924001
+	mother = 909301
+	2.1.1 = {
+		birth = yes
+		add_spouse = 909202
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909400 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 909400
+	religion = nestorian
+	culture = berber
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909401 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 909400
+	religion = nestorian
+	culture = berber
+	mother = 909400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_nestorian_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909402 = {
+	name = "Culture_2"
+	dynasty = 909400
+	religion = nestorian
+	culture = berber
+	father = 909501
+	mother = 909401
+	2.1.1 = {
+		birth = yes
+		add_spouse = 909602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909500 = {
+	name = "Inquisitor_0"
+	dynasty = 909500
+	religion = nestorian
+	culture = berber
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909501 = {
+	name = "Inquisitor_1"
+	dynasty = 909500
+	religion = nestorian
+	culture = berber
+	father = 909500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_nestorian_04
+		}
+		add_spouse = 909401
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909600 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 909600
+	religion = nestorian
+	culture = berber
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909601 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 909600
+	religion = nestorian
+	culture = berber
+	mother = 909600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_nestorian_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909602 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 909600
+	religion = nestorian
+	culture = berber
+	father = 909701
+	mother = 909601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909603 = {
+	name = "Jewish_3"
+	dynasty = 909600
+	religion = nestorian
+	culture = berber
+	father = 909402
+	mother = 909602
+	3.1.1 = {
+		birth = yes
+		add_spouse = 909203
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909700 = {
+	name = "Theologic_0"
+	dynasty = 909700
+	religion = nestorian
+	culture = berber
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909701 = {
+	name = "Theologic_1"
+	dynasty = 909700
+	religion = nestorian
+	culture = berber
+	father = 909700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_nestorian_06
+		}
+		add_spouse = 909601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924000 = {
+	name = "MSoldier_0"
+	dynasty = 924000
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924001 = {
+	name = "MSoldier_1"
+	dynasty = 924000
+	religion = catholic
+	culture = french
+	father = 924000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_soldier_bloodline
+		}
+		add_spouse = 909301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924400 = {
+	name = "MCommander_0"
+	dynasty = 924400
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924401 = {
+	name = "MCommander_1"
+	dynasty = 924400
+	religion = catholic
+	culture = french
+	father = 924400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_commander_bloodline
+		}
+		add_spouse = 909201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 15:43:54
+------------------------------------------------------------
+Here are the characters organized into three separate lists based on their IDs:
+
+### List 1: IDs ending with 00
+```txt
+909200 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 909200
+	religion = nestorian
+	culture = berber
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909300 = {
+	name = "Monastic_0"
+	female = yes
+	dynasty = 909300
+	religion = nestorian
+	culture = berber
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909400 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 909400
+	religion = nestorian
+	culture = berber
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909500 = {
+	name = "Inquisitor_0"
+	dynasty = 909500
+	religion = nestorian
+	culture = berber
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909600 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 909600
+	religion = nestorian
+	culture = berber
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909700 = {
+	name = "Theologic_0"
+	dynasty = 909700
+	religion = nestorian
+	culture = berber
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924000 = {
+	name = "MSoldier_0"
+	dynasty = 924000
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924400 = {
+	name = "MCommander_0"
+	dynasty = 924400
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 2: IDs ending with 01
+```txt
+909201 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 909200
+	religion = nestorian
+	culture = berber
+	mother = 909200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_nestorian_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909301 = {
+	name = "Monastic_1"
+	female = yes
+	dynasty = 909300
+	religion = nestorian
+	culture = berber
+	mother = 909300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_nestorian_02
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909401 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 909400
+	religion = nestorian
+	culture = berber
+	mother = 909400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_nestorian_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909501 = {
+	name = "Inquisitor_1"
+	dynasty = 909500
+	religion = nestorian
+	culture = berber
+	father = 909500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_nestorian_04
+		}
+		add_spouse = 909401
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909601 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 909600
+	religion = nestorian
+	culture = berber
+	mother = 909600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_nestorian_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909701 = {
+	name = "Theologic_1"
+	dynasty = 909700
+	religion = nestorian
+	culture = berber
+	father = 909700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_nestorian_06
+		}
+		add_spouse = 909601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924001 = {
+	name = "MSoldier_1"
+	dynasty = 924000
+	religion = catholic
+	culture = french
+	father = 924000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_soldier_bloodline
+		}
+		add_spouse = 909301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924401 = {
+	name = "MCommander_1"
+	dynasty = 924400
+	religion = catholic
+	culture = french
+	father = 924400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_commander_bloodline
+		}
+		add_spouse = 909201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 3: Everything else
+```txt
+909202 = {
+	name = "Defender_2"
+	female = yes
+	dynasty = 909200
+	religion = nestorian
+	culture = berber
+	father = 924401
+	mother = 909201
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909203 = {
+	name = "Defender_3"
+	female = yes
+	dynasty = 909200
+	religion = nestorian
+	culture = berber
+	father = 909302
+	mother = 909202
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909204 = {
+	name = "Defender_4"
+	dynasty = 909200
+	religion = nestorian
+	culture = berber
+	father = 909603
+	mother = 909203
+	4.1.1 = {
+		birth = yes
+		add_spouse = 922504
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909302 = {
+	name = "Monastic_2"
+	dynasty = 909300
+	religion = nestorian
+	culture = berber
+	father = 924001
+	mother = 909301
+	2.1.1 = {
+		birth = yes
+		add_spouse = 909202
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909402 = {
+	name = "Culture_2"
+	dynasty = 909400
+	religion = nestorian
+	culture = berber
+	father = 909501
+	mother = 909401
+	2.1.1 = {
+		birth = yes
+		add_spouse = 909602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909602 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 909600
+	religion = nestorian
+	culture = berber
+	father = 909701
+	mother = 909601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909603 = {
+	name = "Jewish_3"
+	dynasty = 909600
+	religion = nestorian
+	culture = berber
+	father = 909402
+	mother = 909602
+	3.1.1 = {
+		birth = yes
+		add_spouse = 909203
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

@@ -1,0 +1,105 @@
+{
+  "exportedAt": "2026-10-09T16:27:51.067Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019de476-2798-7ce9-9552-a57c44a2eb01",
+  "archivedAt": "2026-09-30 20:14:15.699+00",
+  "evaluation": {
+    "id": "019de476-2798-7ce9-9552-a57c44a2eb01",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "look at these traits. which 5 of them do you think could be the best/universal combination for any k",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019de476-4aa6-7c78-8143-241da5e109c5"
+    ],
+    "archivedAt": "2026-09-30 20:14:15.699+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-05-01 16:54:19.987+00",
+    "updatedAt": "2026-05-01 16:54:21.580112+00",
+    "messages": [
+      {
+        "id": "019de476-4aa3-7723-a5fc-58b99e0337fb",
+        "evaluationSessionId": "019de476-2798-7ce9-9552-a57c44a2eb01",
+        "evaluationId": "019de476-747b-790d-a354-eeaa4d92fa4c",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "look at these traits. which 5 of them do you think could be the best/universal combination for any kind of ruler?\n\nenvious = {\n\tintrigue = 2\n\tdiplomacy = -1\n\tcombat_rating = 3\n\tliege_opinion = -15\n}\n\ngreedy = {\n\tglobal_tax_modifier = 0.1\n\tdiplomacy = -1\n}\n\nlustful = {\n\tmonthly_character_piety = -0.25\n\tintrigue = 1\n\tfertility = 0.2\n}\n\nproud = {\n\tmonthly_character_prestige = 0.5\n}\n\nwroth = {\n\tmartial = 3\n\tintrigue = -1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncharitable = {\n\tdiplomacy = 3\n\tcombat_rating = -3\n}\n\nchaste = {\n\tmonthly_character_piety = 0.5\n\tlearning = 1\n\tfertility = -0.15\n}\n\ndiligent = {\n\tmartial = 1\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tvassal_opinion = 5\n}\n\nhumble = {\n\tmonthly_character_piety = 1.0\n}\n\nkind = {\n\tintrigue = -2\n\tdiplomacy = 2\n\tcombat_rating = -5\n}\n\npatient = {\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tcombat_rating = 5\n}\n\ntemperate = {\n\tstewardship = 2\n}\n\nambitious = {\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3\n}\n\narbitrary = {\n\tintrigue = 1\n\tstewardship = -2\n\tlearning = -1\n}\n\nbrave = {\n\tmartial = 2\n\tcombat_rating = 10\n}\n\ncontent = {\n\tmonthly_character_piety = 0.5\n\tintrigue = -1\n\tliege_opinion = 25\n}\n\ncruel = {\n\tintrigue = 1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncynical = {\n\tmonthly_character_piety = -0.2\n\tintrigue = 2\n}\n\ndeceitful = {\n\tintrigue = 3\n\tdiplomacy = -2\n\tcombat_rating = 3\n}\n\nerudite = {\n\tlearning = 2\n\tcombat_rating = -2\n}\n\ngregarious = {\n\tdiplomacy = 2\n\tsex_appeal_opinion = 5\n}\n\nhonest = {\n\tintrigue = -2\n\tdiplomacy = 3\n\tcombat_rating = -2\n}\n\njust = {\n\tstewardship = 2\n\tlearning = 1\n}\n\nparanoid = {\n\tintrigue = 2\n\tdiplomacy = -1\n}\n\nstubborn = {\n\tdiplomacy = -1\n\tstewardship = 1\n\tcombat_rating = 3\n}\n\nzealous = {\n\tmonthly_character_piety = 1\n\tmartial = 2\n\topinion_against_infidels = -25\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-05-01T16:54:21.57434+00:00",
+        "updatedAt": "2026-05-01T16:54:21.57434+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019de476-4aa6-7c78-8143-241da5e109c5",
+        "evaluationSessionId": "019de476-2798-7ce9-9552-a57c44a2eb01",
+        "evaluationId": "019de476-747b-790d-a354-eeaa4d92fa4c",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019de476-4aa3-7723-a5fc-58b99e0337fb"
+        ],
+        "content": "If we’re looking for the most **universally strong 5-trait combination for any ruler**, we want:\n\n- No major stat penalties  \n- Broad stat coverage (martial, diplomacy, stewardship, intrigue, learning)  \n- Long-term stability (vassal opinion, economy, prestige/piety)  \n- No situational drawbacks (like infidel penalties or fertility penalties unless worth it)\n\n---\n\n## 🏆 Best Universal 5-Trait Combo\n\n### 1️⃣ **Ambitious**\n> The single strongest trait here.\n\n+2 to *all five core stats*  \n+3 combat rating  \n\nThere is no downside listed. This is mandatory in any optimal build.\n\n---\n\n### 2️⃣ **Diligent**\n+1 to *all five stats*  \n+5 vassal opinion  \n\nThis stacks perfectly with Ambitious and boosts literally everything a ruler does. Extremely efficient.\n\n---\n\n### 3️⃣ **Patient**\n+1 intrigue  \n+1 diplomacy  \n+1 stewardship  \n+1 learning  \n+5 combat rating  \n\nNo downsides. Improves both governance and survivability. Combat bonus is very strong.\n\n---\n\n### 4️⃣ **Just**\n+2 stewardship  \n+1 learning  \n\nStewardship is one of the most universally powerful ruler stats (money = power).  \nNo penalties. Clean and efficient.\n\n---\n\n### 5️⃣ **Temperate**\n+2 stewardship  \n\nAgain, pure value. No drawbacks. Stacks extremely well with Just and the stewardship boosts above.\n\n---\n\n# ✅ Why This Is the Best Universal Set\n\n### Total Bonuses:\n\n**Martial:** +3  \n**Intrigue:** +4  \n**Diplomacy:** +3  \n**Stewardship:** +8  \n**Learning:** +4  \n**Combat Rating:** +8  \n**Vassal Opinion:** +5  \n\nNo penalties.  \nNo religious hatred modifiers.  \nNo fertility penalties.  \nNo diplomacy loss.  \n\n---\n\n# 🔥 Why Not Other Strong Traits?\n\n- **Brave** – Huge combat bonus, but only good if you lead armies.\n- **Zealous** – Strong but situational; -25 infidel opinion can destabilize realms.\n- **Deceitful / Cynical** – Strong intrigue, but diplomacy penalties hurt universal play.\n- **Charitable / Honest** – Good diplomacy, but give combat penalties.\n- **Greedy** – Nice tax boost, but -1 diplomacy is not worth it compared to cleaner traits.\n\n---\n\n# 👑 Final Verdict\n\nThe most universally powerful, stable, and optimized ruler combo from your list is:\n\n> **Ambitious + Diligent + Patient + Just + Temperate**\n\nIt creates:\n- A strong administrator  \n- A competent general  \n- A stable vassal manager  \n- A high-income ruler  \n- A good long-term dynasty builder  \n\nIf you'd like, I can also give:\n- 🔥 The best *conquest-focused* build  \n- 🕵️ The best *intrigue/assassin emperor* build  \n- 💰 The best *economic superstate* build  \n- ⛪ The best *theocratic holy ruler* build  \n\nJust tell me your preferred playstyle.",
+        "experimental_attachments": [],
+        "modelId": "019c5826-23b2-7ea7-be9a-b4557462fe19",
+        "createdAt": "2026-05-01T16:54:21.577275+00:00",
+        "updatedAt": "2026-05-01T16:54:34.680807+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 744,
+            "totalTokens": 1391,
+            "usageSource": "provider",
+            "outputTokens": 647,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 0
+          },
+          "fromAutoRouter": false
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019de476-747b-790d-a354-eeaa4d92fa4c",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019c5826-23b2-7ea7-be9a-b4557462fe19",
+        "organization": "openai",
+        "provider": "openai",
+        "publicName": "gpt-5.2-chat-latest",
+        "name": "gpt-5.2-chat-latest",
+        "displayName": "gpt-5.2-chat-latest",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

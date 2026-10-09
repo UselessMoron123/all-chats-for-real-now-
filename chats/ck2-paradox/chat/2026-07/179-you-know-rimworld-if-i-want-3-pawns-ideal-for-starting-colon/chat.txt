@@ -1,0 +1,75 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : You know rimworld? If I want 3 pawns ideal for starting colony, what stats should they have? Without
+Mode     : direct-battle
+Started  : 2026-07-07 19:01:40
+Updated  : 2026-07-07 19:01:40
+Archived : 2026-09-30 23:08:26
+Messages : 2
+URL      : https://arena.ai/c/019f3d4f-f20f-7ca2-a33e-271df3985be8
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-07-07 19:01:40
+------------------------------------------------------------
+You know rimworld? If I want 3 pawns ideal for starting colony, what stats should they have? Without traits for now. The gold middle, idel for star anywhere, universal combination, so i don't reroll each time I start new colony
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-07-07 19:01:40
+------------------------------------------------------------
+To create a "Universal Trio" that can survive anywhere from the ice sheet to the jungle without constant rerolling, you need to cover **all critical survival pillars** across three pawns.
+
+In RimWorld, **Passions (the flame icons)** are actually more important than the starting number. A pawn with level 3 and a double flame is better than a level 8 with no flame.
+
+Here is the "Gold Middle" template for your three starters:
+
+---
+
+### Pawn 1: The Architect (Construction & Mining)
+*This pawn is responsible for your physical base. Without them, you can't build coolers, heaters, or power grids.*
+
+*   **Primary Skill: Construction (6-8+).** Essential for building beds and power generators without failing and wasting materials.
+*   **Secondary Skill: Mining (5+).** Necessary for expanding into mountains and gathering steel/components early.
+*   **Combat: Shooting.** Usually your primary defender.
+*   **Critical "Must-Have":** Must be capable of **Hauling and Cleaning**.
+
+### Pawn 2: The Provider (Plants, Cooking, & Medicine)
+*This is your survival specialist. They keep the colony fed and stop people from dying of infections.*
+
+*   **Primary Skill: Plants (8+).** This is the magic number because it allows you to harvest **Healroot** (herbal medicine) immediately.
+*   **Secondary Skill: Medicine (6-8+).** You need one person who can reliably patch up wounds and perform surgery.
+*   **Secondary Skill: Cooking (4-6+).** At level 4, the "Food Poisoning" chance drops significantly.
+*   **Combat: Shooting or Melee.** 
+
+### Pawn 3: The Brains (Intellectual, Social, & Crafting)
+*This pawn ensures you don't get stuck in the Stone Age and handles the "outside world."*
+
+*   **Primary Skill: Intellectual (6-8+).** Research is the only way to progress. In a "starve or die" situation, getting to Hydroponics or Microelectronics quickly is key.
+*   **Secondary Skill: Social (6+).** For recruiting prisoners and getting better prices from traders.
+*   **Secondary Skill: Crafting (4+).** Useful for making basic clothes and weapons early on.
+*   **Combat: Shooting.** 
+
+---
+
+### The "Universal Check-List" (Before you hit Start)
+
+Before you embark, check the **Left Side** of the character selection screen. Ensure these three things are true:
+
+1.  **The "No-Go" List:** None of the three pawns should have "None" or "Disabled" for:
+    *   **Dumb Labor** (Everyone must be able to haul and clean).
+    *   **Violence** (Everyone must be able to fight).
+    *   **Caring** (Everyone should be able to stabilize a wound in an emergency).
+2.  **The "Healroot" Check:** At least one pawn must have **Plants 8**. If you land in a biome with a short growing season and you can't grow your own medicine, you will likely lose to the first infection you get.
+3.  **The Overlap:** Make sure you have at least **two** people with a passion in **Medicine**. If your only doctor gets downed in a raid, your colony is effectively dead. 
+
+### Summary for "The Gold Middle"
+*   **Pawn 1:** High **Construction**, decent Mining.
+*   **Pawn 2:** High **Plants**, decent Medicine/Cooking.
+*   **Pawn 3:** High **Intellectual**, decent Social/Crafting.
+
+If you have this spread, you can land in a Desert, a Tundra, or a Forest and have the tools to survive the first year every time.

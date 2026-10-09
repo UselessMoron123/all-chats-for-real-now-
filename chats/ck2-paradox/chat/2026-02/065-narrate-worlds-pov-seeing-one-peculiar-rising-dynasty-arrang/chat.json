@@ -1,0 +1,209 @@
+{
+  "exportedAt": "2026-10-09T16:28:28.512Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c3dcc-11d3-7739-841e-db79ba4bf808",
+  "archivedAt": "2026-09-30 20:30:34.167+00",
+  "evaluation": {
+    "id": "019c3dcc-11d3-7739-841e-db79ba4bf808",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the globe. Th",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c3de1-100b-78aa-9695-e70ccf8128ef"
+    ],
+    "archivedAt": "2026-09-30 20:30:34.167+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-08 15:17:08.371+00",
+    "updatedAt": "2026-02-08 15:31:27.915168+00",
+    "messages": [
+      {
+        "id": "019c3dd3-ee9d-78d5-9ab9-386735a1fa06",
+        "evaluationSessionId": "019c3dcc-11d3-7739-841e-db79ba4bf808",
+        "evaluationId": "019c3dd3-fa93-7096-b603-c92c3cbb3c7d",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the globe. They don't seek conquest -  they carved their own domain once and then saw no need to expand any further. They send their people researching geneology, myths, legends, beliefs, to find individuals tracing their lineage back to famous figures or prestigious dynasties of the past. They marry members of prosperous families, and snatch brides and grooms from dynasties that are fading to obscurity, often last members. They could offer money and give better promises. They don't care about person's position in succession line as long as he's \"worthy\". They could even invite people seemingly not descending from any famous house (what will be proven wrong then after countless researches of genealogy and old papers). And in the end, even making marriages with someone seemingly insignificant, they still look like they are the winners.\n\n(this whole thing is about CK2 player hunting for bloodlines to merge into their dynasty. for a player, using in-game ledgers, it's easy to track bloodlines passing, and see if the person is really carrying a bloodline or not. player chose the most optimal location, setting nice borders in early stages, and now is playing tall)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-08T15:17:08.735389+00:00",
+        "updatedAt": "2026-02-08T15:17:08.735389+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c3dd3-ee9f-737b-8612-6587e66c929d",
+        "evaluationSessionId": "019c3dcc-11d3-7739-841e-db79ba4bf808",
+        "evaluationId": "019c3dd3-fa93-7096-b603-c92c3cbb3c7d",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c3dd3-ee9d-78d5-9ab9-386735a1fa06"
+        ],
+        "content": " We, the nations of the earth, have always understood the Great Game. It is played with iron, with mud, with the shifting of borders on parchment maps. We fight for a river crossing in the Rhine; we bleed for a hill in Anatolia; we scheme for a claim on a neighboring duchy.\n\nBut *they*… they are playing a game we cannot comprehend.\n\nThey sit within their borders—borders they carved out two centuries ago with sudden, terrifying efficiency, and then, just as suddenly, calcified. They stopped marching. They built tall walls, taller towers, and filled their coffers with gold. We sighed in relief. We called them isolationists. We thought them stagnant.\n\nWe were wrong. While we fought for land, they were hunting for *blood*.\n\nIt began with the emissaries. They did not send spies to count our levies or sabotage our walls. They sent scribes. Armies of them. These pale-faced scholars infiltrated our libraries, bribed our archivists, and spent months staring at dust-crumbled family trees. They seemed obsessed with the dead—with kings long buried, with saints half-remembered, with tyrants whose empires had turned to ash.\n\nThen came the proposals.\n\nAt first, we laughed. They would send a caravan laden with exotic spices and chests of silver to the court of a failing Count, asking for the hand of his fourth daughter. Not the heir. Not the spare. The fourth daughter, a woman with no prospects, no land, and a lisp. Why? We whispered. What political alliance does this gain them?\n\nBut the Dynasty did not care for the land she would not inherit. They cared that her great-great-grandmother was a Saint who healed the sick, and they believed that holiness lingered in the blood like a dormant fire.\n\nThey became the vultures of lineage. When the great House of Karling finally collapsed under the weight of its own decadence, and its last scion was a poverty-stricken courtier hiding in a minor barony, the Dynasty was there. They swept him up, dressed him in silk, and married him to one of their own princesses. To us, he was a broken man. To them, he was a carrier of the Imperial Blood of Charlemagne. They collected him like a rare artifact.\n\nThey grew bolder. Their ships sailed to the edges of the known world—to the courts of the Horse Lords in the steppes, to the sands of the Maghreb, to the mists of Ireland.\n\nThey sought the blood of the Dragon, the blood of the Wolf, the blood of the Conqueror. They did not care about religion or culture. They would marry a heathen if he carried the genes of a legendary warrior. They would betroth their heir to a blind girl if her grandfather was Alexander the Great’s supposed descendant.\n\nMost baffling were the peasants.\n\nThere was an incident in a tavern in Lombardy. A serving girl, a nobody, was approached by the Dynasty’s agents. We mocked them. \"Finally,\" the courts of Europe jested, \"they have lost their minds. They sully their line with lowborn filth.\"\n\nThen, the Dynasty released the papers. Documents we had lost, or forgotten, or were too foolish to cross-reference. They proved, with terrifying academic precision, that this serving girl was the last illegitimate grandchild of a legendary hero thought to be extinct. They didn’t marry a peasant; they salvaged a bloodline we had thrown in the garbage.\n\nThey see things we do not. It is as if they possess a ledger of the world that lists the secrets of every living soul. They look at a person and see not a face, but a web of ancestors. They ignore the crown on a man's head and look instead at the invisible spiraling chains within his veins.\n\nAnd now, generations later, we look at their court in horror and awe.\n\nThey have not expanded their borders by a single inch, yet they tower over us. Their King stands before the world, and we feel... small.\n\nHe speaks, and we hear the charisma of the Great Conquerors. He fights, and he moves with the supernatural vigor of the old Duelist Kings. He rules with the wisdom of the Philosopher-Emperors. His family is beautiful, genius, strong—a curated breed of supermen.\n\nWe gaze at our own heirs—inbred, club-footed, squabbling over petty titles—and then we look at them. They stand in their impregnable fortress, surrounded by the banners of forty extinct legendary houses that now live on solely within their pulse.\n\nThey did not want our land. They wanted our history. And looking at the golden, god-like figures they have bred, smiling down at us with the weight of a thousand myths behind their eyes... it is hard to deny that they have won.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-08T15:17:08.738391+00:00",
+        "updatedAt": "2026-02-08T15:17:44.132359+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c3dda-0d3b-7f71-b064-33ade377ade6",
+        "evaluationSessionId": "019c3dcc-11d3-7739-841e-db79ba4bf808",
+        "evaluationId": "019c3dd3-fa93-7096-b603-c92c3cbb3c7d",
+        "role": "user",
+        "parentMessageIds": [
+          "019c3dd3-ee9f-737b-8612-6587e66c929d"
+        ],
+        "content": "what bloodlines could be collected by this dynasty (also, how could it be named?)? from 0 year to 1400",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-08T15:23:48.273382+00:00",
+        "updatedAt": "2026-02-08T15:23:48.273382+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c3dda-0d3f-767d-8043-4d9972d28cc6",
+        "evaluationSessionId": "019c3dcc-11d3-7739-841e-db79ba4bf808",
+        "evaluationId": "019c3dd3-fa93-7096-b603-c92c3cbb3c7d",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c3dda-0d3b-7f71-b064-33ade377ade6"
+        ],
+        "content": "Here are the names the world might whisper when speaking of this strange, quiet empire, and the specific \"trophies\" they have spent centuries hunting.\n\n### The Name of the Dynasty\n\nSince this dynasty plays \"Tall\" (isolationist, wealthy, focused on internal perfection), their name should evoke preservation, alchemy, or an origin point.\n\n1.  **House Custos:** (Latin for *Guardian* or *Keeper*). To the world, they are the keepers of the human record.\n2.  **The Aethelgard:** (Old English roots, roughly *Noble Enclosure*). Sounds ancient, sturdy, and defensive.\n3.  **House Argenti:** (The *Silver* Ones). A nod to the immense wealth they use to buy these impoverished heirs, and the \"silver spoon\" nature of their breeding program.\n4.  **The Sangreal:** (A play on *San Greal* / Holy Grail / Royal Blood). They believe themselves to be the vessel of true kingship.\n5.  **House Ouroboros:** The serpent eating its own tail. Symbolizing the circular nature of history and their obsession with keeping the \"divine spark\" within their own loop.\n\n***\n\n### The Collection: A Ledger of Blood (0 AD – 1400 AD)\n\nThe spies of the world have pieced together a partial list of the lineages this Dynasty has absorbed. It is a terrifying catalogue of human history.\n\n#### I. The Ancients & The Mythic (The \"Impossible\" Finds)\nThese are the bloodlines that required the Dynasty’s scholars to dig through crumbling scrolls in forgotten desert ruins.\n\n*   **The Blood of Alexander (The Heir to the Great):**\n    *   *The Catch:* The crown jewel. The Dynasty likely spent decades and thousands of gold coins tracing a lineage from Macedonia to a forgotten shepherd in Bactria to prove a connection to the Great Conqueror.\n    *   *The Result:* Their commanders are brilliant strategists who can invade entire kingdoms using specialized \"Invasion\" tactics. They are ambitious, brave, and terrifyingly charismatic.\n*   **The Solomonic Blood (The Queen of Sheba & King Solomon):**\n    *   *The Catch:* Found deep within the Highlands of Abyssinia (Ethiopia). They married into the House of Solomon to claim descent from Biblical wisdom.\n    *   *The Result:* An air of divine right and administrative genius. Their vassals rarely revolt.\n*   **The Sassanid Legacy:**\n    *   *The Catch:* The last remnants of the great Persian Empire, destroyed by the Caliphate. The Dynasty found the last Zoroastrian refugees hiding in the mountains of Tabaristan.\n    *   *The Result:* A profound connection to the East and the wisdom of the Shaoshyant.\n*   **The Merovingian (The Long-Haired Kings):**\n    *   *The Catch:* The dynasty before the Karlings. Usually found rotting in a monastery, forcibly tonsured (monk-haired) to prevent them from ruling. The Dynasty rescued the last \"Theoderic\" from his cell.\n    *   *The Result:* The legitimacy to rule the Franks—and a distinct, rebellious streak.\n\n#### II. The Great Conquerors (The Men Who Changed Maps)\nThe Dynasty does not conquer land, but they breed the *capacity* to do so into their children.\n\n*   **The Karling Blood (Charlemagne):**\n    *   *The Catch:* Once the rulers of all Europe, eventually shattered into a hundred squabbling counts. The Dynasty picked up a minor Karling courtier when the family hit rock bottom.\n    *   *The Result:* Immense prestige among Christians and a natural aptitude for knightly combat.\n*   **The Blood of Genghis Khan (The Borjigin):**\n    *   *The Catch:* A terrifying addition. They sent brides to the Horse Lords of the Steppe, enduring harsh winters to secure a marriage with a child of the Great Khan.\n    *   *The Result:* Their cavalry is unstoppable. Their children are relentless.\n*   **The Blood of Attila (The Scourge of God):**\n    *   *The Catch:* A legendary lineage often found dormant in the Dulo clan of the Bulgarians or Avars.\n    *   *The Result:* A raw, primal intimidation factor. When a member of the Dynasty frowns, their enemies flinch.\n*   **The Blood of Timur (The Lame):**\n    *   *The Catch:* Late game (1300s). A fusion of Mongol ferocity and Persian culture.\n    *   *The Result:* Absolute administrative terror and military efficiency.\n\n#### III. The Heroes of the North & West\nWhile the south offered history, the north offered vitality and strength.\n\n*   **The Blood of Ragnar Lodbrok:**\n    *   *The Catch:* Snatched from the warring sons of Ragnar in Scandinavia.\n    *   *The Result:* A natural affinity for the sea, personal combat prowess, and the respect of all Germanic peoples. They are natural \"Sea Kings.\"\n*   **The Blood of Brian Boru:**\n    *   *The Catch:* The High King of Ireland who broke the Vikings.\n    *   *The Result:* A lineage of stubborn resilience and unity.\n*   **The Blood of William the Conqueror:**\n    *   *The Catch:* The Norman bastard who took England.\n    *   *The Result:* A bloodline that demands subjugation of others.\n\n#### IV. The Holy & The Sanctified\nTo ensure their rule is unquestioned by the clergy, they collected holiness itself.\n\n*   **The Sayyid / Mirza:**\n    *   *The Catch:* Direct descent from the Prophet Muhammad. Usually restricted to Islamic dynasties, but this Dynasty found a way—perhaps a conversion, a marriage, and a re-conversion—to weave this prestigious line into their tapestry.\n    *   *The Result:* Commanding respect from the entire Islamic world, regardless of the Dynasty's actual faith.\n*   **Saintly Bloodlines (Various):**\n    *   *The Catch:* Every time a Pope canonized a great King or Queen for their piety, the Dynasty was there to marry the Saint's grandchild.\n    *   *The Result:* The Dynasty acts as a living reliquary. To harm them is considered a sin by the faithful.\n\n#### V. The \"Constructed\" Bloodlines\nFinally, there are the bloodlines the Dynasty created themselves in the early years before they stopped expanding.\n\n*   **The Architect Bloodline:** From that one ancestor who built ten great cathedrals and fortresses. (Cheaper building costs).\n*   **The Perfect Knight Bloodline:** From an ancestor who won 50 duels in a row. (Personal Combat Skill).\n*   **The Benevolent Ruler:** From an ancestor who reigned for 60 years of peace. (Vassal opinion).\n\n### The Final Result\n\nBy 1400 AD, a child born to this Dynasty is a genetic anomaly.\n\nThey have the eyes of **Alexander**, the tactical mind of **Genghis Khan**, the holy legitimacy of **Charlemagne** and the **Prophet**, the sailing instinct of **Ragnar**, and the administrative genius of **Solomon**.\n\nThey are not just a family anymore. They are a museum of human greatness, walking around in human skin.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-08T15:23:48.278224+00:00",
+        "updatedAt": "2026-02-08T15:24:24.470596+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c3dde-0ee3-7b40-8a14-f5622d9ff322",
+        "evaluationSessionId": "019c3dcc-11d3-7739-841e-db79ba4bf808",
+        "evaluationId": "019c3dd3-fa93-7096-b603-c92c3cbb3c7d",
+        "role": "user",
+        "parentMessageIds": [
+          "019c3dda-0d3f-767d-8043-4d9972d28cc6"
+        ],
+        "content": "more",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-08T15:28:11.022699+00:00",
+        "updatedAt": "2026-02-08T15:28:11.022699+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c3dde-0ee7-757f-a117-fe3bc7db1357",
+        "evaluationSessionId": "019c3dcc-11d3-7739-841e-db79ba4bf808",
+        "evaluationId": "019c3dd3-fa93-7096-b603-c92c3cbb3c7d",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c3dde-0ee3-7b40-8a14-f5622d9ff322"
+        ],
+        "content": "The world watches in confusion as their emissaries arrive not only at the palaces of Emperors but at the tents of exiled warlords and the hidden mountain fortresses of assassins. The Dynasty's ledger grows heavier. They are completing the human puzzle.\n\nHere are further acquisitions—the specific, potent strains of history they have woven into their tapestry between 0 and 1400 AD.\n\n### VI. The Masters of the Sword (The Duelist & Commander Lines)\nThe Dynasty does not fight wars of expansion, but they ensure that if anyone attacks them, the defense is led by the genetic heirs of the greatest generals to ever live.\n\n*   **The Blood of El Cid (Rodrigo de Vivar):**\n    *   *The Catch:* Found in Valencia or among the lesser nobility of Navarre after the great hero passed.\n    *   *The Result:* The \"Campeador\" spark. Their commanders possess an uncanny ability to lead armies of diverse faiths and cultures without morale penalties. They are masters of the counter-attack.\n*   **The Blood of Basil (The Macedonian):**\n    *   *The Catch:* The founder of the Byzantine golden age, who rose from a peasant wrestler to Emperor.\n    *   *The Result:* Tremendous physical strength and a \"rags-to-riches\" ambition that ensures the Dynasty never grows complacent with their wealth.\n*   **The Blood of Niall of the Nine Hostages:**\n    *   *The Catch:* An ancient Irish lineage (Uí Néill) found in almost every petty king in the Emerald Isle. The Dynasty filtered through them to find the \"purest\" strain.\n    *   *The Result:* The Tanist’s Right. A clan-like loyalty and a terrifying proficiency in light infantry tactics (ambushes and terrain warfare).\n\n### VII. The Eastern Sun (The Indo-Persian & Steppe Expansion)\nTo the shock of the European courts, the Dynasty sent ships around Africa and caravans through the Silk Road. They realized the world was bigger than Christendom.\n\n*   **The Blood of Sabuktigin (The Ghaznavids):**\n    *   *The Catch:* The great Turkish conquerors of India/Persia.\n    *   *The Result:* A legacy of plunder and rapid cavalry movement. The Dynasty uses this to conduct lightning raids to sack enemy treasuries without taking land.\n*   **The Blood of Ashoka / The Gupta (The Indian Chakravartin):**\n    *   *The Catch:* Traced through the intricacies of the Caste system and the ancient records of the Brahmins to the Mauryan or Gupta emperors.\n    *   *The Result:* The claim of the \"Universal Ruler.\" It brings a massive tolerance for different cultures and religions, allowing the Dynasty to rule a cosmopolitan court without internal strife.\n*   **The Blood of Seljuk:**\n    *   *The Catch:* The Eagle of the Turks.\n    *   *The Result:* A unique combat tactic (the feigned retreat). Even when the Dynasty loses a battle, they inflict more casualties than they take.\n\n### VIII. The Crusader & Jihadi Lines (The Zealots)\nWhether or not the Dynasty believes in God is irrelevant; they collect the blood of those who fought hardest for Him.\n\n*   **The Blood of Saladin (Salah ad-Din):**\n    *   *The Catch:* The Ayyubid line. Respected even by their enemies for their chivalry.\n    *   *The Result:* A unique trait of \"Honorable Warrior.\" Enemies are less likely to join coalitions against them because they respect the Dynasty's integrity on the battlefield.\n*   **The Blood of Baldwin (The Leper King):**\n    *   *The Catch:* A difficult find, often traced through siblings or cousins in Jerusalem.\n    *   *The Result:* A stoic endurance against pain and disease.\n*   **The Teutonic Legacy (The Northern Crusaders):**\n    *   *The Catch:* Sometimes, a Grandmaster of a Holy Order would have a family line before taking vows. The Dynasty finds it.\n    *   *The Result:* Extreme effectiveness fighting against religious enemies.\n\n### IX. The Darker Arts (Intrigue and Villainy)\nNot all ancestors were heroes. Some were monsters. The Dynasty needed the monsters, too. To protect their paradise, they needed the capacity for cruelty.\n\n*   **The Blood of the Old Man of the Mountain (The Hashashin):**\n    *   *The Catch:* A secret lineage connected to the Grand Masters of the Assassins in Alamut.\n    *   *The Result:* High intrigue. The ability to make enemies disappear quietly. Their children are born knowing how to mix poison.\n*   **The \"Impaler\" Blood (Dracul/Basarab):**\n    *   *The Catch:* Found in Wallachia. A lineage of brutal justice.\n    *   *The Result:* A terrifying \"Dread\" mechanic. The Dynasty does not need to station police; the mere rumor of their anger keeps the peasantry in line.\n*   **The Witch-King’s Line (Legendary Pagan Heroes):**\n    *   *The Catch:* Remnants of the old Slavic or Romuva high priests who resisted conversion the longest.\n    *   *The Result:* Resistance to conversion and a deep knowledge of herbalism and \"mystic\" healing.\n\n### X. The \"Player-Made\" Historical Events\nIn the game of history (and CK2), certain great events create new bloodlines. The Dynasty was there to harvest them.\n\n*   **The Parsa Line (The Saoshyant):**\n    *   *The Context:* If a Zoroastrian ruler ever succeeds in restoring the Persian Empire, they become the Saoshyant (the Savior). If this happened, the Dynasty immediately married the Savior’s daughter.\n    *   *The Benefit:* Absolute religious obedience from Zoroastrian subjects and the ability to marry close kin without (as many) defects—crucial for their breeding program.\n*   **The Outremer Blood:**\n    *   *The Context:* If a Crusader state successfully conquered the entire Near East.\n    *   *The Benefit:* The fusion of Frankish heavy cavalry and Desert survival tactics.\n\n***\n\n### The \"Perfect\" Specimen (circa 1400 AD)\n\nIf you were to look at the heir to **House Custos** in the year 1400, you would see a contradiction in flesh.\n\n*   He wears the silk of **China** (Dragon blood).\n*   He wields the heavy sword of the **Franks** (Karling blood).\n*   He rides with the speed of a **Mongol** (Genghis blood).\n*   He speaks with the silver tongue of a **Greek** (Byzantine blood).\n*   He plots with the shadow-mind of a **Persian Assassin**.\n*   He rules with the iron fist of a **Norman**.\n\nThe world looks at their borders, terrified to cross them. They realize that to fight the Dynasty is not to fight a nation; it is to fight the accumulated competence of the last 1,400 years of human warfare and governance, distilled into a single family tree.\n\nThey have won the game of genetics. Now, they just sit on their throne and watch the rest of the world decay.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-08T15:28:11.026051+00:00",
+        "updatedAt": "2026-02-08T15:28:47.325757+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c3de1-1007-73e1-8746-d71f42ac80bf",
+        "evaluationSessionId": "019c3dcc-11d3-7739-841e-db79ba4bf808",
+        "evaluationId": "019c3dd3-fa93-7096-b603-c92c3cbb3c7d",
+        "role": "user",
+        "parentMessageIds": [
+          "019c3dde-0ee7-757f-a117-fe3bc7db1357"
+        ],
+        "content": "more. back in past",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-08T15:31:27.907871+00:00",
+        "updatedAt": "2026-02-08T15:31:27.907871+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c3de1-100b-78aa-9695-e70ccf8128ef",
+        "evaluationSessionId": "019c3dcc-11d3-7739-841e-db79ba4bf808",
+        "evaluationId": "019c3dd3-fa93-7096-b603-c92c3cbb3c7d",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c3de1-1007-73e1-8746-d71f42ac80bf"
+        ],
+        "content": "The Dynasty’s hunger grew backwards in time. When the records of the Middle Ages ran dry, they turned to the Dark Ages. When those crumbled, they hired linguists to decipher Latin inscriptions, Greek scrolls, and eventually, the cuneiform clay tablets of the Bronze Age.\n\nThey sought the \"Primordial Blood\"—the genetic echoes of the men and women who built the foundations of civilization itself. These are the lineages claimed from the mists of antiquity (4000 BC – 0 AD), acquired through archaeological obsession and esoteric rituals.\n\n### XI. The Imperial Romans (The Blood of the Eagle)\nThe Dynasty realized that every King in Europe claimed to be a \"Caesar,\" but none had the blood to prove it. They went to the source.\n\n*   **The Gens Julia (Blood of Julius Caesar & Augustus):**\n    *   *The Catch:* Hidden within the oldest patrician families of Rome, diluted over a millennium. The Dynasty’s genealogists spent fifty years constructing a tree that connected a minor Italian Duke back to the sister of Julius Caesar.\n    *   *The Result:* **\"Imperial Competence.\"** A massive bonus to vassal limit. They can hold together an empire that should fundamentally collapse. They possess a natural gravitas that makes Senators and Councilors fall in line.\n*   **The Blood of Spartacus (The Breaker of Chains):**\n    *   *The Catch:* A rumor chased through the mountains of Thrace. A lineage of rebels who never bowed to Rome.\n    *   *The Result:* **\"Liberator.\"** When the Dynasty raises levies, the common folk flock to them not out of duty, but out of love. They fight with the fury of the oppressed.\n\n### XII. The Hellenic Heroes (The Age of Myth)\nBefore history was written, it was sung. The Dynasty sought the blood of the men whom the Greeks called Demigods.\n\n*   **The Agiad Line (Blood of Leonidas of Sparta):**\n    *   *The Catch:* Found among the Maniot people of the Peloponnese, a rugged clan who claimed descent from the 300.\n    *   *The Result:* **\"The Spartan Constitution.\"** A unique training regimen for their children. Physical weakness is culled. Pain is ignored. Their personal combat skill is virtually capped at maximum.\n*   **The Argead Line (Blood of Heracles):**\n    *   *The Catch:* The official lineage of the Kings of Macedon (Alexander’s ancestors) claimed descent from Heracles. The Dynasty found the threads of this bloodline in the remote valleys of Northern Greece.\n    *   *The Result:* **\"Titanic Strength.\"** A genetic tendency toward immense physical size and muscle density. Even the scholars of the family are built like warriors.\n\n### XIII. The Pharaohs & The Nile (The Living Gods)\nTo the Egyptians, the Pharaoh was not a man, but a vessel for the divine. The Dynasty wanted that divinity.\n\n*   **The Blood of the Ptolemies:**\n    *   *The Catch:* The Greek rulers of Egypt who adopted Egyptian customs. Known for... keeping the bloodline *extremely* pure (inbreeding).\n    *   *The Result:* **\"Divine Marriage.\"** The Dynasty gained the ability to marry close kin to preserve traits without the usual chaotic genetic defects (or rather, they manage the madness better than others).\n*   **The Ramesside Blood (Ramesses the Great):**\n    *   *The Catch:* Traced through Coptic records and ancient oral traditions of the desert tribes to the 19th Dynasty of Egypt.\n    *   *The Result:* **\"The Builder.\"** A compulsion to build monuments that last forever. Their forts have higher defense; their hospitals last centuries.\n\n### XIV. The Cradle of Civilization (Mesopotamia & Persia)\nThe Dynasty looked East, to where the first laws were written and the first cities built.\n\n*   **The Blood of Cyrus the Great (The Achaemenids):**\n    *   *The Catch:* The King of Kings. The Dynasty found this bloodline among the satraps of the fallen Persian Empire.\n    *   *The Result:* **\"The King of Kings.\"** A tolerance trait. They can rule over subjects of completely different cultures without friction.\n*   **The Blood of Hammurabi:**\n    *   *The Catch:* The Lawgiver of Babylon. Found deep in the lineage of Iraqi scholars.\n    *   *The Result:* **\"The Code.\"** A massive boost to stewardship and legalism. The Dynasty’s laws are seen as absolute and just.\n\n### XV. The Scriptural & The Mystical (The Biblical Lines)\nHere, the Dynasty blurred the line between history and faith. They sought the blood of the Patriarchs.\n\n*   **The Davidic Line (House of David):**\n    *   *The Catch:* The Exilarchs (leaders of the Jewish diaspora) in Babylon or Spain often maintained detailed genealogies tracing back to King David. The Dynasty offered sanctuary and vast sums for a marriage into this line.\n    *   *The Result:* **\"The Psalmist.\"** High learning and prestige. Jewish vassals and courtiers are fiercely loyal.\n*   **The Blood of Nimrod (The Great Hunter):**\n    *   *The Catch:* A legendary figure mentioned in Genesis. A primal, pre-flood lineage of hunters and kings.\n    *   *The Result:* **\"Master of the Hunt.\"** A supernatural ability to track and kill. Useful for hunting beasts, but even more useful for hunting men.\n\n### XVI. The Far East (The Dragon Throne)\nWhile Europe was still tribal, the East had Empires.\n\n*   **The Blood of the Han (Liu Bang):**\n    *   *The Catch:* The Golden Age of China. The Dynasty intercepted a fleeing convoy of Silk Road merchants protecting a scion of the fallen Han.\n    *   *The Result:* **\"Mandate of Heaven.\"** A profound stability mechanic. As long as the ruler is virtuous, the realm prospers effortlessly.\n*   **The Blood of Sun Tzu:**\n    *   *The Catch:* The author of *The Art of War*.\n    *   *The Result:* **\"The Strategist.\"** They know the battle is won before it is fought. They gain access to unique tactics that confuse enemy AI.\n\n***\n\n### The \"Chronicle of Origin\" (The Dynasty's Secret Book)\n\nBy having these ancient bloodlines, the Dynasty has effectively written themselves into the mythology of every culture on earth.\n\n*   When they speak to **Greeks**, they are the children of **Heracles**.\n*   When they speak to **Persians**, they are the heirs of **Cyrus**.\n*   When they speak to **Christians** or **Jews**, they have the blood of **David**.\n*   When they speak to **Romans**, they are the **Caesars**.\n\nThey are no longer just a family. They are the **Avatar of History**.\n\nA visitor to their court in 1400 AD might notice something unsettling about the portraits on the wall. The faces change, but the eyes... the eyes look like they have seen the Pyramids being built, the Temple burning, and the Colosseum roaring.\n\nThe Dynasty hasn't just played \"Tall\" with land. They have played \"Tall\" with *Time*.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-08T15:31:27.910797+00:00",
+        "updatedAt": "2026-02-08T15:32:07.110032+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c3dd3-fa93-7096-b603-c92c3cbb3c7d",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

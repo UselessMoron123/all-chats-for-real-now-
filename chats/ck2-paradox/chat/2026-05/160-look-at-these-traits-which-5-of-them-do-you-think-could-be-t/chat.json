@@ -1,0 +1,105 @@
+{
+  "exportedAt": "2026-10-09T16:27:49.741Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019de78c-f1da-78b3-94ff-be59beade7da",
+  "archivedAt": "2026-09-30 20:13:14.583+00",
+  "evaluation": {
+    "id": "019de78c-f1da-78b3-94ff-be59beade7da",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "look at these traits. which 5 of them do you think could be the best/universal combination for any k",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019de78d-7022-70f8-9c14-350793d743e5"
+    ],
+    "archivedAt": "2026-09-30 20:13:14.583+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-05-02 07:18:28.608+00",
+    "updatedAt": "2026-05-02 07:18:30.847888+00",
+    "messages": [
+      {
+        "id": "019de78d-7020-783a-89c9-a2b4540ff413",
+        "evaluationSessionId": "019de78c-f1da-78b3-94ff-be59beade7da",
+        "evaluationId": "019de78d-9cb7-72d1-b675-04752872a422",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "look at these traits. which 5 of them do you think could be the best/universal combination for any kind of ruler? to compensate\nhere traits:\nenvious = {\n\tintrigue = 2\n\tdiplomacy = -1\n\tcombat_rating = 3\n\tliege_opinion = -15\n}\n\ngreedy = {\n\tglobal_tax_modifier = 0.1\n\tdiplomacy = -1\n}\n\nlustful = {\n\tmonthly_character_piety = -0.25\n\tintrigue = 1\n\tfertility = 0.2\n}\n\nwroth = {\n\tmartial = 3\n\tintrigue = -1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncharitable = {\n\tdiplomacy = 3\n\tcombat_rating = -3\n}\n\nchaste = {\n\tmonthly_character_piety = 0.5\n\tlearning = 1\n\tfertility = -0.15\n}\n\ndiligent = {\n\tmartial = 1\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tvassal_opinion = 5\n}\n\nkind = {\n\tintrigue = -2\n\tdiplomacy = 2\n\tcombat_rating = -5\n}\n\npatient = {\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tcombat_rating = 5\n}\n\ntemperate = {\n\tstewardship = 2\n}\n\nambitious = {\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3\n}\n\nbrave = {\n\tmartial = 2\n\tcombat_rating = 10\n}\n\ncruel = {\n\tintrigue = 1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncynical = {\n\tmonthly_character_piety = -0.2\n\tintrigue = 2\n}\n\ndeceitful = {\n\tintrigue = 3\n\tdiplomacy = -2\n\tcombat_rating = 3\n}\n\nerudite = {\n\tlearning = 2\n\tcombat_rating = -2\n}\n\ngregarious = {\n\tdiplomacy = 2\n\tsex_appeal_opinion = 5\n}\n\nhonest = {\n\tintrigue = -2\n\tdiplomacy = 3\n\tcombat_rating = -2\n}\n\njust = {\n\tstewardship = 2\n\tlearning = 1\n}\n\nparanoid = {\n\tintrigue = 2\n\tdiplomacy = -1\n}\n\nzealous = {\n\tmonthly_character_piety = 1\n\tmartial = 2\n\topinion_against_infidels = -25\n}\n\nhere educations:\namateurish_plotter = {\n\tintrigue = 1\n\tstewardship = -1\n\tcombat_rating = 4\n}\n\nelusive_shadow = {\n\tmartial = 2\n\tintrigue = 9\n\tdiplomacy = 2\n\tstewardship = -1\n\tcombat_rating = 16\n}\n\nnaive_appeaser = {\n\tmartial = -1\n\tdiplomacy = 1\n}\n\ngrey_eminence = {\n\tmartial = -1\n\tintrigue = 2\n\tdiplomacy = 9\n\tlearning = 2\n\tfertility = 0.1\n}\n\nindulgent_wastrel = {\n\tdiplomacy = -1\n\tstewardship = 1\n}\n\nmidas_touched = {\n\tmartial = 2\n\tdiplomacy = -1\n\tstewardship = 9\n\tlearning = 2\n\tfertility = 0.15\n}\n\nmisguided_warrior = {\n\tmartial = 1\n\tlearning = -1\n\thealth = 0.5\n\tcombat_rating = 5\n}\n\nbrilliant_strategist = {\n\tmartial = 9\n\tintrigue = 2\n\tstewardship = 2\n\tlearning = -1\n\thealth = 0.5\n\tcombat_rating = 20\n}\n\ndetached_priest = {\n\tintrigue = -1\n\tlearning = 1\n}\n\nmastermind_theologian = {\n\tintrigue = -1\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 9\n\tfertility = -0.05\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-05-02T07:18:30.843609+00:00",
+        "updatedAt": "2026-05-02T07:18:30.843609+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019de78d-7022-70f8-9c14-350793d743e5",
+        "evaluationSessionId": "019de78c-f1da-78b3-94ff-be59beade7da",
+        "evaluationId": "019de78d-9cb7-72d1-b675-04752872a422",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019de78d-7020-783a-89c9-a2b4540ff413"
+        ],
+        "content": "Based on the stats provided, the \"best\" combination for a universal ruler focuses on **Stewardship** (to hold more land and make more money), **Martial** (to win wars), and **Vassal Management** (to prevent revolts).\n\nHere are the 5 best traits to create the ultimate ruler:\n\n### 1. Ambitious\n*   **Stats:** Martial +2, Intrigue +2, Diplomacy +2, Stewardship +2, Learning +2, Combat Rating +3\n*   **Why:** This is the single best trait in the list. It provides a massive +2 bonus to **every single attribute**. In a game of percentages and thresholds, a flat +10 total stat boost is unmatched.\n\n### 2. Diligent\n*   **Stats:** Martial +1, Intrigue +1, Diplomacy +1, Stewardship +1, Learning +1, Vassal Opinion +5\n*   **Why:** Like Ambitious, this gives a \"flat\" boost to every attribute. More importantly, the **+5 Vassal Opinion** is a universal stabilizer, making every person in your realm slightly less likely to plot against you.\n\n### 3. Brilliant Strategist (Education)\n*   **Stats:** Martial +9, Intrigue +2, Stewardship +2, Learning -1, Health +0.5, Combat Rating +20\n*   **Why:** You need one high-tier education. While *Grey Eminence* is great for diplomacy, *Brilliant Strategist* is superior because of the **+0.5 Health**. Longevity is the most important \"hidden\" stat; staying alive for an extra 5–10 years allows you to finish long-term projects and avoid the instability of frequent successions. The +9 Martial also ensures you have a massive personal levy.\n\n### 4. Patient\n*   **Stats:** Intrigue +1, Diplomacy +1, Stewardship +1, Learning +1, Combat Rating +5\n*   **Why:** This is a \"buffer\" trait. It provides a boost to four out of five major stats and makes your character better in a duel. It has no negative trade-offs, making it strictly better than its counterparts like *Wroth* or *Kind*.\n\n### 5. Just\n*   **Stats:** Stewardship +2, Learning +1\n*   **Why:** Stewardship is the most \"universal\" stat for a ruler because it determines your **Domain Limit** (how many castles/cities you can own personally). Owning more land yourself means you are richer and more powerful than your vassals, which is the best way to prevent civil wars. \n\n---\n\n### Total Stat Bonuses from this Combination:\n*   **Martial:** +12 (Huge armies and battle performance)\n*   **Stewardship:** +7 (Can hold 1–2 extra pieces of land personally)\n*   **Diplomacy:** +4 (Decent relations)\n*   **Intrigue:** +6 (Good protection against assassins)\n*   **Learning:** +4 (Decent technology growth)\n*   **Combat Rating:** +28 (Almost invincible in personal combat)\n*   **Passive:** +0.5 Health and +5 Vassal Opinion.\n\n**Summary:** This ruler would be a powerhouse who lives a long time, holds a large amount of personal land, and is nearly impossible to defeat on the battlefield or via assassination.",
+        "experimental_attachments": [],
+        "modelId": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "createdAt": "2026-05-02T07:18:30.84604+00:00",
+        "updatedAt": "2026-05-02T07:18:57.581393+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 1079,
+            "totalTokens": 5510,
+            "usageSource": "provider",
+            "outputTokens": 4431,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 3704
+          },
+          "fromAutoRouter": false
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019de78d-9cb7-72d1-b675-04752872a422",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-flash",
+        "name": "gemini-3-flash",
+        "displayName": "gemini-3-flash",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

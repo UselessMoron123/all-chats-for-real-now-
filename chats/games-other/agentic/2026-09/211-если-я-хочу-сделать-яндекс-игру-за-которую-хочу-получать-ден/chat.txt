@@ -1,0 +1,838 @@
+============================================================
+arena.ai agent chat export
+============================================================
+Title    : Если я хочу сделать яндекс игру, за которую хочу получать деньги. Достаточно ли мне кодинга(с которы…
+Type     : agentic
+Started  : 2026-09-10 15:57:07
+Updated  : 2026-09-10 15:59:47
+Archived : 2026-09-30 23:01:41
+Messages : 2
+URL      : https://arena.ai/agent/01a08b64-b075-720d-9bfe-dcde6498f5be
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+Tool outputs are preserved as recorded; omitted fetch_page chunks/read_file lines and unavailable image bytes are not retrieved again.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : user
+------------------------------------------------------------
+Если я хочу сделать яндекс игру, за которую хочу получать деньги. Достаточно ли мне кодинга(с которым теэы мне поможешь)?
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : assistant
+------------------------------------------------------------
+[reasoning]
+Пользователь спрашивает на русском: если я хочу создать Яндекс Игру (Yandex Games), за которую хочу получать деньги, достаточно ли кодинга (с которым вы поможете)?
+
+Это вопрос о том, нужно ли что-то еще кроме программирования. Я должен ответить на русском, так как пользователь пишет на русском. Мне, вероятно, следует проверить актуальность информации — требования Яндекс Игр в 2026 году. Стоит выполнить поиск, чтобы дать точный ответ о требованиях: статус разработчика (ИП/самозанятость), налоговые вопросы, минимальный порог выплат, требования к контенту, правила, необходимость SDK, русский язык описаний, иконок, скриншотов, конфиденциальность, и т.д.
+
+Важный момент: Яндекс Игры — выплаты физлицам? Я помню, что Яндекс требует статус ИП или самозанятого (НПД) для выплат. Также есть минимальная сумма выплаты. И сам каталог: нужно создать аккаунт на Yandex Games for Developers, загрузить ZIP с index.html, пройти модерацию.
+
+Давайте выполню поиск для актуальности.
+
+Также я могу предложить структуру: что еще нужно — геймдизайн, арт/звук, метрика удержания, интеграция SDK (реклама, покупки, лидерборды, облачные сохранения), локализация, аналитика, иконки/обложки, описание, юридическое (ИП/самозанятый, согласия на обработку персональных данных, отсутствие нарушений авторских прав), и понимание, что монетизация через rewarded-рекламу и внутриигровые покупки, выплаты после достижения порога (например 1000 рублей?).
+
+Let me search to confirm current details for 2026.
+
+I'll run two searches in parallel.
+metadata.state:
+done
+
+Сейчас проверю актуальные требования Яндекса, чтобы не отвечать «на глаз».
+
+
+metadata.state:
+done
+
+[tool: web_search]
+metadata.toolCallId:
+call_bb2f03fea302424eaa9ec32a
+metadata.state:
+output-available
+input.query:
+Яндекс Игры требования к разработчику выплата дохода самозанятый ИП модерация игры
+input.depth:
+3
+output.status:
+success
+output.results:
+[
+  {
+    "id": 1,
+    "title": "Единая лицензионная схема",
+    "url": "https://yandex.ru/dev/games/doc/ru/payments",
+    "description": "# Единая лицензионная схема\n## Формы сотрудничества\nУсловия получения дохода зависят от формы сотрудничества:\n\n- Самозанятый — граждане, зарегистрированные как плательщики налога на профессиональный доход (НПД). Налоговая ставка 6%, Яндекс формирует чеки и отправляет информацию в ФНС.\n- Физическое лицо — Яндекс выступает налоговым агентом и удерживает налог на доходы физических лиц (НДФЛ) по *действующей ставке*.\n- Юридическое лицо, ИП — налоги и сборы партнер выплачивает самостоятельно"
+  },
+  {
+    "id": 2,
+    "title": "Сотрудничество с самозанятыми",
+    "url": "https://yandex.ru/dev/games/doc/ru/payments/self-employed",
+    "description": "# Сотрудничество с самозанятыми\nИнформация актуальна для физических лиц — резидентов РФ, которые перешли на *единое лицензионное соглашение*.\n\nФизические лица могут работать с Яндекс Играми как *самозанятые*. - **Доход выше**: вы платите 6% налога на профессиональный доход вместо *13−22% НДФЛ*.\n- **Помощь с бумажной работой**: Яндекс сам формирует чеки и отправляет информацию в ФНС. Вам нужно только проверять документы и платить налог.\n- **Гибкость**: получение дохода от Яндекс Игр можно совмещать с любой другой работой.\n- **Свобода в пенсионных взносах**: не нужно платить обязательные взносы — платите столько, сколько хотите ## Переход на самозанятость\n1. Откройте Консоль разработчика.\n2. Перейдите в раздел **Профиль** → **Документы** → **Договор**.\n3. В виджете **Самозанятость** нажмите **Стать самозанятым**.\n4. Авторизуйтесь и зарегистрируйтесь как самозанятый в личном кабинете налогоплательщика на сайте lknpd.nalog.ru или в мобильном приложении «Мой налог» Убедитесь, что ИНН при регистрации совпадает с тем, который указан в Консоли в разделе **Профиль** → **Реквизиты**.\n5. Вернитесь в Консоль разработчика и нажмите **Отправить запрос**. Мы проверим в ФНС статус самозанятости по ИНН и отправим запрос на сотрудничество от Яндекс Игр.\n6 В личном кабинете налогоплательщика или в мобильном приложении «Мой Налог» перейдите в **Настройки/Прочее** → **Партнеры** и нажмите **Подтвердить/Разрешить**. Яндекс появится на вкладке подключенных партнеров.7. Вернитесь в Консоль разработчика и нажмите **Проверить**. После успешной проверки запроса на сотрудничество появится сообщение о том, что вы работаете с Яндекс Играми как самозанятый ## Переход с самозанятости на другой режим\nВажно\n\nЕсли вы отклоните права Яндекса в кабинете налогоплательщика или в приложении «Мой налог» или перестанете быть самозанятым, вознаграждение будет выплачено как физическому лицу с удержанием налога по ставке *13−22%*. - превысите пороговый доход для самозанятых — 2,4 млн рублей в год - Вновь стать самозанятым партнером Яндекс Игр, если вы удовлетворяете требованиям. В следующем календарном месяце, когда вы достигнете минимального порога выплаты, статус в Консоли разработчика обновится и снова станет доступна кнопка **Стать самозанятым** - Продолжить работу по договору как физическое лицо с удержанием НДФЛ по *действующей ставке*. Социальные взносы в фонды отчисляет Яндекс.\n- Зарегистрироваться как ИП и выбрать систему налогообложения, которая подходит для вашей деятельности. Налоги и сборы вы выплачиваете самостоятельно ## Налоги и сборы\nСамозанятые самостоятельно уплачивают налог в размере 6% от дохода. Налог нужно оплатить до 25 числа месяца, следующего за отчетным. Все чеки и квитанции по итогам предыдущего месяца формирует Яндекс. Вы можете увидеть их в приложении «Мой налог». Оплатить налог можно там же или через приложение вашего банка **Почему ставка 6%, а не 4%?**\n\nЯндекс Игры — юридическое лицо, поэтому ставка налога составляет 6% ## Статистика и выплаты\n### Выплаты\nУсловия выплаты вознаграждения указаны в Лицензионном соглашении:\n\n- Периодичность: не чаще раза в месяц.\n- Минимальная сумма: 3000 рублей. Доход рассчитывается по всем играм и типам монетизации (показ рекламы Яндексом и инап-покупки) ## Частые вопросы\n**Я имею официального работодателя, могу ли я стать самозанятым?**\n\nДа. Можно получать заработную плату на основной работе и зарегистрироваться в качестве самозанятого. Платить налог на профессиональный доход с заработной платы не придется.\n\n**Если я стану самозанятым сегодня, то выплата по итогам этого месяца будет как самозанятому?** Да. Первая выплата как самозанятому произойдет по итогам месяца, в котором вы стали самозанятым.\n\nПо нему подключены и входят в вознаграждение все три вида монетизации:\n\n- внутренняя рекламная монетизация (РСЯ);\n- сторонняя рекламная монетизация;\n- инап-покупки С 2025 года начала действовать прогрессивная шкала НДФЛ в зависимости от общего суммарного дохода: - до 2,4 млн рублей — 13%;\n- свыше 2,4 и до 5 млн рублей — 15%;\n- свыше 5 и до 20 млн рублей — 18%;\n- свыше 20 и до 50 млн рублей — 20%;\n- свыше 50 млн рублей — 22%"
+  },
+  {
+    "id": 3,
+    "title": "[2026] Как платить налоги с онлайн игр ...",
+    "url": "https://vc.ru/id1377271/661743-2026-kak-platit-nalogi-s-onlain-igr-prodazha-igrovoi-valyuty-i-uslug-skiny-csgo-v-steam-g2g-ip-samozanyatyi-ndfl",
+    "description": "# \\[2026\\] Как платить налоги с онлайн игр - продажа игровой валюты и услуг, скины CS:GO в steam, g2g - ИП, самозанятый, НДФЛ?\nС точки зрения закона в России налоги с продажи игровой валюты, игровых ценностей и с оказания услуг в онлайн играх можно платить в следующих формах:\n\n- как индивидуальный предприниматель (ИП).\n- как самозанятый (налог на профессиональный доход).\n- как физическое лицо через подачу декларации 3 НДФЛ ## 3. Как ИП платить налоги с торговли в steam, g2g, продажи игровой валюты и услуг в онлайн играх на других площадках – УСН, ПСН (патент)?\nОбычно мы применяем УСН 6% «доходы» — то есть налог будет оплачиваться в размере 6% со всего оборота (со всей выведенной Помимо декларации нужно вести только Книгу учета доходов и расходов (КУДиР) – важно ее заполнять правильно, но все можно автоматизировать - Также ИП должен платить страховые взносы со своего дохода (для 2026 г. это 57 390 руб фиксированные + 1% с дохода свыше 300 000 руб.), однако он имеет право вычесть сумму оплаченных страховых взносов из суммы налога по - 20 млн рублей — лимит 2026 года.\n- 15 млн рублей — лимит 2027 года - 10 млн рублей — лимит 2028 года и последующих периодов ## 4. Как самозанятому платить налоги с торговли в steam, g2g, продажи игровой валюты и услуг в онлайн играх на других площадках – налог на профессиональный доход\nС точки зрения закона самозанятый платит налог с заработка на онлайн играх в размере 4%, если доход получен от физического лица, либо налог 6%, если доход получен от юридического Не вправе применять специальный налоговый режим: … **2) лица, осуществляющие перепродажу товаров, имущественных прав, за исключением продажи имущества, использовавшегося ими для личных, домашних ## 5. Как физическому лицу платить налоги с торговли в steam, g2g, продажи игровой валюты и услуг в онлайн играх на других площадках – 3 НДФЛ\nтого, что **предпринимательской является самостоятельная, осуществляемая на свой риск деятельность, направленная на систематическое получение прибыли от пользования имуществом, продажи товаров, выполнения работ или оказания - до 2,4 млн руб./год — 13%\n- от 2,4 до 5 млн — 15% Тем не менее, нужно понимать, что как ИП или самозанятый Вы можете отчитываться только за будущие периоды, то есть с момента регистрации в соответствующей статусе Сейчас согласно новым разъяснениям ЦБ эти ограничения временно не действуют, но все равно их могут вернуть в любой момент",
+    "pageAge": "Thursday, February 12, 2026"
+  },
+  {
+    "id": 4,
+    "title": "Налоги с доходов от мобильного ...",
+    "url": "https://t-j.ru/app-taxes/",
+    "description": "# Налоги с доходов от продаж мобильного приложения\n## Налог для самозанятых с доходов от мобильных приложений\nРазработчик может платить НПД с доходов от продажи мобильных приложений, если он: 1. Зарабатывает не более 2,4 миллиона рублей в год.\n2. Не нанимает работников по трудовым договорам.\n3. Не совмещает этот режим с другими спецрежимами Я ИП и стал самозанятым.\n\n35 23\n\nБыть ИП для этого необязательно. Но если разработчик уже зарегистрирован как предприниматель, он тоже вправе платить НПД Для уплаты налога для самозанятых надо установить приложение «Мой налог» от ФНС, зарегистрироваться в нем и формировать через приложение чеки на платежи от Эпстора, Гугл-плея и прочих заказчиков. Сумма НПД к уплате за месяц подсчитывается автоматически База для исчисления НПД — вся сумма доходов. Предположим, что годовой доход разработчика мобильных приложений — 100 тысяч рублей. Из них 30 тысяч забирает Эпстор или Гугл-плей, на руки человек получает 70 тысяч Если учитывать оба принципа исчисления налога с доходов от приложений, то за базу придется брать 100 тысяч рублей — без вычета комиссии магазина. Кроме того, поступления в валюте необходимо пересчитать в рубли по официальному курсу ЦБ на дату получения денег Нарушать ли принципы — решает разработчик. Мы не советуем.\n\nЕще есть проблема со ставкой НПД. По доходам физлиц она равна 4%, а по доходам юрлиц и ИП — 6%. Теоретически к доходам от продаж приложений надо применять первую — 4% Поэтому придется формировать чек на доход от иностранного юрлица — «Эпла» или «Гугла» — и применять ставку 6% Таким образом, разработчик со 100 тысяч дохода должен заплатить 6 тысяч НПД с учетом всех принципов. А без учета — чуть больше 4 тысяч. Но при любом варианте НПД выгоднее НДФЛ Если разработчик получает от мобильных приложений не более 2,4 миллиона в год и ему не нужны вычеты по НДФЛ, уплата НПД — логичное решение ## ИП на УСН 6%\nИП на УСН без работников с уплатой налога по ставке 6% от доходов уменьшают налог на все перечисленные взносы. И платят только положительную разницу. Если налог мньше взносов или равен им, вносить его не придется Вернемся к примеру с НДФЛ. Годовой доход разработчика приложений — 100 тысяч рублей, комиссия Эпстора или Гугл-плея — 30 тысяч. НДФЛ с учетом профессионального вычета — 9 тысяч рублей. Это все, что нужно отдать в бюджет, не будучи ИП Если взять те же доходы для ИП на УСН 6%. Фиксированные взносы за 2020 год составляют 40 874 ₽, дополнительные платить не придется, поскольку доход меньше 300 тысяч.\n\n- 100 000 ₽ × 6% = 6000 ₽ Взносы получаются больше налога, значит, разработчик вообще его не платит. В итоге за 2020 год разработчик — ИП на УСН 6% отдаст 41 тысячу рублей взносов против 9 тысяч рублей НДФЛ, если бы разработчик оставался физическим лицом Следовательно, задуматься о регистрации ИП на УСН 6% разработчику мобильных приложений стоит, если ему недоступен НПД, а годовой доход таков, что НДФЛ с него больше фиксированных взносов. Пороговое значение доходов на 2021 год — около 314 тысяч рублей: ## Теперь то же самое, но кратко\nПоступления в валюте надо пересчитывать в рубли по официальному курсу ЦБ РФ на день получения денег.\n5. Если разработчик зарегистрируется как самозанятый, то с доходов от Эпстора и Гугл-плея он может платить налог на профессиональный доход по ставке 6%.\n6 Если НПД разработчику не подходит, а в год на продаже мобильных приложений он зарабатывает больше 314 тысяч, выгодно зарегистрировать ИП на УСН, платить 6% от доходов и ежегодно представлять декларацию. Дополнительно придется перечислять в налоговую страховые взносы, но на них можно уменьшить исчисленный налог.8 - Антон Дыбов Михаил, я написал, почему с 1000. Потому что именно за столько права на ваше приложение продал Гугл. Статья о законе, а не о житейской логике.1\n- Антон Дыбов Михаил, владельцем прав на приложение является его автор, не посредник. Соответственно автор - получатель всего дохода по сделке",
+    "pageAge": "Thursday, April 15, 2021"
+  },
+  {
+    "id": 5,
+    "title": "Правовые вопросы геймдева: каким ...",
+    "url": "https://dtf.ru/id385049/787735-pravovye-voprosy-geimdeva-kakim-yuridicheskim-statusom-dolzhen-obladat-indi-razrabotchik",
+    "description": "# Правовые вопросы геймдева: каким юридическим статусом должен обладать инди-разработчик\nВопрос может возникнуть при получении первой прибыли от площадок вроде Steam или сторов приложений. По общему правилу оформлять статус ИП или открывать компанию для получения доходов не обязательно: со стороны сторов ограничений нет, и физическим лицам они выплачивают роялти без ограничений. Физические лица могут получить как Employer Identification Number (EIN), так и Individual Taxpayer Identification Number (ITIN), и спокойно работать с площадкой - Если вы выступаете в качестве физического лица (автора игры), не имея статуса самозанятого или ИП, вы обязаны уплачивать НДФЛ 13% со своего авторского гонорара после вычета вознаграждения площадки. Сам гонорар можно получать на валютный банковский счёт, открытый в российском банке Во втором он платит с разницы между доходами и расходами по ставке от 5% до 15% (в зависимости от региона) — это выгодно, если у вас есть регулярные расходы. Вероятнее всего, для вас будет применима ставка 6% от полученного дохода ИП. Однако ИП обязаны осуществлять ежегодные социальные (пенсионные) отчисления — ориентировочно 40 тысяч рублей в год - Ещё один вариант — получение статуса самозанятого гражданина. Это снижает риск получить штраф за незаконную предпринимательскую деятельность, а также снимает обязанность по уплате фиксированных взносов на пенсионное страхование. Налоговая ставка на полученный доход от продаж игр, перечисляемая от площадок, составит 6%",
+    "pageAge": "Monday, July 05, 2021"
+  },
+  {
+    "id": 6,
+    "title": "Как самозанятым разработчикам ...",
+    "url": "https://www.rustore.ru/developer/blog/nalogi-dlya-samozanyatih",
+    "description": "Налоги для самозанятых в RuStore: как учитывать доход, формировать чеки, платить 4% налог и получать выплаты от 20 000 рублей. # Как самозанятым разработчикам оплатить налоги с доходов в RuStore\nМонетизация приложений в RuStore приносит разработчикам доход, который подлежит налогообложению. Особенно это актуально для самозанятых, поскольку они обязаны учитывать свои поступления и своевременно уплачивать налог на профессиональный доход. В этом материале разберёмся, какие платежи облагаются налогом, как рассчитывать сумму к выплате, где найти отчёты о доходах и как правильно оформлять чеки в приложении «Мой налог» ## За что самозанятые разработчики получают выплаты\n1. **Платное приложение.** В этом случае выплата начисляется за скачивание. Однако оплата поступает только за первое скачивание пользователем — повторные загрузки бесплатны.\n2. **Возобновляемые подписки.** Продажа дополнительного контента, функций и других фишек внутри приложения или игры ## Как происходит выплата\nЧтобы получать платежи, приложение должно быть загружено в RuStore Консоль, интегрировано с RuStore SDK и одобрено модерацией.\n\nДоход разработчика с покупки в приложении формируется следующим образом:\n\n- пользователь совершает платеж через RuStore;\n- RuStore взимает комиссию 15% от суммы каждого платежа;\n- оставшаяся сумма — доход разработчика 2. RuStore удерживает 15% комиссии с платежа, что составляет 15 руб. (100 ∗ 15%).\n3. Налог, который должен заплатить самозанятый разработчик самостоятельно, составляет 4% от полной покупки: 100 руб. ∗ 4% = 4 руб 4. Доход разработчика после всех вычетов: 100 − 15 − 4 = 81 руб screenshot\n\nМинимальная сумма для выплаты разработчику составляет 20 000 рублей. Если с момента начала платежей или с предыдущей выплаты сумма достигла этого порога, выплата поступит на карту, привязанную в RuStore Консоли. Выплата перечисляется раз в месяц **Важно:** RuStore оставляет за собой право на отложенную выплату в первый отчётный период, в котором доход паблишера составил более 20 000 рублей ## Отчётность\n**Общая сумма принятых платежей** — учитывает все поступления с вычетом возвратов.\n\n**Сумма к выплате** — рассчитывается с учётом доходов и комиссий по формуле:\n\n*Нераспределённые платежи на начало периода + Общая сумма принятых платежей − Нераспределённые платежи на конец периода − Комиссия RuStore* ## Как оплатить налоги\nДата признания дохода — последний день месяца, в котором пользователь совершил оплату в приложении разработчика.\n\nНалоговая ставка для самозанятых — 4%. Чек с общей суммой дохода за месяц необходимо сформировать до 9 числа следующего месяца, а оплатить налог — до 28 числа. Сделать это можно в приложении «Мой налог»: 2. Внесите название услуги — например: «Продажи в приложении N за январь 2025 года». Постарайтесь подробно описать услугу. Если сумма включает несколько источников дохода, например, от нескольких монетизированных приложений, укажите это в чеке, нажав «Добавить». Сформированный документ сохранится в сервисе, и вы сможете использовать его как шаблон в будущем **Пример.** В январе 2025 года доход самозанятого разработчика с учетом всех платежей и возвратов составил 20 500 рублей. Чек необходимо сформировать до 9 февраля. В налоговую поступает сумма 20 500 × 4% = 820 рублей, которую необходимо оплатить до 28 февраля Даже если доход не достиг 20 000 рублей, чек необходимо формировать ежемесячно.\n\nЕсли налоги не оплачивались в течение года, сумму налога можно рассчитать по годовому доходу и заплатить единовременно ## Заключение\nСвоевременная уплата налогов — важная обязанность самозанятых разработчиков, позволяющая избежать проблем с налоговой инспекцией. RuStore предоставляет удобные инструменты для отслеживания доходов и формирования отчётности, а приложение «Мой налог» помогает быстро оформлять чеки и оплачивать налог. Регулярное ведение учёта позволит минимизировать финансовые риски и сосредоточиться на развитии приложений и игр",
+    "pageAge": "Tuesday, April 22, 2025"
+  },
+  {
+    "id": 7,
+    "title": "Можно ли подключить монетизацию на ...",
+    "url": "https://otvet.mail.ru/question/236149469",
+    "description": "# Можно ли подключить монетизацию на платформе Яндекс Игры, как физ.лицо, не имея самозанятости?\nЗдравствуйте. Да, можно. Резиденты РФ могут сотрудничать с РСЯ в качестве самозанятых, физических и юридических лиц, а также как индивидуальные предприниматели. Подробнее в Справке РСЯ: https://yandex.ru/support/partner/remuneration.html 2г\n\nнет, конечно же. Обязательно ИП или самозанятого\n\nАватар пользователя\n\nmappa_1\n\nМыслитель\n\n2г\n\nна Вк плей лучше , там реклама прокатывает\n\nАватар пользователя\n\nartem_voronkov_210\n\nУченик\n\n2г",
+    "pageAge": "Wednesday, December 13, 2023"
+  },
+  {
+    "id": 8,
+    "title": "Реклама",
+    "url": "https://yandex.ru/dev/games/doc/ru/console/adv-monetization",
+    "description": "# Реклама\nВидеоуроки. Как подключить рекламу и рекламные блоки в Яндекс Играх? Как и зачем разработчику игр становиться самозанятым? Посмотреть видео Яндекс YouTube\n\nВы можете получать доход от размещения рекламных блоков, подключив внутреннюю или внешнюю монетизацию ## Внутренняя монетизация\n### Подключение\nПо условиям оферты РСЯ, выплата вознаграждения будет возможна после того, как вы внесете реквизиты для выплат в партнерском интерфейсе РСЯ и получите письмо от РСЯ, что ваша оферта акцептована.\n8. Проверьте, что игра готова к отправке на модерацию:\n  - В черновике игры корректно настроен вызов рекламы, согласно разделу 4 Требований к игре.\n  - Стики-баннеры настроены, если это необходимо ### Выплаты\nВознаграждение выплачивается, когда сумма дохода достигнет определенного порога. Размер вознаграждения, порог, способ и сроки выплаты зависят от вашего юридического статуса и страны проживания. ## Внешняя монетизация\n### Выплаты\nДля выплаты установлен порог в размере 3000 рублей или 150 долларов США, в зависимости от валюты договора. Сама выплата произойдет автоматически на реквизиты партнера, указанные в Партнерском интерфейсе РСЯ, в течение 20 рабочих дней следующего месяца"
+  },
+  {
+    "id": 9,
+    "title": "Самозанятые в 2026: изменения для ...",
+    "url": "https://pay.yandex.ru/blog/articles/samozanyatye-izmeneniya-2026",
+    "description": "# Самозанятые в 2026 году: изменения, о которых важно знать бизнесу\n## Заключение: как бизнесу адаптироваться к изменениям\n### Часто задаваемые вопросы (FAQ)\nПонадобится минимум документов: договор гражданско-правового характера, акт выполненных работ и чек от самозанятого после оплаты. Также рекомендуется иметь: техническое задание, переписку с исполнителем и подтверждение статуса НПД на момент оплаты. Хранить документы нужно 5 лет",
+    "pageAge": "Friday, February 20, 2026"
+  },
+  {
+    "id": 10,
+    "title": "Монетизация",
+    "url": "https://yandex.ru/dev/games/doc/ru/services/about-monetization",
+    "description": "# Монетизация\n- Россия, юридическое лицо или ИП — перейдите на единую лицензионную схему: реклама и покупки подключаются одним договором прямо в Консоли, регистрироваться в РСЯ не нужно.\n- Остальные случаи — зарегистрируйтесь в Рекламной сети Яндекса.\n\nУсловия получения дохода в РСЯ зависят от формы сотрудничества: - самозанятый Важно Самозанятые могут оформить договор на покупки только как физическое лицо.\n- физическое лицо — только для нерезидентов РФ.\n- юридическое лицо, ИП\n\nПримечание\n\nФормы сотрудничества могут отличаться в договоре РСЯ и договоре на покупки ## Частые вопросы\nЕсли вы не планируете вызывать рекламу с помощью SDK, перед отправкой игры на модерацию укажите это в поле **Комментарий разработчика**.\n\n**Могу ли я подключить микротранзакции в своей игре?**\n\nДа.\n\nВы можете подключить покупки и получать доход от предоставления платных услуг в своих играх Можно, если промокоды дают только внутриигровые ценности без вывода реальных денег (пункт 3.7) и пользователю понятно, что делает промокод или какие шансы он дает.\n\n**Со скольки лет можно создавать и монетизировать игры?**\n\nВы можете заключить лицензионное соглашение и получать по нему выплаты с 18 лет. Если договор оформляет родитель или другое лицо, то все права и обязанности по договору будут на нем"
+  }
+]
+
+[tool: web_search]
+metadata.toolCallId:
+call_59822e5c97f34869b7f48e83
+metadata.state:
+output-available
+input.query:
+Yandex Games SDK monetization requirements publish HTML5 game 2025 2026 payouts
+input.depth:
+2
+output.status:
+success
+output.results:
+[
+  {
+    "id": 1,
+    "title": "Advertisement",
+    "url": "https://yandex.com/dev/games/doc/en/console/adv-monetization",
+    "description": "# Advertisement\n## Internal Monetization\n### Enabling\n- Click **Register**. Now you can upload new games and earn money on the platform. According to the YAN offer, your earnings can be paid out once you've entered your payment details in the YAN partner interface and received an email from YAN confirming that your application had been accepted.\n8. Make sure that your game is ready for moderation:\n  - Ad calls in the game draft are set up correctly according to section 4 of the Game requirements.\n  - Sticky banners are set up (if applicable) - On the **Advertising** tab, **Enable monetization** is on.\n  Note In draft mode, Yandex advertising blocks will be displayed.9. Submit the game for moderation and wait for the results. Note If the game was submitted for review more than 100 days ago, you will see a warning that the requirements may have changed. Cancel the moderation submission, review the requirements, and check if the game complies with them. After that, resubmit the game for moderation ### Payments\nPayments are made when income reaches a certain threshold. The amount of the payment, the threshold, the method, and the payment terms depend on your legal status and country of residence.\nNote ## External Monetization\n### Payments\nThe payout threshold is set at either 3000 rubles or 150 US dollars, depending on the contract currency. The payout will automatically occur to the partner's account details provided in the YAN Partner interface, within 20 working days of the following month ### Statistics\nNote\n\nStatistics are only available after the game is published and real ad units are created.\n\nAfter connection, external monetization operates automatically, and there is nothing further for the partner to do.\n\nThe daily reward from external monetization is displayed in the developer console under the **Metrics** → **Monetization metrics** → **Revenue** tab. Additionally, the amount of the reward can be seen in the acts and reporting documents sent to the partner's email after reaching the payout threshold"
+  },
+  {
+    "id": 2,
+    "title": "YAN monetization",
+    "url": "https://yandex.com/dev/games/doc/en/requirements/1/12",
+    "description": "Item 1.12 of the Game Requirements. Yandex Advertising Network (YAN) monetization is enabled. # YAN monetization\n## Verification Method\nBy default, Yandex Advertising Network (YAN) monetization must be enabled in the game. If you do not want to monetize your game, then in the console on the **Draft** tab in the **Developer’s comment** field, directly state your decision.\n\nTo enable monetization, please follow the instructions.\n\nIf you plan to earn revenue from the game, it must include in-game purchases or advertisements: - Purchases: products are added on the **In-app purchases** page and the **Settings** tab of this page shows the **Purchases are enabled** inscription.\n- Advertising: full-screen units, rewarded units, or sticky banners. Exception The initial advertising block seen during game loading is not considered Moderation will approve the game if at least one of these conditions is met (there are ads or purchases) or if it is specified that the game does not include monetization"
+  },
+  {
+    "id": 3,
+    "title": "Monetization",
+    "url": "https://yandex.com/dev/games/doc/en/services/about-monetization",
+    "description": "# Monetization\nYandex Games provides multiple options for monetizing your games and generating revenue:\n\n- Enable external or internal monetization and earn revenue by placing ad units.\n- Enable in-game purchases and earn revenue by providing paid services.\n- Sign up for the referral program.\n\nThe conditions for earning income depend on the form of collaboration:\n\n- individual\n- legal entity, individual entrepreneur\n\nNote\n\nThe terms of cooperation may differ in the YAN agreement and the purchase agreement ## Frequent questions\nYou enable monetization via the Developer Console only once. After that, for each new game published via the Console, an ad placement is automatically created with a set of ad units of all available formats (fullscreen, rewarded, sticky banners) for different devices.\n\nAll you need to do is configure ad calls in the game code according to the documentation. Before the game is published, test ad units will be shown; after publication, real units will be shown, for which you will receive income No, you can't.\n\nConnecting the SDK is required for moderation approval. Additionally, the SDK allows you to:\n\n- customize automatic transition of the game to fullscreen mode;\n- get user's language information;\n- fetch server time and use it for adding rewards and activities.\n\nHowever, configuring ad calls using the SDK is not mandatory but a recommended option. Ad monetization through the SDK brings developers additional revenue **Can I enable microtransactions in my game?**\n\nYes.\n\nYou can enable in-game purchases and earn revenue by providing paid services in your games.\n\nPaid services may include extra time for completing a level or accessories for an in-game character."
+  },
+  {
+    "id": 4,
+    "title": "Quick start",
+    "url": "https://yandex.com/dev/games/doc/en/concepts/quick-start.html",
+    "description": "# Quick start\n- Step 5. Attract Players\n\nPlace your game in the Yandex Games catalog and earn money by following the steps below.\nTip ## Uploading a game\n### Step 5. Implement Monetization\nTo earn money from your game, connect internal and external advertisement monetization, in-game purchases: - Create an account on Yandex Advertising Network (YAN) and accept the terms of the agreement.\n- Provide your payout details and current contacts.\n- To connect:\n  - advertising: on the **Advertising** tab, click the **Enable monetization** button;\n  - purchases: send a connection request to games-partners@yandex-team.com.\n- Receive payouts once your income reaches the threshold amount. ## Game Operations\n### Step 1. Analyze Metrics\nFirst, study the metrics of your game in the developer console. They will help identify the strengths and weaknesses of the app, and later on, analyze the results of A/B tests.\n\nTypically, games with a rating of 80+ and a balanced monetization model (**Average revenue per daily active user (ARPDAU)** > 2 RUB) generate noticeable revenue ### Step 5. Attract Players\nTo earn more from your game, attract new players. Promote the game if it has a green rating and ARPDAU of no less than 1.5 RUB"
+  },
+  {
+    "id": 5,
+    "title": "Game requirements",
+    "url": "https://yandex.com/dev/games/doc/en/concepts/requirements.html",
+    "description": "# Game requirements\n## Technical requirements\n- The game has the guest login option or you can play it without logging in. If that's the case, in-game progress must be saved.\n3. When the game page is minimized on desktop and mobile devices, the sound stops. Learn more.\n4. Payments are only made through the Yandex Games SDK.\n5. Ads are only called via the Yandex Games SDK.\n6. The game must meet the requirements for the device types you listed when applying for publication. 11. If you save data to a cloud, list it when you're filling out the draft.\n12. Yandex Advertising Network (YAN) monetization is enabled. Learn more.\n13. For in-game purchases:\n  - The consumption method is enabled.\n  - The name and icon of the portal currency are taken from the SDK. Learn more.\n  - The game progress is saved on the server and available on different devices. Learn more.\n  - All in-game purchases have a cost that's shown as a figure and portal currency name ## Content requirements\n- The user can't win or withdraw real money or prizes that aren't in-game valuables, including physical objects, subscriptions, non-game content, or a monetary equivalent of a prize.\n  - The game isn't an online store, gambling game, or online lottery.\n  - There are no microtransactions or external purchases of any kind. Only internal purchases via the Yandex Games SDK are allowed.\n8. The portal currency is determined automatically; SDK methods are used to denote it. Learn more.\n9 ## Ad requirements\n1. There are no ads from third-party advertisers, including static ad images and text.\n2. If a user clicks an ad and returns to the game afterwards, their progress is saved.\n3. The orientation of all ad units matches the game orientation.\n4. Advertising does not interfere with interacting with the game and is shown only during logical pauses. Learn more.\n5. If you use rewarded ad mechanics, the user can watch a rewarded video if they want to (for example, by pressing a special button) and receive a reward in a game ## Text and media content requirements\n1. The following rules apply to text and media content (images, videos, and game objects) for all Yandex Games objects, including game descriptions, promotions, purchases, and games. If the game doesn't meet the requirements, it may not be published or may later be removed from publication.\n2. Texts:\n  - The text follows the grammar and punctuation rules of the selected language.\n  - They reflect the actual game mechanics and its core gameplay. The game's title and related materials (description, promotions, etc.) do not mislead the player Rewarded videos are videos that users watch in exchange for rewards.\n\nThe time for new games to build up a rating is not taken into account (approximately 2 weeks from the date of publication)."
+  }
+]
+
+[reasoning]
+Let me get a bit more detail on the requirements list and the practical "what else besides coding" parts: game requirements full list, plus what's needed for a published game (icon, description, language localization, playable, testing, analytics, retention). Also whether there's a minimum revenue expectations / ARPDAU numbers.
+
+Let me fetch the quick-start page and requirements page for concrete details.
+
+metadata.state:
+done
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_6aeebfb052154d2c90473de7
+metadata.state:
+output-available
+input.url:
+https://yandex.ru/dev/games/doc/ru/concepts/quick-start
+input.chunkIndex:
+0
+output.status:
+success
+output.url:
+https://yandex.ru/dev/games/doc/ru/concepts/quick-start
+output.title:
+Быстрый старт | Руководство разработчика
+output.content:
+Быстрый старт
+
+# Быстрый старт
+
+- [Шаг 1\. Зарегистрируйтесь](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#registration)
+  - [Создайте профиль](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#console)
+  - [Заключите договор](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#partner)
+- [Шаг 2\. Настройте командный доступ](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#team-access)
+- [Шаг 3\. Подготовьте игру](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#requirements-sdk)
+  - [Ознакомьтесь с требованиями](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#requirements)
+  - [Подключите SDK или плагин](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#sdk)
+- [Шаг 4\. Загрузите игру в Консоль](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#draft)
+- [Шаг 5\. Пройдите модерацию](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#moderation)
+  - [Протестируйте игру](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#test)
+  - [Отправьте на модерацию](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#submit)
+- [После публикации](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#after-publication)
+
+[Яндекс Игры](https://yandex.ru/games/) — бесплатная платформа для публикации браузерных игр. Вы подключаете SDK, загружаете игру — и она становится доступна миллионам игроков без установки. Мы берем на себя хостинг, авторизацию и монетизацию — вам остается сосредоточиться на игре и ее росте.
+
+Выполните шаги ниже и разместите готовую игру на платформе:
+
+🎮 Есть игра
+
+[Создайте\\
+\\
+профиль](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#registration) [Настройте\\
+\\
+командный\\
+\\
+доступ](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#team-access) [Подготовьте\\
+\\
+игру](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#requirements-sdk) [Загрузите\\
+\\
+в Консоль](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#draft) [Пройдите\\
+\\
+модерацию](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#moderation) [🚀 Игра\\
+\\
+опубликована](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#after-publication)
+
+🎮 Есть игра
+
+[Создайте профиль](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#registration) [Настройте командный доступ](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#team-access) [Подготовьте игру](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#requirements-sdk) [Загрузите в Консоль](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#draft) [Пройдите модерацию](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#moderation) [🚀 Игра опубликована](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#after-publication)
+
+Уже создали профиль и подключили SDK?
+
+Сразу переходите к [заполнению черновика](https://yandex.ru/dev/games/doc/ru/console/add-new-game#step-create-draft).
+
+## Шаг 1\. Зарегистрируйтесь
+
+[Консоль разработчика](https://games.yandex.ru/console) — личный кабинет, где вы управляете играми: загружаете билды, настраиваете монетизацию и продвижение, следите за метриками. Регистрация проходит в два этапа: [создание профиля](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#console) и [заключение договора](https://yandex.ru/dev/games/doc/ru/concepts/quick-start#partner).
+
+### Создайте профиль
+
+Профиль дает доступ к Консоли:
+
+1. [Создайте профиль разработчика](https://yandex.ru/dev/games/doc/ru/console/manage-account#dev-profile-create). При регистрации используйте Яндекс ID с логином Яндекса.
+2. В разделе **Профиль** укажите [Предпочитаемый язык для связи](https://yandex.ru/dev/games/doc/ru/console/manage-account#profile-manage). На этом языке мы будем с вами общаться.
+
+С профилем вы можете [добавить игру](https://yandex.ru/dev/games/doc/ru/console/add-new-game) и заполнить ее черновик. Но пока не заключен договор, отправить игру на модерацию не получится.
+
+### Заключите договор
+
+Договор открывает модерацию и выплаты. Как его заключить, зависит от страны и формы сотрудничества:
+
+- Россия, юридическое лицо или ИП — заключите договор по [единой лицензионной схеме](https://yandex.ru/dev/games/doc/ru/payments) прямо в Консоли.
+
+- Остальные случаи — [зарегистрируйтесь](https://yandex.ru/dev/games/doc/ru/console/adv-monetization#enable-int-monetization) в Рекламной сети Яндекса:
+1. Создайте аккаунт в [РСЯ](https://partner.yandex.ru/) и примите условия соглашения. Если вы — физическое лицо, зарегистрируйтесь как самозанятый или ИП.
+2. Укажите [реквизиты для выплат](https://partner.yandex.ru/v2/settings/financial/) и актуальные контакты.
+
+## Шаг 2\. Настройте командный доступ
+
+Если вы работаете в команде, в разделе [Пользователи и доступ](https://games.yandex.ru/console/linked-accounts) настройте [роли и доступы](https://yandex.ru/dev/games/doc/ru/console/teamwork). Другой участник сможет загрузить игру вместо вас.
+
+## Шаг 3\. Подготовьте игру
+
+### Ознакомьтесь с требованиями
+
+Изучите [требования](https://yandex.ru/dev/games/doc/ru/concepts/requirements) к игре и промоматериалам — это сэкономит время на модерации.
+
+### Подключите SDK или плагин
+
+SDK открывает доступ к возможностям платформы: помогает добавить рекламу и покупки, сохранять прогресс игрока на сервере Яндекса, менять поведение игры без обновления билда. Без SDK игру опубликовать не получится.
+
+Вы можете подключить SDK:
+
+- [напрямую](https://yandex.ru/dev/games/doc/ru/sdk/sdk-about) через код игры;
+- с помощью [плагинов](https://yandex.ru/dev/games/doc/ru/sdk#official-plugins) для популярных движков.
+
+## Шаг 4\. Загрузите игру в Консоль
+
+В Консоли разработчика [добавьте игру](https://yandex.ru/dev/games/doc/ru/console/add-new-game) и на вкладке **Черновик**:
+
+- загрузите архив с файлами игры на сервер Яндекса;
+- укажите, на какие языки локализована игра ( [рекомендуемые языки](https://yandex.ru/dev/games/doc/ru/concepts/languages-and-domains#languages));
+- добавьте описания и промоматериалы.
+
+Подробнее о полях черновика см. на странице [Заполнение черновика](https://yandex.ru/dev/games/doc/ru/console/add-new-game/draft).
+
+Если в игре есть [инап-покупки](https://yandex.ru/dev/games/doc/ru/console/purchases), заранее проверьте [условия их подключения](https://yandex.ru/dev/games/doc/ru/sdk/sdk-purchases#conditions) — в некоторых случаях нужно отправить запрос в поддержку.
+
+## Шаг 5\. Пройдите модерацию
+
+### Протестируйте игру
+
+Перед отправкой на проверку [протестируйте игру](https://yandex.ru/dev/games/doc/ru/console/test-game) самостоятельно.
+
+Частые причины отказа в публикации
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| **Пункт Требований к игре** | **Категория** | **Нарушение** | **Пояснение** |
+| [1.6.1.8](https://yandex.ru/dev/games/doc/ru/concepts/requirements#1-6-1-8), [1.6.2.7](https://yandex.ru/dev/games/doc/ru/concepts/requirements#1-6-2-7) | UI / Интерфейс | Контекстное меню при взаимодействии | При правом клике или долгом нажатии появляется системное контекстное меню браузера — его необходимо отключить в игровой области. |
+| [1.6.1.6](https://yandex.ru/dev/games/doc/ru/concepts/requirements#1-6-1-6), [1.6.2.5](https://yandex.ru/dev/games/doc/ru/concepts/requirements#1-6-2-5) | Системный плеер (десктоп и мобильные устройства) | Видеоконтент воспроизводится через системный плеер вместо встроенного игрового — нарушает целостность интерфейса. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/6). |
+| [4.7](https://yandex.ru/dev/games/doc/ru/concepts/requirements#4-7) | Звук при показе рекламы не ставится на паузу | Во время показа рекламного ролика звук из игры продолжает играть. Необходимо ставить аудио на паузу на время рекламы. |
+| [1.3](https://yandex.ru/dev/games/doc/ru/concepts/requirements#1-3) | Звук продолжается при переключении вкладки | Музыка или звуки из игры не останавливаются при уходе со вкладки. Необходимо реагировать на потерю фокуса страницы. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/3). |
+| [1.19.2](https://yandex.ru/dev/games/doc/ru/concepts/requirements#1-19-2) |
+output.chunkIndex:
+0
+output.hasMore:
+true
+output.totalChunks:
+2
+[notice: fetch_page response has more content (chunk 1 of 2); this exporter does not retrieve missing chunks]
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_6f35f4bde53b4b9eb0b300a6
+metadata.state:
+output-available
+input.url:
+https://yandex.ru/dev/games/doc/ru/concepts/requirements
+input.chunkIndex:
+0
+output.status:
+success
+output.url:
+https://yandex.ru/dev/games/doc/ru/concepts/requirements
+output.title:
+Требования к игре | Руководство разработчика
+output.content:
+Технические требования
+
+# Требования к игре
+
+- [Технические требования](https://yandex.ru/dev/games/doc/ru/concepts/requirements#1)
+- [Требования к пользовательскому опыту](https://yandex.ru/dev/games/doc/ru/concepts/requirements#2)
+- [Требования к содержанию](https://yandex.ru/dev/games/doc/ru/concepts/requirements#3)
+- [Требования к рекламе](https://yandex.ru/dev/games/doc/ru/concepts/requirements#4)
+- [Требования к описанию и промоматериалам](https://yandex.ru/dev/games/doc/ru/concepts/requirements#5)
+- [Рекомендуемые требования](https://yandex.ru/dev/games/doc/ru/concepts/requirements#6)
+- [(Упразднен.)](https://yandex.ru/dev/games/doc/ru/concepts/requirements#7)
+- [Требования к текстам и медиаматериалам](https://yandex.ru/dev/games/doc/ru/concepts/requirements#8)
+
+На странице описаны особенности требований к играм, хранящимся в [каталоге Яндекс Игры](https://yandex.ru/games/).
+
+Проверка игр производится на окружениях, приближенных к пользовательским. Отсутствие найденного замечания на устройстве разработчика не является обоснованием для снятия замечания.
+
+Примечание
+
+Прохождение модерации не означает и не должно толковаться как заверение или иное подтверждение Яндекса в отношении соответствия игры требованиям законодательства какой-либо территории и/или отсутствия в отношении нее каких-либо нарушений прав или законных интересов третьих лиц.
+
+Игру проверят на соответствие [требованиям](https://yandex.ru/dev/games/doc/ru/concepts/requirements). Обычно [модерация](https://yandex.ru/dev/games/doc/ru/concepts/moderation) занимает 3–5 рабочих дней.
+
+Дата последнего изменения: 18 августа 2026 года.
+
+## Технические требования
+
+Раздел 1.
+
+01. Пункт 1.1. В игру встроен [SDK Яндекс Игр](https://yandex.ru/dev/games/doc/ru/sdk/sdk-about).
+
+02. Пункт 1.2. Для запуска и использования игры не требуется регистрация или авторизация на сторонних сервисах. Допустима только авторизация с Яндекс ID, которую можно запросить через [SDK Яндекс Игр](https://yandex.ru/dev/games/doc/ru/sdk/sdk-player#auth). [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/2#auth-add).
+
+    1. Пункт 1.2.1. Авторизация происходит только после осознанного действия пользователя — нажатия специальной кнопки внутри игры. В предложении авторизации указано, какие преимущества она дает. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/2#auth-offer).
+
+    2. Пункт 1.2.2. Реализован гостевой вход или возможность игры без авторизации. Прогресс игрока при этом сохраняется.
+03. Пункт 1.3. При потере фокуса звук из игры останавливается. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/3).
+
+04. Пункт 1.4. Платежи производятся только через [SDK Яндекс Игр](https://yandex.ru/dev/games/doc/ru/sdk/sdk-purchases). Отсутствуют микротранзакции и любые внешние покупки.
+
+05. Пункт 1.5. (Упразднен, см. [пункт 4.1](https://yandex.ru/dev/games/doc/ru/concepts/requirements#4-1).)
+
+06. Пункт 1.6. Игра должна соответствовать требованиям к тем видам устройств, которые указаны в заявке на публикацию.
+
+    1. Пункт 1.6.1. Для мобильных устройств:
+
+       1. Пункт 1.6.1.1. Игра находится в полноэкранном режиме во время игрового процесса или запуска.
+
+       2. Пункт 1.6.1.2. Если есть возможность ввода данных (например, никнейма игрока), клавиатура автоматически показывается при нажатии на поле ввода.
+
+       3. Пункт 1.6.1.3. (Упразднен, см. [пункт 1.10](https://yandex.ru/dev/games/doc/ru/concepts/requirements#1-10).)
+
+       4. Пункт 1.6.1.4. (Упразднен.)
+
+       5. Пункт 1.6.1.5. Игра полностью управляется жестами. Механики управления можно дополнить использованием акселерометра мобильного устройства.
+
+       6. Пункт 1.6.1.6. В любых браузерах не отображается системный плеер, вызываемый игрой. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/6).
+
+       7. Пункт 1.6.1.7. Отсутствует уведомление о _WebGL_ при открытии игры.
+
+       8. Пункт 1.6.1.8. _Лонгтап_ по внутреннему полю игры не приводит к выделению поля или открытию контекстного меню. [Подробнее](https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting).
+    2. Пункт 1.6.2. Для десктопных устройств:
+
+       1. Пункт 1.6.2.1. Активное поле растягивается по вертикали или горизонтали до края доступной области (без учета стики-баннеров).
+
+       2. Пункт 1.6.2.2. Длинная сторона активного поля превосходит короткую не более чем в два раза.
+
+       3. Пункт 1.6.2.3. (Упразднен, см. [пункт 1.10](https://yandex.ru/dev/games/doc/ru/concepts/requirements#1-10).)
+
+       4. Пункт 1.6.2.4. Игрой можно управлять с помощью клавиатуры или мыши по умолчанию. При этом управление не зависит от раскладки.
+
+       5. Пункт 1.6.2.5. В любых браузерах не отображается системный плеер, вызываемый игрой. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/6).
+
+       6. Пункт 1.6.2.6. В игре не используются сочетания клавиш, зарезервированные операционной системой или другими приложениями.
+
+       7. Пункт 1.6.2.7. Взаимодействие с внутренним полем игры не приводит к его выделению или открытию контекстного меню.
+    3. Пункт 1.6.3. Для телевизоров ( [подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/6/3)):
+
+       1. Пункт 1.6.3.1. Игра занимает всю площадь экрана, доступен полноэкранный режим.
+
+       2. Пункт 1.6.3.2. Поддерживается управление с помощью стрелок на ТВ-пульте. Для полноценного прохождения игры достаточно управления стрелками пульта.
+
+       3. Пункт 1.6.3.3. Игра обрабатывает события кнопок **Back** и **ОК** на ТВ-пульте.
+
+       4. Пункт 1.6.3.4. Отсутствуют инап-покупки.
+
+       5. Пункт 1.6.3.5. Нет ссылок на другие игры разработчика.
+07. Пункт 1.7. Для корректной работы из любой точки мира в программном коде не используются абсолютные URL, ссылающиеся на серверы S3 Яндекса.
+
+08. Пункт 1.8. Интерактивные элементы игры адаптированы под размер экрана и удобны для взаимодействия.
+
+09. Пункт 1.9. В играх с прогрессом (новые открытые уровни, рекорды, достижения, улучшения) изменения сохраняются сразу после действия игрока или по специальной кнопке. После обновления страницы или смены ориентации экрана на мобильном устройстве прогресс не теряется. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/9).
+
+10. Пункт 1.10. Игра корректно отображается, в том числе при изменении размера окна и при повороте экрана:
+
+    1. Пункт 1.10.1. Элементы не обрезаются и не выходят за рамки экрана. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/10#cut).
+
+    2. Пункт 1.10.2. Отсутствует браузерная прокрутка страницы (системный скроллбар окна браузера) или swipe-to-refresh. При этом допустимо реализовать собственную прокрутку контента средствами игры. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/10#scroll-swipe).
+
+    3. Пункт 1.10.3. Элементы и тексты не накладываются друг на друга и не перекрывают другие элементы. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/10#overlap).
+
+    4. Пункт 1.10.4. Игрой можно управлять одной рукой. Основной игровой экран не требует прокрутки или смахиваний — все нужные элементы видны и доступны сразу. Исключение: в стратегиях, RPG и других жанрах с большим игровым полем его допустимо перемещать.
+11. Пункт 1.11. Если игра использует облачные сохранения, в черновике включена опция [Игра использует облачные сохранения](https://yandex.ru/dev/games/doc/ru/console/add-new-game/draft#field-cloud-saves).
+
+12. Пункт 1.12. Подключена монетизация: в игре есть реклама или инап-покупки. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/12).
+
+13. Пункт 1.13. Для внутренних покупок:
+
+    1. Пункт 1.13.1. Подключен [метод консумирования](https://yandex.ru/dev/games/doc/ru/sdk/sdk-purchases#check-purchases). [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/13#consummation).
+
+    2. Пункт 1.13.2. Портальная валюта определяется автоматически: название и иконка берутся из [SDK Яндекс Игр](https://yandex.ru/dev/games/doc/ru/sdk/sdk-purchases#product-characteristics). [Подробнее](https://yandex.ru
+output.chunkIndex:
+0
+output.hasMore:
+true
+output.totalChunks:
+4
+[notice: fetch_page response has more content (chunk 1 of 4); this exporter does not retrieve missing chunks]
+
+[reasoning]
+I have enough. Let me also check the "promotional materials / description requirements" and the fact about needing localization for earning — plus whether the developer console requires the game to be a certain size limit (50MB). Let me get chunk 1 of requirements for promo materials and other sections briefly. Also useful: revenue expectations data (ARPDAU > 2 rubles, rating 80+). I already have that from quick-start.
+
+Let me fetch the requirements page chunk 2 (section 5 promo materials) for concrete numbers on icon sizes etc.
+metadata.state:
+done
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_3bc6e53c1fe14435b5fcbd16
+metadata.state:
+output-available
+input.url:
+https://yandex.ru/dev/games/doc/ru/concepts/requirements
+input.chunkIndex:
+1
+output.status:
+success
+output.url:
+https://yandex.ru/dev/games/doc/ru/concepts/requirements
+output.title:
+Требования к игре | Руководство разработчика
+output.content:
+ev/games/doc/ru/requirements/1/13#currency-detection).
+
+    3. Пункт 1.13.3. Прогресс игры сохраняется на сервере и доступен для одного пользователя с разных устройств. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/13#purchases-save).
+
+    4. Пункт 1.13.4. Все покупки внутри игры имеют обозначенную цифрами стоимость и указание портальной валюты.
+
+    5. Пункт 1.13.5. Описание покупки в игре (изображение, название, состав и характеристики) соответствует тому, что приобретает пользователь. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/13#purchase-correct).
+
+    6. Пункт 1.13.6. Список покупок в игре соответствует информации в [Консоли разработчика](https://games.yandex.ru/console):
+
+       - Если на вкладке **Инап-покупки** есть активные покупки, они присутствуют в игре.
+       - Если вкладка **Инап-покупки** пустая или покупки на ней неактивны, они отсутствуют в игре.
+14. Пункт 1.14. Игра работает без технических ошибок, зависаний и вылетов как в ходе обычного геймплея, так и при различных действиях: повороте экрана, длительном нажатии, жестах, сворачивании браузера, показе рекламы, переходам по истории браузера и других. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/14).
+
+15. Пункт 1.15. Игра имеет завершенный вид и не находится в процессе разработки или предварительного тестирования. Реализованы все элементы, необходимые для игрового процесса: тексты, графика, управление и игровые механики. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/15).
+
+16. Пункт 1.16. Отсутствуют модификации контента и внешнего вида встраиваемых рекламных блоков. Запрещено имитировать рекламные блоки сервиса, например создавать кастомные полноэкранные блоки или _RV_ со своими кнопками.
+
+17. Пункт 1.17. (Упразднен.)
+
+18. Пункт 1.18. Работа игры не ограничена из-за URL, на котором она открыта.
+
+19. Пункт 1.19. SDK Яндекс Игр инициализируется и используется в соответствии с документацией:
+
+    1. Пункт 1.19.1. SDK инициализируется строго так, как указано на странице [Подключение и использование](https://yandex.ru/dev/games/doc/ru/sdk/sdk-about). [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/19#sdk-initializing).
+
+    2. Пункт 1.19.2. В момент, когда пользователь может приступить к игре, вызывается метод `LoadingAPI.ready()` из [Game Ready](https://yandex.ru/dev/games/doc/ru/sdk/sdk-game-events#gameready). [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/19#gameready).
+
+    3. Пункт 1.19.3. Если в игре есть разметка геймплея, моменты вызова методов `GameplayAPI.start()` и `GameplayAPI.stop()` соответствуют описанным в разделе [Геймплей](https://yandex.ru/dev/games/doc/ru/sdk/sdk-game-events#gameplay).
+
+    4. Пункт 1.19.4. Если в игре используются методы `ysdk.on()` и `ysdk.off()` для отслеживания событий `game_api_pause` и `game_api_resume`, логика их обработки соответствует описанной в разделе [Пауза и возобновление игры](https://yandex.ru/dev/games/doc/ru/sdk/sdk-events#pause-resume).
+20. Пункт 1.20. Игра корректно запускается в браузерах и на платформах, которые подходят под выбранное в черновике [окружение](https://yandex.ru/dev/games/doc/ru/console/add-new-game/draft#field-supported-platforms):
+
+    1. Пункт 1.20.1. В браузерах: Яндекс Браузер, Google Chrome, Mozilla Firefox, Opera, Safari, мобильном приложении Яндекс.
+
+    2. Пункт 1.20.2. В операционных системах: Windows Vista, Windows 7, Windows 8, Windows 10, Mac OS X 10.6 и выше (Snow Leopard, Lion, Mountain Lion, Mavericks, Yosemite, El Capitan, Sierra, High Sierra и Mojave).
+
+    3. Пункт 1.20.3. В мобильных операционных системах: Android 5.0 и выше, iOS 9.0 и выше.
+
+    4. Пункт 1.20.4. На Android TV.
+21. Пункт 1.21. Размер всех файлов игры не превышает 100 МБ в разархивированном виде.
+
+22. Пункт 1.22. В корень архива добавлен файл `index.html`. В названиях файлов и папок не используются пробелы и русские символы.
+
+23. Пункт 1.23. В играх запрещен интерактивный искусственный интеллект (ИИ). При этом допустимо использовать материалы, которые были заранее сгенерированы с помощью ИИ.
+
+24. Пункт 1.24. Новые версии игры сохраняют ее основную концепцию. Запрещено загружать в качестве обновления совершенно другую игру.
+
+
+## Требования к пользовательскому опыту
+
+Раздел 2.
+
+01. Пункт 2.1. Игра проработана с точки зрения содержания, удобства и качества игрового процесса. Сервис осуществляет внутренний контроль качества и имеет право отказать в публикации игр, не проходящих общую оценку качества.
+02. Пункт 2.2. В игре или полях сопроводительных описаний к ней представлено полное описание управления.
+03. Пункт 2.3. Игра соответствует заявленному жанру.
+04. Пункт 2.4. Игра соответствует минимум одному из критериев наличия игровых механик. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/2/4).
+05. Пункт 2.5. (Упразднен, см. [пункт 6](https://yandex.ru/dev/games/doc/ru/concepts/requirements#6).)
+06. Пункт 2.6. В игре присутствует опция сохранения прогресса, если игровая механика предполагает движение по сюжету или постепенное прохождение уровней. Если это бесконечная игра или игра на лучший результат, присутствует сохранение рекорда.
+07. Пункт 2.7. Возрастной тег соответствует содержанию. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/2/7).
+08. Пункт 2.8. Игра имеет нарастающую сложность и понятный сюжет или сеттинг.
+09. Пункт 2.9. Прохождение основного содержания игры занимает более 10 минут. Например: казуальная игра с 10–20 уровнями, игра из нескольких тем с 15–20 вопросами по каждой, игра-головоломка с несколькими задачами. Для обеспечения 10-минутного геймплея викторины должны содержать не менее 100 вопросов. Вопросы не должны дублироваться или быть минимально изменены (другие варианты ответа, другая формулировка одного и того же вопроса). [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/2/9).
+10. Пункт 2.10. В игре есть локализация на хотя бы один выбранный при заполнении черновика язык. Рекомендуемая минимальная локализация для публикации — русский язык для ru, be, kk, uk, uz, английский язык для остальных языков.
+11. Пункт 2.11. (Упразднен, см. [пункт 1.8](https://yandex.ru/dev/games/doc/ru/concepts/requirements#1-8).)
+12. Пункт 2.12. (Упразднен.)
+13. Пункт 2.13. [Рейтинг](https://yandex.ru/dev/games/doc/ru/concepts/metric#product) игры выше 30\. Если в течение _3 недель_ у игры держится рейтинг 30 и ниже (или отсутствует), она будет снята c публикации.
+14. Пункт 2.14. В игру встроено [автоопределение языка](https://yandex.ru/dev/games/doc/ru/console/add-new-game/draft#add-lang) через SDK. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/2/14).
+
+## Требования к содержанию
+
+Раздел 3.
+
+1. Пункт 3.1. (Упразднен, см. [пункт 8](https://yandex.ru/dev/games/doc/ru/concepts/requirements#8).)
+
+2. Пункт 3.2. (Упразднен, см. [пункт 8](https://yandex.ru/dev/games/doc/ru/concepts/requirements#8).)
+
+3. Пункт 3.3. (Упразднен, см. [пункт 8](https://yandex.ru/dev/games/doc/ru/concepts/requirements#8).)
+
+4. Пункт 3.4. Отсутствуют:
+
+1. Пункт 3.4.1. (Упразднен, см. [пункт 8](https://yandex.ru/dev/games/doc/ru/concepts/requirements#8).)
+
+2. Пункт 3.4.2. Материалы, относящиеся к эзотерике и гаданиям.
+
+3. Пункт 3.4.3. Реалистичные сцены, изображающие насилие и/или жестокое обращение с детьми или животными.
+
+4. Пункт 3.4.4. Изображения или отсылки к политике, политическим ситуациям, политическим деятелям, внутригосударственным или межгосударственным конфликтам, войнам.
+
+5. Пункт 3.4.5. Изображения или отсылки к религии, религиозным деятелям или религиозным атрибутам.
+
+6. Пункт 3.4.6. Выводы или предсказания в отношении жизни и здоровья игрока, включая предсказание заболеваний, а также предсказание даты, времени или обстоятельств смерти.
+5. Пункт 3.5. Авторские права на все материалы принадлежат создателю. При необходимости в игру можно в _текстовом виде_ добавить «Политику конфиденциальности» и «Лицензионное соглашение» создателя. Все материалы отправляет на модерацию сам создатель или другое лицо, имеющее пр
+output.chunkIndex:
+1
+output.hasMore:
+true
+output.totalChunks:
+4
+[notice: fetch_page response has more content (chunk 2 of 4); this exporter does not retrieve missing chunks]
+
+[tool: fetch_page]
+metadata.toolCallId:
+call_2cb33ffae31240189a72e44c
+metadata.state:
+output-available
+input.url:
+https://yandex.ru/dev/games/doc/ru/concepts/quick-start
+input.chunkIndex:
+1
+output.status:
+success
+output.url:
+https://yandex.ru/dev/games/doc/ru/concepts/quick-start
+output.title:
+Быстрый старт | Руководство разработчика
+output.content:
+ SDK / Game Ready | Game Ready работает некорректно | Game Ready подключен, но метод `ysdk.features.LoadingAPI.ready()` вызывается неправильно или в неверный момент жизненного цикла игры. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/19#gameready). |
+| [2.14](https://yandex.ru/dev/games/doc/ru/concepts/requirements#2-14) | Автоопределение языка через SDK не реализовано | Язык интерфейса задается вручную вместо использования `ysdk.environment.i18n.lang`. Игра должна автоматически подстраиваться под язык пользователя. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/2/14). |
+| [1.19.2](https://yandex.ru/dev/games/doc/ru/concepts/requirements#1-19-2) | Game Ready не используется совсем | Game Ready не интегрирован, хотя обязателен для публикации в каталоге. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/19#gameready). |
+| [1.1](https://yandex.ru/dev/games/doc/ru/concepts/requirements#1-1) | SDK не встроен или встроен некорректно | Скрипт SDK отсутствует, подключен не из официального источника или инициализируется с ошибками. [Подробнее](https://yandex.ru/dev/games/doc/ru/sdk/sdk-about#check). |
+| [1.9](https://yandex.ru/dev/games/doc/ru/concepts/requirements#1-9) | Технические сбои | Прогресс не сохраняется | Результаты, уровни или настройки не сохраняются между сессиями. Необходимо использовать объект `Player` для хранения данных. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/9). |
+| [1.14](https://yandex.ru/dev/games/doc/ru/concepts/requirements#1-14) | Игра не запускается | Загрузочный экран зависает или игра не доходит до геймплея. Проверьте консоль на ошибки при инициализации. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/14). |
+| [1.14](https://yandex.ru/dev/games/doc/ru/concepts/requirements#1-14) | Ошибка на старте или при действиях | В консоли браузера появляются JS-ошибки при запуске или в ходе игры, которые влияют на работоспособность. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/14). |
+| [1.15](https://yandex.ru/dev/games/doc/ru/concepts/requirements#1-15) | Игра зависает или тормозит | Заметные фризы или падение производительности делают игру некомфортной для пользователя. [Подробнее](https://yandex.ru/dev/games/doc/ru/requirements/1/15). |
+| [2.3](https://yandex.ru/dev/games/doc/ru/concepts/requirements#2-3) | Соответствие описанию | Игра не соответствует заявленному жанру | Геймплей противоречит выбранной на вкладке **Черновик** [категории](https://yandex.ru/dev/games/doc/ru/console/add-new-game/draft#field-category). Жанр и описание должны точно отражать содержание игры. |
+| [8.2.2](https://yandex.ru/dev/games/doc/ru/concepts/requirements#8-2-2) | Название игры | Вводящее в заблуждение название | Название содержит слова, которые вводят пользователя в заблуждение относительно условий игры: «free», «top», «best», «бесплатно», «бесплатный» и т. п. |
+
+### Отправьте на модерацию
+
+На вкладке **Черновик** нажмите **Отправить на модерацию** — игра перейдет в статус **Ожидает модерации**. Если хотите сами выбрать время релиза, заранее включите опцию [Отсроченная публикация](https://yandex.ru/dev/games/doc/ru/console/add-new-game/draft#field-delay).
+
+Игру проверят на соответствие [требованиям](https://yandex.ru/dev/games/doc/ru/concepts/requirements). Обычно [модерация](https://yandex.ru/dev/games/doc/ru/concepts/moderation) занимает 3–5 рабочих дней.
+
+О результатах модерации
+
+Результаты проверки вы увидите в [Консоли](https://games.yandex.ru/console):
+
+- Если модерация одобрит игру, статус изменится на:
+  - **Опубликовано**: игра опубликуется автоматически.
+  - **Проверен**, если включена опция **Отсроченная публикация**. На вкладке **Черновик** появится кнопка **Опубликовать**.
+- Если в публикации откажут, статус изменится на **Отклонен**. Причины придут на почту, указанную в [профиле разработчика](https://yandex.ru/dev/games/doc/ru/console/manage-account#profile-manage).
+
+
+Единовременно можно отправить не больше двух заявок на публикацию новых игр. Чтобы отправить на модерацию третью игру, дождитесь решения по одной из текущих заявок или отзовите одну из них самостоятельно.
+
+Ограничение не распространяется на обновления уже опубликованных игр.
+
+## После публикации
+
+- Неделю игра будет в разделе [Новые](https://yandex.ru/dev/games/doc/ru/concepts/ranking-and-featuring#new-category) и ML-алгоритмы определят для нее подходящую аудиторию.
+- Через две недели на карточке появится [рейтинг](https://yandex.ru/dev/games/doc/ru/concepts/metric#product) вовлечения и удержания игроков.
+
+Дальше — [оперирование](https://yandex.ru/dev/games/doc/ru/liveops): метрики, A/B-тесты и работа с аудиторией.
+
+### Была ли статья полезна?
+
+ДаНет
+
+Предыдущая
+
+[Преимущества](https://yandex.ru/dev/games/doc/ru/)
+
+Следующая
+
+[Требования к игре](https://yandex.ru/dev/games/doc/ru/concepts/requirements)
+
+100%
+output.chunkIndex:
+1
+output.hasMore:
+false
+output.totalChunks:
+2
+
+[reasoning]
+Now I have solid, current info (requirements page dated 18 August 2026). Let me write a clear, honest answer in Russian: no, coding alone isn't enough. List what else is needed, grouped:
+
+1. Юридически/деньги: договор, самозанятый/ИП/физлицо, порог выплаты 3000₽, раз в месяц, 6% НПД vs 13-22% НДФЛ, с 18 лет.
+2. Продукт/геймдизайн: 10+ минут геймплея, нарастающая сложность, жанр, удержание, рейтинг >30 (иначе снятие с публикации через 3 недели).
+3. Техника, специфичная для платформы: SDK обязателен, LoadingAPI.ready(), пауза звука при потере фокуса и при рекламе, guest login + сохранение прогресса через Player, архив с index.html в корне, ≤100 МБ, без пробелов/кириллицы в именах, без абсолютных URL на S3, запрет интерактивного ИИ, лонгтап/контекстное меню, полноэкранный режим, управление одной рукой, запрет системного плеера, автоопределение языка через ysdk.environment.i18n.lang.
+4. Монетизация: реклама (fullscreen/RV/sticky) или инап; внешняя/внутренняя; вызов только через SDK; нельзя модифицировать рекламные блоки; для инапов — консумирование, серверные сохранения, валюта из SDK.
+5. Метаданные: иконки/обложки/скриншоты/видео, описания на языках, возрастной тег, категории, локализация минимум на русский (рекомендуется).
+6. Арт/звук/контент: только свои права, без политики/религии/эзотерики/насилия; ИИ-генерированные материалы допустимы, но интерактивный ИИ запрещён.
+7. Тестирование и модерация: 3-5 рабочих дней, максимум 2 заявки одновременно.
+8. Экономика/ожидания: ARPDAU > 2 ₽ и рейтинг 80+ для заметного дохода; продвижение при green rating и ARPDAU ≥ 1.5 ₽. Реальные деньги — из объёма и удержания, не из «готового кода». Первичное накопление рейтинга ~2 недели.
+9. Чего реально не хватает: время на итерации, понимание метрик, аналитика, LiveOps/A/B.
+
+Также стоит честно сказать: кодинг — самая тривиальная часть на самом деле; сложные части — геймдизайн, удержание, арт, итерации по метрикам.
+
+I should also offer next steps and ask if they want to start. Maybe ask clarifying questions? The intent is a question, not a task. I could answer and offer a checklist file. I think offering to build a checklist/pipeline is good, but I should not over-ask. Perhaps use ask_user with 1-2 questions about direction (жанр, движок, статус самозанятости)? The guidance says use it when ambiguity impedes. Here the user asked a yes/no question. I'll answer fully, and end with a short offer + 2 quick questions inline in text rather than a tool... Hmm, but the ask_user tool is preferred for questions. I'll answer first (which is the deliverable) and then optionally ask. I think a short ask_user at the end about what to do next is reasonable but risks being annoying. The instruction says prefer ask_user tool when asking. I'll include the answer as the main deliverable and then use ask_user for next-step direction — actually, the user's question is fully answerable without info. Adding a question tool could be nice to continue momentum: "Хочешь, соберу стартовый шаблон?" with options like жанр/движок.
+
+I'll do it: answer + one ask_user with 2 questions max. Actually, let me keep it lean: maybe just 2 questions.
+
+Hmm, but should I also create a checklist file? The user didn't ask for a file. I'll keep it in chat, and offer the file via the question. Let me write a well-structured answer in Russian with citations where factual.
+
+Citations format [id](url) for search results. I used fetch_page too; citations are required for web_search claims. Let me cite key facts: payouts threshold 3000₽ and self-employed 6% [2](https://yandex.ru/dev/games/doc/ru/payments/self-employed), monetization status options [1](https://yandex.ru/dev/games/doc/ru/payments), 18+ [10](.../about-monetization), requirements from fetch — I can cite by URL as markdown link too since requirements page content came from fetch_page (no numeric id). I'll just link normally for those.
+
+Let me structure:
+
+Короткий ответ: нет, кодинг — примерно 30-40% работы.
+
+Then sections:
+1) Чтобы вообще получить деньги (юридическое)
+2) Чтобы игру пропустила модерация (платформенные требования)
+3) Чтобы в игре было что показывать (контент)
+4) Чтобы игра заработала (метрики/экономика)
+5) Что я закрываю из этого кодингом, а что нет
+
+Then: реалистичные ожидания по деньгам.
+
+Then: следующий шаг + ask_user.
+
+Keep it tight but complete. Let me write.
+
+Regarding income expectations, I should be careful not to invent numbers. Quick start says: games with rating 80+ and ARPDAU > 2 RUB generate noticeable revenue; promote if green rating and ARPDAU >= 1.5 RUB. I'll cite that.
+
+Also mention: модерация 3-5 рабочих дней, не более 2 заявок одновременно, размер ≤100 МБ, index.html в корне, без пробелов и русских символов, запрет интерактивного ИИ, геймплей >10 минут, рейтинг >30 иначе снятие, локализация, автоопределение языка, звук на паузе.
+
+Let me write the final answer, then ask_user.
+metadata.state:
+done
+
+## Коротко: нет
+
+Кодинг — это примерно треть работы. Причём в Яндекс Играх он самый «легальный для автоматизации» кусок: SDK, сохранения, реклама — всё это рутина, которую я действительно могу написать с тобой. Деньги же решаются вещами, которые кодом не закрываются вообще.
+
+Ниже — что реально нужно, по факту актуальной документации (страница требований обновлена 18.08.2026).
+
+---
+
+## 1. Чтобы тебе вообще могли заплатить (0 строк кода)
+
+| Что | Как есть сейчас |
+|---|---|
+| Статус | РФ: **самозанятый (НПД 6%)**, физлицо (Яндекс удержит НДФЛ 13–22% по прогрессивной шкале), ИП или юрлицо. Самозанятость подключается прямо в Консоли: Профиль → Документы → Договор → «Стать самозанятым» |
+| Порог выплаты | **3000 ₽** (или 150 $ для внешней монетизации), не чаще раза в месяц, доход считается по всем играм сразу |
+| Договор | Без заключённого договора игру **не пустят на модерацию** — только черновик |
+| Возраст | С 18 лет (или договор оформляет родитель) |
+| Нюанс самозанятости | Лимит 2,4 млн ₽/год; если превысишь — выпадешь в НДФЛ 13%+ |
+
+Источники: [формы сотрудничества](https://yandex.ru/dev/games/doc/ru/payments) [1](https://yandex.ru/dev/games/doc/ru/payments), [самозанятые + порог 3000 ₽](https://yandex.ru/dev/games/doc/ru/payments/self-employed) [2](https://yandex.ru/dev/games/doc/ru/payments/self-employed), [вопросы про договор и возраст](https://yandex.ru/dev/games/doc/ru/services/about-monetization) [10](https://yandex.ru/dev/games/doc/ru/services/about-monetization).
+
+⚠️ Отдельно: **оформлять самозанятость заранее не обязательно.** Можно сделать игру, довести до модерации и оформить статус за неделю до публикации. Но без статуса и реквизитов ты просто не отправишь игру на проверку.
+
+## 2. Чтобы игру пропустила модерация (тут кодинг нужен, но специфичный)
+
+Это не «собрал билд и загрузил». Обязательные технические пункты:
+
+- SDK встроен корректно, `LoadingAPI.ready()` вызывается в момент, когда игрок реально может играть (частейшая причина отказа)
+- `GameplayAPI.start()/stop()` по разметке геймплея
+- **Гостевой вход** + сохранение прогресса через объект `Player` (не localStorage!) — иначе прогресс теряется
+- Звук глушится при потере фокуса вкладки **и** на время рекламы
+- Нет браузерного скролла, нет контекстного меню/выделения при лонгтапе, нет системного видеоплеера
+- Мобилка: полноэкранный режим, управление жестами одной рукой, всё видно без прокрутки
+- Локализация минимум на 1 язык + **автоопределение языка через `ysdk.environment.i18n.lang`** (зашить язык руками = отказ)
+- Архив: `index.html` в корне, **≤100 МБ** в разархивированном виде, без пробелов и кириллицы в именах, без абсолютных URL на S3 Яндекса
+- Нет ошибок в консоли, фризов, вылетов при повороте экрана/сворачивании
+- **Запрещён интерактивный ИИ** — сгенерированные заранее ассеты можно, живой AI-чат в игре нельзя
+- Обновление не должно менять концепцию игры (нельзя загрузить «совсем другую игру» вместо старой)
+
+Модерация: 3–5 рабочих дней, **одновременно можно отправить не больше 2 новых игр**.
+
+## 3. Чтобы игре было что показывать (кодинг тут бесполезен)
+
+Это, как правило, главный bottleneck:
+
+- **Геймплей > 10 минут** основного прохождения, нарастающая сложность, понятный сеттинг. Для викторин — от 100 неповторяющихся вопросов
+- Полный набор контента: тексты, графика, управление, туториал с описанием управления — игра «имеет завершённый вид», ранний доступ тут не пройдёт
+- Соответствие заявленному жанру и **возрастному тегу**
+- **Права на все ассеты.** Нельзя чужие спрайты, музыку, персонажей, «в стиле» известной игры
+- Запрещено: эзотерика/гадания, реалистичное насилие, политика и конфликты, религия, предсказания о здоровье и смерти
+- Промоматериалы: иконки, обложки, скриншоты, описания на каждом заявленном языке; в названии нельзя «free», «top», «бест», «бесплатно»
+
+То есть тебе нужны ещё: арт (или нормальный сток/заказной), звук/UI, тексты и переводы. Я могу помочь со всем, что делается кодом и SVG/процедурной генерацией, но «чтобы в игре было на что смотреть и во что играть 15 минут» — это контент, а не скрипт.
+
+## 4. Чтобы игра заработала (тут решает не код)
+
+Монетизация обязана быть: реклама (fullscreen / rewarded / стики-баннер) **или** инап-покупки — иначе формально не проходят требование 1.12. Вызов рекламы — только через SDK, имитировать рекламные блоки своими кнопками нельзя. Для покупок дополнительно: консумирование, серверные сохранения, цена цифрами + валюта портала из SDK.
+
+А дальше — цифры. По ориентирам самого Яндекса: заметный доход обычно дают игры с **рейтингом 80+ и ARPDAU > 2 ₽**, а на продвижение берут при зелёном рейтинге и **ARPDAU ≥ 1.5 ₽**. Первые ~2 недели игра в «Новых» и без рейтинга, рейтинг вовлечения появляется через 2 недели, а при **рейтинге ≤30 три недели подряд игру снимают с публикации**.
+
+Практический вывод: деньги = трафик × удержание × ARPDAU. Код даёт тебе возможность быть в каталоге, а доход — LiveOps: метрики, баланс, A/B-тесты,Retention в первые 3 сессии, правильное позиционирование в каталоге. Одной «просто хорошей игры» мало — их в каталоге тысячи, и алгоритм сам решает, кого показывать.
+
+## 5. Честное распределение
+
+**Что я реально закрою с тобой кодом:** шаблон проекта под Консоль, инициализация SDK, Game Ready/Gameplay, сохранения через `Player` + облачные, реклама и кошелёк покупок, i18n, пауза звука, отключение контекстного меню/скролла, ресайз и полноэкранный режим, сборка архива, чек-лист самопроверки перед модерацией, вся игровая логика.
+
+**Что кодом не закрывается (≈2/3 усилий):** идея с удержанием, арт/звук/UI, 10+ минут контента, права на ассеты, статус самозанятого и реквизиты, итерации по метрикам после релиза.
+
+---
+
+Могу прямо сейчас начать с любой стороны — скажи, куда бить первым:
+
+
+metadata.state:
+done
+
+[tool: ask_user]
+metadata.toolCallId:
+call_cf35bdaacb8e45d3bf02727f
+metadata.state:
+input-available
+input.questions:
+[
+  {
+    "id": "next_step",
+    "question": "С чего начнём?",
+    "options": [
+      {
+        "id": "checklist",
+        "label": "Чек-лист допуска к модерации",
+        "description": "Соберу в файл полный自查-лист по требованиям Яндекс Игр (техника + контент + промо), чтобы ты проходил по нему перед каждой отправкой."
+      },
+      {
+        "id": "boilerplate",
+        "label": "Рабочий шаблон игры с SDK",
+        "description": "Сделаю каркас: index.html, инициализация ysdk, Game Ready, сохранения Player, реклама, i18n, пауза звука, сборка архива."
+      },
+      {
+        "id": "concept",
+        "label": "Выбор идеи под удержание",
+        "description": "Разберём жанры и механики, которые реально тянут ARPDAU и рейтинг в каталоге Яндекс Игр, и выберем то, что ты вытянешь один."
+      },
+      {
+        "id": "money",
+        "label": "Разбор экономики",
+        "description": "Сколько нужно показов/игроков на 3000 ₽ выплаты, как считается доход с рекламы и покупок, реалистичный план на первые 3 месяца."
+      }
+    ],
+    "allowCustomResponse": true
+  },
+  {
+    "id": "status",
+    "question": "Твой текущий статус для выплат — какой?",
+    "options": [
+      {
+        "id": "none",
+        "label": "Пока ничего нет",
+        "description": "Нет ни самозанятости, ни ИП."
+      },
+      {
+        "id": "npd",
+        "label": "Самозанятый (НПД)",
+        "description": "Уже есть статус, работает приложение «Мой налог»."
+      },
+      {
+        "id": "ip",
+        "label": "ИП или юрлицо",
+        "description": "Есть организация/ИП."
+      },
+      {
+        "id": "notru",
+        "label": "Не резидент РФ",
+        "description": "Другая страна — там свой путь через РСЯ."
+      }
+    ],
+    "allowCustomResponse": true
+  }
+]

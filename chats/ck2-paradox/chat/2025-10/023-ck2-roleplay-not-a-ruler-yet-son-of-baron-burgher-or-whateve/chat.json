@@ -1,0 +1,93 @@
+{
+  "exportedAt": "2026-10-09T16:28:39.337Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019a17f0-2e87-7f49-8f8b-934c04d0b77b",
+  "archivedAt": "2026-09-30 19:18:50.45+00",
+  "evaluation": {
+    "id": "019a17f0-2e87-7f49-8f8b-934c04d0b77b",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "CK2 roleplay. Not a ruler yet. Son of Baron-Burgher (or whatever it's called in the land I'll choose",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019a17f0-5062-7e53-a2a8-fdd11fb65f4f"
+    ],
+    "archivedAt": "2026-09-30 19:18:50.45+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": null,
+    "createdAt": "2025-10-24 20:36:57.692+00",
+    "updatedAt": "2025-10-24 20:37:03.710211+00",
+    "messages": [
+      {
+        "id": "019a17f0-5061-72bc-b208-f0d01a337c6d",
+        "evaluationSessionId": "019a17f0-2e87-7f49-8f8b-934c04d0b77b",
+        "evaluationId": "019a17f0-54dc-751c-9ff0-d944c586ffd3",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "CK2 roleplay. Not a ruler yet. Son of Baron-Burgher (or whatever it's called in the land I'll choose) somewhere in what will be HRE (give options, close to Saxons). Year 769. I'm Ray, 16, boy. Immediate goal - to grow up, get education, learn from father, but not forget about normal life of teenager of this time. Long-term ambition - to inherit, develop my land, and maybe become Count, or even Duke (native names of titles)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-10-24T20:37:03.67282+00:00",
+        "updatedAt": "2025-10-24T20:37:03.67282+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019a17f0-5062-7e53-a2a8-fdd11fb65f4f",
+        "evaluationSessionId": "019a17f0-2e87-7f49-8f8b-934c04d0b77b",
+        "evaluationId": "019a17f0-54dc-751c-9ff0-d944c586ffd3",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019a17f0-5061-72bc-b208-f0d01a337c6d"
+        ],
+        "content": "Year 769. The Frankish–Saxon frontier is forests, marches, little timber castles, smoke from longhouses, and the first crosses of bold missionaries. You’re Ray, 16, heir to a small holding. You want to learn from your father, live a teenager’s life, and set yourself up to one day be called Graf… maybe even Herzog. ⚔️📜\n\nPick your start (all are in what will become the Holy Roman Empire, close to the Saxons)\n\nA) Hessengau frontier (around Fritzlar, north Hesse) – castle-born\n- Culture/Religion: Franconian (German) / Catholic\n- Liege chain: Graf (Count) of Hessengau → King Karloman I (Karling)\n- Father: Freiherr Gebhard von Fritzlar, castellan of Burg Fritzlar (baron-tier castle)\n- Vibe: Real borderland. Missionaries pass through to Saxony; Frankish musters ride east. Expect drills, hunts, and early chances to prove yourself in levy duty.\n- Good if you want: War, Hunting, Business (managing stores for campaigns)\n\nB) Thuringian hill-country (Eichsfeld / Unstrut) – castle-born\n- Culture/Religion: Thuringian (German) / Catholic\n- Liege chain: Graf of Thüringen → Karloman I\n- Father: Burggraf Ludolf von Gleichen (castle lord responsible for the local burg)\n- Vibe: Mixed woodland and good farmland. Timber rights, tolls on a small trade road, simmering trouble with nearby Saxon Ostfalen. A builder’s playground.\n- Good if you want: Business, Stewardship, Hunting\n\nC) Westphalian March (near Eresburg) – Saxon tribal\n- Culture/Religion: Old Saxon / Germanic pagan\n- Liege chain: High Chief of Saxony (tribal)\n- Father: Häuptling Wulfhard of the Eresburg Hills (chief of a fortified village)\n- Vibe: Longhouses, spear drills, raids and reprisals. Charlemagne’s pressure is mounting; the Irminsul stands in the groves. High risk, high drama.\n- Good if you want: War, Intrigue, bold frontier storytelling\n\nIf you’d rather be a city kid:\n- A′) Hessengau market-town (Fritzlar) – city-born\n  - Father: Bürgermeister Hartmut (mayor-tier city)\n  - Vibe: Ledgers, tolls, fairs, guild talk; still must send men to the Graf.\n  - Good if you want: Business, Carousing, Intrigue\n\nNative title names (so you can dream properly)\n- Baron (castle): Freiherr or Burggraf\n- City lord: Bürgermeister (Mayor)\n- Count: Graf\n- Duke: Herzog\n- King/Emperor for flavor: König / Kaiser\n\nYour starting kit (customizable)\n- Age 16; about to “lock in” an education. Likely paths:\n  - Brilliant Strategist (Martial), Grey Eminence (Diplomacy), Midas Touched (Stewardship), Elusive Shadow (Intrigue), Mastermind Theologian (Learning)\n- Suggested early traits (tweak as you like):\n  - Diligent, Gregarious, Ambitious; maybe Patient or Brave if you want a push\n- Lifestyle Focus options (pick one to start):\n  - War, Hunting, Business, Family, Carousing, Intrigue, Scholarship, Theology\n\nLong-game ladder to Graf/Herzog\n- Serve your liege and stack prestige: lead levies, excel at council jobs (Steward or Chancellor are great for a baron’s heir).\n- Marry smart: look for claims or alliances; a betrothal to a count’s daughter or an heiress can be your golden ticket.\n- Build up home: improve palisades/keep (martial) or markets (stewardship). Money is leverage.\n- Make friends: Carousing and festivals win allies; you’ll need backing for title grants or claim presses.\n\nReady to begin? Choose:\n1) Your backdrop: A, B, C, or A′\n2) Castle son (Freiherr/Burggraf) or City son (Bürgermeister)\n3) Your Lifestyle Focus at 16 (War, Hunting, Business, etc.)\n4) Any must-have personality traits\n\nThen I’ll drop you into the first scene—dawn at your holding—with three immediate choices that shape your education and your teenage life.",
+        "experimental_attachments": [],
+        "modelId": "983bc566-b783-4d28-b24c-3c8b08eb1086",
+        "createdAt": "2025-10-24T20:37:03.693217+00:00",
+        "updatedAt": "2025-10-24T20:38:40.472412+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019a17f0-54dc-751c-9ff0-d944c586ffd3",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "983bc566-b783-4d28-b24c-3c8b08eb1086",
+        "organization": "openai",
+        "provider": "openai",
+        "publicName": "gpt-5-high",
+        "name": "gpt-5-high",
+        "displayName": "gpt-5-high",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

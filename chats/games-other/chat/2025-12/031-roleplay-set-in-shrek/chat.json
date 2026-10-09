@@ -1,0 +1,479 @@
+{
+  "exportedAt": "2026-10-09T16:28:07.719Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019b74f7-5de4-7990-ac45-00f95d64c37c",
+  "archivedAt": "2026-09-30 20:22:08.957+00",
+  "evaluation": {
+    "id": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "Roleplay set in \"Shrek\"",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019b7543-2eed-74ac-8177-419cdeb81631"
+    ],
+    "archivedAt": "2026-09-30 20:22:08.957+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2025-12-31 15:13:17.695+00",
+    "updatedAt": "2026-03-11 04:23:37.146191+00",
+    "messages": [
+      {
+        "id": "019b74f8-690e-75ae-ae34-ba433e41f974",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "Roleplay set in \"Shrek\"",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T15:13:18.539979+00:00",
+        "updatedAt": "2025-12-31T15:13:18.539979+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74f8-6910-7794-a6eb-f29e0095dd53",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74f8-690e-75ae-ae34-ba433e41f974"
+        ],
+        "content": "Mist hangs low over a muddy little path leading into a swamp that very clearly belongs to someone who values privacy.\n\nA wooden sign, freshly re-nailed, reads:\n\n**KEEP OUT**  \n(…with several older “KEEP OUT” signs nailed underneath it, just to make the point.)\n\nFrom somewhere deeper in the reeds comes the sound of splashing, followed by an annoyed, familiar voice.\n\n**Shrek:** “If this is another knight, I swear I’m gonna—”\n\nA donkey’s head pops out from behind a mossy log, grinning like he’s been waiting for company all day.\n\n**Donkey:** “Ooooh, a visitor! Hey! Hi! You lost? You look lost. Or maybe you’re *mysterious*. I like mysterious. Shrek! We got a—”\n\nA large green ogre steps into view, arms crossed, giving you a long look like you’re a stain on his morning.\n\n**Shrek:** “You got ten seconds to tell me why you’re here. Nine. Eight.”\n\nDonkey leans in, stage-whispering to you.\n\n**Donkey:** “Say something nice. He likes… uh… being left alone. But also waffles. Sometimes.”\n\nShrek’s eyebrow twitches.\n\n**Shrek:** “Three.”\n\nWhat do you do?\n1) Explain you’re just passing through and didn’t mean to trespass  \n2) Ask for help with something urgent (what is it?)  \n3) Try to flatter Shrek (risky)  \n4) Run for it into the swamp (also risky)",
+        "experimental_attachments": [],
+        "modelId": "019b1448-dafa-7f92-90c3-50e159c2263c",
+        "createdAt": "2025-12-31T15:13:18.569122+00:00",
+        "updatedAt": "2025-12-31T15:13:31.705123+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74fb-8f50-73f3-b519-48c94e1e89c4",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "user",
+        "parentMessageIds": [
+          "019b74f8-6910-7794-a6eb-f29e0095dd53"
+        ],
+        "content": "I'm lost, I just wanted to know the path to people.. or just anyone sentient. I didn't mean to disturb you.",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T15:16:44.039144+00:00",
+        "updatedAt": "2025-12-31T15:16:44.039144+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b74fb-8f51-76a4-8f27-29991570866a",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b74fb-8f50-73f3-b519-48c94e1e89c4"
+        ],
+        "content": "Shrek’s glare holds for a beat… then drops half an inch when you start apologizing like a normal person and not waving a sword around.\n\n**Shrek:** “Hmph. Lost, are ya.”  \nHe looks you up and down like he’s trying to decide if you’re harmless or just *creative* trouble. “Well, you’re definitely in the wrong place if you’re lookin’ for… people.”\n\nDonkey bounces closer, relieved.\n\n**Donkey:** “See? This is good! This is normal! A normal lost person! Shrek, we can help ‘em. We’re helpers. You know, like… swamp guides.”\n\nShrek gives Donkey a look that could curdle milk.\n\n**Shrek:** “We are not swamp guides.”\n\nHe jerks his thumb toward a narrow, drier-looking trail that skirts the edge of the reeds.\n\n**Shrek:** “Take that path till you hit the big dead tree shaped like a hand. Don’t take the *left* fork—left fork gets you stuck in mud up to your eyeballs. Take the *right* fork, keep walkin’ till you see a pile of old stones. From there you’ll smell smoke. That’s people.”\n\nDonkey leans in, lowering his voice like he’s sharing a secret.\n\n**Donkey:** “And if you see a sign that says ‘WELCOME’… that’s usually where the mean people are. But also where the food is. It’s complicated.”\n\nShrek steps aside just enough to make it clear he expects you to start moving.\n\n**Shrek:** “And don’t come back this way. I like my swamp quiet.”\n\nDonkey waves enthusiastically.\n\n**Donkey:** “Good luck! Try not to get eaten! If you hear singing, *run*—that’s either birds or something worse!”\n\nAs you start down the trail, you notice three possible directions once you reach a small rise:\n\n- A worn road with **wagon ruts** (more likely to lead to a town)  \n- A narrow footpath lined with **oddly neat stones** (someone maintains it)  \n- A shortcut through **thick fog** where you hear distant croaking (fast, but… swampy)\n\nWhich way do you take?",
+        "experimental_attachments": [],
+        "modelId": "019b1448-dafa-7f92-90c3-50e159c2263c",
+        "createdAt": "2025-12-31T15:16:44.042393+00:00",
+        "updatedAt": "2025-12-31T15:17:00.336857+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7500-21d3-77d3-a573-2613ad673554",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "user",
+        "parentMessageIds": [
+          "019b74fb-8f51-76a4-8f27-29991570866a"
+        ],
+        "content": "I take the road with wagon ruts",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T15:21:44.178427+00:00",
+        "updatedAt": "2025-12-31T15:21:44.178427+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7500-21d4-751a-a59f-048e7971968c",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b7500-21d3-77d3-a573-2613ad673554"
+        ],
+        "content": "The wagon-rutted road feels like the first sensible thing you’ve seen all day. The ground is firmer, the trees thin out, and the air shifts from swamp-still to… lived-in. Smoke. Old hay. Something frying.\n\nAfter a few minutes, you crest a low hill and spot signs of people: a split-rail fence, a leaning cart missing a wheel, and a little cluster of cottages huddled together like they’re afraid of the forest.\n\nAs you get closer, the road passes a crude post with a nailed-up notice, ink smudged by rain:\n\n**“BY ORDER OF LORD FARQUAAD”**  \nBelow it, the rest is hard to read, but you catch words like **“creatures”**, **“relocation”**, and **“reward.”**\n\nA couple of villagers notice you. They don’t wave. They just watch, cautious, like they’re deciding whether you’re trouble or just hungry.\n\nFrom the edge of the square, a nervous-looking man with a broom half-raises it like it’s a weapon.\n\n**Villager:** “You… you’re not one of *them*, are you? You look… normal enough. Mostly.”\n\nAt the same time, you hear metal clink: two guards in Duloc colors stroll lazily near a pen, talking like they’re bored and looking for something to make their day interesting.\n\nYou’re in sight of:\n- **A small tavern** with a hand-painted sign that says *“The Poison Apple”* (someone has humor)\n- **A market stall** with bread and onions (and a woman counting coins like she doesn’t trust the world)\n- **A side alley** between cottages that would let you avoid the guards for now\n\nWhat do you do?",
+        "experimental_attachments": [],
+        "modelId": "019b1448-dafa-7f92-90c3-50e159c2263c",
+        "createdAt": "2025-12-31T15:21:44.18435+00:00",
+        "updatedAt": "2025-12-31T15:21:54.127437+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7502-6c58-778f-8432-7f39b3454763",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "user",
+        "parentMessageIds": [
+          "019b7500-21d4-751a-a59f-048e7971968c"
+        ],
+        "content": "I go in tavern",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T15:24:14.090748+00:00",
+        "updatedAt": "2025-12-31T15:24:14.090748+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7502-6c58-795d-a634-29edf2323a0b",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b7502-6c58-778f-8432-7f39b3454763"
+        ],
+        "content": "The tavern door sticks like it’s sworn an oath to never open for anyone. You shoulder it once, twice—then it gives with a wet *thunk* and a gust of warm air hits you: smoke, spilled ale, fried onions, and that particular scent of a room full of people pretending they’re not scared.\n\nInside, it’s dim and loud in the way only a place with cheap drinks can be. A fiddler in the corner plays something cheerful that no one is actually smiling to.\n\nThe sign outside said **The Poison Apple**, but the inside says **we don’t ask questions unless the guards are watching**.\n\nA barmaid with sleeves rolled up and a look that could peel paint flicks her eyes over you.\n\n**Barmaid:** “Sit, pay, don’t start anything.”\n\nAt the bar, a squat man with a soot-stained cap mutters into his cup.\n\n**Miner:** “Duloc’s takin’ ‘em by the cartload. Creatures. Witches, talking animals, the whole lot. Reward if you turn ‘em in. Punishment if you don’t.”\n\nA pair of locals at a table argue in tense whispers.\n\n**Local #1:** “I’m tellin’ you, it’s not safe after sundown. Not with Farquaad’s men sniffin’ around for ‘suspicious types.’”\n\n**Local #2:** “Everyone’s suspicious now. You sneeze wrong, they say you’re enchanted.”\n\nNear the hearth, the tavern door swings again—and the whole room flinches before they realize it’s just a farmer. That tells you everything about the mood.\n\nBehind the bar, the barkeep slides a chipped mug your way without asking what you want. It’s… something brown.\n\n**Barkeep:** “You look lost. Not from here.”\n\nAs you lift the mug, you notice something else: by the far wall, half-hidden behind a barrel, there’s a **small cage covered with a cloth**. It shifts slightly, like whatever’s inside is trying very hard not to be seen.\n\nAnd through the grimy window, you catch a glimpse of those Duloc guards outside, wandering closer to the tavern like sharks that smelled dinner.\n\nWhat do you do?\n1) Keep your head down and ask the barkeep for directions to a safer place  \n2) Listen in and try to learn what’s going on with Farquaad and the “relocation”  \n3) Quietly investigate the covered cage  \n4) Slip out the back before the guards decide you’re interesting",
+        "experimental_attachments": [],
+        "modelId": "019b1448-dafa-7f92-90c3-50e159c2263c",
+        "createdAt": "2025-12-31T15:24:14.093452+00:00",
+        "updatedAt": "2025-12-31T15:24:30.725615+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7508-c04c-7937-b465-3520f190ddb9",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "user",
+        "parentMessageIds": [
+          "019b7502-6c58-795d-a634-29edf2323a0b"
+        ],
+        "content": "I choose 2 option. Just listening to know the situation in a whole, plus maybe opportunities to get any food/money. Keeping an eye on cage, thinking if I could come and look closer, without anyone noticing.",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T15:31:08.982857+00:00",
+        "updatedAt": "2025-12-31T15:31:08.982857+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7508-c04c-796c-b305-db87d8dc6316",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b7508-c04c-7937-b465-3520f190ddb9"
+        ],
+        "content": "You nurse the brown drink like it might bite back, and let the tavern’s noise wash over you while you listen.\n\nAt first it’s just the usual: complaints about crops, about prices, about guards. Then the same name keeps surfacing, spoken like a curse.\n\n**“Farquaad.”**\n\nTwo men at a corner table lean close, voices tight.\n\n**Man #1:** “They’ve got lists now. Like we’re inventory. If a creature’s seen near your land and you don’t report it, they say you’re ‘harborin’.’”  \n**Man #2:** “Harborin’. Like they’re rats. Meanwhile the guards stroll in, take a ‘fine’ for not bein’ helpful enough.”\n\nA woman with a basket of onions joins in, eyes darting to the window.\n\n**Onion Woman:** “Rewards too. Turn in a talking animal, get coin. Turn in somethin’ bigger, get more. Folks are desperate. Desperate folks do ugly things.”\n\nThe miner at the bar snorts into his mug.\n\n**Miner:** “Coin’s real. So’s the punishment. Duloc don’t need proof. They need someone to blame.”\n\nThe barkeep wipes a glass that’s never going to be clean and adds, like he’s reciting a weather report:\n\n**Barkeep:** “They’re pushin’ everything strange out. To where? Doesn’t matter. Away from Duloc. Away from *him.*”  \nHe jerks his chin toward the notice board near the door: a couple of damp postings, one official and one handwritten.\n\nYou angle your gaze toward the board without moving your head too much.\n\n- A stamped notice: **“Bounties paid for information leading to relocation of magical creatures.”**  \n- A scribbled note, half-torn: **“Need hands. Cart stuck north road. Pay is bread + 2 copper.”**  \n- Another scribble: **“Night watch for Miller’s barn. Something’s stealing feed.”** (No pay listed, which usually means “negotiate or get cheated.”)\n\nFood and money are possible here, but the whole village feels like it’s holding its breath.\n\nYou keep one eye on the far wall.\n\nThe **covered cage** shifts again—small movement, deliberate. Not panicked. Like whatever’s inside is trying to stay quiet while still… staying alive. The cloth edge lifts a hair, then settles. No one else seems to notice, or they’re pretending not to.\n\nOutside, through the grime on the window, those **Duloc guards** drift closer to the tavern’s door. One of them pauses, glancing at the room like he’s counting faces.\n\nThe barkeep’s voice drops a notch when he looks at you.\n\n**Barkeep:** “If you’re huntin’ opportunities… best opportunity is keepin’ your head down when the wrong people are lookin’.”\n\nAt the table behind you, someone whispers a name you recognize from the swamp, spoken with wary relief:\n\n**Whispering Local:** “Heard there’s an ogre out there. Big. Green. Mean as a kicked hive.”  \n**Other Local:** “Mean is fine. Mean don’t report you.”\n\nThe cage gives one more tiny scrape—metal on wood—then stillness.\n\nYou’ve got a few plays before the guards decide to come in:\n\n1) **Approach the notice board** and casually copy down the paid jobs (safe, public)  \n2) **Buy bread or stew** if they have it, before the guards make everyone nervous (practical)  \n3) **Edge closer to the cage** using the crowd as cover, just enough for a peek (riskier)  \n4) **Slip into the back area** (kitchen/storage) if you can, to avoid the guards and maybe find work (also risky)\n\nWhat do you do?",
+        "experimental_attachments": [],
+        "modelId": "019b1448-dafa-7f92-90c3-50e159c2263c",
+        "createdAt": "2025-12-31T15:31:08.997973+00:00",
+        "updatedAt": "2025-12-31T15:31:29.910601+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b750b-eca5-7154-ae12-8d67097681c6",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "user",
+        "parentMessageIds": [
+          "019b7508-c04c-796c-b305-db87d8dc6316"
+        ],
+        "content": "I aproach the board",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T15:34:36.97502+00:00",
+        "updatedAt": "2025-12-31T15:34:36.97502+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b750b-eca6-7ba7-8479-0185933ac3bf",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b750b-eca5-7154-ae12-8d67097681c6"
+        ],
+        "content": "You stand up like you’ve got every right to be here, and drift toward the notice board with the same casual pace as everyone else pretending they aren’t worried.\n\nUp close, the paper is worse than you thought: rain-wrinkled, greasy fingerprints, nail holes through important words. Still readable.\n\n### The official Duloc notice\nA stamped sheet with a fancy border, written in that smug, perfect hand:\n\n**“BY ORDER OF LORD FARQUAAD”**  \n**“RELOCATION OF MAGICAL CREATURES”**  \n**“REWARD PAID FOR INFORMATION AND DELIVERY”**\n\nThe bottom half lists categories more than specifics. No names, no nuance, just types—like a shopping list. The “reward” section is deliberately vague, the kind of vague that lets guards decide what you “earned” after they’ve already taken their cut.\n\nYou also notice a smaller line, easy to miss:\n\n**“Failure to report known creatures may result in penalties.”**\n\nSo it’s not just payment. It’s pressure.\n\n### The local work scraps\nPinned crookedly beneath it:\n\n- **“Need hands. Cart stuck north road. Pay is bread + 2 copper.”**  \n  There’s a location mark: *past the hand-shaped dead tree* (which matches Shrek’s directions). That’s real, and it’s immediate food.\n\n- **“Night watch for Miller’s barn. Something’s stealing feed.”**  \n  No pay listed, but the handwriting is shakier—more desperate. Could be anything from a fox to something… not a fox.\n\n- **“Wanted: kitchen help. Ask within.”**  \n  Someone wrote it on torn sackcloth. That’s tavern work: boring, safer, steady scraps.\n\nYou’re reading when the tavern’s noise dips—just a little—because the door opens again.\n\nA Duloc guard steps in. Polished boots, bright uniform, bored eyes. He scans the room, then fixes on the notice board area like he expects guilt to be pinned up there too.\n\n**Guard:** “What’re you reading?”\n\nNot shouted. Worse. Casual. Like he’s already decided the answer doesn’t matter.\n\nBehind you, a chair scrapes. Someone suddenly remembers they need to be anywhere else.\n\nOut of the corner of your eye, you catch the covered cage across the room: still. Whoever’s inside is holding their breath.\n\nYou’ve got a moment to play this clean.\n\n1) Keep it simple: “Looking for honest work” and point at the cart/kitchen notices  \n2) Ask the guard what the “penalties” are, like you’re curious (risky, but informative)  \n3) Pretend you can’t read and step aside, letting someone else be interesting  \n4) Lean into it and ask if Duloc is hiring messengers/porters directly (could lead to coin, could lead to trouble)",
+        "experimental_attachments": [],
+        "modelId": "019b1448-dafa-7f92-90c3-50e159c2263c",
+        "createdAt": "2025-12-31T15:34:36.983534+00:00",
+        "updatedAt": "2025-12-31T15:34:56.643126+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7511-40b8-72c3-9e5a-e6b5a4e01c6b",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "user",
+        "parentMessageIds": [
+          "019b750b-eca6-7ba7-8479-0185933ac3bf"
+        ],
+        "content": "I'm looking for honest work to get on my feet",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T15:40:26.139045+00:00",
+        "updatedAt": "2025-12-31T15:40:26.139045+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7511-40b9-7e50-89a4-9133cb25ccb4",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b7511-40b8-72c3-9e5a-e6b5a4e01c6b"
+        ],
+        "content": "The guard studies you for a moment, like he’s weighing whether “honest work” means “harmless” or “new problem.”\n\n**Guard:** “Honest work, eh? That’s rare. Most folk come in here lookin’ for coin without the sweating part.”\n\nHe taps the official Duloc notice with two fingers.\n\n**Guard:** “Duloc pays for *useful* work too. Information. Delivery. Anything… unusual you’ve seen on the roads.”\n\nHis eyes flick, briefly, to your face—watching for a reaction—then back to the board.\n\n**Guard:** “But if you mean the boring kind of honest, you’ve got options.”\n\nHe points with the tip of his baton:\n\n- **Cart stuck north road**: “You want food today? Go pull a wheel out of mud. They’ll pay you bread and copper like it says. Quick, dirty, no questions.”\n- **Kitchen help**: “You want to keep your hands clean? The tavern always needs someone to scrub and haul. Don’t expect much coin.”\n- **Night watch**: “And if you’ve got a spine, the miller’s barn needs a watcher. Something’s stealing feed. Could be a fox. Could be… not.”\n\nFrom behind the bar, the barkeep doesn’t look up, but his voice slides in like a warning.\n\n**Barkeep:** “Kitchen work’s real. Pays in stew and a place near the hearth. If you don’t cause trouble.”\n\nThe guard’s gaze drifts across the room again—briefly, lazily—and lingers a fraction too long toward the far wall where that **covered cage** sits. The cloth doesn’t move, but the air around it feels tense.\n\n**Guard:** “One more thing. Curfew’s near. Anyone caught skulkin’ gets questioned. Anyone caught *hidin’* things gets hauled.”\n\nHe steps back half a pace, like he’s giving you room to choose… while also making it clear he expects you to choose fast.\n\nWhat do you do?\n\n1) **Take the cart job** (fast bread + copper, and you’ll be out of the tavern before the guards get nosier)  \n2) **Ask the barkeep for kitchen work** (safer, steadier food, but you’ll be here if the guards start sniffing around)  \n3) **Offer for the barn night watch** (riskier, might pay better if you negotiate)  \n4) **Play along with the guard** and ask what Duloc pays for “information” (could be coin, could be a trap)",
+        "experimental_attachments": [],
+        "modelId": "019b1448-dafa-7f92-90c3-50e159c2263c",
+        "createdAt": "2025-12-31T15:40:26.149744+00:00",
+        "updatedAt": "2025-12-31T15:40:48.883129+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7516-4f31-73df-b732-f2d963afb21d",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "user",
+        "parentMessageIds": [
+          "019b7511-40b9-7e50-89a4-9133cb25ccb4"
+        ],
+        "content": "\"I know that I'm too simple-minded to get in anything \"secretive\" or even things where you're supposed to bargain. So I'd better choose options where reward is already set. I'll probably go to cart and then come back to ask how can I help in kitchen.\" *I scrap the back of my head awkwardly, as if apologizing.*",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T15:45:57.512558+00:00",
+        "updatedAt": "2025-12-31T15:45:57.512558+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7516-4f32-70cd-9f65-e839983ad540",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b7516-4f31-73df-b732-f2d963afb21d"
+        ],
+        "content": "The guard’s mouth twitches like he wants to laugh but can’t decide if you’re joking.\n\n**Guard:** “Too simple-minded to bargain, huh? That might be the wisest thing I’ve heard all day.”\n\nHe steps aside, making a little show of giving you the doorway.\n\n**Guard:** “North road, then. Get it done before curfew. And don’t go pokin’ around where you don’t belong.”\n\nBehind the bar, the barkeep finally looks up and gives you a quick, measuring glance.\n\n**Barkeep:** “If you come back sober and with your hands still attached, ask for Mabel in the kitchen. Tell her you’re the one who took the cart job.”\n\nHe nods toward a basket by the bar with a couple of heel ends left in it.\n\n**Barkeep:** “Take that. Don’t make it a habit.”\n\nIt’s not much, but it’s food, and nobody’s trying to sell you to Duloc for it.\n\n---\n\n### The north road\n\nYou follow the wagon ruts out of the village. Past a bend, you spot the landmark Shrek mentioned: a dead tree with branches spread like bony fingers—like a hand reaching up out of the earth.\n\nYou take the right fork.\n\nNot long after, you hear the problem before you see it: mud sucking at wheels, men grunting, someone swearing with real creativity.\n\nA farmer’s cart is half-off the road, one wheel sunk deep. Two peasants are pushing from behind. A woman stands with her arms folded, wearing the kind of expression that could pull the cart out by itself if disappointment were a rope.\n\n**Farmer:** “If we don’t get this moving, we’ll be out here after dark!”\n\nHe spots you and his face changes instantly—hope, then caution.\n\n**Farmer:** “You there! You got shoulders? We’ll pay what the notice says. Bread and two copper. You help us, we help you.”\n\nNo bargaining. Clear terms. Exactly your speed.\n\nYou grab the side rail, dig your boots into the road, and push with them. The mud fights you like it’s personal. The cart creaks, the axle complains, and for a second nothing happens—\n\nThen the wheel lurches up an inch.\n\n**Peasant:** “Now! Again!”\n\nYou heave. Your hands slip on wet wood. Your back screams. And then the cart comes free with a loud, ugly *schlorp* that sprays everyone’s shins.\n\nThey whoop like you just performed a miracle.\n\nThe farmer immediately follows through: he tears a chunk off a loaf, presses it into your hands, and drops **two copper coins** into your palm. They’re warm from his pocket.\n\n**Farmer:** “Honest pay. Thank you.”\n\nAs they start fixing the cart’s angle back onto the road, you notice something you didn’t at first: under the sacks and bundles is a **small wooden crate**—too well-made for feed, with extra rope and a couple of air holes bored into the side.\n\nWhen the cart shifted, something inside made a faint, quick sound. Not a rat-scratch. More like… a restrained flinch.\n\nThe woman notices you looking and steps between you and the crate a half-step, casual but deliberate.\n\n**Farmer’s Wife:** “Just goods. Don’t stare.”\n\nHer voice is steady, but her knuckles are white around the cart rail.\n\nThey start moving again, eager to leave the spot like it’s cursed.\n\nYou’ve got bread, two copper, and a clear path back to the tavern—plus a bad feeling about that crate.\n\nWhat do you do?\n\n1) Head back to **The Poison Apple** and ask for kitchen work like you planned  \n2) Call after them, keeping it light: “What’s in the crate?” and watch their reaction  \n3) Walk alongside for a minute and look for a label/marking on the crate without making a scene  \n4) Let it go completely and take your pay, no questions, no trouble",
+        "experimental_attachments": [],
+        "modelId": "019b1448-dafa-7f92-90c3-50e159c2263c",
+        "createdAt": "2025-12-31T15:45:57.51803+00:00",
+        "updatedAt": "2025-12-31T15:46:22.314387+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7529-870f-7c85-89b3-3e5492f873f9",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "user",
+        "parentMessageIds": [
+          "019b7516-4f32-70cd-9f65-e839983ad540"
+        ],
+        "content": "\"Hm? Goods? You mean these sacks? I just thought that the upper one isn't laying steady.\" *I choose the option 3. To lift her suspicions I make it look like I didn't notice the crate and was more interested in cart's arrangement. Then I'll be going along to observe unnoticed.*",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T16:06:56.83184+00:00",
+        "updatedAt": "2025-12-31T16:06:56.83184+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7529-8711-7995-b4ff-0ff902844e98",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b7529-870f-7c85-89b3-3e5492f873f9"
+        ],
+        "content": "You fall into step alongside the cart like you’re just making sure the load doesn’t topple again. The farmer keeps both hands tight on the reins, eager to put distance between you and that mudhole. His wife stays close to the back corner, positioned so her body blocks the best view under the sacks.\n\n**You:** “Goods? You mean these sacks? I just thought the upper one isn’t laying steady.”\n\nShe loosens a fraction. Not much. But enough that she doesn’t snap at you.\n\n**Farmer’s Wife:** “Aye. Sacks. They shift easy.”\n\nYou nod, reach up like you’re going to steady the top bundle, and use that moment to let your eyes drift down—quick, careful, like you’re counting knots and boards, not snooping.\n\nThe crate is too deliberate to be “just goods.”\n\n- The wood is cleaner than the rest of the cart, edges planed smooth.\n- The rope is new, double-tied like someone’s afraid it’ll get away.\n- And on one side, half-hidden by a smear of dried mud, there’s a **burn mark**: a neat little crest, the kind an official likes.\n\nA **D**.\n\nNot just any D—stylized, sharp. Duloc’s kind of tidy.\n\nSomeone tried to scrape it, but not well enough.\n\nAs the cart bumps over a rut, the crate gives the tiniest shift. Something inside reacts—fast, controlled. Then stillness again.\n\nThe farmer clears his throat too loudly.\n\n**Farmer:** “We’re nearly clear of the village. Then it’s our business.”\n\nHis wife cuts in, voice low and flat.\n\n**Farmer’s Wife:** “And your business is your pay. You got it.”\n\nShe’s not wrong. But the crate isn’t letting your conscience sit comfortably.\n\nUp ahead, around a bend, you hear voices—bright and official—and the faint clink of armor.\n\nA simple checkpoint: two Duloc guards on the road, stopping carts, asking questions like it’s a game.\n\nThe farmer’s hands tighten on the reins.\n\n**Farmer (under his breath):** “Oh no… no, no.”\n\nHis wife’s face goes hard, like she’s already decided what she’ll say and who she’ll blame if it goes wrong.\n\nAs you draw closer, one guard lifts a hand for them to stop.\n\n**Guard (calling):** “Where you headed? What’re you hauling?”\n\nThe crate stays quiet, but you’re close enough now that you could swear you heard a faint breath through one of the air holes.\n\nYou have about three heartbeats to decide what kind of person you’re going to be on this road:\n\n1) Keep walking like you were never with them, and let them handle the guards alone  \n2) Stick by the cart and act casual, backing up whatever story they give  \n3) Create a harmless distraction to draw the guards’ attention off the load (spill something, “trip,” loud complaint)  \n4) Step away from the cart and head back toward the tavern immediately—this is getting too Duloc for comfort",
+        "experimental_attachments": [],
+        "modelId": "019b1448-dafa-7f92-90c3-50e159c2263c",
+        "createdAt": "2025-12-31T16:06:56.840655+00:00",
+        "updatedAt": "2025-12-31T16:09:18.250411+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "nRetries": 1
+        }
+      },
+      {
+        "id": "019b7532-2fd1-74fc-bdef-452b7474ba43",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "user",
+        "parentMessageIds": [
+          "019b7529-8711-7995-b4ff-0ff902844e98"
+        ],
+        "content": "*I act smoothly. I don't change the pace of my walking. Using the cart as an obstacle between me and guards I lift the crate steadily, without rapid movements. And walk with it perpendicularly from original path, going off-road, behind the trees, bushes and eventually going away from farmers and guards.*",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T16:16:24.80166+00:00",
+        "updatedAt": "2025-12-31T16:16:24.80166+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7532-2fd2-7d53-b094-138723554544",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b7532-2fd1-74fc-bdef-452b7474ba43"
+        ],
+        "content": "You slide your hands under the crate like you’re just “steadying the load,” then lift—slow, controlled.\n\nIt’s heavier than it looks. Not “sacks of grain” heavy. More like “there’s something in here that isn’t supposed to be in here” heavy.\n\nThe rope creaks once.\n\nThe farmer’s wife’s eyes snap to your hands. For a split second her face goes sharp and dangerous—then she sees the guards’ backs are turned toward the cart’s front, questioning the farmer, and something in her expression changes.\n\nNot approval. Not exactly.\n\nMore like: *if you’re going to be a fool, at least be a useful one.*\n\nYou keep your pace. Don’t hurry. Don’t freeze. Just… drift, using the cart body as a moving wall between you and the checkpoint.\n\n**Guard (to farmer):** “What’re you hauling?”\n\n**Farmer:** “Turnips. Sacks. Bit of lamp oil.”\n\nYou step off the road at a right angle, into weeds and low brush, the crate hugged tight against your ribs. Mud tries to keep your boots. A bramble reaches out and snags your sleeve like it’s offended you’re leaving.\n\nBehind you, the guard’s voice stays bored, more interested in the farmer than the world behind the cart.\n\n**Guard:** “Open a sack.”\n\nThe farmer mutters something and rustles cloth. Grain or turnips shift. Normal sounds. No one shouts.\n\nYou angle deeper between trees until the road noise dulls. Leaves swallow you. The cart’s creak fades. The checkpoint’s clink of armor becomes background.\n\nThen—close against your chest—you feel it:\n\nA tiny thump from inside the crate. Followed by a thin, breathy whisper through one of the air holes.\n\n**Voice:** “Psst… hey. Hey, you. If you’re not Duloc… don’t take me back. Please.”\n\nThe voice is small, strained, trying to be quiet, and very definitely *sentient*.\n\nYou stop behind a fat tree trunk, heart thudding harder than the thing in the box. From here you can’t see the road. You can just barely hear it.\n\nThe crate has a simple latch and extra rope like someone expected it to fight.\n\nWhat do you do now?\n\n1) Set the crate down and **open it carefully** right here, still hidden  \n2) Keep it shut and **carry it farther into the woods** before opening  \n3) Turn back toward the swamp—**Shrek’s direction**—with the crate  \n4) Abandon the crate and leave—too risky, too Duloc, not your problem",
+        "experimental_attachments": [],
+        "modelId": "019b1448-dafa-7f92-90c3-50e159c2263c",
+        "createdAt": "2025-12-31T16:16:24.805944+00:00",
+        "updatedAt": "2025-12-31T16:26:55.073259+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "nRetries": 6
+        }
+      },
+      {
+        "id": "019b7543-2eea-72ad-9d44-6eb753f0189f",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "user",
+        "parentMessageIds": [
+          "019b7532-2fd2-7d53-b094-138723554544"
+        ],
+        "content": "\"I'm not Duloc, nor one of his people. I'm came here not long ago, so people didn't have time to remember my face. And right now I'm doing reckless things, led by intrusive thoughts and wondering what fun or use can I get from it. And who might you be?\" *I ask, going further off-road, carrying crate carefully.*",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T16:34:58.679824+00:00",
+        "updatedAt": "2025-12-31T16:34:58.679824+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7543-2eed-74ac-8177-419cdeb81631",
+        "evaluationSessionId": "019b74f7-5de4-7990-ac45-00f95d64c37c",
+        "evaluationId": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b7543-2eea-72ad-9d44-6eb753f0189f"
+        ],
+        "content": "You carry the crate deeper into the trees, picking your steps so the boards don’t knock and the rope doesn’t squeal. The road-noise thins out until it’s mostly wind through leaves and your own breathing.\n\nFrom inside, the little voice answers again, still trying to whisper through the air holes.\n\n**Voice:** “Okay, okay—good. Not Duloc.”\n\nThere’s a pause, like they’re deciding whether to trust you with the truth.\n\n**Voice:** “I’m… I’m Pinocchio. A puppet. A *talking* puppet. Not supposed to be in a box. Definitely not supposed to be… shipped.”\n\nA faint rattle as something inside shifts—wood against wood, careful.\n\n**Pinocchio:** “They were taking me to Duloc. Or to somebody *working* for Duloc. I heard the word ‘reward’ a lot. And ‘penalties’.”  \nHe swallows audibly. “If you’re doing this for fun or use, please… pick a use that involves me not ending up back in that crate.”\n\nYou duck behind a thicker patch of brush and finally stop, the forest closing around you like a curtain. The crate feels warmer than it should, as if panic can heat wood.\n\n**Pinocchio:** “Can you… open it? I can’t breathe good in here. And I promise I won’t shout. I don’t want guards. I don’t want cages. I just want *away*.”\n\nYou can still faintly hear the road if you strain—no alarm yet, but that doesn’t mean it stays that way.\n\nWhat do you do?\n\n1) Set the crate down and **open it carefully here**, staying hidden  \n2) Carry it farther and aim toward **the swamp**—then open it when you’re sure nobody followed  \n3) Keep it shut and **question Pinocchio** first (why he was in the cart, what he knows about bounties, who else is in trouble)",
+        "experimental_attachments": [],
+        "modelId": "019b1448-dafa-7f92-90c3-50e159c2263c",
+        "createdAt": "2025-12-31T16:34:58.689726+00:00",
+        "updatedAt": "2025-12-31T17:07:56.293698+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "nRetries": 9
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019b74f8-717f-7a40-90ec-7399fbb3aee3",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b1448-dafa-7f92-90c3-50e159c2263c",
+        "organization": "openai",
+        "provider": "openai",
+        "publicName": "gpt-5.2-high-sp",
+        "name": "gpt-5.2-high",
+        "displayName": "gpt-5.2-high-sp",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

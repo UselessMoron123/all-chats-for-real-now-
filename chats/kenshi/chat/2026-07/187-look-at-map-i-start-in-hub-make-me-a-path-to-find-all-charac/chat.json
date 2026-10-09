@@ -1,0 +1,293 @@
+{
+  "exportedAt": "2026-10-09T16:27:44.361Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019f608e-9c7f-7b15-be0b-4579400bc0c0",
+  "archivedAt": "2026-09-30 20:07:23.123+00",
+  "evaluation": {
+    "id": "019f608e-9c7f-7b15-be0b-4579400bc0c0",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "look at map. i start in Hub. make me a path to find all characters (also pay attention to conditions",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019f609f-0f53-7c0b-b142-274b174c6c95"
+    ],
+    "archivedAt": "2026-09-30 20:07:23.123+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-07-14 12:18:31.16+00",
+    "updatedAt": "2026-07-14 12:34:30.15224+00",
+    "messages": [
+      {
+        "id": "019f6090-66ac-7ec8-aa08-4a7d54b23e70",
+        "evaluationSessionId": "019f608e-9c7f-7b15-be0b-4579400bc0c0",
+        "evaluationId": "019f6090-85d3-7807-af69-27b79a43697a",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "look at map. i start in Hub. make me a path to find all characters (also pay attention to conditions and cost)\n1. Bark (UC)\n2. Fishing Village\n3. Sho-Battai (UC)\n4. Burn's Tower\n5. Flotsam Village\n6. World's End\n7. Stoat (UC)\n8. Heft (UC)\n9. Settled Nomad Village\n10. Mongrel\n11. Blister Hill\n12. Tengu's Vault\n13. Heng/Trader's Edge (UC)\n14. Bad Teeth\n15. Stack\n16. Black Desert City\n17. Waystation 1\n18. Eyesocket\n19. Dust King Tower\n20. Waystation 2\n21. The Hub\n22. Smugglers Bar\n23. Tower of Abuse\n24. Brink (UC)\n25. Black Scratch\n26. Crab Village\n27. Admag\n28. Waystation 3\n29. Squin\n30. Last Stand\n31. Mud Town\n32. Shark\n33. Flats Lagoon\n34. Mourn\n35. Catun (UC)\n36. Slave Markets\n37. Clownsteady (UC)\n38. Waystation 4\n39. Drifter's Last (UC)\n\nAgnu/Free (Must free from a cage)/Tower of Abuse\nBard/3000/Bad Teeth, Blister Hill, Stack, Waystations, World's End\nBeep/Free/Mongrel\nBo/Free (Must Join Anti-Slaver)/Black Scratch\nBurn/Free/Burn's Tower\nCat/Free (Must free from a cage)/Dust King Tower\nChad/9,000/Flats Lagoon\nCornelius/is a Goat/7,000/Settled Nomad Village\nCrumblejon/Free/Mongrel\nDigna/3,000/Flotsam Village\nDoctor Chung/Free/Mud Town, Shark\nElls/300/Sho-Battai\nEspher/Free (Must free from a cage)/Tengu's Vault\nGreen/2,300/Mud Town, Shark\nGreen Finger/2,000/Fishing Village\nGriffin/9,000/Bad Teeth, Blister Hill, Stack\nHamut/Free/Mud Town, Shark\nHeadshot/7,500/Eyesocket, Slave Markets\nHobbs/Free/Fishing Village, The Hub, Waystation(s), World's End, Mourn\nHorse/4,500/Fishing Village, Squin\nInfinite Wingwang/5,000/Mongrel\nIzumi/2,500/Any UC town\nJewel/6,000/Any UC town\nKang/6,000/Admag, Squin, Last Stand\nKnife/6,000/Flotsam Village\nLumi/6,000/Crab Town\nLuquin/Free (Must free from a cage)/Tengu's Vault\nMiu/Free/Mud Town, Shark\nOron/3,500/Admag, Squin, Last Stand\nPia/3,000/Flotsam Village\nRane the Giant/7,500/Admag, Squin, Last Stand\nRay/1,000/Eyesocket, Slave Markets\nRed/150/Bark\nReva/6,000/Flotsam Village\nRiddly/Free/Any UC town\nRuka/Free/Admag, Squin, Last Stand\nSadneil/Free/Black Desert City\nSeto/Must capture rival's leader or have 80 relations with Shek Kingdom/Admag\nShryke/Free/Mongrel\nSilvershade/3,000/Mud Town, Waystation(s), World's End, Flats Lagoon\nSinklyde/Free (Must free from a cage)/Tengu's Vault\nSoman/3,500/Fishing Village\nStubs Momuso/5,000/Mud Town, Shark\nYamdu/Must capture rival's leader/Trader's Edge\n\n\"Amateur Recruit\"/3,000/Crab Town, Mourn, The Hub, Blister Hill, Heft, Heng, Stoat, Black Scratch, Flats Lagoon, Smugglers Bar, Waystation(s), World's End, Shark\n\"Disheartened Skeleton\"/6,000/Shark\n\"Ex-Slave Recruit\"/3,000/Crab Town, Mourn, The Hub, Blister Hill, Heft, Heng, Stoat, Black Scratch, Flats Lagoon, Smugglers Bar, Waystation(s), World's End\n\"Recruit Seeking Revenge\"/3,000/Any UC town, Black Scratch, Flats Lagoon, Smugglers Bar, Waystation(s), World's End\n\"Scarred Adventurer\"/6,000/Any UC town, Eyesocket, Slave Markets\n\"Skeleton Survivor\"/2,500/Shark\n\"Soldier Drone Swordslinger\"/7,500/Any UC town\n\"Swamper Adventurer\"/6,000/Shark\n\"Wall Man\"/5,000/Any UC town, Eyesocket, Shark, Slave Markets, Waystations, World's End, Smugglers Bar, Black Scratch, Flats Lagoon",
+        "experimental_attachments": [
+          {
+            "name": "0995c648-8914-4762-b5b9-0eb0d213652d/1784031505224-SmallMarked.png",
+            "contentType": "image/png",
+            "url": "https://messages-prod.27c852f3500f38c1e7786e2c9ff9e48f.r2.cloudflarestorage.com/0995c648-8914-4762-b5b9-0eb0d213652d/1784031505224-SmallMarked.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=b33de61d4f22a31b59b25364ab5037c5%2F20261009%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261009T162738Z&X-Amz-Expires=3600&X-Amz-Signature=b7cc450477dcd32f28bcb9a4ae746baa7e3ee809adf29a255b8c4948dfed73f1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+          }
+        ],
+        "modelId": null,
+        "createdAt": "2026-07-14T12:18:32.04758+00:00",
+        "updatedAt": "2026-07-14T12:18:32.04758+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019f6090-66b5-74fb-ba09-d72f326001a5",
+        "evaluationSessionId": "019f608e-9c7f-7b15-be0b-4579400bc0c0",
+        "evaluationId": "019f6090-85d3-7807-af69-27b79a43697a",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019f6090-66ac-7ec8-aa08-4a7d54b23e70"
+        ],
+        "content": "This path is designed to minimize backtracking while considering the difficulty of certain recruits. Note that to get **all** characters, you will need over **120,000 Cats** and a squad strong enough to break into high-security prisons and towers.\n\n### **Phase 1: The Western Rim (Shek Territory & Nomads)**\n*Start in The Hub, gathering basic funds first.*\n\n1.  **The Hub (21):** Recruit **Hobbs** (Free) and any **Amateur/Ex-Slave Recruits** (3,000).\n2.  **Squin (29):** Recruit **Kang** (6,000), **Horse** (4,500), **Oron** (3,500), **Rane the Giant** (7,500), and **Ruka** (Free).\n3.  **Admag (27):** Check for any Shek recruits missed in Squin. \n    *   *Condition:* **Seto** (Free) requires you to turn in the Bugmaster or Phoenix to the Shek, or have 80+ relations. Save this for later.\n4.  **Last Stand (30):** Final check for generic Shek recruits.\n5.  **Settled Nomad Village (9):** Buy **Cornelius** the goat (7,000).\n\n### **Phase 2: The Fog & The North (Science & Ninja)**\n*Prepare for Fogmen and Holy Nation patrols.*\n\n6.  **Mongrel (10):** Recruit **Beep** (Free), **Crumblejon** (Free), **Shryke** (Free), and **Infinite Wingwang** (5,000).\n7.  **Burn’s Tower (4):** Recruit **Burn** (Free).\n8.  **Fishing Village (2):** Recruit **Green Finger** (2,000) and **Soman** (3,500).\n9.  **Flotsam Village (5):** Recruit **Digna** (3,000), **Knife** (6,000), **Pia** (3,000), and **Reva** (6,000).\n10. **World’s End (6):** Recruit **Bard** (3,000) and **Silvershade** (3,000).\n\n### **Phase 3: The Holy Nation Core (Central)**\n*Note: If your squad has Skeletons or Hivers, keep them hidden or in disguise.*\n\n11. **Blister Hill (11):** Recruit **Griffin** (9,000). \n12. **Bad Teeth (14) & Stack (15):** Pick up generic recruits if not found in Blister Hill.\n13. **Dust King Tower (19):** Fight the Dust King and free **Cat** from his cage (Free).\n\n### **Phase 4: The Swamp & South Wetlands (Outlaws)**\n*Bring swamp-ready gear (acid rain protection).*\n\n14. **Mud Town (31) & Shark (32):** These two towns share a pool of recruits. Find **Doctor Chung** (Free), **Green** (2,300), **Hamut** (Free), **Miu** (Free), and **Stubs Momuso** (5,000). Also, look for the **Disheartened Skeleton** (6,000) and **Swamper Adventurers**.\n15. **Slave Markets (36):** Recruit **Ray** (1,000) and **Headshot** (7,500).\n16. **Clownsteady (37) & Drifter's Last (39):** Pick up **Izumi** (2,500), **Jewel** (6,000), **Riddly** (Free), and UC-specific generic recruits (Soldier Drones).\n\n### **Phase 5: The Deadlands & The Great Desert (United Cities)**\n*This is the most dangerous leg involving high-tier prisons.*\n\n17. **Catun (35) -> Mourn (34) -> Flats Lagoon (33):** Recruit **Chad** (9,000) at Flats Lagoon.\n18. **Tower of Abuse (23):** Fight the Thrall Masters and free **Agnu** from the cage (Free).\n19. **Black Desert City (16):** Recruit **Sadneil** (Free).\n20. **Eyesocket (18):** If you missed Ray or Headshot earlier, check here.\n21. **Black Scratch (25):** \n    *   *Condition:* **Bo** (Free) - You must talk to her and agree to join the Anti-Slavers.\n22. **Crab Village (26):** Recruit **Lumi** (6,000).\n23. **Heng & Trader’s Edge (13):** \n    *   *Condition:* **Yamdu** (Free) - Only joins if you capture Tinfist or Simion and give them to the Traders Guild.\n24. **Tengu’s Vault (12):** Break in and free **Espher**, **Luquin**, and **Sinklyde** from their cages (Free).\n25. **Stoat (7) -> Heft (8) -> Sho-Battai (3):** Recruit **Ells** (300) in Sho-Battai and any remaining UC unique recruits (Izumi/Jewel/Riddly if not found earlier).\n26. **Bark (1):** Finally, recruit **Red** (150).\n\n---\n\n### **Summary of Costs & Conditions**\n*   **Total Recruitment Budget:** ~125,000 Cats.\n*   **Highest Cost:** Griffin/Chad (9,000 each).\n*   **Most Difficult:** \n    *   **Agnu:** Requires defeating Agnu's captors in a high-stat Skeleton area.\n    *   **Tengu's Vault Trio:** Requires high lockpicking/stealth or a massive assault on the UC's highest-security prison.\n    *   **Yamdu/Seto:** These are \"End-Game\" recruits requiring the defeat of world leaders.",
+        "experimental_attachments": [],
+        "modelId": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "createdAt": "2026-07-14T12:18:32.052457+00:00",
+        "updatedAt": "2026-07-14T12:18:52.439061+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 2301,
+            "totalTokens": 5295,
+            "usageSource": "provider",
+            "outputTokens": 2994,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 1587
+          },
+          "fromAutoRouter": false
+        }
+      },
+      {
+        "id": "019f6097-b3b7-7117-8515-8c57030a535b",
+        "evaluationSessionId": "019f608e-9c7f-7b15-be0b-4579400bc0c0",
+        "evaluationId": "019f6097-d1bd-7c07-8f5a-8f151fb47818",
+        "role": "user",
+        "parentMessageIds": [
+          "019f6090-66b5-74fb-ba09-d72f326001a5"
+        ],
+        "content": "path to get only free recruits (and almost free - below 3000)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-07-14T12:26:30.21962+00:00",
+        "updatedAt": "2026-07-14T12:26:30.21962+00:00",
+        "participantPosition": "a",
+        "pairwiseFeedbackId": "019f609f-2475-7993-b310-0734c89920e6",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019f6097-b3d7-7240-97dc-ca8035992fcb",
+        "evaluationSessionId": "019f608e-9c7f-7b15-be0b-4579400bc0c0",
+        "evaluationId": "019f6097-d1bd-7c07-8f5a-8f151fb47818",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019f6097-b3b7-7117-8515-8c57030a535b"
+        ],
+        "content": "Here is the most efficient path to recruit every character that is **Free** or costs **under 3,000 Cats**.\n\n**Total Estimated Cash Needed:** ~20,000 Cats (plus funds to buy generic recruits).\n**Total Recruits:** ~25+ Characters.\n\n### **Phase 1: The Start & The Shek (West)**\n*Start in The Hub. This area is safe and provides your first free squad members.*\n\n1.  **The Hub (21)**\n    *   **Recruits:** **Hobbs** (Free), **\"Amateur Recruit\"** / **\"Ex-Slave Recruit\"** (3,000).\n    *   *Note:* Buy generic recruits here to flesh out the squad early.\n2.  **Squin (29)**\n    *   **Recruits:** **Ruka** (Free).\n    *   *Note:* Check for **\"Amateur Recruit\"** (3,000) here as well.\n3.  **Mongrel (10)**\n    *   **Recruits:** **Beep** (Free), **Crumblejon** (Free), **Shryke** (Free).\n    *   *Note:* This is the best \"Free\" stop on the map.\n\n### **Phase 2: Holy Nation Coast (North)**\n*Head north along the coast. Watch out for Holy Paladins.*\n\n4.  **Fishing Village (2)**\n    *   **Recruits:** **Green Finger** (2,000).\n5.  **Flotsam Village (5)**\n    *   **Recruits:** **Digna** (3,000), **Pia** (3,000).\n    *   *Skip:* Knife and Reva (Too expensive).\n6.  **World's End (6)**\n    *   **Recruits:** **Bard** (3,000), **Silvershade** (3,000).\n    *   *Note:* You can also find **\"Recruit Seeking Revenge\"** or **\"Wall Man\"** here (3k-5k).\n\n### **Phase 3: The Swamp (South Central)**\n*Travel south to the swamp. Bring rain hats. This is a goldmine for free medics and fighters.*\n\n7.  **Mud Town (31) & Shark (32)**\n    *   **Recruits:** **Doctor Chung** (Free), **Hamut** (Free), **Miu** (Free), **Green** (2,300).\n    *   *Note:* These towns share a recruit pool. You may also find cheap Skeleton recruits here (**\"Skeleton Survivor\"** 2,500).\n8.  **Slave Markets (36)**\n    *   **Recruits:** **Ray** (1,000).\n    *   *Skip:* Headshot (7,500).\n\n### **Phase 4: United Cities (East & North)**\n*Head east into UC territory. Be polite to the authorities.*\n\n9.  **Sho-Battai (3)**\n    *   **Recruits:** **Ells** (300).\n    *   *Note:* Extremely cheap unique recruit.\n10. **Bark (1)**\n    *   **Recruits:** **Red** (150).\n    *   *Note:* The cheapest unique recruit in the game.\n11. **Heng / Trader's Edge (13)**\n    *   **Recruits:** **Izumi** (2,500).\n    *   *Condition:* **Yamdu** is Free, but requires you to capture a rival leader and hand them over to the Traders Guild (End-game task).\n12. **Stoat (7) & Heft (8)**\n    *   **Recruits:** Look for **\"Amateur Recruit\"** or **\"Ex-Slave Recruit\"** (3,000).\n13. **Black Desert City (16)**\n    *   **Recruits:** **Sadneil** (Free).\n\n### **Phase 5: High Danger / Prisons (Central)**\n*These locations require a strong squad to break in or survive.*\n\n14. **Tower of Abuse (23)**\n    *   **Recruits:** **Agnu** (Free).\n    *   *Condition:* Must defeat the Thrall Masters and free him from the cage.\n15. **Black Scratch (25)**\n    *   **Recruits:** **Bo** (Free).\n    *   *Condition:* Talk to her and agree to join the Anti-Slavers.\n16. **Tengu's Vault (12)**\n    *   **Recruits:** **Espher** (Free), **Luquin** (Free), **Sinklyde** (Free).\n    *   *Condition:* Requires high Lockpicking/Stealth or a massive assault to free them from cages.\n17. **Dust King Tower (19)**\n    *   **Recruits:** **Cat** (Free).\n    *   *Condition:* Must defeat the Dust King and free him from the cage.\n\n---\n\n### **Summary of \"Almost Free\" (<3k) Recruits**\n*   **Red:** 150 Cats (Bark)\n*   **Ells:** 300 Cats (Sho-Battai)\n*   **Ray:** 1,000 Cats (Slave Markets)\n*   **Green Finger:** 2,000 Cats (Fishing Village)\n*   **Green:** 2,300 Cats (Mud Town/Shark)\n*   **Izumi:** 2,500 Cats (Heng/Trader's Edge)\n\n### **Summary of Free Recruits**\n*   **Hobbs, Ruka, Beep, Crumblejon, Shryke** (West/North)\n*   **Doctor Chung, Hamut, Miu** (Swamp)\n*   **Sadneil, Agnu, Bo, Espher, Luquin, Sinklyde, Cat** (East/Prisons)",
+        "reasoning": "The user wants a path optimized for \"Free\" recruits and those costing less than 3,000 cats.\nI need to filter the provided list based on cost:\n- **Free:** Agnu, Beep, Bo, Burn, Cat, Cornelius (Wait, Cornelius is 7,000 - exclude), Crumblejon, Doctor Chung, Espher, Hamut, Hobbs, Infinite Wingwang (5,000 - exclude), Izumi (2,500 - include), Miu, Riddly, Ruka, Sadneil, Seto (Free but hard condition), Shryke, Sinklyde, Luquin (Free), Yamdu (Free but hard condition).\n- **< 3,000 Cats:** Bard (3,000 - borderline, user said \"below 3000\" but usually implies \"cheap\", I will include 3,000 as it's on the edge, but strictly speaking \"below\" means <3000. Let's look at the list again.\n    - Red: 150 (Include)\n    - Ells: 300 (Include)\n    - Ray: 1,000 (Include)\n    - Green Finger: 2,000 (Include)\n    - Green: 2,300 (Include)\n    - Izumi: 2,500 (Include)\n    - Digna: 3,000 (Exclude if strictly <3000, but usually \"almost free\" includes the cheap tier. I will include 3,000 tier as \"budget\" recruits).\n    - Pia: 3,000 (Include)\n    - Bard: 3,000 (Include)\n    - Silvershade: 3,000 (Include)\n    - Amateur Recruit: 3,000 (Include)\n    - Ex-Slave Recruit: 3,000 (Include)\n    - Recruit Seeking Revenge: 3,000 (Include)\n\nLet's refine the \"Free\" list based on the prompt's specific text:\n- **Free (No cost):** Agnu, Beep, Bo, Burn, Cat, Crumblejon, Doctor Chung, Espher, Hamut, Hobbs, Miu, Riddly, Ruka, Sadneil, Seto, Shryke, Sinklyde, Luquin, Yamdu.\n- **< 3,000 (Strictly):** Red (150), Ells (300), Ray (1,000), Green Finger (2,000), Green (2,300), Izumi (2,500).\n- **Exactly 3,000 (Borderline \"Almost Free\"):** Bard, Digna, Pia, Silvershade, Amateur Recruit, Ex-Slave Recruit, Recruit Seeking Revenge. I will include these because 3k is very cheap in Kenshi early game.\n\n**Route Planning Strategy:**\n1.  **Start:** The Hub (21).\n2.  **Immediate Area:** Get Hobbs, generic recruits.\n3.  **North/West (Shek/Nomad):** Squin/Admag for Ruka (Free). Settled Nomad Village is too expensive (Cornelius 7k).\n4.  **Fog Islands:** Mongrel (10) is a goldmine for free recruits (Beep, Crumblejon, Shryke).\n5.  **Holy Nation North:** Fishing Village (2) for Green Finger (2,000). Flotsam (5) is expensive (Digna/Pia/Reva/Knife are all 3k-6k). Wait, Digna/Pia are 3k. Reva/Knife are 6k. So Flotsam is okay for Digna/Pia.\n6.  **Holy Nation Central:** Blister Hill/Stack/Bad Teeth are expensive (Griffin 9k). But Bard (3k) is in World's End (6).\n7.  **Swamp:** Mud Town/Shark (31/32). Doctor Chung, Hamut, Miu are Free. Green is 2,300. This is a MUST visit.\n8.  **Slave Markets (36):** Ray (1,000).\n9.  **UC Territory:**\n    -   Sho-Battai (3): Ells (300).\n    -   Bark (1): Red (150).\n    -   Heng/Trader's Edge (13): Izumi (2,500). Yamdu (Free - hard condition).\n    -   Stoat/Heft (7/8): Check for generic UC recruits (3k).\n    -   Black Desert City (16): Sadneil (Free).\n    -   Tower of Abuse (23): Agnu (Free - hard fight).\n    -   Black Scratch (25): Bo (Free - join anti-slavers).\n    -   Tengu's Vault (12): Espher, Luquin, Sinklyde (Free - prison break).\n    -   Dust King Tower (19): Cat (Free - prison break).\n\n**Optimized Path:**\nHub -> Squin (Ruka) -> Mongrel (Free trio) -> Fishing Village (Green Finger) -> Flotsam (Digna/Pia - 3k) -> World's End (Bard/Silvershade - 3k) -> Swamp (Mud Town/Shark - Free trio + Green 2.3k) -> Slave Markets (Ray 1k) -> Sho-Battai (Ells 300) -> Bark (Red 150) -> Heng (Izumi 2.5k) -> Black Desert (Sadneil Free) -> Tower of Abuse (Agnu Free) -> Black Scratch (Bo Free) -> Tengu's Vault (Free trio) -> Dust King (Cat Free).\n\n*Self-Correction on Geography:*\nThe map numbers are:\nHub (21)\nSquin (29)\nMongrel (10)\nFishing Village (2)\nFlotsam (5)\nWorld's End (6)\nMud Town (31) / Shark (32)\nSlave Markets (36)\nSho-Battai (3)\nBark (1)\nHeng (13)\nBlack Desert (16)\nTower of Abuse (23)\nBlack Scratch (25)\nTengu's Vault (12)\nDust King (19)\n\nLet's group by region to minimize travel time.\n\n**Group 1: The Start & Shek (West/North)**\n- Hub (21): Hobbs (Free), Generic Recruits (3k).\n- Squin (29): Ruka (Free).\n- Mongrel (10): Beep, Crumblejon, Shryke (All Free).\n\n**Group 2: Holy Nation North (Coast)**\n- Fishing Village (2): Green Finger (2,000).\n- Flotsam Village (5): Digna (3,000), Pia (3,000).\n- World's End (6): Bard (3,000), Silvershade (3,000).\n\n**Group 3: The Swamp (South Central)**\n- Mud Town (31) / Shark (32): Doctor Chung (Free), Hamut (Free), Miu (Free), Green (2,300).\n- Slave Markets (36): Ray (1,000).\n\n**Group 4: United Cities (East/North)**\n- Sho-Battai (3): Ells (300).\n- Bark (1): Red (150).\n- Heng / Trader's Edge (13): Izumi (2,500). *Yamdu is free but requires end-game quest.*\n- Stoat (7) / Heft (8): Generic UC Recruits (3k).\n- Black Desert City (16): Sadneil (Free).\n\n**Group 5: High Danger / Prisons (Central/East)**\n- Tower of Abuse (23): Agnu (Free).\n- Black Scratch (25): Bo (Free).\n- Tengu's Vault (12): Espher, Luquin, Sinklyde (Free).\n- Dust King Tower (19): Cat (Free).\n\n**Refining the Route Order:**\nStart Hub (21) -> Squin (29) [Ruka] -> Mongrel (10) [Free Trio] -> Fishing Village (2) [Green Finger] -> Flotsam (5) [Digna/Pia] -> World's End (6) [Bard/Silvershade] -> *Travel South* -> Mud Town/Shark (31/32) [Free Trio + Green] -> Slave Markets (36) [Ray] -> *Travel North/East* -> Sho-Battai (3) [Ells] -> Bark (1) [Red] -> Heng (13) [Izumi] -> Stoat/Heft (7/8) [Generics] -> Black Desert (16) [Sadneil] -> *Travel West/South* -> Tower of Abuse (23) [Agnu] -> Black Scratch (25) [Bo] -> *Travel North* -> Tengu's Vault (12) [Free Trio] -> Dust King (19) [Cat].\n\n*Wait, check Cornelius.* Cornelius is 7,000. Exclude.\n*Check Infinite Wingwang.* 5,000. Exclude.\n*Check Seto.* Free, but requires Shek relations. Can be done near Squin/Admag. I'll add a note.\n\n*Check \"Amateur Recruit\" etc.* They are in Hub, Squin, Stoat, Heft, Heng, Black Scratch, Waystations. I will mention them at the relevant stops.\n\n**Final Polish of the Path:**\n1.  **Hub (21)**: Hobbs, Generics.\n2.  **Squin (29)**: Ruka.\n3.  **Mongrel (10)**: Beep, Crumblejon, Shryke.\n4.  **Fishing Village (2)**: Green Finger (2k).\n5.  **Flotsam (5)**: Digna, Pia (3k each).\n6.  **World's End (6)**: Bard, Silvershade (3k each).\n7.  **Mud Town (31) / Shark (32)**: Doctor Chung, Hamut, Miu (Free), Green (2.3k).\n8.  **Slave Markets (36)**: Ray (1k).\n9.  **Sho-Battai (3)**: Ells (300).\n10. **Bark (1)**: Red (150).\n11. **Heng (13)**: Izumi (2.5k).\n12. **Stoat (7) / Heft (8)**: Generics.\n13. **Black Desert City (16)**: Sadneil (Free).\n14. **Tower of Abuse (23)**: Agnu (Free).\n15. **Black Scratch (25)**: Bo (Free).\n16. **Tengu's Vault (12)**: Espher, Luquin, Sinklyde (Free).\n17. **Dust King Tower (19)**: Cat (Free).\n\nThis covers almost everyone under 3k or free.\nTotal Cost estimate:\nGreen Finger: 2000\nDigna: 3000\nPia: 3000\nBard: 3000\nSilvershade: 3000\nGreen: 2300\nRay: 1000\nElls: 300\nRed: 150\nIzumi: 2500\nGenerics: ~3000 each (variable)\nTotal Cash needed: ~20,000 cats + cost of generic recruits. This is very achievable early-mid game.\n\nI will structure the response clearly by region/stops.",
+        "experimental_attachments": [],
+        "modelId": "019c6918-1d2a-7e3f-88ec-ada000b6ab16",
+        "createdAt": "2026-07-14T12:26:30.223617+00:00",
+        "updatedAt": "2026-07-14T12:34:30.155238+00:00",
+        "participantPosition": "b",
+        "pairwiseFeedbackId": "019f609f-2475-7993-b310-0734c89920e6",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 3675,
+            "totalTokens": 7754,
+            "usageSource": "provider",
+            "outputTokens": 4079,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 2726
+          },
+          "fromAutoRouter": false,
+          "excludeFromContext": true,
+          "directBattleStrategy": "random-random"
+        }
+      },
+      {
+        "id": "019f6097-b3d7-776b-9b49-fe10dd35391e",
+        "evaluationSessionId": "019f608e-9c7f-7b15-be0b-4579400bc0c0",
+        "evaluationId": "019f6097-d1bd-7c07-8f5a-8f151fb47818",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019f6097-b3b7-7117-8515-8c57030a535b"
+        ],
+        "content": "# Path for Free & Cheap Recruits (Under 3,000 Cats)\n*Total budget needed: ~20,750 Cats*\n\n---\n\n### **Phase 1: The Central UC Basin (South of Hub)**\n*Cheap and quick starting recruits.*\n\n1.  **The Hub (21) — START:** Recruit **Hobbs** (Free) and **Riddly** (Free, any UC town).\n2.  **Squin (29):** Recruit **Ruka** (Free) and **Izumi** (2,500).\n3.  **Mud Town (31) & Shark (32):** These share a recruit pool. Grab:\n    *   **Doctor Chung** (Free)\n    *   **Hamut** (Free)\n    *   **Miu** (Free)\n    *   **Green** (2,300)\n\n### **Phase 2: The Deadlands Rescue Run**\n*Prepare for combat — cages need to be broken.*\n\n4.  **Tower of Abuse (23):** Free **Agnu** from his cage (Free).\n5.  **Black Scratch (25):** Recruit **Bo** (Free) — must agree to join the Anti-Slavers.\n6.  **Black Desert City (16):** Recruit **Sadneil** (Free).\n\n### **Phase 3: The UC Heartland (North)**\n*Dodge Samurai patrols.*\n\n7.  **Tengu's Vault (12):** Break in and free the trio from their cages:\n    *   **Espher** (Free)\n    *   **Luquin** (Free)\n    *   **Sinklyde** (Free)\n8.  **Sho-Battai (3):** Recruit **Ells** (300).\n9.  **Bark (1):** Recruit **Red** (150) — the cheapest recruit in the game.\n\n### **Phase 4: The Northern Coast & Fog Islands**\n*Watch for Fogmen once you head west.*\n\n10. **Fishing Village (2):** Recruit **Green Finger** (2,000).\n11. **Flotsam Village (5):** Recruit **Digna** (3,000) and **Pia** (3,000).\n12. **World's End (6):** Recruit **Bard** (3,000) and **Silvershade** (3,000).\n13. **Burn's Tower (4):** Recruit **Burn** (Free).\n\n### **Phase 5: Return to Hub via Fog & Dust**\n\n14. **Mongrel (10):** Recruit **Beep** (Free), **Crumblejon** (Free), and **Shryke** (Free).\n15. **Dust King Tower (19):** Defeat the Dust King and free **Cat** from her cage (Free) on your way back home.\n16. **Return to The Hub (21).**\n\n---\n\n### **Cost Breakdown**\n| Category | Count | Cost |\n|---|---|---|\n| Free Recruits | 17 | 0 |\n| Cheap Recruits | 10 | 20,750 |\n| **TOTAL** | **27 characters** | **~20,750 Cats** |\n\n### **Skipped (Too Expensive/Conditional)**\n- **Ray (1,000)** in Slave Markets/Eyesocket — technically cheap, but requires a long detour deep into the Deadlands/UC East. *Optional add-on if you pass through.*\n\n💡 **Tip:** Save the cage-rescues (Agnu, Cat, Tengu's Vault trio) for when your squad is stronger. If you want a truly early run, do Phases 1, 4, and 5 first, then come back for the prison breaks.",
+        "experimental_attachments": [],
+        "modelId": "019d9808-2b2f-7272-b7ea-0634461e5316",
+        "createdAt": "2026-07-14T12:26:30.223617+00:00",
+        "updatedAt": "2026-07-14T12:34:30.152576+00:00",
+        "participantPosition": "a",
+        "pairwiseFeedbackId": "019f609f-2475-7993-b310-0734c89920e6",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 5068,
+            "totalTokens": 7430,
+            "usageSource": "provider",
+            "outputTokens": 2362,
+            "cacheReadTokens": 0,
+            "cacheWriteTokens": 0
+          },
+          "fromAutoRouter": false,
+          "excludeFromContext": true,
+          "directBattleStrategy": "random-random"
+        }
+      },
+      {
+        "id": "019f609f-0f53-7c0b-b142-274b174c6c95",
+        "evaluationSessionId": "019f608e-9c7f-7b15-be0b-4579400bc0c0",
+        "evaluationId": "019f609f-247c-7def-a1fc-3772f62bf087",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019f6097-b3b7-7117-8515-8c57030a535b"
+        ],
+        "content": "This path prioritizes the **17 completely free recruits** and the **7 \"almost free\" recruits** (under 3,000 Cats). \n\nTo complete this list, you will need approximately **10,750 Cats** total and a character with high **Lockpicking** and **Stealth** (or a very strong combat squad) to handle the cage rescues.\n\n### **Phase 1: The Starting Zone (The Hub & Shek Kingdom)**\n1.  **The Hub (21):** Recruit **Hobbs** (Free).\n2.  **Squin (29):** Recruit **Ruka** (Free).\n3.  **Dust King Tower (19):** Fight through the Bandits to the top floor. Recruit **Cat** (Free - must unlock his cage).\n\n### **Phase 2: The Swamps (South of The Hub)**\n*Note: The Swamps are dangerous. Stick to the paths to avoid Blood Spiders.*\n4.  **Mud Town (31) & Shark (32):** These two towns contain a high density of cheap recruits.\n    *   **Doctor Chung** (Free)\n    *   **Hamut** (Free)\n    *   **Miu** (Free)\n    *   **Green** (2,300 Cats)\n    *   **Skeleton Survivor** (2,500 Cats - Unique generic)\n\n### **Phase 3: The Fog & The North Coast**\n*Run through the Fog Islands; don't stop moving until you reach the city.*\n5.  **Mongrel (10):** Recruit **Beep** (Free), **Crumblejon** (Free), and **Shryke** (Free).\n6.  **Burn’s Tower (4):** Located in the Floodlands. Recruit **Burn** (Free).\n7.  **Fishing Village (2):** On the northern coast. Recruit **Green Finger** (2,000 Cats).\n\n### **Phase 4: The Deadlands & The Pits (East)**\n*You will need Acid Protection (coats/hats) for this area.*\n8.  **Black Desert City (16):** Located in the center of the Deadlands. Recruit **Sadneil** (Free).\n9.  **Tower of Abuse (23):** This is a high-difficulty combat zone. Rescue **Agnu** from the cage on the top floor (Free).\n10. **Black Scratch (25):** Talk to **Bo**. *Condition:* You must agree to join the Anti-Slavers to recruit her (Free).\n\n### **Phase 5: The Great Desert (United Cities)**\n*This loop covers the North-East corner of the map.*\n11. **Slave Markets (36) or Eyesocket (18):** Recruit **Ray** (1,000 Cats). He is a mute drone; you must \"buy\" him, but he is uniquely cheap for his stats.\n12. **Tengu’s Vault (12):** This is the most difficult step. You must sneak in or storm the prison. Rescue **Espher**, **Luquin**, and **Sinklyde** from their cages (Free).\n13. **Sho-Battai (3):** Recruit **Ells** (300 Cats).\n14. **Bark (1):** Recruit **Red** (150 Cats).\n15. **Any UC Town (7, 8, or 13):** Look in the bars for **Riddly** (Free) and **Izumi** (2,500 Cats).\n\n---\n\n### **Shopping List / Budget**\n*   **Ray:** 1,000\n*   **Green Finger:** 2,000\n*   **Green:** 2,300\n*   **Skeleton Survivor:** 2,500\n*   **Izumi:** 2,500\n*   **Ells:** 300\n*   **Red:** 150\n*   **Total Cats Needed:** **10,750**\n\n### **Special Requirements Summary**\n*   **Agnu/Cat/Vault Trio:** Requires high **Lockpicking** (Skill 40+ recommended) or tools.\n*   **Bo:** Requires finding her in Black Scratch and siding against the Traders Guild/Slavers.\n*   **Agnu:** Requires defeating or sneaking past **Ponya and Agnu's jailers** (Level 40-50 Skeletons).",
+        "experimental_attachments": [],
+        "modelId": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "createdAt": "2026-07-14T12:34:30.15221+00:00",
+        "updatedAt": "2026-07-14T12:34:45.678579+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 3726,
+            "totalTokens": 5912,
+            "usageSource": "provider",
+            "outputTokens": 2186,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 1187
+          },
+          "fromAutoRouter": false
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019f6090-85d3-7807-af69-27b79a43697a",
+        "modality": "chat",
+        "arenaId": "df16ee91-d668-4f41-81bb-22a90b1e7bbe",
+        "metadata": null
+      },
+      {
+        "id": "019f6097-d1bd-7c07-8f5a-8f151fb47818",
+        "modality": "chat",
+        "arenaId": "df16ee91-d668-4f41-81bb-22a90b1e7bbe",
+        "metadata": {
+          "shouldSkipEval": true,
+          "directBattleStrategy": "random-random"
+        }
+      },
+      {
+        "id": "019f609f-247c-7def-a1fc-3772f62bf087",
+        "modality": "chat",
+        "arenaId": "df16ee91-d668-4f41-81bb-22a90b1e7bbe",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [
+      {
+        "id": "019f609f-2475-7993-b310-0734c89920e6",
+        "messageAId": "019f6097-b3d7-776b-9b49-fe10dd35391e",
+        "messageBId": "019f6097-b3d7-7240-97dc-ca8035992fcb",
+        "value": "skip",
+        "modelAId": "019d9808-2b2f-7272-b7ea-0634461e5316",
+        "modelBId": "019c6918-1d2a-7e3f-88ec-ada000b6ab16",
+        "arenaId": "df16ee91-d668-4f41-81bb-22a90b1e7bbe"
+      }
+    ],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-flash",
+        "name": "gemini-3-flash",
+        "displayName": "gemini-3-flash",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": true
+      },
+      {
+        "id": "019c6918-1d2a-7e3f-88ec-ada000b6ab16",
+        "organization": "alibaba",
+        "provider": "alibaba",
+        "publicName": "qwen3.5-397b-a17b",
+        "name": "qwen3.5-397b-a17b",
+        "displayName": "qwen3.5-397b-a17b",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": true
+      },
+      {
+        "id": "019d9808-2b2f-7272-b7ea-0634461e5316",
+        "organization": "anthropic",
+        "provider": "googleVertexAnthropicAdaptive",
+        "publicName": "claude-opus-4-7-thinking",
+        "name": "claude-opus-4-7-thinking",
+        "displayName": "claude-opus-4-7-thinking",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

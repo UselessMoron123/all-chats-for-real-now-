@@ -1,0 +1,95 @@
+{
+  "exportedAt": "2026-10-09T16:28:05.214Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c7572-629f-70ec-8746-693cfab1d7a7",
+  "archivedAt": "2026-09-30 20:20:47.599+00",
+  "evaluation": {
+    "id": "019c7572-629f-70ec-8746-693cfab1d7a7",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "CK2. Choose year, dynasty, and write the course of its progression. Like AAR but with less literatur",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c7574-22ad-7d2a-b7f4-7b6860c22d04"
+    ],
+    "archivedAt": "2026-09-30 20:20:47.599+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-19 10:31:13.861+00",
+    "updatedAt": "2026-03-11 04:23:37.146191+00",
+    "messages": [
+      {
+        "id": "019c7574-22ac-7888-944d-2989ed33d110",
+        "evaluationSessionId": "019c7572-629f-70ec-8746-693cfab1d7a7",
+        "evaluationId": "019c7574-2efa-78a0-979e-ed26d539c480",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "CK2. Choose year, dynasty, and write the course of its progression. Like AAR but with less literature. Like a gamer seeing things like they are, gameplay wise.",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-19T10:31:14.43009+00:00",
+        "updatedAt": "2026-02-19T10:31:14.43009+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c7574-22ad-7d2a-b7f4-7b6860c22d04",
+        "evaluationSessionId": "019c7572-629f-70ec-8746-693cfab1d7a7",
+        "evaluationId": "019c7574-2efa-78a0-979e-ed26d539c480",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c7574-22ac-7888-944d-2989ed33d110"
+        ],
+        "content": "Here is a gameplay-focused progression log (AAR) for one of the most classic \"Return to Glory\" challenges in CK2.\n\n**Start Date:** 1066 (High Middle Ages)\n**Character:** Count Herbert Karling of Vermandois\n**Dynasty:** Karling (The last landed male descendant of Charlemagne)\n**Goal:** Reclaim the Empire of Francia and the HRE.\n\n***\n\n### Generation 1: Count Herbert \"The Rat\" Karling (1066–1090)\n**Situation:** I am a single-county Count under the King of France. Everyone hates me because I have a claim on the Kingdom, but no army to back it up. The Capet Kings want my land.\n\n*   **1066:** Immediately pick the **Seduction Focus**. I need a lot of kids for alliances, and my wife is mediocre. I set my Chancellor to fabricate a claim on the neighboring County of Amiens.\n*   **1067:** Borrow 300 gold from Jewish merchants. Expel the Jews for another 200 gold. I need merc money.\n*   **1068:** Fabrication succeeds (20% RNG, lucky). I declare war on the Count of Amiens. I hire the cheapest mercenary band. I stack wipe him. I am now a double-count.\n*   **1070:** King Philippe of France demands I switch to Gavelkind. I refuse. He doesn't revoke because he’s busy losing a war to William the Conqueror.\n*   **1075:** My Chancellor is now parked in Paris to \"Improve Relations\" so the King doesn't crush me. Meanwhile, I am plotting to kill the Duke of Valois.\n*   **1078:** Plot power at 140%. The Duke dies of \"suspicious manure explosion.\" His child takes over. I immediately fabricate a claim on the Duchy title.\n*   **1085:** I usurp the Duchy of Valois. I am now a Duke. I betroth my heir, Eudes, to the third daughter of the Holy Roman Emperor (HRE) to secure a Non-Aggression Pact.\n*   **1090:** Herbert dies of stress.\n\n### Generation 2: Duke Eudes \"The Breeder\" Karling (1090–1125)\n**Situation:** Moderate power Duke. Protected by HRE alliance. Time to play the genetics game.\n\n*   **1090:** I switch to **Intrigue Focus**. My wife (the Kaiser's daughter) has a weak claim on the HRE. I need to make that claim useful for our son.\n*   **1095:** I start a murder spree in the HRE. I kill the Kaiser’s two sons. Plot power is low, so I burn a lot of gold on bribes.\n*   **1100:** My wife’s father dies. Her younger brother takes the throne. My wife now has a strong claim? No, still weak. Whatever. I focus on internal French politics.\n*   **1105:** I start a faction in France: \"Elective Monarchy.\" The AI King hates this. I force the revolt when the King is crusading in Jerusalem.\n*   **1108:** We win. France is now Elective. I am the most powerful Duke, but the electors prefer the Duke of Aquitaine.\n*   **1115:** I focus on Economy. I build Castle Towns in every holding. I need raw income for retinue cap. I invest in Heavy Infantry (Generic Shock Retinue).\n*   **1120:** I notice the genius trait in a lowborn courtier. I take her as a lover. Legitimized a genius bastard son, Pepin. He is the new heir. Sorry, legitimate firstborn son, you have the \"Slow\" trait. I order you to take vows and become a monk.\n*   **1125:** Eudes dies of \"Natural Causes\" (Age 55).\n\n### Generation 3: Duke (later King) Pepin \"The Usurper\" Karling (1125–1155)\n**Situation:** Genius stats (18 Martial, 20 Stewardship). It's go time.\n\n*   **1126:** The King of France is excommunicated by the Pope because of a Free Investiture dispute. This is my window.\n*   **1127:** I request a sanctioned invasion from the Pope. He agrees because I have high piety and the King is excommunicated.\n*   **1128:** I declare war for the Kingdom of France. I call in my allies (Duke of Flanders and a random Duke from Burgundy).\n*   **1130:** The war is a grind. The King has more troops, but the AI is stupid and takes attrition chasing a small stack of my troops in the mountains. I siege Paris.\n*   **1131:** 100% Warscore. **I am now King of France.**\n*   **1135:** Cleanup phase. I revoke titles from every vassal who fought against me. I invite high-martial characters to court to lead my armies.\n*   **1140:** I look at the HRE. It's a mess. Border gore everywhere.\n*   **1145:** I invite a claimant to the Kingdom of Aquitaine to my court. I land him with a barony. I press his claim.\n*   **1150:** Aquitaine is added to the realm. I now control almost all of modern France.\n*   **1155:** Pepin dies in battle (bad RNG on a duel event).\n\n### Generation 4: Emperor Charles \"The Spider\" Karling (1155–1190)\n**Situation:** Double King (France/Aquitaine). Goal: Empire.\n\n*   **1155:** Threat level is high (50%). Defensive pacts are forming. I can't war openly for a while.\n*   **1160:** I appoint an Anti-Pope. The real Pope excommunicates me. I don't care.\n*   **1162:** I declare war on the Papacy to press my Anti-Pope's claim.\n*   **1164:** I capture Rome. My Anti-Pope is now the real Pope and, crucially, he is my vassal.\n*   **Gameplay Loop Exploit:** I can now ask the Pope for claims on *any* Catholic Duchy, and he will say yes because he is my vassal.\n*   **1165–1175:** I claim the Duchy of Brabant, the Duchy of Savoy, and the Duchy of Lombardy. I press claims one by one. The defensive pacts trigger, but my Retinue stack (10k Heavy Infantry) plus Mercs is too strong.\n*   **1180:** I have enough land. I click the button: **Create Empire of Francia.**\n*   **1182:** The HRE is weak. I get a claim on the HRE title via the Pope (Sanctioned Invasion again).\n*   **1185:** The Great Karling War. Francia vs HRE. It’s a massive lag-fest. 40k troops vs 40k troops.\n*   **1188:** I catch the Kaiser in battle. He is captured. Warscore instantly 100%.\n*   **1190:** I hold two Empires. I destroy the HRE title to remove the \"Opinion of Predecessor\" penalty and force de-jure drift into Francia.\n\n### End State (1200)\n**Map Mode:** A massive blue blob covering France, Germany, Northern Italy, and the Low Countries.\n**Internal Politics:** Absolute Crown Authority. Vice-royalties handed out to content, old dynasty members who have no children.\n**Score:** Karling Restoration complete. Game becomes boring map-painting from here on out. Time to quit and start a new run as a Zoroastrian count.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-19T10:31:14.439077+00:00",
+        "updatedAt": "2026-02-19T10:31:57.664849+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c7574-2efa-78a0-979e-ed26d539c480",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

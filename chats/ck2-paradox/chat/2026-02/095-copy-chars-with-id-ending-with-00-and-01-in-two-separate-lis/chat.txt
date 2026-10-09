@@ -1,0 +1,811 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+Mode     : direct
+Started  : 2026-02-21 13:38:22
+Updated  : 2026-02-21 13:38:22
+Archived : 2026-09-30 23:29:31
+Messages : 2
+URL      : https://arena.ai/c/019c7fc6-8df4-7b30-963a-5384e06db2af
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 13:38:22
+------------------------------------------------------------
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything else
+901800 = {
+	name = "Basileios_0"
+	dynasty = 644
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901801 = {
+	name = "Basileios_1"
+	dynasty = 644
+	religion = orthodox
+	culture = greek
+	father = 901800
+	dna = dageigbabbe
+	properties = am0aj0000000
+	diplomacy = 8
+	martial = 6
+	stewardship = 6
+	intrigue = 8
+	trait = tough_soldier
+	trait = strong
+	trait = brave
+	trait = deceitful
+	trait = ambitious
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = basil
+		}
+		add_spouse = 908001
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904100 = {
+	name = "Alexios_0"
+	dynasty = 634
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904101 = {
+	name = "Alexios_1"
+	dynasty = 634
+	religion = orthodox
+	culture = greek
+	father = 904100
+	dna = rpxfoxiongk
+	properties = ai0a00000000000000
+	diplomacy = 9
+	martial = 9
+	stewardship = 9
+	intrigue = 8
+	trait = brave
+	trait = diligent
+	trait = proud
+	trait = patient
+	trait = greedy
+	trait = zealous
+	trait = kind
+	trait = midas_touched
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = alexios_komnenos
+		}
+		add_spouse = 908101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908000 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 908000
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908001 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 908000
+	religion = orthodox
+	culture = greek
+	father = 908000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_orthodox_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908002 = {
+	name = "Defender_2"
+	female = yes
+	dynasty = 908000
+	religion = orthodox
+	culture = greek
+	father = 901801
+	mother = 908001
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908003 = {
+	name = "Defender_3"
+	female = yes
+	dynasty = 908000
+	religion = orthodox
+	culture = greek
+	father = 908102
+	mother = 908002
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908004 = {
+	name = "Defender_4"
+	dynasty = 908000
+	religion = orthodox
+	culture = greek
+	father = 908403
+	mother = 908003
+	4.1.1 = {
+		birth = yes
+		add_spouse = 916304
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908100 = {
+	name = "Monastic_0"
+	female = yes
+	dynasty = 908100
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908101 = {
+	name = "Monastic_1"
+	female = yes
+	dynasty = 908100
+	religion = orthodox
+	culture = greek
+	father = 908100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_orthodox_02
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908102 = {
+	name = "Monastic_2"
+	dynasty = 908100
+	religion = orthodox
+	culture = greek
+	father = 904101
+	mother = 908101
+	2.1.1 = {
+		birth = yes
+		add_spouse = 908002
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908200 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 908200
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908201 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 908200
+	religion = orthodox
+	culture = greek
+	father = 908200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_orthodox_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908202 = {
+	name = "Culture_2"
+	dynasty = 908200
+	religion = orthodox
+	culture = greek
+	father = 908301
+	mother = 908201
+	2.1.1 = {
+		birth = yes
+		add_spouse = 908402
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908300 = {
+	name = "Inquisitor_0"
+	dynasty = 908300
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908301 = {
+	name = "Inquisitor_1"
+	dynasty = 908300
+	religion = orthodox
+	culture = greek
+	father = 908300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_orthodox_04
+		}
+		add_spouse = 908201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908400 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 908400
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908401 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 908400
+	religion = orthodox
+	culture = greek
+	father = 908400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_orthodox_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908402 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 908400
+	religion = orthodox
+	culture = greek
+	father = 908501
+	mother = 908401
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908403 = {
+	name = "Jewish_3"
+	dynasty = 908400
+	religion = orthodox
+	culture = greek
+	father = 908202
+	mother = 908402
+	3.1.1 = {
+		birth = yes
+		add_spouse = 908003
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908500 = {
+	name = "Theologic_0"
+	dynasty = 908500
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908501 = {
+	name = "Theologic_1"
+	dynasty = 908500
+	religion = orthodox
+	culture = greek
+	father = 908500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_orthodox_06
+		}
+		add_spouse = 908401
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 13:38:22
+------------------------------------------------------------
+Here are the characters separated into the three requested lists based on their IDs.
+
+### List 1: IDs ending with 00
+```ck2
+901800 = {
+	name = "Basileios_0"
+	dynasty = 644
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904100 = {
+	name = "Alexios_0"
+	dynasty = 634
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908000 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 908000
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908100 = {
+	name = "Monastic_0"
+	female = yes
+	dynasty = 908100
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908200 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 908200
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908300 = {
+	name = "Inquisitor_0"
+	dynasty = 908300
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908400 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 908400
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908500 = {
+	name = "Theologic_0"
+	dynasty = 908500
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 2: IDs ending with 01
+```ck2
+901801 = {
+	name = "Basileios_1"
+	dynasty = 644
+	religion = orthodox
+	culture = greek
+	father = 901800
+	dna = dageigbabbe
+	properties = am0aj0000000
+	diplomacy = 8
+	martial = 6
+	stewardship = 6
+	intrigue = 8
+	trait = tough_soldier
+	trait = strong
+	trait = brave
+	trait = deceitful
+	trait = ambitious
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = basil
+		}
+		add_spouse = 908001
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904101 = {
+	name = "Alexios_1"
+	dynasty = 634
+	religion = orthodox
+	culture = greek
+	father = 904100
+	dna = rpxfoxiongk
+	properties = ai0a00000000000000
+	diplomacy = 9
+	martial = 9
+	stewardship = 9
+	intrigue = 8
+	trait = brave
+	trait = diligent
+	trait = proud
+	trait = patient
+	trait = greedy
+	trait = zealous
+	trait = kind
+	trait = midas_touched
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = alexios_komnenos
+		}
+		add_spouse = 908101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908001 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 908000
+	religion = orthodox
+	culture = greek
+	father = 908000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_orthodox_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908101 = {
+	name = "Monastic_1"
+	female = yes
+	dynasty = 908100
+	religion = orthodox
+	culture = greek
+	father = 908100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_orthodox_02
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908201 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 908200
+	religion = orthodox
+	culture = greek
+	father = 908200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_orthodox_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908301 = {
+	name = "Inquisitor_1"
+	dynasty = 908300
+	religion = orthodox
+	culture = greek
+	father = 908300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_orthodox_04
+		}
+		add_spouse = 908201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908401 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 908400
+	religion = orthodox
+	culture = greek
+	father = 908400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_orthodox_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908501 = {
+	name = "Theologic_1"
+	dynasty = 908500
+	religion = orthodox
+	culture = greek
+	father = 908500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_orthodox_06
+		}
+		add_spouse = 908401
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 3: Everything Else
+```ck2
+908002 = {
+	name = "Defender_2"
+	female = yes
+	dynasty = 908000
+	religion = orthodox
+	culture = greek
+	father = 901801
+	mother = 908001
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908003 = {
+	name = "Defender_3"
+	female = yes
+	dynasty = 908000
+	religion = orthodox
+	culture = greek
+	father = 908102
+	mother = 908002
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908004 = {
+	name = "Defender_4"
+	dynasty = 908000
+	religion = orthodox
+	culture = greek
+	father = 908403
+	mother = 908003
+	4.1.1 = {
+		birth = yes
+		add_spouse = 916304
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908102 = {
+	name = "Monastic_2"
+	dynasty = 908100
+	religion = orthodox
+	culture = greek
+	father = 904101
+	mother = 908101
+	2.1.1 = {
+		birth = yes
+		add_spouse = 908002
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908202 = {
+	name = "Culture_2"
+	dynasty = 908200
+	religion = orthodox
+	culture = greek
+	father = 908301
+	mother = 908201
+	2.1.1 = {
+		birth = yes
+		add_spouse = 908402
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908402 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 908400
+	religion = orthodox
+	culture = greek
+	father = 908501
+	mother = 908401
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908403 = {
+	name = "Jewish_3"
+	dynasty = 908400
+	religion = orthodox
+	culture = greek
+	father = 908202
+	mother = 908402
+	3.1.1 = {
+		birth = yes
+		add_spouse = 908003
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

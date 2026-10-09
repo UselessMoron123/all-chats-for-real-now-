@@ -1,0 +1,95 @@
+{
+  "exportedAt": "2026-10-09T16:28:30.919Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c3727-e1fe-7b9a-8a7b-bfe96f1f2154",
+  "archivedAt": "2026-09-30 19:56:29.072+00",
+  "evaluation": {
+    "id": "019c3727-e1fe-7b9a-8a7b-bfe96f1f2154",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "\"Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all arond the globe. Wi",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c372a-fa93-79f3-88ff-1915d20cc9fd"
+    ],
+    "archivedAt": "2026-09-30 19:56:29.072+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-07 08:14:51.585+00",
+    "updatedAt": "2026-02-07 08:14:51.938646+00",
+    "messages": [
+      {
+        "id": "019c372a-fa90-7f28-913d-abce796ae47f",
+        "evaluationSessionId": "019c3727-e1fe-7b9a-8a7b-bfe96f1f2154",
+        "evaluationId": "019c372b-02c1-7c27-ae36-a6aefb951451",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "\"Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all arond the globe. With prosperous families, and these going to obscurity. They don't seek conquest - they carved their own domain, Archduchy, and sit there, developing it. They arrange regular marriages, and, pretty often, matrilineal ones too. inviting willingly if possible, or by money. they didn't bother much with their target being in line of succession. they could even invite people seemingly not descending from any famous house, or with claims made long ago that may be or may not true. in the end they still looked like they were the winners (it's CK2 player hunting for bloodlines. for player it's easy, with use of ingame ledgers, to track genealogy and find people carring bloodlines)\" посмотри на этот текст. что ещё можно добавить? не надо сильно развивать мысль - это \"затравка\", промт, а не полноценный текст. используй знания того как играют типичные игроки Crusader Kings.",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-07T08:14:51.934273+00:00",
+        "updatedAt": "2026-02-07T08:14:51.934273+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c372a-fa93-79f3-88ff-1915d20cc9fd",
+        "evaluationSessionId": "019c3727-e1fe-7b9a-8a7b-bfe96f1f2154",
+        "evaluationId": "019c372b-02c1-7c27-ae36-a6aefb951451",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c372a-fa90-7f28-913d-abce796ae47f"
+        ],
+        "content": "Это отличная \"затравка\". Она хорошо передает суть игры через стиль \"Tall\" (развитие одной территории без внешней экспансии) и коллекционирование.\n\nЧтобы добавить \"соли\" и сделать этот промпт более узнаваемым именно для игроков CK2 (и более интригующим для читателя), можно внедрить следующие элементы, характерные для охоты за бладлайнами (Bloodlines) и евгеникой:\n\nВот список того, что можно добавить/уточнить, разбитый по категориям:\n\n### 1. Странные критерии отбора (The \"Eugenics\" aspect)\nИгроки часто ищут не только исторические крови, но и генетические трейты (Genius, Strong, Attractive).\n*   **Добавить:** Мир в недоумении, почему этот Эрцгерцог отверг союз с дочерью Императора СРИ (у которой много земель, но плохие статы) ради женитьбы на дочери конюха или безземельной бродяге, но которая \"Гениальна\" (Genius) или \"Сильна\" (Strong).\n*   **Фраза для промпта:** *\"Kings offered them princesses with vast tracts of land, only to be politely refused. Instead, the Archduke’s heir married a penniless wanderer simply because she had 'the spark of intellect' or the 'strength of giants'.\"*\n\n### 2. \"Зоопарк\" при дворе (Court of forgotten claims)\nИгроки часто приглашают ко двору последних выживших представителей древних династий (Каролинги, Меровинги, Сасаниды), даже если они сейчас просто придворные.\n*   **Добавить:** Ощущение, что их двор — это музей. Там можно встретить потомков персидских шахов, монгольских ханов и древних святых, которые живут там просто \"для разведения\".\n*   **Фраза для промпта:** *\"Their court resembled a museum of fallen glory. Descendants of Attila, the last scions of the Merovingians, and kin of living Saints — all gathered in one castle, treated not as prisoners, but as prized breeding stock.\"*\n\n### 3. Инцест ради \"консолидации\" (The Consolidating Phase)\nСамый \"мемный\" и реалистичный аспект CK2. Как только игрок собрал разные линии крови в разных ветвях своей династии, он начинает женить кузенов, чтобы объединить все бонусы в одном наследнике.\n*   **Добавить:** Мир начинает замечать, что после фазы \"сбора\" невест со всего света, эта династия внезапно замыкается в себе. Церковь в ужасе, но у них достаточно денег, чтобы купить индульгенции или принять \"свою\" ересь (Messalianism/Zoroastrianism).\n*   **Фраза для промпта:** *\"And then, the marriages with the outside world stopped. To preserve the distilled essence of kings and heroes, they turned inward. Cousins marrying cousins, defying the Church, forging a being that carried the legacy of twenty legendary warriors in one body.\"*\n\n### 4. Отношение к \"бракованным\" детям\nИгроки жестоки к тем, кто не унаследовал нужный бладлайн.\n*   **Добавить:** Судьба тех членов династии, кто не получил \"дар\" (бладлайн), печальна. Их насильно стригут в монахи, отправляют в святые ордена или они \"случайно\" пропадают, чтобы не портить чистоту линии наследования.\n*   **Фраза для промпта:** *\"Those children born without the 'spark' vanished quietly into monasteries or Holy Orders. Only the perfect specimens remained.\"*\n\n### Итоговый вариант (сборка)\n\nЕсли объединить это в твой текст, получится примерно так (жирным выделено то, что добавлено):\n\n> \"Narrate. World's pov seeing one peculiar rising dynasty arranging marriages all around the globe. While others wage war, they carved their own domain, an Archduchy, and sit there, developing it tall. They arrange regular marriages, often matrilineal, inviting targets willingly or buying them with immense bribes.\n>\n> They ignore succession lines. **Powerful monarchs are baffled when their alliance offers are rejected in favor of landless wanderers or descendants of long-dead empires like the Sassanids or Merovingians.** The dynasty hunts for something else: the blood of legends—Attila, Charlemagne, Saints.\n>\n> **Their court looks like a museum of fallen houses.** And once they collect these traits, **the horror begins: they turn inward, marrying cousin to cousin to consolidate these ancient powers into a single heir, discarding 'imperfect' children to monasteries.** To the world, they aren't conquerors, but they are breeding a god.\"\n\n**Почему это работает:**\nЭто добавляет конфликт (отказ королям), объясняет механику (консолидация через инбридинг) и создает атмосферу жутковатого экспериментирования, которая очень характерна для поздней игры в Crusader Kings.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-07T08:14:51.936492+00:00",
+        "updatedAt": "2026-02-07T08:15:24.689491+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c372b-02c1-7c27-ae36-a6aefb951451",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

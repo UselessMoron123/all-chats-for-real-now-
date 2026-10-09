@@ -1,0 +1,103 @@
+{
+  "exportedAt": "2026-10-09T16:27:54.164Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019d3dc3-295b-7075-bb94-db7c4dd499f6",
+  "archivedAt": "2026-09-30 20:18:01.451+00",
+  "evaluation": {
+    "id": "019d3dc3-295b-7075-bb94-db7c4dd499f6",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "Hypothetical question. If Matilda Canossa, Enrico Dandolo, Bohemond (of Antioch ) Hauteville and Rog",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019d3dc6-9bcc-704b-b5fd-b7bfb5f2e3fa"
+    ],
+    "archivedAt": "2026-09-30 20:18:01.451+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-03-30 08:05:21.509+00",
+    "updatedAt": "2026-03-30 08:05:22.179451+00",
+    "messages": [
+      {
+        "id": "019d3dc6-9bcb-74fe-914e-831176c3a8e5",
+        "evaluationSessionId": "019d3dc3-295b-7075-bb94-db7c4dd499f6",
+        "evaluationId": "019d3dc6-a657-7bc1-91a9-1fe6693c7082",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "Hypothetical question. If Matilda Canossa, Enrico Dandolo, Bohemond (of Antioch ) Hauteville and Roger (of Sicily) Hauteville, lived in same time, who would Matilda choose to marry?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-30T08:05:22.170638+00:00",
+        "updatedAt": "2026-03-30T08:05:22.170638+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "dlpOutput": {
+            "stats": {
+              "PERSON_NAME": 2,
+              "GEOGRAPHIC_DATA": 4
+            },
+            "severity": "REDACT"
+          }
+        }
+      },
+      {
+        "id": "019d3dc6-9bcc-704b-b5fd-b7bfb5f2e3fa",
+        "evaluationSessionId": "019d3dc3-295b-7075-bb94-db7c4dd499f6",
+        "evaluationId": "019d3dc6-a657-7bc1-91a9-1fe6693c7082",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d3dc6-9bcb-74fe-914e-831176c3a8e5"
+        ],
+        "content": "To answer this fantastic hypothetical question, we first have to understand **Matilda of Tuscany’s (Canossa)** motivations. \n\nIn real life, Matilda (1046–1115) did not marry for love; she married for geopolitical survival. She was fiercely independent, a brilliant military commander, and the ultimate partisan of the Papacy during the Investiture Controversy against the Holy Roman Emperor. She hated being dominated by a husband (her first marriage to Godfrey the Hunchback was miserable because he tried to rule her lands). \n\nIf she were to choose between Enrico Dandolo, Bohemond of Antioch, and Roger of Sicily, her choice would come down to three criteria: **Who can best protect the Pope? Who can defeat the Holy Roman Emperor? And who will leave her alone to rule Tuscany as she sees fit?**\n\nHere is how the suitors stack up, and who she would ultimately choose.\n\n### 1. Enrico Dandolo (Doge of Venice)\n* **The Pitch:** The ultimate statesman. Dandolo brings immense wealth, an unparalleled navy, and a brilliant, pragmatic geopolitical mind. \n* **Matilda’s View:** **Hard Pass.** \n* **Why:** Dandolo was a Venetian first, second, and third. He famously prioritized the Republic of Venice over the dictates of the Papacy (as seen when he ignored papal excommunications to sack Zara and Constantinople during the Fourth Crusade). Matilda, whose defining trait was her unshakeable devotion to the Pope, would be disgusted by Dandolo’s cynical use of religion for profit. Furthermore, Venice’s power was maritime and economic; Matilda needed massive land armies to hold off the German knights of the Holy Roman Empire. \n\n### 2. Bohemond of Antioch (Hauteville)\n* **The Pitch:** The ultimate warrior. Bohemond was a charismatic giant, a tactical genius, and one of the most fearsome commanders of the First Crusade. \n* **Matilda’s View:** **Tempting, but too dangerous.** \n* **Why:** Bohemond was a brilliant general, which Matilda desperately needed. However, Bohemond was also an opportunistic, power-hungry rogue. He was entirely self-interested, famously betraying the Byzantine Emperor to carve out his own principality in Antioch. If Matilda married Bohemond, he would immediately try to take over her armies, usurp her authority in Tuscany, and likely use her lands to launch his own vainglorious wars. Matilda despised men who tried to control her, and Bohemond’s ego was too massive to play second fiddle to a powerful wife. \n\n### 3. Roger of Sicily (Hauteville)\n*(Assuming the archetype of the Hauteville rulers of Sicily, like Roger I the Great Count or King Roger II)*\n* **The Pitch:** Massive wealth, a highly organized state, a terrifyingly effective army, and absolute control of Southern Italy.\n* **Matilda’s View:** **The Winner.**\n* **Why:** Geopolitically, a marriage between Matilda of Tuscany (who controlled Northern/Central Italy) and Roger of Sicily (who controlled the South) is a Holy Roman Emperor's worst nightmare. It creates a massive geographical pincer movement with Rome and the Pope safely in the middle. \n\nHistorically, the Normans of Southern Italy *were* the military protectors of the Papacy; Robert Guiscard (Roger I's brother) famously rescued Pope Gregory VII—Matilda’s greatest ally—from Emperor Henry IV. \n\nFurthermore, Roger was a pragmatic state-builder who was heavily occupied with running his complex, multicultural realm in Sicily and Southern Italy. This is exactly what Matilda wanted in a husband: a man with a massive army who was **too busy ruling his own lands to come to Tuscany and bother her.** \n\n### The Verdict: Roger of Sicily\nMatilda would choose **Roger of Sicily**. \n\nThey probably wouldn't have a very romantic marriage. Matilda was a strict, devout, zealous Catholic reformer, whereas Roger ran a cosmopolitan court filled with Greek Christians, Muslim scholars, and Norman warlords. But Matilda was a pragmatist. She would marry Roger to forge an unstoppable North-South Italian alliance, secure the Papacy from German invasion, and then happily wave goodbye to him as he sailed back to Palermo, leaving her to rule Tuscany in peace.",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-03-30T08:05:22.175413+00:00",
+        "updatedAt": "2026-03-30T08:06:05.773946+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019d3dc6-a657-7bc1-91a9-1fe6693c7082",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3.1-pro-preview",
+        "name": "gemini-3.1-pro-preview",
+        "displayName": "gemini-3.1-pro-preview",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

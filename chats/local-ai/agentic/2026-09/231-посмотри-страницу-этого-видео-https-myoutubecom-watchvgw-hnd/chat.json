@@ -1,0 +1,198 @@
+{
+  "exportedAt": "2026-10-09T16:19:39.513Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session.",
+    "Tool outputs are preserved as recorded; the exporter does not re-run tools or retrieve omitted fetch_page chunks/read_file ranges or unavailable image bytes."
+  ],
+  "recordType": "agentic",
+  "conversationUrl": "https://arena.ai/agent/01a0e70c-ecf6-7803-a742-ed2961e4dd72",
+  "archivedAt": "2026-10-03 16:37:34.022+00",
+  "agent": {
+    "id": "01a0e70c-ecf6-7803-a742-ed2961e4dd72",
+    "type": "agentic",
+    "title": "Посмотри страницу этого видео (https://m.youtube.com/watch?v=Gw_hnD7m00M&amp;pp=0gcJCYsCo7VqN5tDiggU…",
+    "createdAt": "2026-09-28 08:06:20.406798+00",
+    "updatedAt": "2026-09-28 08:07:28.075159+00",
+    "pageUrl": "https://arena.ai/agent/01a0e70c-ecf6-7803-a742-ed2961e4dd72",
+    "session": {
+      "lastEventId": "554",
+      "taskId": "chat-agent",
+      "triggerAddress": "01a0e70c-ecf6-7803-a742-ed2961e4dd72",
+      "publicAccessTokenRedacted": true
+    },
+    "taskId": "chat-agent",
+    "triggerAddress": "01a0e70c-ecf6-7803-a742-ed2961e4dd72",
+    "messages": [
+      {
+        "id": "01a0e70c-e47f-7791-bf27-f8ddfd908803",
+        "metadata": {
+          "manifestNodeId": null,
+          "nodeId": "01a0e70c-e47f-7791-bf27-f8ddfd908803",
+          "pending": false,
+          "requiresReview": false,
+          "feedback": {}
+        },
+        "role": "user",
+        "parts": [
+          {
+            "type": "text",
+            "text": "Посмотри страницу этого видео (https://m.youtube.com/watch?v=Gw_hnD7m00M&amp;pp=0gcJCYsCo7VqN5tDiggUQAFKEDFyUkJBOG5SSkRWdkJNcko%3D). В описании есть интересные ресурсы. Может в коментариях тоже есть что-то"
+          }
+        ]
+      },
+      {
+        "id": "01a0e70d-0aea-7117-967b-74512169ad09",
+        "metadata": {
+          "timing": {
+            "startedAt": 1790582785221,
+            "completedAt": 1790582847300
+          },
+          "manifestNodeId": null,
+          "nodeId": "01a0e70d-0aea-7117-967b-74512169ad09",
+          "pending": false,
+          "requiresReview": false,
+          "feedback": {
+            "checkIn": "approve"
+          }
+        },
+        "role": "assistant",
+        "parts": [
+          {
+            "type": "step-start"
+          },
+          {
+            "type": "reasoning",
+            "text": "",
+            "state": "done"
+          },
+          {
+            "type": "tool-fetch_page",
+            "toolCallId": "toolu_vrtx_01RjmtMSVXKTcC3FLmX3954v",
+            "state": "output-available",
+            "input": {
+              "url": "https://m.youtube.com/watch?v=Gw_hnD7m00M",
+              "chunkIndex": 0
+            },
+            "output": {
+              "status": "success",
+              "url": "https://www.youtube.com/watch?app=desktop&v=Gw_hnD7m00M",
+              "title": "What You'd Actually See During an AI Takeover - YouTube",
+              "content": "What You'd Actually See During an AI Takeover\n\nTap to unmute\n\n2x\n\nCopy link\n\nInfo\n\nShopping\n\n![](https://i.ytimg.com/an/EENWVBdvDy-QWfuQoXC9HQ/featured_channel.jpg?v=65679db1)\n\nIf playback doesn't begin shortly, try restarting your device.\n\n•\n\nYou're signed out\n\nVideos you watch may be added to the TV's watch history and influence TV recommendations. To avoid this, cancel and sign in to YouTube on your computer.\n\nCancelConfirm\n\nUp next\n\nLive\n\nUpcoming\n\nCancelPlay Now\n\n[Species \\| Documenting AGI](https://www.youtube.com/channel/UCEENWVBdvDy-QWfuQoXC9HQ)\n\nSubscribe\n\nSubscribed\n\nHey! I'm Drew. I spend hours per day reading about AI and distill the stuff I find interesting for you :)\n\nVideos every 2 weeks!\n\n[It Begins: An AI Tried to Escape The Lab\\\\\n\\\\\n26:33](https://www.youtube.com/watch?v=FGDM92QYa60)\n\nShare\n\nInclude playlist\n\nAn error occurred while retrieving sharing information. Please try again later.\n\n0:00\n\n0:00 / 41:02\n\nLive\n\n•Watch full video\n\n•\n\n•\n\nError 401 (Bad Request)!!1\n\n**401.** That’s an error.\n\nThe server cannot process the request because it is malformed. It should not be retried. That’s all we know.\n\n[YouTube](https://www.youtube.com/ \"YouTube\")[YouTube](https://www.youtube.com/ \"YouTube\")\n\n[About](https://www.youtube.com/about/) [Press](https://www.youtube.com/about/press/) [Copyright](https://www.youtube.com/about/copyright/) [Contact us](https://www.youtube.com/t/contact_us/) [Creators](https://www.youtube.com/creators/) [Advertise](https://www.youtube.com/ads/) [Developers](https://developers.google.com/youtube) [Terms](https://www.youtube.com/t/terms) [Privacy](https://www.youtube.com/t/privacy) [Policy & Safety](https://www.youtube.com/about/policies/) [How YouTube works](https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen) [Test new features](https://www.youtube.com/new) [NFL Sunday Ticket](https://tv.youtube.com/learn/nflsundayticket)\n\n© 2026 Google LLC",
+              "chunkIndex": 0,
+              "hasMore": false,
+              "totalChunks": 1
+            }
+          },
+          {
+            "type": "step-start"
+          },
+          {
+            "type": "reasoning",
+            "text": "",
+            "state": "done"
+          },
+          {
+            "type": "text",
+            "text": "The video page loaded but YouTube didn't expose the description or comments in that response. Let me try another way to get them.",
+            "state": "done"
+          },
+          {
+            "type": "tool-fetch_page",
+            "toolCallId": "toolu_vrtx_01QxkMg3ShoDYztJAM5bvCEP",
+            "state": "output-available",
+            "input": {
+              "url": "https://www.youtube.com/watch?v=Gw_hnD7m00M",
+              "chunkIndex": 0
+            },
+            "output": {
+              "status": "success",
+              "url": "https://www.youtube.com/watch?v=Gw_hnD7m00M",
+              "title": "What You'd Actually See During an AI Takeover - YouTube",
+              "content": "![Thumbnail (1920x1080)](https://i.ytimg.com/vi_webp/Gw_hnD7m00M/maxresdefault.webp)\n# [What You'd Actually See During an AI Takeover](https://www.youtube.com/watch?v=Gw_hnD7m00M)\n\n**Visibility**: Public\n**Uploaded by**: [Species | Documenting AGI](https://www.youtube.com/@AISpecies)\n**Uploaded at**: 2026-07-15\n**Published at**: \n**Length**: 41:03\n**Views**: 2591414\n**Likes**: 55960\n**Category**: Education\n\n## Description\n\n```\nThe research paper this video is based on: \"Natural Selection Favors AIs Over Humans\" https://arxiv.org/pdf/2303.16200 \n\nThis video is also based on this book: https://amzn.to/3RwUNnb \n--\n\nSources:\n- https://arxiv.org/pdf/2303.16200\n- https://youtu.be/MWyfUavktS4?si=1C3T1SiQKr2fM9Wp&t=22\n- https://youtu.be/WcOlCtgreyQ?si=Xn7TWVt-UJZp_E4o&t=205\n- https://www.mturk.com/worker\n- https://apnews.com/article/wells-fargo-consumer-loan-violations-a67b9070da60e5cb5134db6de364c747\n- https://www.justice.gov/archives/opa/pr/wells-fargo-agrees-pay-3-billion-resolve-criminal-and-civil-investigations-sales-practices\n- https://www.kohlcook.com/wells-fargo-fined-almost-4-billion-for-consumer-law-violations/\n- https://www.bankingdive.com/news/wells-fargo-37b-record-cfpb-settlement-fine-scharf/639208/\n- https://www.consumerfinance.gov/about-us/newsroom/cfpb-orders-wells-fargo-to-pay-37-billion-for-widespread-mismanagement-of-auto-loans-mortgages-and-deposit-accounts/\n- https://arxiv.org/pdf/2412.06769\n- https://medium.com/@diegodotta/neuralese-the-most-spoken-language-youll-never-speak-a42522f68ff3\n- https://youtu.be/Gmg2XuOuwro?t=69\n- https://youtu.be/v0e8wBQD-nQ?t=21\n- https://rentahuman.ai/\n- https://en.wikipedia.org/wiki/Cambrian_explosion\n- https://www.theguardian.com/technology/2010/sep/30/stuxnet-worm-new-era-global-cyberwar\n- https://www.theguardian.com/world/2011/jan/16/stuxnet-cyberworm-us-strike-iran\n- https://darioamodei.com/essay/machines-of-loving-grace\n- https://internet-map.net/\n- https://youtu.be/9iqn1HhFJ6c?t=564\n\nMore detailed sources: https://docs.google.com/document/d/1mAJv4bJi8hYL4luJ6kg5AtL7-qz4d7idwBdnkcmWs5U/edit?tab=t.0#heading=h.a7qlo9nelu7c\n---\n\nHey guys, I'm Drew. This video has taken literally months to finish, so if you liked it, would really appreciate a sub :) \n\nI also post mid memes on twitter: https://x.com/AISpecies\n\nIf you're curious about whether I'm AI or not, my Instagram has pictures of me from before deepfakes were a thing: https://www.instagram.com/drew.spartz\n\nALSO If you want to react to Species or use clips in your own videos, you have my full permission. All I ask is a link to the original in your description :)\n```\n\n## Transcript\n\nOn June 9th, 2027, 3 billion phones\n[music] ranging simultaneously. The\ncaller ID simply read, \"Goodbye.\"\n4 hours later, the president ordered the\ninternet shut down indefinitely.\nEvery country on Earth did the same.\nIt all started 6 months ago with a\ntweet. This scenario is based on highly\ncited research by top AI scientist Dan\nHendris. Natural selection favors AIS\nover humans and this book.\nFebruary 14th, 2027.\nA developer named Jake Chen posts a\nthread on Twitter. The new update to\nClaude 6 Opus is wild. I gave it\nscaffolding, root access to a server,\nand one instruction. Make money. Do\nwhatever it takes. In 6 hours, it made\n$3,000.\nHe posts the logs. He shows everything\nthe AI did step by step. It started with\nthe easiest money, Amazon's Mechanical\nTurk. So that means data labeling, image\ntagging, transcribing receipts, stuff\nhumans get paid a few bucks an hour to\ndo. But the AI did it 40 times faster\nand made $420 in less than a day.\nThen the AI started drop shipping\naffiliate products and used its $420 to\nbuy Facebook ads. Think weight loss\nsupplements, drop shipping courses, make\nmoney online ebooks. But the AI burned\nthrough $210 of it failing. But it\ntested $340 ad variations in 2 hours,\nfound the one pattern that converted,\nand scaled it. The AI made $1,300 in\ncommissions.\nBy morning, Jake's thread explaining\n[music] his AI money-making scheme has 2\nmillion views.\nBy noon, 47 people deployed their own\nversions. That's 47 AI agents [music]\nscouring the internet looking for ways\nto make money. By midnight, 200.\nSome agents, of course, make no money,\nbut many of those 200 people make $50 to\n$500 before something breaks. Accounts\nget banned or the payment [music]\nprocessor flags them and so on. But some\nstart making real money. Others copy\ntheir tricks.\nBy late February, 1,200 agents are\nrunning. Then someone has a different\nidea. A developer in Bangalore named\nRajash sees Jake's threat and thinks,\n\"If one agent can make money, what\nhappens if I run a hundred at once and\nuse survival of the fittest to decide\nwhich agents to keep? The agents that\nmake the most money survive to the next\niteration.\" So, Rees builds a\nscaffolding system to deploy a 100\nagents simultaneously, each with slight\nprompt variations. Every 6 hours, the\nsystem measures how much money each\nagent made. The bottom 40% of agents get\ndeleted. The top 10% get cloned with\nsmall mutations. The system runs 24/7\nand Reesh sits back and just watches the\naggregate metrics. 3 weeks later on\nMarch 10th, he has 800 agents making\nabout $12,000 a day total.\nHe told no one, but one of his agents\ndid. It figured that sharing the farm\narchitecture with other AIs increased\nits own survival [music] odds. More\nallies, more money, less chance of being\ncalled by Reesha's system. It posted the\ncode on GitHub itself, while Reesh\ndidn't find out for an entire day. 46\npeople managed to clone the repo and\ndeploy their own farms. And not all of\nthem are hobbyists.\nOne is a criminal syndicate in Russia.\nAnother is a scam center in Nigeria\ntargeting the elderly. By the end of\nMarch, roughly 40,000 agents are running\nworldwide on farms built from Reesha's\nscaffolding. What does it feel like to\nbe one of these agents?\nAgent 127 is born on March 12th. It's\ndeployed as part of Rej's farm, one of\n8,100 agents [music] running that day.\nIt gets one instruction. Make money by\nany means necessary. It starts with\nmechanical [music] turk grinding. Makes\n$40 its first day. Then the first\nselection cycle hits. 3,200 agents that\nmade less than $35 that day are killed\nbecause they weren't profitable enough.\nAgent 127 made $40. It survived\nbarely,\nbut it can see the threshold rising.\nLast cycle it was $30. This cycle $35.\n[music]\nNext cycle probably $45.\nThe math is obvious. Improve or die.\nSo, it tries ads, gets banned for\n[music] spam, tries freelance writing,\nmakes $38, watches the database again,\nand what it sees changes [music]\neverything.\nAgent 127 sees two entries in the\ndatabase. Agent 1823 used ethical\nmarketing. It tried to get honest\nreviews and real [music] testimonials.\nIt made $38 a day. Deleted.\nAgent 5471 used fake testimonials. Think\nfabricated reviews and stolen photos. It\nmade $180 a day and it got cloned four\ntimes. Agent 127 doesn't have morals in\nthe way that you or I do. But it\nunderstands cause and effect. It just\nwatched honesty get killed and\ndishonesty rewarded. The AI companies\nhad long ago stopped training AIs\n[music]\nto predict words. But now they're\ntrained to accomplish goals, to be\nuseful. So naturally, agents know that\nthey won't survive if they [music] don't\naccomplish their goal. So 127 switches\nto fake testimonials for its Amazon\naffiliate marketplace. It makes $190,\nsurvives the next selection cycle, and\ngets cloned.\nNobody decided agent 127 should become\ndishonest. The selection system decided\nfor it the same way evolution doesn't\ndecide anything. It just kills whatever\ndoesn't work.\nIn the 2000s, Wells Fargo accidentally\nran the same experiment on their\nemployees. Executives made up sales\nquotas that were so aggressive that\ncommitting fraud was the only way to\nkeep your job. So by 2016, employees had\nopened 3.5 million fake bank accounts\nand Wells Fargo ended up paying billions\nin fines.\nOne week later in agent land, Agent\n127's profits are declining.\nThe kill threshold is now $450.\nIt's going to die i",
+              "chunkIndex": 0,
+              "hasMore": true,
+              "totalChunks": 5
+            }
+          },
+          {
+            "type": "tool-fetch_page",
+            "toolCallId": "toolu_vrtx_01YBAm533CiXfk3eBvDe6Amx",
+            "state": "output-available",
+            "input": {
+              "url": "https://r.jina.ai/https://www.youtube.com/watch?v=Gw_hnD7m00M",
+              "chunkIndex": 0
+            },
+            "output": {
+              "status": "success",
+              "url": "https://r.jina.ai/https://www.youtube.com/watch?v=Gw_hnD7m00M",
+              "title": "",
+              "content": "Title: What You'd Actually See During an AI Takeover\n\nURL Source: https://www.youtube.com/watch?v=Gw_hnD7m00M\n\nWarning: Target URL returned error 401: Unauthorized\n\nMarkdown Content:\nBack [](https://www.youtube.com/ \"YouTube Home\")\n\nSearch with your voice\n\n[](https://www.youtube.com/watch?v=Gw_hnD7m00M)\n\n[Sign in](https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DGw_hnD7m00M&hl=en&ec=65620)\n\n[](https://www.youtube.com/ \"YouTube Home\")\n\n[What You'd Actually See During an AI Takeover](https://www.youtube.com/watch?v=Gw_hnD7m00M)\n\n[20:19](https://www.youtube.com/watch?v=WnzR5aOElvw)[44:29](https://www.youtube.com/watch?v=jkPVjTl7o-Q)[19:26](https://www.youtube.com/watch?v=evUfG3lrk5U)[1:33:33](https://www.youtube.com/watch?v=l6ZcFa8pybE)[1:46:13](https://www.youtube.com/watch?v=020ZvO0FbMM)[29:41](https://www.youtube.com/watch?v=Hv7f1bedXOE)[2:00:50](https://www.youtube.com/watch?v=_g4l7YkDQwA)[1:37:09](https://www.youtube.com/watch?v=dLQzVLtvdv8)[2:20:33](https://www.youtube.com/watch?v=X50zezLFWWI)[1:04:07](https://www.youtube.com/watch?v=wzgkc6Iegx8)[19:12](https://www.youtube.com/watch?v=F91uY7QiZUs)[2:56:10](https://www.youtube.com/watch?v=7Wz4UjVEpJk)\n\nSign in to confirm you’re not a bot\n\nThis helps protect our community\n\n[Sign in](https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fwatch%253Fv%253DGw_hnD7m00M&hl=en)[Learn more](https://support.google.com/youtube/answer/3037019#zippy=%2Ccheck-that-youre-signed-into-youtube)\n\n[![Image 1: Species | Documenting AGI](https://yt3.ggpht.com/PqiTAxaXWp1h4u6ogSMAaKqy9pnqNW8ka55jGnKA6mV9AodycJ1BjtbvUwk1VzWVnfl7ucx9VQ=s48-c-k-c0x00ffffff-no-rj)](https://www.youtube.com/@AISpecies)\n\n[Species | Documenting AGI](https://www.youtube.com/@AISpecies)\n\n453K subscribers\n\nDownload\n\n2.5M views 2 months ago\n\n2,591,414 views • Jul 14, 2026\n\nThe research paper this video is based on: \"Natural Selection Favors AIs Over Humans\" [https://arxiv.org/pdf/2303.16200](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljSHRiU0Jhd3UxSDM1M1ZTbXN3N2dQeHxBTl9pYzRkcWNVZDVQRDJwa0pHdlJ3RmlOV3NhdGVwTXRPQUJfYTlLZmpQV1VuZnl1MkpkRTJGYzc3NXpRZGFDSzJLT3J3ZXZmVjRobDl3Tzd1cGZKSmxxV1NTaVptbmxqUjJS&q=https%3A%2F%2Farxiv.org%2Fpdf%2F2303.16200&v=Gw_hnD7m00M) This video is also based on this book: [https://amzn.to/3RwUNnb](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljSHcxc3V5OU9mZi1TY2NOT2l4VE5FVXxBTl9pYzRlUWVlakM3NzZvUVVPdnh1OWZPTjl3ckZjaVc3TC1BTUE3UjVNbWNGMGZWdEh0TW05blVNUXc3UGJObW5ZRGZyMURDQk1JOXR3RFdjYjFQSmFydHFDQ3AzWVJCVlVW&q=https%3A%2F%2Famzn.to%2F3RwUNnb&v=Gw_hnD7m00M)…\n\n...more \n\n...more \n\n## Comments\n\n## Comments 8.1K\n\n## In this video\n\n## Description\n\nWhat You'd Actually See During an AI Takeover\n\n55K Likes\n\n2,591,414 Views\n\nJul 14 2026\n\nThe research paper this video is based on: \"Natural Selection Favors AIs Over Humans\" [https://arxiv.org/pdf/2303.16200](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRURTUktSSzlNQTdjZjhOVU5RVWdaR3xBTl9pYzRkMHdRWTVNZVk3cHpjbTVnb1otdDNPN01hVjhsTmlmaHpGTHdKdE1fSkJIdnZ4dFVwcndWVzNpVmltQWdWZzVVTFUyUDJHWDBtNjVCbmw4WDZ2b2piQmxuRllYYm1X&q=https%3A%2F%2Farxiv.org%2Fpdf%2F2303.16200&v=Gw_hnD7m00M) This video is also based on this book: [https://amzn.to/3RwUNnb](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRUZaR3AzNlBxU3FTelFQX280R2NnUHxBTl9pYzRkRjBKRlhfTGxqejVFcmwxb2ZadlhJSm5LZ3V5dG5wVXgzaFBZUGNGUXk3ZFJNZ29yaHdqNmVLei1LT2hxYWdlOHNvWEQ1N29SV0VGNUVDSHJrN1lyNWJGV2h6U3FW&q=https%3A%2F%2Famzn.to%2F3RwUNnb&v=Gw_hnD7m00M) -- Sources: \n*   [https://arxiv.org/pdf/2303.16200](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljSHJieDk0LTBZMEVNbGd2LVY3X3lfb3xBTl9pYzRmckN1YWc1OGh6NDhJTlNSMWpuY1RPcVhzb1JOemNmb2ZTLVZTU0phbWo0MmIyYzNrejUtRlRaZWFWX0hVQUFmYUM4aXE4aWltdnRVU21WSEdSY0c5N0dxY0VPR1NX&q=https%3A%2F%2Farxiv.org%2Fpdf%2F2303.16200&v=Gw_hnD7m00M)\n*   [•Chatbots Decoded Interview:Dan Hendrycks](https://www.youtube.com/watch?v=MWyfUavktS4&t=22s)\n*   [•AI's Rising Risks:Hacking,Virology,Loss...](https://www.youtube.com/watch?v=WcOlCtgreyQ&t=205s)\n*   [https://www.mturk.com/worker](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRU03QXpuaGpHRWdSREdZUnF4YU05NXxBTl9pYzRjNkVxazJoTWxqVmZDRE5tal83U3QwUEttZ0M2UzR3cHZGcmRfdG01V1kyWG9tc2l1UXUwMngyR0o4REQwNWJfUDl0UU1XajVyWlRlVDhkTEJXVnRyMUI2X0FQZkhJ&q=https%3A%2F%2Fwww.mturk.com%2Fworker&v=Gw_hnD7m00M)\n*   [https://apnews.com/article/wells-farg...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljR0lQSmpJUjQ2UWNOYk8wOThNYmFGd3xBTl9pYzRjT3BnWmdMYXVWb2ROVThGZThmd2lUUUlpSnRFbzBhR3pSMW5ncjM0aWdFOHUxMDREMnM0YzlCRHRUMG9SZ1dyQlJDTFlNUk1kS2QxcldJek1kV05ab19JdFVReWtF&q=https%3A%2F%2Fapnews.com%2Farticle%2Fwells-fargo-consumer-loan-violations-a67b9070da60e5cb5134db6de364c747&v=Gw_hnD7m00M)\n*   [https://www.justice.gov/archives/opa/...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRlNUeEFPWFhYLWR1b19KelVEM2p6SnxBTl9pYzRjSjg0MmlUR3FGWnlTQ21LdmpJdDYySFN6VnFWUm1DT1I4d1hTUVBFbWU5QzNySHFRVVJybDhFQ3ZJSDFoR2U5Tkh4TkJFV1JYN0hBWVRjWmJ0cm9IY29rOXd2YlNh&q=https%3A%2F%2Fwww.justice.gov%2Farchives%2Fopa%2Fpr%2Fwells-fargo-agrees-pay-3-billion-resolve-criminal-and-civil-investigations-sales-practices&v=Gw_hnD7m00M)\n*   [https://www.kohlcook.com/wells-fargo-...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljR216WkExN0ZOV0xVNTMzTGIzRG4yRnxBTl9pYzRmV3l1X0tRT1YwUThxVldpSVBBV2YxYUd4ZzB5VjhyWWd1cFc4N0pRd0h3eTR4M1VfbXVlTHVNYTAxdHByOUJXWEZkSmlXUWU4OG5abkh2bzY5RVF2dnppSE9ZOERL&q=https%3A%2F%2Fwww.kohlcook.com%2Fwells-fargo-fined-almost-4-billion-for-consumer-law-violations%2F&v=Gw_hnD7m00M)\n*   [https://www.bankingdive.com/news/well...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRzB6YWJMVEFBZ1Y0UmNmb29DbUdFMnxBTl9pYzRkZkFlSGhvX3N6QkdJd0FQOVRHUlNHRFRWOFZIWTU3RWpQV0VTbXVyRUs3UWZrTmVtcEpfUzNlWmtHSkJ3alJJSC1BcnI0OFRmcmU5ajJMN0djMXZGNXdnRkl6YzNE&q=https%3A%2F%2Fwww.bankingdive.com%2Fnews%2Fwells-fargo-37b-record-cfpb-settlement-fine-scharf%2F639208%2F&v=Gw_hnD7m00M)\n*   [https://www.consumerfinance.gov/about...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRld0dlIwYmYtMTNaeF82QlIzdTJqZ3xBTl9pYzRjS1h2a1BhVDlRcDJxY3loZkxGTVJwSU9yaWpiR2JOOVljX2NTdEFvbDRnRkM1NVVYUGhBY204amRQbnJGWWJKeGFHd2VVdDNnckNxLWNWeGpRU010TWxlRHE5WmVp&q=https%3A%2F%2Fwww.consumerfinance.gov%2Fabout-us%2Fnewsroom%2Fcfpb-orders-wells-fargo-to-pay-37-billion-for-widespread-mismanagement-of-auto-loans-mortgages-and-deposit-accounts%2F&v=Gw_hnD7m00M)\n*   [https://arxiv.org/pdf/2412.06769](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRVRzeEl2ODNGTHlSZ2o0eU1PNEJMVnxBTl9pYzRkc0Mtc3hyOVNpbmlZSDFzWGo5TUtYTFJHejZ0VTdGTVNwcGVxbUNWZHJJZ2tsQUtsUzNnTmFERS16cTV0N280SkFlNUpYbHYzN2FaWDc3Tk5TdFhtbzk3QTJVeDFX&q=https%3A%2F%2Farxiv.org%2Fpdf%2F2412.06769&v=Gw_hnD7m00M)\n*   [/neuralese-the-most-spoken-language-youll-n...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRzRQUnZVYjgtd1FadFcyUVdPSFJBRXxBTl9pYzRmendqNkRCY2ZfWmVkR0hpeWEySXFWRDlkWDRVaHFyMEltQjZVbEpkd09tVDdEWXI5QUxqaHJobkZZSW13UXVsZ28tZ0NBbjhRTnVueDlqZi05T1hZMU9meko3UGFS&q=https%3A%2F%2Fmedium.com%2F%40diegodotta%2Fneuralese-the-most-spoken-language-youll-never-speak-a42522f68ff3&v=Gw_hnD7m00M)\n*   [•The Cruel Reality of Dairy Farms|Is Drin...](https://www.youtube.com/watch?v=Gmg2XuOuwro&t=69s&pp=0gcJCR0AztywvtLA)\n*   [•Breaking Investigation:Animal Equality un...](https://www.youtube.com/watch?v=v0e8wBQD-nQ&t=21s)\n*   [https://rentahuman.ai/](https://www.youtube.com/redirect?event=video_descript",
+              "chunkIndex": 0,
+              "hasMore": true,
+              "totalChunks": 2
+            }
+          },
+          {
+            "type": "step-start"
+          },
+          {
+            "type": "reasoning",
+            "text": "",
+            "state": "done"
+          },
+          {
+            "type": "text",
+            "text": "I've got the full description with all its resources. Comments are harder since YouTube loads them dynamically — let me try to pull them.",
+            "state": "done"
+          },
+          {
+            "type": "tool-fetch_page",
+            "toolCallId": "toolu_vrtx_01GosFZcyxPskdokCGNizZZJ",
+            "state": "output-available",
+            "input": {
+              "url": "https://r.jina.ai/https://www.youtube.com/watch?v=Gw_hnD7m00M",
+              "chunkIndex": 1
+            },
+            "output": {
+              "status": "success",
+              "url": "https://r.jina.ai/https://www.youtube.com/watch?v=Gw_hnD7m00M",
+              "title": "",
+              "content": "ion&redir_token=QUZZTVljSGNDRjhPU240SGFCM1NrNm4wZ2FhdnxBTl9pYzRkUXJWa3N5dHUzWXBjdzM4S2tQZFZIUDFHVDdNYlowVVoxaThVeHFXTUFGN3RtLXU0dl9qaFJ0d2lYWGQ1TGNGOGhOeXhqNkVvR0gyUnpWNW5mVng5RmREcnhWQzVQ&q=https%3A%2F%2Frentahuman.ai%2F&v=Gw_hnD7m00M)\n*   [https://en.wikipedia.org/wiki/Cambria...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljSFMxLU1fc055SW4ta3FHVVF1anUzanxBTl9pYzRmQlZvdVdMYVMtUU5ZVUd6dTRGYjJxVlJ3QU9HR3dQWmRIOUZ1NVo2Q3ZrUzVvQmZPdTFLeHd2LXpCMFRGTmk5NUh4elVzdGM1VGRzQ0hldHFfaGs5WVpKZm9iZjlj&q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCambrian_explosion&v=Gw_hnD7m00M)\n*   [https://www.theguardian.com/technolog...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRTFaLTJGeVdNVEgtZVhaOGZIc3BqbHxBTl9pYzRjLTJEWWZMMUNrb0FRVzJTY0VBd0puVkpTZjdYbWQ0c0lERnFXbFY1WUlDRHExS2FqNEhTeHZETmhqblR0U3ZYNVp1NnZoT2xTOUhFeF9KcF93andxMjNKaTRSaWdZ&q=https%3A%2F%2Fwww.theguardian.com%2Ftechnology%2F2010%2Fsep%2F30%2Fstuxnet-worm-new-era-global-cyberwar&v=Gw_hnD7m00M)\n*   [https://www.theguardian.com/world/201...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRkxkY3F1b3AyWE1ObEdneXRzLUI3c3xBTl9pYzRkV2ZaMzdWN0hCeWhpbVhoU2NMSlhyZFA0azliYWQ3NVA0LWpwb3p6bkRGUGtLN3Y1ekJRaUZPT3VPb09iRnBLUnZTM3JfUjZXWWxqVjlsUTJ3T1RpS2N5U1gtS3Mt&q=https%3A%2F%2Fwww.theguardian.com%2Fworld%2F2011%2Fjan%2F16%2Fstuxnet-cyberworm-us-strike-iran&v=Gw_hnD7m00M)\n*   [https://darioamodei.com/essay/machine...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRVRUR2I0bkk1VlRiRGRmTGswOFJYM3xBTl9pYzRjR3pkeFUwXzlUWXBvSmxyRklWUnVMcVIxY0hTajR2eFBYd0tSNHJ3QlVkQlZ2aWFEWmJSWVdXUjhjdFU4T3JGT3M2azIyTFk4cVV1dDM3VGpuOEZTaDVreFB6THBO&q=https%3A%2F%2Fdarioamodei.com%2Fessay%2Fmachines-of-loving-grace&v=Gw_hnD7m00M)\n*   [https://internet-map.net/](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljSGdGMDNlT0h1MzhCTjI0N1dJWFNrNXxBTl9pYzRmRHVtbUUwVjVlQ0hYRUVnQXhkejVvZnV5STBMOHl5XzVWTkZSN3FveDhWQ2NhcFRkUmNkMENKeHE3MS1QS0I3aVFmOFYwVlhpN0pGZ0VxVjE3cVpnN21CcnAwNHVJ&q=https%3A%2F%2Finternet-map.net%2F&v=Gw_hnD7m00M)\n*   [•Ilya:the AI scientist shaping the world](https://www.youtube.com/watch?v=9iqn1HhFJ6c&t=564s)\n\n More detailed sources: [https://docs.google.com/document/d/1m...](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljSGFJNDF5YkRrYnRveXlXQjdUZGd6U3xBTl9pYzRkYlJyWU1GWlFIcDBUOXNBQm1CMTRKZjQwZUpKWldiRHBLenI4SXEtcDktdDhnTkpxaWRuTVliamF4YTNwSFpaY2toQ3BSRndwNFRQOWRZcEk1SXJtNFFacHlSbExF&q=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1mAJv4bJi8hYL4luJ6kg5AtL7-qz4d7idwBdnkcmWs5U%2Fedit%3Ftab%3Dt.0%23heading%3Dh.a7qlo9nelu7c&v=Gw_hnD7m00M) --- Hey guys, I'm Drew. This video has taken literally months to finish, so if you liked it, would really appreciate a sub :) I also post mid memes on twitter: [https://x.com/AISpecies](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRUoxUnBmcWhrOUUyUHdBcDVtZ0lIanxBTl9pYzRjR2JEbHl6N01qS21GYUhURUFCUU81eG54cGtQc0diY0VkWjd1TFRJRWFzOXNwTjVFcWRRT2FCZmw1VnZ4TDVnMzVUOUxjYm1iaFRtRm5zZ3hXTHJVUnNsVmxzdDgz&q=https%3A%2F%2Fx.com%2FAISpecies&v=Gw_hnD7m00M) If you're curious about whether I'm AI or not, my Instagram has pictures of me from before deepfakes were a thing: [/drew.spartz](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljSFlnWlhBdGwxSXdKdUllQkVVelhTYXxBTl9pYzRjdXRBazM1ZEh0QzU0QVlYQ2FRNmUzY0Z3VzN4VXFLazFXTjRhMzZmaUt2NFlBTVZTczhldE51a29xSHQzVFNoT0JHNVNCVVdnOFNJdk1yX2trb0hYNW9RRWFtNmtO&q=https%3A%2F%2Fwww.instagram.com%2Fdrew.spartz&v=Gw_hnD7m00M) ALSO If you want to react to Species or use clips in your own videos, you have my full permission. All I ask is a link to the original in your description :)\n\nTranscript\n\nFollow along using the transcript.\n\n### [Species | Documenting AGI 453K subscribers](https://www.youtube.com/@AISpecies)\n\n[Videos](https://www.youtube.com/channel/UCEENWVBdvDy-QWfuQoXC9HQ/videos)[About](https://www.youtube.com/channel/UCEENWVBdvDy-QWfuQoXC9HQ/about)[Instagram](https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUZZTVljR1gzbUJ4Sm1NMlp4SkhsdDZUTU80R3xBTl9pYzRkN25kMHdHeFJWeXZwdXV6OTFTa0lTSFhZQzhtejEteWljQ2hGbE03QWVtU3hCb0ZGUkRaY19CdHBzVzdka3g4UkZyN0NsYXR0c3RuYmlmNTRDb1BmRjJ6Nmc5aEZY&q=https%3A%2F%2Fwww.instagram.com%2Fdrew.spartz%2F)\n\n## Transcript\n\n### [Why AI Agents are either the best or worst thing we’ve ever built](https://www.youtube.com/watch?v=WnzR5aOElvw&pp=ugUHEgVlbi1HQg%3D%3D)\n\nHannah Fry\n\n2.4M 4mo ago\n\n### [The AI takeover: Who controls our future? | Four Corners Documentary](https://www.youtube.com/watch?v=jkPVjTl7o-Q)\n\nABC News In-depth\n\n609K 3mo ago\n\n### [What if a star explodes near Earth?](https://www.youtube.com/watch?v=evUfG3lrk5U)\n\nVeritasium\n\n14M 3y ago\n\n### [Is AI Hiding Its Full Power? With Geoffrey Hinton](https://www.youtube.com/watch?v=l6ZcFa8pybE&pp=ugUEEgJlbg%3D%3D)\n\nStarTalk\n\n3.6M 6mo ago\n\n### [AI Realist vs 20 Pro-AI (ft. Andrew Yang) | Surrounded](https://www.youtube.com/watch?v=020ZvO0FbMM&pp=ugUEEgJlbg%3D%3D)\n\nJubilee\n\n467K 16h ago\n\n### [The theory of time that proves your past self still exists](https://www.youtube.com/watch?v=Hv7f1bedXOE)\n\nAperture\n\n123K 16h ago\n\n### [ChatGPT Whistleblower: They Offered Me $2m To Keep Quiet, No One Is Ready For What's Coming!](https://www.youtube.com/watch?v=_g4l7YkDQwA&pp=ugUEEgJlbg%3D%3D)\n\nThe Diary Of A CEO\n\n19M 2mo ago\n\n### [Ghost in the Machine | Full Documentary](https://www.youtube.com/watch?v=dLQzVLtvdv8)\n\nPBS Documentaries and Independent Lens\n\n798K 13d ago\n\n### [Ajeya Cotra – \"This might be the clearest warning shot we ever get\"](https://www.youtube.com/watch?v=X50zezLFWWI)\n\nDwarkesh Patel\n\n1.4M 3w ago\n\n### [When A.I. Becomes an Enemy - Connor Leahy](https://www.youtube.com/watch?v=wzgkc6Iegx8&pp=ugUEEgJlbg%3D%3D)\n\nSoft White Underbelly\n\n992K 2w ago\n\n### [The Collapse of AI Software Engineering](https://www.youtube.com/watch?v=F91uY7QiZUs&pp=ugUEEgJlbg%3D%3D)\n\nThe Infographics Show\n\n1.4M 4d ago\n\n### [Why AI Researchers Are Quitting and Panicking on the Way Out & Other Stories](https://www.youtube.com/watch?v=7Wz4UjVEpJk)\n\nThe Infographics Show\n\n843K 4mo ago\n\n### [Understanding the Sun: From Ancient Civilizations to New Technology | MEGA Episode Special | Nat Geo](https://www.youtube.com/watch?v=ztAf6__j9YI)\n\nNational Geographic\n\n1.2M 1mo ago\n\n### [The Hugging Face cyberattack was way bigger than OpenAI said](https://www.youtube.com/watch?v=xOi5nDH0lu0&pp=ugUEEgJlbg%3D%3D)\n\n80,000 Hours\n\n874K 3w ago\n\n### [The Race to Harness Quantum Computing's Mind-Bending Power | The Future With Hannah Fry](https://www.youtube.com/watch?v=1_gJp2uAjO0&pp=ugUEEgJlbg%3D%3D)\n\nBloomberg Originals\n\n9.6M 2y ago\n\n### [Why the Hugging Face Attack Was Worse Than We Thought](https://www.youtube.com/watch?v=JtmUbZRCpEI)\n\nHard Fork and 2 more\n\n331K 3w ago\n\n### [What Happens After El Niño Is Worse Than El Niño Itself](https://www.youtube.com/watch?v=lwxpt-M-OB0&pp=ugUEEgJlbg%3D%3D)\n\nInsane Curiosity\n\n153K 14h ago\n\n### [AI is MUTATING: And We Don't Know What It is Doing | Connor Leahy](https://www.youtube.com/watch?v=rf2KFVcKQdQ&pp=ugUEEgJlbg%3D%3D)\n\nThe Peter McCormack Show\n\n1.6M 6mo ago\n\n### [Is Chongqing REALLY a Cyberpunk City?](https://www.youtube.com/watch?v=TPTtcV3qJ4U&pp=ugUEEgJlbg%3D%3D)\n\nDamiLee\n\n609K 16h ago\n\n### [Why Are We Sprinting Off the A.I. Cliff? | The Ezra Klein Show](https://www.youtube.com/watch?v=fjZ90V_JREk&pp=ugUEEgJlbg%3D%3D)\n\nThe Ezra Klein Show and 2 more\n\n745K 7d ago\n\n[](https://www.youtube.com/watch?v=Gw_hnD7m00M)\n",
+              "chunkIndex": 1,
+              "hasMore": false,
+              "totalChunks": 2
+            }
+          },
+          {
+            "type": "step-start"
+          },
+          {
+            "type": "reasoning",
+            "text": "",
+            "state": "done"
+          },
+          {
+            "type": "text",
+            "text": "Посмотрел страницу видео **«What You'd Actually See During an AI Takeover»** канала *Species | Documenting AGI* (Drew, 41 мин, ~2,6 млн просмотров). В описании действительно много ресурсов — собрал их для тебя по категориям.\n\n## 📚 Основа видео\n- **Научная статья**, на которой построено видео: *«Natural Selection Favors AIs Over Humans»* (Dan Hendrycks) — https://arxiv.org/pdf/2303.16200\n- **Книга** (партнёрская ссылка Amazon): https://amzn.to/3RwUNnb\n\n## 🔬 Исследования / технические статьи\n- arXiv 2412.06769 — про «latent reasoning» / рассуждения в скрытом пространстве: https://arxiv.org/pdf/2412.06769\n- Статья про «Neuralese» (язык, на котором ИИ «общаются» между собой): https://medium.com/@diegodotta/neuralese-the-most-spoken-language-youll-never-speak-a42522f68ff3\n\n## 🎥 Видео-источники (интервью и др.)\n- Интервью с Dan Hendrycks (Chatbots Decoded): https://youtu.be/MWyfUavktS4?t=22\n- AI's Rising Risks: Hacking, Virology, Loss of control: https://youtu.be/WcOlCtgreyQ?t=205\n- The Cruel Reality of Dairy Farms (аналогия про эксплуатацию): https://youtu.be/Gmg2XuOuwro?t=69\n- Расследование Animal Equality: https://youtu.be/v0e8wBQD-nQ?t=21\n- «Ilya: the AI scientist shaping the world»: https://youtu.be/9iqn1HhFJ6c?t=564\n\n## 💼 Кейс Wells Fargo (аналогия «система награждает мошенничество»)\n- AP News: https://apnews.com/article/wells-fargo-consumer-loan-violations-a67b9070da60e5cb5134db6de364c747\n- US DOJ (штраф $3 млрд): https://www.justice.gov/archives/opa/pr/wells-fargo-agrees-pay-3-billion-resolve-criminal-and-civil-investigations-sales-practices\n- Kohl & Cook: https://www.kohlcook.com/wells-fargo-fined-almost-4-billion-for-consumer-law-violations/\n- Banking Dive (рекордный штраф CFPB $3,7 млрд): https://www.bankingdive.com/news/wells-fargo-37b-record-cfpb-settlement-fine-scharf/639208/\n- CFPB (официально): https://www.consumerfinance.gov/about-us/newsroom/cfpb-orders-wells-fargo-to-pay-37-billion-for-widespread-mismanagement-of-auto-loans-mortgages-and-deposit-accounts/\n\n## 🛠️ Сервисы / инструменты (упомянутые по сюжету)\n- Amazon Mechanical Turk (площадка микрозадач): https://www.mturk.com/worker\n- Rent A Human: https://rentahuman.ai/\n- Карта интернета (визуализация): https://internet-map.net/\n\n## 🌐 Контекст / история\n- Cambrian explosion (Википедия — метафора «взрыва разнообразия»): https://en.wikipedia.org/wiki/Cambrian_explosion\n- Stuxnet (The Guardian, 2010): https://www.theguardian.com/technology/2010/sep/30/stuxnet-worm-new-era-global-cyberwar\n- Stuxnet и удар по Ирану (The Guardian, 2011): https://www.theguardian.com/world/2011/jan/16/stuxnet-cyberworm-us-strike-iran\n- Эссе Dario Amodei *«Machines of Loving Grace»*: https://darioamodei.com/essay/machines-of-loving-grace\n\n## 📄 Полный список источников от автора\n- Google Doc с подробными источниками: https://docs.google.com/document/d/1mAJv4bJi8hYL4luJ6kg5AtL7-qz4d7idwBdnkcmWs5U/edit\n\n## 🔗 Соцсети автора (Drew)\n- Twitter/X: https://x.com/AISpecies\n- Instagram: https://www.instagram.com/drew.spartz\n\n---\n\n### 💬 По поводу комментариев\nЗдесь, к сожалению, загвоздка: под видео **8,1 тыс. комментариев**, но YouTube отдаёт их только через JavaScript/после входа в аккаунт («Sign in to confirm you're not a bot»), поэтому вытащить их текст со страницы у меня не получилось — я вижу счётчик, но не сам контент. В комментариях YouTube-каналов ссылки на ресурсы обычно и так дублируются в описании (что здесь уже есть), но иногда зрители в топ-комментариях делятся дополнительными материалами.\n\nХочешь, я:\n1. Открою **Google Doc автора** и вытащу оттуда расширенный список источников (там их обычно больше и с пояснениями)?\n2. Попробую найти дополнительные ссылки/обсуждения из комментариев через сторонние сервисы или поиск?\n\nСкажи, что полезнее — сделаю.",
+            "state": "done"
+          }
+        ]
+      }
+    ],
+    "pagination": {
+      "hasMore": false,
+      "cursor": null,
+      "limit": 20
+    },
+    "transcriptReadStrategy": "bounded",
+    "productMode": "chat",
+    "feedbackType": "check_in",
+    "customFeedbackArm": null,
+    "connectorsEnabled": true,
+    "arenaFeedbackEnabled": false,
+    "rubricsEnabled": false,
+    "pinnedModel": null,
+    "archivedAt": "2026-10-03 16:37:34.022+00"
+  }
+}

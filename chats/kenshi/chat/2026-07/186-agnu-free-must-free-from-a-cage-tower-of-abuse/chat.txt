@@ -1,0 +1,119 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : Agnu/Free (Must free from a cage)/Tower of Abuse
+Bard/3000/Bad Teeth, Blister Hill, Stack, Waystatio
+Mode     : direct-battle
+Started  : 2026-07-14 15:12:17
+Updated  : 2026-07-14 15:13:24
+Archived : 2026-09-30 23:07:25
+Messages : 4
+URL      : https://arena.ai/c/019f6089-fc1f-7f56-84b5-e13b876df90d
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-07-14 15:12:17
+------------------------------------------------------------
+Agnu/Free (Must free from a cage)/Tower of Abuse
+Bard/3000/Bad Teeth, Blister Hill, Stack, Waystations, World's End
+Beep/Free/Mongrel
+Bo/Free (Must Join Anti-Slaver)/Black Scratch
+Burn/Free/Burn's Tower
+Cat/Free (Must free from a cage)/Dust King Tower
+Chad/9,000/Flats Lagoon
+Cornelius/is a Goat/7,000/Settled Nomad Village
+Crumblejon/Free/Mongrel
+Digna/3,000/Flotsam Village
+Doctor Chung/Free/Mud Town, Shark
+Ells/300/Sho-Battai
+Espher/Free (Must free from a cage)/Tengu's Vault
+Green/2,300/Mud Town, Shark
+Green Finger/2,000/Fishing Village
+Griffin/9,000/Bad Teeth, Blister Hill, Stack
+Hamut/Free/Mud Town, Shark
+Headshot/7,500/Eyesocket, Slave Markets
+Hobbs/Free/Fishing Village, The Hub, Waystation(s), World's End, Mourn
+Horse/4,500/Fishing Village, Squin
+Infinite Wingwang/5,000/Mongrel
+Izumi/2,500/Any UC town
+Jewel/6,000/Any UC town
+Kang/6,000/Admag, Squin, Last Stand
+Knife/6,000/Flotsam Village
+Lumi/6,000/Crab Town
+Luquin/Free (Must free from a cage)/Tengu's Vault
+Miu/Free/Mud Town, Shark
+Oron/3,500/Admag, Squin, Last Stand
+Pia/3,000/Flotsam Village
+Rane the Giant/7,500/Admag, Squin, Last Stand
+Ray/1,000/Eyesocket, Slave Markets
+Red/150/Bark
+Reva/6,000/Flotsam Village
+Riddly/Free/Any UC town
+Ruka/Free/Admag, Squin, Last Stand
+Sadneil/Free/Black Desert City
+Seto/Must capture rival's leader or have 80 relations with Shek Kingdom/Admag
+Shryke/Free/Mongrel
+Silvershade/3,000/Mud Town, Waystation(s), World's End, Flats Lagoon
+Sinklyde/Free (Must free from a cage)/Tengu's Vault
+Soman/3,500/Fishing Village
+Stubs Momuso/5,000/Mud Town, Shark
+Yamdu/Must capture rival's leader/Trader's Edge
+
+write out free recruits
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-07-14 15:12:17
+------------------------------------------------------------
+Based on the list provided, here are the recruits that can be obtained for **Free** (those that do not require Cats, though some require specific actions like rescue or faction alignment):
+
+*   **Agnu:** Free (Must free from a cage) — Tower of Abuse
+*   **Beep:** Free — Mongrel
+*   **Bo:** Free (Must Join Anti-Slavers) — Black Scratch
+*   **Burn:** Free — Burn's Tower
+*   **Cat:** Free (Must free from a cage) — Dust King Tower
+*   **Crumblejon:** Free — Mongrel
+*   **Doctor Chung:** Free — Mud Town, Shark
+*   **Espher:** Free (Must free from a cage) — Tengu's Vault
+*   **Hamut:** Free — Mud Town, Shark
+*   **Hobbs:** Free — Fishing Village, The Hub, Waystation(s), World's End, Mourn
+*   **Luquin:** Free (Must free from a cage) — Tengu's Vault
+*   **Miu:** Free — Mud Town, Shark
+*   **Riddly:** Free — Any UC town
+*   **Ruka:** Free — Admag, Squin, Last Stand
+*   **Sadneil:** Free — Black Desert City
+*   **Seto:** Free (Must capture rival's leader or have 80 relations with Shek Kingdom) — Admag
+*   **Shryke:** Free — Mongrel
+*   **Sinklyde:** Free (Must free from a cage) — Tengu's Vault
+*   **Yamdu:** Free (Must capture rival's leader) — Trader's Edge
+
+------------------------------------------------------------
+Message  : 3
+Speaker  : User
+Time     : 2026-07-14 15:13:24
+------------------------------------------------------------
+now these less than 3000. then these with cost of 3000
+
+------------------------------------------------------------
+Message  : 4
+Speaker  : AI A
+Time     : 2026-07-14 15:13:24
+------------------------------------------------------------
+Based on the list provided, here are the recruits categorized by their cost:
+
+### Recruits costing Less than 3,000
+*   **Red:** 150 — Bark
+*   **Ells:** 300 — Sho-Battai
+*   **Ray:** 1,000 — Eyesocket, Slave Markets
+*   **Green Finger:** 2,000 — Fishing Village
+*   **Green:** 2,300 — Mud Town, Shark
+*   **Izumi:** 2,500 — Any UC town
+
+### Recruits costing exactly 3,000
+*   **Bard:** 3,000 — Bad Teeth, Blister Hill, Stack, Waystations, World's End
+*   **Digna:** 3,000 — Flotsam Village
+*   **Pia:** 3,000 — Flotsam Village
+*   **Silvershade:** 3,000 — Mud Town, Waystation(s), World's End, Flats Lagoon

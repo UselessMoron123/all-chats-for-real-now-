@@ -1,0 +1,132 @@
+{
+  "exportedAt": "2026-10-09T16:28:26.834Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c4323-cbf3-7648-bf96-c1ae90af38cf",
+  "archivedAt": "2026-09-30 20:30:37.884+00",
+  "evaluation": {
+    "id": "019c4323-cbf3-7648-bf96-c1ae90af38cf",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "you know how ck2 players are obsessed with collecting bloodlines, right?",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c4326-bae2-7e01-86ba-c8a09b3fecff"
+    ],
+    "archivedAt": "2026-09-30 20:30:37.884+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-09 16:02:55.097+00",
+    "updatedAt": "2026-02-09 16:05:39.465387+00",
+    "messages": [
+      {
+        "id": "019c4324-37d7-74b3-a0d4-89bb3f7eda15",
+        "evaluationSessionId": "019c4323-cbf3-7648-bf96-c1ae90af38cf",
+        "evaluationId": "019c4324-3ff9-7f0c-9043-fda51a8badea",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "you know how ck2 players are obsessed with collecting bloodlines, right?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-09T16:02:55.469887+00:00",
+        "updatedAt": "2026-02-09T16:02:55.469887+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c4324-37da-7e11-beac-171abaabe0b4",
+        "evaluationSessionId": "019c4323-cbf3-7648-bf96-c1ae90af38cf",
+        "evaluationId": "019c4324-3ff9-7f0c-9043-fda51a8badea",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c4324-37d7-74b3-a0d4-89bb3f7eda15"
+        ],
+        "content": "Yes—CK2 bloodlines turn a dynastic RPG into a collectible card game.\n\nPlayers obsess over them because they’re:\n\n- **Permanent-ish power**: bonuses that persist across generations, often stacking (combat, prestige, fertility, vassal opinion, etc.).\n- **Status trophies**: “I’m descended from Alexander / a saint / a legendary warrior” is its own win condition.\n- **Optimization bait**: once you realize you can **breed and inherit multiple bloodlines**, it becomes a long-term planning puzzle (marriage webs, inheritance control, legitimizing bastards, etc.).\n- **Narrative fuel**: they’re an easy way to justify absurd dynastic sagas—“the Blood of X runs in our veins” is instant headcanon.\n\nIf you tell me what kind of run you’re doing (start date, religion, goals), I can suggest the most “collectible” bloodlines to aim for and the least painful way to stack them.",
+        "experimental_attachments": [],
+        "modelId": "019b1449-0313-7911-b836-419e2ed79b2e",
+        "createdAt": "2026-02-09T16:02:55.48002+00:00",
+        "updatedAt": "2026-02-09T16:03:01.565993+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c4326-badd-7e3f-a1de-171cc1a4a9b5",
+        "evaluationSessionId": "019c4323-cbf3-7648-bf96-c1ae90af38cf",
+        "evaluationId": "019c4324-3ff9-7f0c-9043-fda51a8badea",
+        "role": "user",
+        "parentMessageIds": [
+          "019c4324-37da-7e11-beac-171abaabe0b4"
+        ],
+        "content": "how about giving such player a custom bloodline of its own? of those who collects and preserves bloodlines in his dynasty? what ideas can you give?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-09T16:05:39.457679+00:00",
+        "updatedAt": "2026-02-09T16:05:39.457679+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c4326-bae2-7e01-86ba-c8a09b3fecff",
+        "evaluationSessionId": "019c4323-cbf3-7648-bf96-c1ae90af38cf",
+        "evaluationId": "019c4324-3ff9-7f0c-9043-fda51a8badea",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c4326-badd-7e3f-a1de-171cc1a4a9b5"
+        ],
+        "content": "Here are a few custom “bloodline collector” concepts that feel very CK2, with mechanics that reinforce the playstyle (marriage-webs, inheritance control, dynastic preservation) without just being raw stat creep. Mix-and-match as you like.\n\n---\n\n## 1) **Blood of the Genealogist-King** (learning/roleplay, “I catalog blood”)\n**Flavor:** The founder compiled the *Great Register of Lineages*, proving descent, exposing frauds, and arranging “proper” unions to preserve ancient lines.\n\n**Creation requirement (examples):**\n- Has **3+ bloodlines** personally (or dynasty has 5+)\n- **Learning 12+**, Scholar/Lunatic optional\n- Completed a decision: **“Commission the Great Genealogy”** (cost gold + prestige; requires High/Absolute Crown Authority or just being independent)\n\n**Bonuses (bloodline modifiers):**\n- **+1 Learning**\n- **+0.10 monthly prestige**\n- **+10 opinion with dynasty members**\n- **+5 opinion with characters who have a bloodline** (they respect the “recognized pedigree”)\n- **+10 marriage acceptance** *when marrying into a bloodlined character/dynasty* (models your reputation as a careful matchmaker)\n\n**Nice CK2-style special:**\n- **Unique decision:** *“Publish a Genealogical Claim”*  \n  Target a character whose parentage is “conveniently unclear” → you get a weak hook-style leverage (in CK2 terms: opinion modifier + possible claim fabrication event chain / legitimization pressure).\n\n---\n\n## 2) **Blood of the Dynastic Curator** (stewardship/long game, “I preserve lines from extinction”)\n**Flavor:** Your house is known for taking in cadet branches, legitimizing heirs, and preventing great names from dying out.\n\n**Creation requirement (examples):**\n- Dynasty has **X living members** (e.g., 20+), and you’ve landed **3+ dynasty members**\n- At least **one “rescued” marriage**: you married a lowborn/bastard/last-of-line bloodlined character into your dynasty\n\n**Bonuses:**\n- **+1 Stewardship**\n- **+0.05 monthly prestige**\n- **-10% build cost** (your “curation” comes with orderly administration)\n- **+15 dynasty opinion**\n- **+5 vassal opinion** *if vassal is dynasty* (encourages dynastic realm-building)\n\n**Special event hook:**\n- Periodic event: *“A Dying Line Seeks Shelter”*  \n  A courtier/guest with a bloodline appears (or a generated “last scion” of some notable house). Options: arrange marriage (prestige), grant title (piety/prestige), or turn them away.\n\n---\n\n## 3) **Blood of the Blood-Broker** (diplomacy/intrigue, “I acquire bloodlines like artifacts”)\n**Flavor:** Other nobles whisper that your dynasty doesn’t “inherit” greatness—your house *buys, bargains, and steals it* through marriage contracts, hostage-wards, and pressure.\n\n**Creation requirement (examples):**\n- Have **4+ bloodlines** and **20k+ prestige** (or high diplomacy + intrigue)\n- Have successfully arranged **10+ marriages** (including for courtiers) and used favors/plots to enforce at least one\n\n**Bonuses:**\n- **+1 Diplomacy** (or +1 Intrigue, depending on theme)\n- **+15% plot power** (optional, if you want it darker)\n- **+15 marriage acceptance** (broadly)\n- **+10 opinion with rulers** (they respect/need your matchmaking network)\n- **-10 opinion with Zealous characters** (they distrust your “blood-trading”)\n\n**Special decision:**\n- *“Negotiate a Blood Contract”* (once per ruler lifetime): spend gold/prestige → get a strong marriage acceptance boost with a specific target realm for a short window.\n\n---\n\n## 4) **Blood of the Lineage-Purist** (for the “keep them, don’t dilute them” crowd)\n**Flavor:** Your house treats bloodlines as sacred relics—protected, recorded, and never allowed to slip away.\n\n**Creation requirement (examples):**\n- Personally possess **3+ bloodlines**\n- No illegitimate children **recognized** (or the opposite: you legitimized specifically to preserve bloodlines—pick your narrative)\n- High piety OR high learning (depending on whether it’s religious or scholarly)\n\n**Bonuses (careful—this can get spicy):**\n- **+0.5 health** (survivability = preservation)\n- **+10 same-dynasty opinion**\n- **+5 same-religion opinion**\n- Small **fertility bonus** (+5%) *or* small **attraction opinion** (to facilitate “needed” marriages)\n\n**Optional drawback to keep it balanced:**\n- **-5 general opinion** (others find you arrogant)\n- **+10% stress-equivalent behavior** doesn’t exist in CK2, but you can simulate via events (more rivalries, more “scandal” events)\n\n---\n\n# A fun “collector meta” mechanic (if you’re willing to script events)\nIf you want the bloodline to *directly* care about collecting, add a hidden counter:\n\n- Every time a dynasty member **gains a new bloodline**, fire an event:\n  - Dynasty prestige boost\n  - “The Archive Grows” modifier for 10 years: +prestige/month, +marriage acceptance\n- At thresholds (e.g., 5 / 8 / 12 total bloodlines in dynasty), unlock tiered perks.\n\nThis makes the bloodline feel like it’s “leveling up” as you collect.\n\n---\n\n## Suggested name + motto ideas\n- **“Blood of the Great Register”** — *“Nothing Noble Is Forgotten.”*\n- **“Blood of the Line-Keepers”** — *“We Guard the Names of Kings.”*\n- **“Blood of the Dynastic Archivists”** — *“Written, Witnessed, Preserved.”*\n- **“Blood of the Blood-Brokers”** — *“All Legacies Have a Price.”*\n\n---\n\nIf you tell me what vibe you want (wholesome scholar vs sinister collector), and what power level is acceptable for your mod, I can draft a concrete CK2-style modifier set + a decision/event chain that fits within vanilla-ish balance.",
+        "experimental_attachments": [],
+        "modelId": "019b1449-0313-7911-b836-419e2ed79b2e",
+        "createdAt": "2026-02-09T16:05:39.46229+00:00",
+        "updatedAt": "2026-02-09T16:06:28.342737+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c4324-3ff9-7f0c-9043-fda51a8badea",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b1449-0313-7911-b836-419e2ed79b2e",
+        "organization": "openai",
+        "provider": "openai",
+        "publicName": "gpt-5.2-high",
+        "name": "gpt-5.2-high-no-system-prompt-text",
+        "displayName": "gpt-5.2-high",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

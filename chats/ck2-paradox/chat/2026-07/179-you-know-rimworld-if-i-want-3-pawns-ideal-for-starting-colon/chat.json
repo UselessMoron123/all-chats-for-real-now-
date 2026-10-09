@@ -1,0 +1,105 @@
+{
+  "exportedAt": "2026-10-09T16:27:45.889Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019f3d4f-f20f-7ca2-a33e-271df3985be8",
+  "archivedAt": "2026-09-30 20:08:26.248+00",
+  "evaluation": {
+    "id": "019f3d4f-f20f-7ca2-a33e-271df3985be8",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "You know rimworld? If I want 3 pawns ideal for starting colony, what stats should they have? Without",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019f3d50-2942-7d76-8e90-2401214f2bb6"
+    ],
+    "archivedAt": "2026-09-30 20:08:26.248+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-07-07 16:01:40.052+00",
+    "updatedAt": "2026-07-07 16:01:40.935587+00",
+    "messages": [
+      {
+        "id": "019f3d50-2941-79d8-9f6e-329a4c980981",
+        "evaluationSessionId": "019f3d4f-f20f-7ca2-a33e-271df3985be8",
+        "evaluationId": "019f3d50-4e37-7387-be25-436ea41e20a7",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "You know rimworld? If I want 3 pawns ideal for starting colony, what stats should they have? Without traits for now. The gold middle, idel for star anywhere, universal combination, so i don't reroll each time I start new colony",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-07-07T16:01:40.928595+00:00",
+        "updatedAt": "2026-07-07T16:01:40.928595+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019f3d50-2942-7d76-8e90-2401214f2bb6",
+        "evaluationSessionId": "019f3d4f-f20f-7ca2-a33e-271df3985be8",
+        "evaluationId": "019f3d50-4e37-7387-be25-436ea41e20a7",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019f3d50-2941-79d8-9f6e-329a4c980981"
+        ],
+        "content": "To create a \"Universal Trio\" that can survive anywhere from the ice sheet to the jungle without constant rerolling, you need to cover **all critical survival pillars** across three pawns.\n\nIn RimWorld, **Passions (the flame icons)** are actually more important than the starting number. A pawn with level 3 and a double flame is better than a level 8 with no flame.\n\nHere is the \"Gold Middle\" template for your three starters:\n\n---\n\n### Pawn 1: The Architect (Construction & Mining)\n*This pawn is responsible for your physical base. Without them, you can't build coolers, heaters, or power grids.*\n\n*   **Primary Skill: Construction (6-8+).** Essential for building beds and power generators without failing and wasting materials.\n*   **Secondary Skill: Mining (5+).** Necessary for expanding into mountains and gathering steel/components early.\n*   **Combat: Shooting.** Usually your primary defender.\n*   **Critical \"Must-Have\":** Must be capable of **Hauling and Cleaning**.\n\n### Pawn 2: The Provider (Plants, Cooking, & Medicine)\n*This is your survival specialist. They keep the colony fed and stop people from dying of infections.*\n\n*   **Primary Skill: Plants (8+).** This is the magic number because it allows you to harvest **Healroot** (herbal medicine) immediately.\n*   **Secondary Skill: Medicine (6-8+).** You need one person who can reliably patch up wounds and perform surgery.\n*   **Secondary Skill: Cooking (4-6+).** At level 4, the \"Food Poisoning\" chance drops significantly.\n*   **Combat: Shooting or Melee.** \n\n### Pawn 3: The Brains (Intellectual, Social, & Crafting)\n*This pawn ensures you don't get stuck in the Stone Age and handles the \"outside world.\"*\n\n*   **Primary Skill: Intellectual (6-8+).** Research is the only way to progress. In a \"starve or die\" situation, getting to Hydroponics or Microelectronics quickly is key.\n*   **Secondary Skill: Social (6+).** For recruiting prisoners and getting better prices from traders.\n*   **Secondary Skill: Crafting (4+).** Useful for making basic clothes and weapons early on.\n*   **Combat: Shooting.** \n\n---\n\n### The \"Universal Check-List\" (Before you hit Start)\n\nBefore you embark, check the **Left Side** of the character selection screen. Ensure these three things are true:\n\n1.  **The \"No-Go\" List:** None of the three pawns should have \"None\" or \"Disabled\" for:\n    *   **Dumb Labor** (Everyone must be able to haul and clean).\n    *   **Violence** (Everyone must be able to fight).\n    *   **Caring** (Everyone should be able to stabilize a wound in an emergency).\n2.  **The \"Healroot\" Check:** At least one pawn must have **Plants 8**. If you land in a biome with a short growing season and you can't grow your own medicine, you will likely lose to the first infection you get.\n3.  **The Overlap:** Make sure you have at least **two** people with a passion in **Medicine**. If your only doctor gets downed in a raid, your colony is effectively dead. \n\n### Summary for \"The Gold Middle\"\n*   **Pawn 1:** High **Construction**, decent Mining.\n*   **Pawn 2:** High **Plants**, decent Medicine/Cooking.\n*   **Pawn 3:** High **Intellectual**, decent Social/Crafting.\n\nIf you have this spread, you can land in a Desert, a Tundra, or a Forest and have the tools to survive the first year every time.",
+        "experimental_attachments": [],
+        "modelId": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "createdAt": "2026-07-07T16:01:40.932411+00:00",
+        "updatedAt": "2026-07-07T16:01:53.822047+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 54,
+            "totalTokens": 1613,
+            "usageSource": "provider",
+            "outputTokens": 1559,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 726
+          },
+          "fromAutoRouter": false
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019f3d50-4e37-7387-be25-436ea41e20a7",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-flash",
+        "name": "gemini-3-flash",
+        "displayName": "gemini-3-flash",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

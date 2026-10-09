@@ -1,0 +1,896 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : sort by ids
+
+900100 = {
+	name = "Caradog_0"
+	dynasty = 105920
+	religion = pagan
+	culture = welsh
+	1.
+Mode     : direct
+Started  : 2026-02-21 22:22:56
+Updated  : 2026-02-21 22:22:56
+Archived : 2026-09-30 23:27:16
+Messages : 2
+URL      : https://arena.ai/c/019c81a5-10aa-7229-aef6-600dd396403d
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 22:22:56
+------------------------------------------------------------
+sort by ids
+
+900100 = {
+	name = "Caradog_0"
+	dynasty = 105920
+	religion = pagan
+	culture = welsh
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900600 = {
+	name = "Gwrtheyrn_0"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900700 = {
+	name = "Niall_0"
+	dynasty = 199
+	religion = pagan
+	culture = irish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902700 = {
+	name = "Athelstan_0"
+	dynasty = 100072
+	religion = catholic
+	culture = anglo_saxon
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903000 = {
+	name = "Brian_0"
+	dynasty = 695
+	religion = catholic
+	culture = irish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903500 = {
+	name = "William_0"
+	dynasty = 752
+	religion = catholic
+	culture = norman
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905200 = {
+	name = "Richard_0"
+	dynasty = 106
+	religion = catholic
+	culture = english
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906200 = {
+	name = "William_0"
+	dynasty = 3133
+	religion = catholic
+	culture = scottish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915300 = {
+	name = "Tanistry_0"
+	female = yes
+	dynasty = 915300
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916400 = {
+	name = "Boudica_0"
+	female = yes
+	dynasty = 916400
+	religion = pagan
+	culture = welsh
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917700 = {
+	name = "CrusGran_0"
+	female = yes
+	dynasty = 917700
+	religion = catholic
+	culture = english
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919500 = {
+	name = "Peace Child_0"
+	female = yes
+	dynasty = 919500
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919600 = {
+	name = "Protector_0"
+	female = yes
+	dynasty = 919600
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919700 = {
+	name = "Benefactor_0"
+	female = yes
+	dynasty = 919700
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920800 = {
+	name = "Family_0"
+	female = yes
+	dynasty = 920800
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923700 = {
+	name = "FLeader_0"
+	female = yes
+	dynasty = 923700
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901600 = {
+	name = "Ragnarr_0"
+	dynasty = 502
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902200 = {
+	name = "Haraldr_0"
+	dynasty = 499
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906500 = {
+	name = "Bear_0"
+	dynasty = 906500
+	religion = norse
+	culture = bear
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909800 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 909800
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909900 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 909900
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910000 = {
+	name = "Inquisitor_0"
+	dynasty = 910000
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910100 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 910100
+	religion = catholic
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910200 = {
+	name = "Theologic_0"
+	dynasty = 910200
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915000 = {
+	name = "Bastard_0"
+	female = yes
+	dynasty = 915000
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915400 = {
+	name = "Raider_0"
+	female = yes
+	dynasty = 915400
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916900 = {
+	name = "SeaKing_0"
+	dynasty = 916900
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917000 = {
+	name = "SeaQueen_0"
+	female = yes
+	dynasty = 917000
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921800 = {
+	name = "PisPagan_0"
+	female = yes
+	dynasty = 921800
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921900 = {
+	name = "AgroPagan_0"
+	dynasty = 921900
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923200 = {
+	name = "MDog_0"
+	dynasty = 923200
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924300 = {
+	name = "FBard_0"
+	female = yes
+	dynasty = 924300
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 22:22:56
+------------------------------------------------------------
+```text
+900100 = {
+	name = "Caradog_0"
+	dynasty = 105920
+	religion = pagan
+	culture = welsh
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900600 = {
+	name = "Gwrtheyrn_0"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900700 = {
+	name = "Niall_0"
+	dynasty = 199
+	religion = pagan
+	culture = irish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901600 = {
+	name = "Ragnarr_0"
+	dynasty = 502
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902200 = {
+	name = "Haraldr_0"
+	dynasty = 499
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902700 = {
+	name = "Athelstan_0"
+	dynasty = 100072
+	religion = catholic
+	culture = anglo_saxon
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903000 = {
+	name = "Brian_0"
+	dynasty = 695
+	religion = catholic
+	culture = irish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903500 = {
+	name = "William_0"
+	dynasty = 752
+	religion = catholic
+	culture = norman
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905200 = {
+	name = "Richard_0"
+	dynasty = 106
+	religion = catholic
+	culture = english
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906200 = {
+	name = "William_0"
+	dynasty = 3133
+	religion = catholic
+	culture = scottish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906500 = {
+	name = "Bear_0"
+	dynasty = 906500
+	religion = norse
+	culture = bear
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909800 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 909800
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909900 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 909900
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910000 = {
+	name = "Inquisitor_0"
+	dynasty = 910000
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910100 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 910100
+	religion = catholic
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910200 = {
+	name = "Theologic_0"
+	dynasty = 910200
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915000 = {
+	name = "Bastard_0"
+	female = yes
+	dynasty = 915000
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915300 = {
+	name = "Tanistry_0"
+	female = yes
+	dynasty = 915300
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915400 = {
+	name = "Raider_0"
+	female = yes
+	dynasty = 915400
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916400 = {
+	name = "Boudica_0"
+	female = yes
+	dynasty = 916400
+	religion = pagan
+	culture = welsh
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916900 = {
+	name = "SeaKing_0"
+	dynasty = 916900
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917000 = {
+	name = "SeaQueen_0"
+	female = yes
+	dynasty = 917000
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917700 = {
+	name = "CrusGran_0"
+	female = yes
+	dynasty = 917700
+	religion = catholic
+	culture = english
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919500 = {
+	name = "Peace Child_0"
+	female = yes
+	dynasty = 919500
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919600 = {
+	name = "Protector_0"
+	female = yes
+	dynasty = 919600
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919700 = {
+	name = "Benefactor_0"
+	female = yes
+	dynasty = 919700
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920800 = {
+	name = "Family_0"
+	female = yes
+	dynasty = 920800
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921800 = {
+	name = "PisPagan_0"
+	female = yes
+	dynasty = 921800
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921900 = {
+	name = "AgroPagan_0"
+	dynasty = 921900
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923200 = {
+	name = "MDog_0"
+	dynasty = 923200
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923700 = {
+	name = "FLeader_0"
+	female = yes
+	dynasty = 923700
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924300 = {
+	name = "FBard_0"
+	female = yes
+	dynasty = 924300
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

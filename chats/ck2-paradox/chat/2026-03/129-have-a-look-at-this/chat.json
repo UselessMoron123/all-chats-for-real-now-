@@ -1,0 +1,94 @@
+{
+  "exportedAt": "2026-10-09T16:28:01.484Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019d33a1-e334-7b05-a9ba-a6e792be9484",
+  "archivedAt": "2026-09-30 20:22:25.403+00",
+  "evaluation": {
+    "id": "019d33a1-e334-7b05-a9ba-a6e792be9484",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "have a look at this\nBritish Isles:\n  -  Caradog Catuvellauni (male)\n  -  Gwrtheyrn Gwerthrynion (mal",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019d33a2-5117-7a9f-967d-aad713ce72e8"
+    ],
+    "archivedAt": "2026-09-30 20:22:25.403+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-03-28 08:49:36.905+00",
+    "updatedAt": "2026-03-28 08:49:37.771537+00",
+    "messages": [
+      {
+        "id": "019d33a2-5115-7526-b2c9-9dabc1a07512",
+        "evaluationSessionId": "019d33a1-e334-7b05-a9ba-a6e792be9484",
+        "evaluationId": "019d33a2-73d3-736e-996d-9488451d7611",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "have a look at this\nBritish Isles:\n  -  Caradog Catuvellauni (male)\n  -  Gwrtheyrn Gwerthrynion (male)\n  -  Niall Ua Neill Noigiallaich (male)\n  -  Athelstan of Wessex (male)\n  -  Brian Ua Briain (male)\n  -  William de Normandie (male)\n  -  Richard Plantagenet (male)\n  -  William Wallace (male)\n  -  Ancestral Venerated Tanistry Bloodline (female)\n  -  Grand Crusader Bloodline (female)\n  -  Boudica Bloodline (female)\n  -  Blessed Child Bloodline (female)\n  -  Protector Bloodline (female)\n  -  Benefactor Bloodline (female)\n  -  Family Bloodline (female)\n  -  Legendary Leader Bloodline (female)\n\nScandinavia:\n  -  Ragnarr af Munso (male)\n  -  Haraldr Yngling (male)\n  -  Bear Bloodline (male)\n  -  Norse Bloodline 1 (female)\n  -  Norse Bloodline 3 (female)\n  -  Norse Bloodline 4 (male)\n  -  Norse Bloodline 5 (female)\n  -  Norse Bloodline 6 (male)\n  -  Ancestral Venerated Bastard Bloodline (female)\n  -  Ancestral Venerated Raiding Bloodline (female)\n  -  Sea King Bloodline (male)\n  -  Sea Queen Bloodline (female)\n  -  Norse Peaceful Bloodline (female)\n  -  Norse Aggressive Bloodline (male)\n  -  Legendary Dog Bloodline (male)\n  -  Legendary Bard Bloodline (female)\n\nFrance:\n  -  Merovech de Merohingi (male)\n  -  Charles Martel (male)\n  -  Alienor de Poitou (female)\n  -  Philippe Capet (male)\n  -  Catholic Bloodline 1 (female)\n  -  Catholic Bloodline 2 (male)\n  -  Catholic Bloodline 3 (female)\n  -  Catholic Bloodline 4 (male)\n  -  Catholic Bloodline 5 (female)\n  -  Catholic Bloodline 6 (male)\n  -  Catholic Bloodline 7 (female)\n  -  Lord of Outremer Bloodline (female)\n  -  Catholic Peaceful Bloodline (female)\n  -  Catholic Aggressive Bloodline (male)\n  -  Legendary Bard Bloodline (male)\n  -  Legendary Captor Bloodline (female)\n\nIberian Peninsula:\n  -  Yusuf Almoravid (male)\n  -  Rodrigo de Vivar (male)\n  -  Alfonso d'Ivrea (male)\n  -  Gartzia de Navarra (male)\n  -  Afonso de Bourgogne (male)\n  -  Abu Ya'qub Almohad (male)\n  -  Muhammad Nasrid (male)\n  -  Jaume de Barcelona (male)\n  -  Duelist Bloodline (female)\n  -  Crusader Commander Bloodline (female)\n  -  Reconquista 1 Bloodline (female)\n  -  Reconquista 2 Bloodline (female)\n  -  The Little Warrior Philosopher (female)\n  -  The Perfect Knight (female)\n  -  The Conqueror (female)\n  -  The Warrior Philosopher (female)\n\nHoly Roman Empire:\n  -  Rudolf Welf (male)\n  -  Otto Liudolfinger (male)\n  -  Friedrich von Hohenstaufen (male)\n  -  Baudouin Van Vlaanderen (male)\n  -  Duck Bloodline (female)\n  -  Destroyer of Byzantium Bloodline (female)\n  -  Northern Crusader Bloodline (female)\n  -  Legendary Warrior Bloodline (female)\n\nItaly:\n  -  Matilde de Canossa (female)\n  -  Bohemond de Hauteville (male)\n  -  Roger de Hauteville (male)\n  -  Enrico Dandolo (male)\n  -  Crusade Lord Bloodline (female)\n  -  Crusader Kid Bloodline (female)\n  -  Vatican 1 Bloodline (female)\n  -  Vatican 2 Bloodline (male)\n\nRomuva:\n  -  Romuva Bloodline 1 (female)\n  -  Romuva Bloodline 3 (female)\n  -  Romuva Bloodline 4 (male)\n  -  Romuva Bloodline 5 (female)\n  -  Romuva Bloodline 6 (male)\n  -  Ancestral Venerated Dueling Bloodline (female)\n  -  Legendary Captor Bloodline (male)\n  -  Legendary Raider Bloodline (male)\n\nSuomenusko:\n  -  Horse Bloodline (male)\n  -  Suomenusko Bloodline 1 (female)\n  -  Suomenusko Bloodline 3 (female)\n  -  Suomenusko Bloodline 4 (male)\n  -  Suomenusko Bloodline 5 (female)\n  -  Suomenusko Bloodline 6 (male)\n  -  Child of Destiny Bloodline (male)\n  -  Legendary Raider Bloodline (female)\n\nSlavic Union:\n  -  Rurik Rurikid (male)\n  -  Arpad Arpad (male)\n  -  Dyre Oskyldr (male)\n  -  Boleslav Premyslid (male)\n  -  Boleslaw Piast (male)\n  -  Dmitar-Zvonimir Trpimirovic (male)\n  -  Alexandr Nevsky (male)\n  -  Slavic Bloodline 1 (female)\n  -  Slavic Bloodline 3 (female)\n  -  Slavic Bloodline 4 (female)\n  -  Slavic Bloodline 5 (female)\n  -  Slavic Bloodline 6 (female)\n  -  Teuta Bloodline (female)\n  -  Slavic Union 1 Bloodline (male)\n  -  Slavic Union 2 Bloodline (female)\n  -  Legendary Survivor Bloodline (female)\n\nByzantium:\n  -  Basileios I Makedon (male)\n  -  Alexios Komnenos (male)\n  -  Orthodox Bloodline 1 (female)\n  -  Orthodox Bloodline 2 (female)\n  -  Orthodox Bloodline 3 (female)\n  -  Orthodox Bloodline 4 (male)\n  -  Orthodox Bloodline 5 (female)\n  -  Orthodox Bloodline 6 (male)\n\nHellenic:\n  -  Hellenic Bloodline 1 (female)\n  -  Hellenic Bloodline 2 (male)\n  -  Hellenic Bloodline 3 (female)\n  -  Hellenic Bloodline 4 (male)\n  -  Hellenic Bloodline 5 (female)\n  -  Hellenic Bloodline 6 (male)\n  -  Roman Imperial Bloodline 1 (male)\n  -  Roman Imperial Bloodline 2 (female)\n\nArabic:\n  -  Sa'id Jannabid (male)\n  -  Abdullah Fatimid (male)\n  -  Arwa Sulayhid (female)\n  -  Saladin Ayyubid (male)\n  -  Baibars Bunduqdarid (male)\n  -  Cat Bloodline (female)\n  -  The Architect Bloodline (male)\n  -  The Castellan Bloodline (male)\n  -  The Carpenter Bloodline (male)\n  -  The Builder Bloodline (female)\n  -  Peace Architect Bloodline (female)\n  -  Peace Castellan Bloodline (female)\n  -  Peace Monumental Bloodline (female)\n  -  Philosopher Bloodline (female)\n  -  Islamic Peaceful Bloodline (female)\n  -  Islamic Aggressive Bloodline (male)\n\nJews:\n  -  Mikael Solomonid (male)\n  -  Israel Restorer 1 Bloodline (male)\n  -  Israel Restorer 2 Bloodline (female)\n  -  Child of Destiny Bloodline (female)\n  -  Happy Child (female)\n  -  Macabre Banquet (male)\n  -  Silent Killer (female)\n  -  The Butcher (male)\n  -  The Dragon King (male)\n  -  Murder/War (male)\n  -  Murder/Peace Bloodline (female)\n  -  Murder/Builder Bloodline (female)\n  -  Ruthlessness Bloodline (female)\n  -  Jewish Peaceful Bloodline (female)\n  -  Jewish Aggressive Bloodline (male)\n  -  Legendary Leader Bloodline (male)\n\nCoptic:\n  -  Coptic Bloodline 1 (female)\n  -  Coptic Bloodline 2 (female)\n  -  Coptic Bloodline 3 (female)\n  -  Coptic Bloodline 4 (male)\n  -  Coptic Bloodline 5 (female)\n  -  Coptic Bloodline 6 (male)\n  -  Legendary Survivor Bloodline (male)\n  -  Legendary Warrior Bloodline (male)\n\nCustom:\n  -  Ancestral Venerated Heroic Bloodline (female)\n  -  Placeholder Bloodline 1 (male)\n  -  Placeholder Bloodline 2 (male)\n  -  Placeholder Bloodline 3 (female)\n  -  Placeholder Bloodline 4 (female)\n  -  Placeholder Bloodline 5 (male)\n  -  Placeholder Bloodline 6 (female)\n  -  Placeholder Bloodline 7 (male)\n\nAfrica:\n  -  Magajiva Daura (female)\n  -  Musa Keita (male)\n  -  Elephant Bloodline (male)\n  -  African Bloodline 1 (female)\n  -  African Bloodline 3 (female)\n  -  African Bloodline 4 (male)\n  -  African Bloodline 5 (female)\n  -  African Bloodline 6 (male)\n\nAztec:\n  -  Aztec Bloodline 1 (male)\n  -  Aztec Bloodline 3 (female)\n  -  Aztec Bloodline 4 (male)\n  -  Aztec Bloodline 5 (female)\n  -  Aztec Bloodline 6 (male)\n  -  Bloodthirsty 1 Bloodline (male)\n  -  Bloodthirsty 2 Bloodline (female)\n  -  Legendary Eagle Hunter Bloodline (female)\n\nCentral Asia:\n  -  Muhan Ashina (male)\n  -  Kubrat Dulo (male)\n  -  Sabuktigin Ghaznavid (male)\n  -  Seljuk Seljuk (male)\n  -  Temujin Borjigin (male)\n  -  Osman Ottoman (male)\n  -  Timur Timurid (male)\n  -  Tengri Bloodline 1 (female)\n  -  Tengri Bloodline 3 (female)\n  -  Tengri Bloodline 4 (female)\n  -  Tengri Bloodline 5 (female)\n  -  Tengri Bloodline 6 (female)\n  -  Ancestral Venerated Sky Burial Bloodline (female)\n  -  Ancestral Venerated Mercenary Bloodline (female)\n  -  Chinese Imperial Bloodline (female)\n  -  Legendary Eagle Bloodline (male)\n\nPersia:\n  -  Erdewan Karen-Pahlav (male)\n  -  Sasan Sassanid (male)\n  -  Mirian Khosroviani (male)\n  -  Bagrat Bagrationi (male)\n  -  Bahram Mihran (male)\n  -  Mardavij Ziyarid (male)\n  -  Hedgehog Bloodline (female)\n  -  Saoshyant 1 Bloodline (male)\n  -  Saoshyant 2 Bloodline (female)\n  -  Phalaris Bloodline (female)\n  -  Benevolence Bloodline (female)\n  -  Zoroastrian Peaceful Bloodline (female)\n  -  Zoroastrian Aggressive Bloodline (male)\n  -  Alexander Bloodline (female)\n  -  Legendary Soldier Bloodline (female)\n  -  Legendary Commander Bloodline (female)\n\nNestorian:\n  -  Nestorian Bloodline 1 (female)\n  -  Nestorian Bloodline 2 (female)\n  -  Nestorian Bloodline 3 (female)\n  -  Nestorian Bloodline 4 (male)\n  -  Nestorian Bloodline 5 (female)\n  -  Nestorian Bloodline 6 (male)\t\n  -  Legendary Soldier Bloodline (male)\n  -  Legendary Commander Bloodline (male)\n\nZun:\n  -  Dog Bloodline (male)\n  -  Zun Bloodline 1 (female)\n  -  Zun Bloodline 3 (female)\n  -  Zun Bloodline 4 (male)\n  -  Zun Bloodline 5 (female)\n  -  Zun Bloodline 6 (male)\n  -  Duelist Bloodline (male)\n  -  Legendary Dog Huter Bloodline (female)\n\nTibet:\n  -  Songtsen Gampo (male)\n  -  Red Panda Bloodline (female)\n  -  Bon Bloodline 1 (male)\n  -  Bon Bloodline 3 (female)\n  -  Bon Bloodline 4 (male)\n  -  Bon Bloodline 5 (female)\n  -  Bon Bloodline 6 (male)\n  -  Immortal Bloodline (female)\n\nIndia:\n  -  Gopala Pala (male)\n  -  Irâcêntira Chola (male)\n  -  Tughluq Tughluq (male)\n  -  Chakravartin 1 Bloodline (male)\n  -  Chakravartin 2 Bloodline (female)\n  -  Hindu Peaceful Bloodline (female)\n  -  Hindu Aggressive Bloodline (female)\n  -  Ashoka Bloodline (female)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-28T08:49:37.760351+00:00",
+        "updatedAt": "2026-03-28T08:49:37.760351+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d33a2-5117-7a9f-967d-aad713ce72e8",
+        "evaluationSessionId": "019d33a1-e334-7b05-a9ba-a6e792be9484",
+        "evaluationId": "019d33a2-73d3-736e-996d-9488451d7611",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d33a2-5115-7526-b2c9-9dabc1a07512"
+        ],
+        "content": "I’ve had a look. This appears to be a YAML-style grouped list of bloodlines/characters by region, each tagged with a gender in parentheses.\n\nA few quick observations:\n\n### Structure\n- Overall structure is consistent and readable.\n- Categories are region/culture/religion themed:\n  - geographic: `British Isles`, `France`, `India`\n  - religious/cultural: `Romuva`, `Nestorian`, `Hellenic`, `Zun`\n  - custom/meta: `Custom`\n- Entries follow:\n  - `- Name (male)`\n  - `- Name (female)`\n\n### Likely purpose\nThis looks like one of:\n- a game data list\n- a mod configuration/source list\n- a roster for assigning bloodlines\n- a validation/mapping table\n\n### Things that stand out\n#### 1. Inconsistent naming conventions\nYou mix:\n- historical character names: `Saladin Ayyubid`, `Matilde de Canossa`\n- generic placeholders: `Catholic Bloodline 1`\n- descriptive labels: `The Architect Bloodline`\n- obviously temporary names: `Placeholder Bloodline 1`\n\nThat’s fine if intentional, but if this is for production data you may want one naming scheme.\n\n#### 2. Typos / spelling issues\nI noticed some likely errors:\n- `Legendary Dog Huter Bloodline` → probably `Legendary Dog Hunter Bloodline`\n- `Irâcêntira Chola` looks unusual; maybe intended, but worth checking\n- `Dmitar-Zvonimir Trpimirovic` may need diacritics depending on your standard\n- `Jaume de Barcelona` / `William de Normandie` / `Alienor de Poitou` are language-specific forms; that may be intentional, but consistency matters\n\n#### 3. Trailing whitespace / formatting issue\nUnder `Nestorian`:\n- `Nestorian Bloodline 6 (male)\t`\nThere appears to be a trailing tab after `(male)`.\n\n#### 4. Gender distribution\nA lot of “generic” bloodlines are marked female, while many founder/historical figures are male. That may be intentional for inheritance mechanics, but if not, it’s worth reviewing.\n\n#### 5. Duplicate bloodline titles across regions\nSome names recur in different regions with different genders:\n- `Legendary Bard Bloodline`\n  - Scandinavia: female\n  - France: male\n- `Legendary Captor Bloodline`\n  - France: female\n  - Romuva: male\n- `Legendary Raider Bloodline`\n  - Romuva: male\n  - Suomenusko: female\n- `Legendary Survivor Bloodline`\n  - Slavic Union: female\n  - Coptic: male\n- `Legendary Warrior Bloodline`\n  - Holy Roman Empire: female\n  - Coptic: male\n- `Legendary Leader Bloodline`\n  - British Isles: female\n  - Jews: male\n- `Child of Destiny Bloodline`\n  - Suomenusko: male\n  - Jews: female\n- `Duelist Bloodline`\n  - Iberian Peninsula: female\n  - Zun: male\n- `Dog Bloodline`\n  - Zun: male\n  - `Legendary Dog Bloodline` in Scandinavia is separate but similar\n\nIf these are intended to be distinct entries, maybe give them region-specific IDs or names.\n\n#### 6. Placeholder / unfinished content\nThese look unfinished:\n- `Placeholder Bloodline 1–7`\n- many numbered entries like `Catholic Bloodline 1`\n- `Romuva Bloodline 1/3/4/5/6` with missing 2\n- similar missing `2` in many groups:\n  - Norse\n  - Slavic\n  - African\n  - Aztec\n  - Tengri\n  - Bon\n  - etc.\n\nThat may reflect reserved slots or removed entries, but it’s noticeable.\n\n### Potential validation checks\nIf you want, this list would benefit from automatic checks for:\n- duplicate names\n- duplicate names with conflicting gender\n- missing sequence numbers\n- spelling anomalies\n- invalid YAML formatting\n- category size balance\n- historical-name consistency\n\n### Summary\nAt a glance, the list is mostly well-structured, but I’d flag:\n1. inconsistent naming style  \n2. several likely typos  \n3. repeated bloodline names across regions  \n4. placeholder/unfinished entries  \n5. a trailing tab in `Nestorian`\n\nIf you want, I can also:\n- clean this into valid YAML\n- convert it to JSON/CSV\n- find all duplicates systematically\n- normalize the naming\n- proofread it line by line for typos and historical inconsistencies",
+        "experimental_attachments": [],
+        "modelId": "019cc5a9-cc73-721a-a124-efee4e783d1a",
+        "createdAt": "2026-03-28T08:49:37.764421+00:00",
+        "updatedAt": "2026-03-28T08:49:54.331567+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019d33a2-73d3-736e-996d-9488451d7611",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019cc5a9-cc73-721a-a124-efee4e783d1a",
+        "organization": "openai",
+        "provider": "openaiResponses",
+        "publicName": "gpt-5.4-no-system-prompt",
+        "name": "gpt-5.4-no-system-prompt",
+        "displayName": "gpt-5.4",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

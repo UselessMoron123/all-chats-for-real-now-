@@ -1,0 +1,94 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : CK2 good custom dynasty name
+Mode     : direct-battle
+Started  : 2026-04-24 16:45:05
+Updated  : 2026-04-24 16:45:06
+Archived : 2026-09-30 23:14:23
+Messages : 2
+URL      : https://arena.ai/c/019dbfbc-33f9-7de7-afcc-71a83c1f7b47
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-04-24 16:45:06
+------------------------------------------------------------
+CK2 good custom dynasty name
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-04-24 16:45:06
+------------------------------------------------------------
+In *Crusader Kings 2*, a good dynasty name usually depends on the culture you are playing and the "vibe" of your campaign.
+
+Here is a breakdown of custom dynasty names categorized by region, style, and meaning:
+
+### 1. Central & Western Europe (Frankish, German, English)
+These often use the prefix **"de"** (French), **"von"** (German), or **"of"** (English) followed by a landmark or a fictional estate.
+
+*   **De Rochefort** (Of the Strong Rock)
+*   **Von Adlerstein** (Of Eagle Stone)
+*   **Of Ashbourne** (Great for a Saxon/English start)
+*   **De Martel** (The Hammer – great for a martial-focused lineage)
+*   **Von Hochberg** (High Mountain)
+*   **Beaufort** (Beautiful Fortress)
+*   **Iron-Side** (Classic English/Saxon epithet)
+
+### 2. Northern Europe (Norse/Scandinavian)
+Norse names usually end in **-ing** (descendant of) or utilize powerful animal/nature imagery.
+
+*   **Skallagrim** (Bald Grimace)
+*   **Wulfung** (Sons of the Wolf)
+*   **Ormr** (The Serpent)
+*   **Storm-Eye**
+*   **Hrolfsson** (If starting as a son of a Hrolf)
+*   **Iron-Oak**
+*   **Bear-Claw** (Bjorn-Klo)
+
+### 3. Byzantine & Greek (Eastern Roman)
+Byzantine names often sound prestigious and end in **-os** or **-as**.
+
+*   **Argyros** (The Silvery)
+*   **Chrysos** (The Golden)
+*   **Kallergis** (Beautiful Worker)
+*   **Draconas** (The Dragon)
+*   **Asteris** (The Star)
+*   **Strategos** (The General)
+
+### 4. Mediterranean (Italian, Spanish, Occitan)
+Use **"di"** (Italian) or **"de"** (Spanish).
+
+*   **Di Valenti** (The Brave)
+*   **De la Vega** (Of the Meadow)
+*   **Di Fierro** (Of Iron)
+*   **De Calatrava**
+*   **Di Sangue** (Of Blood - a bit edgy, but fits a ruthless playthrough)
+
+### 5. Middle Eastern & African (Arabic/Berber)
+Most use the prefix **Banu** (Sons of) or **al-**.
+
+*   **Banu Harb** (Sons of War)
+*   **Al-Saif** (The Sword)
+*   **Banu Qamar** (Sons of the Moon)
+*   **Al-Zaki** (The Pure/Purebred)
+
+### 6. Badass/Fantasy Style
+If you aren't worried about strict historical accuracy and want something that looks cool on the map:
+
+*   **Blackwood**
+*   **Crown-Breaker**
+*   **Vanguard**
+*   **Morningstar**
+*   **Dread-Mane**
+*   **Silver-Tongue** (Great for a high-diplomacy/intrigue run)
+
+### Pro-Tip: Using Prefixes in CK2
+When you create your dynasty in the Customizer, remember that the game often adds "of" or "de" automatically depending on your culture. 
+
+*   **Check the "Prefix" box:** If you want your dynasty to be "von Habsburg," put "Habsburg" in the name box and check the prefix box.
+*   **Dynasty Shields:** If you pick a "High Medieval" name like **De Rochefort**, try to use a castle or a rock in your Coat of Arms for extra flavor.
+
+**What region are you planning to play in?** I can give you a more specific name if I know your starting location!

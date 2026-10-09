@@ -1,0 +1,162 @@
+{
+  "exportedAt": "2026-10-09T16:27:43.732Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019fcc82-df3a-7d5f-bdad-8e86478346eb",
+  "archivedAt": "2026-09-30 20:05:00.81+00",
+  "evaluation": {
+    "id": "019fcc82-df3a-7d5f-bdad-8e86478346eb",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "look at map, read the text. write the best path between towns in order to meet all characters from l",
+    "mode": "side-by-side",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019fcc83-5307-7b94-a826-62b78eb51234",
+      "019fcc83-5308-73f1-89d2-0c14c6abee28"
+    ],
+    "archivedAt": "2026-09-30 20:05:00.81+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-08-04 11:23:09.919+00",
+    "updatedAt": "2026-08-04 11:23:10.938464+00",
+    "messages": [
+      {
+        "id": "019fcc83-5304-756b-9db1-6f6ee4bc034f",
+        "evaluationSessionId": "019fcc82-df3a-7d5f-bdad-8e86478346eb",
+        "evaluationId": "019fcc83-64c1-718f-a221-12055162d70f",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "look at map, read the text. write the best path between towns in order to meet all characters from list (I start in Hub). see how several persons are bound to appear in bars of first visited town of their possible location. give one list with onlt these several garanteed to appear in said locations, and second list, assuming that all characters follow the same mechanic\n\n\nGriffin, Bard start in the first HN city you visit.\nRuka, Kang start in the first Shek city you visit.\nRiddly, Jewel, Izumi start in the first UC city you visit. \n\nAgnu/Free (Must free from a cage)/Tower of Abuse\nBard/3000/Bad Teeth, Blister Hill, Stack, Waystations, World's End\nBeep/Free/Mongrel\nBo/Free (Must Join Anti-Slaver)/Black Scratch\nBurn/Free/Burn's Tower\nCat/Free (Must free from a cage)/Dust King Tower\nChad/9,000/Flats Lagoon\nCornelius/is a Goat/7,000/Settled Nomad Village\nCrumblejon/Free/Mongrel\nDigna/3,000/Flotsam Village\nDoctor Chung/Free/Mud Town, Shark\nElls/300/Sho-Battai\nEspher/Free (Must free from a cage)/Tengu's Vault\nGreen/2,300/Mud Town, Shark\nGreen Finger/2,000/Fishing Village\nGriffin/9,000/Bad Teeth, Blister Hill, Stack\nHamut/Free/Mud Town, Shark\nHeadshot/7,500/Eyesocket, Slave Markets\nHobbs/Free/Fishing Village, The Hub, Waystation(s), World's End, Mourn\nHorse/4,500/Fishing Village, Squin\nInfinite Wingwang/5,000/Mongrel\nIzumi/2,500/Any UC town\nJewel/6,000/Any UC town\nKang/6,000/Admag, Squin, Last Stand\nKnife/6,000/Flotsam Village\nLumi/6,000/Crab Town\nLuquin/Free (Must free from a cage)/Tengu's Vault\nMiu/Free/Mud Town, Shark\nOron/3,500/Admag, Squin, Last Stand\nPia/3,000/Flotsam Village\nRane the Giant/7,500/Admag, Squin, Last Stand\nRay/1,000/Eyesocket, Slave Markets\nRed/150/Bark\nReva/6,000/Flotsam Village\nRiddly/Free/Any UC town\nRuka/Free/Admag, Squin, Last Stand\nSadneil/Free/Black Desert City\nSeto/Must capture rival's leader or have 80 relations with Shek Kingdom/Admag\nShryke/Free/Mongrel\nSilvershade/3,000/Mud Town, Waystation(s), World's End, Flats Lagoon\nSinklyde/Free (Must free from a cage)/Tengu's Vault\nSoman/3,500/Fishing Village\nStubs Momuso/5,000/Mud Town, Shark\nYamdu/Must capture rival's leader/Trader's Edge\n\n\"Amateur Recruit\"/3,000/Crab Town, Mourn, The Hub, Blister Hill, Heft, Heng, Stoat, Black Scratch, Flats Lagoon, Smugglers Bar, Waystation(s), World's End, Shark\n\"Disheartened Skeleton\"/6,000/Shark\n\"Ex-Slave Recruit\"/3,000/Crab Town, Mourn, The Hub, Blister Hill, Heft, Heng, Stoat, Black Scratch, Flats Lagoon, Smugglers Bar, Waystation(s), World's End\n\"Recruit Seeking Revenge\"/3,000/Any UC town, Black Scratch, Flats Lagoon, Smugglers Bar, Waystation(s), World's End\n\"Scarred Adventurer\"/6,000/Any UC town, Eyesocket, Slave Markets\n\"Skeleton Survivor\"/2,500/Shark\n\"Soldier Drone Swordslinger\"/7,500/Any UC town\n\"Swamper Adventurer\"/6,000/Shark\n\"Wall Man\"/5,000/Any UC town, Eyesocket, Shark, Slave Markets, Waystations, World's End, Smugglers Bar, Black Scratch, Flats Lagoon\n\n\n1. Bark (UC)\n2. Fishing Village\n3. Sho-Battai (UC)\n4. Burn's Tower\n5. Flotsam Village\n6. World's End\n7. Stoat (UC)\n8. Heft (UC)\n9. Settled Nomad Village\n10. Mongrel\n11. Blister Hill\n12. Tengu's Vault\n13. Heng/Trader's Edge (UC)\n14. Bad Teeth\n15. Stack\n16. Black Desert City\n17. Waystation 1\n18. Eyesocket\n19. Dust King Tower\n20. Waystation 2\n21. The Hub\n22. Smugglers Bar\n23. Tower of Abuse\n24. Brink (UC)\n25. Black Scratch\n26. Crab Village\n27. Admag\n28. Waystation 3\n29. Squin\n30. Last Stand\n31. Mud Town\n32. Shark\n33. Flats Lagoon\n34. Mourn\n35. Catun (UC)\n36. Slave Markets\n37. Clownsteady (UC)\n38. Waystation 4\n39. Drifter's Last (UC)\n\n\n\n\n1. Bark (UC)\nUnique: Red, Izumi, Jewel, Riddly\nGeneric: \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n2. Fishing Village\nUnique: Green Finger, Hobbs, Horse, Soman\n3. Sho-Battai (UC)\nUnique: Ells, Izumi, Jewel, Riddly\nGeneric: \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n4. Burn's Tower\nUnique: Burn\n5. Flotsam Village\nUnique: Digna, Knife, Pia, Reva\n6. World's End\nUnique: Bard, Hobbs, Silvershade\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n7. Stoat (UC)\nUnique: Izumi, Jewel, Riddly\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n8. Heft (UC)\nUnique: Izumi, Jewel, Riddly\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n9. Settled Nomad Village\nUnique: Cornelius\n10. Mongrel\nUnique: Beep, Crumblejon, Infinite Wingwang, Shryke\n11. Blister Hill\nUnique: Bard, Griffin\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\"\n12. Tengu's Vault\nUnique: Espher, Luquin, Sinklyde\n13. Heng / Trader's Edge (UC)\nUnique: Yamdu (Trader's Edge), Izumi, Jewel, Riddly\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n14. Bad Teeth\nUnique: Bard, Griffin\n15. Stack\nUnique: Bard, Griffin\n16. Black Desert City\nUnique: Sadneil\n17. Waystation 1\nUnique: Bard, Hobbs, Silvershade\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n18. Eyesocket\nUnique: Headshot, Ray\nGeneric: \"Scarred Adventurer\", \"Wall Man\"\n19. Dust King Tower\nUnique: Cat\n20. Waystation 2\nUnique: Bard, Hobbs, Silvershade\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n21. The Hub\nUnique: Hobbs\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\"\n22. Smugglers Bar\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n23. Tower of Abuse\nUnique: Agnu\n24. Brink (UC)\nUnique: Izumi, Jewel, Riddly\nGeneric: \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n25. Black Scratch\nUnique: Bo\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n26. Crab Village\nUnique: Lumi\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\"\n27. Admag\nUnique: Kang, Oron, Rane the Giant, Ruka, Seto\n28. Waystation 3\nUnique: Bard, Hobbs, Silvershade\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n29. Squin\nUnique: Horse, Kang, Oron, Rane the Giant, Ruka\n30. Last Stand\nUnique: Kang, Oron, Rane the Giant, Ruka\n31. Mud Town\nUnique: Doctor Chung, Green, Hamut, Miu, Silvershade, Stubs Momuso\n32. Shark\nUnique: Doctor Chung, Green, Hamut, Miu, Stubs Momuso\nGeneric: \"Amateur Recruit\", \"Disheartened Skeleton\", \"Skeleton Survivor\", \"Swamper Adventurer\", \"Wall Man\"\n33. Flats Lagoon\nUnique: Chad, Silvershade\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n34. Mourn\nUnique: Hobbs\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\"\n35. Catun (UC)\nUnique: Izumi, Jewel, Riddly\nGeneric: \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n36. Slave Markets\nUnique: Headshot, Ray\nGeneric: \"Scarred Adventurer\", \"Wall Man\"\n37. Clownsteady (UC)\nUnique: Izumi, Jewel, Riddly\nGeneric: \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n38. Waystation 4\nUnique: Bard, Hobbs, Silvershade\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n39. Drifter's Last (UC)\nUnique: Izumi, Jewel, Riddly\nGeneric: \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"",
+        "experimental_attachments": [
+          {
+            "name": "0995c648-8914-4762-b5b9-0eb0d213652d/1785842582906-SmallMarked.png",
+            "contentType": "image/png",
+            "url": "https://messages-prod.27c852f3500f38c1e7786e2c9ff9e48f.r2.cloudflarestorage.com/0995c648-8914-4762-b5b9-0eb0d213652d/1785842582906-SmallMarked.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=b33de61d4f22a31b59b25364ab5037c5%2F20261009%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261009T162732Z&X-Amz-Expires=3600&X-Amz-Signature=2e50263398f42c9db1e1eb8992c0d4a8027a0ab3dd73ec21b18f7027de1df8e8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+          }
+        ],
+        "modelId": null,
+        "createdAt": "2026-08-04T11:23:10.929178+00:00",
+        "updatedAt": "2026-08-04T11:23:10.929178+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019fcc83-5307-7b94-a826-62b78eb51234",
+        "evaluationSessionId": "019fcc82-df3a-7d5f-bdad-8e86478346eb",
+        "evaluationId": "019fcc83-64c1-718f-a221-12055162d70f",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019fcc83-5304-756b-9db1-6f6ee4bc034f"
+        ],
+        "content": "Because Griffin/Bard, Ruka/Kang, and Riddly/Jewel/Izumi are assigned to the first town of their faction that you visit, you should deliberately choose the town that gives the most additional recruits.\n\nStarting from The Hub, a route with relatively little backtracking is:\n\n1. The Hub (Hobbs)\n2. Stack (first Holy Nation town: Bard, Griffin)\n3. Bad Teeth (only if Bard/Griffin did not roll into Stack; otherwise optional)\n4. Blister Hill (same reason as above; otherwise optional)\n5. Flotsam Village (Digna, Knife, Pia, Reva)\n6. World's End (Burn nearby at Burn's Tower, plus Silvershade/Hobbs if needed)\n7. Burn's Tower (Burn)\n8. Fishing Village (Green Finger, Horse, Soman)\n9. Settled Nomad Village (Cornelius)\n10. Mongrel (Beep, Crumblejon, Infinite Wingwang, Shryke)\n11. Black Desert City (Sadneil)\n12. Tower of Abuse (Agnu)\n13. Dust King Tower (Cat)\n14. Squin (first Shek town: Ruka, Kang, Oron, Rane the Giant, Horse; Seto if eligible)\n15. Last Stand / Admag (only if your first-visit Shek recruits were not in Squin, or for Seto)\n16. Shark (Doctor Chung, Green, Hamut, Miu, Stubs Momuso, plus Shark generics)\n17. Mud Town (only if any swamp uniques were not in Shark)\n18. Flats Lagoon (Chad, Silvershade)\n19. Eyesocket (Headshot, Ray)\n20. Slave Markets (only if Headshot/Ray not found)\n21. Heng (first UC town: Riddly, Jewel, Izumi; Trader's Edge nearby for Yamdu if eligible)\n22. Trader's Edge (Yamdu if eligible)\n23. Tengu's Vault (Espher, Luquin, Sinklyde)\n24. Stoat (Ells if not already collected elsewhere)\n25. Sho-Battai (Ells if not already collected)\n26. Bark (Red)\n27. Brink\n28. Black Scratch (Bo)\n29. Crab Town (Lumi)\n30. Mourn (only for generic recruits if desired)\n\nThe UC towns after your first one are interchangeable for the faction-assigned recruits because they will only appear in whichever UC town you entered first.\n\nGuaranteed first-visit recruits (actual game mechanics)\n\nIf you make these your first faction towns:\n\n- First Holy Nation town: Bard, Griffin\n- First Shek town: Ruka, Kang\n- First United Cities town: Riddly, Jewel, Izumi\n\nAssuming all characters with multiple possible towns use the same \"first eligible town visited\" mechanic\n\n- Holy Nation: Bard, Griffin\n- Shek: Ruka, Kang, Oron, Rane the Giant (and Seto if eligible)\n- United Cities: Riddly, Jewel, Izumi\n- Swamp: Doctor Chung, Green, Hamut, Miu, Stubs Momuso\n- Fishing Village: Green Finger, Hobbs, Horse, Soman\n- Mongrel: Beep, Crumblejon, Infinite Wingwang, Shryke\n- Flotsam Village: Digna, Knife, Pia, Reva\n- Tengu's Vault: Espher, Luquin, Sinklyde\n- Eyesocket/Slave Markets: Headshot, Ray\n- Waystation/World's End group: Silvershade (and Hobbs/Bard if they also followed such a rule)\n\nThis route intentionally forces the three documented first-visit spawn groups into:\n- Stack (HN)\n- Squin (Shek)\n- Heng (UC)\n\nThose choices maximize the number of unique recruits available in a single stop while keeping overall travel efficient from The Hub.",
+        "experimental_attachments": [],
+        "modelId": "019e71ea-1e1d-740f-9c2d-dab5869ff108",
+        "createdAt": "2026-08-04T11:23:10.932314+00:00",
+        "updatedAt": "2026-08-04T11:23:19.151704+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 3470,
+            "totalTokens": 4338,
+            "usageSource": "provider",
+            "outputTokens": 868,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 0
+          },
+          "fromAutoRouter": false
+        }
+      },
+      {
+        "id": "019fcc83-5308-73f1-89d2-0c14c6abee28",
+        "evaluationSessionId": "019fcc82-df3a-7d5f-bdad-8e86478346eb",
+        "evaluationId": "019fcc83-64c1-718f-a221-12055162d70f",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019fcc83-5304-756b-9db1-6f6ee4bc034f"
+        ],
+        "content": "Here is the optimal path to meet **every character and generic recruit type** on the map, starting from **The Hub (21)** in a single continuous loop.\n\n---\n\n### **Optimal Town Path Order**\n**21** (The Hub) $\\rightarrow$ **15** (Stack) $\\rightarrow$ **29** (Squin) $\\rightarrow$ **27** (Admag) $\\rightarrow$ **30** (Last Stand) $\\rightarrow$ **31** (Mud Town) $\\rightarrow$ **32** (Shark) $\\rightarrow$ **37** (Clownsteady) $\\rightarrow$ **38** (Waystation 4) $\\rightarrow$ **39** (Drifter's Last) $\\rightarrow$ **36** (Slave Markets) $\\rightarrow$ **35** (Catun) $\\rightarrow$ **34** (Mourn) $\\rightarrow$ **33** (Flats Lagoon) $\\rightarrow$ **23** (Tower of Abuse) $\\rightarrow$ **16** (Black Desert City) $\\rightarrow$ **19** (Dust King Tower) $\\rightarrow$ **20/22** (Waystation 2 / Smugglers Bar) $\\rightarrow$ **24** (Brink) $\\rightarrow$ **25** (Black Scratch) $\\rightarrow$ **26** (Crab Village) $\\rightarrow$ **18** (Eyesocket) $\\rightarrow$ **13** (Heng / Trader's Edge) $\\rightarrow$ **12** (Tengu's Vault) $\\rightarrow$ **8** (Heft) $\\rightarrow$ **7** (Stoat) $\\rightarrow$ **3** (Sho-Battai) $\\rightarrow$ **1** (Bark) $\\rightarrow$ **2** (Fishing Village) $\\rightarrow$ **6** (World's End) $\\rightarrow$ **5** (Flotsam Village) $\\rightarrow$ **4** (Burn's Tower) $\\rightarrow$ **9** (Settled Nomad Village) $\\rightarrow$ **10** (Mongrel) $\\rightarrow$ **11** (Blister Hill) $\\rightarrow$ **14** (Bad Teeth).\n\n---\n\n### **LIST 1: Only Griffin, Bard, Ruka, Kang, Riddly, Jewel, Izumi follow the \"First Visited Town\" Rule**\n\n*(In this list, only the 7 explicitly named characters lock into the first city visited of their faction. Other multi-location characters appear in their standard available locations along the path.)*\n\n* **21. The Hub:** Hobbs *(if spawned)*, \"Amateur Recruit\", \"Ex-Slave Recruit\"\n* **15. Stack** *(1st HN Town Visited)*: **Griffin**, **Bard**\n* **29. Squin** *(1st Shek Town Visited)*: **Ruka**, **Kang**, Horse, Oron, Rane the Giant\n* **27. Admag:** Seto *(requires capturing rival leader or 80 relation)*\n* **30. Last Stand:** *(Backup Shek town)*\n* **31. Mud Town:** Doctor Chung, Green, Hamut, Miu, Silvershade, Stubs Momuso\n* **32. Shark:** \"Disheartened Skeleton\", \"Skeleton Survivor\", \"Swamper Adventurer\", \"Wall Man\"\n* **37. Clownsteady** *(1st UC Town Visited)*: **Izumi**, **Jewel**, **Riddly**, \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\"\n* **38. Waystation 4:** Generic recruits\n* **39. Drifter's Last:** Generic recruits\n* **36. Slave Markets:** Headshot, Ray\n* **35. Catun:** Generic recruits\n* **34. Mourn:** Generic recruits\n* **33. Flats Lagoon:** Chad\n* **23. Tower of Abuse:** Agnu *(Free from cage)*\n* **16. Black Desert City:** Sadneil\n* **19. Dust King Tower:** Cat *(Free from cage)*\n* **20. Waystation 2 / 22. Smugglers Bar:** Generic recruits\n* **24. Brink:** Generic recruits\n* **25. Black Scratch:** Bo\n* **26. Crab Village:** Lumi\n* **18. Eyesocket:** *(Backup location for Headshot / Ray)*\n* **13. Heng / Trader's Edge:** Yamdu *(Trader's Edge)*\n* **12. Tengu's Vault:** Espher, Luquin, Sinklyde *(Free from cages)*\n* **8. Heft:** Generic recruits\n* **7. Stoat:** Generic recruits\n* **3. Sho-Battai:** Ells\n* **1. Bark:** Red\n* **2. Fishing Village:** Green Finger, Soman\n* **6. World's End:** Generic recruits\n* **5. Flotsam Village:** Digna, Knife, Pia, Reva\n* **4. Burn's Tower:** Burn\n* **9. Settled Nomad Village:** Cornelius\n* **10. Mongrel:** Beep, Crumblejon, Infinite Wingwang, Shryke\n* **11. Blister Hill:** Generic recruits\n* **14. Bad Teeth:** Generic recruits\n\n---\n\n### **LIST 2: ALL Multi-Location Characters Follow the \"First Visited Location\" Rule**\n\n*(In this list, EVERY character with multiple possible locations automatically locks into the VERY FIRST town on your route that can spawn them.)*\n\n* **21. The Hub:** **Hobbs** *(locked - first town with Hobbs)*, \"Amateur Recruit\", \"Ex-Slave Recruit\"\n* **15. Stack** *(1st HN Town Visited)*: **Griffin**, **Bard** *(locked)*\n* **29. Squin** *(1st Shek Town Visited)*: **Ruka**, **Kang**, **Oron**, **Rane the Giant**, **Horse** *(all locked - first Shek/Horse town)*\n* **27. Admag:** Seto\n* **30. Last Stand:** *(Cleared)*\n* **31. Mud Town:** **Doctor Chung**, **Green**, **Hamut**, **Miu**, **Stubs Momuso**, **Silvershade** *(all locked - first Swamp/Silvershade town)*\n* **32. Shark:** \"Disheartened Skeleton\", \"Skeleton Survivor\", \"Swamper Adventurer\", \"Wall Man\"\n* **37. Clownsteady** *(1st UC Town Visited)*: **Izumi**, **Jewel**, **Riddly** *(locked)*, \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\"\n* **38. Waystation 4:** Generic recruits\n* **39. Drifter's Last:** Generic recruits\n* **36. Slave Markets:** **Headshot**, **Ray** *(locked - first town on route with them)*\n* **35. Catun:** Generic recruits\n* **34. Mourn:** Generic recruits\n* **33. Flats Lagoon:** Chad\n* **23. Tower of Abuse:** Agnu\n* **16. Black Desert City:** Sadneil\n* **19. Dust King Tower:** Cat\n* **20. Waystation 2 / 22. Smugglers Bar:** Generic recruits\n* **24. Brink:** Generic recruits\n* **25. Black Scratch:** Bo\n* **26. Crab Village:** Lumi\n* **18. Eyesocket:** Generic recruits\n* **13. Heng / Trader's Edge:** Yamdu\n* **12. Tengu's Vault:** Espher, Luquin, Sinklyde\n* **8. Heft:** Generic recruits\n* **7. Stoat:** Generic recruits\n* **3. Sho-Battai:** Ells\n* **1. Bark:** Red\n* **2. Fishing Village:** Green Finger, Soman\n* **6. World's End:** Generic recruits\n* **5. Flotsam Village:** Digna, Knife, Pia, Reva\n* **4. Burn's Tower:** Burn\n* **9. Settled Nomad Village:** Cornelius\n* **10. Mongrel:** Beep, Crumblejon, Infinite Wingwang, Shryke\n* **11. Blister Hill:** Generic recruits\n* **14. Bad Teeth:** Generic recruits",
+        "experimental_attachments": [],
+        "modelId": "019f90b1-c0ac-71ce-b295-487f261bf0f4",
+        "createdAt": "2026-08-04T11:23:10.932314+00:00",
+        "updatedAt": "2026-08-04T11:24:04.837143+00:00",
+        "participantPosition": "b",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 3624,
+            "totalTokens": 16554,
+            "usageSource": "provider",
+            "outputTokens": 12930,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 11085
+          },
+          "fromAutoRouter": false
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019fcc83-64c1-718f-a221-12055162d70f",
+        "modality": "chat",
+        "arenaId": "df16ee91-d668-4f41-81bb-22a90b1e7bbe",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019e71ea-1e1d-740f-9c2d-dab5869ff108",
+        "organization": "openai",
+        "provider": "openaiResponses",
+        "publicName": "gpt-5.5-instant",
+        "name": "gpt-5.5-instant-2026-05-28",
+        "displayName": "gpt-5.5-instant",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": true
+      },
+      {
+        "id": "019f90b1-c0ac-71ce-b295-487f261bf0f4",
+        "organization": "google",
+        "provider": "googleVertexGlobalWithThoughtSignatures",
+        "publicName": "gemini-3.6-flash",
+        "name": "gemini-3.6-flash",
+        "displayName": "gemini-3.6-flash",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

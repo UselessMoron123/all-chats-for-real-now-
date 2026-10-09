@@ -1,0 +1,1674 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : sort by ids
+900100 = {
+	name = "Caradog_0"
+	dynasty = 105920
+	religion = pagan
+	culture = welsh
+	1.1
+Mode     : direct
+Started  : 2026-02-22 13:41:43
+Updated  : 2026-02-22 13:41:44
+Archived : 2026-09-30 23:26:45
+Messages : 2
+URL      : https://arena.ai/c/019c84f0-8981-7824-8a20-a1c53fd747b7
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-22 13:41:44
+------------------------------------------------------------
+sort by ids
+900100 = {
+	name = "Caradog_0"
+	dynasty = 105920
+	religion = pagan
+	culture = welsh
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900600 = {
+	name = "Gwrtheyrn_0"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900700 = {
+	name = "Niall_0"
+	dynasty = 199
+	religion = pagan
+	culture = irish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901600 = {
+	name = "Ragnarr_0"
+	dynasty = 502
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902200 = {
+	name = "Haraldr_0"
+	dynasty = 499
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902700 = {
+	name = "Athelstan_0"
+	dynasty = 100072
+	religion = catholic
+	culture = anglo_saxon
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903000 = {
+	name = "Brian_0"
+	dynasty = 695
+	religion = catholic
+	culture = irish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903500 = {
+	name = "William_0"
+	dynasty = 752
+	religion = catholic
+	culture = norman
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905200 = {
+	name = "Richard_0"
+	dynasty = 106
+	religion = catholic
+	culture = english
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906200 = {
+	name = "William_0"
+	dynasty = 3133
+	religion = catholic
+	culture = scottish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900800 = {
+	name = "Merovech_0"
+	dynasty = 542
+	religion = norse_pagan
+	culture = frankish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901400 = {
+	name = "Karl_0"
+	dynasty = 25061
+	religion = catholic
+	culture = frankish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903700 = {
+	name = "Yusuf_0"
+	dynasty = 7274
+	religion = sunni
+	culture = berber
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903800 = {
+	name = "Rodrigo_0"
+	dynasty = 407
+	religion = catholic
+	culture = castilian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904400 = {
+	name = "Gartzia_0"
+	dynasty = 277
+	religion = catholic
+	culture = basque
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904500 = {
+	name = "Alfonso_0"
+	dynasty = 681
+	religion = catholic
+	culture = castilian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904700 = {
+	name = "Afonso_0"
+	dynasty = 741
+	religion = catholic
+	culture = portuguese
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904800 = {
+	name = "Alienor_0"
+	female = yes
+	dynasty = 413
+	religion = catholic
+	culture = occitan
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905100 = {
+	name = "Abu Ya'qub_0"
+	dynasty = 101875
+	religion = sunni
+	culture = berber
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905400 = {
+	name = "Philippe_0"
+	dynasty = 743
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905600 = {
+	name = "Muhammad_0"
+	dynasty = 101904
+	religion = sunni
+	culture = andalusian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905700 = {
+	name = "Jaume_0"
+	dynasty = 100204
+	religion = catholic
+	culture = catalan
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902500 = {
+	name = "Rudolf_0"
+	dynasty = 650
+	religion = catholic
+	culture = german
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902800 = {
+	name = "Otto_0"
+	dynasty = 669
+	religion = catholic
+	culture = german
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903900 = {
+	name = "Matilda_0"
+	female = yes
+	dynasty = 101556
+	religion = catholic
+	culture = italian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904200 = {
+	name = "Bohemond_0"
+	dynasty = 678
+	religion = catholic
+	culture = norman
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904300 = {
+	name = "Roger_0"
+	dynasty = 678
+	religion = catholic
+	culture = norman
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904600 = {
+	name = "Enrico_0"
+	dynasty = 13027
+	religion = catholic
+	culture = italian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904900 = {
+	name = "Friedrich_0"
+	dynasty = 529
+	religion = catholic
+	culture = german
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905500 = {
+	name = "Baudouin_0"
+	dynasty = 724
+	religion = catholic
+	culture = dutch
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901700 = {
+	name = "Rurik_0"
+	dynasty = 705
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901800 = {
+	name = "Basileios_0"
+	dynasty = 644
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901900 = {
+	name = "Arpad_0"
+	dynasty = 708
+	religion = tengri_pagan
+	culture = hungarian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902000 = {
+	name = "Dyre_0"
+	dynasty = 7516
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902900 = {
+	name = "Boleslav_0"
+	dynasty = 506
+	religion = catholic
+	culture = bohemian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903300 = {
+	name = "Boleslaw_0"
+	dynasty = 699
+	religion = catholic
+	culture = polish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903600 = {
+	name = "Dmitar-Zvonimir_0"
+	dynasty = 512
+	religion = catholic
+	culture = croatian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904100 = {
+	name = "Alexios_0"
+	dynasty = 634
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901300 = {
+	name = "Degna Mikael_0"
+	dynasty = 7246
+	religion = miaphysite
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902300 = {
+	name = "Sa'id_0"
+	dynasty = 12279
+	religion = qarmatian
+	culture = bedouin
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902400 = {
+	name = "Abdullah_0"
+	dynasty = 589
+	religion = shiite
+	culture = bedouin
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904000 = {
+	name = "Arwa_0"
+	female = yes
+	dynasty = 590
+	religion = shiite
+	culture = bedouin
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905000 = {
+	name = "Saladin_0"
+	dynasty = 24000
+	religion = sunni
+	culture = levantine
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905900 = {
+	name = "Baibars_0"
+	dynasty = 7267
+	religion = sunni
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901000 = {
+	name = "Muhan_0"
+	dynasty = 12269
+	religion = tengri_pagan
+	culture = khazar
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901100 = {
+	name = "Kubrat_0"
+	dynasty = 591
+	religion = tengri_pagan
+	culture = bolghar
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902100 = {
+	name = "Magajiva_0"
+	female = yes
+	dynasty = 1060028
+	religion = west_african_pagan
+	culture = hausa
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903100 = {
+	name = "Sabuktigin_0"
+	dynasty = 790
+	religion = sunni
+	culture = turkish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903200 = {
+	name = "Seljuk_0"
+	dynasty = 613
+	religion = sunni
+	culture = turkish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905300 = {
+	name = "Temujin_0"
+	dynasty = 11100
+	religion = tengri_pagan
+	culture = mongol
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906000 = {
+	name = "Osman_0"
+	dynasty = 7
+	religion = sunni
+	culture = turkish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906300 = {
+	name = "Musa_0"
+	dynasty = 1030002
+	religion = sunni
+	culture = mande
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906400 = {
+	name = "Timur_0"
+	dynasty = 800
+	religion = sunni
+	culture = mongol
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900200 = {
+	name = "Erdewan_0"
+	dynasty = 1029098
+	religion = zoroastrian
+	culture = kurdish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900300 = {
+	name = "Sasan_0"
+	dynasty = 1029100
+	religion = zoroastrian
+	culture = persian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900400 = {
+	name = "Mirian_0"
+	dynasty = 100680
+	religion = miaphysite
+	culture = georgian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900500 = {
+	name = "Bagrat_0"
+	dynasty = 507
+	religion = zoroastrian
+	culture = armenian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900900 = {
+	name = "Bahram_0"
+	dynasty = 1042070
+	religion = zoroastrian
+	culture = persian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901200 = {
+	name = "Songtsen Gampo_0"
+	dynasty = 105800
+	religion = buddhist
+	culture = bodpa
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901500 = {
+	name = "Gopala_0"
+	dynasty = 1043000
+	religion = buddhist
+	culture = bengali
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902600 = {
+	name = "Mardavij_0"
+	dynasty = 101689
+	religion = zoroastrian
+	culture = persian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903400 = {
+	name = "Iracentira_0"
+	dynasty = 1043008
+	religion = hindu
+	culture = tamil
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906100 = {
+	name = "Tughluq_0"
+	dynasty = 1040208
+	religion = sunni
+	culture = turkish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-22 13:41:44
+------------------------------------------------------------
+900100 = {
+	name = "Caradog_0"
+	dynasty = 105920
+	religion = pagan
+	culture = welsh
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900200 = {
+	name = "Erdewan_0"
+	dynasty = 1029098
+	religion = zoroastrian
+	culture = kurdish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900300 = {
+	name = "Sasan_0"
+	dynasty = 1029100
+	religion = zoroastrian
+	culture = persian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900400 = {
+	name = "Mirian_0"
+	dynasty = 100680
+	religion = miaphysite
+	culture = georgian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900500 = {
+	name = "Bagrat_0"
+	dynasty = 507
+	religion = zoroastrian
+	culture = armenian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900600 = {
+	name = "Gwrtheyrn_0"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900700 = {
+	name = "Niall_0"
+	dynasty = 199
+	religion = pagan
+	culture = irish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900800 = {
+	name = "Merovech_0"
+	dynasty = 542
+	religion = norse_pagan
+	culture = frankish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900900 = {
+	name = "Bahram_0"
+	dynasty = 1042070
+	religion = zoroastrian
+	culture = persian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901000 = {
+	name = "Muhan_0"
+	dynasty = 12269
+	religion = tengri_pagan
+	culture = khazar
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901100 = {
+	name = "Kubrat_0"
+	dynasty = 591
+	religion = tengri_pagan
+	culture = bolghar
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901200 = {
+	name = "Songtsen Gampo_0"
+	dynasty = 105800
+	religion = buddhist
+	culture = bodpa
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901300 = {
+	name = "Degna Mikael_0"
+	dynasty = 7246
+	religion = miaphysite
+	culture = ethiopian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901400 = {
+	name = "Karl_0"
+	dynasty = 25061
+	religion = catholic
+	culture = frankish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901500 = {
+	name = "Gopala_0"
+	dynasty = 1043000
+	religion = buddhist
+	culture = bengali
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901600 = {
+	name = "Ragnarr_0"
+	dynasty = 502
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901700 = {
+	name = "Rurik_0"
+	dynasty = 705
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901800 = {
+	name = "Basileios_0"
+	dynasty = 644
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901900 = {
+	name = "Arpad_0"
+	dynasty = 708
+	religion = tengri_pagan
+	culture = hungarian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902000 = {
+	name = "Dyre_0"
+	dynasty = 7516
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902100 = {
+	name = "Magajiva_0"
+	female = yes
+	dynasty = 1060028
+	religion = west_african_pagan
+	culture = hausa
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902200 = {
+	name = "Haraldr_0"
+	dynasty = 499
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902300 = {
+	name = "Sa'id_0"
+	dynasty = 12279
+	religion = qarmatian
+	culture = bedouin
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902400 = {
+	name = "Abdullah_0"
+	dynasty = 589
+	religion = shiite
+	culture = bedouin
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902500 = {
+	name = "Rudolf_0"
+	dynasty = 650
+	religion = catholic
+	culture = german
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902600 = {
+	name = "Mardavij_0"
+	dynasty = 101689
+	religion = zoroastrian
+	culture = persian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902700 = {
+	name = "Athelstan_0"
+	dynasty = 100072
+	religion = catholic
+	culture = anglo_saxon
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902800 = {
+	name = "Otto_0"
+	dynasty = 669
+	religion = catholic
+	culture = german
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902900 = {
+	name = "Boleslav_0"
+	dynasty = 506
+	religion = catholic
+	culture = bohemian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903000 = {
+	name = "Brian_0"
+	dynasty = 695
+	religion = catholic
+	culture = irish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903100 = {
+	name = "Sabuktigin_0"
+	dynasty = 790
+	religion = sunni
+	culture = turkish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903200 = {
+	name = "Seljuk_0"
+	dynasty = 613
+	religion = sunni
+	culture = turkish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903300 = {
+	name = "Boleslaw_0"
+	dynasty = 699
+	religion = catholic
+	culture = polish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903400 = {
+	name = "Iracentira_0"
+	dynasty = 1043008
+	religion = hindu
+	culture = tamil
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903500 = {
+	name = "William_0"
+	dynasty = 752
+	religion = catholic
+	culture = norman
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903600 = {
+	name = "Dmitar-Zvonimir_0"
+	dynasty = 512
+	religion = catholic
+	culture = croatian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903700 = {
+	name = "Yusuf_0"
+	dynasty = 7274
+	religion = sunni
+	culture = berber
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903800 = {
+	name = "Rodrigo_0"
+	dynasty = 407
+	religion = catholic
+	culture = castilian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903900 = {
+	name = "Matilda_0"
+	female = yes
+	dynasty = 101556
+	religion = catholic
+	culture = italian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904000 = {
+	name = "Arwa_0"
+	female = yes
+	dynasty = 590
+	religion = shiite
+	culture = bedouin
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904100 = {
+	name = "Alexios_0"
+	dynasty = 634
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904200 = {
+	name = "Bohemond_0"
+	dynasty = 678
+	religion = catholic
+	culture = norman
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904300 = {
+	name = "Roger_0"
+	dynasty = 678
+	religion = catholic
+	culture = norman
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904400 = {
+	name = "Gartzia_0"
+	dynasty = 277
+	religion = catholic
+	culture = basque
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904500 = {
+	name = "Alfonso_0"
+	dynasty = 681
+	religion = catholic
+	culture = castilian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904600 = {
+	name = "Enrico_0"
+	dynasty = 13027
+	religion = catholic
+	culture = italian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904700 = {
+	name = "Afonso_0"
+	dynasty = 741
+	religion = catholic
+	culture = portuguese
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904800 = {
+	name = "Alienor_0"
+	female = yes
+	dynasty = 413
+	religion = catholic
+	culture = occitan
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904900 = {
+	name = "Friedrich_0"
+	dynasty = 529
+	religion = catholic
+	culture = german
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905000 = {
+	name = "Saladin_0"
+	dynasty = 24000
+	religion = sunni
+	culture = levantine
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905100 = {
+	name = "Abu Ya'qub_0"
+	dynasty = 101875
+	religion = sunni
+	culture = berber
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905200 = {
+	name = "Richard_0"
+	dynasty = 106
+	religion = catholic
+	culture = english
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905300 = {
+	name = "Temujin_0"
+	dynasty = 11100
+	religion = tengri_pagan
+	culture = mongol
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905400 = {
+	name = "Philippe_0"
+	dynasty = 743
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905500 = {
+	name = "Baudouin_0"
+	dynasty = 724
+	religion = catholic
+	culture = dutch
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905600 = {
+	name = "Muhammad_0"
+	dynasty = 101904
+	religion = sunni
+	culture = andalusian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905700 = {
+	name = "Jaume_0"
+	dynasty = 100204
+	religion = catholic
+	culture = catalan
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905900 = {
+	name = "Baibars_0"
+	dynasty = 7267
+	religion = sunni
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906000 = {
+	name = "Osman_0"
+	dynasty = 7
+	religion = sunni
+	culture = turkish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906100 = {
+	name = "Tughluq_0"
+	dynasty = 1040208
+	religion = sunni
+	culture = turkish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906200 = {
+	name = "William_0"
+	dynasty = 3133
+	religion = catholic
+	culture = scottish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906300 = {
+	name = "Musa_0"
+	dynasty = 1030002
+	religion = sunni
+	culture = mande
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906400 = {
+	name = "Timur_0"
+	dynasty = 800
+	religion = sunni
+	culture = mongol
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}

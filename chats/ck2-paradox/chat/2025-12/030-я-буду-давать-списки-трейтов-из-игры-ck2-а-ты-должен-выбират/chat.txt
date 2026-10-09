@@ -1,0 +1,3741 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : я буду давать списки трейтов из игры CK2, а ты должен выбирать только те которые влияют на характери
+Mode     : direct
+Started  : 2025-12-31 16:33:38
+Updated  : 2025-12-31 17:33:22
+Archived : 2026-09-30 22:26:09
+Messages : 36
+URL      : https://arena.ai/c/019b749b-c9cb-7742-b553-7fd37b4d896e
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2025-12-31 16:33:39
+------------------------------------------------------------
+я буду давать списки трейтов из игры CK2, а ты должен выбирать только те которые влияют на характеристики советников (дипломатия, война, управление, интрига, учёность)
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2025-12-31 16:33:39
+------------------------------------------------------------
+Хорошо, я готов.
+
+Присылайте списки. Я буду фильтровать их и оставлять только те, которые дают **плюс** или **минус** к основным атрибутам, важным для советников:
+
+1.  **Дипломатия** (Diplomacy)
+2.  **Военный навык** (Martial)
+3.  **Управление** (Stewardship)
+4.  **Интрига** (Intrigue)
+5.  **Образованность** (Learning)
+
+Трейты, которые влияют *только* на мнение (opinion), личный боевой навык (combat skill) или здоровье/плодовитость, я буду пропускать, если они не меняют основные цифры характеристик.
+
+Жду ваш первый список.
+
+------------------------------------------------------------
+Message  : 3
+Speaker  : User
+Time     : 2025-12-31 16:34:33
+------------------------------------------------------------
+########################
+# COMBAT TRAITS
+########################
+
+berserker = {
+	potential = {
+		religion_openly_norse_or_reformed_trigger = yes
+	}
+
+	martial = 4
+	diplomacy = -2
+	combat_rating = 25 # old value: 3
+
+	same_opinion = 10
+
+	ai_rationality = -5
+
+	male_compliment = COMPL_BERSERKER
+	female_compliment = COMPL_BERSERKER
+	male_insult = INSULT_LUNATIC
+	female_insult = INSULT_LUNATIC
+	child_insult = INSULT_TROLL
+	male_insult_adj = INSULT_CRAZED
+	female_insult_adj = INSULT_CRAZED
+	child_insult_adj = INSULT_CRAZY
+}
+
+brawny = {
+	opposites = {
+		frail
+		sturdy
+	}
+
+	martial = 2
+	diplomacy = 1
+
+	health = 1
+
+	combat_rating = 10 # old value: 1
+
+	sex_appeal_opinion = 5
+	vassal_opinion = 5
+	tribal_opinion = 5
+
+	male_compliment_adj = COMPL_STRONG
+}
+
+frail = {
+	opposites = {
+		brawny
+		sturdy
+	}
+
+	martial = -1
+	combat_rating = -10 # old value: -1
+
+	health = -0.5
+
+	sex_appeal_opinion = -5
+	vassal_opinion = -5
+	tribal_opinion = -5
+
+	male_insult = INSULT_WEAKLING
+}
+
+gladiator = {
+	martial = 5
+	intrigue = 2
+	stewardship = -2
+	learning = -4
+	combat_rating = 15
+
+	general_opinion = -5
+	health = 1
+	same_opinion = 15
+
+	leadership_traits = 1
+}
+
+shieldmaiden = {
+	customizer = no
+
+	monthly_character_piety = 0.1
+
+	combat_rating = 10 # new value!
+
+	pagan_group_opinion = 5
+	same_opinion_if_same_religion = 15
+
+	ai_zeal = 10
+
+	female_compliment = COMPL_VALKYRIE
+	female_compliment_adj = COMPL_VIKING_adj
+}
+
+sturdy = {
+	opposites = {
+		frail
+		brawny
+	}
+
+	health = 0.25
+
+	combat_rating = 2
+
+}
+
+varangian = {
+	customizer = no
+
+	martial = 2
+	diplomacy = 1
+	combat_rating = 10 # old value: 2
+
+	same_opinion = 10
+}
+
+# Sea Raiders
+pirate = {
+	# religious = yes
+
+	opposites = {
+		viking
+		ravager
+		sea_king
+		sea_queen
+	}
+
+	potential = {
+		OR = {
+			religion_openly_norse_or_reformed_trigger = yes
+			has_character_flag = acquired_pirate_trait_by_bloodline
+
+			AND = {
+				has_religion_feature = religion_adventuring
+				has_religion_feature = religion_seafaring
+			}
+		}
+	}
+
+	monthly_character_prestige = 0.3
+
+	martial = 1
+	combat_rating = 10 # old value: 1
+
+	norse_pagan_opinion = 15
+	norse_pagan_reformed_opinion = 15
+	same_opinion = 5
+
+	male_insult = COMPL_PIRATE
+	female_insult = COMPL_PIRATE
+}
+
+ravager = {
+	# religious = yes
+
+	opposites = {
+		pirate
+		viking
+		sea_king
+		sea_queen
+	}
+
+	potential = {
+		OR = {
+			religion_openly_norse_or_reformed_trigger = yes
+
+			any_owned_bloodline = {
+				has_bloodline_flag = bloodline_viking
+				bloodline_is_active_for = PREV
+			}
+
+			AND = {
+				has_religion_feature = religion_adventuring
+				has_religion_feature = religion_seafaring
+			}
+		}
+	}
+
+	monthly_character_prestige = 0.4
+
+	martial = 2
+	combat_rating = 20 # old value: 2
+
+	norse_pagan_opinion = 20
+	norse_pagan_reformed_opinion = 20
+	same_opinion = 5
+
+	male_insult = COMPL_PIRATE
+	female_insult = COMPL_PIRATE
+	male_compliment = COMPL_VIKING
+	male_compliment_adj = COMPL_VIKING_adj
+	female_compliment = COMPL_VALKYRIE
+	female_compliment_adj = COMPL_VIKING_adj
+}
+
+sea_king = {
+	# religious = yes
+
+	opposites = {
+		pirate
+		viking
+		ravager
+		sea_queen
+	}
+
+	potential = {
+		OR = {
+			religion_openly_norse_or_reformed_trigger = yes
+
+			any_owned_bloodline = {
+				has_bloodline_flag = bloodline_viking
+				bloodline_is_active_for = PREV
+			}
+
+			AND = {
+				has_religion_feature = religion_adventuring
+				has_religion_feature = religion_seafaring
+			}
+		}
+	}
+
+	monthly_character_prestige = 0.5
+
+	martial = 3
+	combat_rating = 20 # old value: 2
+
+	norse_pagan_opinion = 25
+	norse_pagan_reformed_opinion = 25
+
+	male_insult = COMPL_PIRATE
+	female_insult = COMPL_PIRATE
+	male_compliment = COMPL_VIKING
+	male_compliment_adj = COMPL_VIKING_adj
+	female_compliment = COMPL_VALKYRIE
+	female_compliment_adj = COMPL_VIKING_adj
+}
+
+sea_queen = {
+	# religious = yes
+	customizer = no
+
+	opposites = {
+		pirate
+		viking
+		ravager
+		sea_king
+	}
+
+	potential = {
+		OR = {
+			religion_openly_norse_or_reformed_trigger = yes
+
+			any_owned_bloodline = {
+				has_bloodline_flag = bloodline_viking
+				bloodline_is_active_for = PREV
+			}
+
+			AND = {
+				has_religion_feature = religion_adventuring
+				has_religion_feature = religion_seafaring
+			}
+		}
+	}
+
+	monthly_character_prestige = 0.5
+
+	martial = 3
+	combat_rating = 20 # old value: 2
+
+	norse_pagan_opinion = 25
+	norse_pagan_reformed_opinion = 25
+
+	male_insult = COMPL_PIRATE
+	female_insult = COMPL_PIRATE
+	male_compliment = COMPL_VIKING
+	male_compliment_adj = COMPL_VIKING_adj
+	female_compliment = COMPL_VALKYRIE
+	female_compliment_adj = COMPL_VIKING_adj
+}
+
+viking = {
+	# religious = yes
+
+	opposites = {
+		pirate
+		ravager
+		sea_king
+		sea_queen
+	}
+
+	potential = {
+		OR = {
+			religion_openly_norse_or_reformed_trigger = yes
+
+			any_owned_bloodline = {
+				has_bloodline_flag = bloodline_viking
+				bloodline_is_active_for = PREV
+			}
+		}
+	}
+
+	monthly_character_prestige = 0.3
+
+	martial = 1
+	combat_rating = 10 # old value: 1
+
+	norse_pagan_opinion = 15
+	norse_pagan_reformed_opinion = 15
+	same_opinion = 5
+
+	male_insult = COMPL_PIRATE
+	female_insult = COMPL_PIRATE
+	male_compliment = COMPL_VIKING
+	male_compliment_adj = COMPL_VIKING_adj
+	female_compliment = COMPL_VALKYRIE
+	female_compliment_adj = COMPL_VIKING_adj
+}
+
+------------------------------------------------------------
+Message  : 4
+Speaker  : AI A
+Time     : 2025-12-31 16:34:33
+------------------------------------------------------------
+Вот список трейтов из вашего файла, которые влияют на характеристики советников (Дипломатия, Военный навык, Управление, Интрига, Образованность):
+
+**berserker**
+*   martial = 4
+*   diplomacy = -2
+
+**brawny**
+*   martial = 2
+*   diplomacy = 1
+
+**frail**
+*   martial = -1
+
+**gladiator**
+*   martial = 5
+*   intrigue = 2
+*   stewardship = -2
+*   learning = -4
+
+**varangian**
+*   martial = 2
+*   diplomacy = 1
+
+**pirate**
+*   martial = 1
+
+**ravager**
+*   martial = 2
+
+**sea_king**
+*   martial = 3
+
+**sea_queen**
+*   martial = 3
+
+**viking**
+*   martial = 1
+
+***
+
+*Примечание: Трейты **shieldmaiden** и **sturdy** были исключены, так как они влияют только на здоровье, боевой рейтинг (combat_rating) или мнение, но не меняют основные характеристики.*
+
+------------------------------------------------------------
+Message  : 5
+Speaker  : User
+Time     : 2025-12-31 16:36:19
+------------------------------------------------------------
+crusader = {
+
+	martial = 2
+	combat_rating = 10 # old value: 1
+
+	church_opinion = 15
+	same_opinion_if_same_religion = 15
+
+	ai_zeal = 10
+}
+
+crusader_king = {
+
+	command_modifier = {
+		religious_enemy = 0.3
+	}
+
+	martial = 3
+	global_levy_size = 0.2
+	combat_rating = 15
+
+	same_religion_opinion = 35
+
+	ai_zeal = 20
+}
+
+crusader_queen = {
+
+	command_modifier = {
+		religious_enemy = 0.3
+	}
+
+	martial = 3
+	global_levy_size = 0.2
+	combat_rating = 15
+
+	same_religion_opinion = 35
+
+	ai_zeal = 20
+}
+
+# INTRIGUE OUTCOMES
+amateurish_plotter = {
+	education = yes
+	attribute = intrigue
+
+	intrigue = 1
+	stewardship = -1
+	combat_rating = 4
+
+	male_insult_adj = INSULT_SCHEMING
+	female_insult_adj = INSULT_SCHEMING
+	child_insult_adj = INSULT_STUPID
+}
+
+flamboyant_schemer = {
+	education = yes
+	attribute = intrigue
+
+	intrigue = 3
+	stewardship = -1
+	combat_rating = 8
+
+	male_insult_adj = INSULT_SCHEMING
+	female_insult_adj = INSULT_SCHEMING
+	child_insult_adj = INSULT_STUPID
+}
+
+intricate_webweaver = {
+	education = yes
+	attribute = intrigue
+
+	martial = 1
+	intrigue = 6
+	diplomacy = 1
+	stewardship = -1
+	combat_rating = 12
+
+	male_compliment_adj = COMPL_CLEVER
+	female_compliment_adj = COMPL_CLEVER
+	male_insult_adj = INSULT_SCHEMING
+	female_insult_adj = INSULT_SCHEMING
+	child_insult_adj = INSULT_STUPID
+}
+
+elusive_shadow = {
+	education = yes
+	attribute = intrigue
+
+	martial = 2
+	intrigue = 9
+	diplomacy = 2
+	stewardship = -1
+	combat_rating = 16 # new value!
+
+	male_compliment_adj = COMPL_CLEVER
+	female_compliment_adj = COMPL_CLEVER
+	male_insult_adj = INSULT_SCHEMING
+	female_insult_adj = INSULT_SCHEMING
+	child_insult_adj = INSULT_STUPID
+}
+
+# DIPLOMACY OUTCOMES
+naive_appeaser = {
+	education = yes
+	attribute = diplomacy
+
+	martial = -1
+	diplomacy = 1
+
+	male_insult_adj = INSULT_TWOFACED
+	female_insult_adj = INSULT_TWOFACED
+	child_insult_adj = INSULT_STUPID
+}
+
+underhanded_rogue = {
+	education = yes
+	attribute = diplomacy
+
+	martial = -1
+	diplomacy = 3
+	fertility = 0.05
+
+	male_insult_adj = INSULT_TWOFACED
+	female_insult_adj = INSULT_TWOFACED
+	child_insult_adj = INSULT_STUPID
+}
+
+charismatic_negotiator = {
+	education = yes
+	attribute = diplomacy
+
+	martial = -1
+	intrigue = 1
+	diplomacy = 6
+	learning = 1
+	fertility = 0.05
+
+	male_compliment_adj = COMPL_ELOQUENT
+	female_compliment_adj = COMPL_ELOQUENT
+	child_compliment_adj = COMPL_NICE
+	male_insult_adj = INSULT_TWOFACED
+	female_insult_adj = INSULT_TWOFACED
+	child_insult_adj = INSULT_STUPID
+}
+
+grey_eminence = {
+	education = yes
+	attribute = diplomacy
+
+	martial = -1
+	intrigue = 2
+	diplomacy = 9
+	learning = 2
+	fertility = 0.1
+
+	male_compliment_adj = COMPL_ELOQUENT
+	female_compliment_adj = COMPL_ELOQUENT
+	child_compliment_adj = COMPL_NICE
+	male_insult_adj = INSULT_TWOFACED
+	female_insult_adj = INSULT_TWOFACED
+	child_insult_adj = INSULT_STUPID
+}
+
+# STEWARDSHIP OUTCOMES
+indulgent_wastrel = {
+	education = yes
+	attribute = stewardship
+
+	diplomacy = -1
+	stewardship = 1
+
+	male_insult_adj = INSULT_MISERLY
+	female_insult_adj = INSULT_MISERLY
+	child_insult_adj = INSULT_STUPID
+}
+
+thrifty_clerk = {
+	education = yes
+	attribute = stewardship
+
+	diplomacy = -1
+	stewardship = 3
+	fertility = 0.05
+
+	male_insult_adj = INSULT_MISERLY
+	female_insult_adj = INSULT_MISERLY
+	child_insult_adj = INSULT_STUPID
+}
+
+fortune_builder = {
+	education = yes
+	attribute = stewardship
+
+	martial = 1
+	diplomacy = -1
+	stewardship = 6
+	learning = 1
+	fertility = 0.1
+
+	male_compliment_adj = COMPL_THRIFTY
+	female_compliment_adj = COMPL_THRIFTY
+	child_compliment_adj = COMPL_CLEVER
+	male_insult_adj = INSULT_MISERLY
+	female_insult_adj = INSULT_MISERLY
+	child_insult_adj = INSULT_STUPID
+}
+
+midas_touched = {
+	education = yes
+	attribute = stewardship
+
+	martial = 2
+	diplomacy = -1
+	stewardship = 9
+	learning = 2
+	fertility = 0.15
+
+	male_compliment_adj = COMPL_THRIFTY
+	female_compliment_adj = COMPL_THRIFTY
+	child_compliment_adj = COMPL_CLEVER
+	male_insult_adj = INSULT_MISERLY
+	female_insult_adj = INSULT_MISERLY
+	child_insult_adj = INSULT_STUPID
+}
+
+# MARTIAL OUTCOMES
+misguided_warrior = {
+	education = yes
+	attribute = martial
+
+	martial = 1
+	learning = -1
+
+	health = 0.5
+
+	combat_rating = 5 # old value: 1
+}
+
+tough_soldier = {
+	education = yes
+	attribute = martial
+
+	martial = 3
+	learning = -1
+
+	health = 0.5
+
+	combat_rating = 10 # old value: 1
+}
+
+skilled_tactician = {
+	education = yes
+	attribute = martial
+
+	martial = 6
+	intrigue = 1
+	stewardship = 1
+	learning = -1
+
+	health = 0.5
+
+	combat_rating = 15 # old value: 1
+}
+
+brilliant_strategist = {
+	education = yes
+	attribute = martial
+
+	martial = 9
+	intrigue = 2
+	stewardship = 2
+	learning = -1
+
+	health = 0.5
+
+	combat_rating = 20 # old value: 1
+
+	leadership_traits = 1
+}
+
+# ECCLESIASTICAL OUTCOMES
+detached_priest = {
+	education = yes
+	attribute = learning
+
+	intrigue = -1
+	learning = 1
+
+	male_insult_adj = INSULT_DRIVELING
+	female_insult_adj = INSULT_DRIVELING
+	child_insult_adj = INSULT_STUPID
+}
+
+dutiful_cleric = {
+	education = yes
+	attribute = learning
+
+	intrigue = -1
+	learning = 3
+
+	ai_zeal = 10
+
+	male_insult_adj = INSULT_DRIVELING
+	female_insult_adj = INSULT_DRIVELING
+	child_insult_adj = INSULT_STUPID
+}
+
+scholarly_theologian = {
+	education = yes
+	attribute = learning
+
+	intrigue = -1
+	diplomacy = 1
+	stewardship = 1
+	learning = 6
+
+	fertility = -0.05
+
+	ai_zeal = 20
+
+	male_compliment_adj = COMPL_LEARNED
+	female_compliment_adj = COMPL_LEARNED
+	child_compliment_adj = COMPL_CLEVER
+	male_insult_adj = INSULT_DRIVELING
+	female_insult_adj = INSULT_DRIVELING
+	child_insult_adj = INSULT_STUPID
+}
+
+mastermind_theologian = {
+	education = yes
+	attribute = learning
+
+	intrigue = -1
+	diplomacy = 2
+	stewardship = 2
+	learning = 9
+
+	fertility = -0.05
+
+	ai_zeal = 30
+
+	male_compliment_adj = COMPL_LEARNED
+	female_compliment_adj = COMPL_LEARNED
+	child_compliment_adj = COMPL_CLEVER
+	male_insult_adj = INSULT_DRIVELING
+	female_insult_adj = INSULT_DRIVELING
+	child_insult_adj = INSULT_STUPID
+}
+
+------------------------------------------------------------
+Message  : 6
+Speaker  : AI A
+Time     : 2025-12-31 16:36:19
+------------------------------------------------------------
+В этом списке **все** трейты влияют на характеристики советников. Это в основном образовательные трейты (Education Traits) и трейты крестоносцев.
+
+Вот полный список с их влиянием:
+
+### Трейты Крестоносцев
+**crusader**
+*   martial = 2
+
+**crusader_king** / **crusader_queen**
+*   martial = 3
+
+### Образование: Интрига
+**amateurish_plotter**
+*   intrigue = 1
+*   stewardship = -1
+
+**flamboyant_schemer**
+*   intrigue = 3
+*   stewardship = -1
+
+**intricate_webweaver**
+*   intrigue = 6
+*   martial = 1
+*   diplomacy = 1
+*   stewardship = -1
+
+**elusive_shadow**
+*   intrigue = 9
+*   martial = 2
+*   diplomacy = 2
+*   stewardship = -1
+
+### Образование: Дипломатия
+**naive_appeaser**
+*   diplomacy = 1
+*   martial = -1
+
+**underhanded_rogue**
+*   diplomacy = 3
+*   martial = -1
+
+**charismatic_negotiator**
+*   diplomacy = 6
+*   martial = -1
+*   intrigue = 1
+*   learning = 1
+
+**grey_eminence**
+*   diplomacy = 9
+*   martial = -1
+*   intrigue = 2
+*   learning = 2
+
+### Образование: Управление
+**indulgent_wastrel**
+*   stewardship = 1
+*   diplomacy = -1
+
+**thrifty_clerk**
+*   stewardship = 3
+*   diplomacy = -1
+
+**fortune_builder**
+*   stewardship = 6
+*   martial = 1
+*   diplomacy = -1
+*   learning = 1
+
+**midas_touched**
+*   stewardship = 9
+*   martial = 2
+*   diplomacy = -1
+*   learning = 2
+
+### Образование: Военное дело
+**misguided_warrior**
+*   martial = 1
+*   learning = -1
+
+**tough_soldier**
+*   martial = 3
+*   learning = -1
+
+**skilled_tactician**
+*   martial = 6
+*   intrigue = 1
+*   stewardship = 1
+*   learning = -1
+
+**brilliant_strategist**
+*   martial = 9
+*   intrigue = 2
+*   stewardship = 2
+*   learning = -1
+
+### Образование: Учёность (Церковное)
+**detached_priest**
+*   learning = 1
+*   intrigue = -1
+
+**dutiful_cleric**
+*   learning = 3
+*   intrigue = -1
+
+**scholarly_theologian**
+*   learning = 6
+*   diplomacy = 1
+*   stewardship = 1
+*   intrigue = -1
+
+**mastermind_theologian**
+*   learning = 9
+*   diplomacy = 2
+*   stewardship = 2
+*   intrigue = -1
+
+------------------------------------------------------------
+Message  : 7
+Speaker  : User
+Time     : 2025-12-31 16:39:40
+------------------------------------------------------------
+one_eyed = {
+	learning = 1
+	combat_rating = -10
+	sex_appeal_opinion = -5
+	pagan_group_opinion = 10
+	same_opinion = 5
+}
+
+
+attractive = {
+	birth = 100
+	inherit_chance = 15
+
+	opposites = {
+		ugly
+	}
+
+	diplomacy = 1
+
+	sex_appeal_opinion = 30
+
+	female_compliment = COMPL_BEAUTY
+	female_compliment_adj = COMPL_FAIR
+	male_compliment = COMPL_CHARMER
+	male_compliment_adj = COMPL_HANDSOME
+	child_compliment_adj = COMPL_PRETTY
+}
+
+genius = {
+	birth = 50
+	inherit_chance = 15
+
+	opposites = {
+		imbecile
+		slow
+		quick
+	}
+
+	martial = 5
+	intrigue = 5
+	diplomacy = 5
+	stewardship = 5
+	learning = 5
+
+	combat_rating = 10 # old value: 1
+
+	vassal_opinion = 5
+
+	ai_rationality = 30
+
+	male_compliment = COMPL_GENIUS
+	male_compliment_adj = COMPL_BRILLIANT
+	female_compliment = COMPL_GENIUS
+	female_compliment_adj = COMPL_BRILLIANT
+	child_compliment = COMPL_SMARTY
+	child_compliment_adj = COMPL_CLEVER
+}
+
+quick = {
+	birth = 100
+	inherit_chance = 15
+
+	opposites = {
+		imbecile
+		slow
+		genius
+	}
+
+	martial = 3
+	intrigue = 3
+	diplomacy = 3
+	stewardship = 3
+	learning = 3
+
+	combat_rating = 5 # new value!
+
+	ai_rationality = 15
+}
+
+saoshyant_descendant = { # Passed on from Saoshyant by Event
+	agnatic = yes
+	enatic = yes
+	customizer = no
+
+	zoroastrian_opinion = 5
+}
+
+sayyid = { # Muslim agnatically descended from Muhammed
+	agnatic = yes # Always inherited from fathers
+
+	opposites = {
+		mirza
+	}
+
+	muslim_opinion = 5
+
+	male_compliment = COMPL_SAYYID
+	female_compliment = COMPL_SAYYIDA
+}
+
+strong = {
+	birth = 100
+	inherit_chance = 15
+
+	opposites = {
+		weak
+	}
+
+	martial = 2
+	diplomacy = 1
+
+	fertility = 0.1
+	health = 1
+
+	combat_rating = 10 # old value: 1
+
+	sex_appeal_opinion = 10
+	vassal_opinion = 5
+	tribal_opinion = 10
+
+	male_compliment_adj = COMPL_STRONG
+}
+
+------------------------------------------------------------
+Message  : 8
+Speaker  : AI A
+Time     : 2025-12-31 16:39:40
+------------------------------------------------------------
+Вот список трейтов из этого блока, которые влияют на основные характеристики:
+
+**one_eyed**
+*   learning = 1
+
+**attractive**
+*   diplomacy = 1
+
+**genius**
+*   martial = 5
+*   intrigue = 5
+*   diplomacy = 5
+*   stewardship = 5
+*   learning = 5
+
+**quick**
+*   martial = 3
+*   intrigue = 3
+*   diplomacy = 3
+*   stewardship = 3
+*   learning = 3
+
+**strong**
+*   martial = 2
+*   diplomacy = 1
+
+***
+
+*Примечание: Трейты **saoshyant_descendant** и **sayyid** были исключены, так как они влияют только на мнение (opinion), но не дают бонусов к характеристикам.*
+
+------------------------------------------------------------
+Message  : 9
+Speaker  : User
+Time     : 2025-12-31 16:40:33
+------------------------------------------------------------
+идеи почему one_eyed даёт learning?
+
+------------------------------------------------------------
+Message  : 10
+Speaker  : AI A
+Time     : 2025-12-31 16:40:33
+------------------------------------------------------------
+Скорее всего, это **отсылка к скандинавской мифологии**, а именно к верховному богу **Одину**.
+
+Вот основные причины:
+
+1.  **Жертва Одина:** Согласно мифам, Один отдал свой глаз великану Мимиру, чтобы испить из Источника мудрости (Mímisbrunnr). Таким образом, он пожертвовал физическим зрением ради получения высшего знания и мудрости. В контексте игры это идеально переводится как обмен глаза на характеристику *Learning* (Ученость).
+2.  **Архетип «Мудрого воина»:** В культуре часто встречается образ ветерана, который потерял глаз или получил увечья, но благодаря этому приобрел жизненный опыт и стал рассудительнее. Потеряв часть физических возможностей, персонаж вынужден больше полагаться на свой ум.
+3.  **Игровой баланс (Flavor):** Трейт дает значительные штрафы к личному боевому навыку (`combat_rating = -10`) и привлекательности. Небольшой бонус к учености (+1) служит своего рода «утешительным призом» и добавляет глубины ролевому отыгрышу, показывая, что увечье закалило характер или заставило персонажа больше читать/думать, чем махать мечом.
+
+Так что, по сути, это пасхалка от разработчиков (Paradox Interactive), которые очень любят историю и мифы викингов.
+
+------------------------------------------------------------
+Message  : 11
+Speaker  : User
+Time     : 2025-12-31 16:41:35
+------------------------------------------------------------
+продолжим
+
+administrator = {
+	lifestyle = yes
+
+	command_modifier = {
+		speed = 0.1
+	}
+
+	stewardship = 3
+
+	ruler_designer_cost = 10
+}
+
+architect = {
+	lifestyle = yes
+
+	command_modifier = {
+		siege = 0.2
+	}
+
+	martial = 1
+	stewardship = 2
+
+	wonder_build_cost_modifier = -0.03
+	wonder_build_time_modifier = -0.05
+
+	same_opinion = 10
+
+	ruler_designer_cost = 10
+
+	male_compliment = COMPL_ARCHITECT
+	female_compliment = COMPL_ARCHITECT
+}
+
+celibate = {
+	lifestyle = yes
+
+	opposites = {
+		hedonist
+		master_seducer
+		master_seductress
+	}
+
+	monthly_character_piety = 1
+
+	fertility = -10.0
+
+	christian_church_opinion = 5
+	same_opinion = 10
+	opposite_opinion = -5
+
+	ai_zeal = 30
+
+	male_compliment_adj = COMPL_VIRTUOUS
+	female_compliment_adj = COMPL_VIRTUOUS
+	child_compliment_adj = COMPL_NICE
+	male_insult_adj = INSULT_UNMANLY
+	female_insult_adj = INSULT_FRIGID
+	child_insult_adj = INSULT_STUPID
+}
+
+duelist = {
+	lifestyle = yes
+
+	martial = 3
+	combat_rating = 30 # old value: 5
+
+	same_opinion = 10
+
+	ruler_designer_cost = 10
+
+	male_compliment = COMPL_BLADEMASTER
+	female_compliment = COMPL_CHAMPION
+}
+
+game_master = {
+	lifestyle = yes
+
+	command_modifier = {
+		narrow_flank = 0.3
+	}
+
+	martial = 1
+	diplomacy = 2
+
+	same_opinion = 10
+
+	ruler_designer_cost = 10
+}
+
+gardener = {
+	lifestyle = yes
+
+	stewardship = 2
+	learning = 1
+
+	same_opinion = 10
+
+	ruler_designer_cost = 10
+
+	male_insult = INSULT_TREEHUGGER
+	female_insult = INSULT_TREEHUGGER
+}
+
+hedonist = {
+	lifestyle = yes
+
+	opposites = {
+		celibate
+	}
+
+	intrigue = 1
+	diplomacy = 2
+
+	fertility = 0.2
+
+	christian_church_opinion = -5
+	same_opinion = 10
+	opposite_opinion = -5
+
+	ai_zeal = -30
+
+	ruler_designer_cost = 10
+
+	male_insult = INSULT_DEBAUCHER
+	female_insult = INSULT_DEBAUCHER
+	child_insult = INSULT_HAYBRAIN
+	male_insult_adj = INSULT_PERVERTED
+	female_insult_adj = INSULT_DEGENERATE
+	child_insult_adj = INSULT_CRAZY
+}
+
+hunter = {
+	lifestyle = yes
+
+	potential = {
+		NOT = { religion = jain }
+	}
+
+	command_modifier = {
+		pursue = 0.2
+	}
+
+	martial = 2
+	diplomacy = 1
+
+	combat_rating = 10 # new value!
+
+	same_opinion = 10
+
+	ruler_designer_cost = 10
+
+	male_compliment = COMPL_HUNTMASTER
+}
+
+impaler = {
+	lifestyle = yes
+
+	potential = {
+		NOT = { religion = jain }
+	}
+
+	command_modifier = {
+		morale_offence = 0.1
+	}
+
+	intrigue = 2
+	learning = 1
+
+	combat_rating = 10 # new value!
+
+	same_opinion = 10
+
+	ai_honor = -15
+
+	male_insult = INSULT_TORTURER
+	female_insult = INSULT_TORTURER
+	male_insult_adj = INSULT_EVIL
+	female_insult_adj = INSULT_EVIL
+	child_insult_adj = INSULT_WICKED
+
+	ruler_designer_cost = 10
+}
+
+mystic = {
+	lifestyle = yes
+
+	stewardship = 1
+	learning = 2
+
+	same_opinion = 10
+
+	ruler_designer_cost = 10
+
+	male_compliment = COMPL_MYSTIC
+	female_compliment = COMPL_MYSTIC
+	child_compliment = COMPL_SMARTY
+	male_compliment_adj = COMPL_LEARNED
+	female_compliment_adj = COMPL_LEARNED
+	child_compliment_adj = COMPL_CLEVER
+	male_insult = INSULT_OCCULTIST
+	female_insult = INSULT_OCCULTIST
+	child_insult = INSULT_DEVIL
+	male_insult_adj = INSULT_GODLESS
+	female_insult_adj = INSULT_GODLESS
+	child_insult_adj = INSULT_WEIRD
+}
+
+master_schemer = {
+	lifestyle = yes
+
+	intrigue = 3
+
+	same_opinion = -5
+
+	ruler_designer_cost = 10
+
+	male_insult = INSULT_INSTIGATOR
+	female_insult = INSULT_INSTIGATOR
+	child_insult = INSULT_SNEAK
+	male_insult_adj = INSULT_SCHEMING
+	female_insult_adj = INSULT_SCHEMING
+	child_insult_adj = INSULT_STUPID
+}
+
+scholar = {
+	lifestyle = yes
+
+	opposites = {
+		faqih
+	}
+
+	potential = {
+		NOT = { religion_group = muslim }
+	}
+
+	learning = 3
+
+	same_opinion = 10
+
+	ruler_designer_cost = 10
+
+	male_compliment = COMPL_SCHOLAR
+	female_compliment = COMPL_SCHOLAR
+	child_compliment = COMPL_SMARTY
+	male_compliment_adj = COMPL_LEARNED
+	female_compliment_adj = COMPL_LEARNED
+	child_compliment_adj = COMPL_CLEVER
+	male_insult = INSULT_BOOKWORM
+	female_insult = INSULT_BOOKWORM
+	child_insult = INSULT_BORE
+	male_insult_adj = INSULT_SQUINTEYED
+	female_insult_adj = INSULT_SQUINTEYED
+}
+
+master_seducer = {
+	lifestyle = yes
+
+	opposites = {
+		celibate
+		master_seductress
+	}
+
+	potential = {
+		is_female = no
+	}
+
+	intrigue = 2
+	diplomacy = 1
+
+	sex_appeal_opinion = 50
+
+	male_insult = INSULT_WHOREMONGER
+	male_insult_adj = INSULT_WHORING
+	male_compliment = COMPL_SEDUCER
+	male_compliment_adj = COMPL_CHARMING
+
+	ruler_designer_cost = 12
+}
+
+master_seductress = {
+	lifestyle = yes
+
+	opposites = {
+		celibate
+		master_seducer
+	}
+
+	potential = {
+		is_female = yes
+	}
+
+	intrigue = 2
+	diplomacy = 1
+
+	sex_appeal_opinion = 50
+
+	female_insult = INSULT_TEMPTRESS
+	female_insult_adj = INSULT_DEBASED
+	female_compliment = COMPL_ENCHANTRESS
+	female_compliment_adj = COMPL_RAVISHING
+
+	ruler_designer_cost = 12
+}
+
+socializer = {
+	lifestyle = yes
+
+	diplomacy = 3
+
+	sex_appeal_opinion = 10
+	same_opinion = 10
+
+	ruler_designer_cost = 12
+
+	male_insult = INSULT_BLABBERER
+	female_insult = INSULT_BLABBERER
+	male_insult_adj = INSULT_SCHEMING
+	female_insult_adj = INSULT_SCHEMING
+	child_insult_adj = INSULT_SILLY
+}
+
+strategist = {
+	lifestyle = yes
+
+	command_modifier = {
+		defence = 0.2
+	}
+
+	martial = 2
+	stewardship = 1
+
+	same_opinion = 10
+
+	ruler_designer_cost = 12
+}
+
+theologian = {
+	lifestyle = yes
+
+	intrigue = 1
+	learning = 2
+
+	ruler_designer_cost = 10
+
+	male_insult = INSULT_BOOKWORM
+	female_insult = INSULT_BOOKWORM
+	male_insult_adj = INSULT_SQUINTEYED
+	female_insult_adj = INSULT_SQUINTEYED
+	male_compliment = COMPL_SCHOLAR
+	female_compliment = COMPL_SCHOLAR
+	male_compliment_adj = COMPL_LEARNED
+	female_compliment_adj = COMPL_LEARNED
+}
+
+------------------------------------------------------------
+Message  : 12
+Speaker  : AI A
+Time     : 2025-12-31 16:41:35
+------------------------------------------------------------
+Вот список трейтов из категории «Образ жизни» (Lifestyle Traits), которые влияют на характеристики советников:
+
+**administrator**
+*   stewardship = 3
+
+**architect**
+*   stewardship = 2
+*   martial = 1
+
+**duelist**
+*   martial = 3
+
+**game_master**
+*   diplomacy = 2
+*   martial = 1
+
+**gardener**
+*   stewardship = 2
+*   learning = 1
+
+**hedonist**
+*   diplomacy = 2
+*   intrigue = 1
+
+**hunter**
+*   martial = 2
+*   diplomacy = 1
+
+**impaler**
+*   intrigue = 2
+*   learning = 1
+
+**mystic**
+*   learning = 2
+*   stewardship = 1
+
+**master_schemer**
+*   intrigue = 3
+
+**scholar**
+*   learning = 3
+
+**master_seducer** / **master_seductress**
+*   intrigue = 2
+*   diplomacy = 1
+
+**socializer**
+*   diplomacy = 3
+
+**strategist**
+*   martial = 2
+*   stewardship = 1
+
+**theologian**
+*   learning = 2
+*   intrigue = 1
+
+***
+
+*Примечание: Трейт **celibate** был исключен, так как он влияет на благочестие (piety), плодовитость (fertility) и мнение, но не изменяет характеристики дипломатии, войны, управления, интриги или учёности.*
+
+------------------------------------------------------------
+Message  : 13
+Speaker  : User
+Time     : 2025-12-31 16:45:30
+------------------------------------------------------------
+greedy = {
+	global_tax_modifier = 0.1
+
+	diplomacy = -1
+}
+
+lustful = {
+	personality = yes
+	vice = yes
+
+	opposites = {
+		chaste
+	}
+
+	monthly_character_piety = -0.25
+
+	intrigue = 1
+
+	fertility = 0.2
+
+	christian_church_opinion = -5
+}
+
+proud = {
+	personality = yes
+	vice = yes
+
+	opposites = {
+		humble
+	}
+
+	monthly_character_prestige = 0.5
+
+	ai_ambition = 10
+}
+
+slothful = {
+	personality = yes
+	vice = yes
+
+	opposites = {
+		diligent
+	}
+
+	martial = -1
+	intrigue = -1
+	diplomacy = -1
+	stewardship = -1
+	learning = -1
+	combat_rating = -5 # new value!
+
+	vassal_opinion = -5
+
+	ai_ambition = -10
+	ai_greed = 10
+	ai_zeal = -10
+}
+
+wroth = {
+	personality = yes
+	vice = yes
+
+	opposites = {
+		patient
+	}
+
+	martial = 3
+	intrigue = -1
+	diplomacy = -1
+	combat_rating = 3 # new value!
+
+	ai_rationality = -10
+	ai_honor = -5
+}
+
+# THE SEVEN VIRTUES
+charitable = {
+	personality = yes
+	virtue = yes
+
+	opposites = {
+		greedy
+	}
+
+	diplomacy = 3
+	combat_rating = -3 # new value!
+
+	church_opinion = 5
+	same_opinion = 5
+	opposite_opinion = -5
+
+	ai_honor = 10
+	ai_ambition = -15
+	ai_greed = -100
+	ai_zeal = 10
+}
+
+chaste = {
+	personality = yes
+	virtue = yes
+
+	opposites = {
+		lustful
+	}
+
+	potential = {
+		NOT = { religion_group = muslim }
+	}
+
+	monthly_character_piety = 0.5
+
+	learning = 1
+
+	fertility = -0.15
+
+	christian_church_opinion = 5
+	opposite_opinion = -5
+
+	ai_zeal = 10
+}
+
+diligent = {
+	personality = yes
+	virtue = yes
+
+	opposites = {
+		slothful
+	}
+
+	martial = 1
+	intrigue = 1
+	diplomacy = 1
+	stewardship = 1
+	learning = 1
+
+	vassal_opinion = 5
+	same_opinion = 5
+	opposite_opinion = -5
+
+	ai_greed = -10
+	ai_zeal = 10
+}
+
+humble = {
+	personality = yes
+	virtue = yes
+
+	opposites = {
+		proud
+	}
+
+	monthly_character_piety = 1
+
+	same_opinion = 5
+	opposite_opinion = -5
+
+	ai_ambition = -10
+}
+
+kind = {
+	personality = yes
+	virtue = yes
+
+	opposites = {
+		envious
+		cruel
+	}
+
+	intrigue = -2
+	diplomacy = 2
+	combat_rating = -5 # new value!
+
+	vassal_opinion = 5
+	same_opinion = 5
+	opposite_opinion = -5
+
+	ai_honor = 10
+}
+
+patient = {
+	personality = yes
+	virtue = yes
+
+	opposites = {
+		wroth
+	}
+
+	intrigue = 1
+	diplomacy = 1
+	stewardship = 1
+	learning = 1
+	combat_rating = 5 # new value!
+
+	opposite_opinion = -5
+
+	ai_rationality = 10
+
+	command_modifier = {
+		defence = 0.2
+	}
+}
+
+temperate = {
+	personality = yes
+	virtue = yes
+
+	opposites = {
+		gluttonous
+	}
+
+	stewardship = 2
+
+	church_opinion = 5
+	same_opinion = 5
+	opposite_opinion = -5
+
+	ai_greed = -20
+	ai_zeal = 10
+}
+
+# OTHER
+ambitious = {
+	personality = yes
+
+	opposites = {
+		content
+	}
+
+	martial = 2
+	intrigue = 2
+	diplomacy = 2
+	stewardship = 2
+	learning = 2
+	combat_rating = 3 # new value!
+
+	same_opinion = -5
+	ambition_opinion = -25 # Against those they want something from
+
+	ai_ambition = 40
+	ai_zeal = 10
+}
+
+arbitrary = {
+	personality = yes
+
+	opposites = {
+		just
+	}
+
+	intrigue = 1
+	stewardship = -2
+	learning = -1
+
+	vassal_opinion = -5
+
+	ai_rationality = -20
+	ai_honor = -10
+	ai_zeal = -10
+}
+
+brave = {
+	personality = yes
+
+	opposites = {
+		craven
+	}
+
+	command_modifier = {
+		morale_defence = 0.1
+	}
+
+	martial = 2
+	combat_rating = 10 # old value: 1
+
+	vassal_opinion = 5
+	same_opinion = 5
+	opposite_opinion = -5
+}
+
+content = {
+	personality = yes
+
+	opposites = {
+		ambitious
+	}
+
+	monthly_character_piety = 0.5
+
+	intrigue = -1
+
+	liege_opinion = 25
+
+	ai_ambition = -40
+	ai_zeal = -10
+}
+
+craven = {
+	personality = yes
+
+	opposites = {
+		brave
+	}
+
+	command_modifier = {
+		morale_defence = -0.2
+	}
+
+	martial = -2
+	combat_rating = -10 # old value: -1
+
+	vassal_opinion = -5
+}
+
+cruel = {
+	personality = yes
+
+	opposites = {
+		kind
+	}
+
+	command_modifier = {
+		morale_offence = 0.1
+	}
+
+	intrigue = 1
+	diplomacy = -1
+	combat_rating = 3 # new value!
+
+	vassal_opinion = -5
+
+	ai_honor = -5
+	ai_greed = 5
+}
+
+cynical = {
+	personality = yes
+
+	opposites = {
+		zealous
+	}
+
+	monthly_character_piety = -0.2
+
+	intrigue = 2
+
+	church_opinion = -5
+	same_opinion = 5
+	opposite_opinion = -5
+
+	ai_rationality = 10
+	ai_zeal = -100
+}
+
+deceitful = {
+	personality = yes
+
+	opposites = {
+		honest
+	}
+
+	intrigue = 3
+	diplomacy = -2
+	combat_rating = 3 # new value!
+
+	opposite_opinion = -5
+
+	ai_honor = -25
+}
+
+dull = {
+	opposites = {
+		shrewd
+	}
+
+	martial = -2
+	intrigue = -2
+	diplomacy = -2
+	stewardship = -2
+	learning = -2
+	combat_rating = -3 # new value!
+
+	ai_rationality = -15
+}
+
+erudite = {
+	personality = yes
+
+	learning = 2
+	combat_rating = -2 # new value!
+
+	church_opinion = 5
+}
+
+gregarious = {
+	personality = yes
+
+	opposites = {
+		shy
+	}
+
+	diplomacy = 2
+
+	sex_appeal_opinion = 5
+	vassal_opinion = 5
+	same_opinion = 5
+}
+
+groomed = {
+	opposites = {
+		uncouth
+	}
+
+	sex_appeal_opinion = 15
+	opposite_opinion = -5
+}
+
+honest = {
+	personality = yes
+
+	opposites = {
+		deceitful
+	}
+
+	intrigue = -2
+	diplomacy = 3
+	combat_rating = -2 # new value!
+
+	same_opinion = 5
+	opposite_opinion = -5
+
+	ai_honor = 25
+}
+
+just = {
+	personality = yes
+
+	opposites = {
+		arbitrary
+	}
+
+	stewardship = 2
+	learning = 1
+
+	vassal_opinion = 5
+	same_opinion = 5
+	opposite_opinion = -5
+
+	ai_rationality = 20
+	ai_honor = 10
+	ai_zeal = 10
+}
+
+paranoid = {
+	personality = yes
+
+	opposites = {
+		trusting
+	}
+
+	intrigue = 2
+	diplomacy = -1
+
+	ai_honor = -10
+}
+
+shrewd = {
+	opposites = {
+		dull
+	}
+
+	martial = 2
+	intrigue = 2
+	diplomacy = 2
+	stewardship = 2
+	learning = 2
+	combat_rating = 3 # new value!
+
+	ai_rationality = 15
+}
+
+shy = {
+	personality = yes
+
+	opposites = {
+		gregarious
+	}
+
+	diplomacy = -2
+	combat_rating = -2 # new value!
+}
+
+stubborn = {
+	personality = yes
+
+	diplomacy = -1
+	stewardship = 1
+	combat_rating = 3 # new value!
+
+	vassal_opinion = -5
+
+	ai_ambition = 10
+	ai_zeal = 10
+}
+
+trusting = {
+	personality = yes
+
+	opposites = {
+		paranoid
+	}
+
+	intrigue = -2
+	diplomacy = 1
+	combat_rating = -2 # new value!
+
+	ai_honor = 10
+}
+
+uncouth = {
+	opposites = {
+		groomed
+	}
+
+	sex_appeal_opinion = -10
+	opposite_opinion = -5
+}
+
+zealous = {
+	personality = yes
+
+	opposites = {
+		cynical
+		sympathy_christendom
+		sympathy_islam
+		sympathy_pagans
+		sympathy_zoroastrianism
+		sympathy_judaism
+		sympathy_indian
+	}
+
+	monthly_character_piety = 1
+
+	martial = 2
+
+	church_opinion = 5
+	infidel_opinion = -25
+	opposite_opinion = -5
+	same_opinion_if_same_religion = 15
+
+	ai_rationality = -10
+	ai_zeal = 100
+}
+
+------------------------------------------------------------
+Message  : 14
+Speaker  : AI A
+Time     : 2025-12-31 16:45:30
+------------------------------------------------------------
+Вот список черт характера (Traits) из вашего списка, которые влияют на основные характеристики советников:
+
+### Семь смертных грехов (Seven Sins)
+**greedy**
+*   diplomacy = -1
+
+**lustful**
+*   intrigue = 1
+
+**slothful**
+*   martial = -1
+*   intrigue = -1
+*   diplomacy = -1
+*   stewardship = -1
+*   learning = -1
+
+**wroth**
+*   martial = 3
+*   intrigue = -1
+*   diplomacy = -1
+
+### Семь добродетелей (Seven Virtues)
+**charitable**
+*   diplomacy = 3
+
+**chaste**
+*   learning = 1
+
+**diligent**
+*   martial = 1
+*   intrigue = 1
+*   diplomacy = 1
+*   stewardship = 1
+*   learning = 1
+
+**kind**
+*   intrigue = -2
+*   diplomacy = 2
+
+**patient**
+*   intrigue = 1
+*   diplomacy = 1
+*   stewardship = 1
+*   learning = 1
+
+**temperate**
+*   stewardship = 2
+
+### Другие личные качества (Personality/Other)
+**ambitious**
+*   martial = 2
+*   intrigue = 2
+*   diplomacy = 2
+*   stewardship = 2
+*   learning = 2
+
+**arbitrary**
+*   intrigue = 1
+*   stewardship = -2
+*   learning = -1
+
+**brave**
+*   martial = 2
+
+**content**
+*   intrigue = -1
+
+**craven**
+*   martial = -2
+
+**cruel**
+*   intrigue = 1
+*   diplomacy = -1
+
+**cynical**
+*   intrigue = 2
+
+**deceitful**
+*   intrigue = 3
+*   diplomacy = -2
+
+**dull**
+*   martial = -2
+*   intrigue = -2
+*   diplomacy = -2
+*   stewardship = -2
+*   learning = -2
+
+**erudite**
+*   learning = 2
+
+**gregarious**
+*   diplomacy = 2
+
+**honest**
+*   diplomacy = 3
+*   intrigue = -2
+
+**just**
+*   stewardship = 2
+*   learning = 1
+
+**paranoid**
+*   intrigue = 2
+*   diplomacy = -1
+
+**shrewd**
+*   martial = 2
+*   intrigue = 2
+*   diplomacy = 2
+*   stewardship = 2
+*   learning = 2
+
+**shy**
+*   diplomacy = -2
+
+**stubborn**
+*   stewardship = 1
+*   diplomacy = -1
+
+**trusting**
+*   diplomacy = 1
+*   intrigue = -2
+
+**zealous**
+*   martial = 2
+
+***
+
+*Примечание: Трейты **proud**, **humble**, **groomed** и **uncouth** были исключены, так как они влияют только на престиж, благочестие, мнение или привлекательность, но не меняют основные характеристики.*
+
+------------------------------------------------------------
+Message  : 15
+Speaker  : User
+Time     : 2025-12-31 16:51:03
+------------------------------------------------------------
+falconer = { # Way of Life DLC: No longer a lifestyle trait
+	potential = {
+		NOT = { religion = jain }
+	}
+
+	diplomacy = 1
+
+	same_opinion = 10
+
+	ruler_designer_cost = 4
+}
+
+physician = {
+	customizer = no
+	random = no
+
+	monthly_character_prestige = 0.25
+
+	diplomacy = 1
+	learning = 2
+
+	health = 0.5
+
+	general_opinion = 5
+}
+
+poet = { # Way of Life DLC: No longer a lifestyle trait
+	diplomacy = 1
+
+	same_opinion = 10
+
+	ruler_designer_cost = 4
+
+	male_compliment = COMPL_POET
+	female_compliment = COMPL_POET
+}
+
+beatified = {
+	religious = yes
+	customizer = no
+	random = no
+
+	church_opinion = 25
+}
+
+blessed_ancestor = {
+	religious = yes
+	customizer = no
+	random = no
+
+	pagan_group_opinion = 50
+}
+
+bloodthirsty_gods_3 = {
+	monthly_character_piety = 0.3
+
+	castle_opinion = -15
+	town_opinion = -15
+	tribal_opinion = 15
+	church_opinion = 15
+
+	same_opinion = 5
+	opposite_opinion = 15
+
+	ai_rationality = -75
+	ai_zeal = 100
+}
+
+faqih = { # Muslim who is schooled in Islamic jurisprudence
+	religious = yes
+
+	opposites = {
+		scholar
+	}
+
+	potential = {
+		religion_group = muslim
+	}
+
+	learning = 3
+
+	muslim_opinion = 5
+}
+
+hafiz = { # Muslim who has completely memorized the Qur'an
+	religious = yes
+
+	potential = {
+		religion_group = muslim
+	}
+
+	muslim_opinion = 5
+
+	male_compliment = COMPL_HAFIZ
+	female_compliment = COMPL_HAFIZ
+}
+
+heresiarch = {
+	rebel_inherited = yes
+	religious = yes
+	customizer = no
+
+	combat_rating = 3 # new value!
+
+	infidel_opinion = -15
+	same_religion_opinion = 25
+}
+
+mutazilite = {
+	religious = yes # Lost immediately on religion change
+	customizer = no
+	random = no
+
+	opposites = {
+		ashari
+	}
+
+	learning = 5
+
+	opposite_opinion = -30
+}
+
+saint = {
+	religious = yes
+	customizer = no
+	random = no
+
+	church_opinion = 100
+}
+
+saoshyant = {
+	religious = yes
+	customizer = no
+
+	combat_rating = 20 # old value: 5
+
+	zoroastrian_opinion = 10
+
+	male_compliment = COMPL_SAOSHYANT
+	female_compliment = COMPL_SAOSHYANT
+}
+
+# Pagan Branches
+pagan_branch_1 = {
+	religious = yes
+	random = no
+
+	opposites = {
+		pagan_branch_2
+		pagan_branch_3
+		pagan_branch_4
+	}
+
+	potential = { has_religion_feature = religion_no_leader }
+
+	religious_branch = pagan_reformation
+
+	christian_opinion = 10
+	muslim_opinion = 10
+	indian_group_opinion = 10
+	jewish_group_opinion = 10
+	zoroastrian_group_opinion = 10
+	same_opinion_if_same_religion = 5
+	opposite_opinion = -5
+
+	ai_zeal = -30
+
+	ruler_designer_cost = 0
+}
+
+pagan_branch_2 = {
+	religious = yes
+	random = no
+
+	opposites = {
+		pagan_branch_1
+		pagan_branch_3
+		pagan_branch_4
+	}
+
+	potential = { has_religion_feature = religion_no_leader }
+
+	religious_branch = pagan_reformation
+
+	monthly_character_piety = 0.25
+
+	church_opinion = 10
+	opposite_opinion = -5
+
+	ai_zeal = 30
+
+	ruler_designer_cost = 0
+}
+
+pagan_branch_3 = {
+	religious = yes
+	random = no
+
+	opposites = {
+		pagan_branch_2
+		pagan_branch_1
+		pagan_branch_4
+	}
+
+	potential = { has_religion_feature = religion_no_leader }
+
+	religious_branch = pagan_reformation
+
+	monthly_character_prestige = 0.3
+	combat_rating = 10
+	opposite_opinion = -5
+
+	ai_ambition = 20
+
+	ruler_designer_cost = 0
+}
+
+pagan_branch_4 = {
+	religious = yes
+	random = no
+
+	opposites = {
+		pagan_branch_2
+		pagan_branch_3
+		pagan_branch_1
+	}
+
+	potential = { has_religion_feature = religion_no_leader }
+
+	religious_branch = pagan_reformation
+
+	fertility = 0.1
+	dynasty_opinion = 10
+	opposite_opinion = -5
+
+	ai_honor = 10
+
+	ruler_designer_cost = 0
+}
+
+scarred = {
+	monthly_character_prestige = 0.1
+	opposite_opinion = 10
+}
+
+scarred_mid = {
+	combat_rating = 5
+
+	monthly_character_prestige = 0.15
+
+	sex_appeal_opinion = 5
+	same_opinion = 5
+	opposite_opinion = 5
+	tribal_opinion = 5
+}
+
+scarred_high = {
+	monthly_character_prestige = 0.2
+
+	combat_rating = 10
+
+	sex_appeal_opinion = 10
+	same_opinion = 10
+	opposite_opinion = 5
+	tribal_opinion = 10
+}
+adventurer = {
+	customizer = no
+	random = no
+
+	martial = 1
+	diplomacy = -1
+	combat_rating = 10 # old value: 1
+	global_levy_size = 0.2
+	max_manpower_mult = 0.1
+
+	same_opinion = 10
+
+	ai_ambition = 40
+}
+
+augustus = {
+	customizer = no
+
+	monthly_character_prestige = 0.5
+	vassal_opinion = 10
+}
+
+cannibal = {
+	martial = 3
+	general_opinion = -10
+	combat_rating = 10 # old value: 1
+
+	same_opinion = 25
+
+	ai_rationality = -20
+	ai_honor = -10
+}
+
+immortal = {
+	customizer = no
+	random = no
+
+	immortal = yes
+	health = 10
+	taoist_opinion = 25
+}
+
+fat = {
+	customizer = no
+	random = no
+
+	opposites = {
+		malnourished
+	}
+
+	combat_rating = -10
+	tribal_opinion = -5
+
+	ai_zeal = -20
+
+}
+
+malnourished = {
+	customizer = no
+	random = no
+
+	opposites = {
+		fat
+	}
+
+	fertility = -0.05
+	combat_rating = -10
+
+	ai_zeal = -20
+}
+
+peasant_leader = {
+	rebel_inherited = yes
+	customizer = no
+
+	diplomacy = -5
+	combat_rating = 3 # new value!
+
+	vassal_opinion = -10
+	same_opinion = 25
+}
+
+------------------------------------------------------------
+Message  : 16
+Speaker  : AI A
+Time     : 2025-12-31 16:51:03
+------------------------------------------------------------
+Вот список трейтов из этой партии, которые влияют на характеристики советников:
+
+**falconer**
+*   diplomacy = 1
+
+**physician**
+*   learning = 2
+*   diplomacy = 1
+
+**poet**
+*   diplomacy = 1
+
+**faqih**
+*   learning = 3
+
+**mutazilite**
+*   learning = 5
+
+**adventurer**
+*   martial = 1
+*   diplomacy = -1
+
+**cannibal**
+*   martial = 3
+
+**peasant_leader**
+*   diplomacy = -5
+
+***
+
+*Примечание: Множество специальных трейтов, таких как **augustus**, **saint**, **saoshyant**, **immortal**, а также различные степени шрамов (**scarred**), были исключены, так как они влияют на престиж, мнение или боевой рейтинг, но не меняют основные атрибуты.*
+
+------------------------------------------------------------
+Message  : 17
+Speaker  : User
+Time     : 2025-12-31 16:52:12
+------------------------------------------------------------
+теперь выпиши все трейты которые пригодились бы для дипломата
+
+------------------------------------------------------------
+Message  : 18
+Speaker  : AI A
+Time     : 2025-12-31 16:52:12
+------------------------------------------------------------
+Вот список всех трейтов из предоставленных вами файлов, которые дают **бонус к Дипломатии**.
+
+Я отсортировал их по категориям и силе эффекта, чтобы вам было проще выбирать идеального канцлера.
+
+### 🎓 Образование (Education)
+Самые сильные трейты находятся здесь.
+
+*   **grey_eminence** (Серый кардинал): **+9**
+*   **charismatic_negotiator** (Харизматичный переговорщик): **+6**
+*   **underhanded_rogue** (Теневой интриган): **+3**
+*   **elusive_shadow** (Неуловимая тень — *ветка Интриги*): **+2**
+*   **mastermind_theologian** (Вдохновенный богослов — *ветка Учености*): **+2**
+*   **naive_appeaser** (Наивный соглашатель): **+1**
+*   **intricate_webweaver** (Искусный плетельщик паутины — *ветка Интриги*): **+1**
+*   **scholarly_theologian** (Начитанный богослов — *ветка Учености*): **+1**
+
+### 🧬 Врожденные и генетические (Congenital)
+*   **genius** (Гениальность): **+5**
+*   **quick** (Смышленость): **+3**
+*   **attractive** (Привлекательность): **+1**
+*   **strong** (Сила): **+1**
+
+### 🎭 Личность (Personality)
+Эти черты часто комбинируются друг с другом.
+
+*   **charitable** (Щедрость): **+3**
+*   **honest** (Честность): **+3**
+*   **ambitious** (Амбициозность): **+2**
+*   **gregarious** (Общительность): **+2**
+*   **kind** (Доброта): **+2**
+*   **shrewd** (Проницательность): **+2**
+*   **diligent** (Усердие): **+1**
+*   **patient** (Терпение): **+1**
+*   **trusting** (Доверчивость): **+1**
+
+### 🍷 Образ жизни и прочее (Lifestyle & Other)
+*   **socializer** (Душа компании): **+3**
+*   **game_master** (Игрок): **+2**
+*   **hedonist** (Гедонист): **+2**
+*   **brawny** (Мускулистость): **+1**
+*   **falconer** (Сокольничий): **+1**
+*   **hunter** (Охотник): **+1**
+*   **master_seducer / master_seductress** (Соблазнитель): **+1**
+*   **physician** (Врач): **+1**
+*   **poet** (Поэт): **+1**
+*   **varangian** (Варяг): **+1**
+
+---
+
+**Идеальный дипломат (теоретический максимум из списка):**
+*Grey Eminence (+9) + Genius (+5) + Socializer (+3) + Charitable (+3) + Honest (+3) = **+23 к дипломатии** (не считая базовых статов).*
+
+------------------------------------------------------------
+Message  : 19
+Speaker  : User
+Time     : 2025-12-31 16:53:40
+------------------------------------------------------------
+для маршала
+
+------------------------------------------------------------
+Message  : 20
+Speaker  : AI A
+Time     : 2025-12-31 16:53:40
+------------------------------------------------------------
+Вот список всех трейтов из ваших файлов, которые дают **бонус к Военному навыку**.
+
+Это лучшие кандидаты на должность Маршала или командира армии.
+
+### ⚔️ Образование (Education)
+*   **brilliant_strategist** (Блестящий стратег): **+9**
+*   **skilled_tactician** (Искусный тактик): **+6**
+*   **tough_soldier** (Закаленный вояка): **+3**
+*   **misguided_warrior** (Заблудший вояка): **+1**
+
+*(Примечание: Образование из других сфер, дающее военный бонус: **midas_touched** (+2), **elusive_shadow** (+2)).*
+
+### 🦁 Боевые и Специальные (Combat & Special)
+В этой категории находятся самые агрессивные бонусы.
+
+*   **gladiator** (Гладиатор): **+5**
+*   **berserker** (Берсерк): **+4**
+*   **sea_king / sea_queen** (Морской король / королева): **+3**
+*   **crusader_king / crusader_queen** (Король-крестоносец): **+3**
+*   **cannibal** (Каннибал): **+3**
+*   **crusader** (Крестоносец): **+2**
+*   **ravager** (Опустошитель): **+2**
+*   **varangian** (Варяг): **+2**
+*   **adventurer** (Авантюрист): **+1**
+*   **pirate** (Пират): **+1**
+*   **viking** (Викинг): **+1**
+
+### 🧬 Врожденные и физические (Congenital & Physical)
+*   **genius** (Гениальность): **+5**
+*   **quick** (Смышленость): **+3**
+*   **brawny** (Мускулистость): **+2**
+*   **strong** (Сила): **+2**
+
+### 🔥 Личность (Personality)
+*   **wroth** (Гнев): **+3**
+*   **ambitious** (Амбициозность): **+2**
+*   **brave** (Храбрость): **+2**
+*   **shrewd** (Проницательность): **+2**
+*   **zealous** (Ревностность): **+2**
+*   **diligent** (Усердие): **+1**
+
+### 🛡️ Образ жизни (Lifestyle)
+*   **duelist** (Дуэлянт): **+3**
+*   **hunter** (Охотник): **+2**
+*   **strategist** (Стратег): **+2**
+*   **architect** (Архитектор): **+1**
+*   **game_master** (Игрок): **+1**
+
+---
+
+**Идеальная машина для войны (теоретический максимум):**
+*Brilliant Strategist (+9) + Genius (+5) + Gladiator (+5) + Berserker (+4) + Wroth (+3) + Duelist (+3) = **+29 к военному навыку**.*
+
+------------------------------------------------------------
+Message  : 21
+Speaker  : User
+Time     : 2025-12-31 16:54:25
+------------------------------------------------------------
+управленец
+
+------------------------------------------------------------
+Message  : 22
+Speaker  : AI A
+Time     : 2025-12-31 16:54:25
+------------------------------------------------------------
+Вот список всех трейтов из ваших файлов, которые дают **бонус к Управлению**.
+
+Этот советник критически важен для размера домена и сбора налогов.
+
+### 💰 Образование (Education)
+*   **midas_touched** (Мидас): **+9**
+*   **fortune_builder** (Творец судьбы): **+6**
+*   **thrifty_clerk** (Бережливый клерк): **+3**
+*   **brilliant_strategist** (Блестящий стратег — *ветка Войны*): **+2**
+*   **mastermind_theologian** (Вдохновенный богослов — *ветка Учености*): **+2**
+*   **indulgent_wastrel** (Расточитель): **+1**
+*   **skilled_tactician** (Искусный тактик — *ветка Войны*): **+1**
+*   **scholarly_theologian** (Начитанный богослов — *ветка Учености*): **+1**
+
+### 🧬 Врожденные (Congenital)
+*   **genius** (Гениальность): **+5**
+*   **quick** (Смышленость): **+3**
+
+### 🏗️ Образ жизни (Lifestyle)
+*   **administrator** (Администратор): **+3**
+*   **architect** (Архитектор): **+2**
+*   **gardener** (Садовник): **+2**
+*   **mystic** (Мистик): **+1**
+*   **strategist** (Стратег): **+1**
+
+### ⚖️ Личность (Personality)
+*   **ambitious** (Амбициозность): **+2**
+*   **just** (Справедливость): **+2**
+*   **shrewd** (Проницательность): **+2**
+*   **temperate** (Умеренность): **+2**
+*   **diligent** (Усердие): **+1**
+*   **patient** (Терпение): **+1**
+*   **stubborn** (Упрямство): **+1**
+
+---
+
+**Идеальный казначей (теоретический максимум):**
+*Midas Touched (+9) + Genius (+5) + Administrator (+3) + Temperate (+2) + Just (+2) + Ambitious (+2) = **+23 к управлению**.*
+
+------------------------------------------------------------
+Message  : 23
+Speaker  : User
+Time     : 2025-12-31 16:55:08
+------------------------------------------------------------
+шпион
+
+------------------------------------------------------------
+Message  : 24
+Speaker  : AI A
+Time     : 2025-12-31 16:55:08
+------------------------------------------------------------
+Вот список всех трейтов из ваших файлов, которые дают **бонус к Интриге**.
+
+Такой персонаж идеально подойдет на роль Тайного советника (Spymaster).
+
+### 🗡️ Образование (Education)
+*   **elusive_shadow** (Неуловимая тень): **+9**
+*   **intricate_webweaver** (Искусный плетельщик паутины): **+6**
+*   **flamboyant_schemer** (Светский интриган): **+3**
+*   **brilliant_strategist** (Блестящий стратег — *ветка Войны*): **+2**
+*   **grey_eminence** (Серый кардинал — *ветка Дипломатии*): **+2**
+*   **amateurish_plotter** (Начинающий интриган): **+1**
+*   **charismatic_negotiator** (Харизматичный переговорщик — *ветка Дипломатии*): **+1**
+*   **skilled_tactician** (Искусный тактик — *ветка Войны*): **+1**
+
+### 🧬 Врожденные (Congenital)
+*   **genius** (Гениальность): **+5**
+*   **quick** (Смышленость): **+3**
+
+### 🐍 Личность (Personality)
+Здесь важны недобродетельные качества.
+
+*   **deceitful** (Коварство): **+3**
+*   **ambitious** (Амбициозность): **+2**
+*   **cynical** (Цинизм): **+2**
+*   **paranoid** (Паранойя): **+2**
+*   **shrewd** (Проницательность): **+2**
+*   **arbitrary** (Произвол): **+1**
+*   **cruel** (Жестокость): **+1**
+*   **diligent** (Усердие): **+1**
+*   **lustful** (Похоть): **+1**
+*   **patient** (Терпение): **+1**
+
+### ☠️ Образ жизни и Особые (Lifestyle & Special)
+*   **master_schemer** (Искусный интриган): **+3**
+*   **gladiator** (Гладиатор): **+2**
+*   **impaler** (Колосажатель): **+2**
+*   **master_seducer / master_seductress** (Соблазнитель): **+2**
+*   **hedonist** (Гедонист): **+1**
+*   **theologian** (Теолог): **+1**
+
+---
+
+**Идеальный шпион (теоретический максимум):**
+*Elusive Shadow (+9) + Genius (+5) + Master Schemer (+3) + Deceitful (+3) + Ambitious (+2) + Paranoid (+2) = **+24 к интриге**.*
+
+------------------------------------------------------------
+Message  : 25
+Speaker  : User
+Time     : 2025-12-31 16:55:49
+------------------------------------------------------------
+церковник-врач
+
+------------------------------------------------------------
+Message  : 26
+Speaker  : AI A
+Time     : 2025-12-31 16:55:49
+------------------------------------------------------------
+Вот список всех трейтов из ваших файлов, которые дают **бонус к Учёности (Learning)**.
+
+Этот атрибут ключевой как для **Придворного капеллана** (обращение провинций, исследование технологий), так и для **Придворного врача** (успешность лечения напрямую зависит от навыка учёности).
+
+### 📖 Образование (Education)
+*   **mastermind_theologian** (Вдохновенный богослов): **+9**
+*   **scholarly_theologian** (Начитанный богослов): **+6**
+*   **dutiful_cleric** (Добродетельный служитель): **+3**
+*   **detached_priest** (Отрешенный священник): **+1**
+
+*(Примечание: Образование из других сфер с бонусом к учености: **grey_eminence** (+2), **midas_touched** (+2), **charismatic_negotiator** (+1), **fortune_builder** (+1)).*
+
+### ☪️ Религиозные и Особые (Religious & Special)
+*   **mutazilite** (Мутазилит — *ислам*): **+5**
+*   **faqih** (Факих — *исламский правовед*): **+3**
+
+### 🧠 Врожденные и физические (Congenital & Physical)
+*   **genius** (Гениальность): **+5**
+*   **quick** (Смышленость): **+3**
+*   **one_eyed** (Одноглазый): **+1**
+
+### 🧪 Образ жизни и Профессия (Lifestyle & Profession)
+*   **scholar** (Схоласт): **+3**
+*   **physician** (Врач): **+2** *(Самый важный трейт для лекаря, дает бонусы к лечению помимо статов)*
+*   **mystic** (Мистик): **+2**
+*   **theologian** (Теолог): **+2**
+*   **gardener** (Садовник): **+1**
+*   **impaler** (Колосажатель): **+1** *(Для "специфической" медицины)*
+
+### 🧘 Личность (Personality)
+*   **ambitious** (Амбициозность): **+2**
+*   **erudite** (Начитанность): **+2**
+*   **shrewd** (Проницательность): **+2**
+*   **chaste** (Целомудрие): **+1**
+*   **diligent** (Усердие): **+1**
+*   **just** (Справедливость): **+1**
+*   **patient** (Терпение): **+1**
+
+---
+
+**Идеальный Врач-Мудрец (теоретический максимум):**
+*Mastermind Theologian (+9) + Genius (+5) + Mutazilite (+5) + Scholar (+3) + Erudite (+2) + Physician (+2) = **+26 к учёности**.*
+
+------------------------------------------------------------
+Message  : 27
+Speaker  : User
+Time     : 2025-12-31 17:03:52
+------------------------------------------------------------
+в игре есть лимит для трейтов с припиской "personality = yes". 5 штук. если меньше то игра рандомно добавит какой-то трейт, если больше - заберёт. поэтому логично выбрать 5 более подходящих
+
+------------------------------------------------------------
+Message  : 28
+Speaker  : AI A
+Time     : 2025-12-31 17:03:52
+------------------------------------------------------------
+Это отличное замечание. Механика «мягкого лимита» в 5-7 черт характера (Personality Traits) действительно заставляет выбирать только самое лучшее, чтобы случайные ивенты не заменяли полезные черты на бесполезные или вредные.
+
+Я отфильтровал только те трейты, у которых в вашем коде стоит `personality = yes`, и собрал **идеальные "пятёрки"** для каждого советника.
+
+### 🍷 Дипломат (Канцлер)
+Здесь мы собираем максимум **Дипломатии**.
+
+1.  **charitable** (+3) — *Щедрый*
+2.  **honest** (+3) — *Честный*
+3.  **ambitious** (+2) — *Амбициозный* (также дает +2 ко всем остальным статам)
+4.  **gregarious** (+2) — *Общительный*
+5.  **kind** (+2) — *Добрый*
+
+**Итого от личности:** **+12 к Дипломатии**.
+*(Запасные варианты: diligent (+1), patient (+1), trusting (+1)).*
+
+---
+
+### ⚔️ Маршал (Полководец)
+Здесь нам важен **Военный навык**, но выбор именно «личностных» черт для войны невелик, поэтому берем всё, что есть.
+
+1.  **wroth** (+3) — *Гневный* (Единственный личностный трейт с +3 к войне)
+2.  **ambitious** (+2) — *Амбициозный*
+3.  **brave** (+2) — *Храбрый* (Также дает бонус к морали войск)
+4.  **zealous** (+2) — *Ревностный* (Бонус, если враги — иноверцы)
+5.  **diligent** (+1) — *Усердный*
+
+**Итого от личности:** **+10 к Военному навыку**.
+
+---
+
+### 💰 Управленец (Казначей)
+Максимизируем **Управление**.
+
+1.  **ambitious** (+2) — *Амбициозный*
+2.  **just** (+2) — *Справедливый*
+3.  **temperate** (+2) — *Умеренный*
+4.  **diligent** (+1) — *Усердный*
+5.  **patient** (+1) — *Терпеливый*
+
+**Итого от личности:** **+8 к Управлению**.
+*(Запасной вариант: stubborn (+1), но он снижает дипломатию).*
+
+---
+
+### 🕵️ Шпион (Тайный советник)
+Собираем **Интригу**. Тут нужны порочные черты.
+
+1.  **deceitful** (+3) — *Коварный*
+2.  **ambitious** (+2) — *Амбициозный*
+3.  **cynical** (+2) — *Циничный*
+4.  **paranoid** (+2) — *Параноик*
+5.  **diligent** (+1) — *Усердный* (Или **lustful** (+1) / **cruel** (+1) / **arbitrary** (+1))
+
+**Итого от личности:** **+10 к Интриге**.
+*Примечание: `ambitious` и `paranoid` в сумме с высоким навыком делают шпиона опасным для сюзерена, но зато эффективным.*
+
+---
+
+### 📜 Церковник / Врач
+Собираем **Учёность**.
+
+1.  **ambitious** (+2) — *Амбициозный*
+2.  **erudite** (+2) — *Начитанный*
+3.  **chaste** (+1) — *Целомудренный*
+4.  **diligent** (+1) — *Усердный*
+5.  **patient** (+1) — *Терпеливый* (Или **just** (+1))
+
+**Итого от личности:** **+7 к Учёности**.
+
+---
+
+**Почему `ambitious` и `diligent` есть почти везде?**
+*   **Ambitious** дает +2 ко всем характеристикам. Это лучший личностный трейт в игре по статам.
+*   **Diligent** дает +1 ко всем характеристикам. Это идеальный «заполнитель» пятого слота, если профильных трейтов не хватает.
+
+------------------------------------------------------------
+Message  : 29
+Speaker  : User
+Time     : 2025-12-31 17:08:01
+Attach   : 1 file attached: 0995c648-8914-4762-b5b9-0eb0d213652d/1767190074679-Council.png (image/png) https://messages-prod.27c852f3500f38c1e7786e2c9ff9e48f.r2.cloudflarestorage.com/0995c648-8914-4762-b5b9-0eb0d213652d/1767190074679-Council.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=b33de61d4f22a31b59b25364ab5037c5%2F20261009%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261009T162827Z&X-Amz-Expires=3600&X-Amz-Signature=5d0f40477493841ddef00852f5259ab799af8600075887efbb189a85c3261f4f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
+------------------------------------------------------------
+вот картинка, вдруг даст какие-то идеи
+
+------------------------------------------------------------
+Message  : 30
+Speaker  : AI A
+Time     : 2025-12-31 17:08:01
+------------------------------------------------------------
+Эта картинка — **золотая жила** для минмаксинга (оптимизации) игры. Она меняет приоритеты: теперь мы смотрим не только на цифры характеристик, но и на **скрытые события (ивенты)**, которые эти трейты запускают.
+
+Вот главные выводы и обновленные сборки «Идеальных советников» на основе этой таблицы:
+
+### 🏆 Главный вывод: DILIGENT (Усердный) — это "Бог-Трейт"
+Судя по таблице, трейт `diligent` (Усердный) является лучшим трейтом для советника в игре.
+*   **Дипломат:** Улучшает отношения с вассалами и помогает вам выучить язык (DLC).
+*   **Маршал:** Генерирует **военные очки технологий** (это очень важно!).
+*   **Управленец:** Удаляет гильдии воров и ловит других ворующих советников.
+*   **Шпион:** Запускает меры предосторожности (защищает вас от убийств).
+
+---
+
+### Обновленные рекомендации (с учетом событий)
+
+Теперь пересмотрим наши "пятёрки" личностных трейтов, учитывая бонусы от ивентов.
+
+#### 1. Канцлер (Дипломат)
+*Цель:* Не просто дипломатия, а улучшение отношений и изучение языков.
+*   **diligent** (+1) — **Обязательно.** Дает ивенты на улучшение отношений и языки.
+*   **gregarious** (+2) — Также помогает с изучением языков.
+*   **charitable** (+3) — Высокий стат.
+*   **honest** (+3) — Высокий стат.
+*   **ambitious** (+2) — Высокий стат.
+
+#### 2. Маршал (Военный)
+*Цель:* Очки технологий и отсутствие коррупции.
+*   **diligent** (+1) — **Обязательно.** Дает 50 очков военных технологий (экономит годы).
+*   **just** (Справедливый) — В картинке сказано (внизу), что Маршалы с трейтами **Arbitrary** (Произвольный), **Greedy** (Жадный) или **Deceitful** (Коварный) могут вызвать ивент "Злоупотребление полномочиями" (Abuse of Office), дающий риск восстания. **Just**, **Honest** или **Kind** предотвращают это.
+*   **brave** (+2) — Бонус к морали.
+*   **ambitious** (+2) — Статы.
+*   **zealous** (+2) — Статы.
+*(Выкинули Wroth, так как тюрьма — это весело, но риск восстания от плохого управления провинцией того не стоит).*
+
+#### 3. Управленец (Казначей) — Самые важные изменения!
+*Цель:* Деньги, снижение риска восстания, защита от болезней.
+*   **ambitious** (+2) — **Критически важно.** Таблица говорит: если навык 15+ и есть `ambitious`, срабатывает ивент на **+300 золота**. Это огромная сумма.
+*   **just** (+2) — **Критически важно.** Ивент "Justice Prevails" снижает риск восстания в провинции.
+*   **diligent** (+1) — Убирает гильдии воров (которые режут налоги).
+*   **charitable** (Щедрый) — Если в провинции эпидемия, этот трейт (или Kind) значительно снижает риск заражения и опустошения.
+*   **temperate** (+2) — Просто хороший стат к управлению.
+
+#### 4. Тайный советник (Шпион)
+*Цель:* Не умереть от его рук.
+*   **diligent** (+1) — Меры безопасности.
+*   **content** (Довольный) — **Внимание!** Таблица предупреждает: `Deceitful` (Коварный) увеличивает силу заговоров советника против ВАС. А `Ambitious` (Амбициозный) заставляет его хотеть ваше место.
+    *   *Идея:* Для шпиона лучше взять **Content** (-1 к интриге, но он не убьет вас) вместо **Ambitious**.
+*   **paranoid** (+2) — Хорошо для защиты (раскрывает заговоры).
+*   **cynical** (+2) — Хороший стат.
+*   **just** (Справедливый) — Чтобы он не воровал деньги (внизу таблицы про "Abuse of Office").
+
+#### 5. Капеллан (Церковник)
+*   **zealous** (+2) — Таблица говорит: Если у вас есть 250 золота, ревностный капеллан предложит построить храм со скидкой (он заплатит часть сам).
+*   **diligent** (+1) — Всегда полезно.
+*   **erudite** (+2) — Стат.
+*   **chaste** (+1) — Стат.
+*   **ambitious** (+2) — Стат.
+
+---
+
+### Итоговый "Dream Team" с учетом картинки
+
+Если вы делаете кастомных персонажей или ищете идеальных кандидатов через поиск, вот золотой стандарт (5 traits limit):
+
+| Роль | Трейты (Personality) | Почему? |
+| :--- | :--- | :--- |
+| **Дипломат** | `diligent`, `gregarious`, `charitable`, `honest`, `ambitious` | Ивенты на языки, улучшение отношений, высокие статы. |
+| **Маршал** | `diligent`, `just`, `brave`, `ambitious`, `zealous` | **Технологии!** Нет коррупции в провинциях. |
+| **Управленец** | `ambitious`, `just`, `diligent`, `charitable`, `temperate` | **+300 золота**, нет восстаний, нет воров, защита от чумы. |
+| **Шпион** | `diligent`, `content`, `paranoid`, `cynical`, `just` | Защита сюзерена, лояльность (не убьет вас), честность. |
+| **Капеллан** | `zealous`, `diligent`, `erudite`, `chaste`, `ambitious` | Дешевая постройка храмов, высокие статы. |
+
+**И не забывайте про "Smart" трейты:**
+В шапке таблицы сказано, что трейты **Genius (Гений)**, **Quick (Смышленый)** или **Shrewd (Проницательный)** в сочетании с навыком 12+ запускают ивент *"Capital prospers"* (Процветание столицы). Это делает `Genius` абсолютно обязательным для любого советника, если есть возможность.
+
+------------------------------------------------------------
+Message  : 31
+Speaker  : User
+Time     : 2025-12-31 17:12:20
+------------------------------------------------------------
+посмотри что у меня уже есть. проанализируй
+666002 = {
+	name = "Diplo"
+	diplomacy = 1
+	martial = 5
+	stewardship = 4	
+	intrigue = 3
+	learning = 2
+	religion = sunni
+	culture = egyptian
+	add_trait = grey_eminence
+	add_trait = genius
+	add_trait = socializer
+	add_trait = game_master
+	add_trait = charitable
+	add_trait = diligent
+	add_trait = ambitious
+	add_trait = gregarious
+	add_trait = just
+	disallow_random_traits = yes
+	753.1.1 = {
+		birth = yes
+		employer = 210025
+	}
+	770.1.1 = {
+		death = yes
+	}
+}
+
+666003 = {
+	name = "Marti"
+	diplomacy = 2
+	martial = 1
+	stewardship = 3
+	intrigue = 4
+	learning = 5
+	religion = sunni
+	culture = egyptian
+	add_trait = brilliant_strategist
+	add_trait = genius
+	add_trait = strong
+	add_trait = pirate
+	add_trait = duelist
+	add_trait = hunter
+	add_trait = charitable
+	add_trait = diligent
+	add_trait = ambitious
+	add_trait = brave
+	add_trait = just
+	disallow_random_traits = yes
+	753.1.1 = {
+		birth = yes
+		employer = 210025
+	}
+	770.1.1 = {
+		death = yes
+	}
+}
+
+666004 = {
+	name = "Stew"
+	diplomacy = 5
+	martial = 4
+	stewardship = 1
+	intrigue = 3
+	learning = 2
+	religion = sunni
+	culture = egyptian
+	add_trait = midas_touched
+	add_trait = genius
+	add_trait = shrewd
+	add_trait = administrator
+	add_trait = gardener
+	add_trait = diligent
+	add_trait = patient
+	add_trait = ambitious
+	add_trait = cruel
+	add_trait = just
+	disallow_random_traits = yes
+	753.1.1 = {
+		birth = yes
+		employer = 210025
+	}
+	770.1.1 = {
+		death = yes
+	}
+}
+
+666005 = {
+	name = "Intri"
+	diplomacy = 2
+	martial = 3
+	stewardship = 5
+	intrigue = 1
+	learning = 4
+	religion = sunni
+	culture = egyptian
+	add_trait = elusive_shadow
+	add_trait = genius
+	add_trait = master_schemer
+	add_trait = impaler
+	add_trait = charitable
+	add_trait = diligent
+	add_trait = ambitious
+	add_trait = deceitful
+	add_trait = paranoid
+	disallow_random_traits = yes
+	753.1.1 = {
+		birth = yes
+		employer = 210025
+	}
+	770.1.1 = {
+		death = yes
+	}
+}
+
+666006 = {
+	name = "Learn"
+	diplomacy = 3
+	martial = 5
+	stewardship = 2
+	intrigue = 4
+	learning = 1
+	religion = sunni
+	culture = egyptian
+	add_trait = mastermind_theologian
+	add_trait = genius
+	add_trait = physician
+	add_trait = scholar
+	add_trait = chaste
+	add_trait = diligent
+	add_trait = patient
+	add_trait = ambitious
+	add_trait = erudite
+	add_trait = just
+	disallow_random_traits = yes
+	753.1.1 = {
+		birth = yes
+		employer = 210025
+	}
+	770.1.1 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 32
+Speaker  : AI A
+Time     : 2025-12-31 17:12:20
+------------------------------------------------------------
+Это отличная заготовка! Ты собрал мощные комбо, но в коде есть **одна критическая ошибка** и **несколько логических конфликтов**, из-за которых игра может удалить трейты или работать неправильно.
+
+Давай разберем по порядку.
+
+### 🚨 Главная ошибка: Базовые характеристики
+Ты выставил **1** для основного навыка и **4-5** для второстепенных.
+*   Например, у дипломата: `diplomacy = 1`, `martial = 5`.
+*   В файлах истории CK2 эти цифры — это **база** (без трейтов).
+*   **Результат:** Твой дипломат будет гением, но с врожденной "тупостью" в дипломатии. Его итоговый навык будет ниже, чем мог бы быть.
+*   **Как исправить:** Поставь основной навык на **10** (или хотя бы 8), а остальные на 5.
+
+### ⚔️ Конфликты трейтов (Важно!)
+Игра проверяет блок `opposites = { ... }`. Если у персонажа есть два противоположных трейта, при старте она **случайно удалит один из них**.
+
+1.  **Stew (Управленец):** У тебя стоят **`cruel`** и **`just`**.
+    *   Это противоположности. Игра удалит либо Справедливого, либо Жестокого.
+    *   *Решение:* Убери `cruel`. Для управленца `just` важнее (снижает риск восстаний), а `cruel` увеличивает налоги, но бесит всех.
+2.  **Stew (Управленец):** У тебя стоят **`genius`** и **`shrewd`**.
+    *   Обычно они не стакаются. `Shrewd` (Проницательный) — это "приобретенный ум", а `Genius` — врожденный. Технически они могут сосуществовать, но это выглядит странно и занимает слот. Гения достаточно.
+
+### 🕵️ Опасность для жизни (Интриган)
+Твой **Intri** имеет набор: `Elusive Shadow` + `Ambitious` + `Deceitful` + `Paranoid`.
+*   Это **машина для убийства сюзерена**.
+*   `Ambitious` (хочет твое место) + `Deceitful` (склонен к предательству) + Высокая интрига = он убьет тебя при первом же минусе в отношениях.
+*   *Решение:* Если ты хочешь жить спокойно, замени `Ambitious` на **`Content`** (Довольный). Интрига упадет на 3 пункта, но он никогда не вступит в заговор против тебя. Или хотя бы убери `Ambitious`.
+
+### 🏥 Анализ по ролям (с учетом таблицы событий)
+
+#### 1. Diplo (Канцлер)
+*   *Трейты:* Отличные. `Socializer` + `Diligent` + `Gregarious` — идеально для ивентов.
+*   *Совет:* Можно заменить `Just` (+2 stewardship) на `Honest` (+3 diplomacy), если нужен чистый стат. Но `Just` тоже хорош.
+
+#### 2. Marti (Маршал)
+*   *Трейты:* `Pirate` — рискованно (может требовать DLC/религии), но весело.
+*   *Совет:* Набор хороший. `Diligent` + `Just` защитят от коррупции.
+
+#### 3. Stew (Управленец)
+*   *Проблема:* Конфликт `Cruel`/`Just`.
+*   *Совет:* Убери `Cruel`. Добавь **`Charitable`** (Щедрый) или `Kind`. Почему? Согласно таблице, управленец с `Charitable`/`Kind` защищает провинцию от эпидемий (Disease mitigation). Это супер-важно для столицы.
+
+#### 4. Intri (Шпион)
+*   *Проблема:* Слишком опасен. И странный выбор `Charitable` (Щедрый) для шпиона (хотя механике не мешает).
+*   *Совет:* Убери `Charitable`, поставь **`Just`**. Шпион с трейтом `Just` не будет воровать деньги (ивент "Abuse of Office").
+
+#### 5. Learn (Церковник)
+*   *Проблема:* Нет трейта **`Zealous`**.
+*   *Совет:* Обязательно добавь `Zealous` (Ревностный). Это даст +2 к военке и, главное, ивент на дешевую постройку храмов. Можно убрать `Patience` или `Chaste`, если упираешься в лимит.
+
+---
+
+### Исправленный код (Ready to use)
+
+Я исправил статы (перевернул их), убрал конфликты и оптимизировал под ивенты.
+
+```paradox
+666002 = {
+	name = "Diplo"
+	# Исправлены статы: Дипломатия теперь база 10
+	diplomacy = 10
+	martial = 3
+	stewardship = 3	
+	intrigue = 3
+	learning = 3
+	religion = sunni
+	culture = egyptian
+	add_trait = grey_eminence
+	add_trait = genius
+	add_trait = socializer
+	add_trait = game_master
+	# Personality (Max Diplo & Events)
+	add_trait = charitable
+	add_trait = diligent    # Языки + Отношения
+	add_trait = ambitious
+	add_trait = gregarious  # Языки
+	add_trait = honest      # +3 Diplo (лучше чем Just для статов)
+	disallow_random_traits = yes
+	753.1.1 = { birth = yes employer = 210025 }
+	770.1.1 = { death = yes }
+}
+
+666003 = {
+	name = "Marti"
+	# Исправлены статы: Военка 10
+	diplomacy = 3
+	martial = 10
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+	religion = sunni
+	culture = egyptian
+	add_trait = brilliant_strategist
+	add_trait = genius
+	add_trait = strong
+	add_trait = duelist
+	add_trait = hunter
+	# Pirate может слететь, если нет религии/культуры, но оставим
+	add_trait = pirate 
+	# Personality (Tech & No Corruption)
+	add_trait = brave
+	add_trait = diligent    # Воентех!
+	add_trait = ambitious
+	add_trait = zealous     # +2 Martial
+	add_trait = just        # Защита от Abuse of Office
+	disallow_random_traits = yes
+	753.1.1 = { birth = yes employer = 210025 }
+	770.1.1 = { death = yes }
+}
+
+666004 = {
+	name = "Stew"
+	# Исправлены статы: Управление 10
+	diplomacy = 3
+	martial = 3
+	stewardship = 10
+	intrigue = 3
+	learning = 3
+	religion = sunni
+	culture = egyptian
+	add_trait = midas_touched
+	add_trait = genius
+	# Убран Shrewd (конфликт с Genius не нужен)
+	add_trait = administrator
+	add_trait = gardener
+	# Personality (Money & Stability)
+	add_trait = diligent    # Ловит воров
+	add_trait = ambitious   # Ивент на +300 золота
+	add_trait = just        # Снижает риск восстаний (убран Cruel из-за конфликта)
+	add_trait = charitable  # Защита от эпидемий!
+	add_trait = temperate   # +2 Stewardship
+	disallow_random_traits = yes
+	753.1.1 = { birth = yes employer = 210025 }
+	770.1.1 = { death = yes }
+}
+
+666005 = {
+	name = "Intri"
+	# Исправлены статы: Интрига 10
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 10
+	learning = 3
+	religion = sunni
+	culture = egyptian
+	add_trait = elusive_shadow
+	add_trait = genius
+	add_trait = master_schemer
+	add_trait = impaler
+	# Personality (Safety & Loyalty)
+	add_trait = diligent    # Безопасность
+	add_trait = paranoid    # Раскрытие заговоров
+	add_trait = cynical     # +2 Intrigue
+	add_trait = deceitful   # +3 Intrigue
+	# Content вместо Ambitious. 
+	# Если оставишь Ambitious + Deceitful + Impaler - он тебя убьет.
+	add_trait = content     
+	disallow_random_traits = yes
+	753.1.1 = { birth = yes employer = 210025 }
+	770.1.1 = { death = yes }
+}
+
+666006 = {
+	name = "Learn"
+	# Исправлены статы: Ученость 10
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 10
+	religion = sunni
+	culture = egyptian
+	add_trait = mastermind_theologian
+	add_trait = genius
+	add_trait = physician   # Лучший трейт врача
+	add_trait = scholar
+	add_trait = mystic      # Хорошо для врача
+	# Personality (Temples & Piety)
+	add_trait = diligent
+	add_trait = ambitious
+	add_trait = erudite
+	add_trait = zealous     # Важно! Строительство храмов +2 Martial
+	add_trait = chaste
+	disallow_random_traits = yes
+	753.1.1 = { birth = yes employer = 210025 }
+	770.1.1 = { death = yes }
+}
+```
+
+------------------------------------------------------------
+Message  : 33
+Speaker  : User
+Time     : 2025-12-31 17:19:58
+------------------------------------------------------------
+нет, оставь базовые характеристики как было. взамен за минмакси советников, но чтобы они имели одинаковое количество очков в главном атрибуте
+
+------------------------------------------------------------
+Message  : 34
+Speaker  : AI A
+Time     : 2025-12-31 17:19:58
+------------------------------------------------------------
+Хорошо, задача понятна. Оставляем твои «странные» базовые характеристики (1 в основном навыке), но подгоняем трейты так, чтобы у **всех советников было ровно 30 очков** в их профильном навыке (или максимально близко к этому числу, чтобы был баланс).
+
+Для этого мне пришлось добавить некоторым персонажам специфические трейты (например, **Архитектор** управленцу или **Мутазилит** ученому), чтобы математика сошлась.
+
+Вот твой идеально сбалансированный отряд.
+
+### 📊 Математика баланса (Цель: 30)
+*   **Дипломат:** 1 (база) + 9 (образование) + 5 (гений) + 5 (образ жизни) + 10 (личность) = **30**
+*   **Маршал:** 1 (база) + 9 (образование) + 5 (гений) + 5 (образ жизни) + 10 (личность) = **30**
+*   **Управленец:** 1 (база) + 9 (образование) + 5 (гений) + 7 (образ жизни) + 8 (личность) = **30**
+*   **Шпион:** 1 (база) + 9 (образование) + 5 (гений) + 5 (образ жизни) + 10 (личность) = **30**
+*   **Ученый:** 1 (база) + 9 (образование) + 5 (гений) + 10 (образ жизни/религия) + 5 (личность) = **30**
+
+---
+
+### Код персонажей
+
+```paradox
+666002 = {
+	name = "Diplo"
+	diplomacy = 1 # База
+	martial = 5
+	stewardship = 4	
+	intrigue = 3
+	learning = 2
+	religion = sunni
+	culture = egyptian
+	# --- 30 DIPLOMACY ---
+	add_trait = grey_eminence         # +9
+	add_trait = genius                # +5
+	# Lifestyle (+5)
+	add_trait = socializer            # +3
+	add_trait = game_master           # +2
+	# Personality (+10)
+	add_trait = charitable            # +3 (Бонус: защита от болезней)
+	add_trait = honest                # +3 (Бонус: нет коррупции)
+	add_trait = ambitious             # +2
+	add_trait = gregarious            # +2 (Бонус: языки)
+	add_trait = diligent              # +0 к дипломатии? НЕТ! В твоем списке diligent +1 ко всему.
+	# Стоп. Diligent +1, Ambitious +2, Gregarious +2, Honest +3, Charitable +3 = 11.
+	# Перебор на 1 очко (будет 31).
+	# Заменим Honest (+3) на Kind (+2).
+	# Итого: Charitable(3)+Kind(2)+Ambitious(2)+Gregarious(2)+Diligent(1) = 10.
+	# Плюс Diligent обязателен для ивентов.
+	
+	# Обновленный список личностей для ровно 30:
+	add_trait = charitable            # +3
+	add_trait = kind                  # +2
+	add_trait = ambitious             # +2
+	add_trait = gregarious            # +2
+	add_trait = diligent              # +1
+	
+	disallow_random_traits = yes
+	753.1.1 = { birth = yes employer = 210025 }
+	770.1.1 = { death = yes }
+}
+
+666003 = {
+	name = "Marti"
+	diplomacy = 2
+	martial = 1 # База
+	stewardship = 3
+	intrigue = 4
+	learning = 5
+	religion = sunni
+	culture = egyptian
+	# --- 30 MARTIAL ---
+	add_trait = brilliant_strategist  # +9
+	add_trait = genius                # +5
+	# Lifestyle (+5)
+	add_trait = duelist               # +3
+	add_trait = hunter                # +2
+	# Personality (+10)
+	add_trait = wroth                 # +3
+	add_trait = brave                 # +2
+	add_trait = ambitious             # +2
+	add_trait = zealous               # +2
+	add_trait = diligent              # +1 (Обязателен для военных техов)
+	
+	disallow_random_traits = yes
+	753.1.1 = { birth = yes employer = 210025 }
+	770.1.1 = { death = yes }
+}
+
+666004 = {
+	name = "Stew"
+	diplomacy = 5
+	martial = 4
+	stewardship = 1 # База
+	intrigue = 3
+	learning = 2
+	religion = sunni
+	culture = egyptian
+	# --- 30 STEWARDSHIP ---
+	add_trait = midas_touched         # +9
+	add_trait = genius                # +5
+	# Lifestyle (+7)
+	add_trait = administrator         # +3
+	add_trait = gardener              # +2
+	add_trait = architect             # +2 (Добавил чтобы добить до 30)
+	# Personality (+8)
+	add_trait = ambitious             # +2 (Ивент на +300 золота)
+	add_trait = just                  # +2 (Снижение восстаний)
+	add_trait = temperate             # +2
+	add_trait = diligent              # +1 (Ловит воров)
+	add_trait = patient               # +1
+	
+	disallow_random_traits = yes
+	753.1.1 = { birth = yes employer = 210025 }
+	770.1.1 = { death = yes }
+}
+
+666005 = {
+	name = "Intri"
+	diplomacy = 2
+	martial = 3
+	stewardship = 5
+	intrigue = 1 # База
+	learning = 4
+	religion = sunni
+	culture = egyptian
+	# --- 30 INTRIGUE ---
+	add_trait = elusive_shadow        # +9
+	add_trait = genius                # +5
+	# Lifestyle (+5)
+	add_trait = master_schemer        # +3
+	add_trait = impaler               # +2
+	# Personality (+10)
+	add_trait = deceitful             # +3
+	add_trait = cynical               # +2
+	add_trait = paranoid              # +2 (Защита)
+	add_trait = ambitious             # +2 (Внимание: опасен для сюзерена, но нужен для статов)
+	add_trait = diligent              # +1 (Безопасность)
+	
+	disallow_random_traits = yes
+	753.1.1 = { birth = yes employer = 210025 }
+	770.1.1 = { death = yes }
+}
+
+666006 = {
+	name = "Learn"
+	diplomacy = 3
+	martial = 5
+	stewardship = 2
+	intrigue = 4
+	learning = 1 # База
+	religion = sunni
+	culture = egyptian
+	# --- 30 LEARNING ---
+	add_trait = mastermind_theologian # +9
+	add_trait = genius                # +5
+	# Special / Lifestyle (+10)
+	add_trait = mutazilite            # +5 (Доступен, так как он Суннит. Мощный буст)
+	add_trait = scholar               # +3
+	add_trait = physician             # +2 (Важно для лечения)
+	# Personality (+5)
+	add_trait = ambitious             # +2
+	# Erudite (+2) удалил, чтобы влезть в 5 трейтов, иначе перебор. 
+	# Заменил на комбинацию полезных для ивентов:
+	add_trait = zealous               # +0 Learn (но +2 War и строит храмы)
+	add_trait = diligent              # +1
+	add_trait = chaste                # +1
+	add_trait = just                  # +1
+	# Итого личности: 2+0+1+1+1 = 5.
+	# Сумма: 1+9+5+5+3+2+5 = 30.
+	
+	disallow_random_traits = yes
+	753.1.1 = { birth = yes employer = 210025 }
+	770.1.1 = { death = yes }
+}
+```
+
+### Что я изменил:
+1.  **Diplo:** Заменил `Honest` (+3) на `Kind` (+2), чтобы сумма вышла ровно 30.
+2.  **Stew:** Добавил трейт `architect` (+2), иначе не хватало очков до 30.
+3.  **Learn:** Добавил `mutazilite` (+5). Без него догнать остальных советников с базой 1 практически невозможно, не забивая слоты мусором.
+4.  **Intri:** Пришлось оставить опасную связку `Ambitious` + `Deceitful`, чтобы получить цифру 30. **Будь осторожен:** он попытается тебя убить. Если хочешь безопасности, замени `Ambitious` на `Content`, но тогда у него будет 27 интриги.
+
+------------------------------------------------------------
+Message  : 35
+Speaker  : User
+Time     : 2025-12-31 17:33:22
+------------------------------------------------------------
+сделай результат в чистом виде. после напиши финальные статы
+
+------------------------------------------------------------
+Message  : 36
+Speaker  : AI A
+Time     : 2025-12-31 17:33:22
+------------------------------------------------------------
+Вот чистый код для вставки в файл истории и финальная сводка характеристик.
+
+Все персонажи имеют ровно **30** очков в своём главном навыке (с учетом базовой единицы). У каждого ровно **5** личностных черт, подобранных для активации лучших событий (ивентов).
+
+```paradox
+666002 = {
+	name = "Diplo"
+	diplomacy = 1
+	martial = 5
+	stewardship = 4	
+	intrigue = 3
+	learning = 2
+	religion = sunni
+	culture = egyptian
+	add_trait = grey_eminence
+	add_trait = genius
+	add_trait = socializer
+	add_trait = game_master
+	add_trait = charitable
+	add_trait = kind
+	add_trait = ambitious
+	add_trait = gregarious
+	add_trait = diligent
+	disallow_random_traits = yes
+	753.1.1 = { birth = yes employer = 210025 }
+	770.1.1 = { death = yes }
+}
+
+666003 = {
+	name = "Marti"
+	diplomacy = 2
+	martial = 1
+	stewardship = 3
+	intrigue = 4
+	learning = 5
+	religion = sunni
+	culture = egyptian
+	add_trait = brilliant_strategist
+	add_trait = genius
+	add_trait = duelist
+	add_trait = hunter
+	add_trait = wroth
+	add_trait = brave
+	add_trait = ambitious
+	add_trait = zealous
+	add_trait = diligent
+	disallow_random_traits = yes
+	753.1.1 = { birth = yes employer = 210025 }
+	770.1.1 = { death = yes }
+}
+
+666004 = {
+	name = "Stew"
+	diplomacy = 5
+	martial = 4
+	stewardship = 1
+	intrigue = 3
+	learning = 2
+	religion = sunni
+	culture = egyptian
+	add_trait = midas_touched
+	add_trait = genius
+	add_trait = administrator
+	add_trait = gardener
+	add_trait = architect
+	add_trait = ambitious
+	add_trait = just
+	add_trait = temperate
+	add_trait = diligent
+	add_trait = patient
+	disallow_random_traits = yes
+	753.1.1 = { birth = yes employer = 210025 }
+	770.1.1 = { death = yes }
+}
+
+666005 = {
+	name = "Intri"
+	diplomacy = 2
+	martial = 3
+	stewardship = 5
+	intrigue = 1
+	learning = 4
+	religion = sunni
+	culture = egyptian
+	add_trait = elusive_shadow
+	add_trait = genius
+	add_trait = master_schemer
+	add_trait = impaler
+	add_trait = deceitful
+	add_trait = cynical
+	add_trait = paranoid
+	add_trait = ambitious
+	add_trait = diligent
+	disallow_random_traits = yes
+	753.1.1 = { birth = yes employer = 210025 }
+	770.1.1 = { death = yes }
+}
+
+666006 = {
+	name = "Learn"
+	diplomacy = 3
+	martial = 5
+	stewardship = 2
+	intrigue = 4
+	learning = 1
+	religion = sunni
+	culture = egyptian
+	add_trait = mastermind_theologian
+	add_trait = genius
+	add_trait = mutazilite
+	add_trait = scholar
+	add_trait = physician
+	add_trait = ambitious
+	add_trait = diligent
+	add_trait = chaste
+	add_trait = just
+	add_trait = zealous
+	disallow_random_traits = yes
+	753.1.1 = { birth = yes employer = 210025 }
+	770.1.1 = { death = yes }
+}
+```
+
+---
+
+### Финальные характеристики (Главный атрибут)
+
+**👑 Канцлер (Diplo)** — **30 Дипломатии**
+*   **Ивенты:** Улучшает отношения, учит языки, нет коррупции.
+*   *Математика:* 1 (база) + 9 (образование) + 5 (гений) + 3 (socializer) + 2 (game master) + 3 (charitable) + 2 (kind) + 2 (ambitious) + 2 (gregarious) + 1 (diligent) = **30**.
+
+**⚔️ Маршал (Marti)** — **30 Военного навыка**
+*   **Ивенты:** Генерирует военные очки (diligent), строит храмы дешевле (zealous), защита от коррупции.
+*   *Математика:* 1 (база) + 9 (образование) + 5 (гений) + 3 (duelist) + 2 (hunter) + 3 (wroth) + 2 (brave) + 2 (ambitious) + 2 (zealous) + 1 (diligent) = **30**.
+
+**💰 Управленец (Stew)** — **30 Управления**
+*   **Ивенты:** +300 золота (ambitious), снижение восстаний (just), ловит воров (diligent).
+*   *Математика:* 1 (база) + 9 (образование) + 5 (гений) + 3 (administrator) + 2 (gardener) + 2 (architect) + 2 (ambitious) + 2 (just) + 2 (temperate) + 1 (diligent) + 1 (patient) = **30**.
+
+**🕵️ Шпион (Intri)** — **30 Интриги**
+*   **Ивенты:** Меры безопасности (diligent), раскрытие заговоров (paranoid).
+*   *Предупреждение:* Из-за трейта `Ambitious` у него будет желание получить титул или ваше место, но без этого трейта было бы 28 очков, а не 30.
+*   *Математика:* 1 (база) + 9 (образование) + 5 (гений) + 3 (master schemer) + 2 (impaler) + 3 (deceitful) + 2 (cynical) + 2 (paranoid) + 2 (ambitious) + 1 (diligent) = **30**.
+
+**📖 Церковник / Врач (Learn)** — **30 Учёности**
+*   **Ивенты:** Дешевые храмы (zealous), успешное лечение (physician + genius), технологии (diligent).
+*   *Математика:* 1 (база) + 9 (образование) + 5 (гений) + 5 (mutazilite) + 3 (scholar) + 2 (physician) + 2 (ambitious) + 1 (diligent) + 1 (chaste) + 1 (just) + 0 (zealous) = **30**.

@@ -1,0 +1,93 @@
+{
+  "exportedAt": "2026-10-09T16:28:07.096Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019b79dd-a7fc-72a1-b7c7-14c8a4127693",
+  "archivedAt": "2026-09-30 20:21:45.651+00",
+  "evaluation": {
+    "id": "019b79dd-a7fc-72a1-b7c7-14c8a4127693",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "Roleplay set in \"Shrek\" before the 1 chapter. (Start NOT near Shrek's swamp)",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019b79de-5023-754d-ad83-d07ddcd13896"
+    ],
+    "archivedAt": "2026-09-30 20:21:45.651+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-01-01 14:02:53.158+00",
+    "updatedAt": "2026-03-11 04:23:37.146191+00",
+    "messages": [
+      {
+        "id": "019b79de-5022-7ff6-b17e-368de9f8dac0",
+        "evaluationSessionId": "019b79dd-a7fc-72a1-b7c7-14c8a4127693",
+        "evaluationId": "019b79de-5766-7b15-96d9-b2f29df8df58",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "Roleplay set in \"Shrek\" before the 1 chapter. (Start NOT near Shrek's swamp)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-01-01T14:02:53.426613+00:00",
+        "updatedAt": "2026-01-01T14:02:53.426613+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b79de-5023-754d-ad83-d07ddcd13896",
+        "evaluationSessionId": "019b79dd-a7fc-72a1-b7c7-14c8a4127693",
+        "evaluationId": "019b79de-5766-7b15-96d9-b2f29df8df58",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b79de-5022-7ff6-b17e-368de9f8dac0"
+        ],
+        "content": "Dust hangs in the late-morning sun over a crowded crossroads market a day’s walk from Duloc. Carts creak. Chickens complain. People haggle like it’s a competitive sport.\n\nA wooden platform has been hammered together beside a wagon with a crooked sign:\n\n**“ODDITIES & WONDERS — NO REFUNDS.”**\n\nOn the platform, a jittery man in a patched coat waves his arms like he’s conducting invisible music.\n\n“Step right up! Rare finds! Curiosities! Totally normal livestock!”\n\nBehind him, under a burlap sheet that keeps wriggling, something *moves*.\n\nA Duloc guard leans on a spear nearby, bored but watchful. Tacked to a post is a clean white notice with a wax seal:\n\n**“BY ORDER OF LORD FARQUAAD: ALL FAIRYTALE CREATURES TO BE REPORTED. REWARD OFFERED.”**\n\nA few townsfolk read it and suddenly find reasons to be somewhere else.\n\nThe showman yanks the burlap away with a flourish.\n\nA gray DONKEY stands there, blinking at the crowd like he can’t believe any of you are real.\n\nThe showman clears his throat. “Behold! A—uh—talking horse!”\n\nDonkey’s ears shoot up. “I am *not* a horse.”\n\nA ripple goes through the crowd: surprise, delight… and then the sharper look of people remembering the poster.\n\nThe guard’s eyes narrow. He straightens.\n\nDonkey notices the spear. Notices the poster. His mouth opens, then closes, then opens again.\n\n“…Okay. So. Hi. Nobody needs to panic.”\n\nThe showman laughs too loudly. “He’s joking! Part of the act!”\n\nThe guard pushes off the post and starts walking toward the platform.\n\nYou’re close enough to smell the guard’s polished leather and see Donkey’s hooves inching backward.\n\nWhat do you do?\n\n1) Step between the guard and the platform, acting like you’re just a customer with questions.  \n2) Whisper to Donkey to jump and run, and you’ll make a distraction.  \n3) Offer to *buy* Donkey on the spot before the guard can claim him.  \n4) Do nothing—blend into the crowd and watch how this plays out.",
+        "experimental_attachments": [],
+        "modelId": "019b1448-dafa-7f92-90c3-50e159c2263c",
+        "createdAt": "2026-01-01T14:02:53.434883+00:00",
+        "updatedAt": "2026-01-01T14:03:13.359919+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019b79de-5766-7b15-96d9-b2f29df8df58",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b1448-dafa-7f92-90c3-50e159c2263c",
+        "organization": "openai",
+        "provider": "openai",
+        "publicName": "gpt-5.2-high-sp",
+        "name": "gpt-5.2-high",
+        "displayName": "gpt-5.2-high-sp",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

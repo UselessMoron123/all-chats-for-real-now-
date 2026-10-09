@@ -1,0 +1,761 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+Mode     : direct
+Started  : 2026-02-21 15:22:22
+Updated  : 2026-02-21 15:22:23
+Archived : 2026-09-30 23:29:24
+Messages : 2
+URL      : https://arena.ai/c/019c8024-e0cf-7b96-9fec-711e5003892d
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 15:22:23
+------------------------------------------------------------
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything else
+908600 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 908600
+	religion = miaphysite
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908601 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 908600
+	religion = miaphysite
+	culture = egyptian
+	mother = 908600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_coptic_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908602 = {
+	name = "Defender_2"
+	female = yes
+	dynasty = 908600
+	religion = miaphysite
+	culture = egyptian
+	father = 923801
+	mother = 908601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908603 = {
+	name = "Defender_3"
+	female = yes
+	dynasty = 908600
+	religion = miaphysite
+	culture = egyptian
+	father = 908702
+	mother = 908602
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908604 = {
+	name = "Defender_4"
+	dynasty = 908600
+	religion = miaphysite
+	culture = egyptian
+	father = 909003
+	mother = 908603
+	4.1.1 = {
+		birth = yes
+		add_spouse = 914904
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908700 = {
+	name = "Monastic_0"
+	female = yes
+	dynasty = 908700
+	religion = miaphysite
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908701 = {
+	name = "Monastic_1"
+	female = yes
+	dynasty = 908700
+	religion = miaphysite
+	culture = egyptian
+	mother = 908700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_coptic_02
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908702 = {
+	name = "Monastic_2"
+	dynasty = 908700
+	religion = miaphysite
+	culture = egyptian
+	father = 923401
+	mother = 908701
+	2.1.1 = {
+		birth = yes
+		add_spouse = 908602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908800 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 908800
+	religion = miaphysite
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908801 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 908800
+	religion = miaphysite
+	culture = egyptian
+	mother = 908800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_coptic_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908802 = {
+	name = "Culture_2"
+	dynasty = 908800
+	religion = miaphysite
+	culture = egyptian
+	father = 908901
+	mother = 908801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 909002
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908900 = {
+	name = "Inquisitor_0"
+	dynasty = 908900
+	religion = miaphysite
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908901 = {
+	name = "Inquisitor_1"
+	dynasty = 908900
+	religion = miaphysite
+	culture = egyptian
+	father = 908900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_coptic_04
+		}
+		add_spouse = 908801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909000 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 909000
+	religion = miaphysite
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909001 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 909000
+	religion = miaphysite
+	culture = egyptian
+	mother = 909000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_coptic_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909002 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 909000
+	religion = miaphysite
+	culture = egyptian
+	father = 909101
+	mother = 909001
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909003 = {
+	name = "Jewish_3"
+	dynasty = 909000
+	religion = miaphysite
+	culture = egyptian
+	father = 908802
+	mother = 909002
+	3.1.1 = {
+		birth = yes
+		add_spouse = 908603
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909100 = {
+	name = "Theologic_0"
+	dynasty = 909100
+	religion = miaphysite
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909101 = {
+	name = "Theologic_1"
+	dynasty = 909100
+	religion = miaphysite
+	culture = egyptian
+	father = 909100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_coptic_06
+		}
+		add_spouse = 909001
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923400 = {
+	name = "MSurvivor_0"
+	dynasty = 923400
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923401 = {
+	name = "MSurvivor_1"
+	dynasty = 923400
+	religion = catholic
+	culture = french
+	father = 923400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_battle_survivor_bloodline
+		}
+		add_spouse = 908701
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923800 = {
+	name = "MWarrior_0"
+	dynasty = 923800
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923801 = {
+	name = "MWarrior_1"
+	dynasty = 923800
+	religion = catholic
+	culture = french
+	father = 923800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_warrior_bloodline
+		}
+		add_spouse = 908601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 15:22:23
+------------------------------------------------------------
+Here are the characters sorted into the three requested lists based on their ID endings.
+
+### List 1: IDs ending with 00
+```ck2
+908600 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 908600
+	religion = miaphysite
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908700 = {
+	name = "Monastic_0"
+	female = yes
+	dynasty = 908700
+	religion = miaphysite
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908800 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 908800
+	religion = miaphysite
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908900 = {
+	name = "Inquisitor_0"
+	dynasty = 908900
+	religion = miaphysite
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909000 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 909000
+	religion = miaphysite
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909100 = {
+	name = "Theologic_0"
+	dynasty = 909100
+	religion = miaphysite
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923400 = {
+	name = "MSurvivor_0"
+	dynasty = 923400
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923800 = {
+	name = "MWarrior_0"
+	dynasty = 923800
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 2: IDs ending with 01
+```ck2
+908601 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 908600
+	religion = miaphysite
+	culture = egyptian
+	mother = 908600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_coptic_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908701 = {
+	name = "Monastic_1"
+	female = yes
+	dynasty = 908700
+	religion = miaphysite
+	culture = egyptian
+	mother = 908700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_coptic_02
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908801 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 908800
+	religion = miaphysite
+	culture = egyptian
+	mother = 908800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_coptic_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908901 = {
+	name = "Inquisitor_1"
+	dynasty = 908900
+	religion = miaphysite
+	culture = egyptian
+	father = 908900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_coptic_04
+		}
+		add_spouse = 908801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909001 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 909000
+	religion = miaphysite
+	culture = egyptian
+	mother = 909000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_coptic_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909101 = {
+	name = "Theologic_1"
+	dynasty = 909100
+	religion = miaphysite
+	culture = egyptian
+	father = 909100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_coptic_06
+		}
+		add_spouse = 909001
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923401 = {
+	name = "MSurvivor_1"
+	dynasty = 923400
+	religion = catholic
+	culture = french
+	father = 923400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_battle_survivor_bloodline
+		}
+		add_spouse = 908701
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923801 = {
+	name = "MWarrior_1"
+	dynasty = 923800
+	religion = catholic
+	culture = french
+	father = 923800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_warrior_bloodline
+		}
+		add_spouse = 908601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 3: Everything else
+```ck2
+908602 = {
+	name = "Defender_2"
+	female = yes
+	dynasty = 908600
+	religion = miaphysite
+	culture = egyptian
+	father = 923801
+	mother = 908601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908603 = {
+	name = "Defender_3"
+	female = yes
+	dynasty = 908600
+	religion = miaphysite
+	culture = egyptian
+	father = 908702
+	mother = 908602
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908604 = {
+	name = "Defender_4"
+	dynasty = 908600
+	religion = miaphysite
+	culture = egyptian
+	father = 909003
+	mother = 908603
+	4.1.1 = {
+		birth = yes
+		add_spouse = 914904
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908702 = {
+	name = "Monastic_2"
+	dynasty = 908700
+	religion = miaphysite
+	culture = egyptian
+	father = 923401
+	mother = 908701
+	2.1.1 = {
+		birth = yes
+		add_spouse = 908602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908802 = {
+	name = "Culture_2"
+	dynasty = 908800
+	religion = miaphysite
+	culture = egyptian
+	father = 908901
+	mother = 908801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 909002
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909002 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 909000
+	religion = miaphysite
+	culture = egyptian
+	father = 909101
+	mother = 909001
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+909003 = {
+	name = "Jewish_3"
+	dynasty = 909000
+	religion = miaphysite
+	culture = egyptian
+	father = 908802
+	mother = 909002
+	3.1.1 = {
+		birth = yes
+		add_spouse = 908603
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

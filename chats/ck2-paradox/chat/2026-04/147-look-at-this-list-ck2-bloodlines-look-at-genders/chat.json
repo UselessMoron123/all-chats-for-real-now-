@@ -1,0 +1,425 @@
+{
+  "exportedAt": "2026-10-09T16:27:53.346Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019d57ae-f4aa-7715-8d8c-6059217cd340",
+  "archivedAt": "2026-09-30 20:14:35.255+00",
+  "evaluation": {
+    "id": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "look at this list. ck2 bloodlines. look at genders\n\nBritish Isles:\n  -  Caradog Catuvellauni (male)\n",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019d57df-36b5-7bae-ba3b-e34bfaf80ca0"
+    ],
+    "archivedAt": "2026-09-30 20:14:35.255+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-04-04 08:51:33.007+00",
+    "updatedAt": "2026-04-04 09:42:28.037746+00",
+    "messages": [
+      {
+        "id": "019d57b0-96dd-71f5-b01c-258cafafbd55",
+        "evaluationSessionId": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+        "evaluationId": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "look at this list. ck2 bloodlines. look at genders\n\nBritish Isles:\n  -  Caradog Catuvellauni (male)\n  -  Gwrtheyrn Gwerthrynion (male)\n  -  Niall Ua Neill Noigiallaich (male)\n  -  Athelstan of Wessex (male)\n  -  Brian Ua Briain (male)\n  -  William de Normandie (male)\n  -  Richard Plantagenet (male)\n  -  William Wallace (male)\n  -  Ancestral Venerated Tanistry Bloodline (female)\n  -  Grand Crusader Bloodline (female)\n  -  Boudica Bloodline (female)\n  -  Blessed Child Bloodline (female)\n  -  Protector Bloodline (female)\n  -  Benefactor Bloodline (female)\n  -  Family Bloodline (female)\n  -  Legendary Leader Bloodline (female)\n\nScandinavia:\n  -  Ragnarr af Munso (male)\n  -  Haraldr Yngling (male)\n  -  Bear Bloodline (male)\n  -  Norse \"Defender of Faith\" Bloodline\n  -  Norse \"Culture\" Bloodline\n  -  Norse \"Inquisition\" Bloodline\n  -  Norse \"Jewish\" Bloodline\n  -  Norse \"Theologic\" Bloodline\n  -  Ancestral Venerated Bastard Bloodline (female)\n  -  Ancestral Venerated Raiding Bloodline (female)\n  -  Sea King Bloodline (male)\n  -  Sea Queen Bloodline (female)\n  -  Norse Peaceful Bloodline (female)\n  -  Norse Aggressive Bloodline (male)\n  -  Legendary Dog Bloodline (male)\n  -  Legendary Bard Bloodline (female)\n\nFrance:\n  -  Merovech de Merohingi (male)\n  -  Charles Martel (male)\n  -  Alienor de Poitou (female)\n  -  Philippe Capet (male)\n  -  Catholic \"Defender of Faith\" Bloodline\n  -  Catholic \"Monastic\" Bloodline\n  -  Catholic \"Culture\" Bloodline\n  -  Catholic \"Inquisition\" Bloodline\n  -  Catholic \"Jewish\" Bloodline\n  -  Catholic \"Theologic\" Bloodline\n  -  Catholic \"Wicked\" Bloodline (female)\n  -  Lord of Outremer Bloodline (female)\n  -  Catholic Peaceful Bloodline (female)\n  -  Catholic Aggressive Bloodline (male)\n  -  Legendary Bard Bloodline (male)\n  -  Legendary Captor Bloodline (female)\n\nIberian Peninsula:\n  -  Yusuf Almoravid (male)\n  -  Rodrigo de Vivar (male)\n  -  Alfonso d'Ivrea (male)\n  -  Gartzia de Navarra (male)\n  -  Afonso de Bourgogne (male)\n  -  Abu Ya'qub Almohad (male)\n  -  Muhammad Nasrid (male)\n  -  Jaume de Barcelona (male)\n  -  Duelist Bloodline (female)\n  -  Crusader Commander Bloodline (female)\n  -  Reconquista 1 Bloodline (female)\n  -  Reconquista 2 Bloodline (female)\n  -  The Little Warrior Philosopher (female)\n  -  The Perfect Knight (female)\n  -  The Conqueror (female)\n  -  The Warrior Philosopher (female)\n\nHoly Roman Empire:\n  -  Rudolf Welf (male)\n  -  Otto Liudolfinger (male)\n  -  Friedrich von Hohenstaufen (male)\n  -  Baudouin Van Vlaanderen (male)\n  -  Duck Bloodline (female)\n  -  Destroyer of Byzantium Bloodline (female)\n  -  Northern Crusader Bloodline (female)\n  -  Legendary Warrior Bloodline (female)\n\nItaly:\n  -  Matilde de Canossa (female)\n  -  Bohemond de Hauteville (male)\n  -  Roger de Hauteville (male)\n  -  Enrico Dandolo (male)\n  -  Crusade Lord Bloodline (female)\n  -  Crusader Kid Bloodline (female)\n  -  Vatican 1 Bloodline (female)\n  -  Vatican 2 Bloodline (male)\n\nRomuva:\n  -  Romuva \"Defender of Faith\" Bloodline\n  -  Romuva \"Culture\" Bloodline\n  -  Romuva \"Inquisition\" Bloodline\n  -  Romuva \"Jewish\" Bloodline\n  -  Romuva \"Theologic\" Bloodline\n  -  Ancestral Venerated Dueling Bloodline (female)\n  -  Legendary Captor Bloodline (male)\n  -  Legendary Raider Bloodline (male)\n\nSuomenusko:\n  -  Horse Bloodline (male)\n  -  Suomenusko \"Defender of Faith\" Bloodline\n  -  Suomenusko \"Culture\" Bloodline\n  -  Suomenusko \"Inquisition\" Bloodline\n  -  Suomenusko \"Jewish\" Bloodline\n  -  Suomenusko \"Theologic\" Bloodline\n  -  Child of Destiny Bloodline (male)\n  -  Legendary Raider Bloodline (female)\n\nSlavic Union:\n  -  Rurik Rurikid (male)\n  -  Arpad Arpad (male)\n  -  Dyre Oskyldr (male)\n  -  Boleslav Premyslid (male)\n  -  Boleslaw Piast (male)\n  -  Dmitar-Zvonimir Trpimirovic (male)\n  -  Alexandr Nevsky (male)\n  -  Slavic \"Defender of Faith\" Bloodline\n  -  Slavic \"Culture\" Bloodline\n  -  Slavic \"Inquisition\" Bloodline\n  -  Slavic \"Jewish\" Bloodline\n  -  Slavic \"Theologic\" Bloodline\n  -  Teuta Bloodline (female)\n  -  Slavic Union 1 Bloodline (male)\n  -  Slavic Union 2 Bloodline (female)\n  -  Legendary Survivor Bloodline (female)\n\nByzantium:\n  -  Basileios I Makedon (male)\n  -  Alexios Komnenos (male)\n  -  Orthodox \"Defender of Faith\" Bloodline\n  -  Orthodox \"Monastic\" Bloodline\n  -  Orthodox \"Culture\" Bloodline\n  -  Orthodox \"Inquisition\" Bloodline\n  -  Orthodox \"Jewish\" Bloodline\n  -  Orthodox \"Theologic\" Bloodline\n\nHellenic:\n  -  Hellenic \"Defender of Faith\" Bloodline\n  -  Hellenic \"Monastic\" Bloodline\n  -  Hellenic \"Culture\" Bloodline\n  -  Hellenic \"Inquisition\" Bloodline\n  -  Hellenic \"Jewish\" Bloodline\n  -  Hellenic \"Theologic\" Bloodline\n  -  Roman Imperial Bloodline 1 (male)\n  -  Roman Imperial Bloodline 2 (female)\n\nArabic:\n  -  Sa'id Jannabid (male)\n  -  Abdullah Fatimid (male)\n  -  Arwa Sulayhid (female)\n  -  Saladin Ayyubid (male)\n  -  Baibars Bunduqdarid (male)\n  -  Cat Bloodline (female)\n  -  The Architect Bloodline (male)\n  -  The Castellan Bloodline (male)\n  -  The Carpenter Bloodline (male)\n  -  The Builder Bloodline (female)\n  -  Peace Architect Bloodline (female)\n  -  Peace Castellan Bloodline (female)\n  -  Peace Monumental Bloodline (female)\n  -  Philosopher Bloodline (female)\n  -  Islamic Peaceful Bloodline (female)\n  -  Islamic Aggressive Bloodline (male)\n\nJews:\n  -  Mikael Solomonid (male)\n  -  Israel Restorer 1 Bloodline (male)\n  -  Israel Restorer 2 Bloodline (female)\n  -  Child of Destiny Bloodline (female)\n  -  Happy Child (female)\n  -  Macabre Banquet (male)\n  -  Silent Killer (female)\n  -  The Butcher (male)\n  -  The Dragon King (male)\n  -  Mur_der/War (male)\n  -  Mur_der/Peace Bloodline (female)\n  -  Mur_der/Builder Bloodline (female)\n  -  Ruthlessness Bloodline (female)\n  -  Jewish Peaceful Bloodline (female)\n  -  Jewish Aggressive Bloodline (male)\n  -  Legendary Leader Bloodline (male)\n\nCoptic:\n  -  Coptic \"Defender of Faith\" Bloodline\n  -  Coptic \"Monastic\" Bloodline\n  -  Coptic \"Culture\" Bloodline\n  -  Coptic \"Inquisition\" Bloodline\n  -  Coptic \"Jewish\" Bloodline\n  -  Coptic \"Theologic\" Bloodline\n  -  Legendary Survivor Bloodline (male)\n  -  Legendary Warrior Bloodline (male)\n\nCustom:\n  -  Ancestral Venerated Heroic Bloodline (female)\n  -  Placeholder Bloodline 1 (male)\n  -  Placeholder Bloodline 2 (female)\n  -  Placeholder Bloodline 3 (male)\n  -  Placeholder Bloodline 4 (female)\n  -  Placeholder Bloodline 5 (male)\n  -  Placeholder Bloodline 6 (female)\n  -  Placeholder Bloodline 7 (male)\n\nAfrica:\n  -  Magajiva Daura (female)\n  -  Musa Keita (male)\n  -  Elephant Bloodline\n  -  African \"Defender of Faith\" Bloodline\n  -  African \"Culture\" Bloodline\n  -  African \"Inquisition\" Bloodline\n  -  African \"Jewish\" Bloodline\n  -  African \"Theologic\" Bloodline\n\nAztec:\n  -  Aztec \"Defender of Faith\" Bloodline\n  -  Aztec \"Culture\" Bloodline\n  -  Aztec \"Inquisition\" Bloodline\n  -  Aztec \"Jewish\" Bloodline\n  -  Aztec \"Theologic\" Bloodline\n  -  Bloodthirsty 1 Bloodline (male)\n  -  Bloodthirsty 2 Bloodline (female)\n  -  Legendary Eagle Hunter Bloodline\n\nCentral Asia:\n  -  Muhan Ashina (male)\n  -  Kubrat Dulo (male)\n  -  Sabuktigin Ghaznavid (male)\n  -  Seljuk Seljuk (male)\n  -  Temujin Borjigin (male)\n  -  Osman Ottoman (male)\n  -  Timur Timurid (male)\n  -  Tengri \"Defender of Faith\" Bloodline\n  -  Tengri \"Culture\" Bloodline\n  -  Tengri \"Inquisition\" Bloodline\n  -  Tengri \"Jewish\" Bloodline\n  -  Tengri \"Theologic\" Bloodline\n  -  Ancestral Venerated Sky Burial Bloodline (female)\n  -  Ancestral Venerated Mercenary Bloodline (female)\n  -  Chinese Imperial Bloodline (female)\n  -  Legendary Eagle Bloodline\n\nPersia:\n  -  Erdewan Karen-Pahlav\n  -  Sasan Sassanid (male)\n  -  Mirian Khosroviani\n  -  Bagrat Bagrationi (male)\n  -  Bahram Mihran\n  -  Mardavij Ziyarid (male)\n  -  Hedgehog Bloodline (female)\n  -  Saoshyant 1 Bloodline (male)\n  -  Saoshyant 2 Bloodline (female)\n  -  Phalaris Bloodline\n  -  Benevolence Bloodline\n  -  Zoroastrian Peaceful Bloodline (female)\n  -  Zoroastrian Aggressive Bloodline (male)\n  -  Alexander Bloodline\n  -  Legendary Soldier Bloodline (female)\n  -  Legendary Commander Bloodline (female)\n\nNestorian:\n  -  Nestorian \"Defender of Faith\" Bloodline\n  -  Nestorian \"Monastic\" Bloodline\n  -  Nestorian \"Culture\" Bloodline\n  -  Nestorian \"Inquisition\" Bloodline\n  -  Nestorian \"Jewish\" Bloodline\n  -  Nestorian \"Theologic\" Bloodline\n  -  Legendary Soldier Bloodline (male)\n  -  Legendary Commander Bloodline (male)\n\nZun:\n  -  Dog Bloodline (male)\n  -  Zun \"Defender of Faith\" Bloodline\n  -  Zun \"Culture\" Bloodline\n  -  Zun \"Inquisition\" Bloodline\n  -  Zun \"Jewish\" Bloodline\n  -  Zun \"Theologic\" Bloodline\n  -  Duelist Bloodline (male)\n  -  Legendary Dog Hunter Bloodline (female)\n\nTibet:\n  -  Songtsen Gampo (male)\n  -  Red Panda Bloodline\n  -  Bon \"Defender of Faith\"\n  -  Bon \"Culture\" Bloodline\n  -  Bon \"Inquisition\" Bloodline\n  -  Bon \"Jewish\" Bloodline\n  -  Bon \"Theologic\" Bloodline\n  -  Immortal Bloodline (female)\n\nIndia:\n  -  Gopala Pala (male)\n  -  Irâcêntira Chola (male)\n  -  Tughluq Tughluq (male)\n  -  Chakravartin 1 Bloodline (male)\n  -  Chakravartin 2 Bloodline (female)\n  -  Hindu Peaceful Bloodline\n  -  Hindu Aggressive Bloodline\n  -  Ashoka Bloodline",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-04-04T08:51:33.578719+00:00",
+        "updatedAt": "2026-04-04T08:51:33.578719+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d57b0-96df-7588-818f-1d9c639d832d",
+        "evaluationSessionId": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+        "evaluationId": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d57b0-96dd-71f5-b01c-258cafafbd55"
+        ],
+        "content": "Based on an analysis of the genders provided in your list of Crusader Kings II (CK2) bloodlines, several very clear patterns and statistical trends emerge. \n\nHere is a breakdown of what the gender distribution reveals:\n\n### 1. The \"Perfect Symmetry\" Rule\nIn a significant portion of the list, there is a deliberate **1:1 ratio** of male to female bloodlines. This indicates that whoever compiled this list (or the mod/game mechanics it comes from) actively tried to balance gender representation mechanically. \nThe following groups are perfectly split:\n*   **British Isles:** 8 Male, 8 Female\n*   **Iberian Peninsula:** 8 Male, 8 Female\n*   **Arabic:** 8 Male, 8 Female\n*   **Jews:** 8 Male, 8 Female\n*   **Holy Roman Empire:** 4 Male, 4 Female\n*   **Italy:** 4 Male, 4 Female\n*   **France:** 5 Male, 5 Female (excluding unlabelled)\n*   **Persia:** 5 Male, 5 Female (excluding unlabelled)\n*   **Custom:** 4 Male, 4 Female\n\n### 2. Historical Figures vs. Event/Mechanic Figures\nThere is a massive divide in *how* the genders are assigned based on the type of bloodline:\n*   **Male Bloodlines are mostly Historical:** The vast majority of named, historical founders are male (e.g., Rurik, Charles Martel, William Wallace, Saladin, Temujin Borjigin).\n*   **Female Bloodlines are mostly Conceptual/Events:** To make up for the historical lack of female rulers, the female bloodlines are almost entirely tied to game mechanics, events, or abstract concepts (e.g., *Ancestral Venerated Tanistry, Blessed Child, Destroyer of Byzantium, Legend Survivor, Mur_der/Builder*).\n*   **The Rare Historical Women:** Only a tiny handful of female bloodlines belong to actual historical figures: *Alienor de Poitou* (France), *Matilde de Canossa* (Italy), *Arwa Sulayhid* (Arabic), *Magajiva Daura* (Africa), and *Boudica* (British Isles). \n\n### 3. Gendered Stereotypes in Bloodline Traits\nWhen a specific trait or event has two versions, they are often split rigidly down gender lines, sometimes relying on traditional archetypes:\n*   **Aggressive vs. Peaceful:** In almost every religion/region that has this pairing (Norse, Catholic, Islamic, Jewish, Zoroastrian), the **\"Aggressive\"** bloodline is assigned to a **Male**, and the **\"Peaceful\"** bloodline is assigned to a **Female**.\n*   **Titles:** We see exact mirrors like *Sea King (Male)* vs. *Sea Queen (Female)*, or numerical splits like *Chakravartin 1 (Male)* vs. *Chakravartin 2 (Female)*.\n\n### 4. The Unlabelled Bloodlines\nA massive chunk of the bloodlines have **no gender listed**. Almost all of these are generic, religion-based event bloodlines that likely dynamically adapt to the gender of whatever character achieves them in-game. \n*   *Examples:* \"Defender of Faith\", \"Monastic\", \"Culture\", \"Inquisition\", \"Jewish\", \"Theologic\".\n\n### Summary Statistics\nIf we count up the entire list, the breakdown is:\n*   **Male Listed:** 95\n*   **Female Listed:** 73\n*   **Unlabelled/None:** 82\n*   **Total Bloodlines:** 250\n\n**Conclusion:**\nLooking at this list, it looks like a design document (likely for a CK2 mod, such as the *More Bloodlines* mod). The creator clearly wanted to ensure female characters had equal access to cool bloodlines. Because history provided too many male conquerors (causing a heavy male bias in the top half of the regional lists), the creator compensated by making the majority of the fictional, mythical, and event-driven bloodlines at the bottom of the lists female.",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-04-04T08:51:33.581894+00:00",
+        "updatedAt": "2026-04-04T08:52:13.196232+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 3172,
+            "totalTokens": 4057,
+            "usageSource": "provider",
+            "outputTokens": 885
+          }
+        }
+      },
+      {
+        "id": "019d57b5-4e8f-7103-95c3-18f17a2f2919",
+        "evaluationSessionId": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+        "evaluationId": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "role": "user",
+        "parentMessageIds": [
+          "019d57b0-96df-7588-818f-1d9c639d832d"
+        ],
+        "content": "i want to make the universal composition of genders for bloodlines named like below (probably with some exceptons)\n  -  \"Defender of Faith\"\n  -  \"Culture\" Bloodline\n  -  \"Inquisition\" Bloodline\n  -  \"Jewish\" Bloodline\n  -  \"Theologic\" Bloodline\n\nmaybe you can ask for specific cases of how i want bloodlines to mege in some groups (marrying them in history files of mod)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-04-04T08:56:41.540506+00:00",
+        "updatedAt": "2026-04-04T08:56:41.540506+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d57b5-4e93-7511-a680-6b39d9da9460",
+        "evaluationSessionId": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+        "evaluationId": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d57b5-4e8f-7103-95c3-18f17a2f2919"
+        ],
+        "content": "Establishing a \"universal composition\" for these five recurring bloodlines is a great way to bring consistency to your mod. Since there are **five** bloodlines in this set, a perfect 50/50 split isn't possible per religion, so you'll naturally have a 3:2 ratio. \n\nBased on the CK2 mechanics (and the trends from your previous list), here is a proposed way to assign genders to these five universal bloodlines, followed by the questions you requested about merging them in the history files.\n\n### Part 1: Proposing the Universal Gender Rule\nIf you want to stick to the thematic pattern you’ve already built (where aggressive/martial traits skew male, and scholarly/diplomatic traits skew female), here is a logical template you can apply to every religion:\n\n1.  **\"Defender of Faith\" Bloodline -> MALE**\n    *   *Why:* Historically and mechanically in CK2, defending the faith against holy wars and leading troops is heavily tied to male martial roles.\n2.  **\"Inquisition\" Bloodline -> MALE**\n    *   *Why:* Tied to rooting out heresy, zealotry, and intrigue. Often associated with aggressive actions (burning apostates, revoking titles).\n3.  **\"Culture\" Bloodline -> FEMALE**\n    *   *Why:* Tied to diplomacy, prestige, and raising heirs. In the medieval era, aristocratic women were often the primary patrons of the arts, literature, and courtly culture. \n4.  **\"Theologic\" Bloodline -> FEMALE**\n    *   *Why:* Tied to learning, piety, and monasticism. Many of the greatest early theologians, mystics, and abbesses (like Hildegard of Bingen) heavily influenced church doctrine without needing a sword.\n5.  **\"Jewish\" Bloodline -> ALTERNATING (or player's choice)**\n    *   *Note:* I assume this bloodline represents rulers who protected Jewish communities/Radhanite merchants (giving tech/wealth bonuses). You could alternate this: make it **Male** in Europe/Middle East, but **Female** in pagan/nomadic regions.\n\n*(Would you like to adopt this 2 Male / 2 Female / 1 Flex pattern, or do you have a different vision for them?)*\n\n***\n\n### Part 2: Merging Bloodlines in the History Files\nTo make your mod's start dates interesting (especially in 867 or 1066), merging bloodlines via historical marriages is incredibly fun for the player to discover. \n\nHere are **5 specific scenarios/groups** I want to ask you about. How do you want to handle the marriages for these in your `history/characters` files?\n\n**1. The \"True Heir of Francia\" Merger (France / HRE)**\nYou have *Merovech de Merohingi*, *Charles Martel*, *Philippe Capet*, and *Rudolf Welf*. \n*   **Question:** In the 867 or 1066 start dates, do you want a specific hidden character to possess *both* the Merovingian and Carolingian (Martel) bloodlines via a historical maternal marriage? (For example, giving a custom count in Vermandois a massive legitimacy boost?)\n\n**2. The British Isles \"Ancient Kings\" Convergence**\nYou have *Caradog Catuvellauni*, *Gwrtheyrn Gwerthrynion* (Vortigern), and *Boudica* (Female). \n*   **Question:** Boudica is female. Will her bloodline have `inheritance = all_descendants` or `matrilineal`? Do you want to weave her descendant into the history of the Welsh kings (like the House of Aberffraw in Gwynedd) so that a player starting as Rhodri the Great in 867 has all three ancient Briton bloodlines?\n\n**3. The Iberian Reconquista Web**\nYou have *Rodrigo de Vivar (El Cid)*, *Gartzia de Navarra*, *Afonso de Bourgogne*, plus the female *Crusader Commander* and *Reconquista 1 & 2* bloodlines.\n*   **Question:** Iberia was famous for intermarriage. Do you want to arrange a history-file marriage where the \"Reconquista 1 (Female)\" bloodline merges into the Jimena dynasty (Castile/Navarra), while the \"Reconquista 2 (Female)\" bloodline merges into the de Bourgogne dynasty (Portugal)? \n\n**4. The Pagan Reformer Overlap (Norse / Slavic / Suomenusko)**\nLet's look at the Universal bloodlines. Suppose a Norse character founds the *Norse \"Culture\" Bloodline (Female)* in the year 800. \n*   **Question:** Do you want to write a history file marriage where this Norse Culture woman is married off to a member of the *Rurikid* dynasty (Slavic) or *Dyre Oskyldr*? This would create a powerful Norse-Slavic hybrid ruler in Kyiv or Novgorod who holds both a founding historical bloodline *and* a universal cultural bloodline. \n\n**5. The \"Clash of Faiths\" Secret Mergers (Arabic / Iberian / Crusader)**\nYou have Catholic Crusaders and Islamic Defenders (like *Saladin Ayyubid* or *Yusuf Almoravid*).\n*   **Question:** Sometimes modders put Easter eggs in the history files—a secret captive or forbidden romance. Would you consider merging a female \"Islamic Peaceful Bloodline\" into a male Catholic lord's lineage (or vice versa, a female \"Lord of Outremer\" merging into a Muslim Amir's lineage) to represent the blended cultures of Outremer or Al-Andalus?\n\nHow do you envision the inheritance rules and historical marriages working for these groups? Pick whichever scenario interests you most, and we can map out the exact character IDs and marriage trees!",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-04-04T08:56:41.545727+00:00",
+        "updatedAt": "2026-04-04T08:57:57.150881+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 4156,
+            "totalTokens": 5433,
+            "usageSource": "provider",
+            "outputTokens": 1277
+          }
+        }
+      },
+      {
+        "id": "019d57c7-2927-77de-b8c9-ef1c9bd72dbc",
+        "evaluationSessionId": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+        "evaluationId": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "role": "user",
+        "parentMessageIds": [
+          "019d57b5-4e93-7511-a680-6b39d9da9460"
+        ],
+        "content": "ther's a bit of context. these bloodlines are \"saintly\" (only supposed to be granted to christian religions, but there are same bloodlines to all other religions (don't mistake them with ancestral veneration)). i have effects from game. \"flavor\" or description is created by game and almost the same to each (would be good to make description that would show what kind of blood is it, universal without hinting at any specific religion)\n\nCatholic Bloodline 1 \"Defender of the Faith\" (female)\nRequirements: Has \"Zealous\" or \"Holy Warrior\" trait\nModifiers: +30% Damage Against Religious Enemies | +0.30 Monthly Piety | Zealots may join Religious Wars\nFlavor: \"N/A\"\n\nCatholic Bloodline 2 \"Monastic\" (male)\nRequirements: Has friendly relationship with monasteries and church\nOpinions: +5 Church Opinion\nModifiers: +0.10 Monthly Piety | Gain more Devotion in Monastic Societies\nFlavor: \"N/A\"\n\nCatholic Bloodline 3 \"Cultural\" (female)\nRequirements: Must have the same Culture as the bloodline founder\nModifiers: +0.30 Monthly Piety | Convert Counties to your Culture faster\nFlavor: \"N/A\"\n\nCatholic Bloodline 4 \"Inquisitional\" (male)\nRequirements: Has \"Zealous\" or \"Holy Warrior\" trait\nOpinions: +5 Church Opinion\nModifiers: +10% Damage Against Religious Enemies | Convert Counties to your Religion faster\nFlavor: \"N/A\"\n\nCatholic Bloodline 5 \"Jewish\" (female)\nRequirements: Has friendly relationship with jews\nOpinions: +15 Jewish Opinion\nModifiers: +0.20 Monthly Piety | Can take loans from Jews more freely | (jews are useful: money, knowledge, good spies and advisors)\nFlavor: \"N/A\"\n\nCatholic Bloodline 6 \"Theologic\" (male)\nModifiers: +0.20 Monthly Piety | Theologians will occasionally join your court\nFlavor: \"N/A\"\n\nWicked Saint Bloodline (female) (someone akin the witch-queen or any other dark or evil female figures in history, legends, folklore and myths)\nOpinions: -5 Church Opinion\nModifiers: +1.00 Monthly Prestige | -0.10 Monthly Piety\nFlavor: \"N/A\"",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-04-04T09:16:11.783628+00:00",
+        "updatedAt": "2026-04-04T09:16:11.783628+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d57c7-292c-7694-8137-ef0e5040a0ee",
+        "evaluationSessionId": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+        "evaluationId": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d57c7-2927-77de-b8c9-ef1c9bd72dbc"
+        ],
+        "content": "Thank you for the context! That makes a lot of sense. Since these are the equivalent of \"Saints\" or \"Venerated Ancestors\" for *every* religion, the flavor texts need to be completely agnostic. They cannot mention the Pope, Christ, Odin, Allah, or specific holy books, but they still need to sound epic and fit the medieval tone of CK2.\n\nAlso, I see exactly how you've divided the genders here: **Female** for Defender, Cultural, Jewish, and Wicked; **Male** for Monastic, Inquisitional, and Theologic. \n\nHere are universal, religion-agnostic flavor descriptions for each, tailored to the genders you selected:\n\n### Universal \"Saintly\" Bloodline Descriptions\n\n**1. \"Defender of the Faith\" Bloodline (Female)**\n*Flavor:* \"The founder of this bloodline was a fierce and uncompromising warrior, taking up arms to shield the faithful from those who would see them destroyed. Her descendants carry this militant zeal, inspiring righteous fury on the battlefield and drawing the devout to their banners in times of holy war.\"\n\n**2. \"Monastic\" Bloodline (Male)**\n*Flavor:* \"Renouncing worldly excess, the founder of this bloodline forged deep, lasting bonds with the ascetics and holy communities of his era. His descendants are viewed with great reverence by the clergy, naturally excelling within cloisters, brotherhoods, and societies dedicated to the divine.\"\n\n**3. \"Cultural\" Bloodline (Female)**\n*Flavor:* \"More than just a spiritual paragon, the founder of this bloodline was the very embodiment of her people's heritage. Her descendants are seen as the true protectors of their ancestral ways, commanding such deep respect that outsiders are naturally drawn to adopt their customs and traditions.\"\n\n**4. \"Inquisitional\" Bloodline (Male)**\n*Flavor:* \"Driven by an uncompromising vision of spiritual purity, the founder of this bloodline worked tirelessly to uproot heresy and false teachings. His descendants inherit this terrifying conviction, highly skilled at bringing newly conquered lands into the fold and breaking the resolve of unbelievers.\"\n\n**5. \"Jewish\" Bloodline (Female)**\n*Flavor:* \"Unlike many rulers of her time, the founder of this bloodline offered a safe haven and steadfast patronage to the Jewish diaspora. In return for her legendary tolerance, her descendants enjoy the lasting gratitude, financial backing, and invaluable counsel of Jewish scholars and merchants across the known world.\"\n\n**6. \"Theologic\" Bloodline (Male)**\n*Flavor:* \"A man of profound wisdom and spiritual insight, the founder of this bloodline dedicated his life to unraveling the mysteries of the divine. His descendants share this intellectual prestige, naturally attracting brilliant scholars, philosophers, and holy men to their courts to debate the nature of the cosmos.\"\n\n**7. \"Wicked\" Saint / Witch-Queen Bloodline (Female)**\n*Flavor:* \"Whispered about in dark folklore and deeply feared by the orthodox clergy, the founder of this bloodline was a woman of awe-inspiring, ruthless power. Though condemned by the pious as a wicked tyrant or sorceress, her descendants carry an undeniable, intoxicating majesty that commands absolute, terrifying respect.\"\n\n***\n\n### Merging these in the History Files\n\nNow that I understand *exactly* what these bloodlines do, we can talk about how you want to merge them into historical families at the start of the game (867 or 1066). \n\nHere are a few specific cases/ideas for how you could merge these universal bloodlines into existing historical characters. Which of these approaches sounds best to you?\n\n**1. The \"Perfect Synthesis\" Marriage (Male Theologic + Female Defender)**\nDo you want to create historical setups where a hyper-scholarly male (Theologic Bloodline) historically married a warrior-woman (Defender of the Faith Bloodline)? For example, giving a specific ruling dynasty in 867 both bloodlines to represent a family that is perfectly balanced between brains and brawn. \n* *Question:* Should this be a rare occurrence (only 1 or 2 dynasties in the world), or something you seed into every major religion?\n\n**2. The \"Tolerant Culture\" Hub (Female Cultural + Female Jewish)**\nSince both the Cultural and Jewish bloodlines are female, a player could theoretically trace their lineage back to a legendary Matriarch who founded *both*, or two historical women whose lines merged. This would create a massively wealthy, culturally dominant dynasty (great for tall playthroughs).\n* *Question:* Would you want to assign this combination to historically tolerant regions, like Iberia (Al-Andalus/Castile) or the Silk Road (Khazaria/Persia), via the history files?\n\n**3. Seeding the \"Wicked\" Bloodline**\nThe Wicked Bloodline is fantastic. Historically, figures like **Olga of Kiev** (who burned her enemies alive before converting) or **Freydis Eiríksdóttir** (the ruthless Norse explorer) fit this perfectly. \n* *Question:* Do you want to manually assign the Wicked bloodline to specific, famously ruthless historical women in the game's history files, so their descendants in 1066 are walking around with this massive prestige boost and clergy penalty? \n\nLet me know how you want to approach adding these to the characters in the mod!",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-04-04T09:16:11.794928+00:00",
+        "updatedAt": "2026-04-04T09:16:52.709972+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 5944,
+            "totalTokens": 7074,
+            "usageSource": "provider",
+            "outputTokens": 1130
+          }
+        }
+      },
+      {
+        "id": "019d57ce-7490-71ca-9f42-0522cc0cf605",
+        "evaluationSessionId": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+        "evaluationId": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "role": "user",
+        "parentMessageIds": [
+          "019d57c7-292c-7694-8137-ef0e5040a0ee"
+        ],
+        "content": "this composition was my previous go to. i set female to \"strong\" (in my vision) bloodlines (also see that monastic bloodlines are only in 4 christian religions). in french group i married (all marriages matrilineal, so woman's child gets her blood and father's) monk with holy warrior, inquisitor to cultural (she prosletizer maybe), and scholar to jewish sympathiser (ck2 players like jews as councillors). also, i'm not sure if i should marry historical women with historical men - usualy it doesn't make any problems, but there's two occasions that disrupt my universal gender composition for religious bloodlines",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-04-04T09:24:10.063067+00:00",
+        "updatedAt": "2026-04-04T09:24:10.063067+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d57ce-7495-7ff4-94dc-481b9fcc64c4",
+        "evaluationSessionId": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+        "evaluationId": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d57ce-7490-71ca-9f42-0522cc0cf605"
+        ],
+        "content": "That pairing system you created is actually brilliant from a gameplay and thematic perspective. You’ve perfectly matched the mechanics to create three distinct \"super-lineages\" for players to hunt down:\n\n1.  **The Militant Lineage:** Monastic (Male) + Defender (Female) = Massive Piety, Devotion, and combat damage.\n2.  **The Assimilation Lineage:** Inquisitional (Male) + Cultural (Female) = Ultimate realm-stabilizer (converts both culture and religion).\n3.  **The Meta-Scholar Lineage:** Theologic (Male) + Jewish (Female) = Unlimited money, tech, and the best councilors in the game. \n\nUsing **matrilineal marriages** in the history files to tie these together is a very smart way to ensure the female bloodlines aren't lost immediately (since CK2 standard historical marriages often default to patrilineal, which can kill female-founded bloodlines if you aren't using `inheritance = all_descendants`).\n\n### The Problem with Historical Marriages\nI completely understand your hesitation about marrying *real* historical men to *real* historical women in the mod's history files. In CK2, if you change a historical marriage to matrilineal, you risk breaking the dynasty tree for later start dates (e.g., a famous king's son suddenly belongs to his mother's dynasty, ruining the succession of a kingdom in 1066). \n\nYou mentioned there are **two specific occasions that disrupt your universal gender composition**. \n\nWhat are those two occasions? \n\nAre they:\n*   **A specific historical couple?** (For example, Ferdinand and Isabella, or a famous Byzantine emperor and empress?)\n*   **A specific religious group?** (Like Hellenic or pagan religions where the historical founders don't fit the gender rules you set?)\n*   **A mechanical issue with the bloodline inheritance flags?**\n\n### A Quick Modding Workaround (If you want to avoid matrilineal messes)\nIf the two occasions are causing you headaches because of the marriage type, remember that in the `common/bloodlines` text file, you can bypass marriage rules entirely by changing the inheritance flag. \n\nIf you set a bloodline to:\n`inheritance = all_descendants`\n...then the child will inherit the bloodline from the mother *even if it is a standard patrilineal marriage*. This allows you to marry a historical woman to a historical man normally, keep the historical dynasty intact, but still pass *both* bloodlines to the child. \n\n**Tell me about the two exceptions!** I can help you figure out a workaround in the code or the history files to keep your universal system perfectly intact.",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-04-04T09:24:10.069798+00:00",
+        "updatedAt": "2026-04-04T09:24:37.738372+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 7211,
+            "totalTokens": 7787,
+            "usageSource": "provider",
+            "outputTokens": 576
+          }
+        }
+      },
+      {
+        "id": "019d57d2-d9aa-78e0-8da4-68979788c8b7",
+        "evaluationSessionId": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+        "evaluationId": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "role": "user",
+        "parentMessageIds": [
+          "019d57ce-7495-7ff4-94dc-481b9fcc64c4"
+        ],
+        "content": "look at central asia group, their genders. also legendary eagle bloodlines here and in aztec (legendary - exists 2, sould be 1 male and 1 female)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-04-04T09:28:58.269719+00:00",
+        "updatedAt": "2026-04-04T09:28:58.269719+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d57d2-d9b0-7f9b-ab21-9f12172a1cc7",
+        "evaluationSessionId": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+        "evaluationId": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d57d2-d9aa-78e0-8da4-68979788c8b7"
+        ],
+        "content": "Ah, I see exactly what is happening. You have hit a classic CK2 historical modding roadblock. Let’s look at both of these issues, starting with the easy one (the Eagles) and then tackling the Central Asia marriage problem.\n\n### 1. The \"Legendary Eagle\" Split (Aztec vs. Central Asia)\nYou have two eagle-themed bloodlines and want exactly **1 Male** and **1 Female** to maintain your perfect symmetry across the mod. Here is the most thematic way to assign them:\n\n*   **Aztec \"Legendary Eagle Hunter\" -> MALE**\n    *   *Why:* In Aztec society, the Eagle Warriors (*Cuāuhtli*) were a highly specific, elite military order made entirely of men of noble birth who had captured enemies for sacrifice. Making this Male fits the historical Mesoamerican warrior strictly.\n*   **Central Asia \"Legendary Eagle\" -> FEMALE**\n    *   *Why:* Eagle hunting with Golden Eagles (*Berkutchi*) is a famous steppe tradition. While traditionally male-dominated, steppe nomadic women had vastly more freedom than their European contemporaries, and female eagle hunters exist in both steppe folklore and reality (even today in Mongolia/Kazakhstan). Making this the Female bloodline gives Central Asia a fantastic, highly thematic female founder to balance the scales.\n\n***\n\n### 2. The Central Asia Disruption (The Wall of Men)\nLooking at your Central Asia list, I see exactly why your \"universal gender composition\" gets disrupted here. \n\n**The Problem:**\nCentral Asia has **7 Historical Founders**, and they are *all* hyper-famous male conquerors: *Muhan Ashina, Kubrat Dulo, Sabuktigin, Seljuk, Temujin (Genghis Khan), Osman Ottoman, and Timur.*\nBecause your \"Culture,\" \"Defender,\" and \"Jewish\" universal bloodlines are **Female**, if you try to merge them into these famous lineages using your usual *matrilineal marriage* trick, you will destroy the Borjigin, Seljuk, or Ottoman dynasties. Temujin's kids would suddenly belong to some random female's dynasty, which ruins the game's historical setup.\n\n**The Solution: Use their Historical Wives and Mothers!**\nInstead of creating random female courtiers to found the Tengri/Central Asian universal bloodlines, you can assign those female bloodlines directly to the historical women already attached to these men in the CK2 history files. Because of how standard (patrilineal) marriages work in CK2, children inherit bloodlines from *both* parents, even if the dynasty comes from the father. \n\nHere is how you can merge them perfectly without breaking a single dynasty:\n\n*   **Tengri \"Defender of the Faith\" (Female)** -> Assign this to **Hoelun** (Genghis Khan's mother). She famously rallied the tribe when they were abandoned, defending her children. Genghis Khan naturally inherits this bloodline from his mother, passing it on to the whole Borjigin dynasty alongside his own historical male bloodline.\n*   **Tengri \"Cultural\" (Female)** -> Assign this to **Börte** (Genghis Khan's legendary first wife). She was the grand empress of the steppe and heavily influenced Mongol culture and law. Her sons (Jochi, Chagatai, Ogedei, Tolui) will inherit her Cultural bloodline AND Genghis Khan's male bloodline naturally.\n*   **Sunni \"Cultural\" or \"Jewish (Silk Road)\" (Female)** -> Assign this to a famous Seljuk or Ottoman wife, like **Terken Khatun** (wife of Malik-Shah I) or **Malhun Hatun** (wife of Osman). Terken Khatun practically ruled the Seljuk empire's culture and administration herself. \n\n**Why this fixes your problem:**\n1.  It keeps your universal rule perfectly intact (Culture, Defender, Jewish = Female).\n2.  You don't have to force weird matrilineal marriages that break the most famous dynasties in the game.\n3.  The player starting as the Mongols or Seljuks gets the immense satisfaction of realizing their starting ruler has a combined \"Super-Lineage\" inherited from both their legendary father and legendary mother. \n\nDoes using the historical wives/mothers of these conquerors solve the Central Asian disruption for you?",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-04-04T09:28:58.288263+00:00",
+        "updatedAt": "2026-04-04T09:29:36.879164+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 7825,
+            "totalTokens": 8742,
+            "usageSource": "provider",
+            "outputTokens": 917
+          }
+        }
+      },
+      {
+        "id": "019d57d8-9798-793e-8e3d-f6a728ed6e0e",
+        "evaluationSessionId": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+        "evaluationId": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "role": "user",
+        "parentMessageIds": [
+          "019d57d2-d9b0-7f9b-ab21-9f12172a1cc7"
+        ],
+        "content": "no. i need to create characters. in the first place, i'm making equal number of genders so each male has female to marry into. think which female bloodline suits which male (by fitting his own \"vibe\" or as a possible wife who could complete him). for example i married genghis to chinese princess (his connection to \"creating\" china)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-04-04T09:35:13.911986+00:00",
+        "updatedAt": "2026-04-04T09:35:13.911986+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d57d8-979e-7ed3-af7e-5f8921d3cb75",
+        "evaluationSessionId": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+        "evaluationId": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d57d8-9798-793e-8e3d-f6a728ed6e0e"
+        ],
+        "content": "Ah, I completely understand now! You are creating entirely new, custom characters in the history files to act as the founders of these bloodlines, and you want to perfectly match **one male founder to one female founder** so their children inherit both. That is a brilliant way to build the lore of your mod from the ground up!\n\nThe Genghis Khan (Temujin) paired with the **Chinese Imperial (Female)** is conceptually perfect. It directly mirrors his historical \"vibe\" of conquering Xia/Jin and establishing the foundation for the Yuan Dynasty.\n\nFollowing your established rule for the universal bloodlines (Inquisitor marrying Culture, Scholar marrying Jewish), here is how you can pair up the rest of the **Central Asia** group based on their historical \"vibes.\" \n\n*(Note: Based on your list, Central Asia actually has 9 Males and 7 Females. I have paired the best ones below, and added a note at the end on how to fix the math!)*\n\n### The Universal Matches (Following Your Rules)\n**1. The Assimilators**\n*   **Tengri \"Inquisitional\" (Male)** + **Tengri \"Cultural\" (Female)**\n*   *The Vibe:* Just like your French group! He roots out religious enemies on the steppes with fire and sword, while she is a beloved matriarch who culturally assimilates the conquered tribes. Together, their descendants ensure total realm stability.\n\n**2. The Silk Road Network**\n*   **Tengri \"Theologic\" / Scholar (Male)** + **Tengri \"Jewish\" (Female)**\n*   *The Vibe:* He is a deep-thinking Tengri shaman or Islamic scholar; she is a wealthy patron of Radhanite merchants along the Silk Road. Together, their lineage produces the wealthiest, most technologically advanced rulers in the game.\n\n### The Historical Matches (The \"Vibe\" Check)\n**3. The Ancient Mystics**\n*   **Muhan Ashina (Male)** + **Ancestral Venerated Sky Burial (Female)**\n*   *The Vibe:* Muhan founded the massive, ancient Gokturk Khaganate. Sky burials are an ancient, mystical practice deeply tied to the Tengri religion. Marrying this Khagan to a revered, terrifying Shamaness of the Sky Burial creates the ultimate ancient, mystical steppe lineage.\n\n**4. The Frontier Warlords**\n*   **Osman Ottoman (Male)** + **Ancestral Venerated Mercenary (Female)**\n*   *The Vibe:* The early Ottomans were *Ghazis*—frontier warriors who relied heavily on mercenaries and raiders to build their power in Anatolia. A fiercely independent mercenary-matriarch is the perfect wife to complement Osman’s rise from a small border chieftain to a military powerhouse.\n\n**5. The Lords of the Open Steppe**\n*   **Kubrat Dulo (Male)** + **Legendary Eagle Bloodline (Female)**\n*   *The Vibe:* You wanted 1 Male Eagle (Aztec) and 1 Female Eagle (Central Asia). This fits perfectly here. The Bulgars are deeply tied to the open steppes and animal totems. Marrying Kubrat to a legendary *Berkutchi* (Golden Eagle Huntress) fits the wild, ancient vibe of Old Great Bulgaria before they migrated to Europe.\n\n**6. The Holy Swords**\n*   **Seljuk (Male)** + **\"Defender of the Faith\" (Female)**\n*   *The Vibe:* The Seljuks were fiercely zealous, migrating into Persia and Anatolia and acting as the uncompromising sword of their faith. Marrying him to a \"Defender\" holy warrior woman matches his aggressive, militant expansion perfectly. (Since you paired Monk + Defender in Catholic, but Tengri has no Monastic bloodline, Seljuk takes the Defender wife!).\n\n### The Math Issue (Missing Females)\nIf you look at the pairings above, we have successfully paired 6 of your Male founders. \nHowever, you have two historical males left: **Timur Timurid** and **Sabuktigin Ghaznavid**. \nBecause Central Asia has 7 historical males (and only 2 universal males), the group has **9 Males but only 7 Females**. \n\nTo give Timur and Sabuktigin wives that complete them, you could borrow from other groups or create 2 new custom female bloodlines:\n*   **For Timur (The Architect of Samarkand):** He desperately needs a wife with a **\"Builder\" or \"Architect\" Bloodline (Female)** (perhaps borrowed from the Arabic list?). Timur was famous for ruthlessly conquering the world just to send the best artisans back to build his glorious capital. \n*   **For Sabuktigin (The Slave-King):** He was a former Mamluk (slave-soldier) who rose to become a Sultan. A **\"Legendary Survivor\" (Female)** or **\"Legendary Captor\" (Female)** would fit his brutal, rags-to-riches vibe perfectly.",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-04-04T09:35:13.914567+00:00",
+        "updatedAt": "2026-04-04T09:36:42.808005+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 8817,
+            "totalTokens": 9880,
+            "usageSource": "provider",
+            "outputTokens": 1063
+          }
+        }
+      },
+      {
+        "id": "019d57dc-e1e6-7fba-ae94-c597bf343cca",
+        "evaluationSessionId": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+        "evaluationId": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "role": "user",
+        "parentMessageIds": [
+          "019d57d8-979e-7ed3-af7e-5f8921d3cb75"
+        ],
+        "content": "no, you can't take bloodlines from other groups. you should change someones gender in there. and in case of aztecs - if i keep my original gender composition they'll have too many males (if i put male eagle hunter as you suggested)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-04-04T09:39:54.957268+00:00",
+        "updatedAt": "2026-04-04T09:39:54.957268+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d57dc-e1ec-7550-b1d6-c8b9a3566952",
+        "evaluationSessionId": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+        "evaluationId": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d57dc-e1e6-7fba-ae94-c597bf343cca"
+        ],
+        "content": "Got it! I completely understand your system now. You are creating **custom characters** for all of these bloodlines so that every single male founder has a perfectly matched female founder to marry, establishing 1:1 super-lineages. No borrowing from other regions.\n\nLet's address the math, fix the genders *within* Central Asia, and set up the perfect \"vibe\" marriages.\n\n### 1. The Eagle Situation (Aztec & Central Asia)\nSince you pointed out that making the Aztec Eagle Male creates too many males in that group, we will do exactly as you need:\n*   **Aztec \"Legendary Eagle Hunter\" -> FEMALE**\n*   **Central Asia \"Legendary Eagle\" -> MALE**\n\n### 2. The Math Problem in Central Asia\nCentral Asia has **16 total bloodlines**. To marry them 1:1, you need **8 Males and 8 Females**.\nLet's look at the fixed genders based on your rules and the Eagle fix:\n*   **Females (6):** Defender, Cultural, Jewish, Sky Burial, Mercenary, Chinese Imperial.\n*   **Males (3):** Inquisitional, Theologic, Legendary Eagle.\n\nThis leaves your **7 Historical Founders** (Muhan, Kubrat, Sabuktigin, Seljuk, Temujin, Osman, Timur). \nIf they are all Male, you end up with 10 Males and 6 Females. \n\nTo achieve your perfect 8:8 balance without pulling from other groups, **you must change two of the historical males into females** (creating custom legendary matriarchs for those dynasties instead). \n\nI suggest flipping **Kubrat Dulo** (Bulgars) and **Sabuktigin Ghaznavid** (Mamluks) into female founders, as steppe and nomadic cultures have great lore for warrior-women.\n\n***\n\n### The 8 Perfect Custom Marriages for Central Asia (The \"Vibe\" Check)\n\nHere is how you can pair the 8 Males and 8 Females so that their vibes perfectly complement each other when you write them into the history files:\n\n**1. The Imperial Architects**\n*   **Temujin Borjigin (Male)** marries **Chinese Imperial (Female)**\n*   *The Vibe:* Just as you designed! The ultimate conqueror of the steppes marries the claimant to the Dragon Throne, setting the foundation for the Yuan Dynasty.\n\n**2. The Assimilators (Your Standard)**\n*   **Tengri \"Inquisitional\" (Male)** marries **Tengri \"Cultural\" (Female)**\n*   *The Vibe:* He burns the old idols and roots out heretics; she pacifies the conquered tribes by integrating their cultures. Together, they create a relentlessly stable realm.\n\n**3. The Silk Road Scholars (Your Standard)**\n*   **Tengri \"Theologic\" (Male)** marries **Tengri \"Jewish\" (Female)**\n*   *The Vibe:* A deep-thinking shaman/scholar marries a powerful patroness of the Silk Road Radhanite merchants. Their descendants will be incredibly wealthy and technologically advanced.\n\n**4. The Ancient Mystics**\n*   **Legendary Eagle (Male)** marries **Ancestral Venerated Sky Burial (Female)**\n*   *The Vibe:* The ultimate wild steppe pairing. A legendary Berkutchi (Eagle Hunter) marries a terrifying, revered Shamaness who performs the sacred sky burials. Their lineage represents the deepest, oldest Tengri traditions.\n\n**5. The Frontier Warlords**\n*   **Osman Ottoman (Male)** marries **Ancestral Venerated Mercenary (Female)**\n*   *The Vibe:* Osman was a *Ghazi* (border warlord) who relied on bands of independent warriors to carve out Anatolia. Marrying him to a legendary, venerated Mercenary Matriarch fits the rugged, opportunistic vibe of the early Ottoman rise perfectly.\n\n**6. The Holy Swords**\n*   **Seljuk (Male)** marries **Tengri \"Defender of the Faith\" (Female)**\n*   *The Vibe:* The Seljuks were the uncompromising, militant sword of their faith (historically Sunni, but works for Tengri here). Marrying the great conqueror to a zealous Holy Warrior woman completes his aggressive, expansionist lineage.\n\n**7. The Rulers of the Old Steppe**\n*   **Muhan Ashina (Male)** marries **Custom Dulo Matriarch (Flipped from Kubrat)**\n*   *The Vibe:* Muhan founded the massive ancient Turkic Khaganate. Marrying him to a custom female founder of the Dulo clan (the ancient Bulgars) unites the two oldest, most prestigious tribal lineages of the western and eastern steppes. \n\n**8. The Lords of Iron and Slaves**\n*   **Timur Timurid (Male)** marries **Custom Ghaznavid Matriarch (Flipped from Sabuktigin)**\n*   *The Vibe:* Sabuktigin was historically a *Ghulam* (slave-soldier) who fought his way to power. If you make this a female slave-warlord, she is the perfect ruthless match for Timur, the crippled conqueror who bathed the world in blood to build his empire. \n\nHow does this 8:8 setup look for your history files?",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-04-04T09:39:54.960691+00:00",
+        "updatedAt": "2026-04-04T09:41:24.580486+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 9935,
+            "totalTokens": 11075,
+            "usageSource": "provider",
+            "outputTokens": 1140
+          }
+        }
+      },
+      {
+        "id": "019d57df-36b1-7fb5-8cf2-97b188810e39",
+        "evaluationSessionId": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+        "evaluationId": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "role": "user",
+        "parentMessageIds": [
+          "019d57dc-e1ec-7550-b1d6-c8b9a3566952"
+        ],
+        "content": "no, you CAN'T change the historical figures",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-04-04T09:42:28.026761+00:00",
+        "updatedAt": "2026-04-04T09:42:28.026761+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d57df-36b5-7bae-ba3b-e34bfaf80ca0",
+        "evaluationSessionId": "019d57ae-f4aa-7715-8d8c-6059217cd340",
+        "evaluationId": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d57df-36b1-7fb5-8cf2-97b188810e39"
+        ],
+        "content": "My apologies! I completely understand the absolute rule now: **Historical figures cannot be changed.** Temujin, Timur, Muhan, etc., *must* remain male. \n\nIf we cannot change the historical men, and we cannot borrow from other groups, then we have to solve this mathematically by altering the genders of the **Custom/Universal bloodlines** within Central Asia to perfectly balance the group.\n\nHere is the exact math of the problem, and how we solve both Central Asia and the Aztec Eagle situation perfectly.\n\n### 1. Solving the Math (The Eagle & The Universals)\nCentral Asia has **16 total bloodlines**. To marry them 1:1, we need **8 Males and 8 Females**.\nYou have **7 Historical Males** (Muhan, Kubrat, Sabuktigin, Seljuk, Temujin, Osman, Timur).\nYou have **3 Specific Females** (Sky Burial, Mercenary, Chinese Imperial).\n\nYou have 6 bloodlines left to assign: *Legendary Eagle, Defender, Cultural, Inquisition, Jewish, Theologic.*\nTo reach exactly 8 Males, **only ONE of these remaining 6 can be Male.** The other 5 must be Female.\n\n**The Fix:**\n*   **Central Asia \"Legendary Eagle\" -> MALE** (This becomes your 8th Male).\n*   **ALL 5 Tengri Universal Bloodlines -> FEMALE** (Defender, Culture, Inquisition, Jewish, Theologic). \n\nBy making the Tengri Inquisitor and Tengri Scholar female, you perfectly hit **8 Males and 8 Females** without touching a single historical figure!\n\n*(And as for the Aztecs: Since Central Asia takes the Male Eagle, the **Aztec Eagle becomes FEMALE**. You can then adjust the Aztec Universals to have 3 Males and 2 Females, which perfectly balances the Aztec group to 4 Males and 4 Females!)*\n\n***\n\n### 2. The 8 Perfect Custom Marriages for Central Asia\nNow that we have 8 Males and 8 Females, we can marry them in the history files. Here is how to match every historical male's \"vibe\" with one of the custom female founders:\n\n**1. The Yuan Dynasty**\n*   **Temujin Borjigin (Male)** marries **Chinese Imperial (Female)**\n*   *Vibe:* Exactly as you designed! The great conqueror marries the claimant to China, laying the groundwork for the Yuan Empire.\n\n**2. The Khazar Connection**\n*   **Kubrat Dulo (Male)** marries **Tengri \"Jewish\" (Female)**\n*   *Vibe:* Kubrat founded Old Great Bulgaria in the Pontic-Caspian steppe. Historically, they shared borders (and wars/alliances) with the **Khazars**, a nomadic empire that famously converted to Judaism. Marrying him to a Jewish-sympathizer Khazar princess is historically brilliant.\n\n**3. The Ancient Mystics**\n*   **Muhan Ashina (Male)** marries **Ancestral Venerated Sky Burial (Female)**\n*   *Vibe:* Muhan founded the massive, ancient Turkic Khaganate. Marrying this ancient Khagan to a terrifying, revered Shamaness who performs sacred sky burials represents the deepest, oldest Tengri traditions.\n\n**4. The Frontier Warlords**\n*   **Osman Ottoman (Male)** marries **Ancestral Venerated Mercenary (Female)**\n*   *Vibe:* Osman was a *Ghazi*—a border warlord in Anatolia who relied on bands of independent raiders and mercenaries to build his power. A fiercely independent mercenary-matriarch perfectly complements his opportunistic rise.\n\n**5. The Sword of the Faith**\n*   **Seljuk (Male)** marries **Tengri \"Defender of the Faith\" (Female)**\n*   *Vibe:* The Seljuks were uncompromising, migrating into the Middle East and acting as the fierce military protectors of their religion. A zealous Holy Warrior wife perfectly matches his aggressive, expansionist lineage.\n\n**6. The Terror of the Steppe**\n*   **Timur Timurid (Male)** marries **Tengri \"Inquisitional\" (Female)**\n*   *Vibe:* Timur was notoriously ruthless, styling himself the Sword of Islam, burning heretics, and building pyramids out of skulls. Marrying him to a terrifying, zealous Inquisitor-matriarch who roots out unbelievers fits his brutal, terrifying empire perfectly.\n\n**7. The Patrons of High Culture**\n*   **Sabuktigin Ghaznavid (Male)** marries **Tengri \"Theologic\" / Scholar (Female)**\n*   *Vibe:* Sabuktigin started as a Mamluk (slave), but his dynasty (the Ghaznavids) became legendary patrons of Persian high culture, science, and Islamic theology (sponsoring famous scholars like Al-Biruni). A brilliant theologian wife grounds his rags-to-riches warrior background in scholarly prestige.\n\n**8. The Ultimate Nomads**\n*   **Legendary Eagle Hunter (Male)** marries **Tengri \"Cultural\" (Female)**\n*   *Vibe:* This pairs your two custom characters! The wild Berkutchi (Eagle Hunter) marries the ultimate preserver of steppe culture and diplomacy. Together, they represent the pure, untamed soul of the nomadic lifestyle.\n\nHow does this setup work for you? It keeps all historical men perfectly intact, balances the math exactly, and gives every conqueror a wife that makes thematic sense!",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-04-04T09:42:28.030603+00:00",
+        "updatedAt": "2026-04-04T09:43:48.014729+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 11085,
+            "totalTokens": 12260,
+            "usageSource": "provider",
+            "outputTokens": 1175
+          }
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019d57b0-bc3f-7396-a14e-7612e1697380",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3.1-pro-preview",
+        "name": "gemini-3.1-pro-preview",
+        "displayName": "gemini-3.1-pro-preview",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

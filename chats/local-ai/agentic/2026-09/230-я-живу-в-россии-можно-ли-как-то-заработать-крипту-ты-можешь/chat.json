@@ -1,0 +1,725 @@
+{
+  "exportedAt": "2026-10-09T16:19:43.327Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session.",
+    "Tool outputs are preserved as recorded; the exporter does not re-run tools or retrieve omitted fetch_page chunks/read_file ranges or unavailable image bytes."
+  ],
+  "recordType": "agentic",
+  "conversationUrl": "https://arena.ai/agent/01a0e6f4-a2f2-7350-8100-144ba15c5c07",
+  "archivedAt": "2026-10-03 19:26:50.282+00",
+  "agent": {
+    "id": "01a0e6f4-a2f2-7350-8100-144ba15c5c07",
+    "type": "agentic",
+    "title": "Я живу в России. Можно ли как-то заработать крипту (ты можешь посоветовать или помочь? Может локальн…",
+    "createdAt": "2026-09-28 07:39:49.206362+00",
+    "updatedAt": "2026-09-28 07:52:25.753361+00",
+    "pageUrl": "https://arena.ai/agent/01a0e6f4-a2f2-7350-8100-144ba15c5c07",
+    "session": {
+      "lastEventId": "13038",
+      "taskId": "chat-agent",
+      "triggerAddress": "01a0e6f4-a2f2-7350-8100-144ba15c5c07",
+      "publicAccessTokenRedacted": true
+    },
+    "taskId": "chat-agent",
+    "triggerAddress": "01a0e6f4-a2f2-7350-8100-144ba15c5c07",
+    "messages": [
+      {
+        "id": "01a0e6f4-98c0-7300-a77d-e38ad4610006",
+        "metadata": {
+          "manifestNodeId": null,
+          "nodeId": "01a0e6f4-98c0-7300-a77d-e38ad4610006",
+          "pending": false,
+          "requiresReview": false,
+          "feedback": {}
+        },
+        "role": "user",
+        "parts": [
+          {
+            "type": "text",
+            "text": "Я живу в России. Можно ли как-то заработать крипту (ты можешь посоветовать или помочь? Может локальный ИИ на запасном ноутбуке?)? Возможно ли с помощью тебя торговать на бирже (как вариант ценные бумаги тбанк или Сбербанк, или ещё что)? У меня есть доступ в телеграм"
+          }
+        ]
+      },
+      {
+        "id": "01a0e6f4-c80e-735c-9e06-7eaf3985af9a",
+        "metadata": {
+          "timing": {
+            "startedAt": 1790581194025,
+            "completedAt": 1790581283944
+          },
+          "manifestNodeId": null,
+          "nodeId": "01a0e6f4-c80e-735c-9e06-7eaf3985af9a",
+          "pending": false,
+          "requiresReview": false,
+          "feedback": {}
+        },
+        "role": "assistant",
+        "parts": [
+          {
+            "type": "step-start"
+          },
+          {
+            "type": "reasoning",
+            "text": "The user is asking in Russian about earning cryptocurrency in Russia, whether local AI on a spare laptop could help, whether they can trade via me, and they have Telegram access. Let me think about this.\n\nThe user asks:\n1. Can they earn crypto in Russia? Can I advise or help? Maybe local AI on a spare laptop?\n2. Is it possible to trade on an exchange with my help (securities via T-Bank or Sberbank, or something else)?\n3. They have Telegram access.\n\nThis is a legitimate question about earning opportunities. I should be helpful but honest:\n\n- Mining crypto in Russia: legal to mine for personal use? Actually, as of Nov 1, 2024, Russia legalized industrial mining with registration (Rosknaznachestvo register), and from April 2025 there's advertising ban. Mining is legal in Russia now with registration; personal mining for own account within energy limits is allowed without registration (limits were set — households with consumption under 6000 kWh/month can mine without registering). Actually the law: from November 1, 2024, mining is legal; individual miners can mine without registration if their energy consumption doesn't exceed 6,000 kWh/month (proposed limit). There are also regional restrictions (Irkutsk, North Caucasus, etc. from Dec 2024/Jan 2025, and bans in some regions in summer). Crypto trading is not banned; using foreign exchanges is restricted but P2P works. Cross-border crypto payments were allowed experimentally for foreign trade from Sept 2024.\n\n- A spare laptop for mining is mostly unprofitable: laptop GPUs are weak, electricity costs in Russia (~5-6 rubles/kWh) still make laptop mining marginal or loss-making. Alternative: earn crypto via other means (freelance paid in crypto, airdrops, faucets — negligible, testing nodes, renting GPU via Vast.ai etc.), but \"local AI\" doesn't earn crypto. I should be honest: AI on a spare laptop doesn't generate income by itself.\n\n- Trading via me: I cannot execute trades on their behalf. No API access to their broker. I can help with analysis, education, explain how to use T-Investiitsii API (T-Bank has an open API for trading), they could build a bot. Actually T-Invest API exists — a user could write a trading bot in Python using their token. I can help write code. But I must warn about risks: algorithmic trading is risky, most retail traders lose money; I shouldn't promise profits.\n\n- Telegram: they mention it probably because crypto earnings via Telegram (tap games like Hamster Kombat, Notcoin) — those were hyped in 2024, earnings minimal now. Or Telegram bots for trading. I should temper expectations.\n\nI should be careful: no financial advice guarantees, honest risk warnings, but be helpful and concrete. The user is in Rostov-on-Don, Russia.\n\nI could offer to actually build something: e.g., a Python script using T-Invest API for paper trading/signals, or a crypto arbitrage/watch tool, or explain options. I can ask clarifying questions via ask_user to understand what they want: their goal (extra income size), hardware specs of the laptop, risk tolerance, whether they want passive or active.\n\nThe instructions say: when ambiguous, ask via ask_user. But also don't overuse. Here the request is broad with multiple sub-questions. I could answer comprehensively and then ask what direction they'd like to pursue. Actually, a good approach: give an honest overview answer in chat (no need for files), covering:\n\n1. Crypto in Russia — legality status (mining legal with limits/registration, trading not banned but gray area, taxes 13-15% NDFL on crypto income, since 2025 tax code changes; reporting from 2026? Actually law on taxation of crypto signed Nov 2024: NDFL 13-15% for individuals, profit tax 25% for companies, from 2025).\n\n2. Laptop mining — honest math: unprofitable. Show example numbers. Alternatives that actually might work: selling compute (Vast.ai), but modest income; freelance/bounties in crypto; testnets/airdrops (time-consuming, uncertain); Telegram tap games — pennies now.\n\n3. Local AI on laptop — AI doesn't earn money by itself; options: rent GPU for AI inference (sparse), do AI-related freelance. Honest.\n\n4. Trading via me — I can't connect to their broker or execute trades; I don't have access to markets in real-time unless I search the web. I can: help them learn, build a bot with T-Invest API (paper trading sandbox exists), analyze strategies, write signal scripts. Warn about risk. Note that for US/crypto markets Russians face access restrictions (sanctions) — many exchanges block RF users; T-Bank/Sber securities are accessible. Also note I can't guarantee profits; no \"trading on their behalf\" possible — they execute.\n\n5. Telegram — what it's useful for: P2P notifications, bots, signals (careful with scams), CryptoBot wallet, tap games.\n\nThen ask what they'd like: e.g., options via ask_user: (a) build a trading bot for T-Invest sandbox/paper trading, (b) mining calculator for their laptop model, (c) overview of crypto earning methods with a plan, (d) something else.\n\nMaybe I should do some quick research to be current (2026!). Today is 2026-09-28. Things may have changed: e.g., crypto tax reporting, mining rules, regional bans extended, CBDC/ruble, possible legalization of exchanges? In 2025 there was \"experimental legal regime\" expansion; Moscow exchange planned crypto derivatives for qualified investors. Also T-Bank launched crypto investment products? Let me search briefly for current status to avoid outdated info.\n\nI should do a couple of web searches: \"добыча криптовалюты в России 2026 легально\", \"T-Invest API торговый робот\", \"майнинг на ноутбуке выгодно 2026\". Also maybe \"Telegram earn crypto 2026\". Keep it light — 2-3 searches at depth 1-2.\n\nThen craft the answer in Russian, structured, honest. Maybe create a small file with a mining calculator? Probably overkill; but I could build a quick mining profit calculator in Python and run it with their laptop specs — but I don't know specs. Could ask.\n\nBetter plan:\n1. Do 2-3 web searches for current facts (mining legality/limits 2026, taxes, T-Invest API status, laptop mining profitability).\n2. Write a comprehensive answer in Russian.\n3. Use ask_user with concrete next-step options (build paper-trading bot for T-Invest sandbox; mining profitability calc — ask laptop model; crypto-earning plan; help with Telegram-related).\n\nActually, ask_user is meant to be used before proceeding when ambiguous. Here I can answer the general questions and then ask which concrete path to pursue. That fits: answer + one ask_user with 3-4 options.\n\nLet me think about what I know as of training and what needs verification:\n\nMining in Russia:\n- Federal law 221-FZ of 08.08.2024, effective 01.11.2024: mining legalized; registered miners (IP/legal entities) in Rosreestr (Federal Tax Service register actually — FNS register of miners). Individuals can mine without registering if within energy consumption limit set by government. The limit: 6,000 kWh/month per household (Decree). Regional bans: from 01.12.2024 in 10 regions mining banned (North Caucasus republics, LNR/DNR, etc.); Irkutsk region south districts ban from 01.01.2025; Baikal regions seasonal bans in winter? Actually restrictions: Irkutsk, Buryatia, Transbaikal banned from 15.01 to 15.04? Something like seasonal restrictions Dec 15–Mar 15 for some regions, and full bans elsewhere. Rostov oblast — I don't think it's in the banned list. Good for the user: Rostov-on-Don not banned.\n- From 01.04.2025? No wait — advertising of crypto and mining banned from 01.04.2025? Hmm, there was law banning ads; effective April 1, 2026? Let me check. Actually law signed 31.07.2025? I recall \"запрет рекламы криптовалют\" entering force... There was a law adopted in July 2025 banning advertising of crypto services, effective... I think 1 April 2026? Not sure. Search needed.\n- Taxes: from 01.01.2025, crypto recognized as property; NDFL 13/15% for individuals; profit tax 25% for miners-organizations; can deduct electricity costs if registered. Reporting to FNS.\n- Cross-border payments under EPR (experimental legal regime) from 26.11.2024 (actually law signed 08.08.2024, effective... EPR for foreign trade from Sept 1, 2024).\n- MOEX: from 2025 planned crypto instruments for quals. In 2025, Mosbirja launched... I believe in June 2025 MOEX launched futures/derivatives on BTC price? Actually there were reports \"Мосбиржа запустила фьючерсы на биткоин-индекс\" for qualified investors mid-2025. Need search.\n\nTrading via T-Bank:\n- T-Invest API (t-invest API) — free, REST/gRPC, sandbox available, streams. Yes, this is real and current. A user can get token, I can help write a Python bot. Trading on MOEX securities from RF is legal for residents (with CFA status - статус квалифицированного инвестора not needed for basic list).\n- I cannot trade for them directly: I have no API keys, no persistent network credentials, and the preview environment... Actually I could run a bot in the sandbox with their token — but sharing secrets in chat is risky; I'd advise them to run locally. Also background processes don't persist across snapshots. I can develop and test with sandbox token, they run it locally.\n\nCrypto for Russians:\n- Bybit/OKX restrictions? Bybit limited RF users in 2024? Actually Bybit announced restrictions for Russian users in Sept 2024? Hmm, there were sanctions on Garantex (banned 2025, seized). Binance left RF in 2023 (sold to CommEX, which then shut down). OKX/Bybit still serve Russians mostly? Bybit in 2025 announced exit for EEA due to MiCA, not RF. HTX etc. P2P works. I shouldn't give overly specific \"how to bypass\" advice; just factual.\n- Telegram Wallet (now \"Wallet\" in Telegram) — supports TON, USDT, BTC, works in RF; CryptoBot — was forced to restrict? CryptoBot (Crypto) stopped serving RF? Hmm, in 2024? I recall CryptoBot disabled RF users? Not sure. TON-based Wallet works.\n\nLaptop mining reality:\n- Even RTX 3060 laptop (~40 MH/s ETH before merge; now on Raven/Kaspa etc.) — after ETH PoS, GPU mining revenue is tiny. On RTX 4060 laptop mining Kaspa/other: maybe $0.1-0.3/day gross before electricity; in RF with cheap electricity (~4.6-6 rub/kWh) might barely exceed electricity but realistically <1000-2000 rub/month gross, and laptop thermals kill it. Honest: not worth it as income; okay as learning.\n- Alternative use of spare laptop: run a node? No rewards mostly. Rent GPU on Vast.ai: gaming laptops not great, but possible ~$0.05-0.15/hr gross for 3060-class — with availability fluctuation, maybe $5-20/month. Marginal.\n- Better: use laptop for learning/AI tasks to earn freelance; or lightweight passive: Honeygain-type traffic sharing (~$5-15/mo) — but that's not crypto necessarily, and legal gray (traffic resale); mention cautiously? Honeygain pays in PayPal/cripto? Honeygain pays in JMPT or PayPal; Russians may struggle with payouts. Maybe skip or mention with caveats.\n\nTelegram earning:\n- Tap games dead for meaningful money. Notcoin/Hamster paid pennies. Stars/bot dev is real: if they can code, Telegram bot development is in demand (paid in rubles or crypto). Also Telegram affiliate/mini-apps.\n\nHonest framing about me trading: I can't access their broker; I can't guarantee profits; I can build tools (bots, backtests, screeners), teach, analyze. They make decisions. Warn: 70-90% of day traders lose; no signals channel is reliable; scams abound.\n\nAlso I should note: providing financial \"signals\" isn't something I do reliably; no guaranteed income. Be helpful and constructive with a concrete menu.\n\nPlan:\n1. Quick searches (2-3, depth 1-2): \n   a. \"майнинг в России 2026 правила регионы запрет налог\" \n   b. \"T-Invest API песочница торговый робот 2025\"\n   c. maybe \"майнинг на ноутбуке 2025 доход\" and \"Мосбиржа биткоин фьючерсы 2025\".\n   Let me do a couple in parallel.\n2. Compose answer in Russian: sections (Законно ли / Крипта: реальные варианты / Ноутбук+ИИ: честный расклад / Торговля через меня: что могу и что нет / Telegram). Keep it tight but informative.\n3. ask_user with next-step options.\n\nShould I ask_user first before searches? The user's question is answerable directly; options come after. I'll answer then ask.\n\nLet me be careful with numbers and cite sources where searched. Use Russian language throughout.\n\nSearch 1: майнинг в России 2026 легально лимиты регионы\nSearch 2: T-Invest API торговый робот песочница\nSearch 3: доход майнинга на видеокарте ноутбука 2025/2026\nSearch 4 (maybe): фьючерсы на биткоин Мосбиржа для неквалов 2026\n\nI'll run first two in parallel, then decide.\n\nActually also relevant: from 2026, changes? \"Закон о майнинге рекламе криптовалют вступает в силу\" — the advertising ban law (468-FZ? no...) signed in late 2025, effective... I recall the State Duma passed law banning crypto ads in July 2025, effective 1 April 2026? Hmm. Or November 2025. Search will tell.\n\nAlso the 6000 kWh limit — was it adopted? Government decree set the threshold... In early 2025 the government set limit 6000 kWh/month? I think the decree (Постановление) set it at 6,000 kWh/month for unregistered individuals. Verify via search.\n\nAlso from 01.01.2026? There was news: \"с 1 января 2026 майнеры-физлица обязаны...\"? There were discussions to force individuals to register via energy limits. Also new: bans extended in 14 regions until 2031 (March 2025 government decree). Rostov not included I believe. Verify quickly.\n\nLet me do the searches now. Depth 2 for the mining one, depth 1 for others to save context.\n\nAfter that, write the final answer + ask_user.\n\nOne more consideration: The user asks \"Возможно ли с помощью тебя торговать на бирже\" — clarify what I can't do (no direct execution/credentials), what I can (build bots with T-Invest API, backtests, education, web research). Offer concrete build: Python bot skeleton for T-Invest sandbox with paper trading, or a simple strategy backtest on historical data. That's a real deliverable I can produce in workspace. If they choose, next turn I build it.\n\nAlso mention: I don't have real-time market data feeds built in, but can fetch pages/search when needed; for a bot, the API provides data.\n\nRisk warnings: honest, brief, not preachy.\n\nTelegram: mention Wallet/CryptoBot status? Careful with uncertain facts. I might search quickly \"CryptoBot Россия 2025\" too... To limit searches, I can keep Telegram section general: P2P через Telegram-боты распространён, но риски блокировок/скама; tap-игры почти не приносят денег теперь. Maybe verify CryptoBot RF status quickly in same parallel batch. Eh — I'll include one combined search.\n\nLet me execute.\n\nSearch plan (parallel):\n1. web_search depth 2: \"майнинг криптовалюты в России 2026 лимит 6000 кВт регионы запрет налоги физлица\"\n2. web_search depth 1: \"T-Invest API торговый робот песочница Python\"\n3. web_search depth 1: \"майнинг на игровом ноутбуке 2025 сколько можно заработать\"\n4. web_search depth 1: \"Мосбиржа фьючерсы на биткоин неквалы 2025 Т-Банк криптовалюта продукт\"\n\nThat's 4 searches; fine. Then answer + ask_user.\n\nLet me draft the answer structure in Russian:\n\n**Коротко**: да, варианты есть, но без иллюзий: ноутбук-майнинг почти не приносит денег, «ИИ, который сам зарабатывает» — миф, торговлю я вести за вас не могу, но могу написать бота/обучить.\n\n1. **Что законно в РФ (2026)**: майнинг легален (закон 221-ФЗ): физлицам без регистрации до 6000 кВт·ч/мес (Ростовская область не в списке запрещённых регионов — проверить), налоги 13–15% НДФЛ, с 2025 крипта — имущество; торговля не запрещена, но платёжным средством внутри РФ крипту использовать нельзя; реклама крипты с апреля 2026 запрещена (уточнить). Мосбиржа — фьючерсы на биткоин-индекс для квалов (уточнить, может расширили).\n\n2. **Ноутбук как майнер — честная математика**: пример RTX 4060 Laptop: ~$0.1-0.2/сутки до электричества; ~300–500 руб/мес минус свет; и риск убить ноутбук (термопакет). Вывод: как заработок — нет; как «пощупать» — да. Локальный ИИ: сам по себе денег не приносит; варианты: сдавать GPU в аренду (Vast.ai) — копейки; использовать для фриланса/обучения — реальнее.\n\n3. **Реальные способы получить крипту**: фриланс/баунти за крипту (Gitcoin, тестнеты/эйрдропы — долго и без гарантий), продажа услуг за USDT, крипто-обмен P2P (купить за рубли — легально как покупка имущества, налоги при продаже). Партнёрки/рефералки — риски скама.\n\n4. **Торговля через меня**: я не могу подключиться к вашему брокеру и исполнять сделки, не даю «сигналов» и не гарантирую прибыль (80-90% активных трейдеров теряют — cite? maybe FINRA study; can state as common estimate). Что могу: (а) помочь открыть счёт Т-Инвестиции/Сбер (инструкция), (б) написать торгового робота на T-Invest API с песочницей (бумажная торговля), бэктесты стратегий на исторических данных, скринеры, дашборды; вы запускаете локально со своим токеном. (в) обучать: разбор стратегий, риск-менеджмент.\n\n5. **Telegram**: wallet в Telegram, P2P-каналы (риски), мини-аппы — заработок копеечный; если умеешь кодить — разработка Telegram-ботов на заказ — реальный доход (рубли или USDT). Могу помочь сделать бота.\n\nПотом ask_user: с чего начать?\n- Построить бота для песочницы Т-Инвестиций (paper trading)\n- Посчитать доходность майнинга моего ноутбука (спросить модель)\n- План «как получить первые крипто-деньги» (фриланс/эйрдропы)\n- Разобраться с легальной стороной (налоги, отчётность)\n\nOptions max 4 plus custom. Good.\n\nNow searches.\n\nActually let me reconsider Rostov region ban list: The government banned mining in: DNR, LNR, Zaporozhye, Kherson regions, Chechnya, Ingushetia, Dagestan, North Ossetia, Kabardino-Balkaria, Karachay-Cherkessia — from 21.12.2024 to 31.03.2031. Irkutsk region (south) from 01.01.2025 to 31.03.2031. Buryatia, Transbaikal — seasonal (winter). Novoros...) Not Rostov. Also new restrictions Dec 2025? \"с 1 января 2026 запрет в новых регионах...\"? I'll trust search.\n\nElectricity cost Rostov: ~6.5 rub/kWh in 2025 (city with electric stoves ~4.5, without ~6.4). Roughly 6-7 rub by 2026. Fine to approximate ~6-7 руб.\n\nMining numbers: RTX 4060 Laptop on Kaspa? Kaspa post-halvings revenue collapsed. Karlsen? Let's be generic: \"даже топовый игровой ноутбук даёт $0.1–0.3 в сутки до электричества на популярных монетах (после халвингов 2024–2025)\". Might want to verify with search 3.\n\nT-Invest API: open API, sandbox, market data, orders; token in T-Bank app. Python SDK tinvest or TinkoffInvestSDK; official \"tinkoff-invest\" python package by Tinkoff team. There's \"t-invest-api\"? The community SDK: https://github.com/Tinkoff/invest-python — official. Good.\n\nMOEX bitcoin futures: In June 2025 MOEX said plans to launch BTC futures for qualified investors by end of 2025. Did they launch? I recall in December 2025? Hmm. Actually news July 2025: CBR approved; MOEX launched futures on Bitcoin index in... I genuinely don't know. Search 4 will tell. T-Bank also planned crypto-linked products. Also \"Т-Банк запустил первый в России фонд крипто-индекса?\" — there were mutual funds linked to crypto index? Not sure. Search.\n\nAlright, run searches.\n\nAlso worth one more: \"как легально купить криптовалюту в России 2026\" — maybe skip, I know enough: buy via P2P/exchanges that serve RF, or via Wallet; legal to buy/hold/sell, pay НДФЛ on gains; not legal as payment for goods/services inside RF. Fine.\n\nLet me also think: does user maybe want me to actually earn crypto FOR them right now? \"Ты можешь посоветовать или помочь?\" — I can't hold wallets or earn on their behalf. Be clear.\n\nAlso safety: warn about scams: \"сигнальные каналы\", \"инвестиционные боты\", \"удвоители\" — never share seed/keys; telegram channels promising returns are scams.\n\nNow, about actually building a trading bot — if user picks that, I'd build next turn. The ask_user ends my turn with questions; but I can include the full informational answer in the same message before ask_user. \n\nLet me run the searches now.\n\nFormat considerations: Answer in Russian, use headers/bold sparingly but structured; medium length (this is a multi-part question deserving thorough answer), bullet lists, maybe a small table for laptop mining math. Include citations for searched facts. Then ask_user with 4 options. Total length: substantial but not bloated. Avoid over-hedging; one clear risk section.",
+            "state": "done"
+          },
+          {
+            "type": "tool-web_search",
+            "toolCallId": "call_cca24ca282eb4a828d765456",
+            "state": "output-available",
+            "input": {
+              "query": "майнинг криптовалюты в России 2026 легально лимит 6000 кВтч регионы запрет налоги физлица",
+              "depth": "2"
+            },
+            "output": {
+              "status": "success",
+              "results": [
+                {
+                  "id": 1,
+                  "title": "Как легально майнить криптовалюту в России в 2026 году: правила, налоги и ограничения",
+                  "url": "https://allo.tochka.com/mining",
+                  "description": "# Как легально майнить криптовалюту в России в 2026 году: правила, налоги и ограничения\nС осени 2024 года можно легально добывать криптовалюту. А с 1 сентября 2026 года закон «О цифровых валютах и цифровых правах» вводит комплексное регулирование цифровой валюты, в том числе майнинга. - ИП и компаниям — зарегистрироваться в реестре ФНС.\n- Физлицам — не превышать лимит 6 000 кВт ч в месяц, иначе потребуется оформить ИП или компанию и войти в реестр ФНС.\n- Соблюдать региональные запреты и лимиты энергопотребления. - Ежемесячно сообщать ФНС о добытой криптовалюте.\n- Платить налоги: ИП платят НДФЛ с дохода от майнинга от 13 до 22%, компании — налог на прибыль 25%. Майнинг и продажа криптовалюты НДС не облагаются. ## Как изменилось регулирование майнинга\nС 1 ноября 2024 года майнинг криптовалюты в России регулируется  259-ФЗ. Тогда появились правила для майнеров, реестр ФНС, ограничения по потреблению электроэнергии и требования к отчётности. ## Кто может легально майнить\nРазрешено майнить российским юрлицам, ИП и физлицам. Для физлиц есть лимит на потребление энергии — до 6 000 кВт ч в месяц. Если этот лимит превысить, нужно зарегистрировать ИП или ООО. ## Что нужно, чтобы легально майнить\nФизлица без ИП могут майнить без включения в реестр, если расход электроэнергии не превышает 6 000 кВт ч в месяц. При этом доход от майнинга всё равно нужно декларировать и платить с него НДФЛ. **Платить налоги.** Продажа криптовалюты и майнинг не облагаются НДС, нужно платить только налог с прибыли. Доходы от майнинга рассчитываются п о рыночной котировке криптовалюты на дату, когда майнер получил право ею распоряжаться. ИП на общем режиме должны платить налог на доходы физических лиц. С 2025 года для этого налога действует новая пятиступенчатая шкала. #### Ставки НДФЛ с 2025 года\n**Не превышать лимиты электроэнергии.** Пока лимит потребления электроэнергии есть только для физлиц — до 6 000 кВт ч в месяц. При превышении этого лимита нужно зарегистрировать бизнес и подать заявку на вступление в реестр майнинга.",
+                  "pageAge": "Monday, August 31, 2026"
+                },
+                {
+                  "id": 2,
+                  "title": "Криптовалюта в России в 2026 году: закон, покупка, налоги",
+                  "url": "https://cryptoro.ru/blog/kriptovalyuta_v_rossii_v_2026_godu_zakon_pokupka_nalogi/",
+                  "description": "# Криптовалюта в России в 2026 году: закон, покупка, налоги\n## Майнинг: кто может добывать криптовалюту легально\nКоротко: майнинг в России легален с 2025 года. Компании и ИП майнят после включения в реестр ФНС, а физлица - без регистрации, если потребляют не больше 6000 кВт·ч в месяц. Майнинг официально разрешён законом (486-ФЗ, действует с 1 января 2025 года) и регулируется отдельно от обычного владения криптовалютой. - **Юридические лица и ИП** занимаются майнингом только после включения в реестр майнеров ФНС.\n- **Физические лица** могут майнить без регистрации, если укладываются в лимит энергопотребления 6000 кВт·ч в месяц. Превысили лимит - нужно регистрироваться как ИП или юрлицо. - **Региональные запреты.** В ряде регионов майнинг ограничен или запрещён - например, в некоторых республиках Северного Кавказа и новых регионах, а также сезонно там, где не хватает энергомощностей.\n- **Спецрежимы недоступны.** Для майнинга нельзя применять УСН, НПД и другие льготные налоговые режимы - только общая система. ## Налоги на криптовалюту\n- **Физические лица и ИП** платят НДФЛ по прогрессивной шкале (в диапазоне 13-22% в зависимости от суммы дохода). Организации платят налог на прибыль.\n- **Доход можно уменьшить** на документально подтверждённые расходы - например, на покупку криптовалюты, оборудование и электроэнергию при майнинге. - **Сроки.** Декларация 3-НДФЛ подаётся до 30 апреля, налог уплачивается до 15 июля следующего года. За 2025 год криптовалютный налог физлица впервые платят в 2026 году. ## Частые вопросы\nЗапрещена ли криптовалюта в России?\n\nНет. Владеть, покупать и продавать криптовалюту законно. Запрещено использовать её как средство оплаты товаров и услуг внутри страны.\n\n Криптовалюта не является законным платёжным средством в России, поэтому принимать её как оплату внутри страны нельзя.\n\nЛегален ли майнинг? Компании и ИП майнят после включения в реестр, а физические лица - в пределах установленного лимита энергопотребления.\n\nНужно ли платить налог с криптовалюты?\n\nДа, доход от продажи облагается налогом. Криптовалюта считается имуществом, налог платится с прибыли. ## Источники\n1. Федеральный закон от 31.07.2020 № 259-ФЗ «О цифровых финансовых активах и цифровой валюте».\n2. Федеральный закон от 29.11.2024 № 418-ФЗ о налогообложении операций с цифровой валютой и майнинга; статья 282.3 НК РФ.",
+                  "pageAge": "Monday, July 20, 2026"
+                },
+                {
+                  "id": 3,
+                  "title": "Закон о майнинге в России: что важно знать компаниям осуществляющим майнинг",
+                  "url": "https://promminer.ru/blog/analiz-rynka/razreshen-li-mayning-v-rossii/",
+                  "description": "# Законодательство о цифровой валюте для компаний, осуществляющих майнинг\nС 2025 года закон о майнинге устанавливает строгий порядок — добыча для юридических лиц и ИП разрешена только после официальной регистрации. **Физические лица обязаны зарегистрироваться в** **МайнингРеестре, только если потребление электроэнергии их майнинг-оборудованием превышает 6000 кВт·ч в месяц.** Минцифры, региональные власти и налоговая контролируют рынок: отслеживают энергопотребление, места установки техники, источники и объемы поступления цифровой валюты.\n\n Специальных сниженных налоговых ставок для майнинга не предусмотрено, налоги уплачиваются в соответствии с общей системой налогообложения. ## Федеральный закон о майнинге: ключевые положения ФЗ-221 и изменения в 2025 году\nС 2025 года действует ФЗ-221, определяющий правила для всех майнеров: юридических лиц, ИП, граждан. Для легального майнинга нужно попасть в реестр Минцифры, указав адрес оборудования, паспортные данные и расчетную мощность. ## Законно ли заниматься майнингом криптовалют в РФ: правовой статус и требования\n- Компании и ИП обязаны быть внесенными в реестр майнеров. **Для граждан РФ регистрация обязательна только в случае превышения лимита энергопотребления в 6000 кВт·ч в месяц.** Добыча без обязательной регистрации — прямое нарушение, которое влечет штрафы и конфискации. Контроль ведет федеральный закон о майнинге в России и налоговые органы. При проверке все несоответствия приводят к блокировке фермы и начислению долгов по налогам. ## Регистрация майнеров: реестр Минцифры, правила для ИП, юрлиц и физлиц\nКритерии — не превышать лимит энергопотребления: для физлиц — бытовой, для ИП и компаний — по договору с энергосбытом. ## Налогообложение майнинга: ставки, декларации и освобождение от НДС\nВсе обязаны ежегодно подавать декларации, подтверждая доходы с майнинга.\n\nПродажа и обмен цифровой валюты через одобренные платформы освобождаются от НДС. Если майнер не подал сведения, ФНС доначисляет налоги и взыскивает штраф. Доходы за рубежом считаются по курсу на день сделки и тоже декларируются. | Кто  | Ставка  | Декларация  | НДС  |\n| --- | --- | --- | --- |\n| Юрлицо  | 25% прибыли  | Квартал  | Нет  |\n| ИП, физические лица  | 13-22 %  | Раз в год  | Нет  | ## FAQ\n**Запрещен ли майнинг в РФ?** В целом по РФ разрешен, но регионы вправе временно запретить установку или наложить лимит.\n\n**Когда обязательна регистрация?** Для компаний и ИП — всегда. Для физических лиц — при превышении лимита энергопотребления в 6000 кВт·ч в месяц. **Какие налоги платят майнеры?** 20% (юрлицо), 6%/15% (ИП), 13-15% (граждане). Обмен через одобренные сервисы — без НДС."
+                },
+                {
+                  "id": 4,
+                  "title": "Где в России запрещён майнинг: карта регионов и сроки ограничений",
+                  "url": "https://trustpool.cc/blog/gde-v-rossii-zapreshchen-mayning-karta-regionov/",
+                  "description": "Актуальная карта регионов России, где запрещён или ограничен майнинг в 2026 году. Постоянные и сезонные запреты, сроки действия, лимит 6000 кВт·ч и ссылки на документы. # Где в России запрещён майнинг: карта регионов и сроки ограничений\n## Главные правила игры: лимиты и реестры\n- юридические лица и индивидуальные предприниматели (ИП) — они обязаны регистрироваться в специальном реестре Федеральной налоговой службы (ФНС);\n- физические лица без статуса ИП — они имеют право добывать криптовалюту без регистрации, но только в пределах установленного лимита энергопотребления. Лимит потребления электричества для физлиц составляет ровно 6000 кВт·ч в месяц. Это требование закреплено в 259-ФЗ и Постановлении Правительства РФ № 1469 от 01.11.202 4. Если вы выходите за этот предел, закон обязывает вас зарегистрировать ИП и подать заявление на вступление в реестр ФНС. ## Полные круглогодичные запреты: где нельзя майнить вообще\n### Где запрещён майнинг в Москве, Подмосковье и Курской области\nС 15 августа 2026 года майнинг запрещается на всей территории Москвы и Московской области. Ограничение будет действовать до 31 декабря 2032 года с возможностью последующего продления. ## Что по итогу\n**Где в России запрещён майнинг в 2026 году?**\n\nВ 2026 году майнинг запрещён или ограничен в ряде регионов России. Полный запрет действует в Дагестане, Ингушетии, Кабардино-Балкарии, Карачаево-Черкесии, Чечне. Также ограничения введены на отдельных территориях Иркутской области, Бурятии и Забайкальского края. **Есть ли полный запрет майнинга по всей России?**\n\nНет, полного запрета майнинга по всей России нет. Майнинг разрешён, если майнер соблюдает требования закона: для юрлиц и ИП — регистрация в реестре ФНС, для физлиц — лимит энергопотребления до 6000 кВт·ч в месяц. Но в отдельных регионах действуют территориальные запреты. Да, физическое лицо может майнить без регистрации в реестре ФНС, если потребление электроэнергии не превышает 6000 кВт·ч в месяц и регион не находится под запретом. Если лимит превышен, нужно регистрировать ИП и вступать в реестр майнеров. Для физических лиц установлен лимит 6000 кВт·ч в месяц. Если домашняя ферма потребляет больше, майнер должен оформить ИП и зарегистрироваться в специальном реестре ФНС.",
+                  "pageAge": "Tuesday, August 04, 2026"
+                },
+                {
+                  "id": 5,
+                  "title": "Майнинг в 2025: запреты по регионам и правила легальной работы",
+                  "url": "https://ibmm.ru/news/kriptoindustriya/ogranicheniya-na-mayning-v-rossii-gde-zapreshcheno-i-kak-rabotat-legal-no/",
+                  "description": "# Ограничения на майнинг в России: где запрещено и как работать легально\n## Где действует запрет на добычу криптовалют\nС января 2025 года майнинг запрещён в некоторых субъектах РФ. Ограничения действуют на определённые периоды: с 1 января по 15 марта 2025 года, а с 2026 года — ежегодно с 15 ноября по 15 марта. ## Энергетические нормы и лимиты\n1. **Почему вводятся ограничения** — в регионах с недостаточной инфраструктурой массовое подключение майнингового оборудования может привести к перегрузке сетей и нарушению энергоснабжения для населения и предприятий.\n2. **Ограничения по мощности** — в жилых массивах часто действуют лимиты на подключение нагрузки. Превышение допустимого объёма энергопотребления (например, при скрытом размещении майнеров в квартирах или частных домах) расценивается как нарушение.\n3. **Последствия нарушений** — за превышение лимитов или незаконное подключение предусмотрены штрафы, принудительное отключение от сетей, а в ряде случаев — конфискация оборудования. ## Дополнительные требования и ограничения\n- **Юридические лица и ИП** должны быть зарегистрированы в МайнингРеестре, ежемесячно подавать отчёты в ФНС и уплачивать налоги.\n- **Физлица** могут майнить без регистрации в реестре, но только при энергопотреблении до 6000 кВт·ч в месяц (в среднем это 2 майнера). При этом они также обязаны сдавать отчётность и платить НДФЛ по ставке от 13% до 22%. ## Как соблюдать закон при майнинге\n1. Зарегистрироваться в реестре (для ИП и юрлиц) и сдавать отчётность в ФНС.\n2. Физлицам — не превышать лимит по потреблению и отчитываться о доходах от майнинга.\n3. Соблюдать территориальные и энергетические ограничения.\n4. Использовать только легально ввезённое оборудование с уплатой всех пошлин.",
+                  "pageAge": "Friday, May 23, 2025"
+                }
+              ]
+            }
+          },
+          {
+            "type": "tool-web_search",
+            "toolCallId": "call_7020a86a666c42d2af742502",
+            "state": "output-available",
+            "input": {
+              "query": "T-Invest API торговый робот песочница Python Т-Банк",
+              "depth": "1"
+            },
+            "output": {
+              "status": "success",
+              "results": [
+                {
+                  "id": 1,
+                  "title": "docs: база знаний — T-Invest API, Python SDK, Python 3.14+, трейдинг by arena-ai-coding-agent[bot] · Pull Request #1 · Loliconus/Red-Bot-Investment-",
+                  "url": "https://github.com/Loliconus/Red-Bot-Investment-/pull/1",
+                  "description": "# docs: база знаний — T-Invest API, Python SDK, Python 3.14+, трейдинг - #1\n## Дальше\n### Uh oh!\n```\nИсследование четырёх тем перед началом разработки торгового робота:\n\n- docs/research/01-tinvest-api.md — gRPC API: контуры, токены, идентификаторы\n  (instrument_uid вместо FIGI), типы данных, формулы стоимости, заявки и\n  идемпотентность, торговые статусы, стримы, лимиты, коды ошибок, песочница\n- docs/research/02-tinvest-python-sdk.md — пакет t-tech-investments, миграция\n  на t_tech.invest.grpc, request-модели, utils для денег, каноны из AGENTS.md\n  и SKILL.md официального репозитория\n- docs/research/03-python-314-plus.md — PEP 649/750/734/779/784 (3.14) и\n  661/728/747/798/799/810/814/686 (3.15), туллинг 2026, типизация, структура\n- docs/research/04-trading-guides.md — бэктест без переобучения (DSR, PBO, CPCV,\n  walk-forward), метрики, сайзинг, AFML, пять слоёв риска, специфика MOEX и\n  налогообложения РФ\n- docs/research/05-red-bot-blueprint.md — целевая архитектура, контракты,\n  стек и дорожная карта из 7 этапов\n- AGENTS.md — обязательные правила репозитория для coding-агентов\n- .gitignore — включая запрет на коммит токенов и .env\n\nCo-authored-by: arena-agent <297053741+arena-agent@users.noreply.github.com>\n```"
+                },
+                {
+                  "id": 2,
+                  "title": "Начало работы",
+                  "url": "https://developer.tbank.ru/invest/intro/intro",
+                  "description": "# Начало работы\n## Что такое T-Invest API\nT-Invest API — это gRPC-интерфейс для взаимодействия с торговой платформой Т-Инвестиции. Все данные, предоставляемые T-Invest API, бесплатные. - Выставлять все виды торговых поручений на биржи — лимитные, рыночные, стоп-заявки.\n- Получать рыночные данные, в том числе исторические, в виде стриминга и через Unary-запросы.\n- Получать информацию по своему портфелю и его доходности.\n- Проверять алгоритмы торговли на исторических данных. Механизм проверки теорий разрабатывается клиентом самостоятельно. ## С чего начать\n- Для работы с InvestAPI клиенту необходимо открыть брокерский счет и пройти идентификацию (т.е. встретиться с представителем при получении дебетовой карты).\n- Ознакомиться с идентификаторами торговых инструментов.\n- Выбрать подходящий протокол взаимодействия и язык программирования. Для некоторых разработаны SDK для упрощения разработки: Python, Java, С#, Golang, Kotlin, JS.\n\n- Изучить термины и параметры, которые используются в методах T-Invest API. ## Адреса сервиса T-Invest API\n- Prod-контур для вызова методов — **invest-public-api.tbank.ru:443**.\n- Песочница — **sandbox-invest-public-api.tbank.ru:443**. ## SDK для разработки с использованием Public API\nДля упрощения разработки торгового робота разработан ряд официальных и неофициальных SDK для нескольких языков программирования.\n\n- Python\n- Java\n- C#\n- Golang\n- Kotlin\n- JS\n\n- Что такое T-Invest API\n- С чего начать\n- Адреса сервиса T-Invest API\n- Protobuf-файлы сервиса\n- SDK для разработки с использованием Public API"
+                },
+                {
+                  "id": 3,
+                  "title": "Токен",
+                  "url": "https://developer.tbank.ru/invest/intro/intro/token",
+                  "description": "# Токен\n## Виды токенов\nВ T‑Invest API есть несколько видов токенов с разным набором прав — вы можете выпустить несколько токенов для решения разных задач алгоритмической торговли или мониторинга рынка ценных бумаг. - **Read-only token** — токен для получения информации: например, состояние портфеля, расписание торгов различных торговых площадок, текущие котировки, исторические данные. С этим типом токена нельзя выставлять торговые поручения.\n- **Full-access token** — токен для работы со всеми методами T‑Invest API. Это основной тип токена для реальной работы с API. - **Sandbox token** — токен для работы с песочницей. Песочница — это эмуляция работы торговых площадок, основанная на реальных данных, но не ведущая к изменению состава портфеля или баланса вашего счета. Токен предназначен для тестирования вашего робота и проверки работоспособности всех алгоритмов. Если использовать этот токен для обычных методов и стримов, вернется ошибка. ## Получить токен\n1. Перейдите в настройки профиля Т‑Инвестиции и авторизуйтесь в системе, если это требуется. Функция **Подтверждение сделок кодом** должна быть отключена. Сделки на сумму более 30 000 000 рублей требуют подтверждения и недоступны через API.\n2. Выпустите токен T‑Invest API для биржи и/или песочницы. Возможно, система попросит вас авторизоваться еще раз — это нужно для подключения робота к торговой платформе."
+                }
+              ]
+            }
+          },
+          {
+            "type": "tool-web_search",
+            "toolCallId": "call_6489d927ebb84d8797e6c269",
+            "state": "output-available",
+            "input": {
+              "query": "сколько можно заработать майнинг на игровом ноутбуке видеокарте 2025 2026",
+              "depth": "1"
+            },
+            "output": {
+              "status": "success",
+              "results": [
+                {
+                  "id": 1,
+                  "title": "Майнинг на ноутбуке в 2026 году: особенности майнинга криптовалюты с помощью ноутбука, программы и окупаемость",
+                  "url": "https://profinvestment.com/mining-notebook/",
+                  "description": "# Майнинг на ноутбуке в 2026 году: особенности добычи криптовалюты с помощью ноутбука, программы и окупаемость\n## Какие ноутбуки подходят для майнинга\n### Пример расчета доходности, прибыли, ROI для ноутбука Asus ROG G703GI\nНаибольшая доходность получается при майнинге на алгоритмах DaggerHashimoto, BeamV2, GrinCuckatoo31. Приблизительный доход от майнинга за день: $0.68/день. Вывод: приблизительная прибыль при майнингу на ноутбуке Asus ROG G703GI с помощью видеокарты Nvidia GeForce GTX 1080 и процессора Intel Core i7-8750H составит $0,48. ## Пример расчета для случайной конфигурации\nПриблизительная доходность $0.24/день, прибыль при стоимости электроэнергии $0.1 составит $0.08. ROI: 15000 дней или 41 год. Если одновременно для майнинга на ноутбуке использовать и процессор и видеокарту, то **прибыль получится $0.42 и срок окупаемости 2857 дней или около 8 лет**. ## FAQ\n#### Сколько можно намайнить на ноутбуке?\nЗависит от мощности и от выбранной валюты; рассчитайте при помощи калькуляторов майнинга свои данные. В среднем потенциальная прибыль оценивается в 2-6 $ в сутки.",
+                  "pageAge": "Friday, December 26, 2025"
+                },
+                {
+                  "id": 2,
+                  "title": "Майнинг на ноутбуке в 2026 году ― как начать майнить криптовалюту дома, сколько можно заработать на домашнем ноутбуке",
+                  "url": "https://crypto.ru/mayning-na-noutbuke/",
+                  "description": "# Майнинг на ноутбуке в 2026 году\n## Доходность майнинга на ноутбуке\nОсновная цель людей, которые хотят заниматься добычей криптовалют — заработок. Поэтому начинающих майнеров волнует вопрос «Сколько можно заработать». Доходность криптодобычи на ноутбуке будет маленькой. Это связано с низкой мощностью оборудования. Единственный метод заработать больше — дополнительно подключить видеокарты внешнего типа. ### Пример расчета\n- **Цена 1 кВт/ч электроэнергии** — ₽5.\n- **Ноутбук** — Acer Nitro 5 AN515-45-R671 (видеокарта NVIDIA GeForce RTX 3080).\n- **Стоимость устройства** — ₽85 тысяч. Такая конфигурация будет приносить в среднем ₽5,83 (на сервисе NiceHash). Заработок указан за вычетом расходов на электричество.\n\nРасчет доходности для NVIDIA GeForce RTX 3080\n\nНамайнить за месяц получится около ₽238,71 руб. Использовать ноутбук для добычи криптовалют нецелесообразно. ## Часто задаваемые вопросы\nСо встроенным графическим чипом? На 95% ноутов они стоят. Да он же расплавится после двух недель. Обычного ноутбука недостаточно для добычи. Ни CPU, ни GRU. Здесь без шансов, мощь у сети уже неподъемная для десктопной техники. А шустрые геймерские ноуты с дискретками жалко убивать. Там окупаемость за 59 л… за никогда.",
+                  "pageAge": "Thursday, March 26, 2026"
+                },
+                {
+                  "id": 3,
+                  "title": "Как майнить на видеокарте — пошаговая инструкция и доход в 2026 году — Сервисы на vc.ru",
+                  "url": "https://vc.ru/services/2809454-kak-vygodno-majnit-na-videokarte-v-2026-godu",
+                  "description": "# Как майнить на видеокарте — пошаговая инструкция и доход в 2026 году\n## Сколько можно заработать на майнинге в 2026 году\n**Пример расчёта**\n\nДопустим:\n\n- доход — 3–5 долларов в день\n- электричество — 1–2 доллара\n\nЧистая прибыль — около 1–3 долларов в день. {\"text\":\"Для этого формируются блоки. Майнеры: За это сеть выплачивает награду — криптовалюту. Но он изменился. Сегодня всё зависит от: В 2026 году основной фокус сместился на альткоины. Это проекты, где: Именно поэтому майнинг 2026 — это поиск баланса между текущей доходностью и будущей ценой актива. Короткий ответ — иногда. Это основная статья расходов. В первую очередь — видеокарта. Подходят современные модели: Чем выше производительность — тем выше потенциальный доход. Кроме GPU, потребуется: Для старта достаточно обычного ПК с одной видеокартой. Доход с одной видеокарты. Но это усреднённые значения. Пример расчёта Допустим: Чистая прибыль — около 1–3 долларов в день. Что влияет на доход Ключевые факторы: Реальность. Майнинг — это не «пассивный доход без усилий». Это процесс, где нужно: 👉 Поэтому доход от майнинга всегда плавающий, а не фиксированный. Есть три основных сценария: 👉 На практике большинство выбирает обменники. Сервис делает упор на простоту: Это особенно важно для тех, кто только начал разбираться, как начать майнить и уже получил первую прибыль. NiceHash. PhoenixMiner. GMiner. Стабильный и универсальный вариант. lolMiner. Кому подходит Тем, у кого: Кому не подойдёт. Альтернатива. Вывести BTC\"}",
+                  "pageAge": "Monday, March 23, 2026"
+                }
+              ]
+            }
+          },
+          {
+            "type": "tool-web_search",
+            "toolCallId": "call_b1c08967cbb244c2a63d5ea9",
+            "state": "output-available",
+            "input": {
+              "query": "Мосбиржа фьючерсы на биткоин для неквалифицированных инвесторов 2025 2026",
+              "depth": "1"
+            },
+            "output": {
+              "status": "success",
+              "results": [
+                {
+                  "id": 1,
+                  "title": "С 18 ноября 2025 года Московская биржа запускает фьючерсы на индексы биткойна и эфира. Узнайте о новых возможностях для инвесторов! Пост опубликовал Pashatriprocenta 2025-11-18 11:52",
+                  "url": "https://www.tbank.ru/invest/social/profile/Pashatriprocenta/362f5511-c317-4d86-8a01-465fbf8473ea/",
+                  "description": "С 18 ноября 2025 года Московская биржа запускает фьючерсы на индексы биткойна и эфира. Узнайте о новых возможностях для инвесторов! # {$BTZ5} Московская биржа начинает торги фьючерсами на\nиндексы биткоина и эфира 18 ноября 2025 года Московская биржа начнет торги расчетными фьючерсными контрактами на индексы биткоина (MOEXBTC) и эфира (MOEXETH). Инструменты будут доступны только квалифицированным инвесторам. Фьючерсы на индексы биткоина и эфира откроют дополнительные возможности участия в движении цен криптовалют с наибольшей капитализацией. Новые инструменты расчетные и не предполагают поставки цифровой валюты. С 18 ноября инвесторам будут доступны три месячные серии с исполнением в декабре 2025 года, январе и феврале 2026 года: BTC-12.25 (BTZ5), BTC-1.26 (BTF6), BTC-2.26 (BTG6) ETH-12.25 (EHZ5), ETH-1.26 (EHF6), ETH-2.26 (EHG6) Спецификация контрактов",
+                  "pageAge": "Tuesday, November 18, 2025"
+                },
+                {
+                  "id": 2,
+                  "title": "Торги фьючерсами на биткоин: что запускает Мосбиржа, как действовать инвесторам",
+                  "url": "https://iz.ru/1897831/2025-06-04/na-mosbirze-startuut-torgi-fucersami-na-bitkoin-cto-nuzno-znat",
+                  "description": "# На Мосбирже стартуют торги фьючерсами на биткоин. Что нужно знать\nМосбиржа 4 июня запускает торги фьючерсами на биткоин. К операциям с этим новым финансовым инструментом допустят только квалифицированных инвесторов. СПБ Биржа также готовится к старту торгов расчетными фьючерсами, привязанными к стоимости криптовалют. ## Биткоин в России\n• В качестве эксперимента ЦБ предложил разрешить ограниченному кругу инвесторов покупать и продавать криптовалюты в рамках специального правового режима, который будет действовать три года. **Стать участниками эксперимента могут «особо квалифицированные» инвесторы**. Это новый статус, который получат граждане с инвестициями в ценные бумаги и депозитами свыше 100 млн рублей или если их доходы за предыдущий год составили больше 50 млн рублей. • После того как ЦБ озвучил это предложение, в Минфине заявили, что рассматривают две российские биржи в качестве участников эксперимента по торговле криптовалютой. В итоге квалифицированным инвесторам разрешили вкладывать деньги в деривативы — производные финансовые инструменты и ценные бумаги, которые будут привязаны к стоимости криптовалют. ## В чем особенность фьючерсов на биткоин\n• Так как Центробанк рассматривает криптовалюту лишь как инвестиционный, а не платежный инструмент, то **расплачиваться ей в России будет нельзя**. Вкладываться же во фьючерсы сможет только ограниченный круг инвесторов, обладающих должной квалификацией, в то время как доступ к традиционным финансовым инструментам (акции, облигации, золото) имеют все физические лица.",
+                  "pageAge": "Monday, January 19, 2026"
+                },
+                {
+                  "id": 3,
+                  "title": "Мосбиржа планирует начать торговать криптовалютой с 2027 года — платформа уже готовит необходимую инфраструктуру",
+                  "url": "https://rb.ru/news/mosbirzha-planiruet-nachat-torgovat-kriptovalyutoj-s-2027-goda-platforma-uzhe-gotovit-neobhodimuyu-infrastrukturu/",
+                  "description": "# Мосбиржа планирует начать торговать криптовалютой с 2027 года — платформа уже готовит необходимую инфраструктуру\n## Фьючерсы на биткоин и Ethereum торгуются на Мосбирже с 2025 года\nПо словам Швецова, площадка ориентируется на российских инвесторов, которые рассматривают криптовалюту как инвестиционный инструмент. По оценке Банка России, первые сделки в легальном поле могут пройти уже во втором полугодии 2026 года. С ноября 2025 года на Московской бирже уже торгуются фьючерсы на индексы Bitcoin и Ethereum. Доступ к ним открыт только для квалифицированных инвесторов. ## Правительство одобрило законопроекты о регулировании криптовалют в конце марта 2026-го\nСергей Швецов уточнил, что операции с криптовалютами запустят сразу после вступления закона в силу. Ранее он говорил, что инфраструктура для таких сделок будет готова к концу 2026 года. ## Использовать криптовалюту для оплаты всё ещё нельзя.\nСогласно законопроекту, использование криптовалюты в качестве средства платежа в России всё ещё запрещено.\n\nКвалифицированные инвесторы смогут покупать цифровые валюты без ограничений, а неквалифицированные — только из перечня Банка России и в пределах 300 тыс. рублей в год через одного посредника.\n\nДля всех инвесторов будет обязательным прохождение тестирования на понимание механизмов работы инвестиций.",
+                  "pageAge": "Thursday, April 16, 2026"
+                }
+              ]
+            }
+          },
+          {
+            "type": "step-start"
+          },
+          {
+            "type": "reasoning",
+            "text": "Good, I have current info. Key facts:\n\n1. Mining legal in Russia since Nov 1, 2024 (259-ФЗ/221-ФЗ); individuals without registration up to 6,000 kWh/month; tax НДФЛ 13-22%; full bans in North Caucasus republics, new regions; Moscow/MO from Aug 15, 2026 (!); seasonal bans in Siberia. Rostov oblast not in ban lists. New law from Sept 1, 2026 \"О цифровых валютах\" — comprehensive regulation. Also CBR experiment: from H2 2026 \"особо квалифицированные инвесторы\" can trade crypto legally on Russian platforms; неквалы — up to 300k rub/year via intermediary (planned law, end of March 2026 government approved bills).\n\n2. T-Invest API: gRPC, sandbox at sandbox-invest-public-api.tbank.ru, tokens (read-only, full access, sandbox), Python SDK official. \n\n3. Laptop mining: ~$0.2-0.7/day for strong gaming laptops, net profit tiny (e.g., RTX 3080 laptop ~₽5.8/day net ≈ ₽176/month). Not worth killing a laptop.\n\n4. MOEX futures on BTC/ETH indexes since Nov 18, 2025, qualified investors only.\n\nNow write the answer in Russian. Structure:\n\n- Честное резюме\n- 1. Что легально в РФ (крипта): buy/hold/sell legal, mining legal with limits, taxes, payment ban, upcoming experiment. Rostov not banned.\n- 2. Ноутбук + локальный ИИ: honest math, why it's not income; what laptop+AI CAN do (learning, freelance).\n- 3. Реальные пути заработка крипты (ranked by realism): freelance for crypto, airdrops/testnets (uncertain), P2P trade (risk), разработка Telegram-ботов, партнёрки. Scam warnings.\n- 4. Торговля через меня: what I can't do (execute trades, hold money, guarantee profit) vs can do (T-Invest API bot + sandbox, backtests, education, analysis). Risk numbers.\n- 5. Telegram: what's real (Wallet, боты на заказ, портфель), what's not (tap-игры, сигнальные каналы = скам).\n- Then ask_user: 4 options for next step.\n\nKeep it reasonably concise but complete. Use citations for key facts. Cite format [id](url) — note each search result block has its own ids; I should cite carefully with the correct urls. E.g.:\n\n- Mining legal/limits: [1](https://allo.tochka.com/mining), [4](https://trustpool.cc/blog/gde-v-rossii-zapreshchen-mayning-karta-regionov/)\n- Taxes: [2](https://cryptoro.ru/blog/...)\n- Laptop numbers: [1](https://profinvestment.com/mining-notebook/), [2](https://crypto.ru/mayning-na-noutbuke/)\n- T-Invest API: [2](https://developer.tbank.ru/invest/intro/intro), [3](https://developer.tbank.ru/invest/intro/intro/token)\n- MOEX futures: [1](https://www.tbank.ru/invest/social/profile/...), [2](https://iz.ru/...), [3](https://rb.ru/news/...)\n\nSince ids repeat across searches, I'll just use the number-url pairs; format [n](url) as required. Ids may clash but url disambiguates.\n\nRostov: not in the ban lists (bans: Dagestan, Ingushetia, KBR, KChR, Chechnya, new regions; Moscow/MO from Aug 2026; Irkutsk/Buryatia/Zabaikalsky seasonal). I can say \"Ростовская область в списке запретов не значится\" citing the trustpool map article.\n\nNow the ask_user: question \"С чего хотите начать?\" options:\n1. bot_sandbox — «Робот для Т-Инвестиций (песочница)» — напишу Python-бота для бумажной торговли через T-Invest API, будете тестировать без риска.\n2. mining_calc — «Посчитать майнинг на моём ноутбуке» — скажите модель ноутбука/видеокарты, посчитаю честную доходность (нужна модель — custom text).\n3. crypto_plan — «План первых крипто-доходов» — подберу реалистичные способы (фриланс за крипту, баунти, эйрдропы) под ваши навыки.\n4. tg_bot — «Telegram-бот на заказ как заработок» — помогу освоить/сделать бота.\n\nAllow custom response. That's good.\n\nLength: aim for a well-structured answer, maybe ~600-800 words. Russian. No file needed.\n\nOne caution: the user might hope I can trade for them — be clear: no access to broker accounts, and any \"trust management by AI\" promises = scam. Also warn: no guarantee; statistical risk. Also note that bots I write — they run them with their own token; token security.\n\nAlso electricity price Rostov ~ 6-7 руб/кВт·ч; fine to mention approximate.\n\nLet me write the final response now. Use headers (###?) with bold; markdown ok. Include a small table for laptop math maybe. Citations inline.",
+            "state": "done"
+          },
+          {
+            "type": "text",
+            "text": "Отвечу честно и по делу, без розовых очков — по каждому из трёх вопросов. Я проверил актуальную информацию на сегодня (сентябрь 2026).\n\n### 1. Крипта в России: что легально\n\nВладеть, покупать, продавать и майнить крипту в РФ **законно**. Запрещено только одно — расплачиваться ей за товары/услуги внутри страны [2](https://cryptoro.ru/blog/kriptovalyuta_v_rossii_v_2026_godu_zakon_pokupka_nalogi/).\n\n- **Майнинг легален с ноября 2024.** Физлицам — без регистрации, если расход электричества не превышает 6 000 кВт·ч/мес (это ~2 асика, ноутбук и близко не подойдёт) [4](https://trustpool.cc/blog/gde-v-rossii-zapreshchen-mayning-karta-regionov/). Ростовская область в списке запрещённых регионов **не значится** (запреты — Северный Кавказ, новые регионы, Москва с августа 2026, сезонно Сибирь) [4](https://trustpool.cc/blog/gde-v-rossii-zapreshchen-mayning-karta-regionov/).\n- **Налоги:** доход от майнинга и продажи крипты облагается НДФЛ 13–22%, декларация 3-НДФЛ до 30 апреля [1](https://allo.tochka.com/mining).\n- **Важно на горизонте:** с 18 ноября 2025 на Мосбирже торгуются фьючерсы на индексы биткоина и эфира (пока только для квалифицированных инвесторов) [1](https://www.tbank.ru/invest/social/profile/Pashatriprocenta/362f5511-c317-4d86-8a01-465fbf8473ea), а с 2026–2027 запускают легальную торговлю самой криптой — неквалам обещают лимит ~300 тыс. руб/год через российского посредника [3](https://rb.ru/news/mosbirzha-planiruet-nachat-torgovat-kriptovalyutoj-s-2027-goda-platforma-uzhe-gotovit-neobhodimuyu-infrastrukturu/).\n\n### 2. Запасной ноутбук + локальный ИИ: честная математика\n\nПлохая новость: **майнинг на ноутбуке — это не заработок, а утилизация ноутбука.** Типичные цифры 2025–2026:\n\n| Конфигурация | Чистый доход |\n|---|---|\n| Обычный ноутбук (встроенная графика) | ~0 ₽, CPU-майнинг в минус |\n| Игровой с RTX 3080 (NiceHash) | ~5,8 ₽/сутки ≈ **175 ₽/мес** после электричества [2](https://crypto.ru/mayning-na-noutbuke/) |\n| Игровой с GTX 1080 | ~0,4–0,5 $/сутки [1](https://profinvestment.com/mining-notebook/) |\n\nПри этом ноутбук работает на 100% нагрузки круглосуточно, паяные видеочипы в лэптопах умирают первыми. За 175 ₽/мес вы сжигаете железо.\n\n**Локальный ИИ денег сам по себе не приносит** — это правда, которую надо принять. «Запустил нейросеть — она зарабатывает» так не работает. Реальные варианты для ноутбука: сдавать GPU в аренду (Vast.ai — $5–20/мес у топовых карт, нестабильно), или, что лучше, использовать его как рабочую станцию для **фриланса за крипту** (переводы, разметка данных, дизайн, код — оплата в USDT), баунти-программ и тестнетов новых блокчейнов (бесплатно, долго, без гарантий, но бывают попадания).\n\n### 3. Торговля через меня: что могу и что нет\n\n**Не могу:** подключиться к вашему счёту в Т-Банке/Сбере и торговать за вас, давать «сигналы», гарантировать прибыль. Любой, кто обещает ИИ-управление вашим счётом с доходом — 99% скам.\n\n**Могу — и это реально рабочая схема:**\n- У Т-Банка есть открытый **T-Invest API** с бесплатными данными и **песочницей** — эмуляцией биржи на реальных котировках, где сделки не тратят ваши деньги [2](https://developer.tbank.ru/invest/intro/intro). Токены трёх типов, включая отдельный для песочницы [3](https://developer.tbank.ru/invest/intro/intro/token).\n- Я могу **написать вам торгового робота на Python** под этот API: стратегия, бэктест на исторических данных, запуск в песочнице. Вы выпускаете токен в приложении Т-Инвестиции и запускаете бота у себя — ваши ключи остаются только у вас.\n- Когда стратегия покажет себя на бумажной торговле — тот же код переключается на реальный счёт заменой токена. Решения и риски всегда ваши.\n- Плюс могу научить: разбор инструментов, риск-менеджмент, налоги.\n\nТрезвая рамка: по статистике большинство активных частных трейдеров теряют деньги. Поэтому путь «сначала песочница, потом маленькие суммы» — единственный разумный.\n\n### 4. Telegram\n\n- Tap-игры и «заработок в Телеграме» после хайпа 2024-го приносят копейки — не тратьте время.\n- **Сигнальные каналы и «инвестиционные боты» в TG — почти поголовно скам.** Никогда не давайте seed-фразы и не переводите «на удвоение».\n- Реальная история: если умеете (или научитесь) писать **Telegram-ботов на заказ** — это востребованный фриланс с оплатой 5–50+ тыс. руб за проект, можно брать оплату в USDT. Могу помочь освоить или сделать первого бота.\n- Кошелёк Wallet в Telegram работает в РФ — удобен для хранения/переводов небольших сумм (TON, USDT).\n\n---\n\nС чего хотите начать?",
+            "state": "done"
+          },
+          {
+            "type": "tool-ask_user",
+            "toolCallId": "call_2317bc25f74144ebabba38bd",
+            "state": "output-available",
+            "input": {
+              "questions": [
+                {
+                  "id": "next_step",
+                  "question": "Какой вариант разобрать детально и начать делать?",
+                  "options": [
+                    {
+                      "id": "bot_sandbox",
+                      "label": "Торговый робот в песочнице Т-Банка",
+                      "description": "Напишу Python-бота для T-Invest API с бэктестом и бумажной торговлей в песочнице — без риска для денег"
+                    },
+                    {
+                      "id": "mining_calc",
+                      "label": "Расчёт майнинга на моём ноутбуке",
+                      "description": "Назовите модель ноутбука/видеокарты — посчитаю честную доходность с электричеством по ростовским тарифам"
+                    },
+                    {
+                      "id": "crypto_plan",
+                      "label": "План первых реальных крипто-доходов",
+                      "description": "Подберу способы (фриланс за крипту, баунти, тестнеты) под ваши навыки и время"
+                    },
+                    {
+                      "id": "tg_bots",
+                      "label": "Заработок на Telegram-ботах",
+                      "description": "Разберём, как писать Telegram-ботов и брать первые заказы — в рублях или USDT"
+                    }
+                  ],
+                  "allowCustomResponse": true
+                }
+              ]
+            },
+            "output": {
+              "skipped": false,
+              "answers": [
+                {
+                  "questionId": "next_step",
+                  "selectedOptionId": "crypto_plan",
+                  "customResponse": null
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "01a0e6f8-89af-766c-a5f6-549345f4201d",
+        "metadata": {
+          "manifestNodeId": null,
+          "nodeId": "01a0e6f8-89af-766c-a5f6-549345f4201d",
+          "pending": false,
+          "requiresReview": false,
+          "feedback": {}
+        },
+        "role": "user",
+        "parts": [
+          {
+            "type": "data-tool-results",
+            "data": [
+              {
+                "requestNodeId": "01a0e6f4-c80e-735c-9e06-7eaf3985af9a",
+                "tool": "ask_user",
+                "toolCallId": "call_2317bc25f74144ebabba38bd",
+                "output": {
+                  "answers": [
+                    {
+                      "questionId": "next_step",
+                      "customResponse": null,
+                      "selectedOptionId": "crypto_plan"
+                    }
+                  ],
+                  "skipped": false
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "01a0e6f8-ce9a-7344-9fd0-8c4635ca78a6",
+        "metadata": {
+          "timing": {
+            "startedAt": 1790581458107,
+            "completedAt": 1790581466751
+          },
+          "manifestNodeId": null,
+          "nodeId": "01a0e6f8-ce9a-7344-9fd0-8c4635ca78a6",
+          "pending": false,
+          "requiresReview": false,
+          "feedback": {}
+        },
+        "role": "assistant",
+        "parts": [
+          {
+            "type": "step-start"
+          },
+          {
+            "type": "reasoning",
+            "text": "The user chose \"Plan for first real crypto income\" — a plan for realistic crypto earnings (freelance for crypto, bounties, testnets) tailored to their skills and time.\n\nTo make it tailored, I need to know their skills and time availability. I could ask a few quick questions via ask_user: skills (coding? design? languages? no skills yet?), time available per week, do they already have crypto wallet/exchange access, risk tolerance / how soon they need money.\n\nBut maybe I shouldn't over-ask. The ask_user tool guidance says use it to resolve important ambiguities. A tailored plan really depends on skills. Let me ask 3-4 concise questions:\n\n1. Skills: what can you do? Options: programming, design/content, foreign languages, \"no obvious skills yet\" (+custom)\n2. Time per week: <5h, 5-15h, 15h+\n3. Starting capital for crypto: none (only time), small (<5k₽), 5-50k₽, 50k₽+\n4. Goal horizon: quick pocket money vs building steady side income vs long-term investment\n\nThen build a plan document in the workspace (markdown) with concrete steps, platforms, realistic income estimates, legal/tax notes, scam checklist. That would be a good deliverable.\n\nLet me ask these now — keep it to 4 questions with options.",
+            "state": "done"
+          },
+          {
+            "type": "text",
+            "text": "Отлично, делаем план. Чтобы он был не «водянистый», а под вас — ответьте на пару коротких вопросов:",
+            "state": "done"
+          },
+          {
+            "type": "tool-ask_user",
+            "toolCallId": "call_19286eea7aa1499695dc9312",
+            "state": "output-available",
+            "input": {
+              "questions": [
+                {
+                  "id": "skills",
+                  "question": "Что из этого ближе к вашим навыкам? (можно написать свой вариант)",
+                  "options": [
+                    {
+                      "id": "coding",
+                      "label": "Программирование",
+                      "description": "Пишу код (любой уровень) или готов быстро учиться"
+                    },
+                    {
+                      "id": "creative",
+                      "label": "Креатив/контент",
+                      "description": "Дизайн, тексты, видео, SMM, переводы"
+                    },
+                    {
+                      "id": "simple",
+                      "label": "Простые задачи без опыта",
+                      "description": "Тестирую сайты, разметка данных, вводный уровень"
+                    },
+                    {
+                      "id": "english",
+                      "label": "Хороший английский",
+                      "description": "Свободно читаю/пишу на английском или другом языке"
+                    }
+                  ],
+                  "allowCustomResponse": true
+                },
+                {
+                  "id": "time",
+                  "question": "Сколько времени готовы вкладывать?",
+                  "options": [
+                    {
+                      "id": "t_low",
+                      "label": "До 5 часов в неделю"
+                    },
+                    {
+                      "id": "t_mid",
+                      "label": "5–15 часов в неделю"
+                    },
+                    {
+                      "id": "t_high",
+                      "label": "15+ часов в неделю"
+                    }
+                  ],
+                  "allowCustomResponse": true
+                },
+                {
+                  "id": "capital",
+                  "question": "Какой стартовый капитал готовы задействовать (не критичные деньги)?",
+                  "options": [
+                    {
+                      "id": "c_zero",
+                      "label": "Нулевой",
+                      "description": "Только время и ноутбук, без вложений"
+                    },
+                    {
+                      "id": "c_small",
+                      "label": "Небольшой",
+                      "description": "До ~10 000 ₽"
+                    },
+                    {
+                      "id": "c_mid",
+                      "label": "Средний",
+                      "description": "10–100 тыс. ₽"
+                    }
+                  ],
+                  "allowCustomResponse": true
+                },
+                {
+                  "id": "horizon",
+                  "question": "Какая цель ближе?",
+                  "options": [
+                    {
+                      "id": "h_fast",
+                      "label": "Быстрые карманные деньги",
+                      "description": "Первые деньги в течение 1–2 недель"
+                    },
+                    {
+                      "id": "h_side",
+                      "label": "Стабильный подзаработок",
+                      "description": "Постоянный доход параллельно с основной работой"
+                    },
+                    {
+                      "id": "h_long",
+                      "label": "Вырастить с нуля что-то крупнее",
+                      "description": "Готов ждать месяцы ради большего результата"
+                    }
+                  ],
+                  "allowCustomResponse": true
+                }
+              ]
+            },
+            "output": {
+              "skipped": false,
+              "answers": [
+                {
+                  "questionId": "skills",
+                  "selectedOptionId": null,
+                  "customResponse": "Средненький английский, простые задачи. Для кода использую ИИ. Креатив - у меня слабые идеи, советуюсь с ИИ"
+                },
+                {
+                  "questionId": "time",
+                  "selectedOptionId": null,
+                  "customResponse": "Чаще всего я свободен с 5 вечера и до 11 вечера. Но могу делать несколько перерывов по пол часа"
+                },
+                {
+                  "questionId": "capital",
+                  "selectedOptionId": null,
+                  "customResponse": "Небольшой, но запас в минимум 100k есть"
+                },
+                {
+                  "questionId": "horizon",
+                  "selectedOptionId": null,
+                  "customResponse": "Хотелось бы постепенно пойти по нарастающей - увидеть что это работаетя первые деньги. Затем стабильный доход. В перспективе пассивный доход, или минимальные вмешательства (ну ты понял)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "01a0e6fe-9c54-7b05-aa28-6e1ef36d5eb7",
+        "metadata": {
+          "manifestNodeId": null,
+          "nodeId": "01a0e6fe-9c54-7b05-aa28-6e1ef36d5eb7",
+          "pending": false,
+          "requiresReview": false,
+          "feedback": {}
+        },
+        "role": "user",
+        "parts": [
+          {
+            "type": "data-tool-results",
+            "data": [
+              {
+                "requestNodeId": "01a0e6f8-ce9a-7344-9fd0-8c4635ca78a6",
+                "tool": "ask_user",
+                "toolCallId": "call_19286eea7aa1499695dc9312",
+                "output": {
+                  "answers": [
+                    {
+                      "questionId": "skills",
+                      "customResponse": "Средненький английский, простые задачи. Для кода использую ИИ. Креатив - у меня слабые идеи, советуюсь с ИИ",
+                      "selectedOptionId": null
+                    },
+                    {
+                      "questionId": "time",
+                      "customResponse": "Чаще всего я свободен с 5 вечера и до 11 вечера. Но могу делать несколько перерывов по пол часа",
+                      "selectedOptionId": null
+                    },
+                    {
+                      "questionId": "capital",
+                      "customResponse": "Небольшой, но запас в минимум 100k есть",
+                      "selectedOptionId": null
+                    },
+                    {
+                      "questionId": "horizon",
+                      "customResponse": "Хотелось бы постепенно пойти по нарастающей - увидеть что это работаетя первые деньги. Затем стабильный доход. В перспективе пассивный доход, или минимальные вмешательства (ну ты понял)",
+                      "selectedOptionId": null
+                    }
+                  ],
+                  "skipped": false
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "01a0e6fe-e945-7923-a70a-810a5fc3a8b6",
+        "metadata": {
+          "timing": {
+            "startedAt": 1790581857811,
+            "completedAt": 1790581943506
+          },
+          "manifestNodeId": "01a0e6fe-e945-7923-a70a-810a5fc3a8b6",
+          "nodeId": "01a0e6fe-e945-7923-a70a-810a5fc3a8b6",
+          "pending": false,
+          "requiresReview": false,
+          "feedback": {
+            "checkIn": "approve"
+          }
+        },
+        "role": "assistant",
+        "parts": [
+          {
+            "type": "step-start"
+          },
+          {
+            "type": "reasoning",
+            "text": "The user:\n- Skills: средненький английский, простые задачи, для кода использует ИИ (so coding with AI assistance — that's actually a real path now), креатив слабые идеи, советуется с ИИ.\n- Time: свободен 5pm–11pm weekdays (18:00-23:00), может делать перерывы по полчаса.\n- Capital: небольшой для запуска, но запас минимум 100k есть (не критичные деньги).\n- Horizon: постепенно по нарастающей — первые деньги → стабильный доход → пассивный/минимальное вмешательство.\n\nSo I need to build a realistic plan: staged. Realistic options for this profile:\n\n**Stage 1 (первые деньги, 1–2 недели):**\n- Разметка данных / AI-training tasks: Toloka (в РФ Toloka ушёл? Toloka international; для РФ — Яндекс.Толока остаётся как Яндекс Задания для толка... Actually Toloka separated: international Toloka (AI_TUNED) and Яндекс Толока (renamed \"Толока\" in Yandex, now \"Яндекс Задания\"?). For Russians, Яндекс Толока works. Income: 300-1500 руб/день realistically 100-300 руб/час.\n- Баунти/тестнеты — не быстрые деньги, отложить.\n- Фриланс за крипту с средненьким английским: простые задачи на крипто-фриланс биржах (Cryptocurrency Jobs? LaborX (Chronobank) — popular in RU community, pays in crypto; Crypto Jobs List; BitGap?). LaborX — реально популярен, оплата в USDT. Вакансии типа \"разметка\", \"модерация\", \"community manager\" с английским.\n- Продажа услут с ИИ: \"делаю что-то с помощью ИИ\" — например, наполнение сайтов, расшифровка, транскрибация. Для русских площадок — Kwork (оплата рублями, потом обмен на крипту), Profi? Kwork — реальные деньги быстро, но не крипта. Пользователь хочет крипту — но цель может быть broader \"заработок\". Мы договорились про крипто-план. Прагматично: рублёвый доход конвертировать в USDT через P2P/обменники легально (налоги).\n\n**Stage 2 (стабильный подзаработок, 1–3 месяца):**\n- Coding with AI: автоматизация для крипты — Telegram-боты, скрипты для крипто-сообщества, airdrop-инструменты. Брать заказы на LaborX/Kwork: \"сделаю Telegram-бота\" — с ИИ реально среднему человеку собрать простого бота. \n- Community/ambassador roles в крипто-проектах: moderator/support на английском базовом — $200-800/мес part-time. Реально для средненького английского с ИИ-переводчиком.\n- Airdrop farming системно: тестнеты, Galxe quests, Zealy — с капиталом до 10к$ для комиссий; доход не гарантирован, но при системном подходе (несколько аккаунтов нельзя — sybil; честно один) может быть $100-1000 за дроп в удачных случаях.\n\n**Stage 3 (пассив/минимальное вмешательство):**\n- Капитал 100к+ ₽ → инвестирование: консервативно — облигации/фонды через Т-Инвестиции (не крипта, но доходность честная ~15-20% годовых сейчас при ключевой ставке; ключевая в 2026 какая? В 2025 ЦБ снижал с 21% к 17-18%? Надо быть осторожным с цифрами — лучше не называть точную ключевую ставку, или поискать). Крипто-часть: DCA в BTC/ETH небольшими долями (высокий риск, максимум 10-20% портфеля).\n- Стейкинг USDT? В РФ-контексте риски площадок; TON staking через Wallet; DeFi — риски смарт-контрактов. Честно: \"пассивный доход\" с маленького капитала = копейки; главный пассив — это навыки и цифровые активы (боты, каналы).\n- Асеты: продавать шаблоны/ботов (цифровые товары) — минимальное вмешательство.\n\nScam checklist и налоги обязательно. Плюс реалистичные цифры ожиданий.\n\nFormat: документ в workspace (markdown) — план с этапами, конкретные площадки, первые 7 дней шаг за шагом, чеклист безопасности, налоги. Открою через present_file.\n\nНадо ли что-то гуглить ещё? Полезно проверить актуальность: LaborX работает для РФ? Толока/Яндекс Задания ставки? Может, не углубляться слишком — план должен быть практичным. Быстро проверю LaborX и пару крипто-фриланс площадок + Яндекс Задания актуальность. Два быстрых поиска depth 1.\n\nТакже проверю актуальный статус ключевой ставки/депозитов для раздела про капитал? Может не надо — не хочу перегружать. Но раз даю совет про 100к запас — упомяну консервативный вариант без точных ставок, скажу \"уточните актуальные ставки вкладов\" или поищу. Лучше один поиск: \"ключевая ставка ЦБ сентябрь 2026\" чтобы не соврать. Хм, это важно для совета про запас 100к. Сделаю depth 1.\n\nИтого 3 поиска: laborx крипто фриланс отзывы 2026 работает ли, яндекс задания толока заработок 2026, ключевая ставка цб рф сентябрь 2026.\n\nПотом пишу файл plan.md (на русском), презентую. В чате — краткое резюме + первое действие сегодня вечером.\n\nПлан документа:\n\n# План: от первых крипто-рублей к пассивному доходу\n\n## Ваш профиль (что учтено)\n## Этап 0. Подготовка (вечер 1-2): кошельки, безопасность\n- Wallet в Telegram (TON/USDT) для мелочи\n- Non-custodial кошелёк? Для новичка — Wallet + позже OKX?.. Не рекомендую конкретные биржи слишком смело; скажу: централизованная биржа с P2P (Bybit/OKX/HTEX) — аккуратно, просто упомяну что выбор есть, риски санкций. Обменники — BestChange с осторожностью. KYC.\n- Отдельная почта, 2FA, никогда seed.\n\n## Этап 1. Первые деньги (недели 1–4): цель 5–15 тыс ₽\n1. Яндекс Задания/Толока — простые задачи с ИИ-подсказками: 300–800 ₽/вечер? Реалистично: 100–250 ₽/час новичку. \n2. LaborX — крипто-фриланс: разметка, модерация, простые задачи, оплата USDT; средненький английский + ChatGPT/переводчик хватит.\n3. Мелкие крипто-задачки: bounty-платформы? TaskOn, Zealy, Galxe — микро-награды, копейки, но знакомство с экосистемой + заодно подготовка к эйрдропам.\n\n## Этап 2. Стабильный поток (месяцы 2–6): цель 20–60 тыс ₽/мес\n1. Услуга \"человек + ИИ\": Telegram-боты, автоматизация, контент — Kwork (рубли) + LaborX (USDT). Примеры услуг с ценами.\n2. Поддержка/модерация в крипто-проектах (английский базовый): $200–600/мес part-time.\n3. Системный эйрдроп-фарминг: 3–5 ч/нед, тестнеты, без гарантий, бюджет на газ.\n\n## Этап 3. Капитал работает (6+ месяцев): пассив с минимумом вмешательства\n- Подушка во вкладе/накопительном счёте (ставку проверить).\n- Крипто-доля максимум 10–20% от 100к: DCA в BTC/ETH раз в месяц, холодное хранение.\n- Цифровые активы: боты/шаблоны на продажу, реферальные программы честных сервисов.\n- Опционально: Т-Инвестиции (мы можем потом сделать робота).\n\n## Реалистичные цифры (таблица): месяц 1: 5-15к; месяц 3: 15-40к; месяц 6: 30-60к + опцион эйрдропы.\n\n## Риски и скам-чеклист\n## Налоги: НДФЛ 13-22%, крипта — имущество, декларация.\n\n## Чеклист на сегодня (этот вечер): 3 шага.\n\nНапишу это сжато, без воды, конкретно. Файл: plan-kripto-zarabotok.md. Потом present_file.\n\nСначала поиски.",
+            "state": "done"
+          },
+          {
+            "type": "text",
+            "text": "Принял: простые задачи + английский «средненький» + код через ИИ + вечера 17:00–23:00 + запас ~100к ₽. Цель поэтапная: первые деньги → стабильный поток → пассив. Сейчас быстро проверю актуальность площадок, которые собирался предложить, и соберу план в файл.",
+            "state": "done"
+          },
+          {
+            "type": "tool-web_search",
+            "toolCallId": "call_3b633a9a6a184907b402788a",
+            "state": "output-available",
+            "input": {
+              "query": "LaborX крипто фриланс биржа оплата USDT отзывы работает 2025 2026",
+              "depth": "1"
+            },
+            "output": {
+              "status": "success",
+              "results": [
+                {
+                  "id": 1,
+                  "title": "Децентрализованные рынки труда: новая модель крипторынка — Крипто на vc.ru",
+                  "url": "https://vc.ru/crypto/2891967-detsentralizovannye-rynki-truda",
+                  "description": "# Децентрализованные рынки труда: новая модель крипторынка\nРазработчик из Казани получает задание от стартапа из Сингапура. Договор — смарт-контракт. Оплата — USDT, поступает автоматически после подтверждения выполнения работы. Никакого HR, никаких банковских переводов, никакого эскроу с посредником. Это не фантастика — это LaborX и Braintrust уже сегодня. ## Почему это актуально именно сейчас\nСанкционные ограничения. После 2022 года миллионы специалистов из России и СНГ потеряли доступ к Upwork, PayPal и SWIFT-переводам. LaborX, работающий на Ethereum и BNB Chain, обходит эту проблему технически: транзакции идут напрямую через публичный блокчейн, минуя банковскую инфраструктуру. ## Главные платформы: как они устроены\nLaborX — децентрализованная фриланс-биржа на Ethereum, BNB Chain и Polygon. Смарт-контракт заменяет традиционный эскроу: средства заказчика блокируются автоматически, исполнитель получает оплату после подтверждения. Работает с USDT, ETH и нативным токеном TIME. ## Риски: что мешает массовому принятию\n**AML-риски при выводе.** Получить оплату в USDT на Web3-платформе — только первый шаг. При попытке вывести средства на биржу или обменять в фиат начинается AML-проверка. Если в цепочке транзакций платформы оказались адреса с высоким Risk Score — могут возникнуть проблемы при зачислении. ## Вывод\nДецентрализованные рынки труда решают три реальные проблемы: высокие комиссии посредников, санкционные барьеры и непереносимую репутацию. Braintrust с нулевой комиссией для исполнителей, LaborX с расчётами без SWIFT и TalentLayer с ончейн-репутацией — это уже работающие продукты, а не концепции.",
+                  "pageAge": "Wednesday, April 29, 2026"
+                },
+                {
+                  "id": 2,
+                  "title": "Как фрилансеру принимать оплату в криптовалюте и удобно выводить в рубли",
+                  "url": "https://emcd.io/ru/academy/articles/finansovaya-gramotnost/kak-frilanseru-prinimat-oplatu-v-kriptovalyute-i-udobno-vyvodit-v-rubli/",
+                  "description": "# Как фрилансеру принимать оплату в криптовалюте и удобно выводить в рубли\n## Преимущества оплаты криптовалютой для фрилансера\n- Поддержка стейблкоинов. USDT оплата фриланс удобна тем, что курс не прыгает. Это особенно важно при долгосрочном сотрудничестве\n- Упрощенная бухгалтерия. Транзакции прозрачны, все переводы можно отследить и зафиксировать\n- Прямой расчет. Деньги приходят сразу на твой кошелек без платформ, холдов и заморозки баланса ## Выбор кошелька и платформ для фриланса\n**Платформы для приема крипты**\n\nМногие фриланс-платформы уже позволяют работать с криптовалютой. Например, LaborX, CryptoJobs, Freelance for Coins. Они автоматически открывают кошелек и обеспечивают безопасную сделку, но могут брать комиссию. ## USDT оплата фриланс: инструкция по приему\nСтейблкоины, особенно USDT, один из самых удобных способов приема оплаты за фриланс. Их курс привязан к доллару, они поддерживаются большинством платформ и легко конвертируются в рубли. 1. Создай кошелек. Это может быть EMCD Wallet, биржа (например, Bybit) или мобильный Trust Wallet\n2. Уточни у клиента, в какой сети он будет переводить. Чаще всего используется TRC-20 (Tron) из-за низких комиссий. Также возможны ERC-20 или BEP-20 ## Часто задаваемые вопросы\n### 5. Какие платформы для оплаты фриланса криптой считаются надёжными?\nСреди популярных решений – LaborX, CryptoJobs и EMCD. Эти платформы для оплаты фриланса криптой поддерживают эскроу, рейтинг пользователей и удобные способы обмена на фиат",
+                  "pageAge": "Wednesday, January 14, 2026"
+                },
+                {
+                  "id": 3,
+                  "title": "9 бирж фриланса с низкой конкуренцией в 2026 году",
+                  "url": "https://digitalbroccoli.com/ru/freelance-marketplaces-free/",
+                  "description": "# 9 бирж фриланса с низкой конкуренцией в 2026 году\nНа своем ютубе я рассказала про биржи фриланса, где новички могут найти заказы без траты денег на отклики и времени на конкуренцию с миллионами демпингующих индусов и пакистанцев.\n\nИ второе видео еще с 7 биржами:\n\nИтак, вот эти биржи фриланса, где в 2026 году можно найти классные заказы. ## GoLance\n- Вывод средств через Payoneer, PayPal, банковские счета и криптовалюту. ## LaborX\nЭта платформа ориентирована на Web3, криптовалюты и блокчейн. Однако здесь можно найти и другие проекты, например, по SEO или дизайну.\n\n**Особенности**:\n\n- Оплата в криптовалюте.\n- Возможность создавать свои услуги (гиги).\n- Подробные гайды по работе с криптовалютными кошельками.",
+                  "pageAge": "Saturday, March 07, 2026"
+                }
+              ]
+            }
+          },
+          {
+            "type": "tool-web_search",
+            "toolCallId": "call_d91cc47e350d43e4bff989be",
+            "state": "output-available",
+            "input": {
+              "query": "Яндекс Задания Толока заработок сколько платят 2026 простые задачи",
+              "depth": "1"
+            },
+            "output": {
+              "status": "success",
+              "results": [
+                {
+                  "id": 1,
+                  "title": "Заработок на Яндекс.Толоке: что это, как устроена система и какие есть нюансы - Trafficcardinal",
+                  "url": "https://trafficcardinal.com/post/yandeks-toloka-kak-zarabotat-vypolnyaya-prostye-zadaniya",
+                  "description": "# Яндекс.Толока: как заработать, выполняя простые задания\n## Какие задания есть в Яндекс.Толоке и сколько на них можно заработать?\n### Сколько платят за выполнение заданий\nВот мы и подошли к вопросу, **сколько можно заработать на Яндекс Толока**. Итак, за самые простые задания вы можете получить в районе 0,01-0,04 долларов США. Конечно, это не очень большие деньги, но и сама задача, как правило, максимально несложная: к примеру, выделить нужное слово в тексте или сопоставить картинки, похожие друг на друга. Да, вряд ли можно ответить большими цифрами на вопрос, сколько можно заработать на Яндекс.Толока. Скорее всего, это порядка 10-15 тысяч российских рублей в месяц при большом усердии и желании постоянно брать новые таски. С другой стороны, деньги это явно не лишние, а никаких специальных компетенций для них не потребуется. ## Итоги: стоит ли зарабатывать в Яндекс.Толоке?\nСреди множества фриланс-бирж Яндекс.Толока выделяется тем, что здесь очень простые задания, не требующие никакой подготовки. Да, на платформе нет сверхзаработков, и заработать больше 10-15 тысяч рублей будет достаточно сложно, если не невозможно. Впрочем, вы спокойно можете брать задания на досуге или в перерывах между основной работой: они не очень напряжные и не требуют сильного напряжения. ## FAQ\nДоход зависит от времени и сложности заданий. Новички обычно зарабатывают 5–10 тыс. рублей в месяц при работе 2–3 часа в день. Опытные исполнители, активно занимающиеся сложными заданиями, могут получать до 30–50 тыс. рублей. Важно учитывать региональные особенности и конкуренцию за задания.",
+                  "pageAge": "Sunday, June 28, 2026"
+                },
+                {
+                  "id": 2,
+                  "title": "Как заработать на Яндекс.Толока: инструкция + личный опыт",
+                  "url": "https://kursy.ru/znaniya/finansy/yandex-toloka/",
+                  "description": "# Как заработать на Яндекс.Толока: полная инструкция по применению + личный опыт\n## Сколько можно заработать на «Яндекс.Толоке»?\nУ каждого задания есть цена — с помощью фильтра вы можете выбрать наиболее дорогие заказы. В некоторых заданиях оплата может увеличиваться со временем. Цены разные — но, как правило, невысокие, 1-2 цента за простое задание. Полевые задания, на выполнение которых нужно много времени (найти в городе объект, сфотографировать его, прислать фото), оплачиваются дороже: можно заработать 8-10 долларов. Плюс еще взимается комиссия — 20 процентов от стоимости задания (она уже включена в стоимость). Я выполнила на «Толоке» 7 простых заданий и заработала всего 0, 9 доллара. И дело тут даже не в моральных принципах (мол, любую работу надо выполнять на совесть). Лучшим исполнителям (по рейтингу и количеству отлично выполненных заданий подряд) «Толока» дарит бонусы — от 10 до 100 долларов в месяц. ## Как еще заработать на «Яндекс.Толоке»?\nРазмер бонуса зависит от типа заданий и составляет 20% от стоимости полевых заданий в определенных городах, 5% от стоимости всех других заданий и 5% от суммы бонуса, который приглашенный друг получит в течение месяца после регистрации. Все задания, которые выполнит друг, должны быть приняты заказчиком. ## Как вывести деньги с «Яндекс.Толоки»?\nЧтобы вывести деньги, нужно заработать  на «Толоке» хотя бы 0,2 доллара. Для этого необходимо выполнить 1-2 задания.",
+                  "pageAge": "Thursday, April 09, 2026"
+                },
+                {
+                  "id": 3,
+                  "title": "💰 Яндекс Толока: реальный заработок в интернете или пустая трата времени?",
+                  "url": "https://vtemah.livejournal.com/2464866.html",
+                  "description": "# 💰 Яндекс Толока: реальный заработок в интернете или пустая трата времени?\n### 🌐 Что такое Яндекс Толока и как она работает сегодня\n#### 🔍 Как устроена система микрозадач\nПример задания: «Определите, содержит ли изображение автомобиль». Вы видите 20 картинок подряд, для каждой нажимаете «Да» или «Нет». За блок из 20 изображений платят $0.08–$0.15 в зависимости от сложности. ### 💸 Сколько реально можно заработать на Толоке в 2026 году\n#### Статистика доходов по уровням исполнителей\n**Важные нюансы:**\n\n- За простые задания платят $0.01–$0.04 за единицу\n- Сложные таски (транскрибация аудио, анализ текста) — $0.10–$0.50 - «Полевые задания» (съемка улиц, проверка объектов на карте) — $1–$5 за выезд\n- Российские пользователи в «Яндекс Заданиях» получают 1–3 рубля за простое задание ### ⚠️ Подводные камни и реальные отзывы пользователей\n#### Что разочаровывает новичков\n❌ **Низкая оплата за простые задания** «За 20 минут работы получил $0.37. Чтобы заработать $10, нужно потратить 8–9 часов непрерывной работы. Это меньше минимального оклада в большинстве регионов», — Дмитрий, 28 лет, г. Екатеринбург.",
+                  "pageAge": "Thursday, February 12, 2026"
+                }
+              ]
+            }
+          },
+          {
+            "type": "tool-web_search",
+            "toolCallId": "call_af7e3bf574ac46e3b9d372eb",
+            "state": "output-available",
+            "input": {
+              "query": "ключевая ставка ЦБ РФ сентябрь 2026",
+              "depth": "1"
+            },
+            "output": {
+              "status": "success",
+              "results": [
+                {
+                  "id": 1,
+                  "title": "Ключевая ставка ЦБ: прогноз и график заседаний в 2026 — SberCIB",
+                  "url": "https://sbercib.ru/publication/prognoz-klyuchevoi-stavki-na-2026-god",
+                  "description": "# Прогноз ключевой ставки на 2026 год\n## Ключевая ставка на сегодня\n11 сентября 2026 года Банк России сохранил ключевую ставку на уровне 14%. При этом позиция регулятора стала заметно жестче. На пресс-конференции председатель ЦБ Эльвира Набиуллина сообщила, что предметно рассматривался только один вариант: сохранение ставки без изменений. ## История решений Банка России по ключевой ставке в 2026 году\n11 сентября 2026 · Промежуточное · Без изменений · 14%\n\n**О том, как менялась ключевая ставка в 2025 году, — в статье** **«Ключевая ставка в 2025 году: хронология решений Банка России и влияние на рынок облигаций».** ## Ближайший прогноз по ключевой ставке: что решит Центробанк 23 октября\nАналитики SberCIB считают сохранение ключевой ставки на уровне 14% на заседании 23 октября более вероятным, чем ее снижение. После сентябрьского заседания позиция Банка России стала заметно жестче, а пауза в цикле смягчения денежно-кредитной политики может продлиться до зимы. ## Официальный прогноз Банка России: ключевая ставка, инфляция, ВВП\n### Прогноз Банка России по ключевой ставке на 2026 год\nНа сентябрьском заседании Банк России не обновлял среднесрочный прогноз. Поэтому действующим остается предыдущий базовый прогноз. ## Главное о ключевой ставке в 2026 году\n### Какая ключевая ставка ЦБ действует в сентябре 2026 года?\nНа заседании 11 сентября 2026 года Банк России оставил ключевую ставку без изменений — 14% годовых. Это решение действует до следующего заседания 23 октября.",
+                  "pageAge": "Monday, September 21, 2026"
+                },
+                {
+                  "id": 2,
+                  "title": "Ключевая ставка ЦБ на сегодня — 14%: как это влияет на бизнес",
+                  "url": "https://sberbusiness.live/publications/klyuchevaya-stavka-cb-chto-eto-prognoz-izmeneniya",
+                  "description": "## Ключевая ставка: какие изменения ждут нас в 2026 году\nКлючевая ставка Банка России сегодня составляет 14% годовых. Она действует с 11 сентября 2026 года, а следующее заседание Совета директоров ЦБ назначено на 23 октября 2026 года. От уровня ключевой ставки зависят стоимость кредитов для бизнеса, доходность вкладов, курс рубля и инфляция. # Ключевая ставка: какие изменения ждут нас в 2026 году\n## Что решил Центробанк на последнем заседании\n11 сентября 2026 года Совет директоров Банка России оставил ключевую ставку без изменений, на уровне 14% годовых. ## Что означает изменение ключевой ставки для бизнеса\n### График изменения ключевой ставки по годам\nЗа время существования ключевой ставки ее значение неоднократно менялось вслед за состоянием экономики и уровнем инфляции.\n\nключевая ставка_11.09.26\n\nТакая динамика показывает, что размер ключевой ставки зависит от состояния экономики и не меняется по заранее установленному графику. ## Частые вопросы о ключевой ставке\n### Какая ключевая ставка действует сейчас?\nС 11 сентября 2026 года ключевая ставка Банка России составляет 14% годовых. ## Главное о ключевой ставке\n- Ключевая ставка Банка России сейчас составляет 14%.\n- Она действует с 11 сентября 2026 года.\n- Следующее заседание Совета директоров Банка России пройдет 23 октября 2026 года.\n- Ключевая ставка влияет на стоимость кредитов, вкладов, курс рубля, инфляцию и инвестиционную активность.",
+                  "pageAge": "Friday, September 11, 2026"
+                },
+                {
+                  "id": 3,
+                  "title": "Ключевая ставка ЦБ 11 сентября 2026: сохранена на 14%, прогноз до конца года",
+                  "url": "https://finance.mail.ru/article/stavka-centrobanka-neizmenna-14-kak-reshenie-soveta-direktorov-cb-povliyaet-na-ekonomiku-69227357/",
+                  "description": "Совет директоров Банка России на заседании 11 сентября принял решение сохранить ключевую ставку на уровне 14%. Разбираем, почему регулятор взял паузу и чего ждать до конца года. # ЦБ сохранил ставку на 14%: что будет с вкладами кредитами и рублем дальше\nСовет директоров Банка России на заседании 11 сентября оставил ключевую ставку без изменения — на уровне 14%, следует из сообщения регулятора. Также Банк России подчеркнул рост проинфляционных рисков, связанных с возможным усилением дисбаланса спроса и предложения из-за временного выбытия производственных мощностей, особенно в нефтяной промышленности. В этот раз ЦБ согласился с рыночным консенсусом и сохранил ключевую ставку на уровне 14%, отмечает инвестиционный стратег «Гарда Капитал» Александр Бахтин. «Решение Банка России сохранить ключевую ставку на уровне 14% подтверждает, что дезинфляционный процесс идет сложнее, чем ожидалось», — полагают специалисты маркетплейса Финуслуги. ## Прогноз на следующие заседания\nВ рисковом сценарии ЦБ может сохранить ключевую ставку на уровне 14% до конца года — в случае ухудшения геополитической ситуации, затягивания топливного кризиса, дальнейшего ослабления рубля или более сильного, чем ожидалось, увеличения дефицита бюджета.",
+                  "pageAge": "Friday, September 11, 2026"
+                }
+              ]
+            }
+          },
+          {
+            "type": "step-start"
+          },
+          {
+            "type": "reasoning",
+            "text": "Good. Key facts:\n- LaborX works, crypto freelance, USDT, escrow via smart contract, low competition, Russians use it [1](https://vc.ru/crypto/...), [2](https://emcd.io/...), [3](digitalbroccoli).\n- Толока/Яндекс Задания: simple tasks, 1-3₽ per simple task in RU, realistic 5-15k₽/month with diligence; not great but ok for stage 1 evening filler. Honest numbers.\n- Key rate 14% (Sept 11, 2026), deposits ~15-17%? Deposits yield somewhat above key rate during high rates; safe to say вклады/накопительные счета ~13–16%. I'll say \"вклады дают около 14–16% годовых сейчас\" — hmm, better be careful: with key rate 14%, top deposits ~14-15%. Say \"≈14–15%\".\n\nNow write the plan file in Russian: `/home/user/plan-kripto-zarabotka.md`. Structure it well, concrete, with numbers, stages, first steps tonight, safety checklist, taxes. Keep it practical, not too long (but thorough enough — it's the deliverable). Maybe ~250-350 lines of markdown. Use tables.\n\nContent plan:\n\n# План заработка: от первых денег в крипте к пассивному доходу\nДата, профиль исполнителя.\n\n## Исходные данные (профиль)\n- навыки, время, капитал, цель. Реалистичные ожидания: первые деньги 2-4 недели, 5-15к в первый месяц, не «кнопка бабло».\n\n## Главные принципы\n1. Никаких вложений в «сигналы», «инвестиции», удвоители.\n2. Сначала деньги (рубли или USDT), потом крипто-спекуляции.\n3. ИИ — усилитель, не источник дохода.\n4. Всё, что обещает % в день — скам.\n\n## Этап 1 (недели 1–4): первые деньги\nЗадача: доказать что работает, 5-15 тыс ₽.\n- A. LaborX — крипто-фриланс, USDT, эскроу. Что брать новичку: разметка данных, модерация, простые задачи, поиск инфо, транскрибация. Профиль на англ + ChatGPT/DeepL для переписки. Шаги настройки. Реалистично: 100-300$ первый месяц при 3ч/день? Осторожнее: первые заказы 10-50$. Скажу: первые 2 недели может быть 0-50$, потом разгон.\n- B. Яндекс Задания — фоновый заработок в перерывах: 1-3₽ простые задания, 3-8к ₽/мес реалистично при усердии, полевые дороже. Вечерние полчаса-перерывы.\n- C. (опционально) Kwork — услуги «человек+ИИ» за рубли (потом конвертация).\nЧто НЕ делать на этом этапе: платные подписки на задания, «обучение заработку», faucets (копейки).\n\n## Этап 2 (месяцы 2–6): стабильный подзаработок 20-60к ₽/мес\n- A. Своя услуга «человек + ИИ» на LaborX/Kwork: телеграм-боты, автоматизация, парсеры, чат-боты поддержки. Цены: простой ТГ-бот 5-15к₽/150-300$; парсер 3-10к; поддержка ИИ-чатбота — ретейнер. Специализация: крипто-проекты платят в USDT и им нужны боты, модерация, контент.\n- B. Долгосрочные роли: support/moderator/community в крипто-проектах на англ — 200-800$/мес part-time. Где искать: LaborX, CryptoJobsList, Discord проектов.\n- C. Эйрдропы/тестнеты системно: 3-5 ч/нед, бюджет 3-10к₽ на газ, Galxe/Zealy/тестнеты; честно: лотерея, 0-1000$ разово, не считать в базовый доход.\n- Метрики перехода: 3+ постоянных клиента или 20к/мес.\n\n## Этап 3 (6+ мес): капитал и пассив\n- Подушка 70-80к во вкладе/накопительном под ~14-15% (ключевая 14%, окт 2026 заседание) — этот запас не трогаем для риска.\n- Крипто-доля: не более 10-20% от капитала, DCA в BTC/ETH, вывод на некастодиальный кошелёк.\n- Цифровые активы с минимальным вмешательством: шаблоны ботов, гайды, рефералки сервисов которыми сам пользуешься, портфолио на LaborX (рейтинг = пассив притока заказов).\n- Опция: Т-Инвестиции + наш робот (другая ветка плана).\n\n## Реалистичный прогноз (таблица по месяцам)\nМесяц 1: 5-15к; 2-3: 15-40к; 4-6: 25-60к; эйрдропы — бонус сверху.\n\n## Куда конвертировать USDT в рубли (легально)\n- P2P на биржах/обменники через BestChange, налоги: НДФЛ 13-22%, 3-НДФЛ до 30 апреля, крипта — имущество. Совет: вести табличку доходов с первого дня.\n\n## Безопасность / скам-чеклист (10 пунктов)\n\n## Чек-лист «этот вечер» (90 минут)\n1. Почта + LaborX профиль (30 мин, я помогу составить)\n2. Кошелёк Wallet в TG\n3. Яндекс Задания (10 мин)\n4. Отклики на 5 заданий\nПредложение: могу прямо сейчас написать профиль и шаблоны откликов.\n\n## Как я помогаю дальше\n- писать профиль/отклики, собирать ботов, анализировать заказы, посчитать налоги и т.д.\n\nThen present_file + short chat summary with tonight's first step and offer to draft LaborX profile now.\n\nCitations in chat message (file can include links to platforms as plain links).\n\nWrite the file now. Keep formatting clean. Avoid overpromising numbers; label as \"реалистичные ориентиры, не гарантии\".\n\nOne more consideration: user said capital \"небольшой, но запас в минимум 100k есть\" — I interpret: for launch up to ~10k₽, plus 100k safety buffer untouched. I'll structure that: бюджет запуска ≤10к₽ (газ, подписки не нужны), 100к — подушка во вклад.\n\nLaborX specifics: laborx.com. Commission 20%? LaborX takes fee from freelancer (20%?). Not sure exact — avoid exact fee claims. Payment methods: USDT/ETH/TIME. Escrow smart contract. Timechains. Fine, describe generally.\n\nAlso mention CryptoJobs / CryptoJobsList and web3.career as extra sources for support roles.\n\nAirdrop specifics: don't push hard; mention sybil rules, no guarantees.\n\nKwork: rubles, fee 20-40%? Kwork takes 20%? Actually Kwork commission for freelancers is 20% (was). Don't state exact; say \"комиссия площадки есть\".\n\nTax: НДФЛ 13–22% progressive (from 2025 five-tier scale). Income in USDT converted to RUB at transaction date. Declare via 3-НДФЛ by Apr 30.\n\nNow write file. Then present_file. Then chat summary: brief, with citations where relevant for key claims (LaborX crypto/escrow [1](vc.ru), [2](emcd); Толока numbers [1](trafficcardinal)/[3](livejournal); key rate 14% [1](sbercib)). In chat keep short since file has details; but include a couple citations anyway in summary lines. Actually the file itself — citations in markdown file are fine as regular links.",
+            "state": "done"
+          },
+          {
+            "type": "text",
+            "text": "Всё проверил: LaborX жив и работает с РФ, Яндекс Задания платят скромно, но стабильно, ключевая ставка сейчас 14% — это важно для вашего запаса в 100к. Собираю план в файл.",
+            "state": "done"
+          },
+          {
+            "type": "tool-write_file",
+            "toolCallId": "call_d4c7394208404ec280188b0b",
+            "state": "output-available",
+            "input": {
+              "path": "/home/user/plan-kripto-zarabotka.md",
+              "content": "# 📈 План: от первых крипто-денег к пассивному доходу\n\n*Составлено 28.09.2026 под ваш профиль*\n\n## Ваш профиль (что учтено)\n\n| Параметр | Значение |\n|---|---|\n| Навыки | Простые задачи, английский средний, код — с помощью ИИ |\n| Время | Будни 17:00–23:00 + перерывы по 30 мин |\n| Бюджет запуска | до ~10 000 ₽ |\n| Подушка безопасности | ~100 000 ₽ (в план НЕ вмешиваемся до этапа 3) |\n| Цель | Первые деньги → стабильный доход → пассив |\n\n**Честные ожидания:** это не «кнопка бабло». Первый месяц — 5–15 тыс. ₽. Через 4–6 месяцев при системной работе — 25–60 тыс. ₽/мес. Пассив — через полгода-год, и то «минимальное вмешательство», а не полный ноль действий.\n\n---\n\n## 🔒 Главные принципы (прочитайте дважды)\n\n1. **Всё, что обещает «1–5% в день», «удвоение», «сигналы» — скам. Всегда.**\n2. Никто и никогда не получает ваши seed-фразы, коды из SMS, доступ к Telegram.\n3. Сначала зарабатываем (услугой/задачами), потом инвестируем. Не наоборот.\n4. ИИ — ваш усилитель производительности, а не источник дохода сам по себе.\n5. Доходы в крипте в РФ легальны и облагаются НДФЛ 13–22%. Ведём учёт с первого дня (таблица ниже).\n\n---\n\n## Этап 1. Первые деньги (недели 1–4) — цель 5 000–15 000 ₽\n\n### Канал А: LaborX — фриланс с оплатой в крипте (основной)\n\nLaborX — фриланс-биржа, где оплата идёт в USDT/крипте через смарт-контракт-эскроу: деньги заказчика блокируются до сдачи работы, обмануть исполнителя почти невозможно. Работает из РФ без SWIFT и Upwork-барьеров, конкуренция ниже, чем на обычных биржах.\n\n**Задания для вашего уровня (реально берут новичков):**\n- разметка данных / категоризация картинок и текстов — $10–50 за задачу;\n- модерация чатов и комьюнити — почасово $3–8/час;\n- транскрибация аудио, проверка текстов, переводы RU↔EN (средний английский + DeepL/ChatGPT тянут);\n- поиск и структурирование информации, заполнение таблиц;\n- тестирование сайтов и приложений с описанием багов.\n\n**Шаги (один вечер):**\n1. Почта → регистрация на laborx.com.\n2. Профиль на английском (составлю за вас — см. ниже), фото, 2–3 навыка, часовая ставка $4–6 для старта.\n3. Каждый вечер: 5–10 откликов на свежие задания. Отклик = 3–4 предложения по делу, не шаблон.\n4. Первые заказы берите даже за $10–15 — нужны отзывы и рейтинг. Через 2–3 недели поднимайте ставку до $8–12/час.\n\n**Реалистично:** недели 1–2 может быть $0–30 (разгон рейтинга), недели 3–4 — $50–150/мес, дальше растёт.\n\n### Канал Б: Яндекс Задания — фон для перерывов\n\nПростые задания (выделить объект на картинке, проверить выдачу поиска) — 1–3 ₽ за штуку, сложнее (транскрибация, полевые задания с фото объектов) — дороже. При усердии люди делают 5–15 тыс. ₽/мес, но это конвейер. Ваш формат: перерывы по 30 минут и «фоном» под сериал — 2–5 тыс. ₽/мес. Не больше часа в день: основное время — LaborX.\n\n### Канал В (опционально): Kwork — услуги за рубли\n\nПозже, на этапе 2, сюда пойдут ваши услуги «человек + ИИ». Рублёвый доход конвертируете при желании в крипту или держите в рублях.\n\n### Чего НЕ делать на этапе 1\n- ❌ Платные «курсы по заработку», VIP-каналы, подписки на задания.\n- ❌ Краны (faucets) и tap-игры — копейки за часы.\n- ❌ Вкладывать бюджет запуска в «торговлю по сигналам».\n\n---\n\n## Этап 2. Стабильный поток (месяцы 2–6) — цель 20 000–60 000 ₽/мес\n\n### A. Своя услуга: «человек + ИИ» (главный рычаг)\n\nВы пишете код с помощью ИИ — это рабочая связка 2026 года. Крипто-проекты и малый бизнес постоянно покупают:\n\n| Услуга | Цена рынка | Ваша себестоимость времени |\n|---|---|---|\n| Telegram-бот (приём заявок, FAQ, уведомления) | 5–20 тыс. ₽ / $80–250 | 1–3 вечера |\n| Парсер цен/новостей + отчёт в Telegram | 3–10 тыс. ₽ | 1 вечер |\n| Чат-бот поддержки на базе ИИ | 15–50 тыс. ₽ | 2–4 вечера |\n| Автоматизация рутины (таблицы, отчёты, рассылки) | 3–15 тыс. ₽ | часы |\n\n**Почему крипта тут не случайна:** заказчики с LaborX и из крипто-комьюнити платят в USDT без банковских заморочек. Развивайте это направление как специализацию: «делаю ботов и автоматизацию для Web3-проектов».\n\n### B. Долгосрочные роли: support / moderator / community\n\nКрипто-проектам нужны англоязычная поддержка и модераторы на part-time: $200–800/мес за 2–4 часа в день. Среднего английского с ИИ-переводчиком достаточно. Где искать: LaborX (категории Support/Moderation), CryptoJobsList, web3.career, Discord-каналы самих проектов (ветка #jobs).\n\n### C. Эйрдропы и тестнеты — бонусная лотерея (не базовый доход!)\n\nСистемно, 3–5 часов в неделю: активности в тестнетах новых сетей, квесты на Galxe/Zealy. Бюджет: 3–10 тыс. ₽ на газовые комиссии. **Честно:** это лотерея — попадание даёт $100–1000+, но может не дать ничего, и результат через месяцы. В бюджет дохода НЕ закладываем.\n\n**Правила:** без мультаккаунтов (синбил-детект банит всё), только реальные действия, не покупайте «гарантированные дропы».\n\n### Критерий перехода к этапу 3\n≥3 постоянных клиентов ИЛИ ≥20 тыс. ₽/мес два месяца подряд.\n\n---\n\n## Этап 3. Капитал и «пассив» (6+ месяцев)\n\n**Подушка 100 000 ₽.** Сейчас ключевая ставка 14%, вклады и накопительные счёта дают ~13–15% годовых. Подушка живёт там. Это ваш страховой фонд, не инвестиция.\n\n**Крипто-доля:** не более 10–20% от капитала. Схема — DCA: равными суммами раз в месяц в BTC/ETH, без попыток угадывать дно. Хранение — не на бирже, а в некастодиальном кошельке (seed на бумаге, офлайн).\n\n**Активы с минимальным вмешательством (настоящий «пассив» на старте):**\n- рейтинг и портфолио на LaborX — заказы начинают приходить сами;\n- шаблоны ботов, которые продаёте многократно (сделал раз — продаёшь N раз);\n- реферальные программы сервисов, которыми реально пользуетесь;\n- поддерживающие клиенты на ретейнере (бот «на обслуживании» = 2–5 тыс. ₽/мес с клиента).\n\n**Опция:** когда появится стабильно свободная часть дохода — вернёмся к идее торгового робота для Т-Инвестиций в песочнице (это отдельная ветка, готовы сделать).\n\n---\n\n## Прогноз по месяцам (ориентиры, не гарантии)\n\n| Месяц | Источники | Ожидаемый доход |\n|---|---|---|\n| 1 | Задания + первые заказы LaborX | 5–15 тыс. ₽ |\n| 2–3 | LaborX разгон + первые боты на заказ | 15–40 тыс. ₽ |\n| 4–6 | 2–3 постоянных клиента + роли support | 25–60 тыс. ₽ |\n| 6+ | + шаблоны, ретейнеры, DCA-портфель | 30–60 тыс. ₽ + крипто-активы |\n\n---\n\n## 💱 Конвертация USDT → рубли (легально)\n\n1. P2P-продажа USDT на крупной бирже или обменник с мониторингом BestChange. Смотрите рейтинг и возраст обменника, крупные суммы — частями.\n2. **Налоги:** доход в крипте = имущество, НДФЛ 13–22% (прогрессивная шкала). Считается в рублях по курсу на дату получения. Декларация 3-НДФЛ — до 30 апреля следующего года.\n3. С первого дня ведите таблицу: дата / источник / сумма USDT / курс ЦБ в тот день / рублёвый эквивалент. (Сделаю вам шаблон — попросите.)\n\n---\n\n## 🛡 Скам-чеклист (проверять КАЖДОЕ предложение)\n\n1. Обещают доход без работы или «1% в день» → скам.\n2. Просят seed-фразу / код / доступ к Telegram → скам.\n3. «Отправь 100 USDT — верну 200» → скам.\n4. «Инвестиционный бот» в Telegram с гарантированной прибылью → скам.\n5. Работа «за отзыв» с предоплатой на вашу карту (и просят вернуть лишнее) → скам-схема с дропами.\n6. Заказчик просит продолжить общение и оплату вне эскроу-платформы → риск кидка.\n7. «Аирдроп, только оплати газ на этом сайте» (сайт-клон) → скам. Проверяйте адреса сайтов посимвольно.\n8. Не подписываете никаких транзакций в кошельке, если не понимаете, что подписываете.\n9. «Сотрудник биржи/поддержки» пишет первым → скам, поддержка не пишет первой.\n10. Сомнения → пауза 24 часа и спросите меня, я помогу проверить.\n\n---\n\n## ✅ Чек-лист: сегодня вечером (~90 минут)\n\n- [ ] Завести отдельную почту под заработок (10 мин)\n- [ ] Регистрация на LaborX, заполнить базу профиля (20 мин)\n- [ ] Поставить Telegram Wallet, получить адрес TON/USDT (10 мин)\n- [ ] Установить приложение Яндекс Задания, пройти первые задания в перерыве (10 мин)\n- [ ] Составить таблицу учёта доходов (5 мин)\n- [ ] 5 откликов на свежие задания LaborX (30 мин)\n\n**Могу сделать прямо сейчас, скажите:**\n- ✍️ Написать вам готовый английский профиль LaborX + 3 шаблона откликов под типовые задания;\n- 📊 Сделать шаблон таблицы учёта доходов (CSV/Excel);\n- 🤖 Собрать вашего первого Telegram-бота как образец услуги (у вас же запасной ноутбук — будет демо-кейс для продаж).\n"
+            },
+            "output": {
+              "status": "success",
+              "hash": "7ujbhESwcZfkBhmkcNQkGNpSrN8Fe-fC8DrjC96-97I"
+            }
+          },
+          {
+            "type": "step-start"
+          },
+          {
+            "type": "reasoning",
+            "text": "Now present the file and give a brief summary in chat with citations for key claims.",
+            "state": "done"
+          },
+          {
+            "type": "tool-present_file",
+            "toolCallId": "call_77739b8c5f0c4d6884e29d52",
+            "state": "output-available",
+            "input": {
+              "path": "/home/user/plan-kripto-zarabotka.md"
+            },
+            "output": {
+              "status": "success",
+              "path": "/home/user/plan-kripto-zarabotka.md"
+            }
+          },
+          {
+            "type": "step-start"
+          },
+          {
+            "type": "reasoning",
+            "text": "Now the final chat message: brief summary, key points, citations for the facts I used, and the offer of immediate next actions. Keep it compact since the file has details.",
+            "state": "done"
+          },
+          {
+            "type": "text",
+            "text": "Готово — план открыт у вас в просмотре (`plan-kripto-zarabotka.md`). Коротко, почему именно так:\n\n**Этап 1 (первые деньги):** LaborX — фриланс-биржа с оплатой в USDT через смарт-контракт-эскроу, работает из РФ без банковских барьеров, и там берут новичков на разметку, модерацию, тестирование [1](https://vc.ru/crypto/2891967-detsentralizovannye-rynki-truda), [2](https://emcd.io/ru/academy/articles/finansovaya-gramotnost/kak-frilanseru-prinimat-oplatu-v-kriptovalyute-i-udobno-vyvodit-v-rubli/). Ваш средний английский + ИИ-переводчик — достаточно для переписки с заказчиком.\n\n**Фон в перерывах:** Яндекс Задания — честные 1–3 ₽ за простое задание, реалистичный потолок 5–15 тыс. ₽/мес, поэтому не больше часа в день [1](https://trafficcardinal.com/post/yandeks-toloka-kak-zarabotat-vypolnyaya-prostye-zadaniya).\n\n**Этап 2 (главный рычаг):** услуги «человек + ИИ» — Telegram-боты и автоматизация для крипто-проектов за USDT (бот = 1–3 вечера работы, продаётся за $80–250). Плюс эйрдропы как бонусная лотерея, не как база.\n\n**Про ваши 100к:** они остаются подушкой — сейчас ключевая ставка 14%, вклады дают ~13–15% годовых [1](https://sbercib.ru/publication/prognoz-klyuchevoi-stavki-na-2026-god). В крипту идёт максимум 10–20% и только на этапе 3, методом DCA.\n\nЧто делаем прямо сейчас? Могу:\n\n1. ✍️ **Написать ваш профиль LaborX на английском + шаблоны откликов** — заберёте и вечером уже откликаетесь (займёт у вас 10 минут вместо 90);\n2. 🤖 **Собрать демо-Telegram-бота** — он станет вашим портфолио для продажи услуг;\n3. 📊 Сделать таблицу учёта доходов и налогов.\n\nС чего начнём?",
+            "state": "done"
+          }
+        ]
+      }
+    ],
+    "pagination": {
+      "hasMore": false,
+      "cursor": null,
+      "limit": 20
+    },
+    "transcriptReadStrategy": "bounded",
+    "productMode": "chat",
+    "feedbackType": "check_in",
+    "customFeedbackArm": null,
+    "connectorsEnabled": true,
+    "arenaFeedbackEnabled": false,
+    "rubricsEnabled": false,
+    "pinnedModel": null,
+    "archivedAt": "2026-10-03 19:26:50.282+00"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "exportedAt": "2026-10-09T16:27:47.582Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019de7b2-ba26-7307-8e50-7e885551316a",
+  "archivedAt": "2026-09-30 20:09:14.921+00",
+  "evaluation": {
+    "id": "019de7b2-ba26-7307-8e50-7e885551316a",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "look at these personality traits. which 5 of them do you think could be the best/universal combinati",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019de7b2-f864-70fa-82e7-0b20d7540dc6"
+    ],
+    "archivedAt": "2026-09-30 20:09:14.921+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-05-02 07:59:43.827+00",
+    "updatedAt": "2026-05-02 07:59:44.354055+00",
+    "messages": [
+      {
+        "id": "019de7b2-f862-726c-806e-881e12f7636e",
+        "evaluationSessionId": "019de7b2-ba26-7307-8e50-7e885551316a",
+        "evaluationId": "019de7b3-5ace-7323-8794-b4fc01fadf0d",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "look at these personality traits. which 5 of them do you think could be the best/universal combination for any kind of ruler? to compensate the one elevated attribute of each education trait\nhere traits:\ngreedy = {\n\tglobal_tax_modifier = 0.1\n\tdiplomacy = -1\n}\n\nlustful = {\n\tmonthly_character_piety = -0.25\n\tintrigue = 1\n\tfertility = 0.2\n}\n\nwroth = {\n\tmartial = 3\n\tintrigue = -1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncharitable = {\n\tdiplomacy = 3\n\tcombat_rating = -3\n}\n\ndiligent = {\n\tmartial = 1\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tvassal_opinion = 5\n}\n\nkind = {\n\tintrigue = -2\n\tdiplomacy = 2\n\tcombat_rating = -5\n}\n\npatient = {\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tcombat_rating = 5\n}\n\ntemperate = {\n\tstewardship = 2\n}\n\nambitious = {\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3\n}\n\nbrave = {\n\tmartial = 2\n\tcombat_rating = 10\n}\n\ncruel = {\n\tintrigue = 1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncynical = {\n\tmonthly_character_piety = -0.2\n\tintrigue = 2\n}\n\ndeceitful = {\n\tintrigue = 3\n\tdiplomacy = -2\n\tcombat_rating = 3\n}\n\nerudite = {\n\tlearning = 2\n\tcombat_rating = -2\n}\n\ngregarious = {\n\tdiplomacy = 2\n\tsex_appeal_opinion = 5\n}\n\nhonest = {\n\tintrigue = -2\n\tdiplomacy = 3\n\tcombat_rating = -2\n}\n\njust = {\n\tstewardship = 2\n\tlearning = 1\n}\n\nparanoid = {\n\tintrigue = 2\n\tdiplomacy = -1\n}\n\nzealous = {\n\tmonthly_character_piety = 1\n\tmartial = 2\n\topinion_against_infidels = -25\n}\n\nhere educations:\nelusive_shadow = {\n\tmartial = 2\n\tintrigue = 9\n\tdiplomacy = 2\n\tstewardship = -1\n\tcombat_rating = 16\n}\n\ngrey_eminence = {\n\tmartial = -1\n\tintrigue = 2\n\tdiplomacy = 9\n\tlearning = 2\n\tfertility = 0.1\n}\n\nmidas_touched = {\n\tmartial = 2\n\tdiplomacy = -1\n\tstewardship = 9\n\tlearning = 2\n\tfertility = 0.15\n}\n\nmisguided_warrior = {\n\tmartial = 1\n\tlearning = -1\n\thealth = 0.5\n\tcombat_rating = 5\n}\n\nbrilliant_strategist = {\n\tmartial = 9\n\tintrigue = 2\n\tstewardship = 2\n\tlearning = -1\n\thealth = 0.5\n\tcombat_rating = 20\n}\n\nmastermind_theologian = {\n\tintrigue = -1\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 9\n\tfertility = -0.05\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-05-02T07:59:44.349071+00:00",
+        "updatedAt": "2026-05-02T07:59:44.349071+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019de7b2-f864-70fa-82e7-0b20d7540dc6",
+        "evaluationSessionId": "019de7b2-ba26-7307-8e50-7e885551316a",
+        "evaluationId": "019de7b3-5ace-7323-8794-b4fc01fadf0d",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019de7b2-f862-726c-806e-881e12f7636e"
+        ],
+        "content": "cool prompt. using only the modifiers you posted, here’s the most “universal” 5-trait package that plays well with any education and plugs the typical gaps:\n\n- Ambitious — +2 to every stat, +3 combat rating. Instantly raises your floor and cancels any -1 from education.\n- Diligent — +1 to every stat, +5 vassal opinion. Stability and across-the-board competence.\n- Patient — +1 Intrigue/Diplomacy/Stewardship/Learning, +5 combat rating. Rounds out the non‑martial stats and adds survivability.\n- Just — +2 Stewardship, +1 Learning. Great economy/tech padding; specifically fixes the common -1 Stewardship/Learning holes.\n- Brave — +2 Martial, +10 combat rating. Covers weak martial educations and keeps you alive if you ever lead troops or duel.\n\nWhat this gives you baseline (before education)\n- Martial: +5\n- Intrigue: +4\n- Diplomacy: +4\n- Stewardship: +6\n- Learning: +5\n- Combat Rating: +18\n- Vassal Opinion: +5\n\nWhy this works across all educations\n- Elusive Shadow (Intrigue 9, -1 Stewardship): Just + Diligent + Patient wipe the -1 Stewardship and add big DIP/LEA. Brave prevents you from being a glass cannon.\n- Grey Eminence (Diplomacy 9, -1 Martial): Brave (+2) + Ambitious (+2) + Diligent (+1) fix Martial immediately; you also gain meaningful INT/STEW/LEA so you’re not only a face.\n- Midas Touched (Stewardship 9, -1 Diplomacy): Ambitious + Diligent + Patient give you +4 DIP to erase the -1. Brave gives you teeth for wars you’ll fund.\n- Brilliant Strategist (Martial 9, -1 Learning): Just (+1 LEA) + Ambitious (+2) + Diligent (+1) + Patient (+1) overfix Learning while adding INT/DIP/STEW depth; Brave’s CR is gravy for battlefield safety.\n- Mastermind Theologian (Learning 9, -1 Intrigue): Ambitious + Diligent + Patient = +4 Intrigue to erase the -1, plus Martial/CR from Brave so you’re not helpless militarily.\n- Misguided Warrior (-1 Learning): Same story—Just/Diligent/Patient/Ambitious cover Learning and overall competence.\n\nIf you prefer a peacetime/econ tilt\n- Swap Brave -> Greedy for +10% global tax (-1 DIP is easily covered by the others). This is huge if you rarely lead armies yourself.\n- Or swap Brave -> Gregarious if you want extra smooth diplomacy without any combat focus.\n\nTraits I wouldn’t include for a “universal” kit\n- Zealous (big cross-faith opinion malus), Deceitful/Paranoid/Cruel (hurt Diplomacy), Kind/Honest/Charitable (heavy combat/intrigue penalties), Wroth (DIP/INT hit). Great situationally, but not plug‑and‑play.\n\nNet: Ambitious + Diligent + Patient are your core “always-on” trio; Just is the best all-round econ/tech patch; Brave (or Greedy if you’re a pure builder) rounds it out.",
+        "experimental_attachments": [],
+        "modelId": "983bc566-b783-4d28-b24c-3c8b08eb1086",
+        "createdAt": "2026-05-02T07:59:44.351786+00:00",
+        "updatedAt": "2026-05-02T08:00:53.489173+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 975,
+            "totalTokens": 7374,
+            "usageSource": "provider",
+            "outputTokens": 6399,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 5632
+          },
+          "fromAutoRouter": false
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019de7b3-5ace-7323-8794-b4fc01fadf0d",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "983bc566-b783-4d28-b24c-3c8b08eb1086",
+        "organization": "openai",
+        "provider": "openai",
+        "publicName": "gpt-5-high",
+        "name": "gpt-5-high",
+        "displayName": "gpt-5-high",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

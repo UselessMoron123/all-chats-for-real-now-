@@ -1,0 +1,169 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : So, I just spawned. What should I do first and where exactly?
+Mode     : direct-battle
+Started  : 2026-07-21 22:31:38
+Updated  : 2026-07-21 22:31:39
+Archived : 2026-09-30 23:05:50
+Messages : 2
+URL      : https://arena.ai/c/019f8627-dc64-7ca9-953c-89af99d3810b
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-07-21 22:31:38
+Attach   : 2 files attached: 0995c648-8914-4762-b5b9-0eb0d213652d/1784662275749-IMG_20260721_220725.jpg (image/jpeg) https://messages-prod.27c852f3500f38c1e7786e2c9ff9e48f.r2.cloudflarestorage.com/0995c648-8914-4762-b5b9-0eb0d213652d/1784662275749-IMG_20260721_220725.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=b33de61d4f22a31b59b25364ab5037c5%2F20261009%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261009T162738Z&X-Amz-Expires=3600&X-Amz-Signature=a604e13bc405f6e4425565fd27c2922267364fcfd483c38793016c07a166a92a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject; 0995c648-8914-4762-b5b9-0eb0d213652d/1784662277250-IMG_20260721_220742.jpg (image/jpeg) https://messages-prod.27c852f3500f38c1e7786e2c9ff9e48f.r2.cloudflarestorage.com/0995c648-8914-4762-b5b9-0eb0d213652d/1784662277250-IMG_20260721_220742.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=b33de61d4f22a31b59b25364ab5037c5%2F20261009%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261009T162738Z&X-Amz-Expires=3600&X-Amz-Signature=f56b7d89da6b37f5af9f9c0b36c0efb6f00e9012bee8ff007d6853b47c4de7c8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
+------------------------------------------------------------
+So, I just spawned. What should I do first and where exactly?
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-07-21 22:31:38
+------------------------------------------------------------
+You’re playing **Oxygen Not Included** and you spawned in a pretty standard starting biome. Good news: you’ve got clean water pools and algae nearby, so this is a solid start.
+
+Here’s **exactly what to do first and where**:
+
+---
+
+# ✅ Cycle 1–3: Immediate Survival Setup
+
+## 1️⃣ Dig out a central base area (right where you spawned)
+
+Stay **around the Printing Pod** for now.
+
+- Dig out a **wide horizontal room directly below the pod**
+- Make it about **4 tiles high**
+- This will be your main base floor
+
+Don’t dig into:
+- The big water pool below yet
+- The darker biomes (they may contain slime/germs)
+
+---
+
+## 2️⃣ Build Outhouse + Wash Basin (Top Priority)
+
+Place them **on the far left or right of your base floor**, NOT in the middle.
+
+**Build:**
+- 🧻 Outhouse (1 per 3 dupes)
+- 🚿 Wash Basin (set direction so they must pass it leaving bathroom)
+
+Layout example:
+
+```
+[Wall][Outhouse][Outhouse]
+        [Wash Basin]
+```
+
+Make sure dupes must walk past the basin after using toilet.
+
+---
+
+## 3️⃣ Build Cots (Sleep)
+
+Place cots on the main floor for now.
+Later you’ll make bedrooms.
+
+---
+
+## 4️⃣ Build Manual Generator + Research Station
+
+Put this on the opposite side of your bathroom.
+
+Build:
+- Manual Generator
+- Small Battery
+- Research Station
+
+Connect with wire.
+
+Start researching:
+👉 **Basic Farming**
+
+---
+
+## 5️⃣ Oxygen (VERY Important Soon)
+
+You’ll soon need oxygen production.
+
+Build:
+- 1–2 **Oxygen Diffusers**
+- Place them near the center of your base
+
+You have algae nearby (the green stuff), so you’re safe early on.
+
+---
+
+# ✅ Cycle 3–10: Stabilize Food & Layout
+
+## 6️⃣ Start Mealwood Farm (Above Your Base)
+
+Dig a room **above the Printing Pod**.
+
+Make it:
+- 4 tiles tall
+- Enclosed with doors
+
+Plant:
+- 5 Mealwood per duplicant
+
+You already have dirt nearby, so you’re good.
+
+---
+
+## 7️⃣ Water Management
+
+Do NOT dig into the big lower water pool yet.
+
+Instead:
+- Use pitcher pump in the small clean pool near you.
+- Keep polluted water separate.
+
+---
+
+# ✅ Smart Early Layout Plan (From Your Map)
+
+Based on your screenshot:
+
+### ✅ Best base layout:
+- Top level → Farms
+- Middle → Printing pod / main hub
+- Below that → Bathroom + power
+- Lower → Storage
+- Very bottom → Water reservoir (leave natural pool for now)
+
+---
+
+# 🚫 What NOT to Do Yet
+
+- Don’t dig far into slime biome
+- Don’t open big water pockets carelessly
+- Don’t take more than 3 dupes early
+- Don’t ignore bathroom setup
+
+---
+
+# 🎯 Your Immediate Checklist
+
+Right now, in order:
+
+1. Dig base floor under pod
+2. Build outhouse + wash basin
+3. Build 3 cots
+4. Build manual generator + battery + research
+5. Start Basic Farming research
+6. Build oxygen diffuser
+
+---
+
+If you want, tell me:
+- How many dupes you started with
+- Difficulty settings
+- Whether you want beginner-safe or optimized playstyle
+
+And I’ll give you a step‑by‑step 20-cycle plan 👌

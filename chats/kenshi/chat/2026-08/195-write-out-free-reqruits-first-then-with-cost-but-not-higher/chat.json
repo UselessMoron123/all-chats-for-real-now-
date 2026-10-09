@@ -1,0 +1,787 @@
+{
+  "exportedAt": "2026-10-09T16:27:43.427Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019fccd3-fab9-7fad-b47e-cea5a10df0c8",
+  "archivedAt": "2026-09-30 20:05:10.776+00",
+  "evaluation": {
+    "id": "019fccd3-fab9-7fad-b47e-cea5a10df0c8",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "write out free reqruits first. then with cost, but not higher than 2,999\n\nAgnu/Free (Must free from ",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019fccd7-5479-7450-aef3-0f419f039bd1"
+    ],
+    "archivedAt": "2026-09-30 20:05:10.776+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-08-04 12:52:33.405+00",
+    "updatedAt": "2026-08-04 12:54:53.369274+00",
+    "messages": [
+      {
+        "id": "019fccd5-2ff6-7c9d-9d21-e1d39948cd07",
+        "evaluationSessionId": "019fccd3-fab9-7fad-b47e-cea5a10df0c8",
+        "evaluationId": "019fccd5-3a48-7608-997a-fbf9258ae733",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "write out free reqruits first. then with cost, but not higher than 2,999\n\nAgnu/Free (Must free from a cage)/Tower of Abuse\nBard/3000/Bad Teeth, Blister Hill, Stack, Waystations, World's End\nBeep/Free/Mongrel\nBo/Free (Must Join Anti-Slaver)/Black Scratch\nBurn/Free/Burn's Tower\nCat/Free (Must free from a cage)/Dust King Tower\nChad/9,000/Flats Lagoon\nCornelius/is a Goat/7,000/Settled Nomad Village\nCrumblejon/Free/Mongrel\nDigna/3,000/Flotsam Village\nDoctor Chung/Free/Mud Town, Shark\nElls/300/Sho-Battai\nEspher/Free (Must free from a cage)/Tengu's Vault\nGreen/2,300/Mud Town, Shark\nGreen Finger/2,000/Fishing Village\nGriffin/9,000/Bad Teeth, Blister Hill, Stack\nHamut/Free/Mud Town, Shark\nHeadshot/7,500/Eyesocket, Slave Markets\nHobbs/Free/Fishing Village, The Hub, Waystation(s), World's End, Mourn\nHorse/4,500/Fishing Village, Squin\nInfinite Wingwang/5,000/Mongrel\nIzumi/2,500/Any UC town\nJewel/6,000/Any UC town\nKang/6,000/Admag, Squin, Last Stand\nKnife/6,000/Flotsam Village\nLumi/6,000/Crab Town\nLuquin/Free (Must free from a cage)/Tengu's Vault\nMiu/Free/Mud Town, Shark\nOron/3,500/Admag, Squin, Last Stand\nPia/3,000/Flotsam Village\nRane the Giant/7,500/Admag, Squin, Last Stand\nRay/1,000/Eyesocket, Slave Markets\nRed/150/Bark\nReva/6,000/Flotsam Village\nRiddly/Free/Any UC town\nRuka/Free/Admag, Squin, Last Stand\nSadneil/Free/Black Desert City\nSeto/Must capture rival's leader or have 80 relations with Shek Kingdom/Admag\nShryke/Free/Mongrel\nSilvershade/3,000/Mud Town, Waystation(s), World's End, Flats Lagoon\nSinklyde/Free (Must free from a cage)/Tengu's Vault\nSoman/3,500/Fishing Village\nStubs Momuso/5,000/Mud Town, Shark\nYamdu/Must capture rival's leader/Trader's Edge\n\n\"Amateur Recruit\"/3,000/Crab Town, Mourn, The Hub, Blister Hill, Heft, Heng, Stoat, Black Scratch, Flats Lagoon, Smugglers Bar, Waystation(s), World's End, Shark\n\"Disheartened Skeleton\"/6,000/Shark\n\"Ex-Slave Recruit\"/3,000/Crab Town, Mourn, The Hub, Blister Hill, Heft, Heng, Stoat, Black Scratch, Flats Lagoon, Smugglers Bar, Waystation(s), World's End\n\"Recruit Seeking Revenge\"/3,000/Any UC town, Black Scratch, Flats Lagoon, Smugglers Bar, Waystation(s), World's End\n\"Scarred Adventurer\"/6,000/Any UC town, Eyesocket, Slave Markets\n\"Skeleton Survivor\"/2,500/Shark\n\"Soldier Drone Swordslinger\"/7,500/Any UC town\n\"Swamper Adventurer\"/6,000/Shark\n\"Wall Man\"/5,000/Any UC town, Eyesocket, Shark, Slave Markets, Waystations, World's End, Smugglers Bar, Black Scratch, Flats Lagoon\n\n\n1. Bark (UC)\n2. Fishing Village\n3. Sho-Battai (UC)\n4. Burn's Tower\n5. Flotsam Village\n6. World's End\n7. Stoat (UC)\n8. Heft (UC)\n9. Settled Nomad Village\n10. Mongrel\n11. Blister Hill\n12. Tengu's Vault\n13. Heng/Trader's Edge (UC)\n14. Bad Teeth\n15. Stack\n16. Black Desert City\n17. Waystation 1\n18. Eyesocket\n19. Dust King Tower\n20. Waystation 2\n21. The Hub\n22. Smugglers Bar\n23. Tower of Abuse\n24. Brink (UC)\n25. Black Scratch\n26. Crab Village\n27. Admag\n28. Waystation 3\n29. Squin\n30. Last Stand\n31. Mud Town\n32. Shark\n33. Flats Lagoon\n34. Mourn\n35. Catun (UC)\n36. Slave Markets\n37. Clownsteady (UC)\n38. Waystation 4\n39. Drifter's Last (UC)\n\n\n\n\n1. Bark (UC)\nUnique: Red, Izumi, Jewel, Riddly\nGeneric: \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n\n2. Fishing Village\nUnique: Green Finger, Hobbs, Horse, Soman\n\n3. Sho-Battai (UC)\nUnique: Ells, Izumi, Jewel, Riddly\nGeneric: \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n\n4. Burn's Tower\nUnique: Burn\n\n5. Flotsam Village\nUnique: Digna, Knife, Pia, Reva\n\n6. World's End\nUnique: Bard, Hobbs, Silvershade\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n\n7. Stoat (UC)\nUnique: Izumi, Jewel, Riddly\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n\n8. Heft (UC)\nUnique: Izumi, Jewel, Riddly\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n\n9. Settled Nomad Village\nUnique: Cornelius\n\n10. Mongrel\nUnique: Beep, Crumblejon, Infinite Wingwang, Shryke\n\n11. Blister Hill\nUnique: Bard, Griffin\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\"\n\n12. Tengu's Vault\nUnique: Espher, Luquin, Sinklyde\n\n13. Heng / Trader's Edge (UC)\nUnique: Yamdu (Trader's Edge), Izumi, Jewel, Riddly\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n\n14. Bad Teeth\nUnique: Bard, Griffin\n\n15. Stack\nUnique: Bard, Griffin\n\n16. Black Desert City\nUnique: Sadneil\n\n17. Waystation 1\nUnique: Bard, Hobbs, Silvershade\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n\n18. Eyesocket\nUnique: Headshot, Ray\nGeneric: \"Scarred Adventurer\", \"Wall Man\"\n\n19. Dust King Tower\nUnique: Cat\n\n20. Waystation 2\nUnique: Bard, Hobbs, Silvershade\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n\n21. The Hub\nUnique: Hobbs\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\"\n\n22. Smugglers Bar\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n\n23. Tower of Abuse\nUnique: Agnu\n\n24. Brink (UC)\nUnique: Izumi, Jewel, Riddly\nGeneric: \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n\n25. Black Scratch\nUnique: Bo\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n\n26. Crab Village\nUnique: Lumi\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\"\n\n27. Admag\nUnique: Kang, Oron, Rane the Giant, Ruka, Seto\n\n28. Waystation 3\nUnique: Bard, Hobbs, Silvershade\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n\n29. Squin\nUnique: Horse, Kang, Oron, Rane the Giant, Ruka\n\n30. Last Stand\nUnique: Kang, Oron, Rane the Giant, Ruka\n\n31. Mud Town\nUnique: Doctor Chung, Green, Hamut, Miu, Silvershade, Stubs Momuso\n\n32. Shark\nUnique: Doctor Chung, Green, Hamut, Miu, Stubs Momuso\nGeneric: \"Amateur Recruit\", \"Disheartened Skeleton\", \"Skeleton Survivor\", \"Swamper Adventurer\", \"Wall Man\"\n\n33. Flats Lagoon\nUnique: Chad, Silvershade\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n\n34. Mourn\nUnique: Hobbs\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\"\n\n35. Catun (UC)\nUnique: Izumi, Jewel, Riddly\nGeneric: \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n\n36. Slave Markets\nUnique: Headshot, Ray\nGeneric: \"Scarred Adventurer\", \"Wall Man\"\n\n37. Clownsteady (UC)\nUnique: Izumi, Jewel, Riddly\nGeneric: \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n\n38. Waystation 4\nUnique: Bard, Hobbs, Silvershade\nGeneric: \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n\n39. Drifter's Last (UC)\nUnique: Izumi, Jewel, Riddly\nGeneric: \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-08-04T12:52:34.001598+00:00",
+        "updatedAt": "2026-08-04T12:52:34.001598+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019fccd5-2ffa-7ac6-bf87-3001cd51a1a6",
+        "evaluationSessionId": "019fccd3-fab9-7fad-b47e-cea5a10df0c8",
+        "evaluationId": "019fccd5-3a48-7608-997a-fbf9258ae733",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019fccd5-2ff6-7c9d-9d21-e1d39948cd07"
+        ],
+        "content": "Here is the list separated as requested, featuring only the free recruits first, followed by recruits that cost money but are priced at 2,999 or below.\n\n### **Free Recruits**\n*Note: Seto and Yamdu are included here as they cost no money, though they require specific world state actions to recruit.*\n\n*   **Agnu** / Free (Must free from a cage) / Tower of Abuse\n*   **Beep** / Free / Mongrel\n*   **Bo** / Free (Must Join Anti-Slaver) / Black Scratch\n*   **Burn** / Free / Burn's Tower\n*   **Cat** / Free (Must free from a cage) / Dust King Tower\n*   **Crumblejon** / Free / Mongrel\n*   **Doctor Chung** / Free / Mud Town, Shark\n*   **Espher** / Free (Must free from a cage) / Tengu's Vault\n*   **Hamut** / Free / Mud Town, Shark\n*   **Hobbs** / Free / Fishing Village, The Hub, Waystation(s), World's End, Mourn\n*   **Luquin** / Free (Must free from a cage) / Tengu's Vault\n*   **Miu** / Free / Mud Town, Shark\n*   **Riddly** / Free / Any UC town\n*   **Ruka** / Free / Admag, Squin, Last Stand\n*   **Sadneil** / Free / Black Desert City\n*   **Seto** / Free (Must capture rival's leader or have 80 relations with Shek Kingdom) / Admag\n*   **Shryke** / Free / Mongrel\n*   **Sinklyde** / Free (Must free from a cage) / Tengu's Vault\n*   **Yamdu** / Free (Must capture rival's leader) / Trader's Edge\n\n***\n\n### **Paid Recruits (Cost under 3,000)**\n*(Ordered from cheapest to most expensive)*\n\n*   **Red** / 150 / Bark\n*   **Ells** / 300 / Sho-Battai\n*   **Ray** / 1,000 / Eyesocket, Slave Markets\n*   **Green Finger** / 2,000 / Fishing Village\n*   **Green** / 2,300 / Mud Town, Shark\n*   **Izumi** / 2,500 / Any UC town\n*   **\"Skeleton Survivor\"** (Generic) / 2,500 / Shark",
+        "experimental_attachments": [],
+        "modelId": "019b24bb-5caf-71c3-b854-37d0c7086f21",
+        "createdAt": "2026-08-04T12:52:34.004991+00:00",
+        "updatedAt": "2026-08-04T12:52:53.732472+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 2433,
+            "totalTokens": 5259,
+            "usageSource": "provider",
+            "outputTokens": 2826,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 2261
+          },
+          "p2lConfig": {
+            "eta": 0.1,
+            "beta": 2,
+            "type": "bt-regularized-latency-cost",
+            "alpha": 1,
+            "timing": {
+              "glm-5.1-text": {
+                "ttcs": 73430,
+                "ttft": 39731
+              },
+              "gemini-3-flash": {
+                "ttcs": 15084,
+                "ttft": 7545
+              },
+              "claude-opus-4-6": {
+                "ttcs": 42774,
+                "ttft": 1898
+              },
+              "claude-sonnet-4-6": {
+                "ttcs": 31669,
+                "ttft": 1436
+              },
+              "gpt-5.4-mini-high": {
+                "ttcs": 19306,
+                "ttft": 11878
+              },
+              "gpt-5.2-chat-latest": {
+                "ttcs": 10052,
+                "ttft": 1193
+              },
+              "gemini-3.1-pro-preview": {
+                "ttcs": 34683,
+                "ttft": 21625
+              },
+              "claude-opus-4-5-20251101": {
+                "ttcs": 28881,
+                "ttft": 1877
+              },
+              "claude-opus-4-6-thinking": {
+                "ttcs": 51977,
+                "ttft": 12435
+              },
+              "gpt-5.4-no-system-prompt": {
+                "ttcs": 22695,
+                "ttft": 972
+              },
+              "gpt-5.4-high-no-system-prompt": {
+                "ttcs": 48864,
+                "ttft": 26621
+              },
+              "grok-4.20-beta-0309-reasoning": {
+                "ttcs": 11810,
+                "ttft": 5521
+              },
+              "gemini-3-flash-thinking-minimal": {
+                "ttcs": 9531,
+                "ttft": 2085
+              },
+              "grok-4.20-multi-agent-beta-0309": {
+                "ttcs": 16888,
+                "ttft": 10265
+              },
+              "claude-opus-4-5-20251101-thinking-32k": {
+                "ttcs": 37086,
+                "ttft": 10652
+              }
+            },
+            "pricing": {
+              "glm-5.1-text": {
+                "inputPrice": 0.95,
+                "outputPrice": 0.010105
+              },
+              "gemini-3-flash": {
+                "inputPrice": 0.5,
+                "outputPrice": 0.005103
+              },
+              "claude-opus-4-6": {
+                "inputPrice": 5,
+                "outputPrice": 0.09263
+              },
+              "claude-sonnet-4-6": {
+                "inputPrice": 3,
+                "outputPrice": 0.064832
+              },
+              "gpt-5.4-mini-high": {
+                "inputPrice": 2.5,
+                "outputPrice": 0.052292
+              },
+              "gpt-5.2-chat-latest": {
+                "inputPrice": 1.75,
+                "outputPrice": 0.010976
+              },
+              "gemini-3.1-pro-preview": {
+                "inputPrice": 2,
+                "outputPrice": 0.021722
+              },
+              "claude-opus-4-5-20251101": {
+                "inputPrice": 5,
+                "outputPrice": 0.0618975
+              },
+              "claude-opus-4-6-thinking": {
+                "inputPrice": 5,
+                "outputPrice": 0.1199
+              },
+              "gpt-5.4-no-system-prompt": {
+                "inputPrice": 2.5,
+                "outputPrice": 0.029058
+              },
+              "gpt-5.4-high-no-system-prompt": {
+                "inputPrice": 2.5,
+                "outputPrice": 0.061404
+              },
+              "grok-4.20-beta-0309-reasoning": {
+                "inputPrice": 2,
+                "outputPrice": 0.006101
+              },
+              "gemini-3-flash-thinking-minimal": {
+                "inputPrice": 0.5,
+                "outputPrice": 0.003498
+              },
+              "grok-4.20-multi-agent-beta-0309": {
+                "inputPrice": 2,
+                "outputPrice": 0.040748
+              },
+              "claude-opus-4-5-20251101-thinking-32k": {
+                "inputPrice": 5,
+                "outputPrice": 0.13855
+              }
+            },
+            "threshold": 0.9
+          },
+          "p2lModelData": [
+            {
+              "name": "gemini-3.1-pro-preview",
+              "penalty": 0.201264752551796,
+              "winProb": 0.9317469075552555,
+              "normalizedTtg": 0.3194539583129465,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.5442853187687197,
+              "normalizedInputPrice": 0.4,
+              "normalizedOutputPrice": 0.15678094550703717,
+              "leaderboardCoefficient": 0.8359375
+            },
+            {
+              "name": "gpt-5.4-high-no-system-prompt",
+              "penalty": 0.7203224824075743,
+              "winProb": 0.9473144539443717,
+              "normalizedTtg": 0.5441579410901263,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.6700309581938537,
+              "normalizedInputPrice": 0.5,
+              "normalizedOutputPrice": 0.4431901840490797,
+              "leaderboardCoefficient": 0.8671875
+            },
+            {
+              "name": "claude-opus-4-6-vertex",
+              "penalty": 0.8378196359934118,
+              "winProb": 0.9785189299640595,
+              "normalizedTtg": 1,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.04777126173516901,
+              "normalizedInputPrice": 1,
+              "normalizedOutputPrice": 0.6685673042223024,
+              "leaderboardCoefficient": 0.9296875
+            },
+            {
+              "name": "claude-opus-4-6-thinking",
+              "penalty": 1.275107815755728,
+              "winProb": 1,
+              "normalizedTtg": 0.9673647127899012,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.3129797890815736,
+              "normalizedInputPrice": 1,
+              "normalizedOutputPrice": 0.8653915553951642,
+              "leaderboardCoefficient": 0.97265625
+            },
+            {
+              "name": "claude-opus-4-5-20251101-thinking-32k",
+              "penalty": 1.3405840879648077,
+              "winProb": 0.9921876589418391,
+              "normalizedTtg": 0.6466875428124083,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.2681029926254059,
+              "normalizedInputPrice": 1,
+              "normalizedOutputPrice": 1,
+              "leaderboardCoefficient": 0.95703125
+            }
+          ],
+          "routedModelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+          "fromAutoRouter": true,
+          "routedModelName": "gemini-3.1-pro-preview",
+          "optimizerVariant": "default",
+          "routedModelOrganization": "google"
+        }
+      },
+      {
+        "id": "019fccd6-c065-7054-9d43-7a7c6f43df3e",
+        "evaluationSessionId": "019fccd3-fab9-7fad-b47e-cea5a10df0c8",
+        "evaluationId": "019fccd5-3a48-7608-997a-fbf9258ae733",
+        "role": "user",
+        "parentMessageIds": [
+          "019fccd5-2ffa-7ac6-bf87-3001cd51a1a6"
+        ],
+        "content": "write number of towns",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-08-04T12:54:15.540191+00:00",
+        "updatedAt": "2026-08-04T12:54:15.540191+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019fccd6-c092-742c-8432-455a55f8694c",
+        "evaluationSessionId": "019fccd3-fab9-7fad-b47e-cea5a10df0c8",
+        "evaluationId": "019fccd5-3a48-7608-997a-fbf9258ae733",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019fccd6-c065-7054-9d43-7a7c6f43df3e"
+        ],
+        "content": "Based on the list you provided, there are **39** towns/locations.",
+        "experimental_attachments": [],
+        "modelId": "019b24bb-5caf-71c3-b854-37d0c7086f21",
+        "createdAt": "2026-08-04T12:54:15.548677+00:00",
+        "updatedAt": "2026-08-04T12:54:18.966232+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 3002,
+            "totalTokens": 3211,
+            "usageSource": "provider",
+            "outputTokens": 209,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 192
+          },
+          "p2lConfig": {
+            "eta": 0.1,
+            "beta": 2,
+            "type": "bt-regularized-latency-cost",
+            "alpha": 1,
+            "timing": {
+              "glm-5.1-text": {
+                "ttcs": 73430,
+                "ttft": 39731
+              },
+              "gemini-3-flash": {
+                "ttcs": 15084,
+                "ttft": 7545
+              },
+              "claude-opus-4-6": {
+                "ttcs": 42774,
+                "ttft": 1898
+              },
+              "claude-sonnet-4-6": {
+                "ttcs": 31669,
+                "ttft": 1436
+              },
+              "gpt-5.4-mini-high": {
+                "ttcs": 19306,
+                "ttft": 11878
+              },
+              "gpt-5.2-chat-latest": {
+                "ttcs": 10052,
+                "ttft": 1193
+              },
+              "gemini-3.1-pro-preview": {
+                "ttcs": 34683,
+                "ttft": 21625
+              },
+              "claude-opus-4-5-20251101": {
+                "ttcs": 28881,
+                "ttft": 1877
+              },
+              "claude-opus-4-6-thinking": {
+                "ttcs": 51977,
+                "ttft": 12435
+              },
+              "gpt-5.4-no-system-prompt": {
+                "ttcs": 22695,
+                "ttft": 972
+              },
+              "gpt-5.4-high-no-system-prompt": {
+                "ttcs": 48864,
+                "ttft": 26621
+              },
+              "grok-4.20-beta-0309-reasoning": {
+                "ttcs": 11810,
+                "ttft": 5521
+              },
+              "gemini-3-flash-thinking-minimal": {
+                "ttcs": 9531,
+                "ttft": 2085
+              },
+              "grok-4.20-multi-agent-beta-0309": {
+                "ttcs": 16888,
+                "ttft": 10265
+              },
+              "claude-opus-4-5-20251101-thinking-32k": {
+                "ttcs": 37086,
+                "ttft": 10652
+              }
+            },
+            "pricing": {
+              "glm-5.1-text": {
+                "inputPrice": 0.95,
+                "outputPrice": 0.010105
+              },
+              "gemini-3-flash": {
+                "inputPrice": 0.5,
+                "outputPrice": 0.005103
+              },
+              "claude-opus-4-6": {
+                "inputPrice": 5,
+                "outputPrice": 0.09263
+              },
+              "claude-sonnet-4-6": {
+                "inputPrice": 3,
+                "outputPrice": 0.064832
+              },
+              "gpt-5.4-mini-high": {
+                "inputPrice": 2.5,
+                "outputPrice": 0.052292
+              },
+              "gpt-5.2-chat-latest": {
+                "inputPrice": 1.75,
+                "outputPrice": 0.010976
+              },
+              "gemini-3.1-pro-preview": {
+                "inputPrice": 2,
+                "outputPrice": 0.021722
+              },
+              "claude-opus-4-5-20251101": {
+                "inputPrice": 5,
+                "outputPrice": 0.0618975
+              },
+              "claude-opus-4-6-thinking": {
+                "inputPrice": 5,
+                "outputPrice": 0.1199
+              },
+              "gpt-5.4-no-system-prompt": {
+                "inputPrice": 2.5,
+                "outputPrice": 0.029058
+              },
+              "gpt-5.4-high-no-system-prompt": {
+                "inputPrice": 2.5,
+                "outputPrice": 0.061404
+              },
+              "grok-4.20-beta-0309-reasoning": {
+                "inputPrice": 2,
+                "outputPrice": 0.006101
+              },
+              "gemini-3-flash-thinking-minimal": {
+                "inputPrice": 0.5,
+                "outputPrice": 0.003498
+              },
+              "grok-4.20-multi-agent-beta-0309": {
+                "inputPrice": 2,
+                "outputPrice": 0.040748
+              },
+              "claude-opus-4-5-20251101-thinking-32k": {
+                "inputPrice": 5,
+                "outputPrice": 0.13855
+              }
+            },
+            "threshold": 0.9
+          },
+          "p2lModelData": [
+            {
+              "name": "gemini-3.1-pro-preview",
+              "penalty": 0.2765034250188848,
+              "winProb": 0.9375812532524875,
+              "normalizedTtg": 0.3194539583129465,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.5442853187687197,
+              "normalizedInputPrice": 0.4,
+              "normalizedOutputPrice": 0.15678094550703717,
+              "leaderboardCoefficient": 0.8046875
+            },
+            {
+              "name": "gpt-5.4-high-no-system-prompt",
+              "penalty": 0.7858547766110432,
+              "winProb": 0.9007187650578763,
+              "normalizedTtg": 0.5441579410901263,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.6700309581938537,
+              "normalizedInputPrice": 0.5,
+              "normalizedOutputPrice": 0.4431901840490797,
+              "leaderboardCoefficient": 0.73046875
+            },
+            {
+              "name": "claude-opus-4-6-vertex",
+              "penalty": 0.9931249405503202,
+              "winProb": 0.9336911906663836,
+              "normalizedTtg": 1,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.04777126173516901,
+              "normalizedInputPrice": 1,
+              "normalizedOutputPrice": 0.6685673042223024,
+              "leaderboardCoefficient": 0.796875
+            },
+            {
+              "name": "claude-opus-4-5-20251101-thinking-32k",
+              "penalty": 1.3327717469066467,
+              "winProb": 1,
+              "normalizedTtg": 0.6466875428124083,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.2681029926254059,
+              "normalizedInputPrice": 1,
+              "normalizedOutputPrice": 1,
+              "leaderboardCoefficient": 0.9296875
+            },
+            {
+              "name": "claude-opus-4-6-thinking",
+              "penalty": 1.355119070519046,
+              "winProb": 0.9648582267716272,
+              "normalizedTtg": 0.9673647127899012,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.3129797890815736,
+              "normalizedInputPrice": 1,
+              "normalizedOutputPrice": 0.8653915553951642,
+              "leaderboardCoefficient": 0.859375
+            }
+          ],
+          "routedModelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+          "fromAutoRouter": true,
+          "routedModelName": "gemini-3.1-pro-preview",
+          "optimizerVariant": "default",
+          "routedModelOrganization": "google"
+        }
+      },
+      {
+        "id": "019fccd7-5475-7d53-9f40-6b0c4c655cf2",
+        "evaluationSessionId": "019fccd3-fab9-7fad-b47e-cea5a10df0c8",
+        "evaluationId": "019fccd5-3a48-7608-997a-fbf9258ae733",
+        "role": "user",
+        "parentMessageIds": [
+          "019fccd6-c092-742c-8432-455a55f8694c"
+        ],
+        "content": "numberS",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-08-04T12:54:53.363604+00:00",
+        "updatedAt": "2026-08-04T12:54:53.363604+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019fccd7-5479-7450-aef3-0f419f039bd1",
+        "evaluationSessionId": "019fccd3-fab9-7fad-b47e-cea5a10df0c8",
+        "evaluationId": "019fccd5-3a48-7608-997a-fbf9258ae733",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019fccd7-5475-7d53-9f40-6b0c4c655cf2"
+        ],
+        "content": "Ah, I see! You want the **numbered list** of the towns based on your original prompt, but filtered to show **only** the free recruits and those that cost 2,999 or less. \n\nHere are the numbers of the towns, showing who is available at your specified price range. *(Note: Towns that only have recruits costing 3,000+ have been marked as having none).*\n\n**1. Bark (UC)**\n*   Red (150), Izumi (2,500), Riddly (Free)\n\n**2. Fishing Village**\n*   Green Finger (2,000), Hobbs (Free)\n\n**3. Sho-Battai (UC)**\n*   Ells (300), Izumi (2,500), Riddly (Free)\n\n**4. Burn's Tower**\n*   Burn (Free)\n\n**5. Flotsam Village**\n*   *None under 3,000*\n\n**6. World's End**\n*   Hobbs (Free)\n\n**7. Stoat (UC)**\n*   Izumi (2,500), Riddly (Free)\n\n**8. Heft (UC)**\n*   Izumi (2,500), Riddly (Free)\n\n**9. Settled Nomad Village**\n*   *None under 3,000*\n\n**10. Mongrel**\n*   Beep (Free), Crumblejon (Free), Shryke (Free)\n\n**11. Blister Hill**\n*   *None under 3,000*\n\n**12. Tengu's Vault**\n*   Espher (Free), Luquin (Free), Sinklyde (Free)\n\n**13. Heng / Trader's Edge (UC)**\n*   Yamdu (Free - Trader's Edge), Izumi (2,500), Riddly (Free)\n\n**14. Bad Teeth**\n*   *None under 3,000*\n\n**15. Stack**\n*   *None under 3,000*\n\n**16. Black Desert City**\n*   Sadneil (Free)\n\n**17. Waystation 1**\n*   Hobbs (Free)\n\n**18. Eyesocket**\n*   Ray (1,000)\n\n**19. Dust King Tower**\n*   Cat (Free)\n\n**20. Waystation 2**\n*   Hobbs (Free)\n\n**21. The Hub**\n*   Hobbs (Free)\n\n**22. Smugglers Bar**\n*   *None under 3,000*\n\n**23. Tower of Abuse**\n*   Agnu (Free)\n\n**24. Brink (UC)**\n*   Izumi (2,500), Riddly (Free)\n\n**25. Black Scratch**\n*   Bo (Free)\n\n**26. Crab Village**\n*   *None under 3,000*\n\n**27. Admag**\n*   Ruka (Free), Seto (Free)\n\n**28. Waystation 3**\n*   Hobbs (Free)\n\n**29. Squin**\n*   Ruka (Free)\n\n**30. Last Stand**\n*   Ruka (Free)\n\n**31. Mud Town**\n*   Doctor Chung (Free), Green (2,300), Hamut (Free), Miu (Free)\n\n**32. Shark**\n*   Doctor Chung (Free), Green (2,300), Hamut (Free), Miu (Free)\n*   *Generic:* \"Skeleton Survivor\" (2,500)\n\n**33. Flats Lagoon**\n*   *None under 3,000*\n\n**34. Mourn**\n*   Hobbs (Free)\n\n**35. Catun (UC)**\n*   Izumi (2,500), Riddly (Free)\n\n**36. Slave Markets**\n*   Ray (1,000)\n\n**37. Clownsteady (UC)**\n*   Izumi (2,500), Riddly (Free)\n\n**38. Waystation 4**\n*   Hobbs (Free)\n\n**39. Drifter's Last (UC)**\n*   Izumi (2,500), Riddly (Free)",
+        "experimental_attachments": [],
+        "modelId": "019b24bb-5caf-71c3-b854-37d0c7086f21",
+        "createdAt": "2026-08-04T12:54:53.367013+00:00",
+        "updatedAt": "2026-08-04T12:55:28.30006+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 3021,
+            "totalTokens": 7610,
+            "usageSource": "provider",
+            "outputTokens": 4589,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 3603
+          },
+          "p2lConfig": {
+            "eta": 0.1,
+            "beta": 2,
+            "type": "bt-regularized-latency-cost",
+            "alpha": 1,
+            "timing": {
+              "glm-5.1-text": {
+                "ttcs": 73430,
+                "ttft": 39731
+              },
+              "gemini-3-flash": {
+                "ttcs": 15084,
+                "ttft": 7545
+              },
+              "claude-opus-4-6": {
+                "ttcs": 42774,
+                "ttft": 1898
+              },
+              "claude-sonnet-4-6": {
+                "ttcs": 31669,
+                "ttft": 1436
+              },
+              "gpt-5.4-mini-high": {
+                "ttcs": 19306,
+                "ttft": 11878
+              },
+              "gpt-5.2-chat-latest": {
+                "ttcs": 10052,
+                "ttft": 1193
+              },
+              "gemini-3.1-pro-preview": {
+                "ttcs": 34683,
+                "ttft": 21625
+              },
+              "claude-opus-4-5-20251101": {
+                "ttcs": 28881,
+                "ttft": 1877
+              },
+              "claude-opus-4-6-thinking": {
+                "ttcs": 51977,
+                "ttft": 12435
+              },
+              "gpt-5.4-no-system-prompt": {
+                "ttcs": 22695,
+                "ttft": 972
+              },
+              "gpt-5.4-high-no-system-prompt": {
+                "ttcs": 48864,
+                "ttft": 26621
+              },
+              "grok-4.20-beta-0309-reasoning": {
+                "ttcs": 11810,
+                "ttft": 5521
+              },
+              "gemini-3-flash-thinking-minimal": {
+                "ttcs": 9531,
+                "ttft": 2085
+              },
+              "grok-4.20-multi-agent-beta-0309": {
+                "ttcs": 16888,
+                "ttft": 10265
+              },
+              "claude-opus-4-5-20251101-thinking-32k": {
+                "ttcs": 37086,
+                "ttft": 10652
+              }
+            },
+            "pricing": {
+              "glm-5.1-text": {
+                "inputPrice": 0.95,
+                "outputPrice": 0.010105
+              },
+              "gemini-3-flash": {
+                "inputPrice": 0.5,
+                "outputPrice": 0.005103
+              },
+              "claude-opus-4-6": {
+                "inputPrice": 5,
+                "outputPrice": 0.09263
+              },
+              "claude-sonnet-4-6": {
+                "inputPrice": 3,
+                "outputPrice": 0.064832
+              },
+              "gpt-5.4-mini-high": {
+                "inputPrice": 2.5,
+                "outputPrice": 0.052292
+              },
+              "gpt-5.2-chat-latest": {
+                "inputPrice": 1.75,
+                "outputPrice": 0.010976
+              },
+              "gemini-3.1-pro-preview": {
+                "inputPrice": 2,
+                "outputPrice": 0.021722
+              },
+              "claude-opus-4-5-20251101": {
+                "inputPrice": 5,
+                "outputPrice": 0.0618975
+              },
+              "claude-opus-4-6-thinking": {
+                "inputPrice": 5,
+                "outputPrice": 0.1199
+              },
+              "gpt-5.4-no-system-prompt": {
+                "inputPrice": 2.5,
+                "outputPrice": 0.029058
+              },
+              "gpt-5.4-high-no-system-prompt": {
+                "inputPrice": 2.5,
+                "outputPrice": 0.061404
+              },
+              "grok-4.20-beta-0309-reasoning": {
+                "inputPrice": 2,
+                "outputPrice": 0.006101
+              },
+              "gemini-3-flash-thinking-minimal": {
+                "inputPrice": 0.5,
+                "outputPrice": 0.003498
+              },
+              "grok-4.20-multi-agent-beta-0309": {
+                "inputPrice": 2,
+                "outputPrice": 0.040748
+              },
+              "claude-opus-4-5-20251101-thinking-32k": {
+                "inputPrice": 5,
+                "outputPrice": 0.13855
+              }
+            },
+            "threshold": 0.9
+          },
+          "p2lModelData": [
+            {
+              "name": "gemini-3.1-pro-preview",
+              "penalty": 0.332587628728901,
+              "winProb": 0.922033558624632,
+              "normalizedTtg": 0.3194539583129465,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.5442853187687197,
+              "normalizedInputPrice": 0.4,
+              "normalizedOutputPrice": 0.15678094550703717,
+              "leaderboardCoefficient": 0.734375
+            },
+            {
+              "name": "gpt-5.4-high-no-system-prompt",
+              "penalty": 0.7875817382802976,
+              "winProb": 0.9084601060471086,
+              "normalizedTtg": 0.5441579410901263,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.6700309581938537,
+              "normalizedInputPrice": 0.5,
+              "normalizedOutputPrice": 0.4431901840490797,
+              "leaderboardCoefficient": 0.70703125
+            },
+            {
+              "name": "claude-opus-4-6-vertex",
+              "penalty": 1.0483637231799365,
+              "winProb": 0.9336911906663836,
+              "normalizedTtg": 1,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.04777126173516901,
+              "normalizedInputPrice": 1,
+              "normalizedOutputPrice": 0.6685673042223024,
+              "leaderboardCoefficient": 0.7578125
+            },
+            {
+              "name": "claude-opus-4-5-20251101-thinking-32k",
+              "penalty": 1.3327717469066467,
+              "winProb": 1,
+              "normalizedTtg": 0.6466875428124083,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.2681029926254059,
+              "normalizedInputPrice": 1,
+              "normalizedOutputPrice": 1,
+              "leaderboardCoefficient": 0.890625
+            },
+            {
+              "name": "claude-opus-4-6-thinking",
+              "penalty": 1.3892527359307938,
+              "winProb": 0.9531593021273521,
+              "normalizedTtg": 0.9673647127899012,
+              "normalizedTtcs": 0,
+              "normalizedTtft": 0.3129797890815736,
+              "normalizedInputPrice": 1,
+              "normalizedOutputPrice": 0.8653915553951642,
+              "leaderboardCoefficient": 0.796875
+            }
+          ],
+          "routedModelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+          "fromAutoRouter": true,
+          "routedModelName": "gemini-3.1-pro-preview",
+          "optimizerVariant": "default",
+          "routedModelOrganization": "google"
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019fccd5-3a48-7608-997a-fbf9258ae733",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b24bb-5caf-71c3-b854-37d0c7086f21",
+        "organization": "boss-bandit",
+        "provider": "boss-bandit",
+        "publicName": "Max",
+        "name": "boss-bandit",
+        "displayName": "Max",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": {
+              "multipleImages": true
+            }
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true,
+            "image": {
+              "aspectRatios": [
+                "1:1"
+              ]
+            },
+            "search": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

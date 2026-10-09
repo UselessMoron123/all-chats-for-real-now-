@@ -1,0 +1,135 @@
+{
+  "exportedAt": "2026-10-09T16:28:08.662Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c84bc-2ac7-79c6-9e29-ae50d08b7ff5",
+  "archivedAt": "2026-09-30 20:27:04.952+00",
+  "evaluation": {
+    "id": "019c84bc-2ac7-79c6-9e29-ae50d08b7ff5",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "901700 = {\n\tname = \"Rurik_0\"\n\tdynasty = 705\n\treligion = norse_pagan\n\tculture = norse\n\t1.1.1 = {\n\t\tbi",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c84c7-c073-71ca-82bd-d06123de4967"
+    ],
+    "archivedAt": "2026-09-30 20:27:04.952+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-22 09:52:27.774+00",
+    "updatedAt": "2026-02-22 09:56:51.122523+00",
+    "messages": [
+      {
+        "id": "019c84c3-bbab-75d5-b0cf-816b4350ff42",
+        "evaluationSessionId": "019c84bc-2ac7-79c6-9e29-ae50d08b7ff5",
+        "evaluationId": "019c84c3-c4ca-7e0f-9ed8-6fbb85cf386f",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "901700 = {\n\tname = \"Rurik_0\"\n\tdynasty = 705\n\treligion = norse_pagan\n\tculture = norse\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n901900 = {\n\tname = \"Arpad_0\"\n\tdynasty = 708\n\treligion = tengri_pagan\n\tculture = hungarian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n902000 = {\n\tname = \"Dyre_0\"\n\tdynasty = 7516\n\treligion = norse_pagan\n\tculture = norse\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n902900 = {\n\tname = \"Boleslav_0\"\n\tdynasty = 506\n\treligion = catholic\n\tculture = bohemian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n903300 = {\n\tname = \"Boleslaw_0\"\n\tdynasty = 699\n\treligion = catholic\n\tculture = polish\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n903600 = {\n\tname = \"Dmitar-Zvonimir_0\"\n\tdynasty = 512\n\treligion = catholic\n\tculture = croatian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910800 = {\n\tname = \"Defender_0\"\n\tfemale = yes\n\tdynasty = 910800\n\treligion = slavic_pagan\n\tculture = severian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910900 = {\n\tname = \"Culture_0\"\n\tfemale = yes\n\tdynasty = 910900\n\treligion = slavic_pagan\n\tculture = severian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911000 = {\n\tname = \"Inquisitor_0\"\n\tfemale = yes\n\tdynasty = 911000\n\treligion = slavic_pagan\n\tculture = severian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911100 = {\n\tname = \"Jewish_0\"\n\tfemale = yes\n\tdynasty = 911100\n\treligion = orthodox\n\tculture = severian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911200 = {\n\tname = \"Theologic_0\"\n\tfemale = yes\n\tdynasty = 911200\n\treligion = slavic_pagan\n\tculture = severian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n916600 = {\n\tname = \"Teuta_0\"\n\tfemale = yes\n\tdynasty = 916600\n\treligion = slavic_pagan\n\tculture = croatian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n917500 = {\n\tname = \"MLCR_0\"\n\tdynasty = 917500\n\treligion = slavic_pagan\n\tculture = severian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n917600 = {\n\tname = \"FLCR_0\"\n\tfemale = yes\n\tdynasty = 917600\n\treligion = slavic_pagan\n\tculture = severian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n923500 = {\n\tname = \"FSurvivor_0\"\n\tfemale = yes\n\tdynasty = 923500\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n901800 = {\n\tname = \"Basileios_0\"\n\tdynasty = 644\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n904100 = {\n\tname = \"Alexios_0\"\n\tdynasty = 634\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n908000 = {\n\tname = \"Defender_0\"\n\tfemale = yes\n\tdynasty = 908000\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n908100 = {\n\tname = \"Monastic_0\"\n\tfemale = yes\n\tdynasty = 908100\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n908200 = {\n\tname = \"Culture_0\"\n\tfemale = yes\n\tdynasty = 908200\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n908300 = {\n\tname = \"Inquisitor_0\"\n\tdynasty = 908300\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n908400 = {\n\tname = \"Jewish_0\"\n\tfemale = yes\n\tdynasty = 908400\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n908500 = {\n\tname = \"Theologic_0\"\n\tdynasty = 908500\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n913800 = {\n\tname = \"Defender_0\"\n\tfemale = yes\n\tdynasty = 913800\n\treligion = hellenic_pagan\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n913900 = {\n\tname = \"Monastic_0\"\n\tdynasty = 913900\n\treligion = hellenic_pagan\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n914000 = {\n\tname = \"Culture_0\"\n\tfemale = yes\n\tdynasty = 914000\n\treligion = hellenic_pagan\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n914100 = {\n\tname = \"Inquisitor_0\"\n\tdynasty = 914100\n\treligion = hellenic_pagan\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n914200 = {\n\tname = \"Jewish_0\"\n\tfemale = yes\n\tdynasty = 914200\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n914300 = {\n\tname = \"Theologic_0\"\n\tdynasty = 914300\n\treligion = hellenic_pagan\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n916200 = {\n\tname = \"MRoman_0\"\n\tdynasty = 916200\n\treligion = hellenic_pagan\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n916300 = {\n\tname = \"FRoman_0\"\n\tfemale = yes\n\tdynasty = 916300\n\treligion = hellenic_pagan\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-22T09:52:28.372142+00:00",
+        "updatedAt": "2026-02-22T09:52:28.372142+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c84c3-bbae-7efa-a091-7c350d6b784c",
+        "evaluationSessionId": "019c84bc-2ac7-79c6-9e29-ae50d08b7ff5",
+        "evaluationId": "019c84c3-c4ca-7e0f-9ed8-6fbb85cf386f",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c84c3-bbab-75d5-b0cf-816b4350ff42"
+        ],
+        "content": "This data appears to be character history definitions from a **Paradox Interactive** game, almost certainly **Crusader Kings II (CK2)**.\n\nThese specific entries look like **\"Dummy\" or \"System\" characters** rather than playable historical figures. They are likely used by the game engine or a mod (possibly a total conversion mod or an event logic mod) to handle background calculations, bloodlines, or specific AI behaviors.\n\nHere is a breakdown of the characters provided:\n\n### 1. Historical/Dynastic Ancestor Placeholders\nThese characters represent the legendary or historical founders of major dynasties. The `_0` suffix suggests they are system copies used to anchor bloodlines or dynastic trees without interfering with the actual historical character history files.\n\n*   **901700 Rurik_0:** Founder of the Rurikid dynasty (Russia).\n*   **901900 Arpad_0:** Founder of the Árpád dynasty (Hungary).\n*   **902000 Dyre_0:** Likely Dyre the Stranger, a Norse warlord in Kiev.\n*   **902900 Boleslav_0:** Representing the Přemyslid dynasty (Bohemia).\n*   **903300 Boleslaw_0:** Representing the Piast dynasty (Poland).\n*   **903600 Dmitar-Zvonimir_0:** King of Croatia (Trpimirović dynasty).\n*   **901800 Basileios_0:** Basil I, founder of the Macedonian dynasty (Byzantium).\n*   **904100 Alexios_0:** Alexios I, founder of the Komnenos restoration (Byzantium).\n*   **916600 Teuta_0:** Queen Teuta of Illyria (represented here as Croatian/Slavic for game mechanics).\n\n### 2. Utility/Logic Characters (Severian/Slavic)\nThese female characters (mostly) seem to be used for script logic, likely related to councillor tasks, AI weighing, or specific event chains (e.g., a \"Culture\" character might store variables regarding culture conversion).\n\n*   **910800 Defender_0**\n*   **910900 Culture_0**\n*   **911000 Inquisitor_0**\n*   **911100 Jewish_0** (Note: She is Orthodox religion, despite the name)\n*   **911200 Theologic_0**\n*   **917500 MLCR_0** (Male, likely \"Male Lowborn/Leader...\" placeholder)\n*   **917600 FLCR_0** (Female, likely \"Female Lowborn/Leader...\" placeholder)\n\n### 3. Utility/Logic Characters (Greek/Orthodox)\nSimilar to the group above, but for the Greek culture group.\n\n*   **908000 Defender_0**\n*   **908100 Monastic_0**\n*   **908200 Culture_0**\n*   **908300 Inquisitor_0**\n*   **908400 Jewish_0**\n*   **908500 Theologic_0**\n\n### 4. Utility/Logic Characters (Greek/Hellenic)\nThese appear to be specific to the Hellenic (Roman Pagan) revival mechanics or history.\n\n*   **913800 Defender_0**\n*   **913900 Monastic_0**\n*   **914000 Culture_0**\n*   **914100 Inquisitor_0**\n*   **914200 Jewish_0** (Still listed as Orthodox religion)\n*   **914300 Theologic_0**\n*   **916200 MRoman_0** (Male Roman placeholder)\n*   **916300 FRoman_0** (Female Roman placeholder)\n\n### 5. Other\n*   **923500 FSurvivor_0:** French Catholic Female. The name suggests usage in a \"Survivor\" event, perhaps related to the Black Death or a siege event chain.\n\n### Technical Observations\n*   **Dates:** All characters share the birth date `1.1.1` and death date `1336.12.31`. In CK2 modding, dates like `1.1.1` indicate the character exists \"since the beginning of time\" for calculation purposes, and `1336` ensures they are dead by the standard game start (or end date), but their data remains accessible in history files.\n*   **Dynasty IDs:** The historical characters use real vanilla CK2 dynasty IDs (e.g., 705 is Rurikid, 634 is Komnenos). The utility characters use their Character ID as their Dynasty ID, meaning they belong to a generated, non-historical dynasty of one.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-22T09:52:28.374982+00:00",
+        "updatedAt": "2026-02-22T09:54:58.888143+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "nRetries": 1
+        }
+      },
+      {
+        "id": "019c84c7-c070-76cf-a139-8e78e06d62f3",
+        "evaluationSessionId": "019c84bc-2ac7-79c6-9e29-ae50d08b7ff5",
+        "evaluationId": "019c84c3-c4ca-7e0f-9ed8-6fbb85cf386f",
+        "role": "user",
+        "parentMessageIds": [
+          "019c84c3-bbae-7efa-a091-7c350d6b784c"
+        ],
+        "content": "sort chars by id",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-22T09:56:51.096232+00:00",
+        "updatedAt": "2026-02-22T09:56:51.096232+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c84c7-c073-71ca-82bd-d06123de4967",
+        "evaluationSessionId": "019c84bc-2ac7-79c6-9e29-ae50d08b7ff5",
+        "evaluationId": "019c84c3-c4ca-7e0f-9ed8-6fbb85cf386f",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c84c7-c070-76cf-a139-8e78e06d62f3"
+        ],
+        "content": "```paradox\n901700 = {\n\tname = \"Rurik_0\"\n\tdynasty = 705\n\treligion = norse_pagan\n\tculture = norse\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n901800 = {\n\tname = \"Basileios_0\"\n\tdynasty = 644\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n901900 = {\n\tname = \"Arpad_0\"\n\tdynasty = 708\n\treligion = tengri_pagan\n\tculture = hungarian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n902000 = {\n\tname = \"Dyre_0\"\n\tdynasty = 7516\n\treligion = norse_pagan\n\tculture = norse\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n902900 = {\n\tname = \"Boleslav_0\"\n\tdynasty = 506\n\treligion = catholic\n\tculture = bohemian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n903300 = {\n\tname = \"Boleslaw_0\"\n\tdynasty = 699\n\treligion = catholic\n\tculture = polish\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n903600 = {\n\tname = \"Dmitar-Zvonimir_0\"\n\tdynasty = 512\n\treligion = catholic\n\tculture = croatian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n904100 = {\n\tname = \"Alexios_0\"\n\tdynasty = 634\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n908000 = {\n\tname = \"Defender_0\"\n\tfemale = yes\n\tdynasty = 908000\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n908100 = {\n\tname = \"Monastic_0\"\n\tfemale = yes\n\tdynasty = 908100\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n908200 = {\n\tname = \"Culture_0\"\n\tfemale = yes\n\tdynasty = 908200\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n908300 = {\n\tname = \"Inquisitor_0\"\n\tdynasty = 908300\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n908400 = {\n\tname = \"Jewish_0\"\n\tfemale = yes\n\tdynasty = 908400\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n908500 = {\n\tname = \"Theologic_0\"\n\tdynasty = 908500\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910800 = {\n\tname = \"Defender_0\"\n\tfemale = yes\n\tdynasty = 910800\n\treligion = slavic_pagan\n\tculture = severian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910900 = {\n\tname = \"Culture_0\"\n\tfemale = yes\n\tdynasty = 910900\n\treligion = slavic_pagan\n\tculture = severian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911000 = {\n\tname = \"Inquisitor_0\"\n\tfemale = yes\n\tdynasty = 911000\n\treligion = slavic_pagan\n\tculture = severian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911100 = {\n\tname = \"Jewish_0\"\n\tfemale = yes\n\tdynasty = 911100\n\treligion = orthodox\n\tculture = severian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911200 = {\n\tname = \"Theologic_0\"\n\tfemale = yes\n\tdynasty = 911200\n\treligion = slavic_pagan\n\tculture = severian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n913800 = {\n\tname = \"Defender_0\"\n\tfemale = yes\n\tdynasty = 913800\n\treligion = hellenic_pagan\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n913900 = {\n\tname = \"Monastic_0\"\n\tdynasty = 913900\n\treligion = hellenic_pagan\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n914000 = {\n\tname = \"Culture_0\"\n\tfemale = yes\n\tdynasty = 914000\n\treligion = hellenic_pagan\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n914100 = {\n\tname = \"Inquisitor_0\"\n\tdynasty = 914100\n\treligion = hellenic_pagan\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n914200 = {\n\tname = \"Jewish_0\"\n\tfemale = yes\n\tdynasty = 914200\n\treligion = orthodox\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n914300 = {\n\tname = \"Theologic_0\"\n\tdynasty = 914300\n\treligion = hellenic_pagan\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n916200 = {\n\tname = \"MRoman_0\"\n\tdynasty = 916200\n\treligion = hellenic_pagan\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n916300 = {\n\tname = \"FRoman_0\"\n\tfemale = yes\n\tdynasty = 916300\n\treligion = hellenic_pagan\n\tculture = greek\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n916600 = {\n\tname = \"Teuta_0\"\n\tfemale = yes\n\tdynasty = 916600\n\treligion = slavic_pagan\n\tculture = croatian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n917500 = {\n\tname = \"MLCR_0\"\n\tdynasty = 917500\n\treligion = slavic_pagan\n\tculture = severian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n917600 = {\n\tname = \"FLCR_0\"\n\tfemale = yes\n\tdynasty = 917600\n\treligion = slavic_pagan\n\tculture = severian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n923500 = {\n\tname = \"FSurvivor_0\"\n\tfemale = yes\n\tdynasty = 923500\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n```",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-22T09:56:51.108524+00:00",
+        "updatedAt": "2026-02-22T09:57:28.448209+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c84c3-c4ca-7e0f-9ed8-6fbb85cf386f",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

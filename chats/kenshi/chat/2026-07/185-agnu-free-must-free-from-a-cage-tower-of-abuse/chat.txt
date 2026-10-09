@@ -1,0 +1,264 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : Agnu/Free (Must free from a cage)/Tower of Abuse
+Bard/3000/Bad Teeth, Blister Hill, Stack, Waystatio
+Mode     : direct-battle
+Started  : 2026-07-14 12:03:54
+Updated  : 2026-07-14 12:03:54
+Archived : 2026-09-30 22:58:42
+Messages : 2
+URL      : https://arena.ai/c/019f5fdd-988e-7a32-a48d-969d49df1420
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-07-14 12:03:54
+------------------------------------------------------------
+Agnu/Free (Must free from a cage)/Tower of Abuse
+Bard/3000/Bad Teeth, Blister Hill, Stack, Waystations, World's End
+Beep/Free/Mongrel
+Bo/Free (Must Join Anti-Slaver)/Black Scratch
+Burn/Free/Burn's Tower
+Cat/Free (Must free from a cage)/Dust King Tower
+Chad/9,000/Flats Lagoon
+Cornelius/is a Goat/7,000/Settled Nomad Village
+Crumblejon/Free/Mongrel
+Digna/3,000/Flotsam Village
+Doctor Chung/Free/Mud Town, Shark
+Ells/300/Sho-Battai
+Espher/Free (Must free from a cage)/Tengu's Vault
+Green/2,300/Mud Town, Shark
+Green Finger/2,000/Fishing Village
+Griffin/9,000/Bad Teeth, Blister Hill, Stack
+Hamut/Free/Mud Town, Shark
+Headshot/7,500/Eyesocket, Slave Markets
+Hobbs/Free/Fishing Village, The Hub, Waystation(s), World's End, Mourn
+Horse/4,500/Fishing Village, Squin
+Infinite Wingwang/5,000/Mongrel
+Izumi/2,500/Any UC town
+Jewel/6,000/Any UC town
+Kang/6,000/Admag, Squin, Last Stand
+Knife/6,000/Flotsam Village
+Lumi/6,000/Crab Town
+Luquin/Free (Must free from a cage)/Tengu's Vault
+Miu/Free/Mud Town, Shark
+Oron/3,500/Admag, Squin, Last Stand
+Pia/3,000/Flotsam Village
+Rane the Giant/7,500/Admag, Squin, Last Stand
+Ray/1,000/Eyesocket, Slave Markets
+Red/150/Bark
+Reva/6,000/Flotsam Village
+Riddly/Free/Any UC town
+Ruka/Free/Admag, Squin, Last Stand
+Sadneil/Free/Black Desert City
+Seto/Must capture rival's leader or have 80 relations with Shek Kingdom/Admag
+Shryke/Free/Mongrel
+Silvershade/3,000/Mud Town, Waystation(s), World's End, Flats Lagoon
+Sinklyde/Free (Must free from a cage)/Tengu's Vault
+Soman/3,500/Fishing Village
+Stubs Momuso/5,000/Mud Town, Shark
+Yamdu/Must capture rival's leader/Trader's Edge
+
+"Amateur Recruit"/3,000/Crab Town, Mourn, The Hub, Blister Hill, Heft, Heng, Stoat, Black Scratch, Flats Lagoon, Smugglers Bar, Waystation(s), World's End, Shark
+"Disheartened Skeleton"/6,000/Shark
+"Ex-Slave Recruit"/3,000/Crab Town, Mourn, The Hub, Blister Hill, Heft, Heng, Stoat, Black Scratch, Flats Lagoon, Smugglers Bar, Waystation(s), World's End
+"Recruit Seeking Revenge"/3,000/Any UC town, Black Scratch, Flats Lagoon, Smugglers Bar, Waystation(s), World's End
+"Scarred Adventurer"/6,000/Any UC town, Eyesocket, Slave Markets
+"Skeleton Survivor"/2,500/Shark
+"Soldier Drone" Swordslinger/7,500/Any UC town
+"Swamper Adventurer"/6,000/Shark
+"Wall Man"/5,000/Any UC town, Eyesocket, Shark, Slave Markets, Waystations, World's End, Smugglers Bar, Black Scratch, Flats Lagoon
+
+
+1. Bark (UC)
+2. Fishing Village
+3. Sho-Battai (UC)
+4. Burn's Tower
+5. Flotsam Village
+6. World's End
+7. Stoat (UC)
+8. Heft (UC)
+9. Settled Nomad Village
+10. Mongrel
+11. Blister Hill
+12. Tengu's Vault
+13. Heng/Trader's Edge (UC)
+14. Bad Teeth
+15. Stack
+16. Black Desert City
+17. Waystation 1
+18. Eyesocket
+19. Dust King Tower
+20. Waystation 2
+21. The Hub
+22. Smugglers Bar
+23. Tower of Abuse
+24. Brink (UC)
+25. Black Scratch
+26. Crab Village
+27. Admag
+28. Waystation 3
+29. Squin
+30. Last Stand
+31. Mud Town
+32. Shark
+33. Flats Lagoon
+34. Mourn
+35. Catun (UC)
+36. Slave Markets
+37. Clownsteady (UC)
+38. Waystation 4
+39. Drifter's Last (UC)
+
+sort recruits' possible location to names of towns
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-07-14 12:03:54
+------------------------------------------------------------
+Based on the lists provided, here are the recruits sorted by their possible spawn locations.
+
+*Note: For recruits listed in "Any UC town," they have been added to all locations marked as (UC) in your list. Recruits listed in "Waystations" have been added to all four Waystation numbered entries.*
+
+### 1. Bark (UC)
+*   **Unique:** Red, Izumi, Jewel, Riddly
+*   **Generic:** "Recruit Seeking Revenge", "Scarred Adventurer", "Soldier Drone" Swordslinger, "Wall Man"
+
+### 2. Fishing Village
+*   **Unique:** Green Finger, Hobbs, Horse, Soman
+
+### 3. Sho-Battai (UC)
+*   **Unique:** Ells, Izumi, Jewel, Riddly
+*   **Generic:** "Recruit Seeking Revenge", "Scarred Adventurer", "Soldier Drone" Swordslinger, "Wall Man"
+
+### 4. Burn's Tower
+*   **Unique:** Burn
+
+### 5. Flotsam Village
+*   **Unique:** Digna, Knife, Pia, Reva
+
+### 6. World's End
+*   **Unique:** Bard, Hobbs, Silvershade
+*   **Generic:** "Amateur Recruit", "Ex-Slave Recruit", "Recruit Seeking Revenge", "Wall Man"
+
+### 7. Stoat (UC)
+*   **Unique:** Izumi, Jewel, Riddly
+*   **Generic:** "Amateur Recruit", "Ex-Slave Recruit", "Recruit Seeking Revenge", "Scarred Adventurer", "Soldier Drone" Swordslinger, "Wall Man"
+
+### 8. Heft (UC)
+*   **Unique:** Izumi, Jewel, Riddly
+*   **Generic:** "Amateur Recruit", "Ex-Slave Recruit", "Recruit Seeking Revenge", "Scarred Adventurer", "Soldier Drone" Swordslinger, "Wall Man"
+
+### 9. Settled Nomad Village
+*   **Unique:** Cornelius
+
+### 10. Mongrel
+*   **Unique:** Beep, Crumblejon, Infinite Wingwang, Shryke
+
+### 11. Blister Hill
+*   **Unique:** Bard, Griffin
+*   **Generic:** "Amateur Recruit", "Ex-Slave Recruit"
+
+### 12. Tengu's Vault
+*   **Unique:** Espher, Luquin, Sinklyde
+
+### 13. Heng / Trader's Edge (UC)
+*   **Unique:** Yamdu (Trader's Edge), Izumi, Jewel, Riddly
+*   **Generic:** "Amateur Recruit", "Ex-Slave Recruit", "Recruit Seeking Revenge", "Scarred Adventurer", "Soldier Drone" Swordslinger, "Wall Man"
+
+### 14. Bad Teeth
+*   **Unique:** Bard, Griffin
+
+### 15. Stack
+*   **Unique:** Bard, Griffin
+
+### 16. Black Desert City
+*   **Unique:** Sadneil
+
+### 17. Waystation 1
+*   **Unique:** Bard, Hobbs, Silvershade
+*   **Generic:** "Amateur Recruit", "Ex-Slave Recruit", "Recruit Seeking Revenge", "Wall Man"
+
+### 18. Eyesocket
+*   **Unique:** Headshot, Ray
+*   **Generic:** "Scarred Adventurer", "Wall Man"
+
+### 19. Dust King Tower
+*   **Unique:** Cat
+
+### 20. Waystation 2
+*   **Unique:** Bard, Hobbs, Silvershade
+*   **Generic:** "Amateur Recruit", "Ex-Slave Recruit", "Recruit Seeking Revenge", "Wall Man"
+
+### 21. The Hub
+*   **Unique:** Hobbs
+*   **Generic:** "Amateur Recruit", "Ex-Slave Recruit"
+
+### 22. Smugglers Bar
+*   **Generic:** "Amateur Recruit", "Ex-Slave Recruit", "Recruit Seeking Revenge", "Wall Man"
+
+### 23. Tower of Abuse
+*   **Unique:** Agnu
+
+### 24. Brink (UC)
+*   **Unique:** Izumi, Jewel, Riddly
+*   **Generic:** "Recruit Seeking Revenge", "Scarred Adventurer", "Soldier Drone" Swordslinger, "Wall Man"
+
+### 25. Black Scratch
+*   **Unique:** Bo
+*   **Generic:** "Amateur Recruit", "Ex-Slave Recruit", "Recruit Seeking Revenge", "Wall Man"
+
+### 26. Crab Village
+*   **Unique:** Lumi
+*   **Generic:** "Amateur Recruit", "Ex-Slave Recruit"
+
+### 27. Admag
+*   **Unique:** Kang, Oron, Rane the Giant, Ruka, Seto
+
+### 28. Waystation 3
+*   **Unique:** Bard, Hobbs, Silvershade
+*   **Generic:** "Amateur Recruit", "Ex-Slave Recruit", "Recruit Seeking Revenge", "Wall Man"
+
+### 29. Squin
+*   **Unique:** Horse, Kang, Oron, Rane the Giant, Ruka
+
+### 30. Last Stand
+*   **Unique:** Kang, Oron, Rane the Giant, Ruka
+
+### 31. Mud Town
+*   **Unique:** Doctor Chung, Green, Hamut, Miu, Silvershade, Stubs Momuso
+
+### 32. Shark
+*   **Unique:** Doctor Chung, Green, Hamut, Miu, Stubs Momuso
+*   **Generic:** "Amateur Recruit", "Disheartened Skeleton", "Skeleton Survivor", "Swamper Adventurer", "Wall Man"
+
+### 33. Flats Lagoon
+*   **Unique:** Chad, Silvershade
+*   **Generic:** "Amateur Recruit", "Ex-Slave Recruit", "Recruit Seeking Revenge", "Wall Man"
+
+### 34. Mourn
+*   **Unique:** Hobbs
+*   **Generic:** "Amateur Recruit", "Ex-Slave Recruit"
+
+### 35. Catun (UC)
+*   **Unique:** Izumi, Jewel, Riddly
+*   **Generic:** "Recruit Seeking Revenge", "Scarred Adventurer", "Soldier Drone" Swordslinger, "Wall Man"
+
+### 36. Slave Markets
+*   **Unique:** Headshot, Ray
+*   **Generic:** "Scarred Adventurer", "Wall Man"
+
+### 37. Clownsteady (UC)
+*   **Unique:** Izumi, Jewel, Riddly
+*   **Generic:** "Recruit Seeking Revenge", "Scarred Adventurer", "Soldier Drone" Swordslinger, "Wall Man"
+
+### 38. Waystation 4
+*   **Unique:** Bard, Hobbs, Silvershade
+*   **Generic:** "Amateur Recruit", "Ex-Slave Recruit", "Recruit Seeking Revenge", "Wall Man"
+
+### 39. Drifter's Last (UC)
+*   **Unique:** Izumi, Jewel, Riddly
+*   **Generic:** "Recruit Seeking Revenge", "Scarred Adventurer", "Soldier Drone" Swordslinger, "Wall Man"

@@ -1,0 +1,1625 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+Mode     : direct
+Started  : 2026-02-21 13:35:42
+Updated  : 2026-02-21 13:35:42
+Archived : 2026-09-30 23:29:33
+Messages : 2
+URL      : https://arena.ai/c/019c7fc4-d745-7b5d-95b3-539801f4a2e6
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 13:35:42
+------------------------------------------------------------
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything else
+901700 = {
+	name = "Rurik_0"
+	dynasty = 705
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901701 = {
+	name = "Rurik_1"
+	dynasty = 705
+	religion = norse_pagan
+	culture = norse
+	father = 901700
+	dna = tczeyfghtom
+	properties = th0ebd000000
+	diplomacy = 12
+	martial = 8
+	stewardship = 8
+	intrigue = 6
+	learning = 3
+	trait = gregarious
+	trait = ambitious
+	trait = just
+	trait = quick
+	trait = brilliant_strategist
+	trait = brave
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = rurik
+		}
+		add_spouse = 910801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901900 = {
+	name = "Arpad_0"
+	dynasty = 708
+	religion = tengri_pagan
+	culture = hungarian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901901 = {
+	name = "Arpad_1"
+	dynasty = 708
+	religion = tengri_pagan
+	culture = hungarian
+	father = 901900
+	martial = 8
+	trait = ambitious
+	trait = strong
+	trait = just
+	trait = diligent
+	trait = brilliant_strategist
+	trait = flanker
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = arpad
+		}
+		add_spouse = 923501
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902000 = {
+	name = "Dyre_0"
+	dynasty = 7516
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902001 = {
+	name = "Dyre_1"
+	dynasty = 7516
+	religion = norse_pagan
+	culture = norse
+	father = 902000
+	diplomacy = 9
+	martial = 9
+	stewardship = 6
+	trait = ambitious
+	trait = cynical
+	trait = greedy
+	trait = gregarious
+	trait = grey_eminence
+	trait = brave
+	trait = heavy_infantry_leader
+	trait = genius
+	give_nickname = nick_the_stranger
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = dyre
+		}
+		add_spouse = 916601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902900 = {
+	name = "Boleslav_0"
+	dynasty = 506
+	religion = catholic
+	culture = bohemian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902901 = {
+	name = "Boleslav_1"
+	dynasty = 506
+	religion = catholic
+	culture = bohemian
+	father = 902900
+	diplomacy = 7
+	martial = 6
+	stewardship = 4
+	intrigue = 6
+	trait = lisp
+	trait = kinslayer
+	trait = envious
+	trait = flamboyant_schemer
+	give_nickname = nick_the_cruel
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = premyslid
+		}
+		add_spouse = 911101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903300 = {
+	name = "Boleslaw_0"
+	dynasty = 699
+	religion = catholic
+	culture = polish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903301 = {
+	name = "Boleslaw_1"
+	dynasty = 699
+	religion = catholic
+	culture = polish
+	father = 903300
+	diplomacy = 7
+	martial = 8
+	stewardship = 7
+	intrigue = 8
+	trait = brave
+	trait = skilled_tactician
+	give_nickname = nick_the_brave
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = boleslaw_the_brave
+		}
+		add_spouse = 910901
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903600 = {
+	name = "Dmitar-Zvonimir_0"
+	dynasty = 512
+	religion = catholic
+	culture = croatian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903601 = {
+	name = "Dmitar-Zvonimir_1"
+	dynasty = 512
+	religion = catholic
+	culture = croatian
+	father = 903600
+	diplomacy = 8
+	martial = 4
+	stewardship = 8
+	intrigue = 5
+	trait = diligent
+	trait = zealous
+	trait = charitable
+	trait = fortune_builder
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = zvonimir
+		}
+		add_spouse = 911201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905801 = {
+	name = "Alexandr_1"
+	dynasty = 705
+	religion = orthodox
+	culture = russian
+	father = 901700
+	diplomacy = 6
+	martial = 9
+	stewardship = 7
+	intrigue = 7
+	trait = brave
+	trait = proud
+	trait = cynical
+	trait = diligent
+	trait = brilliant_strategist
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = alexander_nevsky
+		}
+		add_spouse = 911001
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910800 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 910800
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910801 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 910800
+	religion = slavic_pagan
+	culture = severian
+	father = 910800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_slavic_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910802 = {
+	name = "Defender_2"
+	dynasty = 910800
+	religion = slavic_pagan
+	culture = severian
+	father = 901701
+	mother = 910801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 917602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910900 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 910900
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910901 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 910900
+	religion = slavic_pagan
+	culture = severian
+	father = 910900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_slavic_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910902 = {
+	name = "Culture_2"
+	female = yes
+	dynasty = 910900
+	religion = slavic_pagan
+	culture = severian
+	father = 903301
+	mother = 910901
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910903 = {
+	name = "Culture_3"
+	dynasty = 910900
+	religion = slavic_pagan
+	culture = severian
+	father = 911002
+	mother = 910902
+	3.1.1 = {
+		birth = yes
+		add_spouse = 911103
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911000 = {
+	name = "Inquisitor_0"
+	female = yes
+	dynasty = 911000
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911001 = {
+	name = "Inquisitor_1"
+	female = yes
+	dynasty = 911000
+	religion = slavic_pagan
+	culture = severian
+	father = 911000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_slavic_04
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911002 = {
+	name = "Inquisitor_2"
+	dynasty = 911000
+	religion = slavic_pagan
+	culture = severian
+	father = 905801
+	mother = 911001
+	2.1.1 = {
+		birth = yes
+		add_spouse = 910902
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911100 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 911100
+	religion = orthodox
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911101 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 911100
+	religion = orthodox
+	culture = severian
+	father = 911100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_slavic_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911102 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 911100
+	religion = orthodox
+	culture = severian
+	father = 902901
+	mother = 911101
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911103 = {
+	name = "Jewish_3"
+	female = yes
+	dynasty = 911100
+	religion = orthodox
+	culture = severian
+	father = 911202
+	mother = 911102
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911104 = {
+	name = "Jewish_4"
+	dynasty = 911100
+	religion = orthodox
+	culture = severian
+	father = 910903
+	mother = 911103
+	4.1.1 = {
+		birth = yes
+		add_spouse = 917604
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911200 = {
+	name = "Theologic_0"
+	female = yes
+	dynasty = 911200
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911201 = {
+	name = "Theologic_1"
+	female = yes
+	dynasty = 911200
+	religion = slavic_pagan
+	culture = severian
+	father = 911200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_slavic_06
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911202 = {
+	name = "Theologic_2"
+	dynasty = 911200
+	religion = slavic_pagan
+	culture = severian
+	father = 903601
+	mother = 911201
+	2.1.1 = {
+		birth = yes
+		add_spouse = 911102
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916600 = {
+	name = "Teuta_0"
+	female = yes
+	dynasty = 916600
+	religion = slavic_pagan
+	culture = croatian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916601 = {
+	name = "Teuta_1"
+	female = yes
+	dynasty = 916600
+	religion = slavic_pagan
+	culture = croatian
+	father = 916600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = teuta_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916602 = {
+	name = "Teuta_2"
+	dynasty = 916600
+	religion = slavic_pagan
+	culture = croatian
+	father = 902001
+	mother = 916601
+	2.1.1 = {
+		birth = yes
+		add_spouse = 923502
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917500 = {
+	name = "MLCR_0"
+	dynasty = 917500
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917501 = {
+	name = "MLCR_1"
+	dynasty = 917500
+	religion = slavic_pagan
+	culture = severian
+	father = 917500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = lcr_bloodline
+		}
+		add_spouse = 917601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917600 = {
+	name = "FLCR_0"
+	female = yes
+	dynasty = 917600
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917601 = {
+	name = "FLCR_1"
+	female = yes
+	dynasty = 917600
+	religion = slavic_pagan
+	culture = severian
+	father = 917600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = lcr_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917602 = {
+	name = "FLCR_2"
+	female = yes
+	dynasty = 917600
+	religion = slavic_pagan
+	culture = severian
+	father = 917501
+	mother = 917601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917603 = {
+	name = "FLCR_3"
+	female = yes
+	dynasty = 917600
+	religion = slavic_pagan
+	culture = severian
+	father = 910802
+	mother = 917602
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917604 = {
+	name = "FLCR_4"
+	female = yes
+	dynasty = 917600
+	religion = slavic_pagan
+	culture = severian
+	father = 923503
+	mother = 917603
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917605 = {
+	name = "FLCR_5"
+	dynasty = 917600
+	religion = slavic_pagan
+	culture = severian
+	father = 911104
+	mother = 917604
+	5.1.1 = {
+		birth = yes
+		add_spouse = 916305
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923500 = {
+	name = "FSurvivor_0"
+	female = yes
+	dynasty = 923500
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923501 = {
+	name = "FSurvivor_1"
+	female = yes
+	dynasty = 923500
+	religion = catholic
+	culture = french
+	father = 923500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_battle_survivor_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923502 = {
+	name = "FSurvivor_2"
+	female = yes
+	dynasty = 923500
+	religion = catholic
+	culture = french
+	father = 901901
+	mother = 923501
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923503 = {
+	name = "FSurvivor_3"
+	dynasty = 923500
+	religion = catholic
+	culture = french
+	father = 916602
+	mother = 923502
+	3.1.1 = {
+		birth = yes
+		add_spouse = 917603
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 13:35:42
+------------------------------------------------------------
+Here are the characters separated into the three requested lists based on their ID endings.
+
+### List 1: IDs ending with "00"
+```ck2
+901700 = {
+	name = "Rurik_0"
+	dynasty = 705
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901900 = {
+	name = "Arpad_0"
+	dynasty = 708
+	religion = tengri_pagan
+	culture = hungarian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902000 = {
+	name = "Dyre_0"
+	dynasty = 7516
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902900 = {
+	name = "Boleslav_0"
+	dynasty = 506
+	religion = catholic
+	culture = bohemian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903300 = {
+	name = "Boleslaw_0"
+	dynasty = 699
+	religion = catholic
+	culture = polish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903600 = {
+	name = "Dmitar-Zvonimir_0"
+	dynasty = 512
+	religion = catholic
+	culture = croatian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910800 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 910800
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910900 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 910900
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911000 = {
+	name = "Inquisitor_0"
+	female = yes
+	dynasty = 911000
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911100 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 911100
+	religion = orthodox
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911200 = {
+	name = "Theologic_0"
+	female = yes
+	dynasty = 911200
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916600 = {
+	name = "Teuta_0"
+	female = yes
+	dynasty = 916600
+	religion = slavic_pagan
+	culture = croatian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917500 = {
+	name = "MLCR_0"
+	dynasty = 917500
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917600 = {
+	name = "FLCR_0"
+	female = yes
+	dynasty = 917600
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923500 = {
+	name = "FSurvivor_0"
+	female = yes
+	dynasty = 923500
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 2: IDs ending with "01"
+```ck2
+901701 = {
+	name = "Rurik_1"
+	dynasty = 705
+	religion = norse_pagan
+	culture = norse
+	father = 901700
+	dna = tczeyfghtom
+	properties = th0ebd000000
+	diplomacy = 12
+	martial = 8
+	stewardship = 8
+	intrigue = 6
+	learning = 3
+	trait = gregarious
+	trait = ambitious
+	trait = just
+	trait = quick
+	trait = brilliant_strategist
+	trait = brave
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = rurik
+		}
+		add_spouse = 910801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901901 = {
+	name = "Arpad_1"
+	dynasty = 708
+	religion = tengri_pagan
+	culture = hungarian
+	father = 901900
+	martial = 8
+	trait = ambitious
+	trait = strong
+	trait = just
+	trait = diligent
+	trait = brilliant_strategist
+	trait = flanker
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = arpad
+		}
+		add_spouse = 923501
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902001 = {
+	name = "Dyre_1"
+	dynasty = 7516
+	religion = norse_pagan
+	culture = norse
+	father = 902000
+	diplomacy = 9
+	martial = 9
+	stewardship = 6
+	trait = ambitious
+	trait = cynical
+	trait = greedy
+	trait = gregarious
+	trait = grey_eminence
+	trait = brave
+	trait = heavy_infantry_leader
+	trait = genius
+	give_nickname = nick_the_stranger
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = dyre
+		}
+		add_spouse = 916601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902901 = {
+	name = "Boleslav_1"
+	dynasty = 506
+	religion = catholic
+	culture = bohemian
+	father = 902900
+	diplomacy = 7
+	martial = 6
+	stewardship = 4
+	intrigue = 6
+	trait = lisp
+	trait = kinslayer
+	trait = envious
+	trait = flamboyant_schemer
+	give_nickname = nick_the_cruel
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = premyslid
+		}
+		add_spouse = 911101
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903301 = {
+	name = "Boleslaw_1"
+	dynasty = 699
+	religion = catholic
+	culture = polish
+	father = 903300
+	diplomacy = 7
+	martial = 8
+	stewardship = 7
+	intrigue = 8
+	trait = brave
+	trait = skilled_tactician
+	give_nickname = nick_the_brave
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = boleslaw_the_brave
+		}
+		add_spouse = 910901
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903601 = {
+	name = "Dmitar-Zvonimir_1"
+	dynasty = 512
+	religion = catholic
+	culture = croatian
+	father = 903600
+	diplomacy = 8
+	martial = 4
+	stewardship = 8
+	intrigue = 5
+	trait = diligent
+	trait = zealous
+	trait = charitable
+	trait = fortune_builder
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = zvonimir
+		}
+		add_spouse = 911201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905801 = {
+	name = "Alexandr_1"
+	dynasty = 705
+	religion = orthodox
+	culture = russian
+	father = 901700
+	diplomacy = 6
+	martial = 9
+	stewardship = 7
+	intrigue = 7
+	trait = brave
+	trait = proud
+	trait = cynical
+	trait = diligent
+	trait = brilliant_strategist
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = alexander_nevsky
+		}
+		add_spouse = 911001
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910801 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 910800
+	religion = slavic_pagan
+	culture = severian
+	father = 910800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_slavic_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910901 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 910900
+	religion = slavic_pagan
+	culture = severian
+	father = 910900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_slavic_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911001 = {
+	name = "Inquisitor_1"
+	female = yes
+	dynasty = 911000
+	religion = slavic_pagan
+	culture = severian
+	father = 911000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_slavic_04
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911101 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 911100
+	religion = orthodox
+	culture = severian
+	father = 911100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_slavic_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911201 = {
+	name = "Theologic_1"
+	female = yes
+	dynasty = 911200
+	religion = slavic_pagan
+	culture = severian
+	father = 911200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_slavic_06
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916601 = {
+	name = "Teuta_1"
+	female = yes
+	dynasty = 916600
+	religion = slavic_pagan
+	culture = croatian
+	father = 916600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = teuta_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917501 = {
+	name = "MLCR_1"
+	dynasty = 917500
+	religion = slavic_pagan
+	culture = severian
+	father = 917500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = lcr_bloodline
+		}
+		add_spouse = 917601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917601 = {
+	name = "FLCR_1"
+	female = yes
+	dynasty = 917600
+	religion = slavic_pagan
+	culture = severian
+	father = 917600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = lcr_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923501 = {
+	name = "FSurvivor_1"
+	female = yes
+	dynasty = 923500
+	religion = catholic
+	culture = french
+	father = 923500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_battle_survivor_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 3: Everything else
+```ck2
+910802 = {
+	name = "Defender_2"
+	dynasty = 910800
+	religion = slavic_pagan
+	culture = severian
+	father = 901701
+	mother = 910801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 917602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910902 = {
+	name = "Culture_2"
+	female = yes
+	dynasty = 910900
+	religion = slavic_pagan
+	culture = severian
+	father = 903301
+	mother = 910901
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910903 = {
+	name = "Culture_3"
+	dynasty = 910900
+	religion = slavic_pagan
+	culture = severian
+	father = 911002
+	mother = 910902
+	3.1.1 = {
+		birth = yes
+		add_spouse = 911103
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911002 = {
+	name = "Inquisitor_2"
+	dynasty = 911000
+	religion = slavic_pagan
+	culture = severian
+	father = 905801
+	mother = 911001
+	2.1.1 = {
+		birth = yes
+		add_spouse = 910902
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911102 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 911100
+	religion = orthodox
+	culture = severian
+	father = 902901
+	mother = 911101
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911103 = {
+	name = "Jewish_3"
+	female = yes
+	dynasty = 911100
+	religion = orthodox
+	culture = severian
+	father = 911202
+	mother = 911102
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911104 = {
+	name = "Jewish_4"
+	dynasty = 911100
+	religion = orthodox
+	culture = severian
+	father = 910903
+	mother = 911103
+	4.1.1 = {
+		birth = yes
+		add_spouse = 917604
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911202 = {
+	name = "Theologic_2"
+	dynasty = 911200
+	religion = slavic_pagan
+	culture = severian
+	father = 903601
+	mother = 911201
+	2.1.1 = {
+		birth = yes
+		add_spouse = 911102
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916602 = {
+	name = "Teuta_2"
+	dynasty = 916600
+	religion = slavic_pagan
+	culture = croatian
+	father = 902001
+	mother = 916601
+	2.1.1 = {
+		birth = yes
+		add_spouse = 923502
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917602 = {
+	name = "FLCR_2"
+	female = yes
+	dynasty = 917600
+	religion = slavic_pagan
+	culture = severian
+	father = 917501
+	mother = 917601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917603 = {
+	name = "FLCR_3"
+	female = yes
+	dynasty = 917600
+	religion = slavic_pagan
+	culture = severian
+	father = 910802
+	mother = 917602
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917604 = {
+	name = "FLCR_4"
+	female = yes
+	dynasty = 917600
+	religion = slavic_pagan
+	culture = severian
+	father = 923503
+	mother = 917603
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917605 = {
+	name = "FLCR_5"
+	dynasty = 917600
+	religion = slavic_pagan
+	culture = severian
+	father = 911104
+	mother = 917604
+	5.1.1 = {
+		birth = yes
+		add_spouse = 916305
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923502 = {
+	name = "FSurvivor_2"
+	female = yes
+	dynasty = 923500
+	religion = catholic
+	culture = french
+	father = 901901
+	mother = 923501
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923503 = {
+	name = "FSurvivor_3"
+	dynasty = 923500
+	religion = catholic
+	culture = french
+	father = 916602
+	mother = 923502
+	3.1.1 = {
+		birth = yes
+		add_spouse = 917603
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

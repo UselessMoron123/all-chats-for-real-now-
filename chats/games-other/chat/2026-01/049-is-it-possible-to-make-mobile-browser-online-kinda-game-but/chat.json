@@ -1,0 +1,95 @@
+{
+  "exportedAt": "2026-10-09T16:28:31.489Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019bb83f-5a99-7691-8d99-07428106ed1d",
+  "archivedAt": "2026-09-30 20:30:01.445+00",
+  "evaluation": {
+    "id": "019bb83f-5a99-7691-8d99-07428106ed1d",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "Is it possible to make mobile browser online (kinda) game, but only for myself (for example, with bo",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019bb841-4cc9-780b-8d48-f97980d0963a"
+    ],
+    "archivedAt": "2026-09-30 20:30:01.445+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-01-13 16:47:16.643+00",
+    "updatedAt": "2026-01-13 16:47:16.910331+00",
+    "messages": [
+      {
+        "id": "019bb841-4cc7-7cfe-908c-358c22169e04",
+        "evaluationSessionId": "019bb83f-5a99-7691-8d99-07428106ed1d",
+        "evaluationId": "019bb841-28a3-795f-8c89-238212663fde",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "Is it possible to make mobile browser online (kinda) game, but only for myself (for example, with bots playing roles of other players, simple bots for mobs)?",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-01-13T16:47:16.89715+00:00",
+        "updatedAt": "2026-01-13T16:47:16.89715+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019bb841-4cc9-780b-8d48-f97980d0963a",
+        "evaluationSessionId": "019bb83f-5a99-7691-8d99-07428106ed1d",
+        "evaluationId": "019bb841-28a3-795f-8c89-238212663fde",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019bb841-4cc7-7cfe-908c-358c22169e04"
+        ],
+        "content": "**Yes, absolutely.** In fact, this is one of the best ways to learn game development because you strip away the hardest part of making online games: **Networking.**\n\nWithout the need for a server, lag compensation, or database security, you can build a game that *looks and feels* like an MMORPG or an IO game, but runs entirely inside your phone’s browser using JavaScript.\n\nHere is the blueprint for how to build a **\"Fake Multiplayer\" Single-Player Browser Game.**\n\n---\n\n### 1. The Technology Stack (Keep it Simple)\nSince you want it on a mobile browser, you only need three things:\n*   **HTML:** To hold the canvas (the game screen).\n*   **CSS:** To style the UI (buttons, chat box, inventory) so it fits a mobile screen.\n*   **JavaScript:** The brain of the game.\n\nYou **do not** need a server (Node.js, PHP, Python). Everything can run locally on your phone.\n\n### 2. How to \"Fake\" the Online Experience\nTo make it feel like an online game, you need to simulate the chaos of other players.\n\n*   **The \"Other Players\" (Bots):**\n    *   Create a class called `BotPlayer`.\n    *   Give them random names from a list (e.g., \"xX_DragonSlayer_Xx\", \"NoobMaster69\").\n    *   **Behavior:** Use a simple \"State Machine.\"\n        *   *State 1:* Wander randomly.\n        *   *State 2:* If near a mob, attack it.\n        *   *State 3:* If health is low, run away.\n*   **The Fake Chat:**\n    *   Create an array of generic sentences: *\"LFG need healer\"*, *\"Buying wood 50g\"*, *\"lol\"*.\n    *   Every 5–10 seconds, pick a random bot and print a random line to a chat box overlay.\n*   **The \"Server\" Lag:**\n    *   You don't need this, but since everything runs locally, your game will be incredibly smooth (60 FPS) compared to real online games!\n\n### 3. Storing Your Save Data\nSince you don't have a database, you will use the browser's **Local Storage**.\n*   **`localStorage`:** This allows you to save strings of text in the browser that persist even after you close the tab.\n*   **How to use:** Convert your player stats/inventory to a JSON string and save it.\n    ```javascript\n    // Saving\n    let saveData = { level: 5, gold: 500, items: ['sword', 'potion'] };\n    localStorage.setItem('myRPGSave', JSON.stringify(saveData));\n\n    // Loading\n    let data = JSON.parse(localStorage.getItem('myRPGSave'));\n    ```\n\n### 4. Making it Mobile-Friendly\n*   **View:** You must add the \"viewport meta tag\" in your HTML to stop the user from pinch-zooming the screen by accident.\n    ```html\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\">\n    ```\n*   **Controls:** Don't use keyboard keys (WASD).\n    *   **Tap to Move:** Simplest to code. Wherever you touch on the canvas, the player moves there.\n    *   **On-screen Joypad:** Libraries like `Nipple.js` allow you to add a virtual joystick easily.\n\n### 5. Deployment (How to play it)\nYou don't even need to buy a domain name.\n1.  Write the code on your computer.\n2.  Upload the folder to **GitHub Pages** (free) or **Netlify Drop** (free drag-and-drop hosting).\n3.  Open the link on your phone.\n4.  **Bonus:** Turn it into a PWA (Progressive Web App). By adding a `manifest.json` file, you can \"Add to Home Screen\" on your phone, and it will look just like an App Store app (no browser URL bar).\n\n---\n\n### Example Code (The \"Skeleton\")\n\nHere is a very basic example you can copy-paste into a file called `index.html` and open in your browser to see the concept in action.\n\n```html\n<!DOCTYPE html>\n<html>\n<head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">\n    <style>\n        body { margin: 0; overflow: hidden; background: #222; font-family: sans-serif; }\n        canvas { display: block; }\n        #ui { position: absolute; top: 10px; left: 10px; color: white; pointer-events: none; }\n    </style>\n</head>\n<body>\n\n<div id=\"ui\">\n    <div><b>Player:</b> You</div>\n    <div><b>Online:</b> <span id=\"online-count\">1</span></div>\n</div>\n<canvas id=\"gameCanvas\"></canvas>\n\n<script>\n    const canvas = document.getElementById('gameCanvas');\n    const ctx = canvas.getContext('2d');\n    \n    // Resize canvas to fit mobile screen\n    canvas.width = window.innerWidth;\n    canvas.height = window.innerHeight;\n\n    // Game Objects\n    const player = { x: canvas.width/2, y: canvas.height/2, color: 'cyan', size: 10 };\n    const bots = [];\n    const botNames = [\"Warrior\", \"Mage\", \"Rogue\", \"Healer\", \"Tank\"];\n\n    // Create 10 fake players\n    for(let i=0; i<10; i++) {\n        bots.push({\n            x: Math.random() * canvas.width,\n            y: Math.random() * canvas.height,\n            vx: (Math.random() - 0.5) * 2, // Velocity X\n            vy: (Math.random() - 0.5) * 2, // Velocity Y\n            name: botNames[Math.floor(Math.random() * botNames.length)],\n            color: 'orange'\n        });\n    }\n\n    document.getElementById('online-count').innerText = bots.length + 1;\n\n    // TAP TO MOVE (Mobile Control)\n    let targetX = player.x;\n    let targetY = player.y;\n\n    window.addEventListener('touchstart', (e) => {\n        targetX = e.touches[0].clientX;\n        targetY = e.touches[0].clientY;\n    });\n    \n    // Also support mouse for PC testing\n    window.addEventListener('mousedown', (e) => {\n        targetX = e.clientX;\n        targetY = e.clientY;\n    });\n\n    function update() {\n        // Move Player towards tap\n        const dx = targetX - player.x;\n        const dy = targetY - player.y;\n        if(Math.abs(dx) > 1 || Math.abs(dy) > 1) {\n            player.x += dx * 0.05; // Ease towards target\n            player.y += dy * 0.05;\n        }\n\n        // Move Bots (Fake AI)\n        bots.forEach(bot => {\n            bot.x += bot.vx;\n            bot.y += bot.vy;\n\n            // Bounce off walls\n            if(bot.x < 0 || bot.x > canvas.width) bot.vx *= -1;\n            if(bot.y < 0 || bot.y > canvas.height) bot.vy *= -1;\n\n            // Randomly change direction sometimes\n            if(Math.random() < 0.02) {\n                bot.vx = (Math.random() - 0.5) * 2;\n                bot.vy = (Math.random() - 0.5) * 2;\n            }\n        });\n    }\n\n    function draw() {\n        ctx.clearRect(0, 0, canvas.width, canvas.height);\n\n        // Draw Player\n        ctx.fillStyle = player.color;\n        ctx.beginPath();\n        ctx.arc(player.x, player.y, player.size, 0, Math.PI*2);\n        ctx.fill();\n        ctx.fillStyle = \"white\";\n        ctx.textAlign = \"center\";\n        ctx.fillText(\"YOU\", player.x, player.y - 15);\n\n        // Draw Bots\n        bots.forEach(bot => {\n            ctx.fillStyle = bot.color;\n            ctx.beginPath();\n            ctx.arc(bot.x, bot.y, 8, 0, Math.PI*2);\n            ctx.fill();\n            ctx.font = \"10px Arial\";\n            ctx.fillStyle = \"#aaa\";\n            ctx.fillText(bot.name, bot.x, bot.y - 12);\n        });\n    }\n\n    function loop() {\n        update();\n        draw();\n        requestAnimationFrame(loop);\n    }\n\n    loop();\n</script>\n\n</body>\n</html>\n```\n\n### Next Steps for You\nIf you want to pursue this:\n1.  **Engine:** If you know JavaScript, look at **Phaser.js**. It is a 2D game framework designed specifically for browsers and mobile. It handles sprites, animations, and physics much better than raw code.\n2.  **RPG Elements:** Create a JSON list of items and monsters.\n3.  **Persistence:** Implement `localStorage` so when you reload the page, you are in the same spot with the same gear.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-01-13T16:47:16.902461+00:00",
+        "updatedAt": "2026-01-13T16:47:52.00153+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019bb841-28a3-795f-8c89-238212663fde",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

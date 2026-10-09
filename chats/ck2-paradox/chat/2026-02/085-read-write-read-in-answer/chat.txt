@@ -1,0 +1,1049 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : read. write "read" in answer
+
+900100 = {
+	name = "Caradog_0"
+	dynasty = 105920
+	religion = pagan
+	cu
+Mode     : direct
+Started  : 2026-02-21 11:24:17
+Updated  : 2026-02-21 11:27:16
+Archived : 2026-09-30 23:28:00
+Messages : 6
+URL      : https://arena.ai/c/019c7f49-f44c-7a46-8038-7d3db5a4051a
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 11:24:18
+------------------------------------------------------------
+read. write "read" in answer
+
+900100 = {
+	name = "Caradog_0"
+	dynasty = 105920
+	religion = pagan
+	culture = welsh
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900101 = {
+	name = "Caradog_1"
+	dynasty = 105920
+	religion = pagan
+	culture = welsh
+	father = 900100
+	trait = brave
+	trait = strong
+	trait = inspiring_leader
+	trait = aggressive_leader
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = caratacus
+		}
+		add_spouse = 916401
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900600 = {
+	name = "Gwrtheyrn_0"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900601 = {
+	name = "Gwrtheyrn_1"
+	dynasty = 1029003
+	religion = catholic
+	culture = welsh
+	father = 900600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = vortigern
+		}
+		add_spouse = 919601
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900700 = {
+	name = "Niall_0"
+	dynasty = 199
+	religion = pagan
+	culture = irish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900701 = {
+	name = "Niall_1"
+	dynasty = 199
+	religion = pagan
+	culture = irish
+	father = 900700
+	diplomacy = 12
+	martial = 11
+	stewardship = 12
+	intrigue = 9
+	trait = proud
+	trait = tough_soldier
+	give_nickname = nick_of_the_nine_hostages
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = niall
+		}
+		add_spouse = 919501
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902700 = {
+	name = "Athelstan_0"
+	dynasty = 100072
+	religion = catholic
+	culture = anglo_saxon
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902701 = {
+	name = "Athelstan_1"
+	dynasty = 100072
+	religion = catholic
+	culture = anglo_saxon
+	father = 902700
+	dna = dwuqrcylhrw
+	properties = amq00b00000000000000000000000000000000
+	diplomacy = 9
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	trait = scholarly_theologian
+	trait = erudite
+	trait = ambitious
+	trait = chaste
+	trait = diligent
+	trait = proud
+	disallow_random_traits = yes
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = athelstan
+		}
+		add_spouse = 923701
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903000 = {
+	name = "Brian_0"
+	dynasty = 695
+	religion = catholic
+	culture = irish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903001 = {
+	name = "Brian_1"
+	dynasty = 695
+	religion = catholic
+	culture = irish
+	father = 903000
+	diplomacy = 5
+	martial = 9
+	stewardship = 7
+	intrigue = 7
+	trait = wroth
+	trait = brave
+	trait = dutiful_cleric
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = brian_boru
+		}
+		add_spouse = 915301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903500 = {
+	name = "William_0"
+	dynasty = 752
+	religion = catholic
+	culture = norman
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903501 = {
+	name = "William_1"
+	dynasty = 752
+	religion = catholic
+	culture = norman
+	father = 903500
+	dna = cagfktibaal
+	properties = fj0dcd000000
+	diplomacy = 7
+	martial = 7
+	stewardship = 6
+	intrigue = 10
+	trait = ambitious
+	trait = diligent
+	trait = proud
+	trait = cynical
+	trait = brave
+	trait = temperate
+	trait = patient
+	trait = legit_bastard
+	trait = brilliant_strategist
+	give_nickname = nick_the_conqueror
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = william_the_conqueror
+		}
+		add_spouse = 920801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905200 = {
+	name = "Richard_0"
+	dynasty = 106
+	religion = catholic
+	culture = english
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905201 = {
+	name = "Richard_1"
+	dynasty = 106
+	religion = catholic
+	culture = english
+	father = 905200
+	diplomacy = 6
+	martial = 6
+	stewardship = 6
+	intrigue = 6
+	trait = chaste
+	trait = brave
+	trait = attractive
+	trait = proud
+	trait = brilliant_strategist
+	trait = crusader
+	give_nickname = nick_the_lionheart
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = richard_lionheart
+		}
+		add_spouse = 917701
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906200 = {
+	name = "William_0"
+	dynasty = 3133
+	religion = catholic
+	culture = scottish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906201 = {
+	name = "William_1"
+	dynasty = 3133
+	religion = catholic
+	culture = scottish
+	father = 906200
+	trait = brilliant_strategist
+	trait = quick
+	trait = ambitious
+	trait = gregarious
+	trait = diligent
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = william_wallace
+		}
+		add_spouse = 919701
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915300 = {
+	name = "Tanistry_0"
+	female = yes
+	dynasty = 915300
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915301 = {
+	name = "Tanistry_1"
+	female = yes
+	dynasty = 915300
+	religion = catholic
+	culture = french
+	mother = 915300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = ancestor_worship_bloodline_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915302 = {
+	name = "Tanistry_2"
+	dynasty = 915300
+	religion = catholic
+	culture = french
+	father = 903001
+	mother = 915301
+	2.1.1 = {
+		birth = yes
+		add_spouse = 919502
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916400 = {
+	name = "Boudica_0"
+	female = yes
+	dynasty = 916400
+	religion = pagan
+	culture = welsh
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916401 = {
+	name = "Boudica_1"
+	female = yes
+	dynasty = 916400
+	religion = pagan
+	culture = welsh
+	mother = 916400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = boudica_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916402 = {
+	name = "Boudica_2"
+	dynasty = 916400
+	religion = pagan
+	culture = welsh
+	father = 900101
+	mother = 916401
+	2.1.1 = {
+		birth = yes
+		add_spouse = 919602
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917700 = {
+	name = "CrusGran_0"
+	female = yes
+	dynasty = 917700
+	religion = catholic
+	culture = english
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917701 = {
+	name = "CrusGran_1"
+	female = yes
+	dynasty = 917700
+	religion = catholic
+	culture = english
+	mother = 917700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = grand_crusader_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917702 = {
+	name = "CrusGran_2"
+	female = yes
+	dynasty = 917700
+	religion = catholic
+	culture = english
+	father = 905201
+	mother = 917701
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917703 = {
+	name = "CrusGran_3"
+	dynasty = 917700
+	religion = catholic
+	culture = english
+	father = 919702
+	mother = 917702
+	3.1.1 = {
+		birth = yes
+		add_spouse = 920803
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919500 = {
+	name = "Peace Child_0"
+	female = yes
+	dynasty = 919500
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919501 = {
+	name = "Peace Child_1"
+	female = yes
+	dynasty = 919500
+	religion = norse_pagan
+	culture = egyptian
+	mother = 919500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = pure_peace_bloodline_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919502 = {
+	name = "Peace Child_2"
+	female = yes
+	dynasty = 919500
+	religion = norse_pagan
+	culture = egyptian
+	father = 900701
+	mother = 919501
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919503 = {
+	name = "Peace Child_3"
+	female = yes
+	dynasty = 919500
+	religion = norse_pagan
+	culture = egyptian
+	father = 915302
+	mother = 919502
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919504 = {
+	name = "Peace Child_4"
+	dynasty = 919500
+	religion = norse_pagan
+	culture = egyptian
+	father = 919603
+	mother = 919503
+	4.1.1 = {
+		birth = yes
+		add_spouse = 920804
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919600 = {
+	name = "Protector_0"
+	female = yes
+	dynasty = 919600
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919601 = {
+	name = "Protector_1"
+	female = yes
+	dynasty = 919600
+	religion = norse_pagan
+	culture = egyptian
+	mother = 919600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = pure_peace_bloodline_02
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919602 = {
+	name = "Protector_2"
+	female = yes
+	dynasty = 919600
+	religion = norse_pagan
+	culture = egyptian
+	father = 900601
+	mother = 919601
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919603 = {
+	name = "Protector_3"
+	dynasty = 919600
+	religion = norse_pagan
+	culture = egyptian
+	father = 916402
+	mother = 919602
+	3.1.1 = {
+		birth = yes
+		add_spouse = 919503
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919700 = {
+	name = "Benefactor_0"
+	female = yes
+	dynasty = 919700
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919701 = {
+	name = "Benefactor_1"
+	female = yes
+	dynasty = 919700
+	religion = norse_pagan
+	culture = egyptian
+	mother = 919700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = pure_peace_bloodline_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+919702 = {
+	name = "Benefactor_2"
+	dynasty = 919700
+	religion = norse_pagan
+	culture = egyptian
+	father = 906201
+	mother = 919701
+	2.1.1 = {
+		birth = yes
+		add_spouse = 917702
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920800 = {
+	name = "Family_0"
+	female = yes
+	dynasty = 920800
+	religion = norse_pagan
+	culture = egyptian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920801 = {
+	name = "Family_1"
+	female = yes
+	dynasty = 920800
+	religion = norse_pagan
+	culture = egyptian
+	mother = 920800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_family_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920802 = {
+	name = "Family_2"
+	female = yes
+	dynasty = 920800
+	religion = norse_pagan
+	culture = egyptian
+	father = 903501
+	mother = 920801
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920803 = {
+	name = "Family_3"
+	female = yes
+	dynasty = 920800
+	religion = norse_pagan
+	culture = egyptian
+	father = 923702
+	mother = 920802
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920804 = {
+	name = "Family_4"
+	female = yes
+	dynasty = 920800
+	religion = norse_pagan
+	culture = egyptian
+	father = 917703
+	mother = 920803
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920805 = {
+	name = "Family_5"
+	female = yes
+	dynasty = 920800
+	religion = norse_pagan
+	culture = egyptian
+	father = 919504
+	mother = 920804
+	5.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920806 = {
+	name = "Family_6"
+	female = yes
+	dynasty = 920800
+	religion = norse_pagan
+	culture = egyptian
+	father = 907905
+	mother = 920805
+	6.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+920807 = {
+	name = "Family_7"
+	dynasty = 920800
+	religion = norse_pagan
+	culture = egyptian
+	father = 918306
+	mother = 920806
+	7.1.1 = {
+		birth = yes
+		add_spouse = 916307
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923700 = {
+	name = "FLeader_0"
+	female = yes
+	dynasty = 923700
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923701 = {
+	name = "FLeader_1"
+	female = yes
+	dynasty = 923700
+	religion = catholic
+	culture = french
+	mother = 923700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_leader_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923702 = {
+	name = "FLeader_2"
+	dynasty = 923700
+	religion = catholic
+	culture = french
+	father = 902701
+	mother = 923701
+	2.1.1 = {
+		birth = yes
+		add_spouse = 920802
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 11:24:18
+------------------------------------------------------------
+read
+
+------------------------------------------------------------
+Message  : 3
+Speaker  : User
+Time     : 2026-02-21 11:25:23
+------------------------------------------------------------
+make separate lists by date of birth
+
+------------------------------------------------------------
+Message  : 4
+Speaker  : AI A
+Time     : 2026-02-21 11:25:23
+------------------------------------------------------------
+Here are the characters grouped into separate lists based on their birth dates found in the script.
+
+### **Birth Date: 1.1.1**
+*   900100 - Caradog_0
+*   900600 - Gwrtheyrn_0
+*   900700 - Niall_0
+*   902700 - Athelstan_0
+*   903000 - Brian_0
+*   903500 - William_0 (Norman)
+*   905200 - Richard_0
+*   906200 - William_0 (Scottish)
+*   915300 - Tanistry_0
+*   916400 - Boudica_0
+*   917700 - CrusGran_0
+*   919500 - Peace Child_0
+*   919600 - Protector_0
+*   919700 - Benefactor_0
+*   920800 - Family_0
+*   923700 - FLeader_0
+
+### **Birth Date: 1.5.1**
+*   900101 - Caradog_1
+*   900601 - Gwrtheyrn_1
+*   900701 - Niall_1
+*   902701 - Athelstan_1
+*   903001 - Brian_1
+*   903501 - William_1 (Norman)
+*   905201 - Richard_1
+*   906201 - William_1 (Scottish)
+*   915301 - Tanistry_1
+*   916401 - Boudica_1
+*   917701 - CrusGran_1
+*   919501 - Peace Child_1
+*   919601 - Protector_1
+*   919701 - Benefactor_1
+*   920801 - Family_1
+*   923701 - FLeader_1
+
+### **Birth Date: 2.1.1**
+*   915302 - Tanistry_2
+*   916402 - Boudica_2
+*   917702 - CrusGran_2
+*   919502 - Peace Child_2
+*   919602 - Protector_2
+*   919702 - Benefactor_2
+*   920802 - Family_2
+*   923702 - FLeader_2
+
+### **Birth Date: 3.1.1**
+*   917703 - CrusGran_3
+*   919503 - Peace Child_3
+*   919603 - Protector_3
+*   920803 - Family_3
+
+### **Birth Date: 4.1.1**
+*   919504 - Peace Child_4
+*   920804 - Family_4
+
+### **Birth Date: 5.1.1**
+*   920805 - Family_5
+
+### **Birth Date: 6.1.1**
+*   920806 - Family_6
+
+### **Birth Date: 7.1.1**
+*   920807 - Family_7
+
+------------------------------------------------------------
+Message  : 5
+Speaker  : User
+Time     : 2026-02-21 11:27:16
+------------------------------------------------------------
+lists of chars
+
+------------------------------------------------------------
+Message  : 6
+Speaker  : AI A
+Time     : 2026-02-21 11:27:16
+------------------------------------------------------------
+Here are the characters organized into lists by their family names/lineages.
+
+### **Historic Male Lines**
+**Caradog (Welsh)**
+*   900100 - Caradog_0
+*   900101 - Caradog_1 (Bloodline: `caratacus`)
+
+**Gwrtheyrn (Welsh)**
+*   900600 - Gwrtheyrn_0
+*   900601 - Gwrtheyrn_1 (Bloodline: `vortigern`)
+
+**Niall (Irish)**
+*   900700 - Niall_0
+*   900701 - Niall_1 (Bloodline: `niall`, Nickname: "of the Nine Hostages")
+
+**Athelstan (Anglo-Saxon)**
+*   902700 - Athelstan_0
+*   902701 - Athelstan_1 (Bloodline: `athelstan`)
+
+**Brian (Irish)**
+*   903000 - Brian_0
+*   903001 - Brian_1 (Bloodline: `brian_boru`)
+
+**William (Norman)**
+*   903500 - William_0
+*   903501 - William_1 (Bloodline: `william_the_conqueror`, Nickname: "The Conqueror")
+
+**Richard (English)**
+*   905200 - Richard_0
+*   905201 - Richard_1 (Bloodline: `richard_lionheart`, Nickname: "The Lionheart")
+
+**William (Scottish)**
+*   906200 - William_0
+*   906201 - William_1 (Bloodline: `william_wallace`)
+
+***
+
+### **Matrilineal / Bloodline Carrier Lines**
+**Tanistry Line**
+*   915300 - Tanistry_0
+*   915301 - Tanistry_1 (Bloodline: `ancestor_worship_bloodline_05`)
+*   915302 - Tanistry_2
+
+**Boudica Line**
+*   916400 - Boudica_0
+*   916401 - Boudica_1 (Bloodline: `boudica_bloodline`)
+*   916402 - Boudica_2
+
+**Crusader Line**
+*   917700 - CrusGran_0
+*   917701 - CrusGran_1 (Bloodline: `grand_crusader_bloodline`)
+*   917702 - CrusGran_2
+*   917703 - CrusGran_3
+
+**Peace Child Line**
+*   919500 - Peace Child_0
+*   919501 - Peace Child_1 (Bloodline: `pure_peace_bloodline_01`)
+*   919502 - Peace Child_2
+*   919503 - Peace Child_3
+*   919504 - Peace Child_4
+
+**Protector Line**
+*   919600 - Protector_0
+*   919601 - Protector_1 (Bloodline: `pure_peace_bloodline_02`)
+*   919602 - Protector_2
+*   919603 - Protector_3
+
+**Benefactor Line**
+*   919700 - Benefactor_0
+*   919701 - Benefactor_1 (Bloodline: `pure_peace_bloodline_03`)
+*   919702 - Benefactor_2
+
+**Family Line**
+*   920800 - Family_0
+*   920801 - Family_1 (Bloodline: `event_family_bloodline`)
+*   920802 - Family_2
+*   920803 - Family_3
+*   920804 - Family_4
+*   920805 - Family_5
+*   920806 - Family_6
+*   920807 - Family_7
+
+**Legendary Leader Line**
+*   923700 - FLeader_0
+*   923701 - FLeader_1 (Bloodline: `legendary_leader_bloodline`)
+*   923702 - FLeader_2

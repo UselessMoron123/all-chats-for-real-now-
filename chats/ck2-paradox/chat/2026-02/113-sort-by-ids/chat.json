@@ -1,0 +1,95 @@
+{
+  "exportedAt": "2026-10-09T16:28:08.906Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c84c9-aedd-7d4f-bad6-794d932d1745",
+  "archivedAt": "2026-09-30 20:27:02.429+00",
+  "evaluation": {
+    "id": "019c84c9-aedd-7d4f-bad6-794d932d1745",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "sort by ids\n\n902300 = {\n\tname = \"Sa'id_0\"\n\tdynasty = 12279\n\treligion = qarmatian\n\tculture = bedouin\n",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c84ca-1ced-738b-b048-ff8f3c065b7b"
+    ],
+    "archivedAt": "2026-09-30 20:27:02.429+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-22 09:59:25.524+00",
+    "updatedAt": "2026-02-22 09:59:25.941858+00",
+    "messages": [
+      {
+        "id": "019c84ca-1cec-72b9-b6b2-17dae506a700",
+        "evaluationSessionId": "019c84c9-aedd-7d4f-bad6-794d932d1745",
+        "evaluationId": "019c84ca-23da-7860-8c82-a8ec92f8292b",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "sort by ids\n\n902300 = {\n\tname = \"Sa'id_0\"\n\tdynasty = 12279\n\treligion = qarmatian\n\tculture = bedouin\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n902400 = {\n\tname = \"Abdullah_0\"\n\tdynasty = 589\n\treligion = shiite\n\tculture = bedouin\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n904000 = {\n\tname = \"Arwa_0\"\n\tfemale = yes\n\tdynasty = 590\n\treligion = shiite\n\tculture = bedouin\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n905000 = {\n\tname = \"Saladin_0\"\n\tdynasty = 24000\n\treligion = sunni\n\tculture = levantine\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n905900 = {\n\tname = \"Baibars_0\"\n\tdynasty = 7267\n\treligion = sunni\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n906600 = {\n\tname = \"Cat_0\"\n\tfemale = yes\n\tdynasty = 906600\n\treligion = catholic\n\tculture = cat\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n919800 = {\n\tname = \"Architect_0\"\n\tdynasty = 919800\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n919900 = {\n\tname = \"Castellan_0\"\n\tdynasty = 919900\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920000 = {\n\tname = \"Monument_0\"\n\tdynasty = 920000\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920300 = {\n\tname = \"Builder_0\"\n\tfemale = yes\n\tdynasty = 920300\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920500 = {\n\tname = \"PArchitect_0\"\n\tfemale = yes\n\tdynasty = 920500\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920600 = {\n\tname = \"PCastellan_0\"\n\tfemale = yes\n\tdynasty = 920600\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920700 = {\n\tname = \"PMonument_0\"\n\tfemale = yes\n\tdynasty = 920700\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920900 = {\n\tname = \"Technology_0\"\n\tfemale = yes\n\tdynasty = 920900\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n921400 = {\n\tname = \"PisMuslim_0\"\n\tfemale = yes\n\tdynasty = 921400\n\treligion = sunni\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n921500 = {\n\tname = \"AgroMuslim_0\"\n\tdynasty = 921500\n\treligion = shiite\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n901300 = {\n\tname = \"Degna Mikael_0\"\n\tdynasty = 7246\n\treligion = miaphysite\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n916000 = {\n\tname = \"MIsrael_0\"\n\tdynasty = 916000\n\treligion = jewish\n\tculture = sephardi\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n916100 = {\n\tname = \"FIsrael_0\"\n\tfemale = yes\n\tdynasty = 916100\n\treligion = jewish\n\tculture = ashkenazi\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n916800 = {\n\tname = \"FDestiny_0\"\n\tfemale = yes\n\tdynasty = 916800\n\treligion = slavic_pagan\n\tculture = croatian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n918600 = {\n\tname = \"Murder Child_0\"\n\tfemale = yes\n\tdynasty = 918600\n\treligion = norse_pagan\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n918700 = {\n\tname = \"Macabre_0\"\n\tdynasty = 918700\n\treligion = norse_pagan\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n918800 = {\n\tname = \"Silent Killer_0\"\n\tfemale = yes\n\tdynasty = 918800\n\treligion = norse_pagan\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n918900 = {\n\tname = \"Butcher_0\"\n\tdynasty = 918900\n\treligion = norse_pagan\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n919000 = {\n\tname = \"Dragon_0\"\n\tdynasty = 919000\n\treligion = norse_pagan\n\tculture = dragon_culture\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920100 = {\n\tname = \"MurderWar_0\"\n\tdynasty = 920100\n\treligion = norse_pagan\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920200 = {\n\tname = \"MurderPeace_0\"\n\tfemale = yes\n\tdynasty = 920200\n\treligion = norse_pagan\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920400 = {\n\tname = \"MurderBuilder_0\"\n\tfemale = yes\n\tdynasty = 920400\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n921100 = {\n\tname = \"Ruthless_0\"\n\tfemale = yes\n\tdynasty = 921100\n\treligion = norse_pagan\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n921600 = {\n\tname = \"PisJewish_0\"\n\tfemale = yes\n\tdynasty = 921600\n\treligion = jewish\n\tculture = sephardi\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n921700 = {\n\tname = \"AgroJewish_0\"\n\tdynasty = 921700\n\treligion = jewish\n\tculture = sephardi\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n923600 = {\n\tname = \"MLeader_0\"\n\tdynasty = 923600\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-22T09:59:25.930702+00:00",
+        "updatedAt": "2026-02-22T09:59:25.930702+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c84ca-1ced-738b-b048-ff8f3c065b7b",
+        "evaluationSessionId": "019c84c9-aedd-7d4f-bad6-794d932d1745",
+        "evaluationId": "019c84ca-23da-7860-8c82-a8ec92f8292b",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c84ca-1cec-72b9-b6b2-17dae506a700"
+        ],
+        "content": "```paradox\n901300 = {\n\tname = \"Degna Mikael_0\"\n\tdynasty = 7246\n\treligion = miaphysite\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n902300 = {\n\tname = \"Sa'id_0\"\n\tdynasty = 12279\n\treligion = qarmatian\n\tculture = bedouin\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n902400 = {\n\tname = \"Abdullah_0\"\n\tdynasty = 589\n\treligion = shiite\n\tculture = bedouin\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n904000 = {\n\tname = \"Arwa_0\"\n\tfemale = yes\n\tdynasty = 590\n\treligion = shiite\n\tculture = bedouin\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n905000 = {\n\tname = \"Saladin_0\"\n\tdynasty = 24000\n\treligion = sunni\n\tculture = levantine\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n905900 = {\n\tname = \"Baibars_0\"\n\tdynasty = 7267\n\treligion = sunni\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n906600 = {\n\tname = \"Cat_0\"\n\tfemale = yes\n\tdynasty = 906600\n\treligion = catholic\n\tculture = cat\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n916000 = {\n\tname = \"MIsrael_0\"\n\tdynasty = 916000\n\treligion = jewish\n\tculture = sephardi\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n916100 = {\n\tname = \"FIsrael_0\"\n\tfemale = yes\n\tdynasty = 916100\n\treligion = jewish\n\tculture = ashkenazi\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n916800 = {\n\tname = \"FDestiny_0\"\n\tfemale = yes\n\tdynasty = 916800\n\treligion = slavic_pagan\n\tculture = croatian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n918600 = {\n\tname = \"Murder Child_0\"\n\tfemale = yes\n\tdynasty = 918600\n\treligion = norse_pagan\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n918700 = {\n\tname = \"Macabre_0\"\n\tdynasty = 918700\n\treligion = norse_pagan\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n918800 = {\n\tname = \"Silent Killer_0\"\n\tfemale = yes\n\tdynasty = 918800\n\treligion = norse_pagan\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n918900 = {\n\tname = \"Butcher_0\"\n\tdynasty = 918900\n\treligion = norse_pagan\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n919000 = {\n\tname = \"Dragon_0\"\n\tdynasty = 919000\n\treligion = norse_pagan\n\tculture = dragon_culture\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n919800 = {\n\tname = \"Architect_0\"\n\tdynasty = 919800\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n919900 = {\n\tname = \"Castellan_0\"\n\tdynasty = 919900\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920000 = {\n\tname = \"Monument_0\"\n\tdynasty = 920000\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920100 = {\n\tname = \"MurderWar_0\"\n\tdynasty = 920100\n\treligion = norse_pagan\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920200 = {\n\tname = \"MurderPeace_0\"\n\tfemale = yes\n\tdynasty = 920200\n\treligion = norse_pagan\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920300 = {\n\tname = \"Builder_0\"\n\tfemale = yes\n\tdynasty = 920300\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920400 = {\n\tname = \"MurderBuilder_0\"\n\tfemale = yes\n\tdynasty = 920400\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920500 = {\n\tname = \"PArchitect_0\"\n\tfemale = yes\n\tdynasty = 920500\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920600 = {\n\tname = \"PCastellan_0\"\n\tfemale = yes\n\tdynasty = 920600\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920700 = {\n\tname = \"PMonument_0\"\n\tfemale = yes\n\tdynasty = 920700\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n920900 = {\n\tname = \"Technology_0\"\n\tfemale = yes\n\tdynasty = 920900\n\treligion = west_african_pagan\n\tculture = ethiopian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n921100 = {\n\tname = \"Ruthless_0\"\n\tfemale = yes\n\tdynasty = 921100\n\treligion = norse_pagan\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n921400 = {\n\tname = \"PisMuslim_0\"\n\tfemale = yes\n\tdynasty = 921400\n\treligion = sunni\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n921500 = {\n\tname = \"AgroMuslim_0\"\n\tdynasty = 921500\n\treligion = shiite\n\tculture = egyptian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n921600 = {\n\tname = \"PisJewish_0\"\n\tfemale = yes\n\tdynasty = 921600\n\treligion = jewish\n\tculture = sephardi\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n921700 = {\n\tname = \"AgroJewish_0\"\n\tdynasty = 921700\n\treligion = jewish\n\tculture = sephardi\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n923600 = {\n\tname = \"MLeader_0\"\n\tdynasty = 923600\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n```",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-22T09:59:25.934152+00:00",
+        "updatedAt": "2026-02-22T10:00:10.859512+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c84ca-23da-7860-8c82-a8ec92f8292b",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

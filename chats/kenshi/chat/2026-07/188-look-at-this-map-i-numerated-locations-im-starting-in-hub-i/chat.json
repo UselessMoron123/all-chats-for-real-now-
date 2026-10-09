@@ -1,0 +1,111 @@
+{
+  "exportedAt": "2026-10-09T16:27:44.742Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019f6098-9a00-73ea-8796-f1c617bea152",
+  "archivedAt": "2026-09-30 20:12:43.418+00",
+  "evaluation": {
+    "id": "019f6098-9a00-73ea-8796-f1c617bea152",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "look at this map. i numerated locations. im starting in Hub. i want to visit all locations",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019f6099-010b-79d5-92a3-415a0d9b5344"
+    ],
+    "archivedAt": "2026-09-30 20:12:43.418+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-07-14 12:27:54.704+00",
+    "updatedAt": "2026-07-14 12:27:55.732868+00",
+    "messages": [
+      {
+        "id": "019f6099-010a-7204-8418-5ad412ade47a",
+        "evaluationSessionId": "019f6098-9a00-73ea-8796-f1c617bea152",
+        "evaluationId": "019f6099-1fb9-7110-b005-2166effb4c7f",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "look at this map. i numerated locations. im starting in Hub. i want to visit all locations",
+        "experimental_attachments": [
+          {
+            "name": "0995c648-8914-4762-b5b9-0eb0d213652d/1784032062939-SmallMarked.png",
+            "contentType": "image/png",
+            "url": "https://messages-prod.27c852f3500f38c1e7786e2c9ff9e48f.r2.cloudflarestorage.com/0995c648-8914-4762-b5b9-0eb0d213652d/1784032062939-SmallMarked.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=b33de61d4f22a31b59b25364ab5037c5%2F20261009%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261009T162739Z&X-Amz-Expires=3600&X-Amz-Signature=33d546849af76a47c04306a84e8c44a9fd835ee1c4d4433eea985af067a9fa6a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+          }
+        ],
+        "modelId": null,
+        "createdAt": "2026-07-14T12:27:55.724927+00:00",
+        "updatedAt": "2026-07-14T12:27:55.724927+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019f6099-010b-79d5-92a3-415a0d9b5344",
+        "evaluationSessionId": "019f6098-9a00-73ea-8796-f1c617bea152",
+        "evaluationId": "019f6099-1fb9-7110-b005-2166effb4c7f",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019f6099-010a-7204-8418-5ad412ade47a"
+        ],
+        "content": "To visit all 39 locations starting from **The Hub (21)** in an efficient route that minimizes backtracking across the Kenshi map, I recommend following this path. It circles the continent in a roughly clockwise spiral.\n\n### Phase 1: The Local & Northwest Run\nStart by clearing the immediate area and heading into the fog and northern coasts.\n*   **21 (Start: The Hub)** $\\rightarrow$ **19** $\\rightarrow$ **20** (Border Zone)\n*   Head West to **15** (Vain/Beak Thing territory)\n*   Enter the Fog Islands to reach **10** (Mongrel)\n*   Exit Northwest to the coast at **9**\n*   Head East through the Hidden Forest to **4** $\\rightarrow$ **5** (World's End) $\\rightarrow$ **2** $\\rightarrow$ **6**\n\n### Phase 2: Central Valley and The Great Desert\nDrop down into the Holy Nation valley before heading into the United Cities territory.\n*   From 6, go South to **11** $\\rightarrow$ **14** (Okran's Pride/Blister Hill)\n*   Head East past the mountains to **16** (Black Scratch)\n*   Go North into the Great Desert: **12** $\\rightarrow$ **7** $\\rightarrow$ **3** $\\rightarrow$ **1** $\\rightarrow$ **8** $\\rightarrow$ **13** (Heft/Stoat area)\n\n### Phase 3: The Eastern Edge & The Deadlands\nWork your way down the dangerous eastern coast and then cut through the center.\n*   From 13, go South to **18** $\\rightarrow$ **17**\n*   Push East into the pits: **24** $\\rightarrow$ **25** $\\rightarrow$ **26**\n*   Head West through the acid rain of the Deadlands: **23** $\\rightarrow$ **22** (Black Desert City)\n\n### Phase 4: The South Central & Shem\nHead down through the central lakes toward the southern lagoons.\n*   From 22, go South to **33** $\\rightarrow$ **34** (Shem/Burning Sands)\n*   Continue South to **35** $\\rightarrow$ **36** (Flat Lagoons)\n\n### Phase 5: The Swamp & The Western Kingdom\nSwing back west through the swamps and up into Shek territory.\n*   From 36, head West into the Swamp: **32** $\\rightarrow$ **31** (Shark)\n*   Head North out of the swamp to **29** $\\rightarrow$ **28** $\\rightarrow$ **27** (Admag)\n\n### Phase 6: The Final Stretch (The Deep South)\nFinish by heading down the southwestern coast into the Hook and Royal Valley.\n*   From 27, go South to **30** (The Hook)\n*   Follow the coast/path southeast to **37** $\\rightarrow$ **38** $\\rightarrow$ **39**\n\n---\n\n### Full Sequence Summary:\n**21** $\\rightarrow$ 19 $\\rightarrow$ 20 $\\rightarrow$ 15 $\\rightarrow$ 10 $\\rightarrow$ 9 $\\rightarrow$ 4 $\\rightarrow$ 5 $\\rightarrow$ 2 $\\rightarrow$ 6 $\\rightarrow$ 11 $\\rightarrow$ 14 $\\rightarrow$ 16 $\\rightarrow$ 12 $\\rightarrow$ 7 $\\rightarrow$ 3 $\\rightarrow$ 1 $\\rightarrow$ 8 $\\rightarrow$ 13 $\\rightarrow$ 18 $\\rightarrow$ 17 $\\rightarrow$ 24 $\\rightarrow$ 25 $\\rightarrow$ 26 $\\rightarrow$ 23 $\\rightarrow$ 22 $\\rightarrow$ 33 $\\rightarrow$ 34 $\\rightarrow$ 35 $\\rightarrow$ 36 $\\rightarrow$ 32 $\\rightarrow$ 31 $\\rightarrow$ 29 $\\rightarrow$ 28 $\\rightarrow$ 27 $\\rightarrow$ 30 $\\rightarrow$ 37 $\\rightarrow$ 38 $\\rightarrow$ **39**",
+        "experimental_attachments": [],
+        "modelId": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "createdAt": "2026-07-14T12:27:55.729294+00:00",
+        "updatedAt": "2026-07-14T12:28:23.193191+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 1110,
+            "totalTokens": 3883,
+            "usageSource": "provider",
+            "outputTokens": 2773,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 1877
+          },
+          "fromAutoRouter": false
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019f6099-1fb9-7110-b005-2166effb4c7f",
+        "modality": "chat",
+        "arenaId": "df16ee91-d668-4f41-81bb-22a90b1e7bbe",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-flash",
+        "name": "gemini-3-flash",
+        "displayName": "gemini-3-flash",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

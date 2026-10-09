@@ -1,0 +1,286 @@
+{
+  "exportedAt": "2026-10-09T16:27:45.159Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019f5fc9-b689-7740-a421-ff31630023ed",
+  "archivedAt": "2026-09-30 19:58:39.756+00",
+  "evaluation": {
+    "id": "019f5fc9-b689-7740-a421-ff31630023ed",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "here's list of towns\n1. Bark\n2. Fishing Village\n3. Sho-Battai\n4. Burn's Tower\n5. Flotsam Village\n6. ",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019f5fcb-ccce-75f3-99c0-a06dbe247052"
+    ],
+    "archivedAt": "2026-09-30 19:58:39.756+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-07-14 08:42:02.827+00",
+    "updatedAt": "2026-07-14 08:43:45.403178+00",
+    "messages": [
+      {
+        "id": "019f5fca-368a-75fc-b838-55749b898352",
+        "evaluationSessionId": "019f5fc9-b689-7740-a421-ff31630023ed",
+        "evaluationId": "019f5fca-54a6-74c0-838c-06e14d0f661a",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "here's list of towns\n1. Bark\n2. Fishing Village\n3. Sho-Battai\n4. Burn's Tower\n5. Flotsam Village\n6. World's End\n7. Stoat\n8. Heft\n9. Settled Nomad Village\n10. Mongrel\n11. Blister Hill\n12. Tengu's Vault\n13. Heng\n14. Bad Teeth\n15. Stack\n16. Black Desert City\n17. Waystation 1\n18. Eyesocket\n19. Dust King Tower\n20. Waystation 2\n21. The Hub\n22. Smugglers Bar\n23. Tower of Abuse\n24. Brink\n25. Black Scratch\n26. Crab Village\n27. Admag\n28. Waystation 3\n29. Squin\n30. Last Stand\n31. Mud Town\n32. Shark\n33. Flats Lagoon\n34. Mourn\n35. Catun\n36. Slave Markets\n37. Clownsteady\n38. Waystation 4\n39. Drifter's Last",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-07-14T08:42:03.308564+00:00",
+        "updatedAt": "2026-07-14T08:42:03.308564+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019f5fca-3691-7969-882e-31f81120a59c",
+        "evaluationSessionId": "019f5fc9-b689-7740-a421-ff31630023ed",
+        "evaluationId": "019f5fca-54a6-74c0-838c-06e14d0f661a",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019f5fca-368a-75fc-b838-55749b898352"
+        ],
+        "content": "This is an extensive list of major settlements and landmarks from the game **Kenshi**. \n\nTo help you make sense of this list, I have categorized them by their geographic location and the major faction that controls them. This is useful for planning trade routes, understanding where it is safe to travel, or deciding where to build a base.\n\n### 1. The United Cities (The Great Desert & South)\nThese are the wealthy, slave-reliant cities located mostly in the northeast and far south.\n*   **Northeast (Great Desert):** Bark, Sho-Battai, Stoat, Heft (The Capital), Heng.\n*   **South/Southwest:** Brink, Catun, Clownsteady, Drifter’s Last.\n*   **Related Locations:** Slave Markets, Eyesocket (Slave camp), Tengu’s Vault (Maximum security prison).\n\n### 2. The Holy Nation (The Green Valley)\nLocated in the fertile center of the map. They are xenophobic and hostile to non-humans or anyone carrying robotic limbs.\n*   **Major Cities:** Blister Hill (The Capital), Bad Teeth, Stack.\n\n### 3. The Shek Kingdom (The Stenn Desert)\nLocated in the west. Home to the warlike Shek.\n*   **Major Cities:** Admag (The Capital), Squin, Last Stand.\n\n### 4. The Swamp\nA dangerous, lawless marshland filled with gangs and spiders.\n*   **Major Settlements:** Shark (The main hub), Mud Town, Graycloud's Camp (often near these).\n\n### 5. Independent & Unique Hubs\nThese locations are often safer for diverse parties or tech-hunters.\n*   **World’s End:** A high-tech city run by Tech Hunters on a mountain.\n*   **Mongrel:** Located in the center of the Fog Islands; famous for being the home of Beep.\n*   **The Hub:** A ruined city where many players start the game.\n*   **Black Scratch:** Home to the Great Library (best place for blueprints).\n*   **Flats Lagoon:** A series of platforms over a lake; great for selling hashish.\n*   **Black Desert City:** A skeleton-only city in the middle of a toxic graveyard.\n\n### 6. Minor Settlements & Waystations\nUseful for resting and resupplying during long journeys.\n*   **Waystations (1, 2, 3, 4):** Scattered across the map, run by Free Traders or Tech Hunters.\n*   **Flotsam Village:** Home to the anti-Holy Nation ninjas.\n*   **Fishing Village / Settled Nomad Village:** Small trade outposts.\n*   **Crab Village:** Located in the far east (Pit East), home to the Crab Raiders.\n\n### 7. Unique Landmarks / Hostile Towers\nThese are usually \"dungeons\" or boss locations rather than peaceful towns.\n*   **Burn’s Tower:** Home to a potential Skeleton recruit.\n*   **Dust King Tower:** Home of the Dust King (early game bounty).\n*   **Tower of Abuse:** Located in the Venge/Iron Valleys; holds high-ranking Thralls.\n*   **Smugglers Bar:** A lonely bar in the middle of nowhere for outlaws.\n\n**Are you looking for a specific trade route between these towns, or are you trying to find a specific NPC?**",
+        "experimental_attachments": [],
+        "modelId": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "createdAt": "2026-07-14T08:42:03.320655+00:00",
+        "updatedAt": "2026-07-14T08:42:14.030776+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 256,
+            "totalTokens": 1547,
+            "usageSource": "provider",
+            "outputTokens": 1291,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 563
+          },
+          "fromAutoRouter": false
+        }
+      },
+      {
+        "id": "019f5fcb-49af-73a6-9589-f80c1631055b",
+        "evaluationSessionId": "019f5fc9-b689-7740-a421-ff31630023ed",
+        "evaluationId": "019f5fcb-67e3-7387-a947-414018596383",
+        "role": "user",
+        "parentMessageIds": [
+          "019f5fca-3691-7969-882e-31f81120a59c"
+        ],
+        "content": "here's list of recruits. put names of possible chars to each town\n\nAgnu/Free (Must free from a cage)/Tower of Abuse\nBard/3000/Bad Teeth, Blister Hill, Stack, Waystations, World's End\nBeep/Free/Mongrel\nBo/Free (Must Join Anti-Slaver)/Black Scratch\nBurn/Free/Burn's Tower\nCat/Free (Must free from a cage)/Dust King Tower\nChad/9,000/Flats Lagoon\nCornelius/is a Goat/7,000/Settled Nomad Village\nCrumblejon/Free/Mongrel\nDigna/3,000/Flotsam Village\nDoctor Chung/Free/Mud Town, Shark\nElls/300/Sho-Battai\nEspher/Free (Must free from a cage)/Tengu's Vault\nGreen/2,300/Mud Town, Shark\nGreen Finger/2,000/Fishing Village\nGriffin/9,000/Bad Teeth, Blister Hill, Stack\nHamut/Free/Mud Town, Shark\nHeadshot/7,500/Eyesocket, Slave Markets\nHobbs/Free/Fishing Village, The Hub, Waystation(s), World's End, Mourn\nHorse/4,500/Fishing Village, Squin\nInfinite Wingwang/5,000/Mongrel\nIzumi/2,500/Any UC town\nJewel/6,000/Any UC town\nKang/6,000/Admag, Squin, Last Stand\nKnife/6,000/Flotsam Village\nLumi/6,000/Crab Town\nLuquin/Free (Must free from a cage)/Tengu's Vault\nMiu/Free/Mud Town, Shark\nOron/3,500/Admag, Squin, Last Stand\nPia/3,000/Flotsam Village\nRane the Giant/7,500/Admag, Squin, Last Stand\nRay/1,000/Eyesocket, Slave Markets\nRed/150/Bark\nReva/6,000/Flotsam Village\nRiddly/Free/Any UC town\nRuka/Free/Admag, Squin, Last Stand\nSadneil/Free/Black Desert City\nSeto/Must capture rival's leader or have 80 relations with Shek Kingdom/Admag\nShryke/Free/Mongrel\nSilvershade/3,000/Mud Town, Waystation(s), World's End, Flats Lagoon\nSinklyde/Free (Must free from a cage)/Tengu's Vault\nSoman/3,500/Fishing Village\nStubs Momuso/5,000/Mud Town, Shark\nYamdu/Must capture rival's leader/Trader's Edge\n\n\"Amateur Recruit\"/3,000/Crab Town, Mourn, The Hub, Blister Hill, Heft, Heng, Stoat, Black Scratch, Flats Lagoon, Smugglers Bar, Waystation(s), World's End, Shark\n\"Disheartened Skeleton\"/6,000/Shark\n\"Ex-Slave Recruit\"/3,000/Crab Town, Mourn, The Hub, Blister Hill, Heft, Heng, Stoat, Black Scratch, Flats Lagoon, Smugglers Bar, Waystation(s), World's End\n\"Recruit Seeking Revenge\"/3,000/Any UC town, Black Scratch, Flats Lagoon, Smugglers Bar, Waystation(s), World's End\n\"Scarred Adventurer\"/6,000/Any UC town, Eyesocket, Slave Markets\n\"Skeleton Survivor\"/2,500/Shark\n\"Soldier Drone\" Swordslinger/7,500/Any UC town\n\"Swamper Adventurer\"/6,000/Shark\n\"Wall Man\"/5,000/Any UC town, Eyesocket, Shark, Slave Markets, Waystations, World's End, Smugglers Bar, Black Scratch, Flats Lagoon\n\nUC towns are: Heft, Heng, Stoat, Sho-Battai, Bark, Trader's Edge, Catun, Clownsteady, Drifter's Last, Brink",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-07-14T08:43:13.762802+00:00",
+        "updatedAt": "2026-07-14T08:43:13.762802+00:00",
+        "participantPosition": "a",
+        "pairwiseFeedbackId": "019f5fcb-e367-7e25-a85c-6149893efe16",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019f5fcb-49cb-7571-950c-0f01a90466cf",
+        "evaluationSessionId": "019f5fc9-b689-7740-a421-ff31630023ed",
+        "evaluationId": "019f5fcb-67e3-7387-a947-414018596383",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019f5fcb-49af-73a6-9589-f80c1631055b"
+        ],
+        "content": "",
+        "experimental_attachments": [],
+        "modelId": "019e6f94-9377-7adb-828a-702fef8ab254",
+        "createdAt": "2026-07-14T08:43:13.766077+00:00",
+        "updatedAt": "2026-07-14T08:43:49.737597+00:00",
+        "participantPosition": "a",
+        "pairwiseFeedbackId": "019f5fcb-e367-7e25-a85c-6149893efe16",
+        "status": "stopped",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 2912,
+            "totalTokens": 6942,
+            "usageSource": "provider",
+            "outputTokens": 4030,
+            "cacheReadTokens": 0,
+            "cacheWriteTokens": 0
+          },
+          "fromAutoRouter": false,
+          "excludeFromContext": true,
+          "directBattleStrategy": "random-random"
+        }
+      },
+      {
+        "id": "019f5fcb-49cb-7d5e-a77b-f9f6444973e8",
+        "evaluationSessionId": "019f5fc9-b689-7740-a421-ff31630023ed",
+        "evaluationId": "019f5fcb-67e3-7387-a947-414018596383",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019f5fcb-49af-73a6-9589-f80c1631055b"
+        ],
+        "content": "Here is the full list of towns with possible recruits for each:\n\n---\n\n### 1. Bark\n- Red (150)\n- Izumi (2,500)\n- Jewel (6,000)\n- Riddly (Free)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Scarred Adventurer\" (6,000)\n- \"Soldier Drone\" Swordslinger (7,500)\n- \"Wall Man\" (5,000)\n\n---\n\n### 2. Fishing Village\n- Hobbs (Free)\n- Horse (4,500)\n- Green Finger (2,000)\n- Soman (3,500)\n\n---\n\n### 3. Sho-Battai\n- Ells (300)\n- Izumi (2,500)\n- Jewel (6,000)\n- Riddly (Free)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Scarred Adventurer\" (6,000)\n- \"Soldier Drone\" Swordslinger (7,500)\n- \"Wall Man\" (5,000)\n\n---\n\n### 4. Burn's Tower\n- Burn (Free)\n\n---\n\n### 5. Flotsam Village\n- Digna (3,000)\n- Knife (6,000)\n- Pia (3,000)\n- Reva (6,000)\n\n---\n\n### 6. World's End\n- Bard (3,000)\n- Hobbs (Free)\n- Silvershade (3,000)\n- \"Amateur Recruit\" (3,000)\n- \"Ex-Slave Recruit\" (3,000)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Wall Man\" (5,000)\n\n---\n\n### 7. Stoat\n- Izumi (2,500)\n- Jewel (6,000)\n- Riddly (Free)\n- \"Amateur Recruit\" (3,000)\n- \"Ex-Slave Recruit\" (3,000)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Scarred Adventurer\" (6,000)\n- \"Soldier Drone\" Swordslinger (7,500)\n- \"Wall Man\" (5,000)\n\n---\n\n### 8. Heft\n- Izumi (2,500)\n- Jewel (6,000)\n- Riddly (Free)\n- \"Amateur Recruit\" (3,000)\n- \"Ex-Slave Recruit\" (3,000)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Scarred Adventurer\" (6,000)\n- \"Soldier Drone\" Swordslinger (7,500)\n- \"Wall Man\" (5,000)\n\n---\n\n### 9. Settled Nomad Village\n- Cornelius (is a Goat) (7,000)\n\n---\n\n### 10. Mongrel\n- Beep (Free)\n- Crumblejon (Free)\n- Infinite Wingwang (5,000)\n- Shryke (Free)\n\n---\n\n### 11. Blister Hill\n- Bard (3,000)\n- Griffin (9,000)\n- \"Amateur Recruit\" (3,000)\n- \"Ex-Slave Recruit\" (3,000)\n\n---\n\n### 12. Tengu's Vault\n- Espher (Free - cage)\n- Luquin (Free - cage)\n- Sinklyde (Free - cage)\n\n---\n\n### 13. Heng\n- Izumi (2,500)\n- Jewel (6,000)\n- Riddly (Free)\n- \"Amateur Recruit\" (3,000)\n- \"Ex-Slave Recruit\" (3,000)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Scarred Adventurer\" (6,000)\n- \"Soldier Drone\" Swordslinger (7,500)\n- \"Wall Man\" (5,000)\n\n---\n\n### 14. Bad Teeth\n- Bard (3,000)\n- Griffin (9,000)\n\n---\n\n### 15. Stack\n- Bard (3,000)\n- Griffin (9,000)\n\n---\n\n### 16. Black Desert City\n- Sadneil (Free)\n\n---\n\n### 17. Waystation 1\n- Bard (3,000)\n- Hobbs (Free)\n- Silvershade (3,000)\n- \"Amateur Recruit\" (3,000)\n- \"Ex-Slave Recruit\" (3,000)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Wall Man\" (5,000)\n\n---\n\n### 18. Eyesocket\n- Headshot (7,500)\n- Ray (1,000)\n- \"Scarred Adventurer\" (6,000)\n- \"Wall Man\" (5,000)\n\n---\n\n### 19. Dust King Tower\n- Cat (Free - cage)\n\n---\n\n### 20. Waystation 2\n- Bard (3,000)\n- Hobbs (Free)\n- Silvershade (3,000)\n- \"Amateur Recruit\" (3,000)\n- \"Ex-Slave Recruit\" (3,000)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Wall Man\" (5,000)\n\n---\n\n### 21. The Hub\n- Hobbs (Free)\n- \"Amateur Recruit\" (3,000)\n- \"Ex-Slave Recruit\" (3,000)\n\n---\n\n### 22. Smugglers Bar\n- \"Amateur Recruit\" (3,000)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Wall Man\" (5,000)\n\n---\n\n### 23. Tower of Abuse\n- Agnu (Free - cage)\n\n---\n\n### 24. Brink\n- Izumi (2,500)\n- Jewel (6,000)\n- Riddly (Free)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Scarred Adventurer\" (6,000)\n- \"Soldier Drone\" Swordslinger (7,500)\n- \"Wall Man\" (5,000)\n\n---\n\n### 25. Black Scratch\n- Bo (Free - Must Join Anti-Slaver)\n- \"Amateur Recruit\" (3,000)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Wall Man\" (5,000)\n\n---\n\n### 26. Crab Village\n- Lumi (6,000)\n- \"Amateur Recruit\" (3,000)\n- \"Ex-Slave Recruit\" (3,000)\n\n---\n\n### 27. Admag\n- Kang (6,000)\n- Oron (3,500)\n- Rane the Giant (7,500)\n- Ruka (Free)\n- Seto (Special condition)\n\n---\n\n### 28. Waystation 3\n- Bard (3,000)\n- Hobbs (Free)\n- Silvershade (3,000)\n- \"Amateur Recruit\" (3,000)\n- \"Ex-Slave Recruit\" (3,000)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Wall Man\" (5,000)\n\n---\n\n### 29. Squin\n- Kang (6,000)\n- Oron (3,500)\n- Rane the Giant (7,500)\n- Ruka (Free)\n- Horse (4,500)\n\n---\n\n### 30. Last Stand\n- Kang (6,000)\n- Oron (3,500)\n- Rane the Giant (7,500)\n- Ruka (Free)\n\n---\n\n### 31. Mud Town\n- Doctor Chung (Free)\n- Green (2,300)\n- Hamut (Free)\n- Miu (Free)\n- Silvershade (3,000)\n- Stubs Momuso (5,000)\n\n---\n\n### 32. Shark\n- Doctor Chung (Free)\n- Green (2,300)\n- Hamut (Free)\n- Miu (Free)\n- Stubs Momuso (5,000)\n- \"Amateur Recruit\" (3,000)\n- \"Disheartened Skeleton\" (6,000)\n- \"Skeleton Survivor\" (2,500)\n- \"Swamper Adventurer\" (6,000)\n- \"Wall Man\" (5,000)\n\n---\n\n### 33. Flats Lagoon\n- Chad (9,000)\n- Silvershade (3,000)\n- \"Amateur Recruit\" (3,000)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Wall Man\" (5,000)\n\n---\n\n### 34. Mourn\n- Hobbs (Free)\n- \"Amateur Recruit\" (3,000)\n- \"Ex-Slave Recruit\" (3,000)\n\n---\n\n### 35. Catun\n- Izumi (2,500)\n- Jewel (6,000)\n- Riddly (Free)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Scarred Adventurer\" (6,000)\n- \"Soldier Drone\" Swordslinger (7,500)\n- \"Wall Man\" (5,000)\n\n---\n\n### 36. Slave Markets\n- Headshot (7,500)\n- Ray (1,000)\n- \"Scarred Adventurer\" (6,000)\n- \"Wall Man\" (5,000)\n\n---\n\n### 37. Clownsteady\n- Izumi (2,500)\n- Jewel (6,000)\n- Riddly (Free)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Scarred Adventurer\" (6,000)\n- \"Soldier Drone\" Swordslinger (7,500)\n- \"Wall Man\" (5,000)\n\n---\n\n### 38. Waystation 4\n- Bard (3,000)\n- Hobbs (Free)\n- Silvershade (3,000)\n- \"Amateur Recruit\" (3,000)\n- \"Ex-Slave Recruit\" (3,000)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Wall Man\" (5,000)\n\n---\n\n### 39. Drifter's Last\n- Izumi (2,500)\n- Jewel (6,000)\n- Riddly (Free)\n- \"Recruit Seeking Revenge\" (3,000)\n- \"Scarred Adventurer\" (6,000)\n- \"Soldier Drone\" Swordslinger (7,500)\n- \"Wall Man\" (5,000)\n\n---\n\n> **Note:** Trader's Edge was listed as a UC town and is the location of **Yamdu** (Special condition) but was not included in your original town list. Let me know if you would like it added.",
+        "experimental_attachments": [],
+        "modelId": "019c6d29-a30c-7e20-9bd0-6650af926623",
+        "createdAt": "2026-07-14T08:43:13.766077+00:00",
+        "updatedAt": "2026-07-14T08:43:45.405796+00:00",
+        "participantPosition": "b",
+        "pairwiseFeedbackId": "019f5fcb-e367-7e25-a85c-6149893efe16",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 2175,
+            "totalTokens": 4880,
+            "usageSource": "provider",
+            "outputTokens": 2705,
+            "cacheReadTokens": 0,
+            "cacheWriteTokens": 0
+          },
+          "fromAutoRouter": false,
+          "excludeFromContext": true,
+          "directBattleStrategy": "random-random"
+        }
+      },
+      {
+        "id": "019f5fcb-ccce-75f3-99c0-a06dbe247052",
+        "evaluationSessionId": "019f5fc9-b689-7740-a421-ff31630023ed",
+        "evaluationId": "019f5fcb-e376-76c0-95e6-193bd3422eec",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019f5fcb-49af-73a6-9589-f80c1631055b"
+        ],
+        "content": "Based on the list of recruits and towns you provided, here are the potential recruits organized by each location.\n\n*Note: For towns listed as \"UC Towns,\" I have included Izumi, Jewel, Riddly, and the generic UC recruits. For Waystations, I have applied the recruits listed for \"Waystation(s).\"*\n\n### 1. Bark (UC Town)\n*   **Unique:** Red, Izumi, Jewel, Riddly\n*   **Generic:** Recruit Seeking Revenge, Scarred Adventurer, Soldier Drone Swordslinger, Wall Man\n\n### 2. Fishing Village\n*   **Unique:** Green Finger, Hobbs, Horse, Soman\n\n### 3. Sho-Battai (UC Town)\n*   **Unique:** Ells, Izumi, Jewel, Riddly\n*   **Generic:** Recruit Seeking Revenge, Scarred Adventurer, Soldier Drone Swordslinger, Wall Man\n\n### 4. Burn's Tower\n*   **Unique:** Burn\n\n### 5. Flotsam Village\n*   **Unique:** Digna, Knife, Pia, Reva\n\n### 6. World's End\n*   **Unique:** Bard, Hobbs, Silvershade\n*   **Generic:** \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n\n### 7. Stoat (UC Town)\n*   **Unique:** Izumi, Jewel, Riddly\n*   **Generic:** \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n\n### 8. Heft (UC Town)\n*   **Unique:** Izumi, Jewel, Riddly\n*   **Generic:** \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n\n### 9. Settled Nomad Village\n*   **Unique:** Cornelius (Goat)\n\n### 10. Mongrel\n*   **Unique:** Beep, Crumblejon, Infinite Wingwang, Shryke\n\n### 11. Blister Hill\n*   **Unique:** Bard, Griffin\n*   **Generic:** \"Amateur Recruit\", \"Ex-Slave Recruit\"\n\n### 12. Tengu's Vault\n*   **Unique:** Espher, Luquin, Sinklyde (All must be freed from cages)\n\n### 13. Heng (UC Town)\n*   **Unique:** Izumi, Jewel, Riddly\n*   **Generic:** \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n\n### 14. Bad Teeth\n*   **Unique:** Bard, Griffin\n\n### 15. Stack\n*   **Unique:** Bard, Griffin\n\n### 16. Black Desert City\n*   **Unique:** Sadneil\n\n### 17. Waystation 1\n*   **Unique:** Bard, Hobbs, Silvershade\n*   **Generic:** \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n\n### 18. Eyesocket\n*   **Unique:** Headshot, Ray\n*   **Generic:** \"Scarred Adventurer\", \"Wall Man\"\n\n### 19. Dust King Tower\n*   **Unique:** Cat (Must be freed from cage)\n\n### 20. Waystation 2\n*   **Unique:** Bard, Hobbs, Silvershade\n*   **Generic:** \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n\n### 21. The Hub\n*   **Unique:** Hobbs\n*   **Generic:** \"Amateur Recruit\", \"Ex-Slave Recruit\"\n\n### 22. Smugglers Bar\n*   **Generic:** \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n\n### 23. Tower of Abuse\n*   **Unique:** Agnu (Must be freed from cage)\n\n### 24. Brink (UC Town)\n*   **Unique:** Izumi, Jewel, Riddly\n*   **Generic:** \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n\n### 25. Black Scratch\n*   **Unique:** Bo\n*   **Generic:** \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n\n### 26. Crab Village\n*   **Unique:** Lumi\n*   **Generic:** \"Amateur Recruit\", \"Ex-Slave Recruit\"\n\n### 27. Admag\n*   **Unique:** Kang, Oron, Rane the Giant, Ruka, Seto (Special requirements)\n\n### 28. Waystation 3\n*   **Unique:** Bard, Hobbs, Silvershade\n*   **Generic:** \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n\n### 29. Squin\n*   **Unique:** Horse, Kang, Oron, Rane the Giant, Ruka\n\n### 30. Last Stand\n*   **Unique:** Kang, Oron, Rane the Giant, Ruka\n\n### 31. Mud Town\n*   **Unique:** Doctor Chung, Green, Hamut, Miu, Silvershade, Stubs Momuso\n\n### 32. Shark\n*   **Unique:** Doctor Chung, Green, Hamut, Miu, Stubs Momuso\n*   **Generic:** \"Amateur Recruit\", \"Disheartened Skeleton\", \"Skeleton Survivor\", \"Swamper Adventurer\", \"Wall Man\"\n\n### 33. Flats Lagoon\n*   **Unique:** Chad, Silvershade\n*   **Generic:** \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n\n### 34. Mourn\n*   **Unique:** Hobbs\n*   **Generic:** \"Amateur Recruit\", \"Ex-Slave Recruit\"\n\n### 35. Catun (UC Town)\n*   **Unique:** Izumi, Jewel, Riddly\n*   **Generic:** \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n\n### 36. Slave Markets\n*   **Unique:** Headshot, Ray\n*   **Generic:** \"Scarred Adventurer\", \"Wall Man\"\n\n### 37. Clownsteady (UC Town)\n*   **Unique:** Izumi, Jewel, Riddly\n*   **Generic:** \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"\n\n### 38. Waystation 4\n*   **Unique:** Bard, Hobbs, Silvershade\n*   **Generic:** \"Amateur Recruit\", \"Ex-Slave Recruit\", \"Recruit Seeking Revenge\", \"Wall Man\"\n\n### 39. Drifter's Last (UC Town)\n*   **Unique:** Izumi, Jewel, Riddly\n*   **Generic:** \"Recruit Seeking Revenge\", \"Scarred Adventurer\", \"Soldier Drone Swordslinger\", \"Wall Man\"",
+        "experimental_attachments": [],
+        "modelId": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "createdAt": "2026-07-14T08:43:45.403132+00:00",
+        "updatedAt": "2026-07-14T08:44:04.198845+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "usage": {
+            "type": "language_model",
+            "inputTokens": 1942,
+            "totalTokens": 5726,
+            "usageSource": "provider",
+            "outputTokens": 3784,
+            "cacheReadTokens": 0,
+            "reasoningTokens": 2214
+          },
+          "fromAutoRouter": false
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019f5fca-54a6-74c0-838c-06e14d0f661a",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      },
+      {
+        "id": "019f5fcb-67e3-7387-a947-414018596383",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": {
+          "shouldSkipEval": true,
+          "directBattleStrategy": "random-random"
+        }
+      },
+      {
+        "id": "019f5fcb-e376-76c0-95e6-193bd3422eec",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [
+      {
+        "id": "019f5fcb-e367-7e25-a85c-6149893efe16",
+        "messageAId": "019f5fcb-49cb-7571-950c-0f01a90466cf",
+        "messageBId": "019f5fcb-49cb-7d5e-a77b-f9f6444973e8",
+        "value": "skip",
+        "modelAId": "019e6f94-9377-7adb-828a-702fef8ab254",
+        "modelBId": "019c6d29-a30c-7e20-9bd0-6650af926623",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340"
+      }
+    ],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b47da-49b9-7295-906c-ce44ccd30d74",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-flash",
+        "name": "gemini-3-flash",
+        "displayName": "gemini-3-flash",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": true
+      },
+      {
+        "id": "019c6d29-a30c-7e20-9bd0-6650af926623",
+        "organization": "anthropic",
+        "provider": "googleVertexAnthropic",
+        "publicName": "claude-sonnet-4-6",
+        "name": "claude-sonnet-4-6-vertex",
+        "displayName": "claude-sonnet-4-6",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      },
+      {
+        "id": "019e6f94-9377-7adb-828a-702fef8ab254",
+        "organization": "anthropic",
+        "provider": "googleVertexAnthropicAdaptive",
+        "publicName": "claude-opus-4-8-thinking",
+        "name": "claude-opus-4-8-thinking",
+        "displayName": "claude-opus-4-8-thinking",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

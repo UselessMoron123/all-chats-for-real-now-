@@ -1,0 +1,95 @@
+{
+  "exportedAt": "2026-10-09T16:28:08.553Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c84b2-07ee-73ad-9c25-5d676da111b7",
+  "archivedAt": "2026-09-30 20:27:08.478+00",
+  "evaluation": {
+    "id": "019c84b2-07ee-73ad-9c25-5d676da111b7",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "sort by ids\n\n902500 = {\n\tname = \"Rudolf_0\"\n\tdynasty = 650\n\treligion = catholic\n\tculture = german\n\t1.",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c84b3-76bc-7437-a250-4c379dd56d6d"
+    ],
+    "archivedAt": "2026-09-30 20:27:08.478+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-22 09:34:42.015+00",
+    "updatedAt": "2026-02-22 09:34:42.419676+00",
+    "messages": [
+      {
+        "id": "019c84b3-76ba-7fef-b0fb-ebb67b099f3c",
+        "evaluationSessionId": "019c84b2-07ee-73ad-9c25-5d676da111b7",
+        "evaluationId": "019c84b3-80e3-7aee-9759-82b3020b00b2",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "sort by ids\n\n902500 = {\n\tname = \"Rudolf_0\"\n\tdynasty = 650\n\treligion = catholic\n\tculture = german\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n902800 = {\n\tname = \"Otto_0\"\n\tdynasty = 669\n\treligion = catholic\n\tculture = german\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n904900 = {\n\tname = \"Friedrich_0\"\n\tdynasty = 529\n\treligion = catholic\n\tculture = german\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n905500 = {\n\tname = \"Baudouin_0\"\n\tdynasty = 724\n\treligion = catholic\n\tculture = dutch\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n906800 = {\n\tname = \"Duck_0\"\n\tfemale = yes\n\tdynasty = 906800\n\treligion = catholic\n\tculture = duck_culture\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n918200 = {\n\tname = \"Byzantium_0\"\n\tfemale = yes\n\tdynasty = 918200\n\treligion = catholic\n\tculture = german\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n918300 = {\n\tname = \"Northern_0\"\n\tfemale = yes\n\tdynasty = 918300\n\treligion = catholic\n\tculture = german\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n923900 = {\n\tname = \"FWarrior_0\"\n\tfemale = yes\n\tdynasty = 923900\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n903900 = {\n\tname = \"Matilda_0\"\n\tfemale = yes\n\tdynasty = 101556\n\treligion = catholic\n\tculture = italian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n904200 = {\n\tname = \"Bohemond_0\"\n\tdynasty = 678\n\treligion = catholic\n\tculture = norman\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n904300 = {\n\tname = \"Roger_0\"\n\tdynasty = 678\n\treligion = catholic\n\tculture = norman\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n904600 = {\n\tname = \"Enrico_0\"\n\tdynasty = 13027\n\treligion = catholic\n\tculture = italian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n917900 = {\n\tname = \"CrusLord_0\"\n\tfemale = yes\n\tdynasty = 917900\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n918100 = {\n\tname = \"CrusKid_0\"\n\tfemale = yes\n\tdynasty = 918100\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n922800 = {\n\tname = \"FVatican_0\"\n\tfemale = yes\n\tdynasty = 922800\n\treligion = catholic\n\tculture = italian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n922900 = {\n\tname = \"MVatican_0\"\n\tdynasty = 922900\n\treligion = catholic\n\tculture = italian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910300 = {\n\tname = \"Defender_0\"\n\tfemale = yes\n\tdynasty = 910300\n\treligion = baltic_pagan\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910400 = {\n\tname = \"Culture_0\"\n\tfemale = yes\n\tdynasty = 910400\n\treligion = baltic_pagan\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910500 = {\n\tname = \"Inquisitor_0\"\n\tdynasty = 910500\n\treligion = baltic_pagan\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910600 = {\n\tname = \"Jewish_0\"\n\tfemale = yes\n\tdynasty = 910600\n\treligion = catholic\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910700 = {\n\tname = \"Theologic_0\"\n\tdynasty = 910700\n\treligion = baltic_pagan\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915500 = {\n\tname = \"Dueling_0\"\n\tfemale = yes\n\tdynasty = 915500\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n924600 = {\n\tname = \"MCaptor_0\"\n\tdynasty = 924600\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n924800 = {\n\tname = \"MRaider_0\"\n\tdynasty = 924800\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n906700 = {\n\tname = \"Horse_0\"\n\tdynasty = 906700\n\treligion = finnish_pagan\n\tculture = horse\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911800 = {\n\tname = \"Defender_0\"\n\tfemale = yes\n\tdynasty = 911800\n\treligion = finnish_pagan\n\tculture = finnish\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911900 = {\n\tname = \"Culture_0\"\n\tfemale = yes\n\tdynasty = 911900\n\treligion = finnish_pagan\n\tculture = finnish\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n912000 = {\n\tname = \"Inquisitor_0\"\n\tdynasty = 912000\n\treligion = finnish_pagan\n\tculture = finnish\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n912100 = {\n\tname = \"Jewish_0\"\n\tfemale = yes\n\tdynasty = 912100\n\treligion = nestorian\n\tculture = finnish\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n912200 = {\n\tname = \"Theologic_0\"\n\tdynasty = 912200\n\treligion = finnish_pagan\n\tculture = finnish\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n916700 = {\n\tname = \"MDestiny_0\"\n\tdynasty = 916700\n\treligion = tengri_pagan\n\tculture = hungarian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n924900 = {\n\tname = \"FRaider_0\"\n\tfemale = yes\n\tdynasty = 924900\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-22T09:34:42.412622+00:00",
+        "updatedAt": "2026-02-22T09:34:42.412622+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c84b3-76bc-7437-a250-4c379dd56d6d",
+        "evaluationSessionId": "019c84b2-07ee-73ad-9c25-5d676da111b7",
+        "evaluationId": "019c84b3-80e3-7aee-9759-82b3020b00b2",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c84b3-76ba-7fef-b0fb-ebb67b099f3c"
+        ],
+        "content": "```paradox\n902500 = {\n\tname = \"Rudolf_0\"\n\tdynasty = 650\n\treligion = catholic\n\tculture = german\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n902800 = {\n\tname = \"Otto_0\"\n\tdynasty = 669\n\treligion = catholic\n\tculture = german\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n903900 = {\n\tname = \"Matilda_0\"\n\tfemale = yes\n\tdynasty = 101556\n\treligion = catholic\n\tculture = italian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n904200 = {\n\tname = \"Bohemond_0\"\n\tdynasty = 678\n\treligion = catholic\n\tculture = norman\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n904300 = {\n\tname = \"Roger_0\"\n\tdynasty = 678\n\treligion = catholic\n\tculture = norman\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n904600 = {\n\tname = \"Enrico_0\"\n\tdynasty = 13027\n\treligion = catholic\n\tculture = italian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n904900 = {\n\tname = \"Friedrich_0\"\n\tdynasty = 529\n\treligion = catholic\n\tculture = german\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n905500 = {\n\tname = \"Baudouin_0\"\n\tdynasty = 724\n\treligion = catholic\n\tculture = dutch\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n906700 = {\n\tname = \"Horse_0\"\n\tdynasty = 906700\n\treligion = finnish_pagan\n\tculture = horse\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n906800 = {\n\tname = \"Duck_0\"\n\tfemale = yes\n\tdynasty = 906800\n\treligion = catholic\n\tculture = duck_culture\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910300 = {\n\tname = \"Defender_0\"\n\tfemale = yes\n\tdynasty = 910300\n\treligion = baltic_pagan\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910400 = {\n\tname = \"Culture_0\"\n\tfemale = yes\n\tdynasty = 910400\n\treligion = baltic_pagan\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910500 = {\n\tname = \"Inquisitor_0\"\n\tdynasty = 910500\n\treligion = baltic_pagan\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910600 = {\n\tname = \"Jewish_0\"\n\tfemale = yes\n\tdynasty = 910600\n\treligion = catholic\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n910700 = {\n\tname = \"Theologic_0\"\n\tdynasty = 910700\n\treligion = baltic_pagan\n\tculture = prussian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911800 = {\n\tname = \"Defender_0\"\n\tfemale = yes\n\tdynasty = 911800\n\treligion = finnish_pagan\n\tculture = finnish\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n911900 = {\n\tname = \"Culture_0\"\n\tfemale = yes\n\tdynasty = 911900\n\treligion = finnish_pagan\n\tculture = finnish\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n912000 = {\n\tname = \"Inquisitor_0\"\n\tdynasty = 912000\n\treligion = finnish_pagan\n\tculture = finnish\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n912100 = {\n\tname = \"Jewish_0\"\n\tfemale = yes\n\tdynasty = 912100\n\treligion = nestorian\n\tculture = finnish\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n912200 = {\n\tname = \"Theologic_0\"\n\tdynasty = 912200\n\treligion = finnish_pagan\n\tculture = finnish\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n915500 = {\n\tname = \"Dueling_0\"\n\tfemale = yes\n\tdynasty = 915500\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n916700 = {\n\tname = \"MDestiny_0\"\n\tdynasty = 916700\n\treligion = tengri_pagan\n\tculture = hungarian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n917900 = {\n\tname = \"CrusLord_0\"\n\tfemale = yes\n\tdynasty = 917900\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n918100 = {\n\tname = \"CrusKid_0\"\n\tfemale = yes\n\tdynasty = 918100\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n918200 = {\n\tname = \"Byzantium_0\"\n\tfemale = yes\n\tdynasty = 918200\n\treligion = catholic\n\tculture = german\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n918300 = {\n\tname = \"Northern_0\"\n\tfemale = yes\n\tdynasty = 918300\n\treligion = catholic\n\tculture = german\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n922800 = {\n\tname = \"FVatican_0\"\n\tfemale = yes\n\tdynasty = 922800\n\treligion = catholic\n\tculture = italian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n922900 = {\n\tname = \"MVatican_0\"\n\tdynasty = 922900\n\treligion = catholic\n\tculture = italian\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n923900 = {\n\tname = \"FWarrior_0\"\n\tfemale = yes\n\tdynasty = 923900\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n924600 = {\n\tname = \"MCaptor_0\"\n\tdynasty = 924600\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n924800 = {\n\tname = \"MRaider_0\"\n\tdynasty = 924800\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n\n924900 = {\n\tname = \"FRaider_0\"\n\tfemale = yes\n\tdynasty = 924900\n\treligion = catholic\n\tculture = french\n\t1.1.1 = {\n\t\tbirth = yes\n\t}\n\t1336.12.31 = {\n\t\tdeath = yes\n\t}\n}\n```",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-22T09:34:42.416615+00:00",
+        "updatedAt": "2026-02-22T09:35:22.731131+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c84b3-80e3-7aee-9759-82b3020b00b2",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

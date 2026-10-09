@@ -1,0 +1,171 @@
+{
+  "exportedAt": "2026-10-09T16:27:57.970Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019d361a-7501-788c-aa06-fc6ec583c4b4",
+  "archivedAt": "2026-09-30 20:18:16.904+00",
+  "evaluation": {
+    "id": "019d361a-7501-788c-aa06-fc6ec583c4b4",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "look at this list of bloodlines in ck2. in the end there should be 256 bloodlines. each group has li",
+    "mode": "direct-battle",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019d3622-42a2-7d99-9478-1a720a4a3b7c"
+    ],
+    "archivedAt": "2026-09-30 20:18:16.904+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-03-28 20:20:14.536+00",
+    "updatedAt": "2026-03-28 20:28:33.729535+00",
+    "messages": [
+      {
+        "id": "019d361a-a40e-7a65-99e5-c98c12b78599",
+        "evaluationSessionId": "019d361a-7501-788c-aa06-fc6ec583c4b4",
+        "evaluationId": "019d361a-bc7e-79eb-9994-f77c9c7c44a4",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "look at this list of bloodlines in ck2. in the end there should be 256 bloodlines. each group has limit stated in brackets. write which groups can still take some more\n\nBritish Isles (16):\nCaradog Catuvellauni (male)\nGwrtheyrn Gwerthrynion (male)\nNiall Ua Neill Noigiallaich (male)\nAthelstan of Wessex (male)\nBrian Ua Briain (male)\nWilliam de Normandie (male)\nRichard Plantagenet (male)\nWilliam Wallace (male)\nAncestral Venerated Tanistry Bloodline (female)\nBoudica Bloodline (female)\nBlessed Child Bloodline (female)\nProtector Bloodline (female)\nBenefactor Bloodline (female)\nFamily Bloodline (female)\n\nScandinavia (16):\nRagnarr af Munso (male)\nHaraldr Yngling (male)\nBear Bloodline (male)\nNorse \"Defender of Faith\" Bloodline (female)\nNorse \"Culture\" Bloodline (female)\nNorse \"Inquisition\" Bloodline (male)\nNorse \"Jewish\" Bloodline (female)\nNorse \"Theologic\" Bloodline (male)\nSea King Bloodline (male)\nSea Queen Bloodline (female)\nNorse Peaceful Bloodline (female)\nNorse Aggressive Bloodline (male)\nAncestral Venerated Raiding Bloodline (female)\n\nFrance (16):\nMerovech de Merohingi (male)\nCharles Martel (male)\nAlienor de Poitou (female)\nPhilippe Capet (male)\nCatholic \"Defender of Faith\" Bloodline (female)\nCatholic \"Monastic\" Bloodline (male)\nCatholic \"Culture\" Bloodline (female)\nCatholic \"Inquisition\" Bloodline (male)\nCatholic \"Jewish\" Bloodline (female)\nCatholic \"Theologic\" Bloodline (male)\nCatholic \"Wicked\" Bloodline (female)\nLord of Outremer Bloodline (female)\nCatholic Peaceful Bloodline (female)\nCatholic Aggressive Bloodline (male)\n\nIberian Peninsula (16):\nYusuf Almoravid (male)\nRodrigo de Vivar (male)\nAlfonso d'Ivrea (male)\nGartzia de Navarra (male)\nAfonso de Bourgogne (male)\nAbu Ya'qub Almohad (male)\nMuhammad Nasrid (male)\nJaume de Barcelona (male)\nReconquista 1 Bloodline (female)\nReconquista 2 Bloodline (female)\nThe Little Warrior Philosopher (female)\nThe Perfect Knight (female)\nThe Conqueror (female)\nThe Warrior Philosopher (female)\n\nHoly Roman Empire (8):\nRudolf Welf (male)\nOtto Liudolfinger (male)\nFriedrich von Hohenstaufen (male)\nBaudouin Van Vlaanderen (male)\nDestroyer of Byzantium Bloodline (female)\nNorthern Crusader Bloodline (female)\n\nItaly (8):\nMatilde de Canossa (female)\nBohemond de Hauteville (male)\nRoger de Hauteville (male)\nEnrico Dandolo (male)\nVatican 1 Bloodline (female)\nVatican 2 Bloodline (male)\n\nRomuva (8):\nRomuva \"Defender of Faith\" Bloodline (female)\nRomuva \"Culture\" Bloodline (female)\nRomuva \"Inquisition\" Bloodline (male)\nRomuva \"Jewish\" Bloodline (female)\nRomuva \"Theologic\" Bloodline (male)\nAncestral Venerated Dueling Bloodline (female)\n\nSuomenusko (8):\nSuomenusko \"Defender of Faith\" Bloodline (female)\nSuomenusko \"Culture\" Bloodline (female)\nSuomenusko \"Inquisition\" Bloodline (male)\nSuomenusko \"Jewish\" Bloodline (female)\nSuomenusko \"Theologic\" Bloodline (male)\nLegendary Raider Bloodline (female)\n\nSlavic Union (16):\nRurik Rurikid (male)\nArpad Arpad (male)\nDyre Oskyldr (male)\nBoleslav Premyslid (male)\nBoleslaw Piast (male)\nDmitar-Zvonimir Trpimirovic (male)\nAlexandr Nevsky (male)\nTeuta Bloodline (female)\nSlavic \"Defender of Faith\" Bloodline (female)\nSlavic \"Culture\" Bloodline (female)\nSlavic \"Inquisition\" Bloodline (female)\nSlavic \"Jewish\" Bloodline (female)\nSlavic \"Theologic\" Bloodline (female)\nSlavic Union 1 Bloodline (male)\nSlavic Union 2 Bloodline (female)\n\nByzantium (8):\nBasileios I Makedon (male)\nAlexios Komnenos (male)\nOrthodox \"Defender of Faith\" Bloodline (female)\nOrthodox \"Monastic\" Bloodline (female)\nOrthodox \"Culture\" Bloodline (female)\nOrthodox \"Inquisition\" Bloodline (male)\nOrthodox \"Jewish\" Bloodline (female)\nOrthodox \"Theologic\" Bloodline (male)\n\nHellenic (8):\nHellenic \"Defender of Faith\" Bloodline (female)\nHellenic \"Monastic\" Bloodline (male)\nHellenic \"Culture\" Bloodline (female)\nHellenic \"Inquisition\" Bloodline (male)\nHellenic \"Jewish\" Bloodline (female)\nHellenic \"Theologic\" Bloodline (male)\nRoman Imperial Bloodline 1 (male)\nRoman Imperial Bloodline 2 (female)\n\nArabic (16):\nSa'id Jannabid (male)\nAbdullah Fatimid (male)\nArwa Sulayhid (female)\nSaladin Ayyubid (male)\nBaibars Bunduqdarid (male)\nCat Bloodline (female)\nThe Architect Bloodline (male)\nThe Castellan Bloodline (male)\nThe Carpenter Bloodline (male)\nThe Builder Bloodline (female)\nPeace Architect Bloodline (female)\nPeace Castellan Bloodline (female)\nPeace Monumental Bloodline (female)\nPhilosopher Bloodline (female)\nIslamic Peaceful Bloodline (female)\nIslamic Aggressive Bloodline (male)\n\nJews (16):\nMikael Solomonid (male)\nIsrael Restorer 1 Bloodline (male)\nIsrael Restorer 2 Bloodline (female)\nHappy Child (female)\nMacabre Banquet (male)\nSilent Killer (female)\nThe Butcher (male)\nThe Dragon King (male)\nMurder/War (male)\nMurder/Peace Bloodline (female)\nMurder/Builder Bloodline (female)\nRuthlessness Bloodline (female)\nJewish Peaceful Bloodline (female)\nJewish Aggressive Bloodline (male)\n\nCoptic (8):\nCoptic \"Defender of Faith\" Bloodline (female)\nCoptic \"Monastic\" Bloodline (female)\nCoptic \"Culture\" Bloodline (female)\nCoptic \"Inquisition\" Bloodline (male)\nCoptic \"Jewish\" Bloodline (female)\nCoptic \"Theologic\" Bloodline (male)\n\nCustom (8):\nAncestral Venerated Heroic Bloodline (female)\nPlaceholder Bloodline 1 (male)\nPlaceholder Bloodline 2 (male)\nPlaceholder Bloodline 3 (female)\nPlaceholder Bloodline 4 (female)\nPlaceholder Bloodline 5 (male)\nPlaceholder Bloodline 6 (female)\nPlaceholder Bloodline 7 (male)\n\nAfrica (8):\nMagajiva Daura (female)\nMusa Keita (male)\nAfrican \"Defender of Faith\" Bloodline (female)\nAfrican \"Culture\" Bloodline (female)\nAfrican \"Inquisition\" Bloodline (male)\nAfrican \"Jewish\" Bloodline (female)\nAfrican \"Theologic\" Bloodline (male)\n\nAztec (8):\nAztec \"Defender of Faith\" Bloodline (male)\nAztec \"Culture\" Bloodline (female)\nAztec \"Inquisition\" Bloodline (male)\nAztec \"Jewish\" Bloodline (female)\nAztec \"Theologic\" Bloodline (male)\nBloodthirsty 1 Bloodline (male)\nBloodthirsty 2 Bloodline (female)\n\nCentral Asia (16):\nMuhan Ashina (male)\nKubrat Dulo (male)\nSabuktigin Ghaznavid (male)\nSeljuk Seljuk (male)\nTemujin Borjigin (male)\nOsman Ottoman (male)\nTimur Timurid (male)\nTengri \"Defender of Faith\" Bloodline (female)\nTengri \"Culture\" Bloodline (female)\nTengri \"Inquisition\" Bloodline (female)\nTengri \"Jewish\" Bloodline (female)\nTengri \"Theologic\" Bloodline (female)\nAncestral Venerated Sky Burial Bloodline (female)\nAncestral Venerated Mercenary Bloodline (female)\nChinese Imperial Bloodline (female)\n\nPersia (16):\nErdewan Karen-Pahlav (male)\nSasan Sassanid (male)\nMirian Khosroviani (male)\nBagrat Bagrationi (male)\nBahram Mihran (male)\nMardavij Ziyarid (male)\nSaoshyant 1 Bloodline (male)\nSaoshyant 2 Bloodline (female)\nZoroastrian Peaceful Bloodline (female)\nZoroastrian Aggressive Bloodline (male)\n\nNestorian (8):\nNestorian \"Defender of Faith\" Bloodline (female)\nNestorian \"Culture\" Bloodline (female)\nNestorian \"Monastic\" Bloodline (female)\nNestorian \"Inquisition\" Bloodline (male)\nNestorian \"Jewish\" Bloodline (female)\nNestorian \"Theologic\" Bloodline (male)\n\nZun (8):\nZun \"Defender of Faith\" Bloodline (female)\nZun \"Culture\" Bloodline (female)\nZun \"Inquisition\" Bloodline (male)\nZun \"Jewish\" Bloodline (female)\nZun \"Theologic\" Bloodline (male)\n\nTibet (8):\nSongtsen Gampo (male)\nRed Panda Bloodline (female)\nBon \"Defender of Faith\" Bloodline (male)\nBon \"Culture\" Bloodline (female)\nBon \"Inquisition\" Bloodline (male)\nBon \"Jewish\" Bloodline (female)\nBon \"Theologic\" Bloodline (male)\nImmortal Bloodline (female)\n\nIndia (8):\nGopala Pala (male)\nIrâcêntira Chola (male)\nTughluq Tughluq (male)\nChakravartin 1 Bloodline (male)\nChakravartin 2 Bloodline (female)\nHindu Peaceful Bloodline (female)\nHindu Aggressive Bloodline (female)\nAshoka Bloodline (female)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-28T20:20:15.108089+00:00",
+        "updatedAt": "2026-03-28T20:20:15.108089+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d361a-a411-7982-a25b-c831697ee8ac",
+        "evaluationSessionId": "019d361a-7501-788c-aa06-fc6ec583c4b4",
+        "evaluationId": "019d361a-bc7e-79eb-9994-f77c9c7c44a4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d361a-a40e-7a65-99e5-c98c12b78599"
+        ],
+        "content": "Based on the limits stated in the brackets and the number of bloodlines currently listed under each group, there are **36 open spots** in total to reach 256. \n\nHere is the list of exactly which groups can still take more bloodlines, ordered by how many spots they have left:\n\n**Can take 6 more:**\n*   **Persia** (Currently has 10, limit is 16)\n\n**Can take 3 more:**\n*   **Scandinavia** (Currently has 13, limit is 16)\n*   **Zun** (Currently has 5, limit is 8)\n\n**Can take 2 more:**\n*   **British Isles** (Currently has 14, limit is 16)\n*   **France** (Currently has 14, limit is 16)\n*   **Iberian Peninsula** (Currently has 14, limit is 16)\n*   **Jews** (Currently has 14, limit is 16)\n*   **Holy Roman Empire** (Currently has 6, limit is 8)\n*   **Italy** (Currently has 6, limit is 8)\n*   **Romuva** (Currently has 6, limit is 8)\n*   **Suomenusko** (Currently has 6, limit is 8)\n*   **Coptic** (Currently has 6, limit is 8)\n*   **Nestorian** (Currently has 6, limit is 8)\n\n**Can take 1 more:**\n*   **Slavic Union** (Currently has 15, limit is 16)\n*   **Central Asia** (Currently has 15, limit is 16)\n*   **Africa** (Currently has 7, limit is 8)\n*   **Aztec** (Currently has 7, limit is 8)\n\n*(Note: Byzantium, Hellenic, Arabic, Custom, Tibet, and India are already completely full and cannot take any more).*",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-03-28T20:20:15.11125+00:00",
+        "updatedAt": "2026-03-28T20:20:52.148769+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d361c-8fae-7097-8bb1-68574f5692a2",
+        "evaluationSessionId": "019d361a-7501-788c-aa06-fc6ec583c4b4",
+        "evaluationId": "019d361a-bc7e-79eb-9994-f77c9c7c44a4",
+        "role": "user",
+        "parentMessageIds": [
+          "019d361a-a411-7982-a25b-c831697ee8ac"
+        ],
+        "content": "think where these could fit\n\nLegendary Eagle Hunter (1 for Male and 1 for Female) Bloodline. This Person traveled far into foreign lands, fighting Her way through the best warriors of Her time. This Woman was rumored to have a supernatural affinity with birds.\nLegendary Dog Hunter (1 for Male and 1 for Female) Bloodline. A highly respected Warrior, this Woman was rumored to often have been charging into battle surrounded by war hounds.\nLegendary Battle Survivor (1 for Male and 1 for Female) Bloodline. A particularly resilient Woman, This Person proved Herself one of the finest Warriors of Her time.\nLegendary Leader (1 for Male and 1 for Female) Bloodline. (gives + vassal opinion) Known as a great Warrior and leader of others, This Woman accumulated enthusiastic support during Her legendary raids into foreign lands.\nLegendary Warrior (1 for Male and 1 for Female) Bloodline. This Famous Warrior made a name for Herself fighting and spreading Her fame to all who would dare challenge Her.\nLegendary Soldier (1 for Male and 1 for Female) Bloodline. Always ready for battle, This Person became famous for Her many victories, and being the finest Warrior everyone had ever seen\nLegendary Battle Bard (1 for Male and 1 for Female) Bloodline. Rumored to often have gone singing into battle, This Person was a Warrior of a different time, Her deeds inspiring greatness in others for generations to come.\nLegendary Commander (1 for Male and 1 for Female) Bloodline. This Person was known as the Brilliant leader – the mention of Her courage still lights a fire in many fellow soldiers.\nLegendary Captor (1 for Male and 1 for Female) Bloodline. This Person was both feared and respected, not only for Her combat prowess, but for Her relentless courage.\nLegendary Raider (1 for Male and 1 for Female) Bloodline. This Person was well respected within Her men, known for Her strategy and skill in battle, inspiring other Warriors for years to come.\n\n(murder bloodlines give minus vassal opinion)\n\nHorse Bloodline.\nDog Bloodline.\nDuck Bloodline.\nElephant Bloodline.\nHedgehog Bloodline.\n\nAlexander Bloodline. Thanks to the efforts of This Person, their dynasty has been universally acknowledged as being directly descended from Alexander the Great.\n\nBenevolent Bloodline. This Person has become famous as a paragon of virtue and just rule in Universal history. (weak. can be put as a filler for its name)\n\nAncestor Veneration Bastard Bloodline. (plus opinion with other illegitemate characters. legalisation is free)\n\nGrand Crusader Bloodline. This Person single handedly brought victory to the Christians in several Crusades, and there are numerous legends spun in their honor.\nCrusader Commander Bloodline. This Person is known for personally leading the charge of many battles, and it is said no heathen nor infidel could ever bring Them down.\nCrusade Lord Bloodline. This Person is known as the ruler of the first Crusader Kingdom. A pious ruler who fought and bled for the faith.\nCrusader Kid Bloodline. Inspired by the Holy Ghost, This Person managed to lead a successful Crusade to free Jerusalem from the infidels when They was merely a child.\n\nGreatest Duelist (Male) Bloodline. This Person was a duelist of great renown. No one would stand in His way lest they wanted a humiliating defeat, or a swift death...\nGreatest Duelist (Female) Bloodline. This Person was a duelist of great renown. No one would stand in Her way lest they wanted a humiliating defeat, or a swift death...\n\nChild of Destiny (Male) Bloodline. (gives + vassal opinion) A Man of true legend. His exploits mimicked those of Alexander the Great himself!\nChild of Destiny (Female) Bloodline. (gives + vassal opinion) A Woman of true legend. Her exploits mimicked those of Alexander the Great himself!\n\nPhalaris Bloodline. This Person has claimed that their dynasty shares blood with Phalaris, ancient Tyrant of Akragas, infamous for his use of the Brazen Bull against his enemies. (give minus opinion with muslim, christian and jewish religions. maybe put somewhere far from them, but not to aztecs)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-28T20:22:20.446853+00:00",
+        "updatedAt": "2026-03-28T20:22:20.446853+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d361c-8fb1-70ef-9018-1ee8a5a747a5",
+        "evaluationSessionId": "019d361a-7501-788c-aa06-fc6ec583c4b4",
+        "evaluationId": "019d361a-bc7e-79eb-9994-f77c9c7c44a4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d361c-8fae-7097-8bb1-68574f5692a2"
+        ],
+        "content": "Here is a perfect, thematic way to fit exactly all of these bloodlines into the remaining **36 open spots**. \n\nFirst, a quick but important observation: your list includes *Legendary Raider (Male & Female)*, but looking at your previous list, **Suomenusko already has the Female Legendary Raider Bloodline**. Therefore, we only need to place the remaining **36** bloodlines (19 Legendary + 5 Animals + 4 Crusader + 2 Duelist + 2 Child of Destiny + 1 Bastard + 1 Alexander + 1 Benevolent + 1 Phalaris), which perfectly matches the 36 open spots!\n\nHere is the breakdown of where they fit best and why:\n\n### 🛡️ The Christian & Crusader Bloodlines\n*These fit perfectly into the Catholic realms involved in the Crusades and dueling.*\n*   **France (2 spots):** **Crusade Lord** & **Crusader Commander** (France was the historical heart of the First Crusade, with leaders like Godfrey of Bouillon).\n*   **Holy Roman Empire (2 spots):** **Grand Crusader** & **Crusader Kid** (The HRE was highly involved in the Crusades, and the tragic \"Children's Crusade\" originated largely in Germany).\n*   **Italy (2 spots):** **Greatest Duelist (Male & Female)** (Renaissance Italy was legendary for its fencing schools and dueling masters).\n\n### 🗡️ The Pagan & Regional Legendary Bloodlines\n*Keeping the male/female pairs together makes the most sense for the remaining warrior lodge bloodlines.*\n*   **British Isles (2 spots):** **Legendary Battle Bard (Male & Female)** (Bards and Skalds are deeply tied to Celtic and British folklore).\n*   **Scandinavia (3 spots):** **Legendary Battle Survivor (Male & Female)** & **Legendary Raider (Male)** (The \"Survivor\" fits the harsh Norse lifestyle, and the Male Raider completes the set since the female is in Suomenusko).\n*   **Romuva (2 spots):** **Legendary Dog Hunter (Male & Female)** (Baltic pagans lived in dense forests where hunting with hounds was a way of life).\n*   **Iberian Peninsula (2 spots):** **Legendary Commander (Male & Female)** (Fits the highly organized, continuous warfare of the Reconquista).\n*   **Zun (3 spots):** **Legendary Eagle Hunter (Male & Female)** & **Phalaris Bloodline**. (Eagle hunting is a very real tradition in the Afghan mountains where Zunists are. As for *Phalaris*, your prompt asked to put it far from Christians/Muslims/Jews but not Aztec—Zun fits perfectly as an isolated pagan faith).\n\n### ⚖️ The Jewish & Persian Balancing Act\n*   **Jews (2 spots):** **Legendary Leader (Male & Female)**. You noted that murder bloodlines give *minus* vassal opinion, and the Jewish list is currently full of them! The Legendary Leader bloodline specifically gives *positive* vassal opinion, making it the perfect counterbalance for this group.\n*   **Persia (6 spots):** **Child of Destiny (Male & Female)**, **Alexander Bloodline**, **Legendary Warrior (Male & Female)**, and **Benevolent Bloodline**. The Child of Destiny text specifically mentions mimicking Alexander the Great—putting them in Persia alongside the actual Alexander bloodline is a fantastic thematic grouping, as Alexander's greatest conquest was the Persian Empire. The *Benevolent* bloodline fills the last spot beautifully, mimicking Cyrus the Great.\n\n### 🐾 The Animal & Singleton Bloodlines\n*These single slots are perfect for the animal bloodlines, mapped perfectly to their real-world or mythological equivalents.*\n*   **Central Asia (1 spot):** **Horse Bloodline** (The absolute heartland of the Tengri steppes and nomadic horse lords).\n*   **Africa (1 spot):** **Elephant Bloodline** (African elephants, deeply historical).\n*   **Aztec (1 spot):** **Dog Bloodline** (The Xoloitzcuintli was a hairless dog bred by the Aztecs and held deep mythological significance as a psychopomp).\n*   **Slavic Union (1 spot):** **Hedgehog Bloodline** (Hedgehogs are extremely prominent and loved in Slavic fairy tales and folklore).\n*   **Suomenusko (2 spots):** **Duck Bloodline** & **Ancestor Veneration Bastard Bloodline**. (In the Finnish epic *Kalevala*, upon which Suomenusko is based, the world is created from a duck's egg! The Bastard bloodline fits here as they are a pagan religion that uses the Ancestor Veneration mechanic).\n\n### 🌍 The Final Fillers\n*   **Coptic (2 spots):** **Legendary Captor (Male & Female)** (Fits the volatile skirmishes and taking of captives in East Africa/Egypt).\n*   **Nestorian (2 spots):** **Legendary Soldier (Male & Female)** (A solid fit for their long, arduous spread along the Silk Road). \n\nThis distribution perfectly fills the 256 limit, keeps pairs together, balances the game mechanics, and aligns beautifully with historical and cultural themes!",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-03-28T20:22:20.450078+00:00",
+        "updatedAt": "2026-03-28T20:23:54.7134+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d3622-429e-7647-b2fc-a80c16a27763",
+        "evaluationSessionId": "019d361a-7501-788c-aa06-fc6ec583c4b4",
+        "evaluationId": "019d361a-bc7e-79eb-9994-f77c9c7c44a4",
+        "role": "user",
+        "parentMessageIds": [
+          "019d361c-8fb1-70ef-9018-1ee8a5a747a5"
+        ],
+        "content": "don't put both bloodlines from pair into one group",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-03-28T20:28:33.719822+00:00",
+        "updatedAt": "2026-03-28T20:28:33.719822+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019d3622-42a2-7d99-9478-1a720a4a3b7c",
+        "evaluationSessionId": "019d361a-7501-788c-aa06-fc6ec583c4b4",
+        "evaluationId": "019d361a-bc7e-79eb-9994-f77c9c7c44a4",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019d3622-429e-7647-b2fc-a80c16a27763"
+        ],
+        "content": "To fulfill this while strictly keeping the Male/Female pairs separated, we first have to address the math: your new list contains **37** bloodlines, but there are only **36** spots left! \n\nHowever, looking at your original list, **Suomenusko already has the \"Legendary Raider Bloodline (female)\"**. Therefore, I will only place the **Male Legendary Raider** bloodline to complete that pair, which leaves us with exactly 36 bloodlines for the 36 open spots.\n\nHere is the perfect distribution that fits thematically and **strictly separates every Male and Female pair into different groups**:\n\n### ✝️ The Crusader & Christian Realms\n*(No Male/Female pairs here, just thematic placement)*\n*   **France (2 spots):** **Crusade Lord** & **Grand Crusader** *(The historical heart of the early Crusades).*\n*   **Holy Roman Empire (2 spots):** **Crusader Commander** & **Crusader Kid** *(The HRE was highly involved, and the tragic \"Children's Crusade\" originated in Germany).*\n\n### 🐾 The Animal & Standalone Bloodlines\n*   **Central Asia (1 spot):** **Horse Bloodline** *(The nomadic steppes).*\n*   **Africa (1 spot):** **Elephant Bloodline** *(Deeply tied to the continent).*\n*   **Aztec (1 spot):** **Dog Bloodline** *(The Xoloitzcuintli hairless dog was sacred to the Aztecs).*\n*   **Slavic Union (1 spot):** **Hedgehog Bloodline** *(A beloved animal in Slavic folklore).*\n*   **Suomenusko (2 spots):** **Duck Bloodline** & **Ancestor Veneration Bastard Bloodline** *(In Finnish/Suomenusko mythology, the world was hatched from a duck's egg, and this pagan religion uses the Ancestor Veneration mechanic).*\n\n### ⚔️ The Separated Legendary Pairs & Regional Traits\n*Every single M/F pair has been split across different groups.*\n\n*   **Persia (6 spots):** **Alexander Bloodline**, **Benevolent Bloodline**, **Child of Destiny (Male)**, **Greatest Duelist (Male)**, **Legendary Eagle Hunter (Male)**, & **Legendary Warrior (Male)**. \n    *(All male legendary traits to ensure no pairing. \"Child of Destiny\" specifically mentions mimicking Alexander the Great, so putting it with the actual Alexander bloodline in Persia—Alexander's greatest conquest—is perfect. Benevolent mirrors Cyrus the Great).*\n\n*   **Scandinavia (3 spots):** **Legendary Raider (Male)**, **Legendary Battle Survivor (Male)**, & **Legendary Battle Bard (Female)**.\n    *(The Male Raider pairs with Suomenusko's Female Raider. The Bard fits the Norse Skalds, and the Survivor fits the harsh winters).*\n\n*   **Zun (3 spots):** **Phalaris Bloodline**, **Legendary Dog Hunter (Male)**, & **Legendary Eagle Hunter (Female)**.\n    *(You wanted Phalaris far from Christians, Muslims, and Jews—Zunist Afghanistan is perfectly isolated. Eagle hunting is also a real Afghan tradition).*\n\n*   **British Isles (2 spots):** **Legendary Battle Bard (Male)** & **Legendary Commander (Female)**.\n    *(The Male Bard fits perfectly with Celtic and British folklore).*\n\n*   **Iberian Peninsula (2 spots):** **Legendary Commander (Male)** & **Legendary Soldier (Female)**.\n    *(Reflects the highly militarized society of the Reconquista).*\n\n*   **Jews (2 spots):** **Legendary Leader (Male)** & **Legendary Captor (Female)**.\n    *(You noted murder bloodlines give a negative vassal opinion modifier. The Legendary Leader gives a positive vassal opinion, making it the perfect counterbalance for the Jewish group, which has many murder bloodlines).*\n\n*   **Italy (2 spots):** **Greatest Duelist (Female)** & **Legendary Battle Survivor (Female)**.\n    *(Italy is legendary for its Renaissance fencing masters and Roman gladiator history).*\n\n*   **Romuva (2 spots):** **Legendary Dog Hunter (Female)** & **Legendary Warrior (Female)**.\n    *(Fits the deep-forest hunting traditions of the Baltic pagans).*\n\n*   **Coptic (2 spots):** **Legendary Captor (Male)** & **Legendary Soldier (Male)**.\n    *(Reflects the volatile skirmish warfare of East Africa).*\n\n*   **Nestorian (2 spots):** **Legendary Leader (Female)** & **Child of Destiny (Female)**.\n    *(Nestorians spread incredibly far along the Silk Road, fitting the \"Child of Destiny\" theme of spreading fame far and wide).*\n\n### Summary of the Split Pairs (To Verify):\n*   **Eagle Hunter:** Male in Persia / Female in Zun\n*   **Dog Hunter:** Male in Zun / Female in Romuva\n*   **Survivor:** Male in Scandinavia / Female in Italy\n*   **Leader:** Male in Jews / Female in Nestorian\n*   **Warrior:** Male in Persia / Female in Romuva\n*   **Soldier:** Male in Coptic / Female in Iberia\n*   **Bard:** Male in British Isles / Female in Scandinavia\n*   **Commander:** Male in Iberia / Female in British Isles\n*   **Captor:** Male in Coptic / Female in Jews\n*   **Duelist:** Male in Persia / Female in Italy\n*   **Child of Destiny:** Male in Persia / Female in Nestorian\n*   **Raider:** Male in Scandinavia / Female in Suomenusko (from your first list)",
+        "experimental_attachments": [],
+        "modelId": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "createdAt": "2026-03-28T20:28:33.725517+00:00",
+        "updatedAt": "2026-03-28T20:29:51.873373+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019d361a-bc7e-79eb-9994-f77c9c7c44a4",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019c7820-5480-78b6-9fef-04c0d7004054",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3.1-pro-preview",
+        "name": "gemini-3.1-pro-preview",
+        "displayName": "gemini-3.1-pro-preview",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

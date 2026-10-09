@@ -1,0 +1,938 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : 901700 = {
+	name = "Rurik_0"
+	dynasty = 705
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		bi
+Mode     : direct
+Started  : 2026-02-22 12:52:27
+Updated  : 2026-02-22 12:56:51
+Archived : 2026-09-30 23:27:04
+Messages : 4
+URL      : https://arena.ai/c/019c84bc-2ac7-79c6-9e29-ae50d08b7ff5
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-22 12:52:28
+------------------------------------------------------------
+901700 = {
+	name = "Rurik_0"
+	dynasty = 705
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901900 = {
+	name = "Arpad_0"
+	dynasty = 708
+	religion = tengri_pagan
+	culture = hungarian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902000 = {
+	name = "Dyre_0"
+	dynasty = 7516
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902900 = {
+	name = "Boleslav_0"
+	dynasty = 506
+	religion = catholic
+	culture = bohemian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903300 = {
+	name = "Boleslaw_0"
+	dynasty = 699
+	religion = catholic
+	culture = polish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903600 = {
+	name = "Dmitar-Zvonimir_0"
+	dynasty = 512
+	religion = catholic
+	culture = croatian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910800 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 910800
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910900 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 910900
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911000 = {
+	name = "Inquisitor_0"
+	female = yes
+	dynasty = 911000
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911100 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 911100
+	religion = orthodox
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911200 = {
+	name = "Theologic_0"
+	female = yes
+	dynasty = 911200
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916600 = {
+	name = "Teuta_0"
+	female = yes
+	dynasty = 916600
+	religion = slavic_pagan
+	culture = croatian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917500 = {
+	name = "MLCR_0"
+	dynasty = 917500
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917600 = {
+	name = "FLCR_0"
+	female = yes
+	dynasty = 917600
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923500 = {
+	name = "FSurvivor_0"
+	female = yes
+	dynasty = 923500
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901800 = {
+	name = "Basileios_0"
+	dynasty = 644
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904100 = {
+	name = "Alexios_0"
+	dynasty = 634
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908000 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 908000
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908100 = {
+	name = "Monastic_0"
+	female = yes
+	dynasty = 908100
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908200 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 908200
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908300 = {
+	name = "Inquisitor_0"
+	dynasty = 908300
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908400 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 908400
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908500 = {
+	name = "Theologic_0"
+	dynasty = 908500
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913800 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 913800
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913900 = {
+	name = "Monastic_0"
+	dynasty = 913900
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914000 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 914000
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914100 = {
+	name = "Inquisitor_0"
+	dynasty = 914100
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914200 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 914200
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914300 = {
+	name = "Theologic_0"
+	dynasty = 914300
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916200 = {
+	name = "MRoman_0"
+	dynasty = 916200
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916300 = {
+	name = "FRoman_0"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-22 12:52:28
+------------------------------------------------------------
+This data appears to be character history definitions from a **Paradox Interactive** game, almost certainly **Crusader Kings II (CK2)**.
+
+These specific entries look like **"Dummy" or "System" characters** rather than playable historical figures. They are likely used by the game engine or a mod (possibly a total conversion mod or an event logic mod) to handle background calculations, bloodlines, or specific AI behaviors.
+
+Here is a breakdown of the characters provided:
+
+### 1. Historical/Dynastic Ancestor Placeholders
+These characters represent the legendary or historical founders of major dynasties. The `_0` suffix suggests they are system copies used to anchor bloodlines or dynastic trees without interfering with the actual historical character history files.
+
+*   **901700 Rurik_0:** Founder of the Rurikid dynasty (Russia).
+*   **901900 Arpad_0:** Founder of the Árpád dynasty (Hungary).
+*   **902000 Dyre_0:** Likely Dyre the Stranger, a Norse warlord in Kiev.
+*   **902900 Boleslav_0:** Representing the Přemyslid dynasty (Bohemia).
+*   **903300 Boleslaw_0:** Representing the Piast dynasty (Poland).
+*   **903600 Dmitar-Zvonimir_0:** King of Croatia (Trpimirović dynasty).
+*   **901800 Basileios_0:** Basil I, founder of the Macedonian dynasty (Byzantium).
+*   **904100 Alexios_0:** Alexios I, founder of the Komnenos restoration (Byzantium).
+*   **916600 Teuta_0:** Queen Teuta of Illyria (represented here as Croatian/Slavic for game mechanics).
+
+### 2. Utility/Logic Characters (Severian/Slavic)
+These female characters (mostly) seem to be used for script logic, likely related to councillor tasks, AI weighing, or specific event chains (e.g., a "Culture" character might store variables regarding culture conversion).
+
+*   **910800 Defender_0**
+*   **910900 Culture_0**
+*   **911000 Inquisitor_0**
+*   **911100 Jewish_0** (Note: She is Orthodox religion, despite the name)
+*   **911200 Theologic_0**
+*   **917500 MLCR_0** (Male, likely "Male Lowborn/Leader..." placeholder)
+*   **917600 FLCR_0** (Female, likely "Female Lowborn/Leader..." placeholder)
+
+### 3. Utility/Logic Characters (Greek/Orthodox)
+Similar to the group above, but for the Greek culture group.
+
+*   **908000 Defender_0**
+*   **908100 Monastic_0**
+*   **908200 Culture_0**
+*   **908300 Inquisitor_0**
+*   **908400 Jewish_0**
+*   **908500 Theologic_0**
+
+### 4. Utility/Logic Characters (Greek/Hellenic)
+These appear to be specific to the Hellenic (Roman Pagan) revival mechanics or history.
+
+*   **913800 Defender_0**
+*   **913900 Monastic_0**
+*   **914000 Culture_0**
+*   **914100 Inquisitor_0**
+*   **914200 Jewish_0** (Still listed as Orthodox religion)
+*   **914300 Theologic_0**
+*   **916200 MRoman_0** (Male Roman placeholder)
+*   **916300 FRoman_0** (Female Roman placeholder)
+
+### 5. Other
+*   **923500 FSurvivor_0:** French Catholic Female. The name suggests usage in a "Survivor" event, perhaps related to the Black Death or a siege event chain.
+
+### Technical Observations
+*   **Dates:** All characters share the birth date `1.1.1` and death date `1336.12.31`. In CK2 modding, dates like `1.1.1` indicate the character exists "since the beginning of time" for calculation purposes, and `1336` ensures they are dead by the standard game start (or end date), but their data remains accessible in history files.
+*   **Dynasty IDs:** The historical characters use real vanilla CK2 dynasty IDs (e.g., 705 is Rurikid, 634 is Komnenos). The utility characters use their Character ID as their Dynasty ID, meaning they belong to a generated, non-historical dynasty of one.
+
+------------------------------------------------------------
+Message  : 3
+Speaker  : User
+Time     : 2026-02-22 12:56:51
+------------------------------------------------------------
+sort chars by id
+
+------------------------------------------------------------
+Message  : 4
+Speaker  : AI A
+Time     : 2026-02-22 12:56:51
+------------------------------------------------------------
+```paradox
+901700 = {
+	name = "Rurik_0"
+	dynasty = 705
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901800 = {
+	name = "Basileios_0"
+	dynasty = 644
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901900 = {
+	name = "Arpad_0"
+	dynasty = 708
+	religion = tengri_pagan
+	culture = hungarian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902000 = {
+	name = "Dyre_0"
+	dynasty = 7516
+	religion = norse_pagan
+	culture = norse
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+902900 = {
+	name = "Boleslav_0"
+	dynasty = 506
+	religion = catholic
+	culture = bohemian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903300 = {
+	name = "Boleslaw_0"
+	dynasty = 699
+	religion = catholic
+	culture = polish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903600 = {
+	name = "Dmitar-Zvonimir_0"
+	dynasty = 512
+	religion = catholic
+	culture = croatian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904100 = {
+	name = "Alexios_0"
+	dynasty = 634
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908000 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 908000
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908100 = {
+	name = "Monastic_0"
+	female = yes
+	dynasty = 908100
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908200 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 908200
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908300 = {
+	name = "Inquisitor_0"
+	dynasty = 908300
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908400 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 908400
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+908500 = {
+	name = "Theologic_0"
+	dynasty = 908500
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910800 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 910800
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+910900 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 910900
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911000 = {
+	name = "Inquisitor_0"
+	female = yes
+	dynasty = 911000
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911100 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 911100
+	religion = orthodox
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+911200 = {
+	name = "Theologic_0"
+	female = yes
+	dynasty = 911200
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913800 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 913800
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+913900 = {
+	name = "Monastic_0"
+	dynasty = 913900
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914000 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 914000
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914100 = {
+	name = "Inquisitor_0"
+	dynasty = 914100
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914200 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 914200
+	religion = orthodox
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+914300 = {
+	name = "Theologic_0"
+	dynasty = 914300
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916200 = {
+	name = "MRoman_0"
+	dynasty = 916200
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916300 = {
+	name = "FRoman_0"
+	female = yes
+	dynasty = 916300
+	religion = hellenic_pagan
+	culture = greek
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+916600 = {
+	name = "Teuta_0"
+	female = yes
+	dynasty = 916600
+	religion = slavic_pagan
+	culture = croatian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917500 = {
+	name = "MLCR_0"
+	dynasty = 917500
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+917600 = {
+	name = "FLCR_0"
+	female = yes
+	dynasty = 917600
+	religion = slavic_pagan
+	culture = severian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+923500 = {
+	name = "FSurvivor_0"
+	female = yes
+	dynasty = 923500
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

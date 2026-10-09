@@ -1,0 +1,95 @@
+{
+  "exportedAt": "2026-10-09T16:28:26.033Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c42fa-ccd0-7269-99c6-4dc0b1272fca",
+  "archivedAt": "2026-09-30 19:56:45.353+00",
+  "evaluation": {
+    "id": "019c42fa-ccd0-7269-99c6-4dc0b1272fca",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "narrate world's pov seeing dynasty of ck2 player, who likes to collect bloodlines through marriages ",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c42fd-9cb8-769f-a29b-0632ffa2dabd"
+    ],
+    "archivedAt": "2026-09-30 19:56:45.353+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-09 15:20:44.229+00",
+    "updatedAt": "2026-02-09 15:20:44.631088+00",
+    "messages": [
+      {
+        "id": "019c42fd-9cb5-779b-a13a-8839683edfff",
+        "evaluationSessionId": "019c42fa-ccd0-7269-99c6-4dc0b1272fca",
+        "evaluationId": "019c42fd-a1c5-7f4f-8778-fb4d4cfc98fa",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "narrate world's pov seeing dynasty of ck2 player, who likes to collect bloodlines through marriages (you can also describe how hard the hunt can be)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-09T15:20:44.62385+00:00",
+        "updatedAt": "2026-02-09T15:20:44.62385+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c42fd-9cb8-769f-a29b-0632ffa2dabd",
+        "evaluationSessionId": "019c42fa-ccd0-7269-99c6-4dc0b1272fca",
+        "evaluationId": "019c42fd-a1c5-7f4f-8778-fb4d4cfc98fa",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c42fd-9cb5-779b-a13a-8839683edfff"
+        ],
+        "content": "At first, we thought them simply mad.\n\nIn the courts of Paris, the yurts of the Steppe, and the golden halls of Constantinople, we watched the rise of **The Dynasty**. Usually, when a King seeks a match for his heir, he looks for land, or soldiers, or a pact of non-aggression. He looks at the map.\n\nBut this Dynasty… they did not look at the map. They looked at the *blood*.\n\nWe, the collective breath of the world, watched in confusion as the Emperor of a sprawling realm betrothed his firstborn son—a boy destined to rule millions—to a penniless, blind, hunchbacked woman from a minor court in the Caucasus.\n\n\"Why?\" the courtiers whispered behind their hands. \"She brings no land. She brings no army. She brings only shame.\"\n\nThey did not understand. They could not see the invisible thread glowing within her veins. She was the last great-granddaughter of a legendary Saint, the sole carrier of a holy promise that soldiers fought better under the banner of her kin. The Dynasty did not care about her blindness; they cared only that her womb was a vessel for history.\n\n**The Great Hunt** was a terrifying thing to witness. It was a hunt not for stags or boars, but for ghosts.\n\nWe saw their Spymasters and Chancellors scouring the corners of the earth, ignoring wars and plagues, desperate to find a specific lowborn courtier. We saw them track the last living descendant of Attila, who was rotting in a dungeon in Bulgaria.\n\nWe saw the immense difficulty of their craft. To catch a bloodline is like trying to catch smoke with a net.\nIt required patience that spanned lifetimes. We watched the Dynasty wait for sixty years, watching a rival house decline, waiting for that one moment when a third son would flee his father’s court. They would swoop in like hawks.\n\n\"Come to our court,\" they would whisper, offering bags of gold that could buy kingdoms. \"Marry our daughter. Let her name eclipse yours.\"\n\nThe Matrilineal Marriage. To the rest of the world, it was an insult to a noble son. To the Dynasty, it was the primary weapon of war. They bullied proud Kings, bribed Popes, and assassinated obstructionists, all to force a patrilineal heir to sign away his genetic legacy to *their* name.\n\nAnd when the distance was too great? When the blood of the Indian Rajas or the Persian Sayyids could not be reached by diplomacy? We watched with horror as they kidnapped them. Raiding parties sent not for loot, but to sack a castle and drag a specific child back to their dungeons—not to torture, but to educate, convert, and breed.\n\nThen came the **Consolidation**.\n\nThis was the part that made the pious vomit and the sins of the world feel light in comparison. To keep the bloodlines from diluting, to ensure the child had the blood of Charlemagne, Alexander, Genghis, and Brian Boru all pulsing in one heart… the circle had to be closed.\n\nThe family tree ceased to be a tree; it became a wreath.\n\nCousins looked at cousins with calculating eyes. The church screamed of abomination, but the Dynasty simply paid the indulgences and closed the chamber doors. They were alchemists of flesh, distilling the essence of kingship into a single, concentrated drop.\n\nAnd now, generations later, we look upon the result. **The Scion.**\n\nThe current Emperor sits upon the throne, and the world trembles. He is not merely a man. When he speaks, we hear the echo of the Caesars. When he draws his sword, the sky seems to darken as it did for the Scourge of God.\n\nHe has the beauty of the old Persian Shahs, the tactical genius of the great Crusaders, the administrative mind of the Chinese bureaucrats, and the Dragon-blood of the East.\n\nHe acts with the confidence of a man who knows twenty distinct legends authenticate his right to rule. He does not need to conquer us. He walks into a room, and the weight of his ancestry crushes our will. He is the Kwisatz Haderach of feudalism.\n\nWe look at him, this genetic mosaic of every great hero who ever lived, and we realize the terrifying truth.\n\nWe fought for land. We fought for religion.\nThey were playing a different game entirely. They were collecting us. And now, there is no history left outside of their veins.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2026-02-09T15:20:44.627147+00:00",
+        "updatedAt": "2026-02-09T15:21:34.355469+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c42fd-a1c5-7f4f-8778-fb4d4cfc98fa",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,1587 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+Mode     : direct
+Started  : 2026-02-21 12:03:50
+Updated  : 2026-02-21 12:03:51
+Archived : 2026-09-30 23:27:53
+Messages : 2
+URL      : https://arena.ai/c/019c7f6b-7b5e-7a76-834b-19c6b7c5db8e
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 12:03:51
+------------------------------------------------------------
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything else
+900800 = {
+	name = "Merovech_0"
+	dynasty = 542
+	religion = norse_pagan
+	culture = frankish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+900801 = {
+	name = "Merovech_1"
+	dynasty = 542
+	religion = norse_pagan
+	culture = frankish
+	father = 900800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = merovingian
+		}
+		add_spouse = 924701
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901400 = {
+	name = "Karl_0"
+	dynasty = 25061
+	religion = catholic
+	culture = frankish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901401 = {
+	name = "Karl_1"
+	dynasty = 25061
+	religion = catholic
+	culture = frankish
+	father = 901400
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 9
+	learning = 8
+	trait = brilliant_strategist
+	trait = quick
+	trait = brave
+	trait = strong
+	trait = ambitious
+	give_nickname = nick_the_hammer
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = carolingian
+		}
+		add_spouse = 918001
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904800 = {
+	name = "Alienor_0"
+	female = yes
+	dynasty = 413
+	religion = catholic
+	culture = occitan
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904801 = {
+	name = "Alienor_1"
+	female = yes
+	dynasty = 413
+	religion = catholic
+	culture = occitan
+	mother = 904800
+	diplomacy = 8
+	martial = 5
+	stewardship = 7
+	intrigue = 7
+	trait = attractive
+	trait = diligent
+	trait = just
+	trait = proud
+	trait = patient
+	trait = brave
+	trait = charismatic_negotiator
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = alienor_of_aquitaine
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904802 = {
+	name = "Alienor_2"
+	dynasty = 413
+	religion = catholic
+	culture = occitan
+	father = 905401
+	mother = 904801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 918002
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905400 = {
+	name = "Philippe_0"
+	dynasty = 743
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905401 = {
+	name = "Philippe_1"
+	dynasty = 743
+	religion = catholic
+	culture = french
+	father = 905400
+	diplomacy = 7
+	martial = 8
+	stewardship = 9
+	intrigue = 7
+	trait = ambitious
+	trait = quick
+	trait = brave
+	trait = honest
+	trait = just
+	trait = cynical
+	give_nickname = nick_the_great
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = philippe_capet
+		}
+		add_spouse = 904801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907300 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 907300
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907301 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 907300
+	religion = catholic
+	culture = french
+	mother = 907300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_catholic_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907302 = {
+	name = "Defender_2"
+	female = yes
+	dynasty = 907300
+	religion = catholic
+	culture = french
+	father = 907401
+	mother = 907301
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907303 = {
+	name = "Defender_3"
+	female = yes
+	dynasty = 907300
+	religion = catholic
+	culture = french
+	father = 921202
+	mother = 907302
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907304 = {
+	name = "Defender_4"
+	dynasty = 907300
+	religion = catholic
+	culture = french
+	father = 907703
+	mother = 907303
+	4.1.1 = {
+		birth = yes
+		add_spouse = 907904
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907400 = {
+	name = "Monastic_0"
+	dynasty = 907400
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907401 = {
+	name = "Monastic_1"
+	dynasty = 907400
+	religion = catholic
+	culture = french
+	father = 907400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_catholic_02
+		}
+		add_spouse = 907301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907500 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 907500
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907501 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 907500
+	religion = catholic
+	culture = french
+	mother = 907500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_catholic_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907502 = {
+	name = "Culture_2"
+	dynasty = 907500
+	religion = catholic
+	culture = french
+	father = 907601
+	mother = 907501
+	2.1.1 = {
+		birth = yes
+		add_spouse = 907702
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907600 = {
+	name = "Inquisitor_0"
+	dynasty = 907600
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907601 = {
+	name = "Inquisitor_1"
+	dynasty = 907600
+	religion = catholic
+	culture = french
+	father = 907600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_catholic_04
+		}
+		add_spouse = 907501
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907700 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 907700
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907701 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 907700
+	religion = catholic
+	culture = french
+	mother = 907700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_catholic_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907702 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 907700
+	religion = catholic
+	culture = french
+	father = 907801
+	mother = 907701
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907703 = {
+	name = "Jewish_3"
+	dynasty = 907700
+	religion = catholic
+	culture = french
+	father = 907502
+	mother = 907702
+	3.1.1 = {
+		birth = yes
+		add_spouse = 907303
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907800 = {
+	name = "Theologic_0"
+	dynasty = 907800
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907801 = {
+	name = "Theologic_1"
+	dynasty = 907800
+	religion = catholic
+	culture = french
+	father = 907800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_catholic_06
+		}
+		add_spouse = 907701
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907900 = {
+	name = "Wicked Saint_0"
+	female = yes
+	dynasty = 907900
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907901 = {
+	name = "Wicked Saint_1"
+	female = yes
+	dynasty = 907900
+	religion = catholic
+	culture = french
+	mother = 907900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_07
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907902 = {
+	name = "Wicked Saint_2"
+	female = yes
+	dynasty = 907900
+	religion = catholic
+	culture = french
+	father = 924201
+	mother = 907901
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907903 = {
+	name = "Wicked Saint_3"
+	female = yes
+	dynasty = 907900
+	religion = catholic
+	culture = french
+	father = 924702
+	mother = 907902
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907904 = {
+	name = "Wicked Saint_4"
+	female = yes
+	dynasty = 907900
+	religion = catholic
+	culture = french
+	father = 918003
+	mother = 907903
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907905 = {
+	name = "Wicked Saint_5"
+	dynasty = 907900
+	religion = catholic
+	culture = french
+	father = 907304
+	mother = 907904
+	5.1.1 = {
+		birth = yes
+		add_spouse = 920805
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918000 = {
+	name = "Outremer_0"
+	female = yes
+	dynasty = 918000
+	religion = catholic
+	culture = outremer
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918001 = {
+	name = "Outremer_1"
+	female = yes
+	dynasty = 918000
+	religion = catholic
+	culture = outremer
+	mother = 918000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = lord_of_outremer_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918002 = {
+	name = "Outremer_2"
+	female = yes
+	dynasty = 918000
+	religion = catholic
+	culture = outremer
+	father = 901401
+	mother = 918001
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918003 = {
+	name = "Outremer_3"
+	dynasty = 918000
+	religion = catholic
+	culture = outremer
+	father = 904802
+	mother = 918002
+	3.1.1 = {
+		birth = yes
+		add_spouse = 907903
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921200 = {
+	name = "PisChrist_0"
+	female = yes
+	dynasty = 921200
+	religion = catholic
+	culture = frisian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921201 = {
+	name = "PisChrist_1"
+	female = yes
+	dynasty = 921200
+	religion = catholic
+	culture = frisian
+	mother = 921200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_religion_peaceful_bloodline_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921202 = {
+	name = "PisChrist_2"
+	dynasty = 921200
+	religion = catholic
+	culture = frisian
+	father = 921301
+	mother = 921201
+	2.1.1 = {
+		birth = yes
+		add_spouse = 907302
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921300 = {
+	name = "AgroChrist_0"
+	dynasty = 921300
+	religion = catholic
+	culture = frisian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921301 = {
+	name = "AgroChrist_1"
+	dynasty = 921300
+	religion = catholic
+	culture = frisian
+	father = 921300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_religion_aggressive_bloodline_01
+		}
+		add_spouse = 921201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924200 = {
+	name = "MBard_0"
+	dynasty = 924200
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924201 = {
+	name = "MBard_1"
+	dynasty = 924200
+	religion = catholic
+	culture = french
+	father = 924200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_battle_bard_bloodline
+		}
+		add_spouse = 907901
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924700 = {
+	name = "FCaptor_0"
+	female = yes
+	dynasty = 924700
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924701 = {
+	name = "FCaptor_1"
+	female = yes
+	dynasty = 924700
+	religion = catholic
+	culture = french
+	mother = 924700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_captor_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924702 = {
+	name = "FCaptor_2"
+	dynasty = 924700
+	religion = catholic
+	culture = french
+	father = 900801
+	mother = 924701
+	2.1.1 = {
+		birth = yes
+		add_spouse = 907902
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 12:03:51
+------------------------------------------------------------
+Here are the characters divided into the three requested lists based on their ID suffixes.
+
+### List 1: IDs ending with 00
+```txt
+900800 = {
+	name = "Merovech_0"
+	dynasty = 542
+	religion = norse_pagan
+	culture = frankish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901400 = {
+	name = "Karl_0"
+	dynasty = 25061
+	religion = catholic
+	culture = frankish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904800 = {
+	name = "Alienor_0"
+	female = yes
+	dynasty = 413
+	religion = catholic
+	culture = occitan
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905400 = {
+	name = "Philippe_0"
+	dynasty = 743
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907300 = {
+	name = "Defender_0"
+	female = yes
+	dynasty = 907300
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907400 = {
+	name = "Monastic_0"
+	dynasty = 907400
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907500 = {
+	name = "Culture_0"
+	female = yes
+	dynasty = 907500
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907600 = {
+	name = "Inquisitor_0"
+	dynasty = 907600
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907700 = {
+	name = "Jewish_0"
+	female = yes
+	dynasty = 907700
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907800 = {
+	name = "Theologic_0"
+	dynasty = 907800
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907900 = {
+	name = "Wicked Saint_0"
+	female = yes
+	dynasty = 907900
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918000 = {
+	name = "Outremer_0"
+	female = yes
+	dynasty = 918000
+	religion = catholic
+	culture = outremer
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921200 = {
+	name = "PisChrist_0"
+	female = yes
+	dynasty = 921200
+	religion = catholic
+	culture = frisian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921300 = {
+	name = "AgroChrist_0"
+	dynasty = 921300
+	religion = catholic
+	culture = frisian
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924200 = {
+	name = "MBard_0"
+	dynasty = 924200
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924700 = {
+	name = "FCaptor_0"
+	female = yes
+	dynasty = 924700
+	religion = catholic
+	culture = french
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 2: IDs ending with 01
+```txt
+900801 = {
+	name = "Merovech_1"
+	dynasty = 542
+	religion = norse_pagan
+	culture = frankish
+	father = 900800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = merovingian
+		}
+		add_spouse = 924701
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901401 = {
+	name = "Karl_1"
+	dynasty = 25061
+	religion = catholic
+	culture = frankish
+	father = 901400
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 9
+	learning = 8
+	trait = brilliant_strategist
+	trait = quick
+	trait = brave
+	trait = strong
+	trait = ambitious
+	give_nickname = nick_the_hammer
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = carolingian
+		}
+		add_spouse = 918001
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+904801 = {
+	name = "Alienor_1"
+	female = yes
+	dynasty = 413
+	religion = catholic
+	culture = occitan
+	mother = 904800
+	diplomacy = 8
+	martial = 5
+	stewardship = 7
+	intrigue = 7
+	trait = attractive
+	trait = diligent
+	trait = just
+	trait = proud
+	trait = patient
+	trait = brave
+	trait = charismatic_negotiator
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = alienor_of_aquitaine
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+905401 = {
+	name = "Philippe_1"
+	dynasty = 743
+	religion = catholic
+	culture = french
+	father = 905400
+	diplomacy = 7
+	martial = 8
+	stewardship = 9
+	intrigue = 7
+	trait = ambitious
+	trait = quick
+	trait = brave
+	trait = honest
+	trait = just
+	trait = cynical
+	give_nickname = nick_the_great
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = philippe_capet
+		}
+		add_spouse = 904801
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907301 = {
+	name = "Defender_1"
+	female = yes
+	dynasty = 907300
+	religion = catholic
+	culture = french
+	mother = 907300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_catholic_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907401 = {
+	name = "Monastic_1"
+	dynasty = 907400
+	religion = catholic
+	culture = french
+	father = 907400
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_catholic_02
+		}
+		add_spouse = 907301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907501 = {
+	name = "Culture_1"
+	female = yes
+	dynasty = 907500
+	religion = catholic
+	culture = french
+	mother = 907500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_catholic_03
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907601 = {
+	name = "Inquisitor_1"
+	dynasty = 907600
+	religion = catholic
+	culture = french
+	father = 907600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_catholic_04
+		}
+		add_spouse = 907501
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907701 = {
+	name = "Jewish_1"
+	female = yes
+	dynasty = 907700
+	religion = catholic
+	culture = french
+	mother = 907700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_catholic_05
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907801 = {
+	name = "Theologic_1"
+	dynasty = 907800
+	religion = catholic
+	culture = french
+	father = 907800
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_catholic_06
+		}
+		add_spouse = 907701
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907901 = {
+	name = "Wicked Saint_1"
+	female = yes
+	dynasty = 907900
+	religion = catholic
+	culture = french
+	mother = 907900
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = saintly_bloodline_07
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918001 = {
+	name = "Outremer_1"
+	female = yes
+	dynasty = 918000
+	religion = catholic
+	culture = outremer
+	mother = 918000
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = lord_of_outremer_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921201 = {
+	name = "PisChrist_1"
+	female = yes
+	dynasty = 921200
+	religion = catholic
+	culture = frisian
+	mother = 921200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_religion_peaceful_bloodline_01
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921301 = {
+	name = "AgroChrist_1"
+	dynasty = 921300
+	religion = catholic
+	culture = frisian
+	father = 921300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_religion_aggressive_bloodline_01
+		}
+		add_spouse = 921201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924201 = {
+	name = "MBard_1"
+	dynasty = 924200
+	religion = catholic
+	culture = french
+	father = 924200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_battle_bard_bloodline
+		}
+		add_spouse = 907901
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924701 = {
+	name = "FCaptor_1"
+	female = yes
+	dynasty = 924700
+	religion = catholic
+	culture = french
+	mother = 924700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = legendary_captor_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 3: Everything else
+```txt
+904802 = {
+	name = "Alienor_2"
+	dynasty = 413
+	religion = catholic
+	culture = occitan
+	father = 905401
+	mother = 904801
+	2.1.1 = {
+		birth = yes
+		add_spouse = 918002
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907302 = {
+	name = "Defender_2"
+	female = yes
+	dynasty = 907300
+	religion = catholic
+	culture = french
+	father = 907401
+	mother = 907301
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907303 = {
+	name = "Defender_3"
+	female = yes
+	dynasty = 907300
+	religion = catholic
+	culture = french
+	father = 921202
+	mother = 907302
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907304 = {
+	name = "Defender_4"
+	dynasty = 907300
+	religion = catholic
+	culture = french
+	father = 907703
+	mother = 907303
+	4.1.1 = {
+		birth = yes
+		add_spouse = 907904
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907502 = {
+	name = "Culture_2"
+	dynasty = 907500
+	religion = catholic
+	culture = french
+	father = 907601
+	mother = 907501
+	2.1.1 = {
+		birth = yes
+		add_spouse = 907702
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907702 = {
+	name = "Jewish_2"
+	female = yes
+	dynasty = 907700
+	religion = catholic
+	culture = french
+	father = 907801
+	mother = 907701
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907703 = {
+	name = "Jewish_3"
+	dynasty = 907700
+	religion = catholic
+	culture = french
+	father = 907502
+	mother = 907702
+	3.1.1 = {
+		birth = yes
+		add_spouse = 907303
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907902 = {
+	name = "Wicked Saint_2"
+	female = yes
+	dynasty = 907900
+	religion = catholic
+	culture = french
+	father = 924201
+	mother = 907901
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907903 = {
+	name = "Wicked Saint_3"
+	female = yes
+	dynasty = 907900
+	religion = catholic
+	culture = french
+	father = 924702
+	mother = 907902
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907904 = {
+	name = "Wicked Saint_4"
+	female = yes
+	dynasty = 907900
+	religion = catholic
+	culture = french
+	father = 918003
+	mother = 907903
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+907905 = {
+	name = "Wicked Saint_5"
+	dynasty = 907900
+	religion = catholic
+	culture = french
+	father = 907304
+	mother = 907904
+	5.1.1 = {
+		birth = yes
+		add_spouse = 920805
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918002 = {
+	name = "Outremer_2"
+	female = yes
+	dynasty = 918000
+	religion = catholic
+	culture = outremer
+	father = 901401
+	mother = 918001
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+918003 = {
+	name = "Outremer_3"
+	dynasty = 918000
+	religion = catholic
+	culture = outremer
+	father = 904802
+	mother = 918002
+	3.1.1 = {
+		birth = yes
+		add_spouse = 907903
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+921202 = {
+	name = "PisChrist_2"
+	dynasty = 921200
+	religion = catholic
+	culture = frisian
+	father = 921301
+	mother = 921201
+	2.1.1 = {
+		birth = yes
+		add_spouse = 907302
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+924702 = {
+	name = "FCaptor_2"
+	dynasty = 924700
+	religion = catholic
+	culture = french
+	father = 900801
+	mother = 924701
+	2.1.1 = {
+		birth = yes
+		add_spouse = 907902
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```

@@ -1,0 +1,163 @@
+{
+  "exportedAt": "2026-10-09T16:28:52.819Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/404b7d8a-5ab3-4bac-b1bb-ce0be6b0dd45",
+  "archivedAt": "2026-09-30 19:10:26.223+00",
+  "evaluation": {
+    "id": "404b7d8a-5ab3-4bac-b1bb-ce0be6b0dd45",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "Let's roleplay. I want a simulator of zombie apocalypse survival. Epidemy starts in single city (lik",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "039466cb-1f05-402b-96da-cd846c1765b7"
+    ],
+    "archivedAt": "2026-09-30 19:10:26.223+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": null,
+    "createdAt": "2025-08-31 20:33:17.266+00",
+    "updatedAt": "2025-10-17 07:53:40.806289+00",
+    "messages": [
+      {
+        "id": "e3a6e06e-7796-4889-b03d-92afdcd11aaa",
+        "evaluationSessionId": "404b7d8a-5ab3-4bac-b1bb-ce0be6b0dd45",
+        "evaluationId": "41b5ed1f-5541-4cc2-ba14-25d2671ea14f",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "Let's roleplay. I want a simulator of zombie apocalypse survival. Epidemy starts in single city (like in Raccoon City). Similar to Zomboid",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-08-31T20:33:17.468971+00:00",
+        "updatedAt": "2025-08-31T20:33:17.468971+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "c0e4251b-9a2f-4dd5-ad6c-c3dc423e4c3c",
+        "evaluationSessionId": "404b7d8a-5ab3-4bac-b1bb-ce0be6b0dd45",
+        "evaluationId": "41b5ed1f-5541-4cc2-ba14-25d2671ea14f",
+        "role": "assistant",
+        "parentMessageIds": [
+          "e3a6e06e-7796-4889-b03d-92afdcd11aaa"
+        ],
+        "content": "Perfect—let’s crank up the fog machine, dim the lights, and drop you smack in the middle of a doomed city. To make this work well, I need just one quick detail:  \n\nDo you want to play as **yourself** (regular-person survival mode) or as a **character with a defined background** (e.g. cop, nurse, fireman, student, etc.)?  \n\nOnce I know, we’ll roll straight into Day 0 of the outbreak—your starter gear, the state of the city, and the choices that will decide whether you become a legend of survival… or lunch. 🧟‍♂️",
+        "experimental_attachments": [],
+        "modelId": "4b11c78c-08c8-461c-938e-5fc97d56a40d",
+        "createdAt": "2025-08-31T20:33:17.475464+00:00",
+        "updatedAt": "2025-08-31T20:33:18.747696+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "b6facdd5-8753-4ffa-acd7-3b1b07af3514",
+        "evaluationSessionId": "404b7d8a-5ab3-4bac-b1bb-ce0be6b0dd45",
+        "evaluationId": "41b5ed1f-5541-4cc2-ba14-25d2671ea14f",
+        "role": "user",
+        "parentMessageIds": [
+          "c0e4251b-9a2f-4dd5-ad6c-c3dc423e4c3c"
+        ],
+        "content": "Clean slate. Usual average citizen, but we know nothing about his past. He may have some skills but they aren't big enough to be noticeable. So we assume his character sheet to be empty, so he'll have to learn EVERYTHING",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-08-31T20:37:01.639816+00:00",
+        "updatedAt": "2025-08-31T20:37:01.639816+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "67365815-473d-4491-9b8b-681f192b3dd2",
+        "evaluationSessionId": "404b7d8a-5ab3-4bac-b1bb-ce0be6b0dd45",
+        "evaluationId": "41b5ed1f-5541-4cc2-ba14-25d2671ea14f",
+        "role": "assistant",
+        "parentMessageIds": [
+          "b6facdd5-8753-4ffa-acd7-3b1b07af3514"
+        ],
+        "content": "Beautiful choice: the **tabula rasa survivor**. No secret military training, no world-class medical expertise, no “oh, convenient, I happen to be a master carpenter.” Just a regular human dropped into an unfolding nightmare, forced to learn on the fly… or die trying. That makes growth meaningful and every little skill you scrape together feels like an achievement.  \n\n---\n\n## 📖 Setting the Stage\nThe year is **20XX**, a nondescript urban sprawl with high-rises, suburbs, shopping centers, and a river cutting through. The population: bustling yesterday, panicked today, dying tomorrow. News cycles whisper about a “flu-like illness.” Emergency broadcasts say it’s “contained.” You wake up to sirens, scattered screams, and no clear instructions.\n\n---\n\n## 🎲 Your Starting Conditions\n- **Health:** Normal. No obvious wounds or sickness.  \n- **Inventory:**   \n  - Wallet with some cash and an expired store coupon.  \n  - Cell phone (spotty service already).  \n  - Keys (apartment + apartment building front door).  \n  - The clothes on your back.  \n- **Skills:** None worth writing down yet. Think “struggles to change a car tire, but can put together cheap IKEA furniture with enough swearing.”  \n- **Knowledge:** Exactly what any average, untrained city-dweller might half-remember from TV shows, half-forget from high school biology.  \n\n---\n\n## 🌆 Day 0 — The First Crossroads\nYou are in your small apartment, three floors up. Outside, distant car alarms syncopate with random gunshots. From your window, you see:  \n1. **The Street Below:** People are running. A figure stumbles, gets dogpiled by three others—too fast, too aggressive to be normal. Definitely not good.  \n2. **Apartment Hallway:** Someone knocks on doors, panicked, shouting: *“They’re coming up! Open, PLEASE!”* You hear thudding footsteps growing nearer.  \n3. **Your Kitchen:** Not exactly survivalist heaven—there’s a cheap frying pan, some pasta, canned soup, and half a loaf of bread. The fridge hums with perishables.  \n\n---\n\nHere’s your first big **decision point**:  \n- **Option A:** Lock the door and barricade yourself inside, scramble to prepare what little resources you have.  \n- **Option B:** Open the door, risk letting in whoever is in the hallway (friend, foe… or worse?).  \n- **Option C:** Grab what you can and head for the fire escape window. The street is chaos, but staying put has its own dangers.  \n\n---\n\nWhich path feels like the right “first chapter” move for our blank-slate survivor?",
+        "experimental_attachments": [],
+        "modelId": "4b11c78c-08c8-461c-938e-5fc97d56a40d",
+        "createdAt": "2025-08-31T20:37:01.643001+00:00",
+        "updatedAt": "2025-08-31T20:37:07.328656+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "57114989-0cf9-4c00-a3bc-d5b703d7499d",
+        "evaluationSessionId": "404b7d8a-5ab3-4bac-b1bb-ce0be6b0dd45",
+        "evaluationId": "41b5ed1f-5541-4cc2-ba14-25d2671ea14f",
+        "role": "user",
+        "parentMessageIds": [
+          "67365815-473d-4491-9b8b-681f192b3dd2"
+        ],
+        "content": "I barricade the door with heavy furniture. I take backpack and start looking what useful can I take",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-09-01T11:27:25.770051+00:00",
+        "updatedAt": "2025-09-01T11:27:25.770051+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      },
+      {
+        "id": "039466cb-1f05-402b-96da-cd846c1765b7",
+        "evaluationSessionId": "404b7d8a-5ab3-4bac-b1bb-ce0be6b0dd45",
+        "evaluationId": "41b5ed1f-5541-4cc2-ba14-25d2671ea14f",
+        "role": "assistant",
+        "parentMessageIds": [
+          "57114989-0cf9-4c00-a3bc-d5b703d7499d"
+        ],
+        "content": "Excellent—you went with **Option A: Batten down the hatches**. Smart choice. Survival rule #1: the average untrained human’s best weapon is a *barrier*. You won’t win an early grappling match with a drooling corpse.  \n\n---\n\n## 👷 Barricade Phase\nYou grab what you can—your couch isn’t ideal (too wide and unwieldy), but that **chest of drawers** and the tiny **two-person table** slide nicely against the door. You’re sweating, the pounding from the hallway is getting closer, but luck is on your side. You jam a chair under the doorknob for makeshift bracing. It won’t stop a determined horde, but it buys you minutes at least.\n\n*While moving furniture, you catch your breath and note something valuable:* barricading is *loud.* You hear the pounding outside pause for a moment. Either they noticed, or they’ve moved on. Uncertainty is delicious, isn’t it?  \n\n---\n\n## 🎒 Scavenge Phase\nYou grab your **old backpack** from the closet and start filling:  \n\n**From the Kitchen:**  \n- 2 cans of soup (durable).  \n- 1 bag of pasta (needs boiling water).  \n- Half loaf of bread (already on its way to stale city).  \n- 2 apples.  \n- Kitchen knife (not combat-ready, but hey, jabby jabby is jabby jabby).  \n\n**From the Closet/Junk Drawer:**  \n- Flashlight (low battery).  \n- Roll of duct tape (hero of every apocalypse).  \n- Half-empty water bottle.  \n- A lighter from your last camping trip (miraculously has fuel).  \n- Bandaids and a tiny travel bottle of painkillers.  \n\n---\n\n## 🌘 The Situation Now\nYou’ve barricaded yourself in. The hallway seems quieter, but below your window, chaos churns. You can either:  \n1. **Stay Put:** Fortify further, hope it blows over (spoiler: it won’t, but the psychology of denial is powerful).  \n2. **Scout the Building:** Carefully move to other apartments—neighbors might be in trouble, and their homes may hold useful supplies. Of course, this means facing whatever caused those hallway thuds.  \n3. **Fire Escape Exit:** Risk the streets early, while traffic hasn’t fully frozen, and try to head toward safer zones (police station, grocery store, hospital, etc).  \n\n---\n\n💭 At this stage, your fresh survivor’s mindset will shape the story. Are you aiming to bunker down long-term, experiment with risk by scavenging nearby, or bolt into the storm while there’s still sunlight?",
+        "experimental_attachments": [],
+        "modelId": "4b11c78c-08c8-461c-938e-5fc97d56a40d",
+        "createdAt": "2025-09-01T11:27:25.775822+00:00",
+        "updatedAt": "2025-09-01T11:27:32.120554+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "41b5ed1f-5541-4cc2-ba14-25d2671ea14f",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "4b11c78c-08c8-461c-938e-5fc97d56a40d",
+        "organization": "openai",
+        "provider": "openai",
+        "publicName": "gpt-5-chat",
+        "name": "gpt-5-chat",
+        "displayName": "gpt-5-chat",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

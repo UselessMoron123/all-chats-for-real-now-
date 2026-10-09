@@ -1,0 +1,94 @@
+{
+  "exportedAt": "2026-10-09T16:28:26.164Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019c4315-afd0-7b86-9f2f-d5eb25264ef9",
+  "archivedAt": "2026-09-30 20:30:20.856+00",
+  "evaluation": {
+    "id": "019c4315-afd0-7b86-9f2f-d5eb25264ef9",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "Narrate. World's pov seeing rising dynasty of CK2 player, who likes to collect bloodlines through ma",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019c431b-2719-7dd6-939c-0c1c9881c1ef"
+    ],
+    "archivedAt": "2026-09-30 20:30:20.856+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2026-02-09 15:53:01.517+00",
+    "updatedAt": "2026-02-09 15:53:01.90252+00",
+    "messages": [
+      {
+        "id": "019c431b-2717-782d-938f-8de93e9749f6",
+        "evaluationSessionId": "019c4315-afd0-7b86-9f2f-d5eb25264ef9",
+        "evaluationId": "019c431b-314d-7205-9219-f85bf85cec1b",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "Narrate. World's pov seeing rising dynasty of CK2 player, who likes to collect bloodlines through marriages. Sometimes it's easy and obvious - marrying with someone from currently prosperous family, not necessarily from main line. Sometimes they spend time looking through geneologies to find the member of cadet branch of cadet branch [x] times. Matrilineally marrying if theres only one girl as last member of dynasty. and other hardships",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2026-02-09T15:53:01.896642+00:00",
+        "updatedAt": "2026-02-09T15:53:01.896642+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019c431b-2719-7dd6-939c-0c1c9881c1ef",
+        "evaluationSessionId": "019c4315-afd0-7b86-9f2f-d5eb25264ef9",
+        "evaluationId": "019c431b-314d-7205-9219-f85bf85cec1b",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019c431b-2717-782d-938f-8de93e9749f6"
+        ],
+        "content": "I have watched a thousand dynasties rise on the backs of swords, and a thousand more collapse because a son caught a fever or a brother wanted the chair more than the crown. Conquest is loud. It shakes my roads and fills my rivers. Marriage is quieter. It is ink, wax, and the slow tightening of a net.\n\nThe house you guide does not conquer the old way, not first. It *collects*.\n\nAt the beginning they are only a name—one more banner in the clutter of my fields. Their lands are modest, their chapel cold in winter, their vaults thin. Yet I can feel an attention on them, a pressure like a fingertip on the page of my ledger. While other lords stare at borders, your line stares at *blood*.\n\nNot blood spilled, but blood remembered.\n\nYou send envoys with honeyed tongues and hands full of gifts. You host hunts and feasts that aren’t really about venison. You ask questions that make courtiers blink: *Who was her grandmother? Was that duke’s mother of the sainted line? Is that boy truly legitimate?*\n\nMy bishops mutter about pride. My old nobles laugh—until the laughter thins, because they begin to notice a pattern: every generation, your family’s marriages look less like romance and more like accounting.\n\nSometimes it is easy, almost vulgar in its simplicity.\n\nA neighboring realm is prospering—flush with coin, crowned with victories, draped in the glow of a famous ancestor. Their bloodline is celebrated in songs and written in bright pigment in monastery margins. You do not even need the main branch. A third son will do. A cousin in a pleasant county. A spare daughter whose dowry is not land but *heritage*. You take the match when the door is open, while others are still debating etiquette, and you fasten another name to your own.\n\nI feel the web strengthen.\n\nThe world approves of those unions. They look normal from the outside: highborn meets highborn, alliances made, children promised. The heralds can explain it in a single sentence. The priests can bless it without choking.\n\nBut there are other times—more often, as the easy prizes are taken—when your hunger for lineage becomes a scavenger’s craft.\n\nThen I see it: the long winter evenings in a candlelit solar, where the ruler’s “interest in history” is not scholarly but predatory. They unroll genealogies like maps of buried treasure. They read until their eyes ache: marriages recorded in cramped Latin, names repeated until they lose meaning, cadet branches sprouting like fungus off older trunks.\n\nA courtier suggests a strong alliance with a nearby king. Your ruler waves it away, impatient, and taps a line on parchment instead:\n\n*Here.*  \nA cadet of a cadet of a cadet, seven degrees removed from any throne worth coveting. A count’s nephew’s widow’s only child. A woman with a claim no one fears and a bloodline no one remembers unless they are looking for it on purpose.\n\nYou are looking on purpose.\n\nSo the messenger rides not to the glittering capital, but to some damp corner of my map where the air smells of peat and old grudges. He arrives at a hall with a roof that leaks. The “priceless” heir is there: not the portrait of legend, but a tired young man with bad teeth, or a girl with hands reddened by chores—noble in law, obscure in practice.\n\nThis is where the hardships begin, the ones conquest never teaches.\n\nBecause bloodlines are not just prizes. They are *people*, and people die.\n\nYou find an ancient house clinging to its last thread: only one girl left, the final bearer of a famed lineage. Everyone at court understands what it means when you propose a matrilineal marriage—though they do not use that word. They understand it as something older and more scandalous:\n\n*He will take her name.*  \n*Their children will not be his father’s dynasty.*  \n*The husband will be swallowed.*\n\nSome call it an insult. Some call it witchcraft. Many call it humiliating. The prospective groom’s family howls. His father refuses. His brothers threaten violence. Your diplomats return with bruised pride and fresh demands.\n\nAnd still you push, because the ledger in your mind is clearer than the outrage in their throats.\n\nWhen you succeed, the world shudders in small ways. A priest hesitates before the blessing. A nobleman spits afterward, as if to rid his mouth of the taste. A vassal uses the moment to question your “proper order.” A rival writes a nasty letter about degeneracy and stolen names. The court whispers: *They marry like spiders.*\n\nBut the wedding happens. The seal is pressed into wax. In my great book, the line continues—under your banner.\n\nThen comes the second hardship: keeping that thread alive long enough to weave it in.\n\nThat last girl is suddenly the most valuable target in three counties. “Accidents” bloom around her like mold: a horse that throws, a staircase that breaks, a fever that arrives too swiftly. You surround her with guards, but guards have prices. You keep her close, but closeness breeds jealousy. You pray for sons, but prayer does not always reach.\n\nSometimes the line ends anyway. A miscarriage. A childbirth that turns bloody. A plague that does not care how famous someone’s great-grandfather was. And you, staring at the empty space where a bloodline should have attached, learn a cruel fact I have always known:\n\nHistory is not fair, and it is rarely convenient.\n\nSo you become… meticulous.\n\nYou marry for fertility when you must, prestige when you can, alliances when you’re forced, bloodlines whenever they appear like rare comets. You postpone a war because a betrothal must not be broken. You ransom a distant cousin because the cousin’s mother carried the right ancestry. You legitimize a bastard—not out of mercy, but because the bastard’s veins carry a name you refuse to lose.\n\nYou discover that the most dangerous battlefield is sometimes a nursery.\n\nA king dies at the wrong time, and your precious bloodline is held by a child. Regents bloom like weeds: ambitious uncles, pious guardians, “protectors” who protect themselves. You send gifts and hostages and promises, all to keep that child alive, married, and properly tethered to your house before someone else “rescues” the inheritance.\n\nI watch you endure humiliation that would make conquerors vomit.\n\nYou accept mismatched ages—an old woman married for her ancestry, a young man bartered like a horse. You accept strange beds and stranger rumors. You accept a spouse with terrible traits because their blood is bright with legend. You live with the risk that the heir will be sickly, that the line will double back on itself, that the family tree will start to look less like a tree and more like a knot.\n\nAnd still the net tightens.\n\nBecause while your rivals brag about castles, you stockpile *stories*. You make your dynasty a library of famous ancestors: saints and slayers, crusaders and scholars, founders of kingdoms now dust. Each generation adds another thread, another title in the chorus of “descended from.”\n\nAt first, other houses don’t understand. They think you’re merely lucky. They think you have good marriage counselors. They think you’re flattering the right people.\n\nThen, slowly, they begin to fear you—not for your armies, but for your inevitability.\n\nWhen disputes arise, your family always seems to have a “distant relation” to the contested land. When councils gather, your ruler can sit upright among kings because their bloodline list reads like a who’s-who of my last three centuries. When a priest calls your house “well-born,” it is not just ceremony. It is *documentation*.\n\nBy the time the swords finally come out—and they always do, sooner or later—the war is almost an afterthought. Claims have been cultivated for decades, watered by marriages no one bothered to stop because they looked harmless at the time.\n\nThat is how a quiet dynasty becomes a rising one: not by taking the world in a single bite, but by marrying it, branch by branch, until the world wakes up and realizes the new “old blood” is yours.\n\nAnd I, the world, can only record it with the same weary awe I reserve for all great transformations:\n\nEmpires are built from steel.  \nLegends are built from ink.  \nBut the longest-lasting powers are built from cradles—  \nand from the patient, relentless hands that keep turning the pages of genealogy until they find the one name everyone else forgot.",
+        "experimental_attachments": [],
+        "modelId": "019b1449-0313-7911-b836-419e2ed79b2e",
+        "createdAt": "2026-02-09T15:53:01.8987+00:00",
+        "updatedAt": "2026-02-09T15:54:05.870464+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019c431b-314d-7205-9219-f85bf85cec1b",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019b1449-0313-7911-b836-419e2ed79b2e",
+        "organization": "openai",
+        "provider": "openai",
+        "publicName": "gpt-5.2-high",
+        "name": "gpt-5.2-high-no-system-prompt-text",
+        "displayName": "gpt-5.2-high",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true
+          }
+        },
+        "userSelectable": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "exportedAt": "2026-10-09T16:28:38.582Z",
+  "source": "https://arena.ai",
+  "warnings": [
+    "Attachment files are not downloaded; included links may expire or require an active Arena session."
+  ],
+  "recordType": "evaluation",
+  "conversationUrl": "https://arena.ai/c/019b755c-4bf6-7dcf-a84f-bcb489c5f3fa",
+  "archivedAt": "2026-09-30 19:26:02.596+00",
+  "evaluation": {
+    "id": "019b755c-4bf6-7dcf-a84f-bcb489c5f3fa",
+    "userId": "0995c648-8914-4762-b5b9-0eb0d213652d",
+    "title": "leave only traits with \"personality = yes\". and leave only their effects on attributes.\n\n# THE SEVEN",
+    "mode": "direct",
+    "visibility": "public",
+    "lastMessageIds": [
+      "019b7560-fabf-7e85-845d-80d305f4e70b"
+    ],
+    "archivedAt": "2026-09-30 19:26:02.596+00",
+    "deletedAt": null,
+    "deletionPendingProcessing": false,
+    "createdAt": "2025-12-31 17:03:08.298+00",
+    "updatedAt": "2025-12-31 17:07:15.4072+00",
+    "messages": [
+      {
+        "id": "019b755d-324e-77a8-bc8c-ab5af94fed08",
+        "evaluationSessionId": "019b755c-4bf6-7dcf-a84f-bcb489c5f3fa",
+        "evaluationId": "019b755d-020a-7c06-b955-a66f8add5cde",
+        "role": "user",
+        "parentMessageIds": [],
+        "content": "leave only traits with \"personality = yes\". and leave only their effects on attributes.\n\n# THE SEVEN SINS\nenvious = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\tkind\n\t}\n\n\tintrigue = 2\n\tdiplomacy = -1\n\tcombat_rating = 3 # new value!\n\n\tliege_opinion = -15\n\n\tai_honor = -10\n\n\tmale_insult_adj = INSULT_ENVIOUS\n\tfemale_insult_adj = INSULT_ENVIOUS\n}\n\ngluttonous = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\ttemperate\n\t}\n\n\tstewardship = -2\n\n\tchurch_opinion = -5\n\tsex_appeal_opinion = -15\n\tsame_opinion = 5\n\n\tai_greed = 20\n\tai_zeal = -10\n\n\tmale_insult = INSULT_GLUTTON\n\tmale_insult_adj = INSULT_GORGING\n\tfemale_insult = INSULT_GLUTTON\n\tfemale_insult_adj = INSULT_GORGING\n\tchild_insult = INSULT_PIGFACE\n\tchild_insult_adj = INSULT_FLABBY\n}\n\ngreedy = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\tcharitable\n\t}\n\n\tglobal_tax_modifier = 0.1\n\n\tdiplomacy = -1\n\n\tai_honor = -10\n\tai_ambition = 15\n\tai_greed = 100\n\n\tmale_insult_adj = INSULT_COVETOUS\n\tfemale_insult_adj = INSULT_VENAL\n\tchild_insult_adj = INSULT_STUPID\n}\n\nlustful = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\tchaste\n\t}\n\n\tmonthly_character_piety = -0.25\n\n\tintrigue = 1\n\n\tfertility = 0.2\n\n\tchristian_church_opinion = -5\n\n\tai_greed = 20\n\tai_zeal = -10\n\n\tmale_insult = INSULT_LECHER\n\tmale_insult_adj = INSULT_LECHEROUS\n\tchild_insult = INSULT_TROLL\n\tchild_insult_adj = INSULT_CREEPY\n\tfemale_insult = INSULT_TROLLOP\n\tfemale_insult_adj = INSULT_WANTON\n\tmale_compliment_adj = COMPL_VIVACIOUS\n\tfemale_compliment_adj = COMPL_VIVACIOUS\n}\n\nproud = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\thumble\n\t}\n\n\tmonthly_character_prestige = 0.5\n\n\tai_ambition = 10\n\n\tmale_compliment_adj = COMPL_PROUD\n\tfemale_compliment_adj = COMPL_PROUD\n}\n\nslothful = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\tdiligent\n\t}\n\n\tmartial = -1\n\tintrigue = -1\n\tdiplomacy = -1\n\tstewardship = -1\n\tlearning = -1\n\tcombat_rating = -5 # new value!\n\n\tvassal_opinion = -5\n\n\tai_ambition = -10\n\tai_greed = 10\n\tai_zeal = -10\n\n\tmale_insult = INSULT_IDLER\n\tfemale_insult = INSULT_IDLER\n\tmale_insult_adj = INSULT_INDOLENT\n\tfemale_insult_adj = INSULT_INDOLENT\n\tchild_insult_adj = INSULT_LAZY\n}\n\nwroth = {\n\tpersonality = yes\n\tvice = yes\n\n\topposites = {\n\t\tpatient\n\t}\n\n\tmartial = 3\n\tintrigue = -1\n\tdiplomacy = -1\n\tcombat_rating = 3 # new value!\n\n\tai_rationality = -10\n\tai_honor = -5\n\n\tmale_insult_adj = INSULT_RAGING\n\tfemale_insult = INSULT_HARRIDAN\n\tchild_insult = INSULT_MEANIE\n}\n\n# THE SEVEN VIRTUES\ncharitable = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tgreedy\n\t}\n\n\tdiplomacy = 3\n\tcombat_rating = -3 # new value!\n\n\tchurch_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_honor = 10\n\tai_ambition = -15\n\tai_greed = -100\n\tai_zeal = 10\n\n\tmale_compliment_adj = COMPL_GOOD\n\tfemale_compliment_adj = COMPL_GOOD\n}\n\nchaste = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tlustful\n\t}\n\n\tpotential = {\n\t\tNOT = { religion_group = muslim }\n\t}\n\n\tmonthly_character_piety = 0.5\n\n\tlearning = 1\n\n\tfertility = -0.15\n\n\tchristian_church_opinion = 5\n\topposite_opinion = -5\n\n\tai_zeal = 10\n\n\tmale_compliment_adj = COMPL_CHASTE\n\tfemale_compliment_adj = COMPL_CHASTE\n\tchild_compliment_adj = COMPL_NICE\n\tmale_insult = INSULT_PRUDE\n\tfemale_insult = INSULT_PRUNE\n\tchild_insult = INSULT_PIGFACE\n\tmale_insult_adj = INSULT_PRUDISH\n\tfemale_insult_adj = INSULT_PRUDISH\n\tchild_insult_adj = INSULT_STUPID\n}\n\ndiligent = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tslothful\n\t}\n\n\tmartial = 1\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\n\tvassal_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_greed = -10\n\tai_zeal = 10\n\n\tmale_compliment_adj = COMPL_DILIGENT\n\tfemale_compliment_adj = COMPL_DILIGENT\n}\n\nhumble = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tproud\n\t}\n\n\tmonthly_character_piety = 1\n\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_ambition = -10\n\n\tmale_compliment_adj = COMPL_HUMBLE\n\tfemale_compliment_adj = COMPL_HUMBLE\n\tmale_insult_adj = INSULT_GROVELING\n\tfemale_insult_adj = INSULT_GROVELING\n\tchild_insult_adj = INSULT_STUPID\n}\n\nkind = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tenvious\n\t\tcruel\n\t}\n\n\tintrigue = -2\n\tdiplomacy = 2\n\tcombat_rating = -5 # new value!\n\n\tvassal_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_honor = 10\n\n\tmale_insult_adj = INSULT_SOFT\n\tmale_compliment_adj = COMPL_KINDLY\n\tfemale_compliment_adj = COMPL_KINDHEARTED\n}\n\npatient = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\twroth\n\t}\n\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tcombat_rating = 5 # new value!\n\n\topposite_opinion = -5\n\n\tai_rationality = 10\n\n\tcommand_modifier = {\n\t\tdefence = 0.2\n\t}\n\n\tmale_insult = INSULT_SPIDER\n\tfemale_insult = INSULT_SPIDER\n\tchild_insult = INSULT_DONKEY\n}\n\ntemperate = {\n\tpersonality = yes\n\tvirtue = yes\n\n\topposites = {\n\t\tgluttonous\n\t}\n\n\tstewardship = 2\n\n\tchurch_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_greed = -20\n\tai_zeal = 10\n\n\tmale_insult = INSULT_BORE\n\tfemale_insult = INSULT_BORE\n\tmale_compliment_adj = COMPL_LEVELHEADED\n\tfemale_compliment_adj = COMPL_PLEASANT\n\tchild_compliment_adj = COMPL_NICE\n}\n\n# OTHER\nambitious = {\n\tpersonality = yes\n\n\topposites = {\n\t\tcontent\n\t}\n\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3 # new value!\n\n\tsame_opinion = -5\n\tambition_opinion = -25 # Against those they want something from\n\n\tai_ambition = 40\n\tai_zeal = 10\n\n\tmale_insult_adj = INSULT_RAPACIOUS\n\tfemale_insult_adj = INSULT_GRASPING\n\tchild_insult_adj = INSULT_WICKED\n}\n\narbitrary = {\n\tpersonality = yes\n\n\topposites = {\n\t\tjust\n\t}\n\n\tintrigue = 1\n\tstewardship = -2\n\tlearning = -1\n\n\tvassal_opinion = -5\n\n\tai_rationality = -20\n\tai_honor = -10\n\tai_zeal = -10\n\n\tmale_insult = INSULT_SCATTERBRAIN\n\tfemale_insult = INSULT_SCATTERBRAIN\n\tchild_insult_adj = INSULT_IDIOT\n\tmale_insult_adj = INSULT_ERRATIC\n\tfemale_insult_adj = INSULT_ERRATIC\n\tmale_compliment = COMPL_ROGUE\n\tmale_compliment_adj = COMPL_RAFFISH\n\tfemale_compliment = COMPL_DEVIL\n\tfemale_compliment_adj = COMPL_IMPISH\n\tchild_compliment = COMPL_SMARTY\n\tchild_compliment_adj = COMPL_CLEVER\n}\n\nbrave = {\n\tpersonality = yes\n\n\topposites = {\n\t\tcraven\n\t}\n\n\tcommand_modifier = {\n\t\tmorale_defence = 0.1\n\t}\n\n\tmartial = 2\n\tcombat_rating = 10 # old value: 1\n\n\tvassal_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tmale_compliment_adj = COMPL_BRAVE\n\tfemale_compliment_adj = COMPL_BRAVE\n}\n\ncontent = {\n\tpersonality = yes\n\n\topposites = {\n\t\tambitious\n\t}\n\n\tmonthly_character_piety = 0.5\n\n\tintrigue = -1\n\n\tliege_opinion = 25\n\n\tai_ambition = -40\n\tai_zeal = -10\n\n\tmale_insult_adj = INSULT_SPINELESS\n\tfemale_insult_adj = INSULT_SPINELESS\n}\n\ncraven = {\n\tpersonality = yes\n\n\topposites = {\n\t\tbrave\n\t}\n\n\tcommand_modifier = {\n\t\tmorale_defence = -0.2\n\t}\n\n\tmartial = -2\n\tcombat_rating = -10 # old value: -1\n\n\tvassal_opinion = -5\n\n\tmale_insult = INSULT_COWARD\n\tmale_insult_adj = INSULT_CRAVEN\n\tfemale_insult_adj = INSULT_WUSSY\n\tchild_insult_adj = INSULT_WUSSY\n}\n\ncruel = {\n\tpersonality = yes\n\n\topposites = {\n\t\tkind\n\t}\n\n\tcommand_modifier = {\n\t\tmorale_offence = 0.1\n\t}\n\n\tintrigue = 1\n\tdiplomacy = -1\n\tcombat_rating = 3 # new value!\n\n\tvassal_opinion = -5\n\n\tai_honor = -5\n\tai_greed = 5\n\n\tmale_insult = INSULT_BRUTE\n\tfemale_insult = INSULT_FIEND\n\tchild_insult = INSULT_TROLL\n\tmale_insult_adj = INSULT_CRUEL\n\tfemale_insult_adj = INSULT_CALLOUS\n\tchild_insult_adj = INSULT_WICKED\n}\n\ncynical = {\n\tpersonality = yes\n\n\topposites = {\n\t\tzealous\n\t}\n\n\tmonthly_character_piety = -0.2\n\n\tintrigue = 2\n\n\tchurch_opinion = -5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_rationality = 10\n\tai_zeal = -100\n\n\tmale_compliment_adj = COMPL_WRY\n\tfemale_compliment_adj = COMPL_WRY\n\tchild_compliment_adj = COMPL_CLEVER\n\tmale_insult = INSULT_UNBELIEVER\n\tfemale_insult = INSULT_UNBELIEVER\n\tchild_insult = INSULT_DEVIL\n}\n\ndeceitful = {\n\tpersonality = yes\n\n\topposites = {\n\t\thonest\n\t}\n\n\tintrigue = 3\n\tdiplomacy = -2\n\tcombat_rating = 3 # new value!\n\n\topposite_opinion = -5\n\n\tai_honor = -25\n\n\tmale_insult_adj = INSULT_DECEITFUL\n\tfemale_insult_adj = INSULT_DECEITFUL\n\tchild_insult_adj = INSULT_WICKED\n}\n\ndull = {\n\topposites = {\n\t\tshrewd\n\t}\n\n\tmartial = -2\n\tintrigue = -2\n\tdiplomacy = -2\n\tstewardship = -2\n\tlearning = -2\n\tcombat_rating = -3 # new value!\n\n\tai_rationality = -15\n\n\tmale_insult = INSULT_DULLARD\n\tfemale_insult = INSULT_NITWIT\n\tmale_insult_adj = INSULT_DIM\n\tfemale_insult_adj = INSULT_VACUOUS\n\tchild_insult_adj = INSULT_STUPID\n}\n\nerudite = {\n\tpersonality = yes\n\n\tlearning = 2\n\tcombat_rating = -2 # new value!\n\n\tchurch_opinion = 5\n\n\tmale_insult = INSULT_WINDBAG\n\tfemale_insult = INSULT_WINDBAG\n\tchild_insult = INSULT_BORE\n\tmale_insult_adj = INSULT_BLATHERING\n\tfemale_insult_adj = INSULT_BLATHERING\n\tmale_compliment = COMPL_SCHOLAR\n\tfemale_compliment = COMPL_SCHOLAR\n\tmale_compliment_adj = COMPL_WISE\n\tfemale_compliment_adj = COMPL_WISE\n}\n\ngregarious = {\n\tpersonality = yes\n\n\topposites = {\n\t\tshy\n\t}\n\n\tdiplomacy = 2\n\n\tsex_appeal_opinion = 5\n\tvassal_opinion = 5\n\tsame_opinion = 5\n\n\tmale_compliment = COMPL_WIT\n\tmale_compliment_adj = COMPL_AFFABLE\n\tfemale_compliment = COMPL_WIT\n\tfemale_compliment_adj = COMPL_FETCHING\n\tchild_compliment_adj = COMPL_NICE\n}\n\ngroomed = {\n\topposites = {\n\t\tuncouth\n\t}\n\n\tsex_appeal_opinion = 15\n\topposite_opinion = -5\n\n\tfemale_compliment = COMPL_BEAUTY\n\tfemale_compliment_adj = COMPL_FAIR\n\tmale_compliment = COMPL_CHARMER\n\tmale_compliment_adj = COMPL_HANDSOME\n\tchild_compliment_adj = COMPL_PRETTY\n}\n\nhonest = {\n\tpersonality = yes\n\n\topposites = {\n\t\tdeceitful\n\t}\n\n\tintrigue = -2\n\tdiplomacy = 3\n\tcombat_rating = -2 # new value!\n\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_honor = 25\n\n\tmale_compliment_adj = COMPL_SINCERE\n\tfemale_compliment_adj = COMPL_FORTHRIGHT\n\tchild_compliment_adj = COMPL_GOOD\n}\n\njust = {\n\tpersonality = yes\n\n\topposites = {\n\t\tarbitrary\n\t}\n\n\tstewardship = 2\n\tlearning = 1\n\n\tvassal_opinion = 5\n\tsame_opinion = 5\n\topposite_opinion = -5\n\n\tai_rationality = 20\n\tai_honor = 10\n\tai_zeal = 10\n\n\tmale_compliment_adj = COMPL_JUST\n\tfemale_compliment_adj = COMPL_JUST\n\tchild_compliment_adj = COMPL_NICE\n}\n\nparanoid = {\n\tpersonality = yes\n\n\topposites = {\n\t\ttrusting\n\t}\n\n\tintrigue = 2\n\tdiplomacy = -1\n\n\tai_honor = -10\n\n\tmale_insult_adj = INSULT_PARANOID\n\tfemale_insult_adj = INSULT_PARANOID\n\tchild_insult_adj = INSULT_GROUCHY\n}\n\nshrewd = {\n\topposites = {\n\t\tdull\n\t}\n\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3 # new value!\n\n\tai_rationality = 15\n}\n\nshy = {\n\tpersonality = yes\n\n\topposites = {\n\t\tgregarious\n\t}\n\n\tdiplomacy = -2\n\tcombat_rating = -2 # new value!\n\n\tmale_insult_adj = INSULT_TIMID\n\tfemale_insult_adj = INSULT_COY\n\tchild_insult_adj = INSULT_STUPID\n\tfemale_compliment_adj = COMPL_DEMURE\n\tchild_compliment_adj = COMPL_NICE\n}\n\nstubborn = {\n\tpersonality = yes\n\n\tdiplomacy = -1\n\tstewardship = 1\n\tcombat_rating = 3 # new value!\n\n\tvassal_opinion = -5\n\n\tai_ambition = 10\n\tai_zeal = 10\n\n\tmale_insult = INSULT_MULE\n\tfemale_insult = INSULT_MULE\n\tmale_insult_adj = INSULT_PIGHEADED\n\tfemale_insult_adj = INSULT_PIGHEADED\n}\n\ntrusting = {\n\tpersonality = yes\n\n\topposites = {\n\t\tparanoid\n\t}\n\n\tintrigue = -2\n\tdiplomacy = 1\n\tcombat_rating = -2 # new value!\n\n\tai_honor = 10\n\n\tmale_insult = INSULT_FOOL\n\tfemale_insult = INSULT_FOOL\n\tmale_insult_adj = INSULT_GULLIBLE\n\tfemale_insult_adj = INSULT_GULLIBLE\n\tchild_insult_adj = INSULT_STUPID\n}\n\nuncouth = {\n\topposites = {\n\t\tgroomed\n\t}\n\n\tsex_appeal_opinion = -10\n\topposite_opinion = -5\n\n\tmale_insult = INSULT_FILTHY\n\tfemale_insult = INSULT_HARPY\n\tmale_insult_adj = INSULT_ROUGH\n\tfemale_insult_adj = INSULT_ROUGH\n\tchild_insult_adj = INSULT_UGLY\n}\n\nzealous = {\n\tpersonality = yes\n\n\topposites = {\n\t\tcynical\n\t\tsympathy_christendom\n\t\tsympathy_islam\n\t\tsympathy_pagans\n\t\tsympathy_zoroastrianism\n\t\tsympathy_judaism\n\t\tsympathy_indian\n\t}\n\n\tmonthly_character_piety = 1\n\n\tmartial = 2\n\n\tchurch_opinion = 5\n\tinfidel_opinion = -25\n\topposite_opinion = -5\n\tsame_opinion_if_same_religion = 15\n\n\tai_rationality = -10\n\tai_zeal = 100\n\n\tmale_insult = INSULT_FANATIC\n\tfemale_insult = INSULT_FANATIC\n\tchild_insult = INSULT_BORE\n\tmale_insult_adj = INSULT_NARROWMINDED\n\tfemale_insult_adj = INSULT_NARROWMINDED\n\tchild_insult_adj = INSULT_NASTY\n\tmale_compliment_adj = COMPL_RIGHTEOUS\n\tfemale_compliment_adj = COMPL_RIGHTEOUS\n\tchild_compliment_adj = COMPL_GOOD\n}",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T17:03:08.610807+00:00",
+        "updatedAt": "2025-12-31T17:03:08.610807+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b755d-324e-72c6-8510-b6a2eeccf1fb",
+        "evaluationSessionId": "019b755c-4bf6-7dcf-a84f-bcb489c5f3fa",
+        "evaluationId": "019b755d-020a-7c06-b955-a66f8add5cde",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b755d-324e-77a8-bc8c-ab5af94fed08"
+        ],
+        "content": "envious = {\n\tintrigue = 2\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ngluttonous = {\n\tstewardship = -2\n}\n\ngreedy = {\n\tdiplomacy = -1\n}\n\nlustful = {\n\tintrigue = 1\n\tfertility = 0.2\n}\n\nproud = {\n}\n\nslothful = {\n\tmartial = -1\n\tintrigue = -1\n\tdiplomacy = -1\n\tstewardship = -1\n\tlearning = -1\n\tcombat_rating = -5\n}\n\nwroth = {\n\tmartial = 3\n\tintrigue = -1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncharitable = {\n\tdiplomacy = 3\n\tcombat_rating = -3\n}\n\nchaste = {\n\tlearning = 1\n\tfertility = -0.15\n}\n\ndiligent = {\n\tmartial = 1\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n}\n\nhumble = {\n}\n\nkind = {\n\tintrigue = -2\n\tdiplomacy = 2\n\tcombat_rating = -5\n}\n\npatient = {\n\tintrigue = 1\n\tdiplomacy = 1\n\tstewardship = 1\n\tlearning = 1\n\tcombat_rating = 5\n}\n\ntemperate = {\n\tstewardship = 2\n}\n\nambitious = {\n\tmartial = 2\n\tintrigue = 2\n\tdiplomacy = 2\n\tstewardship = 2\n\tlearning = 2\n\tcombat_rating = 3\n}\n\narbitrary = {\n\tintrigue = 1\n\tstewardship = -2\n\tlearning = -1\n}\n\nbrave = {\n\tmartial = 2\n\tcombat_rating = 10\n}\n\ncontent = {\n\tintrigue = -1\n}\n\ncraven = {\n\tmartial = -2\n\tcombat_rating = -10\n}\n\ncruel = {\n\tintrigue = 1\n\tdiplomacy = -1\n\tcombat_rating = 3\n}\n\ncynical = {\n\tintrigue = 2\n}\n\ndeceitful = {\n\tintrigue = 3\n\tdiplomacy = -2\n\tcombat_rating = 3\n}\n\nerudite = {\n\tlearning = 2\n\tcombat_rating = -2\n}\n\ngregarious = {\n\tdiplomacy = 2\n}\n\nhonest = {\n\tintrigue = -2\n\tdiplomacy = 3\n\tcombat_rating = -2\n}\n\njust = {\n\tstewardship = 2\n\tlearning = 1\n}\n\nparanoid = {\n\tintrigue = 2\n\tdiplomacy = -1\n}\n\nshy = {\n\tdiplomacy = -2\n\tcombat_rating = -2\n}\n\nstubborn = {\n\tdiplomacy = -1\n\tstewardship = 1\n\tcombat_rating = 3\n}\n\ntrusting = {\n\tintrigue = -2\n\tdiplomacy = 1\n\tcombat_rating = -2\n}\n\nzealous = {\n\tmartial = 2\n}",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T17:03:08.614988+00:00",
+        "updatedAt": "2025-12-31T17:03:41.028154+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7560-faba-75d3-967e-40ab1e73333b",
+        "evaluationSessionId": "019b755c-4bf6-7dcf-a84f-bcb489c5f3fa",
+        "evaluationId": "019b755d-020a-7c06-b955-a66f8add5cde",
+        "role": "user",
+        "parentMessageIds": [
+          "019b755d-324e-72c6-8510-b6a2eeccf1fb"
+        ],
+        "content": "choose 5 best for councillors in ck2 (chancellor, marshal, steward, spymaster, chaplain-court physician)",
+        "experimental_attachments": [],
+        "modelId": null,
+        "createdAt": "2025-12-31T17:07:15.401034+00:00",
+        "updatedAt": "2025-12-31T17:07:15.401034+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {}
+      },
+      {
+        "id": "019b7560-fabf-7e85-845d-80d305f4e70b",
+        "evaluationSessionId": "019b755c-4bf6-7dcf-a84f-bcb489c5f3fa",
+        "evaluationId": "019b755d-020a-7c06-b955-a66f8add5cde",
+        "role": "assistant",
+        "parentMessageIds": [
+          "019b7560-faba-75d3-967e-40ab1e73333b"
+        ],
+        "content": "Based on the attribute modifiers from the list above, here are the 5 best **Personality Traits** for each council position in Crusader Kings 2.\n\n### 👑 Chancellor (Diplomacy)\n*Focus: High Diplomacy to improve relations and fabricate claims.*\n\n1.  **Charitable** (`Diplomacy +3`)\n    *   The best raw stat booster for diplomacy.\n2.  **Honest** (`Diplomacy +3`)\n    *   Excellent for stats, though the drop in Intrigue makes them vulnerable to plots.\n3.  **Gregarious** (`Diplomacy +2`)\n    *   Great stat boost and usually includes a bonus to general opinion (Sex Appeal).\n4.  **Kind** (`Diplomacy +2`)\n    *   Good stats and makes the councilor generally liked by vassals.\n5.  **Ambitious** (`Diplomacy +2`)\n    *   High stats, **but use with caution**: Ambitious vassals desire your titles and may dislike you.\n\n### ⚔️ Marshal (Martial)\n*Focus: High Martial for training troops and Combat Rating for leading armies.*\n\n1.  **Wroth** (`Martial +3`, `Combat Rating +3`)\n    *   The highest raw Martial bonus available among personality traits.\n2.  **Brave** (`Martial +2`, `Combat Rating +10`)\n    *   The best trait for a commander due to the massive Combat Rating bonus and Morale Defence.\n3.  **Zealous** (`Martial +2`)\n    *   Solid stat boost, especially effective against religious enemies.\n4.  **Ambitious** (`Martial +2`, `Combat Rating +3`)\n    *   Great stats, though dangerous if the Marshal is a powerful vassal.\n5.  **Diligent** (`Martial +1`)\n    *   A solid all-around booster that improves success chances for council jobs.\n\n### 💰 Steward (Stewardship)\n*Focus: High Stewardship for tax collection and demesne size.*\n\n1.  **Temperate** (`Stewardship +2`)\n    *   Excellent stat boost and usually adds a health bonus (good for long service).\n2.  **Just** (`Stewardship +2`)\n    *   High stats and improves vassal opinions.\n3.  **Ambitious** (`Stewardship +2`)\n    *   Provides the necessary stats to squeeze money out of the realm.\n4.  **Diligent** (`Stewardship +1`)\n    *   Increases the speed/success rate of standard stewardship tasks (Construction/Tax).\n5.  **Patient** (`Stewardship +1`)\n    *   Solid stat boost and reduces the chance of negative events firing during tax collection.\n\n### 🕵️ Spymaster (Intrigue)\n*Focus: High Intrigue to scheme and detect plots.*\n***Warning:** Loyalty is more important than stats here. A high-intrigue Ambitious/Envious spymaster will likely kill you.*\n\n1.  **Deceitful** (`Intrigue +3`)\n    *   The highest raw stat boost for plotting.\n2.  **Cynical** (`Intrigue +2`)\n    *   Good stats without the innate hatred that comes with Envious.\n3.  **Paranoid** (`Intrigue +2`)\n    *   Great for discovering plots against the liege, though it lowers Diplomacy.\n4.  **Envious** (`Intrigue +2`)\n    *   Good stats, but **extremely dangerous** to hire; they often hate the Liege.\n5.  **Ambitious** (`Intrigue +2`)\n    *   Good stats, but **suicidal** to hire; they will use their power to take your throne.\n    *   *Safe Alternative:* **Lustful** (`Intrigue +1`) or **Diligent** (`Intrigue +1`).\n\n### ☤ Court Chaplain / Physician (Learning)\n*Focus: High Learning for research, conversion, and medical treatments.*\n\n1.  **Erudite** (`Learning +2`)\n    *   The premier trait for pure learning capabilities.\n2.  **Ambitious** (`Learning +2`)\n    *   Good for technology spread, though they may resent being a low-tier councilor.\n3.  **Chaste** (`Learning +1`)\n    *   Solid stat boost (also grants Piety).\n4.  **Diligent** (`Learning +1`)\n    *   Crucial for Physicians; significantly increases the chance of \"Successful Treatment.\"\n5.  **Just** / **Patient** (`Learning +1`)\n    *   Both provide a nice boost to Learning and make for stable, low-drama court members.",
+        "experimental_attachments": [],
+        "modelId": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "createdAt": "2025-12-31T17:07:15.404201+00:00",
+        "updatedAt": "2025-12-31T17:10:25.144882+00:00",
+        "participantPosition": "a",
+        "status": "success",
+        "failureReason": null,
+        "activeWorkflowRunId": null,
+        "metadata": {
+          "nRetries": 1
+        }
+      }
+    ],
+    "maskedEvaluations": [
+      {
+        "id": "019b755d-020a-7c06-b955-a66f8add5cde",
+        "modality": "chat",
+        "arenaId": "4c249f58-2f34-4859-bbdb-4233a8313340",
+        "metadata": null
+      }
+    ],
+    "pairwiseFeedbacks": [],
+    "pointwiseFeedbacks": [],
+    "revealedModels": [
+      {
+        "id": "019a98f7-afcd-779f-8dcb-856cc3b3f078",
+        "organization": "google",
+        "provider": "googleVertexGlobal",
+        "publicName": "gemini-3-pro",
+        "name": "gemini-3-pro",
+        "displayName": "gemini-3-pro",
+        "capabilities": {
+          "inputCapabilities": {
+            "text": true,
+            "image": true,
+            "file": true
+          },
+          "outputCapabilities": {
+            "text": true,
+            "web": true
+          }
+        },
+        "userSelectable": false
+      }
+    ]
+  }
+}

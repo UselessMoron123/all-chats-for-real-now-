@@ -1,0 +1,801 @@
+============================================================
+arena.ai chat export
+============================================================
+Title    : copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything
+Mode     : direct
+Started  : 2026-02-21 15:50:28
+Updated  : 2026-02-21 15:50:28
+Archived : 2026-09-30 23:27:19
+Messages : 2
+URL      : https://arena.ai/c/019c8040-2695-7172-84cd-1bb9ac3b77b5
+Attachments: files are not downloaded; included links may expire or require an active Arena session.
+
+------------------------------------------------------------
+Message  : 1
+Speaker  : User
+Time     : 2026-02-21 15:50:28
+------------------------------------------------------------
+copy chars with id ending with 00 and 01 in two separate lists. third list should contain everything else
+901500 = {
+	name = "Gopala_0"
+	dynasty = 1043000
+	religion = buddhist
+	culture = bengali
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+901501 = {
+	name = "Gopala_1"
+	dynasty = 1043000
+	religion = buddhist
+	culture = bengali
+	father = 901500
+	trait = kshatriya
+	trait = mahayana_buddhist
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = pala
+		}
+		add_spouse = 922201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903400 = {
+	name = "Iracentira_0"
+	dynasty = 1043008
+	religion = hindu
+	culture = tamil
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903401 = {
+	name = "Iracentira_1"
+	dynasty = 1043008
+	religion = hindu
+	culture = tamil
+	father = 903400
+	trait = kshatriya
+	trait = shaivist_hindu
+	give_nickname = nick_the_great
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = chola
+		}
+		add_spouse = 922501
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906100 = {
+	name = "Tughluq_0"
+	dynasty = 1040208
+	religion = sunni
+	culture = turkish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906101 = {
+	name = "Tughluq_1"
+	dynasty = 1040208
+	religion = sunni
+	culture = turkish
+	father = 906100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = tughluq
+		}
+		add_spouse = 922301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915600 = {
+	name = "MChakravartin_0"
+	dynasty = 915600
+	religion = buddhist
+	culture = rajput
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915601 = {
+	name = "MChakravartin_1"
+	dynasty = 915600
+	religion = buddhist
+	culture = rajput
+	father = 915600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = samrat_chakravartin_bloodline
+		}
+		add_spouse = 915701
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915700 = {
+	name = "FChakravartin_0"
+	female = yes
+	dynasty = 915700
+	religion = buddhist
+	culture = kannada
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915701 = {
+	name = "FChakravartin_1"
+	female = yes
+	dynasty = 915700
+	religion = buddhist
+	culture = kannada
+	mother = 915700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = samrat_chakravartin_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915702 = {
+	name = "FChakravartin_2"
+	dynasty = 915700
+	religion = buddhist
+	culture = kannada
+	father = 915601
+	mother = 915701
+	2.1.1 = {
+		birth = yes
+		add_spouse = 922502
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922200 = {
+	name = "PisInd_0"
+	female = yes
+	dynasty = 922200
+	religion = hindu
+	culture = nepali
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922201 = {
+	name = "PisInd_1"
+	female = yes
+	dynasty = 922200
+	religion = hindu
+	culture = nepali
+	mother = 922200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_religion_peaceful_bloodline_06
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922202 = {
+	name = "PisInd_2"
+	female = yes
+	dynasty = 922200
+	religion = hindu
+	culture = nepali
+	father = 901501
+	mother = 922201
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922203 = {
+	name = "PisInd_3"
+	dynasty = 922200
+	religion = hindu
+	culture = nepali
+	father = 922302
+	mother = 922202
+	3.1.1 = {
+		birth = yes
+		add_spouse = 922503
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922300 = {
+	name = "AgroInd_0"
+	female = yes
+	dynasty = 922300
+	religion = hindu
+	culture = bengali
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922301 = {
+	name = "AgroInd_1"
+	female = yes
+	dynasty = 922300
+	religion = hindu
+	culture = bengali
+	mother = 922300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_religion_aggressive_bloodline_06
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922302 = {
+	name = "AgroInd_2"
+	dynasty = 922300
+	religion = hindu
+	culture = bengali
+	father = 906101
+	mother = 922301
+	2.1.1 = {
+		birth = yes
+		add_spouse = 922202
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922500 = {
+	name = "Ashoka_0"
+	female = yes
+	dynasty = 922500
+	religion = buddhist
+	culture = kannada
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922501 = {
+	name = "Ashoka_1"
+	female = yes
+	dynasty = 922500
+	religion = buddhist
+	culture = kannada
+	mother = 922500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = ashoka_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922502 = {
+	name = "Ashoka_2"
+	female = yes
+	dynasty = 922500
+	religion = buddhist
+	culture = kannada
+	father = 903401
+	mother = 922501
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922503 = {
+	name = "Ashoka_3"
+	female = yes
+	dynasty = 922500
+	religion = buddhist
+	culture = kannada
+	father = 915702
+	mother = 922502
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922504 = {
+	name = "Ashoka_4"
+	female = yes
+	dynasty = 922500
+	religion = buddhist
+	culture = kannada
+	father = 922203
+	mother = 922503
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922505 = {
+	name = "Ashoka_5"
+	dynasty = 922500
+	religion = buddhist
+	culture = kannada
+	father = 909204
+	mother = 922504
+	5.1.1 = {
+		birth = yes
+		add_spouse = 922405
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+------------------------------------------------------------
+Message  : 2
+Speaker  : AI A
+Time     : 2026-02-21 15:50:28
+------------------------------------------------------------
+### List 1: IDs ending with 00
+```text
+901500 = {
+	name = "Gopala_0"
+	dynasty = 1043000
+	religion = buddhist
+	culture = bengali
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903400 = {
+	name = "Iracentira_0"
+	dynasty = 1043008
+	religion = hindu
+	culture = tamil
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906100 = {
+	name = "Tughluq_0"
+	dynasty = 1040208
+	religion = sunni
+	culture = turkish
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915600 = {
+	name = "MChakravartin_0"
+	dynasty = 915600
+	religion = buddhist
+	culture = rajput
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915700 = {
+	name = "FChakravartin_0"
+	female = yes
+	dynasty = 915700
+	religion = buddhist
+	culture = kannada
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922200 = {
+	name = "PisInd_0"
+	female = yes
+	dynasty = 922200
+	religion = hindu
+	culture = nepali
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922300 = {
+	name = "AgroInd_0"
+	female = yes
+	dynasty = 922300
+	religion = hindu
+	culture = bengali
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922500 = {
+	name = "Ashoka_0"
+	female = yes
+	dynasty = 922500
+	religion = buddhist
+	culture = kannada
+	1.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 2: IDs ending with 01
+```text
+901501 = {
+	name = "Gopala_1"
+	dynasty = 1043000
+	religion = buddhist
+	culture = bengali
+	father = 901500
+	trait = kshatriya
+	trait = mahayana_buddhist
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = pala
+		}
+		add_spouse = 922201
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+903401 = {
+	name = "Iracentira_1"
+	dynasty = 1043008
+	religion = hindu
+	culture = tamil
+	father = 903400
+	trait = kshatriya
+	trait = shaivist_hindu
+	give_nickname = nick_the_great
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = chola
+		}
+		add_spouse = 922501
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+906101 = {
+	name = "Tughluq_1"
+	dynasty = 1040208
+	religion = sunni
+	culture = turkish
+	father = 906100
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = tughluq
+		}
+		add_spouse = 922301
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915601 = {
+	name = "MChakravartin_1"
+	dynasty = 915600
+	religion = buddhist
+	culture = rajput
+	father = 915600
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = samrat_chakravartin_bloodline
+		}
+		add_spouse = 915701
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+915701 = {
+	name = "FChakravartin_1"
+	female = yes
+	dynasty = 915700
+	religion = buddhist
+	culture = kannada
+	mother = 915700
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = samrat_chakravartin_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922201 = {
+	name = "PisInd_1"
+	female = yes
+	dynasty = 922200
+	religion = hindu
+	culture = nepali
+	mother = 922200
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_religion_peaceful_bloodline_06
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922301 = {
+	name = "AgroInd_1"
+	female = yes
+	dynasty = 922300
+	religion = hindu
+	culture = bengali
+	mother = 922300
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = event_religion_aggressive_bloodline_06
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922501 = {
+	name = "Ashoka_1"
+	female = yes
+	dynasty = 922500
+	religion = buddhist
+	culture = kannada
+	mother = 922500
+	1.5.1 = {
+		birth = yes
+		create_bloodline = {
+			type = ashoka_bloodline
+		}
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
+
+### List 3: Everything Else
+```text
+915702 = {
+	name = "FChakravartin_2"
+	dynasty = 915700
+	religion = buddhist
+	culture = kannada
+	father = 915601
+	mother = 915701
+	2.1.1 = {
+		birth = yes
+		add_spouse = 922502
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922202 = {
+	name = "PisInd_2"
+	female = yes
+	dynasty = 922200
+	religion = hindu
+	culture = nepali
+	father = 901501
+	mother = 922201
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922203 = {
+	name = "PisInd_3"
+	dynasty = 922200
+	religion = hindu
+	culture = nepali
+	father = 922302
+	mother = 922202
+	3.1.1 = {
+		birth = yes
+		add_spouse = 922503
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922302 = {
+	name = "AgroInd_2"
+	dynasty = 922300
+	religion = hindu
+	culture = bengali
+	father = 906101
+	mother = 922301
+	2.1.1 = {
+		birth = yes
+		add_spouse = 922202
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922502 = {
+	name = "Ashoka_2"
+	female = yes
+	dynasty = 922500
+	religion = buddhist
+	culture = kannada
+	father = 903401
+	mother = 922501
+	2.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922503 = {
+	name = "Ashoka_3"
+	female = yes
+	dynasty = 922500
+	religion = buddhist
+	culture = kannada
+	father = 915702
+	mother = 922502
+	3.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922504 = {
+	name = "Ashoka_4"
+	female = yes
+	dynasty = 922500
+	religion = buddhist
+	culture = kannada
+	father = 922203
+	mother = 922503
+	4.1.1 = {
+		birth = yes
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+
+922505 = {
+	name = "Ashoka_5"
+	dynasty = 922500
+	religion = buddhist
+	culture = kannada
+	father = 909204
+	mother = 922504
+	5.1.1 = {
+		birth = yes
+		add_spouse = 922405
+	}
+	1336.12.31 = {
+		death = yes
+	}
+}
+```
